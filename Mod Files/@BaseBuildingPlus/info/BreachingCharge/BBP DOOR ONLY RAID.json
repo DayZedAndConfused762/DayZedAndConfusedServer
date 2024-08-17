@@ -1,0 +1,288 @@
+{
+  "CreateLogs": 1,
+  "Charges": [
+    {
+      "Classname": "HDSN_BreachingCharge",
+      "DamageToObjects": 1,
+      "DamageToDestroyableObjectsRadius": 0,
+      "VerticalDistanceModeObjects": 0,
+      "MaxVerticalDistanceObjects": 0,
+      "MaxDamageToPlayers": 100,
+      "MinDamageToPlayers": 50,
+      "DamageToPlayersRadius": 5,
+      "MaxDamageToPlayersRadius": 2,
+      "MaxVerticalDistancePlayers": 0,
+      "OnlyDestroyLocks": 0,
+      "DeleteObjectsDirectly": 0,
+      "DestroyLocksFirst": 0,
+      "PlacementDistance": 2,
+      "MinPlacementDistance": 0,
+      "ToolDamageOnDefuse": 10,
+      "DestroyOtherCharges": 0,
+      "TimeToPlant": 30,
+      "TimeToExplode": 180,
+      "TimeToDefuse": 20,
+      "LightBrightness": 0.5,
+      "LightRadius": 10,
+      "LightColorStart": [
+        0,
+        1,
+        0
+      ],
+      "LightColorHalfway": [
+        1,
+        1,
+        0
+      ],
+      "LightColorEnd": [
+        1,
+        0,
+        0
+      ],
+      "BeepingSoundSet": "HDSN_SoundSet_Beeping",
+      "BeepingSoundEndTime": 2,
+      "SwitchInterval": 2,
+      "ExplosionSoundSet": "Landmine_Explosion_SoundSet",
+      "DefuseTools": [
+        "Unarmed"
+      ]
+    },
+    {
+      "Classname": "HDSN_BreachingChargeHeavy",
+      "DamageToObjects": 2,
+      "DamageToDestroyableObjectsRadius": 0,
+      "VerticalDistanceModeObjects": 0,
+      "MaxVerticalDistanceObjects": 0,
+      "MaxDamageToPlayers": 100,
+      "MinDamageToPlayers": 50,
+      "DamageToPlayersRadius": 5,
+      "MaxDamageToPlayersRadius": 2,
+      "MaxVerticalDistancePlayers": 0,
+      "OnlyDestroyLocks": 0,
+      "DeleteObjectsDirectly": 0,
+      "DestroyLocksFirst": 0,
+      "PlacementDistance": 2,
+      "MinPlacementDistance": 0,
+      "ToolDamageOnDefuse": 10,
+      "DestroyOtherCharges": 0,
+      "TimeToPlant": 30,
+      "TimeToExplode": 180,
+      "TimeToDefuse": 20,
+      "LightBrightness": 0.5,
+      "LightRadius": 10,
+      "LightColorStart": [
+        0,
+        1,
+        0
+      ],
+      "LightColorHalfway": [
+        1,
+        1,
+        0
+      ],
+      "LightColorEnd": [
+        1,
+        0,
+        0
+      ],
+      "BeepingSoundSet": "HDSN_SoundSet_Beeping",
+      "BeepingSoundEndTime": 2,
+      "SwitchInterval": 2,
+      "ExplosionSoundSet": "Landmine_Explosion_SoundSet",
+      "DefuseTools": [
+        "Unarmed"
+      ]
+    }
+  ],
+  "Tiers": [
+    {
+      "Name": "Tier1",
+      "Health": 1,
+      "AcceptedChargeTypes": [
+        "HDSN_BreachingCharge",
+        "HDSN_BreachingChargeHeavy"
+      ]
+    },
+    {
+      "Name": "Tier2",
+      "Health": 2,
+      "AcceptedChargeTypes": [
+        "HDSN_BreachingCharge",
+        "HDSN_BreachingChargeHeavy"
+      ]
+    },
+    {
+      "Name": "Tier3",
+      "Health": 4,
+      "AcceptedChargeTypes": [
+        "HDSN_BreachingCharge",
+        "HDSN_BreachingChargeHeavy"
+      ]
+    },
+    {
+      "Name": "Tier4",
+      "Health": 8,
+      "AcceptedChargeTypes": [
+        "HDSN_BreachingChargeHeavy"
+      ]
+    },
+    {
+      "Name": "Tier5",
+      "Health": 10,
+      "AcceptedChargeTypes": [
+        "HDSN_BreachingChargeHeavy"
+      ]
+    },
+    {
+      "Name": "Tier6",
+      "Health": 12,
+      "AcceptedChargeTypes": [
+        "HDSN_BreachingChargeHeavy"
+      ]
+    },
+    {
+      "Name": "Tier7",
+      "Health": 14,
+      "AcceptedChargeTypes": [
+        "HDSN_BreachingChargeHeavy"
+      ]
+    }
+  ],
+  "DestroyableObjects": {
+    "Fence_Frame": "Tier1",
+    "Fence": "Tier1",
+    "Fence_HalfMetal": "Tier1",
+    "Fence_Metal": "Tier2",
+    "Fence_Gate": "Tier1",
+    "Fence_Gate_HalfMetal": "Tier1",
+    "Fence_Gate_Metal": "Tier2",
+    "BBP_BDoor_Frame": "Tier1",
+    "BBP_BDoor_Frame_Door_T1": "Tier1",
+    "BBP_BDoor_Frame_Door_T2": "Tier1",
+    "BBP_BDoor_Frame_Door_T3": "Tier2",
+    "BBP_BDoor_T1": "Tier1",
+    "BBP_BDoor_T1_Door_T1": "Tier1",
+    "BBP_BDoor_T1_Door_T2": "Tier1",
+    "BBP_BDoor_T1_Door_T3": "Tier2",
+    "BBP_BDoor_T2": "Tier2",
+    "BBP_BDoor_T2_Door_T1": "Tier2",
+    "BBP_BDoor_T2_Door_T2": "Tier2",
+    "BBP_BDoor_T2_Door_T3": "Tier3",
+    "BBP_BDoor_T3": "Tier3",
+    "BBP_BDoor_T3_Door_T1": "Tier3",
+    "BBP_BDoor_T3_Door_T2": "Tier3",
+    "BBP_BDoor_T3_Door_T3": "Tier4",
+    "BBP_SDoor_Frame": "Tier1",
+    "BBP_SDoor_Frame_Door_T1": "Tier1",
+    "BBP_SDoor_Frame_Door_T2": "Tier1",
+    "BBP_SDoor_Frame_Door_T3": "Tier2",
+    "BBP_SDoor_T1": "Tier1",
+    "BBP_SDoor_T1_Door_T1": "Tier1",
+    "BBP_SDoor_T1_Door_T2": "Tier1",
+    "BBP_SDoor_T1_Door_T3": "Tier2",
+    "BBP_SDoor_T2": "Tier2",
+    "BBP_SDoor_T2_Door_T1": "Tier2",
+    "BBP_SDoor_T2_Door_T2": "Tier2",
+    "BBP_SDoor_T2_Door_T3": "Tier3",
+    "BBP_SDoor_T3": "Tier3",
+    "BBP_SDoor_T3_Door_T1": "Tier3",
+    "BBP_SDoor_T3_Door_T2": "Tier3",
+    "BBP_SDoor_T3_Door_T3": "Tier4",
+    "BBP_Roof_Hatch_Frame": "Tier1",
+    "BBP_Roof_Hatch_Frame_Door_T1": "Tier1",
+    "BBP_Roof_Hatch_Frame_Door_T2": "Tier1",
+    "BBP_Roof_Hatch_Frame_Door_T3": "Tier2",
+    "BBP_Roof_Hatch_Frame_Stairs": "Tier1",
+    "BBP_Roof_Hatch_Frame_Door_T1_Stairs": "Tier1",
+    "BBP_Roof_Hatch_Frame_Door_T2_Stairs": "Tier1",
+    "BBP_Roof_Hatch_Frame_Door_T3_Stairs": "Tier2",
+    "BBP_Roof_Hatch_T1": "Tier1",
+    "BBP_Roof_Hatch_T1_Door_T1": "Tier1",
+    "BBP_Roof_Hatch_T1_Door_T2": "Tier1",
+    "BBP_Roof_Hatch_T1_Door_T3": "Tier2",
+    "BBP_Roof_Hatch_T1_Stairs": "Tier1",
+    "BBP_Roof_Hatch_T1_Door_T1_Stairs": "Tier1",
+    "BBP_Roof_Hatch_T1_Door_T2_Stairs": "Tier1",
+    "BBP_Roof_Hatch_T1_Door_T3_Stairs": "Tier2",
+    "BBP_Roof_Hatch_T2": "Tier2",
+    "BBP_Roof_Hatch_T2_Door_T1": "Tier2",
+    "BBP_Roof_Hatch_T2_Door_T2": "Tier2",
+    "BBP_Roof_Hatch_T2_Door_T3": "Tier3",
+    "BBP_Roof_Hatch_T2_Stairs": "Tier2",
+    "BBP_Roof_Hatch_T2_Door_T1_Stairs": "Tier2",
+    "BBP_Roof_Hatch_T2_Door_T2_Stairs": "Tier2",
+    "BBP_Roof_Hatch_T2_Door_T3_Stairs": "Tier3",
+    "BBP_Roof_Hatch_T3": "Tier3",
+    "BBP_Roof_Hatch_T3_Door_T1": "Tier3",
+    "BBP_Roof_Hatch_T3_Door_T2": "Tier3",
+    "BBP_Roof_Hatch_T3_Door_T3": "Tier4",
+    "BBP_Roof_Hatch_T3_Stairs": "Tier3",
+    "BBP_Roof_Hatch_T3_Door_T1_Stairs": "Tier3",
+    "BBP_Roof_Hatch_T3_Door_T2_Stairs": "Tier3",
+    "BBP_Roof_Hatch_T3_Door_T3_Stairs": "Tier4",
+    "BBP_Floor_Hatch_Frame": "Tier1",
+    "BBP_Floor_Hatch_Frame_Door_T1": "Tier1",
+    "BBP_Floor_Hatch_Frame_Door_T2": "Tier1",
+    "BBP_Floor_Hatch_Frame_Door_T3": "Tier2",
+    "BBP_Floor_Hatch_Frame_Stairs": "Tier1",
+    "BBP_Floor_Hatch_Frame_Door_T1_Stairs": "Tier1",
+    "BBP_Floor_Hatch_Frame_Door_T2_Stairs": "Tier1",
+    "BBP_Floor_Hatch_Frame_Door_T3_Stairs": "Tier2",
+    "BBP_Floor_Hatch_T1": "Tier1",
+    "BBP_Floor_Hatch_T1_Door_T1": "Tier1",
+    "BBP_Floor_Hatch_T1_Door_T2": "Tier1",
+    "BBP_Floor_Hatch_T1_Door_T3": "Tier2",
+    "BBP_Floor_Hatch_T1_Stairs": "Tier1",
+    "BBP_Floor_Hatch_T1_Door_T1_Stairs": "Tier1",
+    "BBP_Floor_Hatch_T1_Door_T2_Stairs": "Tier1",
+    "BBP_Floor_Hatch_T1_Door_T3_Stairs": "Tier2",
+    "BBP_Floor_Hatch_T2": "Tier2",
+    "BBP_Floor_Hatch_T2_Door_T1": "Tier2",
+    "BBP_Floor_Hatch_T2_Door_T2": "Tier2",
+    "BBP_Floor_Hatch_T2_Door_T3": "Tier3",
+    "BBP_Floor_Hatch_T2_Stairs": "Tier2",
+    "BBP_Floor_Hatch_T2_Door_T1_Stairs": "Tier2",
+    "BBP_Floor_Hatch_T2_Door_T2_Stairs": "Tier2",
+    "BBP_Floor_Hatch_T2_Door_T3_Stairs": "Tier3",
+    "BBP_Floor_Hatch_T3": "Tier3",
+    "BBP_Floor_Hatch_T3_Door_T1": "Tier3",
+    "BBP_Floor_Hatch_T3_Door_T2": "Tier3",
+    "BBP_Floor_Hatch_T3_Door_T3": "Tier4",
+    "BBP_Floor_Hatch_T3_Stairs": "Tier3",
+    "BBP_Floor_Hatch_T3_Door_T1_Stairs": "Tier3",
+    "BBP_Floor_Hatch_T3_Door_T2_Stairs": "Tier3",
+    "BBP_Floor_Hatch_T3_Door_T3_Stairs": "Tier4",
+    "BBP_LGate_Frame": "Tier1",
+    "BBP_LGate_T1": "Tier1",
+    "BBP_LGate_T2": "Tier2",
+    "BBP_LGate_T3": "Tier3",
+    "BBP_RGate_Frame": "Tier1",
+    "BBP_RGate_T1": "Tier1",
+    "BBP_RGate_T2": "Tier2",
+    "BBP_RGate_T3": "Tier3",
+    "BBP_SGate_Frame": "Tier1",
+    "BBP_SGate_T1": "Tier1",
+    "BBP_SGate_T2": "Tier2",
+    "BBP_SGate_T3": "Tier3",
+    "BBP_LHanger_Roof_Frame": "Tier1",
+    "BBP_LHanger_Roof_T1": "Tier1",
+    "BBP_LHanger_Roof_T2": "Tier2",
+    "BBP_LHanger_Roof_T3": "Tier3",
+    "BBP_RHanger_Roof_Frame": "Tier1",
+    "BBP_RHanger_Roof_T1": "Tier1",
+    "BBP_RHanger_Roof_T2": "Tier2",
+    "BBP_RHanger_Roof_T3": "Tier3",
+    "BBP_Mesh_Gate": "Tier1",
+    "BBP_Mesh_Gate_LeftDoor_T2": "Tier2",
+    "BBP_Mesh_Gate_LeftDoor_T2_RightDoor_T2": "Tier2",
+    "BBP_DGate": "Tier1",
+    "BBP_DGate_LeftDoor_T1": "Tier1",
+    "BBP_DGate_LeftDoor_T1_RightDoor_T1": "Tier1",
+    "BBP_DGate_LeftDoor_T2": "Tier2",
+    "BBP_DGate_LeftDoor_T2_RightDoor_T2": "Tier2",
+    "BBP_DGate_LeftDoor_T2_RightDoor_T1": "Tier1",
+    "BBP_DGate_LeftDoor_T1_RightDoor_T2": "Tier1",
+    "BBP_DGate_LeftDoor_T3": "Tier3",
+    "BBP_DGate_LeftDoor_T3_RightDoor_T3": "Tier3"
+  }
+}
