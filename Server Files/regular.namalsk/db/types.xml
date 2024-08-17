@@ -5,6 +5,9 @@
 
 <!-- Categories: -->
 
+<!-- ================ AMMUNITION ================ -->
+<!-- AMMUNITION_BOXED  AMMUNITION_LOOSE -->
+
 <!-- ================ EXPLOSIVES ================ -->
 <!-- EXPLOSIVES_PLACED  EXPLOSIVES_THROWN -->
 
@@ -19,6 +22,17 @@
 
 <types>
 
+<!-- ================ AMMUNITION START ================ -->
+
+<!-- ++++++++ AMMUNITION_BOXED START ++++++++ -->
+
+<!-- ++++++++ AMMUNITION_BOXED END ++++++++ -->
+
+<!-- ++++++++ AMMUNITION_LOOSE START ++++++++ -->
+
+<!-- ++++++++ AMMUNITION_LOOSE END ++++++++ -->
+
+<!-- ================ AMMUNITION END ================ -->
 
 <!-- ================ EXPLOSIVES START ================ -->
 
@@ -214,9 +228,157 @@
 
 <!-- ++++++++ MELEE_BLADE START ++++++++ -->
 
+  <type name="WoodAxe">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>600</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="industrial" />
+	<usage name="Industrial"/>
+	<usage name="village"/>
+    <value name="" />
+  </type>
+  <type name="Hatchet">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>600</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="civilian" />
+	<usage name="Industrial"/>
+	<usage name="" />
+    <value name="" />
+  </type>
+  <type name="FirefighterAxe">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>600</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="firefighter" />
+	<usage name="Firefighter"/>
+    <value name="" />
+  </type>
+  <type name="CombatKnife">
+    <nominal>8</nominal>
+    <lifetime>2700</lifetime>
+    <restock>600</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="military" />
+	<usage name="Military"/>
+	<usage name="Police"/>
+    <value name="" />
+  </type>
+  <type name="HuntingKnife">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>600</restock>
+    <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="hunting" />
+	<usage name="Hunting"/>
+	<usage name="" />
+    <value name="" />
+  </type>
+  <type name="Machete">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>600</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="farm" />
+	<usage name="Farm"/>
+    <value name="" />
+  </type>
+
 <!-- ++++++++ MELEE_BLADE END ++++++++ -->
 
 <!-- ++++++++ MELEE_BLUNT START ++++++++ -->
+
+  <type name="Pickaxe">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>600</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="farm" />
+    <tag name="industrial" />
+	<usage name="Farm"/>
+    <value name="" />
+  </type>
+  <type name="BaseballBat">
+    <nominal>3</nominal>
+    <lifetime>1800</lifetime>
+    <restock>600</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="civilian" />
+	<usage name="" />
+    <value name="" />
+  </type>
+  <type name="BrassKnuckles_Dull">
+    <nominal>5</nominal>
+    <lifetime>1800</lifetime>
+    <restock>600</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="civilian" />
+	<usage name="" />
+    <value name="" />
+  </type>
+  <type name="BrassKnuckles_Shiny">
+    <nominal>2</nominal>
+    <lifetime>1800</lifetime>
+    <restock>600</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <category name="tools" />
+    <tag name="civilian" />
+	<usage name="" />
+    <value name="" />
+  </type>
 
 <!-- ++++++++ MELEE_BLUNT END ++++++++ -->
 
