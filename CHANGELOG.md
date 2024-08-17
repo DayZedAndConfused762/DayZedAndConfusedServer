@@ -53,6 +53,11 @@ Configure mods:
    - Change "BBP_FlagBuildAnywhere" to "1"
    - Change "BBP_TentBuildAnywhere" to "1"
    - Change "BBP_VanillaBuildAnywhere" to "1"
+  - Copy "BBP_Types.xml" to db folder, modify types to spawn in namalsk
+ - cfgeconomycore.xml:
+  - Add "<file name="BBP_types.xml" type="types" />"
+  - Add "<file name="mmg_storage.xml" type="types" />"
+	</ce>
 
 <!-- ++++++++++++++++++++ 8/17/2024 End ++++++++++++++++++++ -->
 
