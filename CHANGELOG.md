@@ -37,6 +37,12 @@
  - change "environmentMaxTemps" from "[3.0, 5.0, 7.0, 14.0, 19.0, 24.0, 26.0, 25.0, 21.0, 16.0, 10.0, 5.0]" to "[-12,  -8,  -3,   0,   2,   5,   7,  11,   8,   5,   2,  -8]"
  - change "disablePersonalLight" from "true" to "false"
  - change "displayPlayerPosition" from "false" to "true"
+- Installed mods:
+ - CF
+ - BaseBuildingPlus
+ - Namalsk Island
+ - Namalsk Survival
+ - VPPAdminTools
 
 <!-- ++++++++++++++++++++ 8/17/2024 End ++++++++++++++++++++ -->
 
