@@ -1,2 +1,2 @@
 # DayZedAndConfusedServer
-Server filed for the DayZedAndConfused DayZ server
+Server files for the DayZedAndConfused DayZ server
