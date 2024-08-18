@@ -23,6 +23,8 @@
 - Sort types.xml and types_dzn.xml by item type
 - Add mod types
 - Adjust loot spawns to account for new types
+- Cofigure MuchStuffPack
+- Configure CannabisPlus
 
 <!-- ------------------------------ToDo End ------------------------------ -->
 
