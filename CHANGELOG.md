@@ -45,6 +45,10 @@
  - VPPAdminTools
  - SchanaModGlobalChat
  - MMG Base Storage
+ - Code Lock
+ - Ear-Plugs
+ - MuchStuffPack
+ - CannabisPlus
 Configure mods:
  - VPPAdminTools:
   - Add SteamID for DirtyHam (76561198059652382) to profiles/VPPAdminTools/Permissions/SuperAdmins/SuperAdmins.txt
@@ -57,7 +61,9 @@ Configure mods:
  - cfgeconomycore.xml:
   - Add "<file name="BBP_types.xml" type="types" />"
   - Add "<file name="mmg_storage.xml" type="types" />"
-	</ce>
+  - Add "<file name="codelock_types.xml" type="types" />"
+ - Code Lock:
+ - Ear-Plugs:
 
 <!-- ++++++++++++++++++++ 8/17/2024 End ++++++++++++++++++++ -->
 
