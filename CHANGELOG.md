@@ -25,34 +25,34 @@
 - Uploaded server files to github
 - Uploaded mod files to github
 - serverDZ.cfg:
- - add "vppDisablePassword = 1;"
- - change "hostname" to "DayZedAndConfused Bitterroot - Under Development"
- - change "defaultVisibility" to "3000"
- - change "defaultObjectViewDistance" to "3000"
- - change "enableCfgGameplayFile" to "1"
- - change "serverTimeAcceleration" to "6"
- - change "serverNightTimeAcceleration" to "2"
- - change "serverTimePersistent" to "1"
+  - add "vppDisablePassword = 1;"
+  - change "hostname" to "DayZedAndConfused Bitterroot - Under Development"
+  - change "defaultVisibility" to "3000"
+  - change "defaultObjectViewDistance" to "3000"
+  - change "enableCfgGameplayFile" to "1"
+  - change "serverTimeAcceleration" to "6"
+  - change "serverNightTimeAcceleration" to "2"
+  - change "serverTimePersistent" to "1"
 - cfggameplay.json:
- - change "displayPlayerPosition" from "false" to "true"
- - change "ignoreMapOwnership" to "true"
- - change "sprintStaminaModifierErc": 0.5,
+  - change "displayPlayerPosition" from "false" to "true"
+  - change "ignoreMapOwnership" to "true"
+  - change "sprintStaminaModifierErc": 0.5,
 	- change "sprintStaminaModifierCro": 0.5,
- - change "staminaKgToStaminaPercentPenalty": 1.0,
+  - change "staminaKgToStaminaPercentPenalty": 1.0,
 - Installed mods:
- - CF
- - BaseBuildingPlus
- - VPPAdminTools
- - SchanaModGlobalChat
- - MMG Base Storage
- - Code Lock
- - Ear-Plugs
- - MuchStuffPack
- - CannabisPlus
+  - CF
+  - BaseBuildingPlus
+  - VPPAdminTools
+  - SchanaModGlobalChat
+  - MMG Base Storage
+  - Code Lock
+  - Ear-Plugs
+  - MuchStuffPack
+  - CannabisPlus
 - Configure mods:
- - VPPAdminTools:
-  - Add SteamID for DirtyHam (76561198059652382) to profiles/VPPAdminTools/Permissions/SuperAdmins/SuperAdmins.txt
- - BaseBuildingPlus:
+  - VPPAdminTools:
+    	- Add SteamID for DirtyHam (76561198059652382) to profiles/VPPAdminTools/Permissions/SuperAdmins/SuperAdmins.txt
+  - BaseBuildingPlus:
    - Change "BBP_FlagBuildAnywhere" to "1"
    - Change "BBP_TentBuildAnywhere" to "1"
    - Change "BBP_VanillaBuildAnywhere" to "1"
