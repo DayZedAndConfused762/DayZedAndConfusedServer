@@ -1,13 +1,2009 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 
 <!-- ============================================================================================================== -->
-<!-- Namalsk types.xml organized by item type.  Sorted by DayZedAndConfsued762, DayZed and Confused DayZ Servers -->
+<!--  Namalsk types.xml organized by item type.  Sorted by DayZedAndConfsued762, DayZed and Confused DayZ Servers   -->
 <!-- ============================================================================================================== -->
 <!--  -->
 <!--  -->
 <!--  -->
-
+<!-- Categories: -->
+<!--  -->
+<!-- AMMUNITION -->
+<!--  AMMUNITION_BOW  AMMUNITION_BOXED  AMMUNITION_EXPLOSIVE AMMUNITION_LOOSE  -->
+<!--  -->
+<!-- ATTACHMENTS -->
+<!--  ATTACHMENTS_BAYONET  ATTACHMENTS_COMPENSATOR  ATTACHMENTS_SUPPRESSOR  ATTACHMENTS_LIGHT  -->
+<!--  ATTACHMENTS_OPTIC  ATTACHMENTS_STOCK  ATTACHMENTS_GRIP ATTACHMENTS_WRAP -->
+<!-- -->
+<!-- EXPLOSIVES:-->
+<!--  EXPLOSIVES_PLACED  EXPLOSIVES_SMOKE  EXPLOSIVES_THROWN  -->
+<!--  -->
+<!-- FIREARMS: -->
+<!--  FIREARMS_ASSAULT  FIREARMS_BOW  FIREARMS_LAUNCHER  FIREARMS_PISTOL  FIREARMS_RIFLE  -->
+<!--  FIREARMS_SHOTGUN  FIREARMS_SMG  -->
+<!--  -->
+<!-- MELEE: -->
+<!--  MELEE_BLADE  MELEE_BLUNT-->
+<!--  -->
 
 <types>
+
+<!-- AMMUNITION START -->
+
+<!-- AMMUNITION_BOW START -->
+
+  <type name="Ammo_HuntingBolt">
+    <nominal>30</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>25</min>
+    <quantmin>20</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="hunting" />
+  </type>
+
+<!-- AMMUNITION_BOW END -->
+
+<!-- AMMUNITION_BOXED START -->
+
+  <type name="AmmoBox_556x45_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_556x45Tracer_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_308Win_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="hunting" />
+  </type>
+  <type name="AmmoBox_308WinTracer_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="hunting" />
+  </type>
+  <type name="AmmoBox_762x54_20Rnd">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="civilian" />
+  </type>
+  <type name="AmmoBox_762x54Tracer_20Rnd">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="civilian" />
+  </type>
+  <type name="AmmoBox_762x39_20Rnd">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="hunting" />
+    <tag name="civilian" />
+  </type>
+  <type name="AmmoBox_762x39Tracer_20Rnd">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="hunting" />
+    <tag name="civilian" />
+  </type>
+  <type name="AmmoBox_22_50Rnd">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="hunting" />
+    <tag name="civilian" />
+  </type>
+  <type name="AmmoBox_357_20Rnd">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+  </type>
+  <type name="AmmoBox_45acp_25rnd">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_9x19_25rnd">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_380_35rnd">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_00buck_10rnd">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+    <tag name="hunting" />
+  </type>
+  <type name="AmmoBox_12gaSlug_10Rnd">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+    <tag name="hunting" />
+  </type>
+  <type name="AmmoBox_12gaRubberSlug_10Rnd">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="police" />
+  </type>
+  <type name="AmmoBox_545x39_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_545x39Tracer_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_9x39_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_9x39AP_20Rnd">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+
+<!-- AMMUNITION_BOXED END -->
+
+<!-- AMMUNITION_EXPLOSIVE START -->
+
+  <type name="Ammo_40mm_Explosive">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_40mm_ChemGas">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier67" />
+    <category name="lantia" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_40mm_Smoke_Black">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_40mm_Smoke_Green">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_40mm_Smoke_Red">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_40mm_Smoke_White">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_FlareRed">
+    <nominal>30</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>25</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="fishing" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+
+<!-- AMMUNITION_EXPLOSIVE END -->
+
+<!-- AMMUNITION_LOOSE START -->
+
+  <type name="Ammo_45ACP">
+    <nominal>7</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_308Win">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>4</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="hunting" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_308WinTracer">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="hunting" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_9x19">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>7</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_380">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>7</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_556x45">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>4</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_556x45Tracer">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_762x54">
+    <nominal>8</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>6</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_762x54Tracer">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_762x39">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>7</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_762x39Tracer">
+    <nominal>7</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_9x39">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_9x39AP">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_22">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>7</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="Ammo_12gaPellets">
+    <nominal>7</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_12gaSlug">
+    <nominal>7</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_12gaRubberSlug">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>7</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="police" />
+  </type>
+  <type name="Ammo_357">
+    <nominal>8</nominal>
+    <lifetime>2700</lifetime>
+    <restock>300</restock>
+    <min>6</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="civilian" />
+  </type>
+  <type name="Ammo_545x39">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>4</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="Ammo_545x39Tracer">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>25</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+
+<!-- AMMUNITION_LOOSE END -->
+
+<!-- AMMUNITION END -->
+
+<!-- ATTACHMENTS START -->
+
+<!-- ATTACHMENTS_BAYONET -->
+<!-- ATTACHMENTS_COMPENSATOR -->
+<!-- ATTACHMENTS_GRIP  -->
+<!-- ATTACHMENTS_LIGHT -->
+<!-- ATTACHMENTS_OPTIC -->
+<!-- ATTACHMENTS_STOCK -->
+<!-- ATTACHMENTS_SUPPRESSOR -->
+<!-- ATTACHMENTS_WRAP -->
+
+
+<!-- ATTACHMENTS END -->
+
+<!-- EXPLOSIVES START -->
+
+<!-- EXPLOSIVES_PLACED START -->
+
+  <type name="LandMineTrap">
+    <nominal>10</nominal>
+    <min>8</min>
+    <lifetime>1209600</lifetime>
+    <restock>900</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="ClaymoreMine">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="FireworksLauncher">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="tools" />
+    <tag name="civilian" />
+  </type>
+
+<!-- EXPLOSIVES_PLACED END -->
+
+<!-- EXPLOSIVES_SMOKE START -->
+
+  <type name="M18SmokeGrenade_Red">
+    <nominal>5</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="M18SmokeGrenade_Green">
+    <nominal>5</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="M18SmokeGrenade_Yellow">
+    <nominal>5</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="M18SmokeGrenade_Purple">
+    <nominal>5</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="M18SmokeGrenade_White">
+    <nominal>5</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="RDG2SmokeGrenade_Black">
+    <nominal>6</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="police" />
+  </type>
+  <type name="RDG2SmokeGrenade_White">
+    <nominal>6</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="police" />
+  </type>
+
+<!-- EXPLOSIVES_SMOKE END -->
+
+<!-- EXPLOSIVES_THROWN START -->
+
+  <type name="RGD5Grenade">
+    <nominal>7</nominal>
+    <lifetime>3600</lifetime>
+    <restock>600</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="M67Grenade">
+    <nominal>7</nominal>
+    <lifetime>3600</lifetime>
+    <restock>600</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="military" />
+  </type>
+  <type name="FlashGrenade">
+    <nominal>6</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="explosives" />
+    <tag name="police" />
+  </type>
+
+<!-- EXPLOSIVES_THROWN END -->
+
+<!-- EXPLOSIVES END -->
+
+
+
+<!-- FIREARMS START -->
+
+<!-- FIREARMS_ASSAULT START -->
+
+  <type name="AK74">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="AKS74U">
+    <nominal>5</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier3" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="AK101">
+    <nominal>2</nominal>
+    <lifetime>3600</lifetime>
+    <restock>3600</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="AKM">
+    <nominal>4</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier3" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="FAL">
+    <nominal>2</nominal>
+    <min>1</min>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier5" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="M4A1">
+    <nominal>2</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier7" />
+    <category name="lantia" />
+    <tag name="military" />
+  </type>
+  <type name="M16A2">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="FAMAS">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="AugShort">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="Aug">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier7" />
+    <category name="lantia" />
+    <tag name="military" />
+  </type>
+  <type name="Vikhr">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="VSS">
+    <nominal>4</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>3</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="ASVAL">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+
+<!-- FIREARMS_ASSAULT END -->
+
+<!-- FIREARMS_BOW START -->
+
+  <type name="Crossbow_Autumn">
+    <nominal>3</nominal>
+    <min>2</min>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <category name="rifles" />
+    <tag name="hunting" />
+  </type>
+  <type name="Crossbow_Black">
+    <nominal>1</nominal>
+    <min>1</min>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <category name="rifles" />
+    <tag name="hunting" />
+  </type>
+  <type name="Crossbow_Wood">
+    <nominal>2</nominal>
+    <min>1</min>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <category name="rifles" />
+    <tag name="hunting" />
+  </type>
+
+<!-- FIREARMS_BOW END -->
+
+<!-- FIREARMS_LAUNCHER START -->
+
+  <type name="M79">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="Flaregun">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="police" />
+    <tag name="military" />
+    <tag name="fishing" />
+  </type>
+
+<!-- FIREARMS_LAUNCHER END -->
+
+<!-- FIREARMS_PISTOL START -->
+
+  <type name="Colt1911">
+    <nominal>7</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="Engraved1911">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier234" />
+    <category name="pistols" />
+    <tag name="military" />
+  </type>
+  <type name="CZ75">
+    <nominal>8</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="pistols" />
+    <tag name="police" />
+  </type>
+  <type name="Deagle">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="Deagle_Gold">
+    <nominal>1</nominal>
+    <lifetime>3600</lifetime>
+    <restock>14400</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="FNX45">
+    <nominal>6</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier234" />
+    <category name="pistols" />
+    <tag name="military" />
+  </type>
+  <type name="Glock19">
+    <nominal>8</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="pistols" />
+    <tag name="police" />
+  </type>
+  <type name="Magnum">
+    <nominal>7</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>0</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="MKII">
+    <nominal>10</nominal>
+    <lifetime>3600</lifetime>
+    <restock>100</restock>
+    <min>8</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="pistols" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="MakarovIJ70">
+    <nominal>10</nominal>
+    <lifetime>3600</lifetime>
+    <restock>100</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="P1">
+    <nominal>7</nominal>
+    <lifetime>3600</lifetime>
+    <restock>100</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="LongHorn">
+    <nominal>3</nominal>
+    <lifetime>3600</lifetime>
+    <restock>100</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier12" />
+    <category name="pistols" />
+    <tag name="hunting" />
+  </type>
+  <type name="Derringer_Black">
+    <nominal>2</nominal>
+    <lifetime>3600</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="Derringer_Grey">
+    <nominal>2</nominal>
+    <lifetime>3600</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+  <type name="Derringer_Pink">
+    <nominal>2</nominal>
+    <lifetime>3600</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>0</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="pistols" />
+    <tag name="civilian" />
+  </type>
+
+<!-- FIREARMS_PISTOL END -->
+
+<!-- FIREARMS_RIFLE START -->
+
+  <type name="B95">
+    <nominal>6</nominal>
+    <lifetime>3600</lifetime>
+    <restock>800</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="rifles" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="CZ527">
+    <nominal>10</nominal>
+    <min>7</min>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="rifles" />
+    <tag name="hunting" />
+  </type>
+  <type name="CZ550">
+    <nominal>5</nominal>
+    <min>4</min>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier234" />
+    <category name="rifles" />
+    <tag name="hunting" />
+  </type>
+  <type name="Izh18">
+    <nominal>15</nominal>
+    <min>12</min>
+    <lifetime>2700</lifetime>
+    <restock>100</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="rifles" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="Mosin9130">
+    <nominal>8</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>0</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="rifles" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="Repeater">
+    <nominal>6</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1200</restock>
+    <min>4</min>
+    <quantmin>0</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier123" />
+    <category name="rifles" />
+    <tag name="civilian" />
+  </type>
+  <type name="Ruger1022">
+    <nominal>10</nominal>
+    <lifetime>3600</lifetime>
+    <restock>100</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier12" />
+    <category name="rifles" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="SKS">
+    <nominal>12</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>10</min>
+    <quantmin>0</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier12" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="SVD">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier5" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="M14">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier5" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="SV98">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier4" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="Winchester70">
+    <nominal>5</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1000</restock>
+    <min>4</min>
+    <quantmin>0</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier234" />
+    <category name="rifles" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="Scout">
+    <nominal>2</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="rifles" />
+    <tag name="police" />
+  </type>
+  <type name="SSG82">
+    <nominal>2</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="rifles" />
+    <tag name="police" />
+  </type>
+
+<!-- FIREARMS_RIFLE END -->
+
+<!-- FIREARMS_SHOTGUN START -->
+
+  <type name="Izh43Shotgun">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>400</restock>
+    <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="rifles" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="Izh18Shotgun">
+    <nominal>12</nominal>
+    <lifetime>2700</lifetime>
+    <restock>400</restock>
+    <min>10</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="rifles" />
+    <tag name="civilian" />
+    <tag name="hunting" />
+  </type>
+  <type name="Mp133Shotgun">
+    <nominal>7</nominal>
+    <lifetime>3600</lifetime>
+    <restock>800</restock>
+    <min>5</min>
+    <quantmin>0</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="rifles" />
+    <tag name="civilian" />
+  </type>
+  <type name="Saiga">
+    <nominal>6</nominal>
+    <lifetime>3600</lifetime>
+    <restock>1800</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+
+<!-- FIREARMS_SHOTGUN END -->
+
+<!-- FIREARMS_SMG START -->
+
+  <type name="CZ61">
+    <nominal>8</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier1" />
+    <category name="rifles" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="PP19">
+    <nominal>6</nominal>
+    <lifetime>3600</lifetime>
+    <restock>200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier12" />
+    <category name="rifles" />
+    <tag name="military" />
+  </type>
+  <type name="MP5K">
+    <nominal>8</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="rifles" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+  <type name="UMP45">
+    <nominal>8</nominal>
+    <lifetime>3600</lifetime>
+    <restock>300</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="rifles" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
+
+<!-- FIREARMS_SMG END -->
+
+<!-- FIREARMS END -->
+
+<!-- MELEE START -->
+
+<!-- MELEE_BLADE START -->
+
+  <type name="WoodAxe">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="industrial" />
+  </type>
+  <type name="Hatchet">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+  </type>
+  <type name="FirefighterAxe">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>7</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="firefighter" />
+  </type>
+  <type name="CombatKnife">
+    <nominal>15</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>12</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="military" />
+  </type>
+  <type name="HuntingKnife">
+    <nominal>20</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>17</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="hunting" />
+  </type>
+  <type name="KukriKnife">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="hunting" />
+  </type>
+  <type name="FangeKnife">
+    <nominal>1</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="hunting" />
+  </type>
+  <type name="Machete">
+    <nominal>10</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="farm" />
+  </type>
+  <type name="CrudeMachete">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="farm" />
+  </type>
+  <type name="OrientalMachete">
+    <nominal>3</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="farm" />
+  </type>
+
+<!-- MELEE_BLADE END -->
+
+<!-- MELEE_BLUNT START -->
+
+  <type name="BaseballBat">
+    <nominal>10</nominal>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <min>5</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+    <tag name="industrial" />
+  </type>
+  <type name="BrassKnuckles_Dull">
+    <nominal>8</nominal>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+  </type>
+  <type name="BrassKnuckles_Shiny">
+    <nominal>8</nominal>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <min>6</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="tools" />
+    <tag name="civilian" />
+  </type>
+
+<!-- MELEE_BLUNT END -->
+
+<!-- MELEE END -->
 
 </types>
