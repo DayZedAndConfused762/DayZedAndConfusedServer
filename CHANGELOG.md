@@ -23,7 +23,6 @@
 ## 8/17/2024
 
 - Uploaded server files to github
-- Uploaded mod files to github
 - serverDZ.cfg:
   - add "vppDisablePassword = 1;"
   - change "hostname" to "DayZedAndConfused Bitterroot - Under Development"
