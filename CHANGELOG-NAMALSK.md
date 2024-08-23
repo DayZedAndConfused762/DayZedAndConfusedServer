@@ -23,7 +23,7 @@
 ## 8/20/2024
 
 - Uploaded server files to github
-- serverDZ.cfg:
+- Config.cfg (renamed from serverDZ.cfg):
   - add "vppDisablePassword = 1;"
   - change "hostname" to "DayZedAndConfused Namalsk - Under Development"
   - change "defaultVisibility" to "2200"
