@@ -35,7 +35,7 @@
   - change "serverTime" to "2011/11/1/9/49"
   - change "lightingConfig" to "223"
   - change "template" to "regular.namalsk"
-- cfggameplay.json:
+- cfggameplay.json (copied form chernaurus files):
   - change "displayPlayerPosition" from "false" to "true"
   - change "ignoreMapOwnership" to "true"
   - change "sprintStaminaModifierErc": 0.5,
