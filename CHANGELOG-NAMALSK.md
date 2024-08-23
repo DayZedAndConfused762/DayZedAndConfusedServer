@@ -45,6 +45,10 @@
   - change "lightingConfig" to "223"
   - change "environmentMaxTemps" to "-12, -8, -3, 0, 2, 5, 7, 11, 8, 5, 2, -8"
   - change "environmentMinTemps" to "-32, -27, -21, -14, -7, -4, -2, 2, -3, -7, -15, -25"
+- types.xml:
+  - created types.xml file sorted by item type
+- types_dzn.xml:
+  - created types_dzn.xml file sorted by item type
 - Install Mods:
   - @BaseBuildingPlus
   - @CannabisPlus

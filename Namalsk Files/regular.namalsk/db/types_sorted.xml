@@ -36,7 +36,7 @@
 <!-- MEDICALS: -->
 <!--  MEDICALS_MEDICINE  MEDICALS_SUPPLIES -->
 <!-- -->
-<!-- NUTRITION: -->.
+<!-- NUTRITION: -->
 <!--  NUTRITION_DRINK  NUTRITION_FISH  NUTRITION_GROWN  NUTRITION_MEAT  NUTRITION_PACKAGED  -->
 <!--  NUTRITION_SEED -->
 <!-- -->
@@ -2674,20 +2674,6 @@
     <category name="clothes" />
     <tag name="civilian" />
   </type>
-  <type name="GP5GasMask">
-    <nominal>15</nominal>
-    <min>10</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier23" />
-    <category name="clothes" />
-    <tag name="industrial" />
-  </type>
   <type name="SurgicalMask">
     <nominal>10</nominal>
     <min>7</min>
@@ -2933,6 +2919,78 @@
   <type name="FaceCover_Improvised">
     <lifetime>1800</lifetime>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+  </type>
+  <type name="Bandana_Redpattern">
+    <nominal>10</nominal>
+    <min>6</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="civilian" />
+  </type>
+  <type name="Bandana_Blackpattern">
+    <nominal>10</nominal>
+    <min>6</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="civilian" />
+  </type>
+  <type name="Bandana_Polkapattern">
+    <nominal>10</nominal>
+    <min>6</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="civilian" />
+  </type>
+  <type name="Bandana_Greenpattern">
+    <nominal>10</nominal>
+    <min>6</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="civilian" />
+  </type>
+  <type name="Bandana_Camopattern">
+    <nominal>10</nominal>
+    <min>6</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="civilian" />
+    <tag name="military" />
+    <tag name="hunting" />
   </type>
 
 <!-- CLOTHING_FACE END -->
@@ -4136,6 +4194,203 @@
 
 <!-- CLOTHING_HEAD START -->
 
+  <type name="dzn_gorkahood_flat">
+    <nominal>6</nominal>
+    <min>4</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier12" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_gorkahood_autumn">
+    <nominal>6</nominal>
+    <min>4</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_gorkahood_pautrev">
+    <nominal>6</nominal>
+    <min>4</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier12" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_gorkahood_winter">
+    <nominal>2</nominal>
+    <min>1</min>
+    <lifetime>1800</lifetime>
+    <restock>500</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_sumrakhood_coldw">
+    <nominal>3</nominal>
+    <min>1</min>
+    <lifetime>1800</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_yegerhood_coldw">
+    <nominal>3</nominal>
+    <min>1</min>
+    <lifetime>1800</lifetime>
+    <restock>300</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier34" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_yegerhood_woodl">
+    <nominal>3</nominal>
+    <min>1</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_milberet_red">
+    <nominal>5</nominal>
+    <min>2</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_milberet_blue">
+    <nominal>5</nominal>
+    <min>2</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_milberet_green">
+    <nominal>5</nominal>
+    <min>2</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_milberet_black">
+    <nominal>5</nominal>
+    <min>2</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_milberet_specnaz">
+    <nominal>5</nominal>
+    <min>2</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_BallisticHelmet_White">
+    <nominal>5</nominal>
+    <min>2</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="military" />
+  </type>
+  <type name="dzn_GorkaHelmet_White">
+    <nominal>5</nominal>
+    <min>2</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="clothes" />
+    <tag name="police" />
+    <tag name="military" />
+  </type>
   <type name="BallisticHelmet_Green">
     <nominal>2</nominal>
     <min>1</min>
@@ -4819,78 +5074,6 @@
     <value />
     <category name="clothes" />
     <tag name="civilian" />
-  </type>
-  <type name="Bandana_Redpattern">
-    <nominal>10</nominal>
-    <min>6</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="civilian" />
-  </type>
-  <type name="Bandana_Blackpattern">
-    <nominal>10</nominal>
-    <min>6</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="civilian" />
-  </type>
-  <type name="Bandana_Polkapattern">
-    <nominal>10</nominal>
-    <min>6</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="civilian" />
-  </type>
-  <type name="Bandana_Greenpattern">
-    <nominal>10</nominal>
-    <min>6</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="civilian" />
-  </type>
-  <type name="Bandana_Camopattern">
-    <nominal>10</nominal>
-    <min>6</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="civilian" />
-    <tag name="military" />
-    <tag name="hunting" />
   </type>
   <type name="RadarCap_Black">
     <nominal>3</nominal>
@@ -5989,6 +6172,20 @@
     <category name="clothes" />
     <tag name="firefighter" />
     <tag name="medical" />
+  </type>
+  <type name="GP5GasMask">
+    <nominal>15</nominal>
+    <min>10</min>
+    <lifetime>1800</lifetime>
+    <restock>0</restock>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value user="Tier23" />
+    <category name="clothes" />
+    <tag name="industrial" />
   </type>
 
 <!-- CLOTHING_NBC END -->
