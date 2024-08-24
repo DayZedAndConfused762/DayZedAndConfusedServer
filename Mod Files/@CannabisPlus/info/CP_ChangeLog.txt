@@ -1,0 +1,79 @@
+v3.0.2
+Fixes
+- Machines remain locked if the server crashes or restarts while the workbench is running.
+- Starting the workbench process if there wasn't enough battery energy or if the battery ran out of energy would keep the workbench in a running state until it was manually stopped.
+- Processing weed doesn't subtract energy from the battery on the first baggy or brick.
+- Bagger and Wrapper works in ruined state.
+- If servers made logs stackable, disassembling the Drypost Kit would spawn a full stack of logs.
+- Some backend stuff.
+
+Known Issues
+- Unwrapping a baggy or brick spawns a piece of paper.
+- Can add raw plants to the Drying Post after drying process is started.
+- Have to look at the base of the plant to Harvest it.
+- Some sort of issue with not being able to water plants more than once per restart if server is using weather.cfg file.
+- Cigarettes are still despawning.
+- CP Pouch has some geometry issues.
+- Rope poofs if dragged into dry post inventory.
+- Rolling papers float if dropped on ground.
+
+v3.0.1
+Fixes
+- Fixed a dependency reference for GhostIcons pointing to wrong class name.
+- Fixed a bug where the workbench lockstate would mess up after server restart.
+- Fixed a bug where the workbench would permanently lock the Wrapper and/or Bagger if the battery died.
+
+Known Issues
+- Can add raw plants to the Drying Post after drying process is started.
+- Have to look at the base of the plant to Harvest it.
+- Trying to start the workbench process if there isn't enough battery energy or if the battery runs out of energy it keeps the workbench in a running state until it is manually stopped.
+- Processing weed doesn't subtract energy from the battery on the first baggy or brick.
+- Some sort of issue with not being able to water plants more than once per restart if server is using weather.cfg file.
+- Cigarettes are still despawning.
+- Brick packer works in ruined state.
+- CP Pouch has some geometry issues.
+- Rope poofs if dragged into dry post inventory.
+- Rolling papers float if dropped on ground.
+
+v3.0.0
+New Items
+- Drying Post
+- Drying Post Kit
+- Dried Cannabis Plant
+- Raw Cannabis Plant of all varieties
+- Workbench
+- Workbench Kit
+- Bagger
+- Plastic Wrapper
+- Empty Plastic Bags
+- Plastic Wrap Roll
+- Cannabis Pouch for carrying all your weed paraphernalia.
+
+New Systems
+- Players can now unwrap baggies and bricks in their hands.
+- New crafting recipe; WoodenLog + Rope = Drying Post Kit.
+- Harvesting cannabis plants now results in a Raw Cannabis Plant.
+- Players can hang Raw Cannabis Plants on a Drying Post to receive Dried Cannabis Plants and Dried Bud.
+- Custom ghost icons for attachments.
+
+Updates
+- New custom brick model and texture.
+- New custom baggy model.
+- Plants now blow in the wind, look much more vibrant and have proper normal maps applied.  (Thank you Spud for help with this.)
+- Completely reworked and refined the recipe scripts, reducing recipes from 47 to 17.
+- Laid the base work for a 'Lite' version of the mod and new strain packs.
+- Bud can now be stacked to 2.
+- Changed bag inventory size from 2x2 to 1x3.
+- Changed bricks inventory size from 3x3 to 2x2.
+- Adding compatibility for potatoes (growtime and cropcount is configurable).
+- Updated samples and documentation.
+
+Bug Fixes
+- Fixed an issue where you couldn't replant into an already used garden plot.
+- Fixed an issue where you couldn't water the plant enough in some situations.
+- Fixed an issue with cigarette and joint packs not packing properly.
+- Fixed the sample types.xml file where crafted=1 stopped some items from spawning.
+
+Known Issues
+- Can add raw plants to the Drying Post after drying process is started.
+- Have to look at the base of the plant to Harvest it.

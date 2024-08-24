@@ -1,0 +1,48 @@
+///////////////////////////////////////////////////////////////////////////////
+/*              THIS IS AN EXAMPLE FILE.  DO NOT USE THIS FILE.              */
+/* EDIT YOUR OWN BASIC TERRITORIES FILE BY ADDING CP_ TO YOUR "KitLifeTimes" */
+///////////////////////////////////////////////////////////////////////////////
+
+{
+    "ConfigVersion": "2",
+    "WhiteList": [
+        "Trap",
+        "Paper",
+        "Fireplace"
+    ],
+    "ServerAdmins": [
+        "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"		
+    ],
+    "TentRadius": 6.0,
+    "TentCESpawnLifeTime": 5600.0,
+    "BuildBonusSledgeDamage": 150.0,
+    "RequireTerritory": 1,
+    "PublicPermissions": 0,				//basically nothing
+    "MemberPermissions": 510,			// basically anything
+    "Notifications": 0,					
+    "NoBuildZones": [					// eg. for Traders you can ignore this
+        {
+            "Name": "",
+            "X": 3703.5,
+            "Z": 5985.10986328125,
+            "R": 100.0,
+            "DrawOnMap": 0
+        }								// BE SURE THERES NO COMMA AFTER THIS ONE
+    ],
+    "NoBuildZoneMessage": 		" XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+    "TerritoryConflictMessage": " XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "WithinTerritoryWarning": 	" XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "DeSpawnWarningMessage": 	" XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "BuildPartWarningMessage": 	" XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "DismantleWarningMessage": 	" XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "LowerFlagWarningMessage": 	" XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "TerritoryRequiredWarningMessage": " XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "FlagRefreshFrequency": 432000,
+    "KitLifeTimes": {
+        "watchtowerkit": 3888000,
+        "fencekit": 3888000,		
+        "bbp_": 3888000,				//All BBP Items
+        "CP_":3888000,					//All CP Items
+        "msp_": 3888000					//All MSP Items. BE SURE THERES NO COMMA AT THE END HERE TOO
+    }
+}

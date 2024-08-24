@@ -1,0 +1,42 @@
+This mod creates a config in "/profiles/CannabisPlus/" folder named CannabisPlus.json.
+You can set different amounts of crop and growtime for each plant.
+Fertilization reduces the growtime and doubles the crop.
+Growtime adds a randomizer so the time is not 100% exact.
+
+Explanation of CannabisPlus.json:
+	"configVersion": 250,				// Mod version.  250 = 2.5.0
+	"removeAfterHarvest": 1,			// 1 = Removes plant after harvesting; 0 = Leaves plant after harvest.
+	"tobacco_growtime": 8,				// Growtime of Tobacco in minutes 
+	"tobacco_cropcount": 2,				// Amount of Tobacco crop to harvest
+	"tobaccoSeed_count": 9,				// Amount of Tobaccoseeds in a seedpack
+	"cannabisSkunk_growtime": 8,			// Growtime of Skunk Cannabis in minutes
+	"cannabisSkunk_cropcount": 2,			// Amount of Skunk Cannabis crop to harvest
+	"cannabisSkunkSeed_count": 9,			// Amount of Skunk Cannabis seeds in a seedpack
+	"cannabisKush_growtime... etc.
+
+	"pepper_growtime": 8,				// Growtime of Pepper in minutes 
+	"pepper_cropcount": 2,				// Amount of Pepper crop to harvest
+	"pepperSeed_count": 9,				// Amount of Pepper seeds in a seedpack
+	"tomato_growtime... etc.
+	
+	"activateCigaretteSmokingEffect": 0,	// [Currently Disabled]1 = Activates effects when smoking cigarettes; 0 = No effect
+	"smokingCigaretteEffectDuration": 20,	// [Currently Disabled]Duration the effect will last, in seconds
+	"cigaretteCyclesToActivateEffect": 8,	// [Currently Disabled]How many cycles to activate the effect.  20 = One cigarette
+	"activateJointSmokingEffect": 1,		// 1 = Activates effects when smoking joints; 0 = No effect
+	"smokingJointEffectDuration": 360,		// Duration the effect will last, in seconds
+	"jointCyclesToActivateEffect": 10		// How many cycles to activate the effect  20 = One joint
+
+	// The following four settings are for visual effects.  Probably shouldn't change.
+	"weedHueIntensity": 58.0,			// Manipulating the hue.
+	"weedRadBlurXPower": 2,				// Manipulating the blur for the x-axis.
+	"weedRadBlurYPower": 2,				// Manipulating the blur for the y-axis.
+	"weedRotBlurPow": 10				// Manipulating the rotation blur.
+
+
+	"spoiltime": 60,					// Amount of time in minutes it takes for plants to spoil after they become harvestable.
+
+	"cannabis_drytime": 30,				// Amount of time in seconds it takes for raw cannabis plants to dry on the drying post.
+    "RequireBattery": 1,				// 1 = Require battery to be attached to workbench to use workbench.  0 = No battery needed.
+    "WorkBench_PowerUsed": 1.0,			// How much energy is subtracted from the battery per use.  Ignored if RequireBattery = 0.
+    "Plastic_Wrap_Usage": 10.0,			// How much plastic wrap is subtracted per use.
+    "Workbench_Processing_Time": 5,		// Time in seconds to process a bag or brick.

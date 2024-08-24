@@ -1,0 +1,63 @@
+<!-- 
+Find these in your events.xml and replace them or add the extra child lines, as shown below.  
+
+These are the 3 vanilla places that mushrooms spawn.
+Coniferous and Deciduous trees, as well as Humus(haybales and straw stacks.)
+-->
+
+    <event name="TrajectoryConiferous">
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="BoletusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="MacrolepiotaMushroom"/>            
+		<child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
+        </children>
+    </event>
+    <event name="TrajectoryDeciduous">
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="LactariusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
+        </children>
+    </event>
+    <event name="TrajectoryHumus">
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="AgaricusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="LactariusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
+        </children>
+    </event>

@@ -1,0 +1,26 @@
+This mod creates a config in "profiles" folder named DrugsPLUS.json.
+You can set different amounts of crop and growtime for each plant.
+Fertilization reduces the growtime and doubles the crop.
+Growtime adds a randomizer so the time is not 100% exact.
+
+
+Explanation of DrugsPLUS.json:
+
+{
+    "dp_configVersion": 200,			// Mod version.  100 = 1.0.0
+    "dp_removeAfterHarvest": 1,		// 1 = Removes plant after harvesting; 0 = Leaves plant after harvest.
+    "coca_growtime": 8.0,			// Growtime of coca in minutes 
+    "coca_cropcount": 2,			// Amount of coca crop to harvest
+    "cocaSeed_count": 9,			// Amount of cocaseeds in a seedpack
+    "cocaineHueIntensity": 70.0,		// Manipulating the hue.
+    "cocaineRadBlurXPower": 1,		// Manipulating the blur for the x-axis.
+    "cocaineRadBlurYPower": 1,		// Manipulating the blur for the y-axis.
+    "cocaineEffectTime": 120,			// Duration the effect will last; in seconds.
+    "allowcokeenergybuff": 0,			// [Currently Disabled]
+    "allowunlimitedstamina": 1,		// [Currently Disabled]
+    "vodkaHueIntensity": 55.0,		// Manipulating the hue.
+    "vodkaRadBlurXPower": 3,			// Manipulating the blur for the x-axis.
+    "vodkaRadBlurYPower": 3,			// Manipulating the blur for the y-axis.
+    "vodkaEffectTime": 120,			// Duration the effect will last; in seconds.
+    "magicmushroomEffectTime": 120		// Duration the effect will last; in seconds.
+}
