@@ -52,8 +52,19 @@
 - Install Mods:
   - @BaseBuildingPlus
   - @CannabisPlus
-  - @CodeLock
+  - @CF
+  - @Code Lock
   - @DrugsPlus
+  - @Ear-Plugs
+  - @Forward Operator Gear
+  - @MMG Base Storage
+  - @MuchFramework
+  - @MuchStuffPack
+  - @Namalsk Island
+  - @Namalsk Survival
+  - @PvZmoD_CustomisableZombies
+  - @SchanaModGlobalChat
+  - @VPPAdminTools
 - Configure Mods: 
   - @BaseBuildingPlus
     - Copy namalsk config
