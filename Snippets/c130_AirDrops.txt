@@ -1,0 +1,94 @@
+Create a landed C130 with Supply Crates
+Land_Wreck_C130J_2 has its wheels out and landed instead of crashed
+
+----------------------------------------
+Add to events.xml
+
+    <event name="StaticC130AirDrop">
+        <nominal>4</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>900</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+
+----------------------------------------
+Add to cfgeventgroups.xml
+
+	<!-- c130AirDrop -->
+     <group name="StaticC130AirDrop_Berenzino">
+ 		<child type="Land_Wreck_C130J_2" deloot="0" lootmax="10" lootmin="5" x="0" z="0" a="15.968038558959961" y="0"/>
+ 		<child type="StaticObj_Misc_SupplyBox1_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="4.9970703125" z="6.447265625" a="0" y="-5.376898765563965"/>
+ 		<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-0.0390625" z="0.1162109375" a="284.1085662841797" y="-3.760894298553467"/>
+ 		<child type="StaticObj_Misc_SupplyBox2_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="5.9013671875" z="10.9423828125" a="0" y="-5.175755500793457"/>
+ 		<child type="StaticObj_Misc_SupplyBox2_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-1.5986328125" z="-5.94921875" a="282.59078216552734" y="-3.751469135284424"/>
+ 		<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="2.7294921875" z="9.318359375" a="284.1085662841797" y="-5.187873840332031"/>
+ 		<child type="StaticObj_Wreck_Ural" spawnsecondary="false" lootmax="10" lootmin="5" x="7.9228515625" z="20.5322265625" a="214.2423858642578" y="-4.967674732208252"/>
+ 		<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="-2.26171875" z="11.4755859375" a="74.46029663085938" y="-4.397153377532959"/>
+ 		<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="11.2021484375" z="12.88671875" a="214.17481994628906" y="-4.487835884094238"/>
+		<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="3.8232421875" z="10.9873046875" a="110.185791015625" y="-5.35916805267334"/>
+	</group>
+     <group name="StaticC130AirDrop_Novo">
+	 	<child type="Land_Wreck_C130J_2" deloot="0" lootmax="10" lootmin="5" x="18.9306640625" z="-10.958984375" a="296.8382339477539" y="-4.302637100219727"/>	
+ 		<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="10.294921875" z="-6.5205078125" a="204.97889709472656" y="-8.820435523986816"/>
+ 		<child type="StaticObj_Wreck_Ural" spawnsecondary="false" lootmax="10" lootmin="5" x="0.2626953125" z="0.6943359375" a="135.11227416992188" y="-8.280289649963379"/>
+ 		<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="7.236328125" z="-11.0146484375" a="355.3304214477539" y="-8.127199172973633"/>
+ 		<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="8.3896484375" z="2.47265625" a="135.04458618164062" y="-8.0479097366333"/>
+ 		<child type="StaticObj_Misc_SupplyBox1_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="13.54296875" z="-4.837890625" a="280.87022399902344" y="-9.134439468383789"/>
+ 		<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="18.810546875" z="-10.974609375" a="204.97889709472656" y="-8.065888404846191"/>
+ 		<child type="StaticObj_Misc_SupplyBox2_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="9.2978515625" z="-3.099609375" a="280.87022399902344" y="-8.853309631347656"/>
+ 		<child type="StaticObj_Misc_SupplyBox2_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="24.4736328125" z="-13.65234375" a="203.4611053466797" y="-8.056486129760742"/>
+ 		<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="8.86328125" z="-5.130859375" a="31.05591583251953" y="-9.001728057861328"/>
+     </group>
+     <group name="StaticC130AirDrop_Topolniki">
+		<child type="Land_Wreck_C130J_2" deloot="0" lootmax="10" lootmin="5" x="-16.6392822265625" z="-14.4453125" a="45.79935836791992" y="-3.4683837890625"/>
+     	<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-10.51318359375" z="-8.1494140625" a="313.9401626586914" y="-8.726806640625"/>
+     	<child type="StaticObj_Wreck_Ural" spawnsecondary="false" lootmax="10" lootmin="5" x="-2.9615478515625" z="1.4091796875" a="202.1269989013672" y="-8.770904541015625"/>
+     	<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="-18.471435546875" z="-1.470703125" a="327.7040824890137" y="-7.983062744140625"/>
+     	<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="9.3115234375" z="11.8466796875" a="244.00584411621094" y="-8.425079345703125"/>
+     	<child type="StaticObj_Misc_SupplyBox1_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-5.5673828125" z="-2.53515625" a="29.831188201904297" y="-9.192642211914062"/>
+     	<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-16.681640625" z="-14.3935546875" a="313.9402313232422" y="-7.225982666015625"/>
+     	<child type="StaticObj_Misc_SupplyBox2_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-5.032470703125" z="-8.25390625" a="29.83119773864746" y="-8.843109130859375"/>
+     	<child type="StaticObj_Misc_SupplyBox2_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-21.0582275390625" z="-18.8779296875" a="312.4224281311035" y="-7.114959716796875"/>
+     	<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="-8.8768310546875" z="-6.5390625" a="140.017333984375" y="-8.97601318359375"/>
+     </group>
+     <group name="StaticC130AirDrop_Vybor">
+		<child type="Land_Wreck_C130J_2" deloot="0" lootmax="10" lootmin="5" x="-20.94677734375" z="6.296875" a="103.51009368896484" y="-5.017608642578125"/>
+     	<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-12.2705078125" z="4.4619140625" a="11.65062141418457" y="-9.322998046875"/>
+     	<child type="StaticObj_Wreck_Ural" spawnsecondary="false" lootmax="10" lootmin="5" x="-0.0947265625" z="-0.7373046875" a="301.7842712402344" y="-8.69024658203125"/>
+     	<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="-11.01904296875" z="14.87109375" a="162.0019073486328" y="-8.9560546875"/>
+     	<child type="Land_Wreck_offroad02_aban2" spawnsecondary="false" lootmax="10" lootmin="5" x="18.755859375" z="-2.8974609375" a="301.7165985107422" y="-7.539520263671875"/>
+     	<child type="StaticObj_Misc_SupplyBox1_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-8.94384765625" z="2.0771484375" a="87.54190826416016" y="-9.52850341796875"/>
+     	<child type="StaticObj_Misc_SupplyBox3_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-20.83251953125" z="6.33984375" a="11.650694847106934" y="-8.7734375"/>
+     	<child type="StaticObj_Misc_SupplyBox2_DE" spawnsecondary="false" lootmax="10" lootmin="5" x="-10.65087890625" z="0.9892578125" a="87.54190826416016" y="-9.322235107421875"/>
+     	<child type="StaticObj_Misc_SupplyBox2_DE"  spawnsecondary="false" lootmax="10" lootmin="5" x="-26.9580078125" z="7.6435546875" a="10.132918357849121" y="-8.856536865234375"/>
+     	<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="-10.02099609375" z="3.927734375" a="197.7283477783203" y="-9.482879638671875"/>
+     </group>
+----------------------------------------
+
+Add to cfgeventspawns.xml
+
+    <event name="StaticC130AirDrop"> 
+		<zone smin="0" smax="0" dmin="3" dmax="9" r="20" />
+		<pos x="13256.015625" z="10714.6982421875" a="0" y="11.614652633666992" group="StaticC130AirDrop_Berenzino"/>
+		<pos x="12963.3662109375" z="14092.2080078125" a="0" y="23.689449310302734" group="StaticC130AirDrop_Novo"/>
+		<pos x="2041.37646484375" z="11639.662109375" a="0" y="264.3890686035156" group="StaticC130AirDrop_Topolniki"/>
+		<pos x="4850.41357421875" z="8717.7373046875" a="0" y="344.0432434082031" group="StaticC130AirDrop_Vybor"/>
+    </event>
+
+
+
+
+
+    
+    
+    

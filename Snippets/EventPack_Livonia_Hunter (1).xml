@@ -1,0 +1,647 @@
+<!-- 14 Hunting Events -->
+<!-- Event (db/events.xml) -->
+<!-- Event Pack Hunter -->
+<event name="Static_EventPack_Hunter">
+	<nominal>8</nominal>
+	<min>0</min>
+	<max>0</max>
+	<lifetime>1800</lifetime>
+	<restock>0</restock>
+	<saferadius>100</saferadius>
+	<distanceradius>10</distanceradius>
+	<cleanupradius>1000</cleanupradius>
+	<secondary>InfectedSolitude</secondary>
+	<flags deletable="1" init_random="0" remove_damaged="0"/>
+	<position>fixed</position>
+	<limit>child</limit>
+	<active>1</active>
+	<children/>
+</event>
+<!-- Spawn (cfgeventspawns.xml) -->
+<!-- Event Pack Hunter -->
+<event name="Static_EventPack_Hunter">
+	<zone smin="0" smax="0" dmin="4" dmax="8" r="30" />
+	<pos x="1419.090087890625" z="10543.5244140625" a="0" y="298.7142333984375" group="EventPack_Hunter_BielawaNorth"/>
+	<pos x="6232.662109375" z="12479.1142578125" a="0" y="273.87969970703125" group="EventPack_Hunter_BrenaNorth"/>
+	<pos x="12179.5263671875" z="3854.33642578125" a="0" y="215.80836486816406" group="EventPack_Hunter_GieraltowEast"/>
+	<pos x="6650.0791015625" z="8781.16796875" a="0" y="206.41917419433594" group="EventPack_Hunter_Hrud"/>
+	<pos x="3682.10693359375" z="9041.03515625" a="0" y="171.3056640625" group="EventPack_Hunter_Jantar"/>
+	<pos x="6891.28857421875" z="3312.15380859375" a="0" y="300.0245361328125" group="EventPack_Hunter_NadborSouth"/>
+	<pos x="11311.6298828125" z="12525.10546875" a="0" y="252.78857421875" group="EventPack_Hunter_NorthEastPond"/>
+	<pos x="3843.060791015625" z="1846.593017578125" a="0" y="560.3468017578125" group="EventPack_Hunter_PolanaEast"/>
+	<pos x="8435.6455078125" z="2271.04638671875" a="0" y="364.89727783203125" group="EventPack_Hunter_RodzanicaWest"/>
+	<pos x="7656.73876953125" z="4948.5361328125" a="0" y="254.8370361328125" group="EventPack_Hunter_Roztoka"/>
+	<pos x="10827.3896484375" z="8363.5234375" a="0" y="220.94227600097656" group="EventPack_Hunter_SitnikSouth"/>
+	<pos x="9293.587890625" z="9634.6494140625" a="0" y="242.0722198486328" group="EventPack_Hunter_TarnowSouth"/>
+	<pos x="1257.60595703125" z="5945.79150390625" a="0" y="288.373779296875" group="EventPack_Hunter_ZalesieEast"/>
+	<pos x="1992.5699462890625" z="3982.43994140625" a="0" y="341.17401123046875" group="EventPack_Hunter_ZalesieSouth"/>
+</event>
+<!-- Group (cfgeventgroups.xml) -->
+<!-- Event Pack Hunter -->
+<group name="EventPack_Hunter_BielawaNorth">
+	<child type="StaticObj_Slum_Roof4" deloot="0" x="0" z="0" a="356.3357517719269" y="0"/>
+	<child type="StaticObj_Misc_Table_Camp" spawnsecondary="false" x="-0.52734375" z="0.1826171875" a="0" y="-1.37445068359375"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="1.223876953125" z="-0.521484375" a="166.51914978027344" y="-1.42071533203125"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="-2.0341796875" z="0.2568359375" a="214.4279327392578" y="-1.217803955078125"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="0.0606689453125" z="1.6552734375" a="0" y="-1.299285888671875"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="-0.99072265625" z="1.7890625" a="0" y="-1.251220703125"/>
+	<child type="StaticObj_Garbage_Pile8" spawnsecondary="false" x="3.2083740234375" z="0.4130859375" a="239.8845977783203" y="-1.405059814453125"/>
+	<child type="StaticObj_Garbage_GroundSq_5m" spawnsecondary="false" x="-0.3701171875" z="2.7236328125" a="0" y="0.427581787109375"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="-5.31005859375" z="0.2001953125" a="0" y="-1.314910888671875"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="-3.73681640625" z="0.041015625" a="0" y="-1.396331787109375"/>
+	<child type="SKS_Black" spawnsecondary="false" x="-4.6356201171875" z="2.0830078125" a="0" y="-1.500091552734375"/>
+	<child type="AmmoBox_762x39_20Rnd" spawnsecondary="false" x="-4.065673828125" z="-2.044921875" a="0" y="-1.721923828125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-5.2681884765625" z="-1.94921875" a="0" y="-1.662811279296875"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-4.3388671875" z="-2.6767578125" a="0" y="-1.754241943359375"/>
+	<child type="Land_Wreck_S1023_Blue" spawnsecondary="false" x="3.5887451171875" z="8.3994140625" a="99.9898452758789" y="-0.555755615234375"/>
+	<child type="Land_Wreck_Caravan_WGreen" spawnsecondary="false" x="-11.6126708984375" z="2.8125" a="213.17161560058594" y="0.5638427734375"/>
+	<child type="Land_Wreck_Tractor_DE" spawnsecondary="false" x="-7.0303955078125" z="11.619140625" a="0" y="-0.274444580078125"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="-3.0377197265625" z="9.8896484375" a="0" y="-1.357574462890625"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="3.37109375" z="3.06640625" a="0" y="-1.846282958984375"/>
+	<child type="HikingBoots_Brown" spawnsecondary="false" x="1.1787109375" z="8.2060546875" a="0" y="-1.669952392578125"/>
+	<child type="AKS74U_Green" spawnsecondary="false" x="-8.7607421875" z="10.7412109375" a="0" y="-0.89459228515625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-8.477294921875" z="11.3427734375" a="0" y="-1.093017578125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-8.46044921875" z="10.677734375" a="0" y="-1.1097412109375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-8.034912109375" z="11.232421875" a="0" y="-1.115478515625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-9.057861328125" z="11.6181640625" a="0" y="-0.979156494140625"/>
+	<child type="Land_Wreck_hb01_aban2_blue" spawnsecondary="false" x="6.6513671875" z="1.357421875" a="0" y="-1.201416015625"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-2.521484375" z="12.388671875" a="0" y="-1.4483642578125"/>
+	<child type="StaticObj_Forest_DeerSkeleton_Full" spawnsecondary="false" x="0.306396484375" z="5.068359375" a="0" y="-1.350250244140625"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="-3.42431640625" z="3.1181640625" a="0" y="-1.507476806640625"/>
+	<child type="StaticObj_Dead_pile1" spawnsecondary="false" x="-5.20947265625" z="9.6962890625" a="0" y="-1.250885009765625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="2.4537353515625" z="10.244140625" a="0" y="-1.475311279296875"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-3.1123046875" z="1.884765625" a="0" y="-1.5643310546875"/>
+	<child type="SewingKit" spawnsecondary="false" x="1.356689453125" z="9.220703125" a="0" y="-1.646575927734375"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-6.848876953125" z="-2.009765625" a="0" y="-1.563995361328125"/>
+</group>
+<group name="EventPack_Hunter_BrenaNorth">
+	<child type="StaticObj_PartyTent" deloot="0" x="0" z="0" a="272.9798889160156" y="0"/>
+	<child type="StaticObj_Slum_Roof6" spawnsecondary="false" x="-2.1513671875" z="9.224609375" a="219.61349487304688" y="1.857208251953125"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="-1.55517578125" z="-0.0458984375" a="219.61349487304688" y="-0.3060302734375"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="-0.0576171875" z="-0.517578125" a="181.7011260986328" y="-0.279510498046875"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="1.23876953125" z="-0.5751953125" a="184.83255004882812" y="-0.218292236328125"/>
+	<child type="StaticObj_Misc_Table_Camp" spawnsecondary="false" x="-1.28125" z="8.8935546875" a="293.92977142333984" y="0.699432373046875"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="-2.2763671875" z="6.783203125" a="219.61349487304688" y="0.582672119140625"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="-3.43798828125" z="9.48828125" a="307.11371994018555" y="0.8251953125"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="-0.35986328125" z="10.3408203125" a="347.359375" y="0.803009033203125"/>
+	<child type="StaticObj_Misc_Table_Camp_Small" spawnsecondary="false" x="-1.55615234375" z="2.103515625" a="219.61349487304688" y="0.034912109375"/>
+	<child type="StaticObj_Garbage_Ground_6m_NoLC" spawnsecondary="false" x="0.662109375" z="1.1767578125" a="219.6134033203125" y="-0.304351806640625"/>
+	<child type="StaticObj_Garbage_Ground_6m_NoLC" spawnsecondary="false" x="-2.04150390625" z="7.81640625" a="219.61349487304688" y="0.203033447265625"/>
+	<child type="StaticObj_Garbage_Pile7" spawnsecondary="false" x="-4.15380859375" z="6.7236328125" a="219.61349487304688" y="0.66876220703125"/>
+	<child type="TripwireTrap" spawnsecondary="false" x="2.2685546875" z="1.7109375" a="219.6134033203125" y="-0.070465087890625"/>
+	<child type="TripwireTrap" spawnsecondary="false" x="-3.0322265625" z="7.724609375" a="219.61349487304688" y="0.354736328125"/>
+	<child type="BakedBeansCan_Opened" spawnsecondary="false" x="-0.42236328125" z="1.6416015625" a="219.61349487304688" y="-0.364654541015625"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="-2.400390625" z="6.091796875" a="219.61349487304688" y="0.013458251953125"/>
+	<child type="Lunchmeat_Opened" spawnsecondary="false" x="-4.0390625" z="8.20703125" a="219.61349487304688" y="0.252227783203125"/>
+	<child type="SKS_Green" spawnsecondary="false" x="2.17578125" z="-0.1875" a="219.61349487304688" y="-0.347320556640625"/>
+	<child type="SKS_Black" spawnsecondary="false" x="-2.45654296875" z="11.404296875" a="219.61349487304688" y="0.3155517578125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="-1.5224609375" z="2.2314453125" a="219.61349487304688" y="-0.208953857421875"/>
+	<child type="AmmoBox_762x39_20Rnd" spawnsecondary="false" x="-1.55126953125" z="1.9599609375" a="219.61349487304688" y="-0.22265625"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-1.83154296875" z="8.3388671875" a="219.61349487304688" y="0.327484130859375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-2.72265625" z="7.3798828125" a="219.61349487304688" y="0.293060302734375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-0.1328125" z="9.8701171875" a="219.61349487304688" y="0.254241943359375"/>
+	<child type="KukriKnife" spawnsecondary="false" x="-0.74609375" z="1.8046875" a="219.61349487304688" y="-0.26708984375"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="-0.7607421875" z="9.3515625" a="219.61349487304688" y="0.30169677734375"/>
+	<child type="FangeKnife" spawnsecondary="false" x="-4.3701171875" z="7.1416015625" a="219.61349487304688" y="0.191314697265625"/>
+	<child type="HunterPants_Autumn" spawnsecondary="false" x="-2.962890625" z="2.34765625" a="219.61349487304688" y="-0.329376220703125"/>
+	<child type="HunterPants_Summer" spawnsecondary="false" x="1.60595703125" z="-1.2060546875" a="219.61349487304688" y="-0.507232666015625"/>
+	<child type="HuntingJacket_Summer" spawnsecondary="false" x="0.6708984375" z="10.380859375" a="219.61349487304688" y="0.080291748046875"/>
+	<child type="HuntingJacket_Autumn" spawnsecondary="false" x="0.3916015625" z="0.013671875" a="219.6134033203125" y="-0.466766357421875"/>
+	<child type="HuntingBag" spawnsecondary="false" x="-4.52490234375" z="8.744140625" a="219.61349487304688" y="0.28271484375"/>
+	<child type="JungleBoots_Beige" spawnsecondary="false" x="-2.79736328125" z="0.978515625" a="219.61349487304688" y="-0.451141357421875"/>
+	<child type="JungleBoots_Brown" spawnsecondary="false" x="-0.8955078125" z="9.9345703125" a="219.61349487304688" y="0.158843994140625"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="0.5068359375" z="4.2158203125" a="219.61349487304688" y="0.024810791015625"/>
+	<child type="DeadChicken_Brown" spawnsecondary="false" x="-0.8154296875" z="7.3740234375" a="219.61363220214844" y="0.24169921875"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="-2.064453125" z="2.982421875" a="219.6134033203125" y="-0.16851806640625"/>
+	<child type="Firewood" spawnsecondary="false" x="1.525390625" z="5.263671875" a="219.61349487304688" y="0.021820068359375"/>
+	<child type="Firewood" spawnsecondary="false" x="1.6435546875" z="5.1611328125" a="219.61349487304688" y="0.0133056640625"/>
+	<child type="Firewood" spawnsecondary="false" x="1.73876953125" z="5.03515625" a="219.61349487304688" y="0.00579833984375"/>
+	<child type="Matchbox" spawnsecondary="false" x="1.19189453125" z="5.283203125" a="219.61349487304688" y="0.203094482421875"/>
+	<child type="Land_Wreck_S1023_Beige" spawnsecondary="false" x="11.8193359375" z="-4.75" a="0" y="0.2916259765625"/>
+	<child type="Land_Wreck_hb01_aban2_green" spawnsecondary="false" x="7.76123046875" z="8.0751953125" a="46.598609924316406" y="1.19024658203125"/>
+	<child type="AKS74U_Green" spawnsecondary="false" x="5.919921875" z="9.0205078125" a="0" y="0.793212890625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="5.5751953125" z="9.41796875" a="0" y="0.631866455078125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="6.9658203125" z="5.9130859375" a="0" y="0.321014404296875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="6.2451171875" z="9.3955078125" a="0" y="0.621337890625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="2.650390625" z="1.13671875" a="0" y="-0.130126953125"/>
+	<child type="SewingKit" spawnsecondary="false" x="-0.04150390625" z="12.5751953125" a="0" y="0.753326416015625"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-1.5126953125" z="-1.0048828125" a="0" y="-0.5552978515625"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-1.1591796875" z="5.1044921875" a="0" y="0.0146484375"/>
+</group>
+<group name="EventPack_Hunter_GieraltowEast">
+	<child type="StaticObj_Misc_WoodTable_Outdoor" deloot="0" x="0" z="0" a="0" y="0"/>
+	<child type="StaticObj_Misc_WoodTable_Outdoor" spawnsecondary="false" x="3.0361328125" z="0.6865234375" a="0" y="0.442230224609375"/>
+	<child type="PartyTent_LunaparkPlacing" spawnsecondary="false" x="3.2958984375" z="7.124267578125" a="0" y="-0.2609100341796875"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="4.2783203125" z="8.396728515625" a="0" y="-0.13079833984375"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="4.3662109375" z="5.6015625" a="0" y="-0.2126922607421875"/>
+	<child type="StaticObj_Furniture_student_chair" spawnsecondary="false" x="2.4599609375" z="8.31640625" a="0" y="-0.4228668212890625"/>
+	<child type="StaticObj_Misc_Chair_Plastic" spawnsecondary="false" x="2.658203125" z="5.551025390625" a="224.2681884765625" y="0.11846923828125"/>
+	<child type="StaticObj_Furniture_kitchen_table_a" spawnsecondary="false" x="2.443359375" z="7.196044921875" a="0" y="-0.4888153076171875"/>
+	<child type="Firewood" spawnsecondary="false" x="1.650390625" z="2.6689453125" a="0" y="0.1406097412109375"/>
+	<child type="Firewood" spawnsecondary="false" x="1.3896484375" z="2.753173828125" a="0" y="0.068511962890625"/>
+	<child type="Firewood" spawnsecondary="false" x="1.564453125" z="2.885498046875" a="0" y="0.1056976318359375"/>
+	<child type="Firewood" spawnsecondary="false" x="2.8701171875" z="3.520751953125" a="0" y="0.04254150390625"/>
+	<child type="GiftBox_Large_3" spawnsecondary="false" x="3.2421875" z="9.08740234375" a="0" y="-0.2138671875"/>
+	<child type="GiftBox_Small_3" spawnsecondary="false" x="3.3603515625" z="1.854248046875" a="0" y="-0.0259552001953125"/>
+	<child type="GiftBox_Small_2" spawnsecondary="false" x="-0.966796875" z="0.322998046875" a="0" y="-0.40106201171875"/>
+	<child type="GiftBox_Medium_3" spawnsecondary="false" x="2.28125" z="5.21435546875" a="0" y="-0.14361572265625"/>
+	<child type="PetrolLighter" spawnsecondary="false" x="1.4169921875" z="2.25634765625" a="0" y="-0.054595947265625"/>
+	<child type="FishNetTrap" spawnsecondary="false" x="1.0390625" z="6.36572265625" a="0" y="-0.289520263671875"/>
+	<child type="FishingRod" spawnsecondary="false" x="0.611328125" z="1.9990234375" a="0" y="-0.039398193359375"/>
+	<child type="BoneHook" spawnsecondary="false" x="0.990234375" z="4.879638671875" a="0" y="-0.3290252685546875"/>
+	<child type="Hook" spawnsecondary="false" x="1.0732421875" z="5.795166015625" a="0" y="-0.322601318359375"/>
+	<child type="Hook" spawnsecondary="false" x="0.994140625" z="2.70849609375" a="0" y="-0.159881591796875"/>
+	<child type="Carp" spawnsecondary="false" x="0.5615234375" z="6.892822265625" a="0" y="-0.4333953857421875"/>
+	<child type="Carp" spawnsecondary="false" x="-0.2919921875" z="2.38720703125" a="0" y="-0.305328369140625"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="0.599609375" z="3.86083984375" a="0" y="-0.252777099609375"/>
+</group>
+<group name="EventPack_Hunter_Hrud">
+	<child type="Land_Wreck_Caravan_MGreen" deloot="0" x="0" z="0" a="85.8498306274414" y="0"/>
+	<child type="Land_Wreck_S1023_Blue" spawnsecondary="false" x="-9.740234375" z="0.8857421875" a="144.50656127929688" y="-1.3304595947265625"/>
+	<child type="Land_Wreck_S1023_Beige" spawnsecondary="false" x="-15.060546875" z="8.4111328125" a="99.87921905517578" y="-1.5280609130859375"/>
+	<child type="StaticObj_Misc_WoodTable_Outdoor" spawnsecondary="false" x="-4.74267578125" z="8.501953125" a="0" y="-1.6183013916015625"/>
+	<child type="StaticObj_Misc_WoodTable_Outdoor" spawnsecondary="false" x="-0.8193359375" z="8.0087890625" a="0" y="-1.420196533203125"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-1.9189453125" z="2.810546875" a="0" y="-1.8433685302734375"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-12.1708984375" z="7.671875" a="0" y="-2.4122161865234375"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-2.8994140625" z="9.2509765625" a="0" y="-1.9916534423828125"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="-2.0556640625" z="7.9580078125" a="0" y="-1.9267578125"/>
+	<child type="BakedBeansCan_Opened" spawnsecondary="false" x="-8.52685546875" z="1.3251953125" a="0" y="-2.1348419189453125"/>
+	<child type="StaticObj_Furniture_foldingbed_matress" spawnsecondary="false" x="1.0517578125" z="3.42578125" a="0" y="-2.0715789794921875"/>
+	<child type="StaticObj_Furniture_foldingbed_matress" spawnsecondary="false" x="-0.13916015625" z="3.400390625" a="0" y="-2.1356353759765625"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-0.26904296875" z="3.6474609375" a="153.6537322998047" y="-1.557464599609375"/>
+	<child type="StaticObj_Forest_DeerSkeleton_Pile" spawnsecondary="false" x="-9.0595703125" z="6.6435546875" a="0" y="-2.18994140625"/>
+	<child type="StaticObj_Garbage_Container_Paper" spawnsecondary="false" x="-5.77099609375" z="1.654296875" a="0" y="-1.2093963623046875"/>
+	<child type="StaticObj_Garbage_Ground_6m_NoLC" spawnsecondary="false" x="-4.73388671875" z="3.1845703125" a="0" y="-1.9951019287109375"/>
+	<child type="StaticObj_Garbage_GroundSq_5m_NoLC" spawnsecondary="false" x="-2.615234375" z="5.837890625" a="0" y="-1.93133544921875"/>
+	<child type="SKS_Green" spawnsecondary="false" x="2.32861328125" z="3.1796875" a="0" y="-1.5942535400390625"/>
+	<child type="bldr_prop_AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="0.9560546875" z="1.6064453125" a="0" y="-1.6548004150390625"/>
+	<child type="bldr_AmmoBox_762x39_20Rnd" spawnsecondary="false" x="-2.39013671875" z="9.1650390625" a="0" y="-1.9401702880859375"/>
+	<child type="bldr_prop_AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-9.8095703125" z="3.3349609375" a="0" y="-2.207122802734375"/>
+	<child type="FishingRod" spawnsecondary="false" x="-3.7861328125" z="1.64453125" a="0" y="-1.77459716796875"/>
+	<child type="BoneHook" spawnsecondary="false" x="-2.4189453125" z="6.9560546875" a="0" y="-1.9598388671875"/>
+	<child type="Hook" spawnsecondary="false" x="0.85791015625" z="7.7900390625" a="0" y="-1.773040771484375"/>
+	<child type="Hook" spawnsecondary="false" x="-6.015625" z="2.78515625" a="0" y="-2.0282440185546875"/>
+	<child type="BoneHook" spawnsecondary="false" x="-2.49169921875" z="4.712890625" a="0" y="-1.9269866943359375"/>
+	<child type="HikingBoots_Brown" spawnsecondary="false" x="-7.4931640625" z="1.4833984375" a="0" y="-2.0599212646484375"/>
+	<child type="ZmijovkaCap_Green" spawnsecondary="false" x="-6.42138671875" z="7.7744140625" a="0" y="-2.125274658203125"/>
+	<child type="RadarCap_Green" spawnsecondary="false" x="1.08935546875" z="5.19921875" a="0" y="-1.6996002197265625"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="-1.115234375" z="4.060546875" a="0" y="-1.6857452392578125"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="-12.45751953125" z="9.6572265625" a="0" y="-2.409698486328125"/>
+	<child type="HuntingBag" spawnsecondary="false" x="2.197265625" z="2.078125" a="0" y="-1.5278778076171875"/>
+</group>
+<group name="EventPack_Hunter_Jantar">
+	<child type="StaticObj_Misc_WoodTable_Indoor" deloot="0" x="0" z="0" a="0" y="0"/>
+	<child type="StaticObj_Misc_WoodTable_Indoor" spawnsecondary="false" x="3.868408203125" z="-3.1953125" a="0" y="-0.0313873291015625"/>
+	<child type="StaticObj_Misc_WoodTable_Indoor" spawnsecondary="false" x="3.503173828125" z="1.3310546875" a="0" y="-0.170654296875"/>
+	<child type="StaticObj_Misc_Sunshade" spawnsecondary="false" x="-0.0927734375" z="-0.140625" a="0" y="0.4066009521484375"/>
+	<child type="StaticObj_Misc_Sunshade" spawnsecondary="false" x="3.85107421875" z="-3.341796875" a="0" y="0.3366851806640625"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="0.0966796875" z="-2.7255859375" a="0" y="-0.1625823974609375"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="4.061279296875" z="-4.6279296875" a="0" y="-0.353271484375"/>
+	<child type="HuntingJacket_Brown" spawnsecondary="false" x="-3.412109375" z="6.1572265625" a="0" y="-0.2997894287109375"/>
+	<child type="FishNetTrap" spawnsecondary="false" x="1.22412109375" z="-4.70703125" a="0" y="-0.213470458984375"/>
+	<child type="SmallFishTrap" spawnsecondary="false" x="0.90234375" z="-1.375" a="0" y="-0.2793731689453125"/>
+	<child type="FishingRod" spawnsecondary="false" x="2.34765625" z="0.935546875" a="0" y="-0.3091888427734375"/>
+	<child type="Hook" spawnsecondary="false" x="0.79052734375" z="-2.619140625" a="0" y="-0.3074493408203125"/>
+	<child type="Hook" spawnsecondary="false" x="2.182373046875" z="-0.287109375" a="0" y="-0.3875732421875"/>
+	<child type="Hook" spawnsecondary="false" x="3.56396484375" z="-4.7421875" a="0" y="-0.3597259521484375"/>
+	<child type="Mackerel" spawnsecondary="false" x="0.834228515625" z="-4.341796875" a="0" y="-0.2072296142578125"/>
+	<child type="Mackerel" spawnsecondary="false" x="3.856201171875" z="-4.939453125" a="0" y="-0.2904815673828125"/>
+	<child type="Machete" spawnsecondary="false" x="-1.423828125" z="-1.8837890625" a="0" y="-0.2033538818359375"/>
+	<child type="SewingKit" spawnsecondary="false" x="4.921630859375" z="2.7099609375" a="0" y="-0.588714599609375"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="0.717529296875" z="-6.67578125" a="0" y="-0.3488006591796875"/>
+	<child type="SKS" spawnsecondary="false" x="1.841552734375" z="2.41015625" a="0" y="-0.4242706298828125"/>
+	<child type="AmmoBox_762x39_20Rnd" spawnsecondary="false" x="2.677978515625" z="-3.8447265625" a="0" y="-0.337127685546875"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-0.19189453125" z="-1.326171875" a="0" y="-0.2896728515625"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="2.577392578125" z="0.177734375" a="0" y="-0.410858154296875"/>
+	<child type="BalaclavaMask_Green" spawnsecondary="false" x="0.55029296875" z="-5.380859375" a="0" y="-0.27911376953125"/>
+	<child type="WoolGloves_Tan" spawnsecondary="false" x="4.78662109375" z="-4.18359375" a="0" y="-0.3610687255859375"/>
+	<child type="HikingBoots_Brown" spawnsecondary="false" x="1.724365234375" z="6.078125" a="0" y="-0.3841552734375"/>
+</group>
+<group name="EventPack_Hunter_NadborSouth">
+	<child type="StaticObj_Misc_WoodTable_Outdoor" deloot="0" x="0" z="0" a="295.65513610839844" y="0"/>
+	<child type="MediumTentPlacing" spawnsecondary="false" x="5.9423828125" z="-1.07080078125" a="0" y="-0.584564208984375"/>
+	<child type="MediumTent_GreenPlacing" spawnsecondary="false" x="11.67041015625" z="-4.743408203125" a="84.44247436523438" y="-0.803955078125"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="3.6787109375" z="-2.32763671875" a="0" y="-0.605010986328125"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="9.3623046875" z="-5.889892578125" a="0" y="-0.744781494140625"/>
+	<child type="BakedBeansCan_Opened" spawnsecondary="false" x="1.5966796875" z="-0.396484375" a="0" y="-0.537384033203125"/>
+	<child type="FishNetTrap" spawnsecondary="false" x="1.36376953125" z="-5.71337890625" a="0" y="-0.437744140625"/>
+	<child type="FishingRod" spawnsecondary="false" x="7.7470703125" z="-4.830078125" a="0" y="-0.553955078125"/>
+	<child type="Carp" spawnsecondary="false" x="1.14453125" z="-2.376220703125" a="0" y="-0.39813232421875"/>
+	<child type="Carp" spawnsecondary="false" x="8.98974609375" z="-3.927001953125" a="0" y="-0.518829345703125"/>
+	<child type="Hook" spawnsecondary="false" x="1.923828125" z="-3.05859375" a="0" y="-0.523284912109375"/>
+	<child type="Hook" spawnsecondary="false" x="8.24365234375" z="-5.822998046875" a="0" y="-0.6895751953125"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="4.22802734375" z="-0.8173828125" a="0" y="-0.544952392578125"/>
+	<child type="SewingKit" spawnsecondary="false" x="6.32275390625" z="-2.224609375" a="0" y="-0.570709228515625"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-0.07958984375" z="-1.4169921875" a="0" y="-0.379241943359375"/>
+	<child type="Firewood" spawnsecondary="false" x="3.9931640625" z="-6.968505859375" a="0" y="-0.462799072265625"/>
+	<child type="Firewood" spawnsecondary="false" x="4.28125" z="-7.114501953125" a="0" y="-0.473175048828125"/>
+	<child type="Firewood" spawnsecondary="false" x="4.44091796875" z="-7.343505859375" a="0" y="-0.4815673828125"/>
+	<child type="GiftBox_Large_1" spawnsecondary="false" x="2.2685546875" z="-0.306396484375" a="0" y="-0.532684326171875"/>
+	<child type="GiftBox_Medium_3" spawnsecondary="false" x="11.26953125" z="-7.36083984375" a="0" y="-0.7562255859375"/>
+	<child type="GiftBox_Large_1" spawnsecondary="false" x="-1.76220703125" z="0.81884765625" a="0" y="-0.327789306640625"/>
+	<child type="PetrolLighter" spawnsecondary="false" x="4.16259765625" z="-5.524169921875" a="0" y="-0.61090087890625"/>
+	<child type="StaticObj_Garbage_GroundSq_5m_NoLC" spawnsecondary="false" x="3.55419921875" z="-5.3525390625" a="0" y="-0.583740234375"/>
+	<child type="SV98" spawnsecondary="false" x="6.1279296875" z="-4.68310546875" a="0" y="-0.517608642578125"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="2.845703125" z="-3.005615234375" a="0" y="-0.58599853515625"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="7.80078125" z="-2.745849609375" a="0" y="-0.57904052734375"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="-0.6923828125" z="-1.48779296875" a="0" y="-0.324737548828125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="4.20947265625" z="-2.93212890625" a="0" y="-0.542327880859375"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="6.4052734375" z="-5.703369140625" a="0" y="-0.579925537109375"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="9.76318359375" z="-3.554931640625" a="0" y="-0.5616455078125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="4.7490234375" z="-5.99365234375" a="0" y="-0.5347900390625"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="4.935546875" z="-3.947998046875" a="0" y="-0.540618896484375"/>
+</group>
+<group name="EventPack_Hunter_NorthEastPond">
+	<child type="StaticObj_PartyTent" deloot="0" x="0" z="0" a="53.366458892822266" y="0"/>
+	<child type="StaticObj_Slum_Roof6" spawnsecondary="false" x="7.693359375" z="-5.939453125" a="0" y="1.510467529296875"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="1.12890625" z="1.0146484375" a="0" y="0.639892578125"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="-0.3134765625" z="0.435546875" a="322.08849334716797" y="0.5278778076171875"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="-1.33984375" z="-0.3359375" a="325.21984481811523" y="0.4347686767578125"/>
+	<child type="StaticObj_Misc_Table_Camp" spawnsecondary="false" x="6.6630859375" z="-6.0234375" a="74.31645965576172" y="0.848907470703125"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="6.0859375" z="-3.7646484375" a="0" y="0.7328033447265625"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="8.7158203125" z="-5.0986328125" a="87.50054168701172" y="0.8170013427734375"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="6.88671875" z="-7.7265625" a="127.74663543701172" y="0.6685028076171875"/>
+	<child type="StaticObj_Misc_Table_Camp_Small" spawnsecondary="false" x="2.529296875" z="-0.6083984375" a="0" y="0.5772705078125"/>
+	<child type="StaticObj_Garbage_Ground_6m_NoLC" spawnsecondary="false" x="0.2294921875" z="-1.2880859375" a="0" y="0.2614593505859375"/>
+	<child type="StaticObj_Garbage_Ground_6m_NoLC" spawnsecondary="false" x="6.5556640625" z="-4.666015625" a="0" y="0.5061798095703125"/>
+	<child type="StaticObj_Garbage_Pile7" spawnsecondary="false" x="7.4951171875" z="-2.5341796875" a="0" y="0.9029541015625"/>
+	<child type="TripwireTrap" spawnsecondary="false" x="-0.66796875" z="-2.736328125" a="0" y="0.3905792236328125"/>
+	<child type="TripwireTrap" spawnsecondary="false" x="7.2509765625" z="-3.9794921875" a="0" y="0.7766876220703125"/>
+	<child type="FishingRod" spawnsecondary="false" x="2.1357421875" z="1.1064453125" a="0" y="0.62567138671875"/>
+	<child type="FishingRod" spawnsecondary="false" x="5.3525390625" z="-5.7978515625" a="0" y="0.5453643798828125"/>
+	<child type="Hook" spawnsecondary="false" x="1.087890625" z="-2.021484375" a="0" y="0.298309326171875"/>
+	<child type="Hook" spawnsecondary="false" x="5.7783203125" z="-6.3583984375" a="0" y="0.4290924072265625"/>
+	<child type="Hook" spawnsecondary="false" x="6.107421875" z="-5.845703125" a="0" y="0.4630126953125"/>
+	<child type="BakedBeansCan_Opened" spawnsecondary="false" x="1.3662109375" z="-0.9384765625" a="0" y="0.3351898193359375"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="5.7294921875" z="-3.107421875" a="0" y="0.5224151611328125"/>
+	<child type="Lunchmeat_Opened" spawnsecondary="false" x="8.341796875" z="-3.6904296875" a="0" y="0.6699981689453125"/>
+	<child type="SKS_Green" spawnsecondary="false" x="-1.80078125" z="-1.189453125" a="0" y="0.2439422607421875"/>
+	<child type="SKS_Black" spawnsecondary="false" x="9.162109375" z="-7.1728515625" a="0" y="0.6150054931640625"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="2.5966796875" z="-0.701171875" a="0" y="0.488922119140625"/>
+	<child type="AmmoBox_762x39_20Rnd" spawnsecondary="false" x="2.4541015625" z="-0.47265625" a="0" y="0.436309814453125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="6.732421875" z="-5.216796875" a="0" y="0.5293731689453125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="6.806640625" z="-3.9033203125" a="0" y="0.580169677734375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="6.396484375" z="-7.482421875" a="0" y="0.4562530517578125"/>
+	<child type="KukriKnife" spawnsecondary="false" x="1.6962890625" z="-0.8779296875" a="0" y="0.4401092529296875"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="6.55078125" z="-6.669921875" a="0" y="0.5449676513671875"/>
+	<child type="FangeKnife" spawnsecondary="false" x="7.908203125" z="-2.6748046875" a="0" y="0.7375640869140625"/>
+	<child type="HunterPants_Autumn" spawnsecondary="false" x="3.736328125" z="0.0986328125" a="0" y="0.654388427734375"/>
+	<child type="HunterPants_Summer" spawnsecondary="false" x="-2.0302734375" z="-0.05859375" a="0" y="0.3616485595703125"/>
+	<child type="HuntingJacket_Summer" spawnsecondary="false" x="6.0986328125" z="-8.3642578125" a="0" y="0.44146728515625"/>
+	<child type="HuntingJacket_Autumn" spawnsecondary="false" x="-0.3134765625" z="-0.2177734375" a="0" y="0.3206634521484375"/>
+	<child type="HuntingBag" spawnsecondary="false" x="9.052734375" z="-3.7998046875" a="0" y="0.76519775390625"/>
+	<child type="JungleBoots_Beige" spawnsecondary="false" x="2.7353515625" z="1.0498046875" a="0" y="0.5580596923828125"/>
+	<child type="JungleBoots_Brown" spawnsecondary="false" x="7.01953125" z="-7.021484375" a="0" y="0.511932373046875"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="2.28515625" z="-3.5283203125" a="0" y="0.387481689453125"/>
+	<child type="DeadChicken_Brown" spawnsecondary="false" x="5.3291015625" z="-5.115234375" a="0" y="0.4966888427734375"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="3.462890625" z="-0.947265625" a="0" y="0.5403900146484375"/>
+	<child type="Firewood" spawnsecondary="false" x="2.1767578125" z="-4.982421875" a="0" y="0.3004150390625"/>
+	<child type="Firewood" spawnsecondary="false" x="2.0234375" z="-4.9794921875" a="0" y="0.291900634765625"/>
+	<child type="Firewood" spawnsecondary="false" x="1.8671875" z="-4.9384765625" a="0" y="0.2844085693359375"/>
+	<child type="Matchbox" spawnsecondary="false" x="2.4501953125" z="-4.7880859375" a="0" y="0.40771484375"/>
+</group>
+<group name="EventPack_Hunter_PolanaEast">
+	<child type="Land_Wreck_Caravan_MGreen" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="88.74890899658203" y="0"/>
+	<child type="Land_Wreck_Caravan_WBrown" spawnsecondary="false" x="-13.379150390625" z="-10.6466064453125" a="183.51556396484375" y="0.25177001953125"/>
+	<child type="StaticObj_Slum_Roof5" spawnsecondary="false" x="-11.87744140625" z="0.05224609375" a="268.84751892089844" y="-0.2322998046875"/>
+	<child type="StaticObj_Furniture_sofa_leather_old" spawnsecondary="false" x="-15.896728515625" z="0.30126953125" a="86.9318618774414" y="-1.21722412109375"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="-8.49169921875" z="-1.7154541015625" a="0" y="-1.421875"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="-11.127685546875" z="-1.916015625" a="299.40884017944336" y="-1.421875"/>
+	<child type="StaticObj_Furniture_lobby_chair" spawnsecondary="false" x="-14.433349609375" z="2.34326171875" a="3.6841394901275635" y="-1.59185791015625"/>
+	<child type="StaticObj_Misc_Chair_Plastic" spawnsecondary="false" x="-12.858154296875" z="0.710205078125" a="183.6841583251953" y="-1.15966796875"/>
+	<child type="StaticObj_Misc_Chair_Plastic" spawnsecondary="false" x="-13.3134765625" z="-1.7220458984375" a="265.9969787597656" y="-1.20977783203125"/>
+	<child type="StaticObj_Furniture_lobby_chair" spawnsecondary="false" x="-14.981689453125" z="-1.625732421875" a="215.80018615722656" y="-1.60430908203125"/>
+	<child type="StaticObj_Furniture_foldingbed_open" spawnsecondary="false" x="-8.566650390625" z="0.88671875" a="0" y="-1.5667724609375"/>
+	<child type="StaticObj_Furniture_foldingbed_open" spawnsecondary="false" x="-10.69921875" z="0.788330078125" a="273.40330505371094" y="-1.5667724609375"/>
+	<child type="StaticObj_Furniture_table_DZ" spawnsecondary="false" x="-14.279052734375" z="0.551513671875" a="0" y="-1.33831787109375"/>
+	<child type="StaticObj_Misc_WoodTable_Outdoor" spawnsecondary="false" x="0.805908203125" z="-8.4832763671875" a="0" y="-1.431640625"/>
+	<child type="StaticObj_Misc_WoodTable_Outdoor" spawnsecondary="false" x="0.620849609375" z="-12.8134765625" a="0" y="-1.3612060546875"/>
+	<child type="StaticObj_Misc_Sunshade" spawnsecondary="false" x="0.72900390625" z="-8.30810546875" a="0" y="-0.6181640625"/>
+	<child type="StaticObj_Misc_Sunshade" spawnsecondary="false" x="0.525390625" z="-12.8348388671875" a="0" y="-0.4912109375"/>
+	<child type="StaticObj_Garbage_Container_Plastic" spawnsecondary="false" x="-8.961669921875" z="-12.5267333984375" a="0" y="-1.14715576171875"/>
+	<child type="StaticObj_Garbage_Container2_Open" spawnsecondary="false" x="-9.624267578125" z="-10.4415283203125" a="0" y="-1.1982421875"/>
+	<child type="StaticObj_Garbage_Pile6" spawnsecondary="false" x="-5.117431640625" z="-16.2730712890625" a="0" y="-1.60858154296875"/>
+	<child type="StaticObj_Garbage_Pile7" spawnsecondary="false" x="0.291015625" z="-2.3192138671875" a="0" y="-1.17352294921875"/>
+	<child type="StaticObj_Garbage_GroundSq_5m_NoLC" spawnsecondary="false" x="-1.442626953125" z="-6.68017578125" a="0" y="-1.6031494140625"/>
+	<child type="StaticObj_Garbage_Ground_6m_NoLC" spawnsecondary="false" x="-10.212890625" z="-2.3668212890625" a="0" y="-1.53717041015625"/>
+	<child type="StaticObj_Garbage_GroundSq_3m" spawnsecondary="false" x="-7.118896484375" z="-9.745849609375" a="0" y="-0.90728759765625"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="-2.90234375" z="-10.9354248046875" a="0" y="-1.4049072265625"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="-15.196044921875" z="-4.27392578125" a="0" y="-1.4906005859375"/>
+	<child type="HunterPants_Autumn" spawnsecondary="false" x="-10.42919921875" z="-8.2208251953125" a="0" y="-1.391845703125"/>
+	<child type="HuntingJacket_Autumn" spawnsecondary="false" x="2.57568359375" z="-9.6776123046875" a="0" y="-1.56048583984375"/>
+	<child type="HuntingOptic" spawnsecondary="false" x="-3.366943359375" z="-12.3564453125" a="0" y="-1.20672607421875"/>
+	<child type="Ammo_HuntingBolt" spawnsecondary="false" x="-3.793701171875" z="-8.1141357421875" a="0" y="-1.569580078125"/>
+	<child type="Ammo_HuntingBolt" spawnsecondary="false" x="3.467041015625" z="-10.0299072265625" a="0" y="-1.5968017578125"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="-8.881591796875" z="-5.0548095703125" a="0" y="-1.4368896484375"/>
+	<child type="HuntingBag" spawnsecondary="false" x="-2.107666015625" z="-1.673583984375" a="0" y="-1.55120849609375"/>
+	<child type="MilitaryBoots_Beige" spawnsecondary="false" x="-4.658447265625" z="-10.152099609375" a="0" y="-1.04052734375"/>
+	<child type="MilitaryBoots_Redpunk" spawnsecondary="false" x="-4.198486328125" z="-1.821044921875" a="0" y="-1.08856201171875"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-11.47705078125" z="-6.9996337890625" a="0" y="-1.47198486328125"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-3.55126953125" z="-12.10986328125" a="0" y="-1.47198486328125"/>
+	<child type="SewingKit" spawnsecondary="false" x="-13.95068359375" z="-3.1090087890625" a="0" y="-1.50115966796875"/>
+	<child type="SewingKit" spawnsecondary="false" x="3.21826171875" z="-1.7452392578125" a="0" y="-1.642578125"/>
+	<child type="ElectronicRepairKit" spawnsecondary="false" x="-6.977783203125" z="-1.0626220703125" a="0" y="-1.50018310546875"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="-6.07080078125" z="-6.559326171875" a="0" y="-1.2520751953125"/>
+	<child type="DeadChicken_White" spawnsecondary="false" x="-12.580078125" z="-3.807861328125" a="0" y="-1.2557373046875"/>
+	<child type="BookDeadSouls" spawnsecondary="false" x="-10.1015625" z="0.0350341796875" a="0" y="-1.49652099609375"/>
+	<child type="StaticObj_Dead_pile4" spawnsecondary="false" x="-6.622802734375" z="-15.1495361328125" a="0" y="-1.3927001953125"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-12.2138671875" z="-2.3638916015625" a="0" y="-1.53155517578125"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-10.226806640625" z="2.4395751953125" a="0" y="-1.53167724609375"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-15.4375" z="-2.350830078125" a="0" y="-1.53173828125"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-0.37646484375" z="-11.1044921875" a="0" y="-1.58233642578125"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-1.30810546875" z="-10.335693359375" a="0" y="-1.579833984375"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="0.43310546875" z="-5.887939453125" a="0" y="-1.6842041015625"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="-9.0556640625" z="-0.3408203125" a="0" y="-1.52545166015625"/>
+	<child type="Rope" spawnsecondary="false" x="-7.11083984375" z="-7.565185546875" a="0" y="-1.4532470703125"/>
+	<child type="TunaCan_Opened" spawnsecondary="false" x="-7.6015625" z="-0.381591796875" a="0" y="-1.53424072265625"/>
+	<child type="Lunchmeat_Opened" spawnsecondary="false" x="1.975341796875" z="-11.4781494140625" a="0" y="-1.55859375"/>
+	<child type="Firewood" spawnsecondary="false" x="-4.105224609375" z="-5.0018310546875" a="0" y="-1.40789794921875"/>
+	<child type="FireworksLauncher" spawnsecondary="false" x="-11.28857421875" z="-8.9683837890625" a="0" y="-1.4844970703125"/>
+	<child type="Firewood" spawnsecondary="false" x="-4.096435546875" z="-5.9072265625" a="0" y="-1.407958984375"/>
+	<child type="Firewood" spawnsecondary="false" x="-3.675048828125" z="-5.4849853515625" a="0" y="-1.41473388671875"/>
+	<child type="FireworksLauncher" spawnsecondary="false" x="3.970703125" z="-1.006103515625" a="0" y="-1.60650634765625"/>
+	<child type="GiftBox_Medium_4" spawnsecondary="false" x="-3.26806640625" z="-14.7269287109375" a="0" y="-1.5045166015625"/>
+	<child type="GiftBox_Medium_1" spawnsecondary="false" x="-11.54931640625" z="-11.86669921875" a="0" y="-1.5045166015625"/>
+	<child type="GiftBox_Large_2" spawnsecondary="false" x="-7.399658203125" z="0.9473876953125" a="0" y="-1.4813232421875"/>
+	<child type="GiftBox_Large_2" spawnsecondary="false" x="-16.920654296875" z="-4.5421142578125" a="0" y="-1.48126220703125"/>
+	<child type="GiftBox_Small_3" spawnsecondary="false" x="1.3486328125" z="-10.7628173828125" a="0" y="-1.59814453125"/>
+	<child type="GiftBox_Medium_3" spawnsecondary="false" x="-1.323974609375" z="-1.402099609375" a="0" y="-1.6536865234375"/>
+	<child type="SV98" spawnsecondary="false" x="-9.48828125" z="-7.75" a="0" y="-1.3902587890625"/>
+	<child type="Mag_SV98_10Rnd" spawnsecondary="false" x="-2.271240234375" z="-2.4666748046875" a="0" y="-1.6507568359375"/>
+	<child type="Mag_SV98_10Rnd" spawnsecondary="false" x="-4.978271484375" z="-14.24072265625" a="0" y="-1.53509521484375"/>
+	<child type="Mag_SV98_10Rnd" spawnsecondary="false" x="-7.87255859375" z="-11.3712158203125" a="0" y="-1.53509521484375"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="-4.885498046875" z="-10.3690185546875" a="0" y="-1.4532470703125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="-6.74951171875" z="-2.6680908203125" a="0" y="-1.4532470703125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="2.583740234375" z="-1.680419921875" a="0" y="-1.6177978515625"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="0.708251953125" z="-10.4642333984375" a="0" y="-1.53131103515625"/>
+	<child type="AK74_Green" spawnsecondary="false" x="1.0703125" z="-11.1689453125" a="0" y="-1.38714599609375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-2.357177734375" z="-11.601806640625" a="0" y="-1.49603271484375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-9.943115234375" z="-8.9825439453125" a="0" y="-1.48480224609375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-3.9169921875" z="-13.158203125" a="0" y="-1.5089111328125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="0.4130859375" z="-10.9774169921875" a="0" y="-1.57440185546875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-2.803466796875" z="-10.078857421875" a="0" y="-1.537353515625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-12.91796875" z="-5.549072265625" a="0" y="-1.50897216796875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-4.828857421875" z="-2.2447509765625" a="0" y="-1.53472900390625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-0.312255859375" z="-3.047607421875" a="0" y="-1.6898193359375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="0.22119140625" z="-3.3175048828125" a="0" y="-1.70343017578125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="2.64208984375" z="-2.1849365234375" a="0" y="-1.66656494140625"/>
+	<child type="ACOGOptic" spawnsecondary="false" x="-8.064208984375" z="-9.4267578125" a="0" y="-1.46270751953125"/>
+	<child type="KobraOptic" spawnsecondary="false" x="-0.94970703125" z="-11.402099609375" a="0" y="-1.53546142578125"/>
+	<child type="Battery9V" spawnsecondary="false" x="-1.27880859375" z="-10.6746826171875" a="0" y="-1.56549072265625"/>
+	<child type="Battery9V" spawnsecondary="false" x="-5.508544921875" z="-8.8951416015625" a="0" y="-1.52313232421875"/>
+	<child type="Battery9V" spawnsecondary="false" x="-11.023193359375" z="-3.4681396484375" a="0" y="-1.52227783203125"/>
+</group>
+<group name="EventPack_Hunter_RodzanicaWest">
+	<child type="StaticObj_Slum_Roof4" deloot="0" x="0" z="0" a="0" y="0"/>
+	<child type="StaticObj_Misc_Table_Camp" spawnsecondary="false" x="0.154296875" z="0.476318359375" a="0" y="-0.90191650390625"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="2.1416015625" z="0.939697265625" a="0" y="-0.669586181640625"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="-0.6572265625" z="2.1767578125" a="0" y="-0.727874755859375"/>
+	<child type="StaticObj_Misc_Chair_Plastic" spawnsecondary="false" x="-2.0400390625" z="0.239990234375" a="0" y="-0.880706787109375"/>
+	<child type="StaticObj_Misc_WoodenCrate" spawnsecondary="false" x="0.6650390625" z="-1.478759765625" a="94.56145477294922" y="-1.135894775390625"/>
+	<child type="StaticObj_Misc_WoodenCrate_5x" spawnsecondary="false" x="6.0751953125" z="12.5166015625" a="0" y="0.6055908203125"/>
+	<child type="StaticObj_Garbage_Container2_Open" spawnsecondary="false" x="-3.5771484375" z="13.642578125" a="0" y="0.09368896484375"/>
+	<child type="StaticObj_Garbage_Pile7" spawnsecondary="false" x="2.373046875" z="12.3427734375" a="0" y="0.1988525390625"/>
+	<child type="StaticObj_Garbage_GroundSq_5m_NoLC" spawnsecondary="false" x="0.9580078125" z="10.8837890625" a="0" y="-0.397979736328125"/>
+	<child type="StaticObj_Garbage_Ground_6m" spawnsecondary="false" x="0.6494140625" z="1.623046875" a="0" y="-0.298187255859375"/>
+	<child type="StaticObj_Garbage_Bin" spawnsecondary="false" x="0.9892578125" z="2.998779296875" a="0" y="-0.479736328125"/>
+	<child type="StaticObj_Misc_Pallets1" spawnsecondary="false" x="4.8369140625" z="3.326416015625" a="0" y="-0.53253173828125"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-4.8408203125" z="0.078857421875" a="0" y="-0.86944580078125"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-4.9208984375" z="1.873046875" a="0" y="-0.869415283203125"/>
+	<child type="StaticObj_Forest_DeerSkeleton_Pile" spawnsecondary="false" x="-2.9296875" z="3.91162109375" a="0" y="-1.0772705078125"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-1.041015625" z="14.31591796875" a="0" y="-0.280426025390625"/>
+	<child type="AugShort" spawnsecondary="false" x="-2.6884765625" z="12.086181640625" a="0" y="-0.08416748046875"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="3.6708984375" z="10.92822265625" a="0" y="-0.34033203125"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="-2.9638671875" z="2.93701171875" a="0" y="-1.232330322265625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="0.7646484375" z="13.43359375" a="0" y="-0.327606201171875"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-1.8818359375" z="3.495361328125" a="0" y="-1.07965087890625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="1.5224609375" z="1.968017578125" a="0" y="-1.04010009765625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-1.869140625" z="2.390380859375" a="0" y="-1.192138671875"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="-1.8251953125" z="1.981201171875" a="0" y="-0.996429443359375"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="-2.5029296875" z="-0.514892578125" a="0" y="-1.02728271484375"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="-0.9453125" z="-1.066162109375" a="0" y="-1.281890869140625"/>
+	<child type="Firewood" spawnsecondary="false" x="1.6513671875" z="5.97998046875" a="0" y="-0.580230712890625"/>
+	<child type="Firewood" spawnsecondary="false" x="1.3583984375" z="6.179443359375" a="0" y="-0.599334716796875"/>
+	<child type="Firewood" spawnsecondary="false" x="1.822265625" z="6.305419921875" a="0" y="-0.534454345703125"/>
+	<child type="SeaChest" spawnsecondary="false" x="-4.0966796875" z="9.72509765625" a="0" y="-0.879119873046875"/>
+	<child type="CZ527_Camo" spawnsecondary="false" x="0.923828125" z="4.9013671875" a="0" y="-0.62353515625"/>
+	<child type="Mag_CZ527_5rnd" spawnsecondary="false" x="-0.44921875" z="4.837158203125" a="0" y="-0.9923095703125"/>
+	<child type="CZ550" spawnsecondary="false" x="5.703125" z="9.8994140625" a="0" y="-0.185546875"/>
+	<child type="Mag_CZ550_10rnd" spawnsecondary="false" x="3.9248046875" z="9.902099609375" a="0" y="-0.356109619140625"/>
+	<child type="Mag_CZ550_10rnd" spawnsecondary="false" x="5.2978515625" z="10.6005859375" a="0" y="-0.337921142578125"/>
+	<child type="AmmoBox_308Win_20Rnd" spawnsecondary="false" x="5.5224609375" z="11.482421875" a="0" y="-0.260162353515625"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="2.0751953125" z="9.88720703125" a="0" y="-0.30841064453125"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="-1.4296875" z="3.292236328125" a="0" y="-1.04815673828125"/>
+	<child type="AmmoBox_308Win_20Rnd" spawnsecondary="false" x="-3.900390625" z="12.46240234375" a="0" y="-0.7152099609375"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-1.228515625" z="12.620849609375" a="0" y="-0.396270751953125"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-5" z="3.0869140625" a="0" y="-1.167449951171875"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="2.822265625" z="11.226318359375" a="0" y="-0.33489990234375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-0.4345703125" z="2.996826171875" a="0" y="-1.065521240234375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="1.908203125" z="3.63671875" a="0" y="-0.862457275390625"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="-1.1630859375" z="10.717041015625" a="0" y="-0.5902099609375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-2.263671875" z="1.1337890625" a="0" y="-1.29119873046875"/>
+	<child type="HuntingOptic" spawnsecondary="false" x="-0.42578125" z="13.30859375" a="0" y="-0.04730224609375"/>
+	<child type="HuntingOptic" spawnsecondary="false" x="-0.3203125" z="4.10107421875" a="0" y="-0.66009521484375"/>
+	<child type="ElectronicRepairKit" spawnsecondary="false" x="1.66796875" z="3.85107421875" a="0" y="-0.8519287109375"/>
+</group>
+<group name="EventPack_Hunter_Roztoka">
+	<child type="StaticObj_Misc_Table_Camp" deloot="0" x="0" z="0" a="258.1344223022461" y="0"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="-0.0078125" z="-1.572265625" a="228.63595581054688" y="0.0590362548828125"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="-0.13232421875" z="1.6181640625" a="0" y="0.0110321044921875"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="-0.76904296875" z="-0.10693359375" a="275.90635681152344" y="0.3706512451171875"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="0.1181640625" z="-4.95703125" a="0" y="-0.0148468017578125"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="1.1015625" z="-5.15283203125" a="0" y="-0.158966064453125"/>
+	<child type="MediumTent_GreenPlacing" spawnsecondary="false" x="-2.55712890625" z="-3.5087890625" a="241.89069366455078" y="0.4712982177734375"/>
+	<child type="MediumTent_GreenPlacing" spawnsecondary="false" x="-3.80859375" z="2.7236328125" a="298.6417007446289" y="0.16796875"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-2.19189453125" z="-3.013671875" a="258.47505950927734" y="0.10394287109375"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-1.67822265625" z="1.63330078125" a="341.30487632751465" y="0.1240692138671875"/>
+	<child type="BakedBeansCan_Opened" spawnsecondary="false" x="-1.52099609375" z="-2.7958984375" a="0" y="-0.01263427734375"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="-2.6884765625" z="1.8203125" a="0" y="-0.0482940673828125"/>
+	<child type="SpaghettiCan_Opened" spawnsecondary="false" x="0.642578125" z="-1.39599609375" a="0" y="-0.25823974609375"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-1.00341796875" z="-2.48779296875" a="0" y="-0.045501708984375"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-1.12060546875" z="-0.7861328125" a="0" y="-0.07342529296875"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="-2.42138671875" z="1.54443359375" a="0" y="-0.0647125244140625"/>
+	<child type="AKS74U_Green" spawnsecondary="false" x="-0.05908203125" z="-3.3056640625" a="0" y="0.0936126708984375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="1.130859375" z="-3.83642578125" a="0" y="-0.2474212646484375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-1.177734375" z="1.51806640625" a="0" y="-0.067657470703125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-0.64697265625" z="-4.111328125" a="0" y="-0.0058441162109375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="0.16455078125" z="-2.22607421875" a="0" y="-0.1508331298828125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-1.47314453125" z="1.01611328125" a="0" y="-0.0712127685546875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="0.6083984375" z="-0.41064453125" a="0" y="-0.255279541015625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-2.591796875" z="1.05322265625" a="0" y="-0.027252197265625"/>
+	<child type="FishingRod" spawnsecondary="false" x="1.095703125" z="0.09521484375" a="0" y="-0.2236480712890625"/>
+	<child type="Hook" spawnsecondary="false" x="0.85791015625" z="-2.6875" a="0" y="-0.2555694580078125"/>
+	<child type="Hook" spawnsecondary="false" x="-0.22607421875" z="-2.66796875" a="0" y="-0.0860137939453125"/>
+	<child type="Hook" spawnsecondary="false" x="-1.7626953125" z="0.74951171875" a="0" y="-0.059417724609375"/>
+	<child type="Carp" spawnsecondary="false" x="0.75537109375" z="-3.24462890625" a="0" y="-0.1429901123046875"/>
+	<child type="Carp" spawnsecondary="false" x="-1.77099609375" z="-0.8408203125" a="0" y="0.057373046875"/>
+	<child type="Firewood" spawnsecondary="false" x="-3.26123046875" z="-0.6181640625" a="0" y="0.1559906005859375"/>
+	<child type="Firewood" spawnsecondary="false" x="-3.05419921875" z="-0.62939453125" a="0" y="0.14801025390625"/>
+	<child type="Firewood" spawnsecondary="false" x="-2.912109375" z="-0.69580078125" a="0" y="0.1435546875"/>
+	<child type="Paper" spawnsecondary="false" x="-2.58349609375" z="-0.03466796875" a="0" y="0.0555572509765625"/>
+	<child type="Paper" spawnsecondary="false" x="-2.38232421875" z="-1.38427734375" a="0" y="0.0735015869140625"/>
+	<child type="PetrolLighter" spawnsecondary="false" x="-2.294921875" z="-0.56689453125" a="0" y="-0.0428009033203125"/>
+	<child type="GiftBox_Medium_4" spawnsecondary="false" x="-0.81201171875" z="-4.2236328125" a="0" y="0.007354736328125"/>
+	<child type="GiftBox_Large_3" spawnsecondary="false" x="-1.4287109375" z="2.76953125" a="0" y="-0.0760040283203125"/>
+</group>
+<group name="EventPack_Hunter_SitnikSouth">
+	<child type="StaticObj_Slum_Roof4" deloot="0" x="0" z="0" a="147.42510986328125" y="0"/>
+	<child type="StaticObj_Misc_Table_Camp" spawnsecondary="false" x="0.271484375" z="0.599609375" a="147.42510986328125" y="-1.0391845703125"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="-1.587890625" z="0.2646484375" a="281.2106475830078" y="-0.9524078369140625"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="1.5751953125" z="1.36328125" a="14.533394813537598" y="-0.9524078369140625"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="0.521484375" z="-1.4482421875" a="147.42510986328125" y="-0.8108978271484375"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="1.5166015625" z="-0.4970703125" a="147.42510986328125" y="-0.9524078369140625"/>
+	<child type="StaticObj_Garbage_Pile8" spawnsecondary="false" x="-2.494140625" z="-2.072265625" a="253.1411361694336" y="-0.620147705078125"/>
+	<child type="StaticObj_Garbage_GroundSq_5m" spawnsecondary="false" x="3.84375" z="-5.5283203125" a="147.48170471191406" y="1.66552734375"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="5.3662109375" z="1.9697265625" a="147.42510986328125" y="-1.507354736328125"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="3.79296875" z="1.541015625" a="147.42510986328125" y="-1.2345428466796875"/>
+	<child type="SKS_Black" spawnsecondary="false" x="5.4970703125" z="-0.087890625" a="151.1023712158203" y="-1.4647369384765625"/>
+	<child type="AmmoBox_762x39_20Rnd" spawnsecondary="false" x="2.9443359375" z="3.4697265625" a="151.10240173339844" y="-1.4656219482421875"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="4.8076171875" z="0.8427734375" a="151.1023712158203" y="-1.3824462890625"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="2.8359375" z="4.146484375" a="151.10240173339844" y="-1.4656219482421875"/>
+	<child type="Land_Wreck_S1023_Blue" spawnsecondary="false" x="12.7275390625" z="10.001953125" a="303.02376556396484" y="-2.290283203125"/>
+	<child type="Land_Wreck_Caravan_WGreen" spawnsecondary="false" x="9.1748046875" z="2.1826171875" a="147.42510986328125" y="-0.54254150390625"/>
+	<child type="Land_Wreck_Tractor_DE" spawnsecondary="false" x="11.078125" z="-4.6572265625" a="2.763861656188965" y="-0.5522613525390625"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="7.8828125" z="-6.7080078125" a="147.42510986328125" y="-1.1475372314453125"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="-0.140625" z="-4.119140625" a="147.42514038085938" y="-0.7033233642578125"/>
+	<child type="HikingBoots_Brown" spawnsecondary="false" x="3.412109375" z="-7.55078125" a="147.42510986328125" y="-1.1536865234375"/>
+	<child type="AKS74U_Green" spawnsecondary="false" x="9.2763671875" z="-6.0322265625" a="153.868408203125" y="-1.2205963134765625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="9.224609375" z="-5.3740234375" a="333.8664207458496" y="-1.237335205078125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="9.55859375" z="-5.9345703125" a="333.86641693115234" y="-1.237335205078125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="9.650390625" z="-5.2421875" a="153.86834716796875" y="-1.2355194091796875"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="8.5810546875" z="-5.427734375" a="333.8664207458496" y="-1.2251434326171875"/>
+	<child type="Land_Wreck_hb01_aban2_blue" spawnsecondary="false" x="17.6357421875" z="0.236328125" a="182.80850219726562" y="-1.5219268798828125"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="8.46875" z="-1.5625" a="147.4251251220703" y="-1.52313232421875"/>
+	<child type="StaticObj_Forest_DeerSkeleton_Full" spawnsecondary="false" x="4.572265625" z="-8.1015625" a="327.48314666748047" y="0.118133544921875"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="5.029296875" z="-1.607421875" a="147.42510986328125" y="-1.5005035400390625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="3.447265625" z="-9.9541015625" a="151.10240173339844" y="-1.1315155029296875"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="4.109375" z="-0.74609375" a="151.10240173339844" y="-1.4557342529296875"/>
+	<child type="SewingKit" spawnsecondary="false" x="3.8115234375" z="-8.5029296875" a="331.1047840118408" y="-1.1335601806640625"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="6.6171875" z="2.6328125" a="151.10240173339844" y="-1.8061981201171875"/>
+</group>
+<group name="EventPack_Hunter_TarnowSouth">
+	<child type="StaticObj_Misc_Table_Camp" deloot="0" x="0" z="0" a="0" y="0"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="1.7041015625" z="-0.505859375" a="131.75205993652344" y="0.0617523193359375"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="0.5419921875" z="-1.111328125" a="175.29689025878906" y="0.024749755859375"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="-1.654296875" z="0.220703125" a="272.8840103149414" y="0.2391204833984375"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="0.03125" z="1.0009765625" a="0" y="0.128997802734375"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="-1.2607421875" z="-1.3271484375" a="0" y="-0.27117919921875"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="-5.1767578125" z="-0.4580078125" a="0" y="-0.2239990234375"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="-7.0400390625" z="-1.51953125" a="131.11666870117188" y="-0.354217529296875"/>
+	<child type="StaticObj_Stretcher_Green_Folded" spawnsecondary="false" x="-6.150390625" z="0.20703125" a="0" y="-0.20989990234375"/>
+	<child type="StaticObj_Slum_Roof3" spawnsecondary="false" x="-0.005859375" z="-0.4619140625" a="0" y="0.2266082763671875"/>
+	<child type="StaticObj_Slum_Roof4" spawnsecondary="false" x="-5.791015625" z="-0.677734375" a="0" y="0.3038177490234375"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="-3.9931640625" z="0.4404296875" a="0" y="0.01214599609375"/>
+	<child type="Land_Wreck_Caravan_MRust" spawnsecondary="false" x="-2.849609375" z="-7.244140625" a="97.2464828491211" y="0.4703826904296875"/>
+	<child type="Land_Wreck_Tractor_DE" spawnsecondary="false" x="5.390625" z="-8.7734375" a="0" y="-0.532928466796875"/>
+	<child type="Land_Wreck_hb01_aban2_blue" spawnsecondary="false" x="-12.505859375" z="-1.7900390625" a="239.28223419189453" y="0.340545654296875"/>
+	<child type="Land_Wreck_hb01_aban2_white" spawnsecondary="false" x="-13.5546875" z="0.8271484375" a="235.8331527709961" y="0.6990966796875"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="3.8544921875" z="-5.7724609375" a="0" y="-1.18438720703125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-10.89453125" z="0.37890625" a="0" y="-0.142181396484375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-2.1845703125" z="3.734375" a="0" y="0.3401336669921875"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="0.42578125" z="3.1611328125" a="0" y="0.2775421142578125"/>
+	<child type="HunterPants_Brown" spawnsecondary="false" x="1.416015625" z="-5.5966796875" a="0" y="-1.0218658447265625"/>
+	<child type="HuntingJacket_Brown" spawnsecondary="false" x="-7.248046875" z="1.578125" a="0" y="0.0303802490234375"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="-9.4794921875" z="-0.8076171875" a="0" y="-0.2999267578125"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="-0.150390625" z="3.8349609375" a="0" y="0.478363037109375"/>
+	<child type="HuntingBag" spawnsecondary="false" x="-5.189453125" z="-5.2666015625" a="0" y="-0.9212188720703125"/>
+	<child type="HuntingVest" spawnsecondary="false" x="-1.73046875" z="1.2919921875" a="0" y="0.0660552978515625"/>
+	<child type="HikingBoots_Brown" spawnsecondary="false" x="-6.9140625" z="-5.177734375" a="0" y="-0.9729156494140625"/>
+	<child type="SewingKit" spawnsecondary="false" x="-1.28125" z="-5.294921875" a="0" y="-1.0487213134765625"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-8.978515625" z="2.1240234375" a="0" y="0.1340179443359375"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-11.9130859375" z="0.0341796875" a="0" y="-0.1663970947265625"/>
+	<child type="PaddedGloves_Threat" spawnsecondary="false" x="-5.6025390625" z="1.2939453125" a="0" y="-0.0237884521484375"/>
+	<child type="DuctTape" spawnsecondary="false" x="-7.5859375" z="-5.740234375" a="0" y="-1.046844482421875"/>
+	<child type="RabbitLegMeat" spawnsecondary="false" x="-4.8916015625" z="2.4267578125" a="0" y="0.1652374267578125"/>
+	<child type="RabbitSnareTrap" spawnsecondary="false" x="-9.6572265625" z="0.71484375" a="0" y="0.0379486083984375"/>
+	<child type="DeadRabbit" spawnsecondary="false" x="-6.8388671875" z="0.26171875" a="0" y="0.08135986328125"/>
+	<child type="SKS_Green" spawnsecondary="false" x="-2.73046875" z="3.466796875" a="0" y="0.3227386474609375"/>
+</group>
+<group name="EventPack_Hunter_ZalesieEast">
+	<child type="SodaCan_Kvass" deloot="0" x="0" z="0" a="0" y="0"/>
+	<child type="BearSteakMeat" spawnsecondary="false" x="3.4727783203125" z="1.67919921875" a="0" y="0.121063232421875"/>
+	<child type="BearSteakMeat" spawnsecondary="false" x="8.5311279296875" z="5.8955078125" a="0" y="0.148468017578125"/>
+	<child type="SewingKit" spawnsecondary="false" x="9.9193115234375" z="0.42138671875" a="0" y="0.13037109375"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-4.589111328125" z="-7.142578125" a="0" y="0.08013916015625"/>
+	<child type="JungleBoots_Brown" spawnsecondary="false" x="-6.6427001953125" z="-1.0712890625" a="0" y="-0.022705078125"/>
+	<child type="RadarCap_Brown" spawnsecondary="false" x="-4.6376953125" z="2.51513671875" a="0" y="0.004608154296875"/>
+	<child type="RadarCap_Green" spawnsecondary="false" x="7.6021728515625" z="6.869140625" a="0" y="0.091217041015625"/>
+	<child type="PaddedGloves_Threat" spawnsecondary="false" x="3.5738525390625" z="0.61083984375" a="0" y="0.076324462890625"/>
+	<child type="PaddedGloves_Brown" spawnsecondary="false" x="2.95166015625" z="5.40185546875" a="0" y="0.0531005859375"/>
+	<child type="Winchester70_Green" spawnsecondary="false" x="2.725830078125" z="-3.74072265625" a="0" y="1.09234619140625"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="-5.568115234375" z="-2.1923828125" a="0" y="0.78057861328125"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="7.7755126953125" z="4.4736328125" a="0" y="0.88482666015625"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="1.37255859375" z="-0.3359375" a="0" y="0.8509521484375"/>
+	<child type="Mag_308WinSnaploader_2Rnd" spawnsecondary="false" x="3.25048828125" z="-5.1728515625" a="0" y="0.842376708984375"/>
+	<child type="HuntingOptic" spawnsecondary="false" x="10.2064208984375" z="4.6904296875" a="0" y="1.1510009765625"/>
+	<child type="Land_Wreck_Caravan_MGreen" spawnsecondary="false" x="5.0382080078125" z="8.943359375" a="82.92005920410156" y="1.725372314453125"/>
+	<child type="Land_Wreck_Caravan_WBrown" spawnsecondary="false" x="-7.5972900390625" z="3.1015625" a="330.690710067749" y="1.604339599609375"/>
+	<child type="StaticObj_Misc_Table_Camp" spawnsecondary="false" x="0.9390869140625" z="0.93798828125" a="0" y="0.17889404296875"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="0.5714111328125" z="-0.41748046875" a="0" y="0.225738525390625"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="0.0654296875" z="2.224609375" a="0" y="0.208282470703125"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="1.27197265625" z="2.3125" a="0" y="0.22039794921875"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="-0.98828125" z="0.72265625" a="275.6375961303711" y="0.204620361328125"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="3.854248046875" z="5.8837890625" a="0" y="0.24560546875"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="5.175048828125" z="5.95751953125" a="0" y="0.25830078125"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="6.510498046875" z="5.9736328125" a="0" y="0.26690673828125"/>
+	<child type="StaticObj_Stretcher_Green_Folded" spawnsecondary="false" x="0.5496826171875" z="6.5234375" a="0" y="-0.0111083984375"/>
+	<child type="StaticObj_Slum_Roof2" spawnsecondary="false" x="5.2548828125" z="6.279296875" a="352.5311646461487" y="1.176239013671875"/>
+	<child type="StaticObj_Slum_Roof6" spawnsecondary="false" x="1.2032470703125" z="-0.5791015625" a="265.2240905761719" y="1.878875732421875"/>
+	<child type="Land_Wreck_hb01_aban2_police" spawnsecondary="false" x="-4.8785400390625" z="-17.7783203125" a="265.0758972167969" y="1.037445068359375"/>
+	<child type="Land_Wreck_hb01_aban2_blue" spawnsecondary="false" x="-5.922119140625" z="-6.7880859375" a="0" y="0.7979736328125"/>
+	<child type="StaticObj_Wreck_Trailer_Flat_DE" spawnsecondary="false" x="12.146240234375" z="-0.3427734375" a="15.582563400268555" y="1.2103271484375"/>
+	<child type="Land_wreck_truck01_aban2_green_DE" spawnsecondary="false" x="6.8695068359375" z="-8.39111328125" a="46.663753509521484" y="0.05322265625"/>
+	<child type="StaticObj_Misc_WoodPile_Forest1" spawnsecondary="false" x="6.926513671875" z="-0.56494140625" a="0" y="0.454437255859375"/>
+	<child type="StaticObj_Misc_WoodPile_Forest2" spawnsecondary="false" x="9.851318359375" z="1.9208984375" a="0" y="0.45538330078125"/>
+	<child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="-0.6580810546875" z="-3.83251953125" a="0" y="0.161102294921875"/>
+	<child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="1.662841796875" z="6.0751953125" a="0" y="0.139251708984375"/>
+	<child type="HunterPants_Summer" spawnsecondary="false" x="-4.900634765625" z="-3.41064453125" a="0" y="0.109039306640625"/>
+	<child type="HuntingJacket_Summer" spawnsecondary="false" x="6.5927734375" z="3.8134765625" a="0" y="0.0870361328125"/>
+	<child type="HuntingJacket_Autumn" spawnsecondary="false" x="-5.241943359375" z="6.09033203125" a="0" y="-0.042205810546875"/>
+	<child type="HunterPants_Autumn" spawnsecondary="false" x="8.9700927734375" z="-9.40625" a="0" y="0.344085693359375"/>
+	<child type="HuntingBag" spawnsecondary="false" x="8.4810791015625" z="7.6455078125" a="0" y="0.15814208984375"/>
+	<child type="Ammo_HuntingBolt" spawnsecondary="false" x="-1.3734130859375" z="-7.08349609375" a="0" y="0.046051025390625"/>
+	<child type="Ammo_HuntingBolt" spawnsecondary="false" x="2.7696533203125" z="-0.25439453125" a="0" y="0.022247314453125"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="-1.0609130859375" z="-0.76220703125" a="0" y="0.0853271484375"/>
+	<child type="Crossbow" spawnsecondary="false" x="-3.696044921875" z="2.458984375" a="0" y="0.148773193359375"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="2.5740966796875" z="6.41162109375" a="0" y="0.063751220703125"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="2.4351806640625" z="0.9833984375" a="0" y="0.023193359375"/>
+</group>
+<group name="EventPack_Hunter_ZalesieSouth">
+	<child type="Land_Wreck_Caravan_MGreen" deloot="0" x="0" z="0" a="25.782001495361328" y="0"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="1.4993896484375" z="-2.452392578125" a="294.3433532714844" y="-1.54412841796875"/>
+	<child type="StaticObj_Stretcher_Green" spawnsecondary="false" x="2.35986328125" z="-1.511474609375" a="291.8963088989258" y="-1.479827880859375"/>
+	<child type="StaticObj_Stretcher_Red" spawnsecondary="false" x="2.919189453125" z="-0.359619140625" a="296.88505935668945" y="-1.563812255859375"/>
+	<child type="StaticObj_Slum_Roof2" spawnsecondary="false" x="2.4119873046875" z="-1.30810546875" a="298.47564697265625" y="-0.57061767578125"/>
+	<child type="StaticObj_Misc_Table_Camp" spawnsecondary="false" x="7.992431640625" z="-1.956298828125" a="0" y="-1.948150634765625"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="7.4866943359375" z="-1.07080078125" a="0" y="-1.874359130859375"/>
+	<child type="StaticObj_Misc_Chair_Camp1" spawnsecondary="false" x="8.5718994140625" z="-1.099609375" a="0" y="-1.96160888671875"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="9.9150390625" z="-2.71044921875" a="73.28781127929688" y="-2.053924560546875"/>
+	<child type="StaticObj_Misc_Chair_Camp2" spawnsecondary="false" x="6.729248046875" z="-3.154541015625" a="229.0635528564453" y="-1.79473876953125"/>
+	<child type="GiftBox_Small_1" spawnsecondary="false" x="3.7783203125" z="-3.947265625" a="0" y="-1.7738037109375"/>
+	<child type="GiftBox_Medium_1" spawnsecondary="false" x="4.2532958984375" z="0.529541015625" a="0" y="-1.871002197265625"/>
+	<child type="GiftBox_Large_2" spawnsecondary="false" x="8.989990234375" z="-3.20703125" a="0" y="-2.12969970703125"/>
+	<child type="StaticObj_Furniture_box_c_multi" spawnsecondary="false" x="6.961181640625" z="0.094970703125" a="0" y="-2.022003173828125"/>
+	<child type="StaticObj_Misc_BoxWooden" spawnsecondary="false" x="1.0029296875" z="-4.104248046875" a="0" y="-1.383636474609375"/>
+	<child type="SeaChest" spawnsecondary="false" x="10.0616455078125" z="-0.747314453125" a="0" y="-2.2901611328125"/>
+	<child type="Winchester70_Black" spawnsecondary="false" x="5.5968017578125" z="-1.269287109375" a="0" y="-1.673126220703125"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="4.782470703125" z="-4.67333984375" a="0" y="-1.720550537109375"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="9.25341796875" z="0.796630859375" a="0" y="-2.278778076171875"/>
+	<child type="HuntingBag" spawnsecondary="false" x="1.494384765625" z="-4.83984375" a="0" y="-1.504241943359375"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="6.54638671875" z="-5.251708984375" a="0" y="-1.8880615234375"/>
+	<child type="Ammo_HuntingBolt" spawnsecondary="false" x="4.7718505859375" z="-3.134033203125" a="0" y="-1.88153076171875"/>
+	<child type="HuntingVest" spawnsecondary="false" x="4.251220703125" z="-1.62353515625" a="0" y="-1.725860595703125"/>
+	<child type="HuntingOptic" spawnsecondary="false" x="8.0743408203125" z="-3.071533203125" a="0" y="-1.792572021484375"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="3.5531005859375" z="-2.82470703125" a="0" y="-1.71575927734375"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="3.370849609375" z="2.010498046875" a="0" y="-1.828338623046875"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="8.8616943359375" z="-0.34375" a="0" y="-2.164093017578125"/>
+	<child type="AmmoBox_308WinTracer_20Rnd" spawnsecondary="false" x="10.1253662109375" z="-1.747802734375" a="0" y="-2.22442626953125"/>
+	<child type="Crossbow" spawnsecondary="false" x="8.1248779296875" z="4.16796875" a="0" y="-2.204925537109375"/>
+	<child type="Land_Wreck_hb01_aban2_green" spawnsecondary="false" x="12.8526611328125" z="-2.380126953125" a="0" y="-1.763671875"/>
+	<child type="SpaghettiCan_Opened" spawnsecondary="false" x="7.639892578125" z="-2.8857421875" a="0" y="-2.07659912109375"/>
+	<child type="BakedBeansCan_Opened" spawnsecondary="false" x="5.396484375" z="-0.317626953125" a="0" y="-1.95697021484375"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="2.540283203125" z="1.17431640625" a="0" y="-1.810089111328125"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="2.276123046875" z="-4.38330078125" a="0" y="-1.672210693359375"/>
+</group>
+
+
+

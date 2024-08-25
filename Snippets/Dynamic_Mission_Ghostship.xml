@@ -1,0 +1,105 @@
+Dynamic Mission - Ghostship
+On a foggy night near Solnichniy's coast, locals whispered of the ghostly freight ship. Its silhouette loomed in the mist, eerily silent and aglow with a spectral light. Fishermen claimed to hear phantom horns and see fleeting shadows on deck. As dawn approached, the ship vanished without a trace, leaving only chills and hushed rumors behind.
+
+Mission: Locate the ship / light up the fireworks
+
+
+
+
+<!-- Event -->
+<!-- Mission Ghostship-->
+<event name="StaticMissionGhostship">
+	<nominal>1</nominal>
+	<min>0</min>
+	<max>0</max>
+	<lifetime>1800</lifetime>
+	<restock>0</restock>
+	<saferadius>100</saferadius>
+	<distanceradius>10</distanceradius>
+	<cleanupradius>1000</cleanupradius>
+	<!-- <secondary>InfectedArmy</secondary> -->
+	<flags deletable="1" init_random="0" remove_damaged="0"/>
+	<position>fixed</position>
+	<limit>child</limit>
+	<active>1</active>
+	<children/>
+</event>
+
+
+<!-- Spawn -->
+<!-- Mission Ghostship-->
+<event name="StaticMissionGhostship">
+	<zone smin="0" smax="0" dmin="0" dmax="0" r="20" />
+	<pos x="13726.5263671875" z="6525.99609375" a="0" y="7.494515419006348" group="MissionGhostship"/>
+</event>
+
+
+<!-- Group -->
+<!-- Mission Ghostship-->
+<group name="MissionGhostship">
+	<child type="Land_Ship_Big_FrontA" deloot="0" x="0" z="0" a="265.45384216308594" y="0"/>
+	<child type="Land_Ship_Big_FrontB" spawnsecondary="false" x="3.9482421875" z="-19.6708984375" a="265.45384216308594" y="-1.5000038146972656"/>
+	<child type="Land_Ship_Big_BackA" spawnsecondary="false" x="7.904296875" z="-53.56787109375" a="265.4535675048828" y="0"/>
+	<child type="Land_Ship_Big_BackB" spawnsecondary="false" x="8.826171875" z="-73.2646484375" a="265.4536819458008" y="-1.5000038146972656"/>
+	<child type="Land_Ship_Big_Castle" spawnsecondary="false" x="8.171875" z="-61.84130859375" a="265.4535675048828" y="8.649916648864746"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="3.4140625" z="-12.1259765625" a="268.9339294433594" y="-7.782492637634277"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="8.9501953125" z="-20.44091796875" a="268.93497467041016" y="-3.4570541381835938"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="8.974609375" z="-100.43359375" a="266.4349822998047" y="-8.153527736663818"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="2.05078125" z="15.53515625" a="268.93497467041016" y="-0.8834991455078125"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="1.9541015625" z="11.42626953125" a="268.93497467041016" y="-0.9167022705078125"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="10.787109375" z="-42.63134765625" a="268.9339294433594" y="-3.395099639892578"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-3.34375" z="-30.3271484375" a="174.294677734375" y="-7.693305015563965"/>
+	<child type="Land_Container_1Mo_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="9.4443359375" z="-26.19287109375" a="268.93497467041016" y="-3.4570541381835938"/>
+	<child type="BarrelHoles_Red" spawnsecondary="false" x="2.3212890625" z="-59.9033203125" a="0" y="7.920632362365723"/>
+	<child type="Firewood" spawnsecondary="false" x="2.4248046875" z="-61.15234375" a="0" y="8.0519437789917"/>
+	<child type="Paper" spawnsecondary="false" x="1.9755859375" z="-61.2197265625" a="0" y="8.037081718444824"/>
+	<child type="PetrolLighter" spawnsecondary="false" x="1.9619140625" z="-60.72314453125" a="0" y="7.922717094421387"/>
+	<child type="Firewood" spawnsecondary="false" x="2.6279296875" z="-61.15234375" a="0" y="8.0519437789917"/>
+	<child type="Firewood" spawnsecondary="false" x="2.79296875" z="-61.15234375" a="0" y="8.0519437789917"/>
+	<child type="Firewood" spawnsecondary="false" x="2.99609375" z="-61.15234375" a="0" y="8.0519437789917"/>
+	<child type="FoxSteakMeat" spawnsecondary="false" x="2.4921875" z="-60.3701171875" a="0" y="7.942690849304199"/>
+	<child type="FoxSteakMeat" spawnsecondary="false" x="2.3525390625" z="-60.5224609375" a="0" y="7.942690849304199"/>
+	<child type="FoxSteakMeat" spawnsecondary="false" x="2.64453125" z="-60.43359375" a="0" y="7.942690849304199"/>
+	<child type="FoxSteakMeat" spawnsecondary="false" x="2.5048828125" z="-60.5859375" a="0" y="7.942690849304199"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="11.443359375" z="-77.78955078125" a="69.2751693725586" y="2.5564231872558594"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="10.869140625" z="-78.06396484375" a="0" y="2.49948787689209"/>
+	<child type="HuntingJacket_Spring" spawnsecondary="false" x="11.8466796875" z="-78.2197265625" a="0" y="2.544173240661621"/>
+	<child type="RadarCap_Green" spawnsecondary="false" x="12.1396484375" z="-77.55322265625" a="0" y="2.5406389236450195"/>
+	<child type="HikingBoots_Brown" spawnsecondary="false" x="10.21875" z="-77.7255859375" a="0" y="2.538745880126953"/>
+	<child type="MilitaryBelt" spawnsecondary="false" x="10.9462890625" z="-77.46923828125" a="0" y="2.5347652435302734"/>
+	<child type="Canteen" spawnsecondary="false" x="11.2822265625" z="-78.47216796875" a="0" y="2.5995702743530273"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="11.560546875" z="-77.4560546875" a="0" y="2.46505069732666"/>
+	<child type="HuntingVest" spawnsecondary="false" x="11.4404296875" z="-77.90966796875" a="237.25830078125" y="2.5597267150878906"/>
+	<child type="HuntingBag" spawnsecondary="false" x="10.8544921875" z="-79.55615234375" a="0" y="2.4572181701660156"/>
+	<child type="SKS_Black" spawnsecondary="false" x="9.28125" z="-101.609375" a="0" y="-2.7522192001342773"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="9.654296875" z="-101.7685546875" a="0" y="-2.4532289505004883"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="9.466796875" z="-102.37353515625" a="0" y="-2.4378480911254883"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="10.146484375" z="-102.37060546875" a="0" y="-2.639582633972168"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="10.0576171875" z="-103.169921875" a="0" y="-2.85958194732666"/>
+	<child type="SpaghettiCan_Opened" spawnsecondary="false" x="-3.4375" z="-29.642578125" a="0" y="-5.615592956542969"/>
+	<child type="SpaghettiCan_Opened" spawnsecondary="false" x="-4.953125" z="-20.42431640625" a="0" y="-5.3395891189575195"/>
+	<child type="GiftBox_Large_2" spawnsecondary="false" x="8.8857421875" z="22.87158203125" a="0" y="-2.739335060119629"/>
+	<child type="GiftBox_Large_3" spawnsecondary="false" x="8.42578125" z="9.8310546875" a="0" y="-3.094144821166992"/>
+	<child type="GiftBox_Medium_2" spawnsecondary="false" x="1.0087890625" z="-20.052734375" a="0" y="-4.4130859375"/>
+	<child type="GiftBox_Small_3" spawnsecondary="false" x="2.8876953125" z="-24.92236328125" a="0" y="-4.513985633850098"/>
+	<child type="GiftBox_Small_1" spawnsecondary="false" x="-2.2353515625" z="-22.09375" a="0" y="-4.38529109954834"/>
+	<child type="GiftBox_Medium_2" spawnsecondary="false" x="16.041015625" z="-57.24755859375" a="0" y="-2.810190200805664"/>
+	<child type="GiftBox_Small_2" spawnsecondary="false" x="8.29296875" z="-56.609375" a="0" y="-2.6461620330810547"/>
+	<child type="GiftBox_Large_4" spawnsecondary="false" x="12.64453125" z="-55.62353515625" a="0" y="-2.7492237091064453"/>
+	<child type="BandageDressing" spawnsecondary="false" x="18.568359375" z="-94.69775390625" a="0" y="-2.7462711334228516"/>
+	<child type="BandageDressing" spawnsecondary="false" x="19.0390625" z="-94.787109375" a="0" y="-2.4622554779052734"/>
+	<child type="SalineBagIV" spawnsecondary="false" x="19.04296875" z="-93.9921875" a="0" y="-2.568325996398926"/>
+	<child type="VitaminBottle" spawnsecondary="false" x="16.6318359375" z="-93.595703125" a="0" y="-2.376326560974121"/>
+	<child type="PurificationTablets" spawnsecondary="false" x="17.8359375" z="-93.50634765625" a="0" y="-2.761227607727051"/>
+	<child type="Glock19" spawnsecondary="false" x="14.025390625" z="-107.43505859375" a="0" y="-2.8299551010131836"/>
+	<child type="Mag_Glock_15Rnd" spawnsecondary="false" x="14.3984375" z="-106.1943359375" a="0" y="-2.7844839096069336"/>
+	<child type="PlateCarrierHolster_Green" spawnsecondary="false" x="14.9619140625" z="-105.93115234375" a="0" y="-2.8517351150512695"/>
+	<child type="Mag_CLIP9x19_10Rnd" spawnsecondary="false" x="15.1123046875" z="-107.33837890625" a="0" y="-2.8237619400024414"/>
+	<child type="Ammo_9x19" spawnsecondary="false" x="15.560546875" z="-106.74169921875" a="0" y="-2.885735511779785"/>
+	<child type="Ammo_9x19" spawnsecondary="false" x="15.560546875" z="-106.52587890625" a="0" y="-2.885735511779785"/>
+	<child type="WoolGloves_Green" spawnsecondary="false" x="11.6943359375" z="-78.89306640625" a="0" y="2.551405906677246"/>
+	<child type="SodaCan_Cola" spawnsecondary="false" x="5.291015625" z="-58.87548828125" a="0" y="7.996224403381348"/>
+	<child type="SodaCan_Fronta" spawnsecondary="false" x="4.22265625" z="-59.8232421875" a="0" y="7.979313850402832"/>
+	<child type="SodaCan_Kvass" spawnsecondary="false" x="3.9375" z="-59.05859375" a="0" y="7.991131782531738"/>
+	<child type="FireworksLauncher" spawnsecondary="false" x="13.2548828125" z="-59.79638671875" a="0" y="7.935275077819824"/>
+</group>

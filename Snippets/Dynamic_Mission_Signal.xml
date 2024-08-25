@@ -1,0 +1,65 @@
+Dynamic Mission - The Signal
+
+On a foggy night, a mysterious radio signal was received from the southern coast. The transmission, faint but distinct, sounded like Morse code. After careful decoding, the message translated to two sets of numbers: 1213x and 311y. Experts speculated it might be a GPS coordinate. A team of cryptographers and geographers was dispatched to decode the mystery. Analyzing the digits, they identified a possible location near the remote southern isles. With urgency, a search party set off to the coordinates, bracing for what they might discover at the enigmatic source of the transmission. The hunt for answers had begun.
+
+Mission: Find the source of the signal.
+
+
+
+<!-- Event -->
+<!-- Mission Signal -->
+<event name="StaticMissionSignal">
+	<nominal>1</nominal>
+	<min>0</min>
+	<max>0</max>
+	<lifetime>1800</lifetime>
+	<restock>0</restock>
+	<saferadius>100</saferadius>
+	<distanceradius>10</distanceradius>
+	<cleanupradius>500</cleanupradius>
+	<secondary>InfectedSolitude</secondary>
+	<flags deletable="1" init_random="0" remove_damaged="0"/>
+	<position>fixed</position>
+	<limit>child</limit>
+	<active>1</active>
+	<children/>
+</event>
+<!-- Spawn -->
+<!-- Mission Signal -->
+<event name="StaticMissionSignal">
+	<zone smin="0" smax="0" dmin="0" dmax="0" r="10" />
+	<pos x="12171.8994140625" z="2934.3349609375" a="0" y="-1.0634422302246094" group="StaticMissionSignal"/>
+</event>
+<!-- Group -->
+<!-- Mission Signal -->
+<group name="StaticMissionSignal">
+	<child type="StaticObj_Wreck_Ship_Medium_Front" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="116.2764892578125" y="0"/>
+	<child type="SKS_Black" spawnsecondary="false" x="-15.1318359375" z="5.465087890625" a="0" y="3.202791452407837"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="-14.693359375" z="4.938720703125" a="0" y="3.155043601989746"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="-14.814453125" z="5.2900390625" a="0" y="3.083160877227783"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="-14.5458984375" z="5.373779296875" a="0" y="3.0587897300720215"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="-14.3291015625" z="4.942138671875" a="0" y="3.1339480876922607"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="-14.865234375" z="5.177978515625" a="0" y="3.1206610202789307"/>
+	<child type="Ammo_762x39" spawnsecondary="false" x="-14.5966796875" z="5.26171875" a="0" y="3.096289873123169"/>
+	<child type="StaticObj_Misc_Antenna" spawnsecondary="false" x="-28.2763671875" z="17.4931640625" a="0" y="6.6111249923706055"/>
+	<child type="BaseRadio" spawnsecondary="false" x="-28.3251953125" z="17.3330078125" a="12.689517974853516" y="4.298266172409058"/>
+	<child type="GiftBox_Medium_1" spawnsecondary="false" x="-29.640625" z="14.385498046875" a="0" y="5.18369197845459"/>
+	<child type="GiftBox_Medium_2" spawnsecondary="false" x="-25.1953125" z="18.426025390625" a="0" y="3.286625385284424"/>
+	<child type="GiftBox_Large_3" spawnsecondary="false" x="-31.4404296875" z="18.2666015625" a="0" y="4.9115517139434814"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-23.0625" z="11.018310546875" a="216.2409210205078" y="4.2481982707977295"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-28.0927734375" z="17.9755859375" a="292.25684356689453" y="4.174370050430298"/>
+	<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="-22.7958984375" z="15.2783203125" a="202.97142028808594" y="4.129289388656616"/>
+	<child type="StaticObj_Furniture_matress_white_bent" spawnsecondary="false" x="-22.751953125" z="15.5703125" a="24.67223358154297" y="4.036961078643799"/>
+	<child type="QuiltedJacket_Green" spawnsecondary="false" x="-22.9287109375" z="15.23583984375" a="24.153480529785156" y="4.06800651550293"/>
+	<child type="JungleBoots_Beige" spawnsecondary="false" x="-25.0390625" z="16.65966796875" a="0" y="3.6720972061157227"/>
+	<child type="NylonKnifeSheath" spawnsecondary="false" x="-26.3466796875" z="10.774169921875" a="0" y="5.092770099639893"/>
+	<child type="HuntingKnife" spawnsecondary="false" x="-23.25" z="16.533203125" a="0" y="3.271432876586914"/>
+	<child type="MilitaryBelt" spawnsecondary="false" x="-20.7900390625" z="12.379150390625" a="0" y="3.384645462036133"/>
+	<child type="Canteen" spawnsecondary="false" x="-21.2802734375" z="13.474365234375" a="0" y="3.3215155601501465"/>
+	<child type="GiftBox_Small_4" spawnsecondary="false" x="-21.9013671875" z="13.627197265625" a="0" y="3.376523494720459"/>
+	<child type="SpaghettiCan_Opened" spawnsecondary="false" x="-24.0146484375" z="13.0771484375" a="0" y="4.636759996414185"/>
+	<child type="PeachesCan_Opened" spawnsecondary="false" x="-24.052734375" z="13.486328125" a="0" y="4.674482822418213"/>
+	<child type="HunterPants_Spring" spawnsecondary="false" x="-25.05078125" z="14.401123046875" a="0" y="4.6879332065582275"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-26.7861328125" z="11.7705078125" a="0" y="5.141025543212891"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-32.4189453125" z="18.001220703125" a="0" y="5.517999649047852"/>
+</group>

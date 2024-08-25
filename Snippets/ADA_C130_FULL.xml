@@ -1,0 +1,346 @@
+<!--ADAVIAS STATIC C130 SNIPS -->
+
+<!-- EVENTSpawn -->
+<event name="StaticADAc130">
+	<zone smin="0" smax="0" dmin="1" dmax="2" r="45" />
+	<pos x="2108.631591796875" z="7280.10986328125" a="0" y="266.0683288574219" group="AC130_MYSHKINO"/>
+	<pos x="9532.8720703125" z="8989.48828125" a="0" y="317.430908203125" group="AC130_GORKA"/>
+	<pos x="5234.54443359375" z="2083.486083984375" a="0" y="10.94946002960205" group="AC130_BALOTA"/>
+	<pos x="3031.2666015625" z="5113.26708984375" a="0" y="225.7621307373047" group="AC130_ZELENO"/>
+	<pos x="1654.7608642578125" z="15069.388671875" a="0" y="450.0142822265625" group="AC130_TISY"/>
+	<pos x="9267.3544921875" z="13928.7509765625" a="0" y="115.977294921875" group="AC130_SVERGINO"/>
+	<pos x="13265.2578125" z="6605.78271484375" a="0" y="12.2667236328125" group="AC130_SOLNICHNY"/>
+	<pos x="8636.1015625" z="13348.5" a="0" y="116.69644927978516" group="AC130_SEVERO"/>
+	<pos x="7021.88671875" z="8255.302734375" a="0" y="325.27105712890625" group="AC130_NOVI"/>
+	<pos x="2002.8505859375" z="9593.7021484375" a="0" y="240.59617614746094" group="AC130_NKORONA"/>
+	<pos x="4888.25830078125" z="9554.7998046875" a="0" y="343.9259948730469" group="AC130_NWAF"/>
+	<pos x="1865.542236328125" z="12086.45703125" a="0" y="262.0472106933594" group="AC130_SINYSTOK"/>
+	<pos x="8651.5537109375" z="3952.10791015625" a="0" y="272.48870849609375" group="AC130_NYCTA"/>
+	<pos x="12476.5947265625" z="12373.904296875" a="0" y="144.90855407714844" group="AC130_NEAF"/>
+</event>
+					<!-- GROUPS  -->
+
+<!-- Group 2108X7280-->
+<group name="AC130_MYSHKINO">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="219.04443359375" y="0"/>
+	<child type="CraterLong" spawnsecondary="false" x="4.43359375" z="9.37451171875" a="42.464515686035156" y="-3.837249755859375"/>
+	<child type="CraterLong" spawnsecondary="false" x="7.244384765625" z="7.4052734375" a="225.9484405517578" y="-3.655426025390625"/>
+	<child type="StaticObj_Rubble_Concrete1" spawnsecondary="false" x="10.771484375" z="11.98486328125" a="0" y="-3.7711181640625"/>
+	<child type="StaticObj_Rubble_DirtPile_Large" spawnsecondary="false" x="1.187744140625" z="0.77685546875" a="47.35299301147461" y="-3.73345947265625"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="7.4833984375" z="-1.89794921875" a="0" y="-7.535919189453125"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-3.64013671875" z="5.703125" a="0" y="-7.535125732421875"/>
+	<child type="StaticObj_Wreck_BMP2_DE" deloot="0" lootmax="3" lootmin="1" x="-7.540771484375" z="-17.2421875" a="119.06967163085938" y="-6.89691162109375"/>
+	<child type="StaticObj_Wreck_HMMWV_DE" deloot="0" lootmax="3" lootmin="1" x="-12.915283203125" z="-7.9169921875" a="267.2021789550781" y="-5.71258544921875"/>
+	<child type="StaticObj_Wreck_T72_Turret_DE" spawnsecondary="false" x="4.075927734375" z="-12.35107421875" a="269.51392364501953" y="-5.041961669921875"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="-6.78662109375" z="-8.4345703125" a="130.40699768066406" y="-5.483612060546875"/>
+</group>
+<!-- Group 9532X8989-->
+<group name="AC130_GORKA">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="165.4644317626953" y="0"/>
+	<child type="Land_Container_1Mo_DE" deloot="0" lootmax="5" lootmin="3" x="9.369140625" z="-2.7890625" a="0" y="-4.450531005859375"/>
+	<child type="CraterLong" spawnsecondary="false" x="-1.0751953125" z="3.3681640625" a="0" y="-4.6622314453125"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="3.142578125" z="-10.4638671875" a="77.106201171875" y="-5.49359130859375"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-4.59765625" z="1.8759765625" a="0" y="-6.34710693359375"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="7.3662109375" z="6.1787109375" a="0" y="-10.8094482421875"/>
+	<child type="StaticObj_Rubble_DirtPile_Large" spawnsecondary="false" x="-2.1982421875" z="11.9970703125" a="0" y="-3.725189208984375"/>
+	<child type="StaticObj_Rubble_DirtPile_Medium2" spawnsecondary="false" x="-4.8828125" z="11.4423828125" a="0" y="-3.34027099609375"/>
+	<child type="StaticObj_Rubble_DirtPile_Large" spawnsecondary="false" x="-4.3583984375" z="7.0322265625" a="0" y="-3.546478271484375"/>
+	<child type="StaticObj_Rubble_DirtPile_Large" spawnsecondary="false" x="0.1318359375" z="7.3349609375" a="0" y="-4.20172119140625"/>
+</group>
+<!-- Group 5234X2083-->
+<group name="AC130_BALOTA">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="2.4470255374908447" y="0"/>
+	<child type="StaticObj_Wreck_BRDM_DE" deloot="0" lootmax="6" lootmin="6" x="0.61083984375" z="22.35205078125" a="0" y="-4.679601192474365"/>
+	<child type="StaticObj_Ruin_HouseBlock_Total" spawnsecondary="false" x="-9.88623046875" z="-4.81201171875" a="92.10185241699219" y="-2.907576560974121"/>
+	<child type="StaticObj_Wreck_Decal_Big_NoLC" spawnsecondary="false" x="0.7802734375" z="5.1552734375" a="0" y="-5.125664710998535"/>
+	<child type="Wreck_Mi8_Crashed" spawnsecondary="false" x="-3.7978515625" z="1.098876953125" a="4.708173751831055" y="-9.09476375579834"/>
+	<child type="Wreck_Mi8_Crashed" spawnsecondary="false" x="2.25439453125" z="0.677734375" a="359.5643064379692" y="-11.275067329406738"/>
+	<child type="StaticObj_Rubble_Concrete1" spawnsecondary="false" x="-7.4384765625" z="-4.453857421875" a="0" y="-2.1950883865356445"/>
+	<child type="StaticObj_Rubble_Concrete2" spawnsecondary="false" x="0.66455078125" z="15.269775390625" a="181.34603881835938" y="-5.434374809265137"/>
+	<child type="StaticObj_Rubble_Concrete2" spawnsecondary="false" x="0.66455078125" z="19.273681640625" a="116.46484375" y="-5.302027702331543"/>
+	<child type="StaticObj_Rubble_Concrete2" spawnsecondary="false" x="0.591796875" z="11.566162109375" a="210.330810546875" y="-5.3714599609375"/>
+</group>
+<!-- Group 3031X5113-->
+<group name="AC130_ZELENO">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="184.2799530029297" y="0"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="0.77490234375" z="11.50244140625" a="356.69548892974854" y="-8.5941162109375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="1" x="-0.60986328125" z="-17.06005859375" a="39.177879333496094" y="-5.0269622802734375"/>
+	<child type="CraterLong" spawnsecondary="false" x="0.59814453125" z="10.578125" a="356.6956899166107" y="-4.138885498046875"/>
+	<child type="CraterLong" spawnsecondary="false" x="-0.490478515625" z="4.70166015625" a="195.72592163085938" y="-4.550537109375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="-3.14404296875" z="-9.29443359375" a="216.28359985351562" y="-5.0869598388671875"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-0.20556640625" z="-22.0341796875" a="335.9314308166504" y="-8.90667724609375"/>
+	<child type="StaticObj_Wreck_Uaz_DE" deloot="0" lootmax="3" lootmin="2" x="0.18408203125" z="-22.548828125" a="0" y="-4.607147216796875"/>
+	<child type="StaticObj_Wreck_HMMWV_DE" deloot="0" lootmax="3" lootmin="2" x="2.58642578125" z="-26.439453125" a="132.9418182373047" y="-4.55841064453125"/>
+	<child type="CraterLong" spawnsecondary="false" x="1.852783203125" z="-23.99267578125" a="0" y="-5.6038055419921875"/>
+</group>
+<!-- Group 1654X15069-->
+<group name="AC130_TISY">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="35.50339126586914" y="0"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-6.6236572265625" z="-9.4345703125" a="207.9195098876953" y="-8.5941162109375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="3.900146484375" z="8.869140625" a="110.11587524414062" y="-4.37103271484375"/>
+	<child type="CraterLong" spawnsecondary="false" x="-6.0106201171875" z="-7.55078125" a="207.91969299316406" y="-4.99725341796875"/>
+	<child type="CraterLong" spawnsecondary="false" x="-2.0177001953125" z="-4.2744140625" a="46.949371337890625" y="-5.119140625"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="7.9720458984375" z="10.1474609375" a="67.50709533691406" y="-4.459228515625"/>
+	<child type="CraterLong" spawnsecondary="false" x="11.2020263671875" z="19.6064453125" a="14.476505279541016" y="-4.96099853515625"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="11.5985107421875" z="18.7353515625" a="187.15536499023438" y="-7.3189697265625"/>
+	<child type="Land_Wreck_V3S_DE" deloot="0" lootmax="3" lootmin="1" x="10.3499755859375" z="16.1982421875" a="0" y="-3.64306640625"/>
+</group>
+<!-- Group 9267X13928-->
+<group name="AC130_SVERGINO">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="195.7288818359375" y="0"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="3.052734375" z="11.1240234375" a="8.144577980041504" y="-8.594108581542969"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="-3.00390625" z="-15.2578125" a="145.7657012939453" y="-4.655509948730469"/>
+	<child type="CraterLong" spawnsecondary="false" x="2.7001953125" z="10.2490234375" a="8.14493465423584" y="-4.138877868652344"/>
+	<child type="CraterLong" spawnsecondary="false" x="0.46484375" z="4.705078125" a="207.174560546875" y="-4.550529479980469"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="3.30078125" z="-19.3720703125" a="227.7321014404297" y="-4.805511474609375"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-4.560546875" z="-21.556640625" a="347.3808755874634" y="-8.386177062988281"/>
+	<child type="StaticObj_Wreck_Uaz_DE" deloot="0" lootmax="3" lootmin="1" x="-4.287109375" z="-22.1279296875" a="11.44918155670166" y="-4.086647033691406"/>
+	<child type="StaticObj_Wreck_HMMWV_DE" deloot="0" lootmax="3" lootmin="1" x="-2.7060546875" z="-26.4306640625" a="144.39007568359375" y="-4.037910461425781"/>
+	<child type="CraterLong" spawnsecondary="false" x="-2.9326171875" z="-23.8818359375" a="11.44918155670166" y="-5.083305358886719"/>
+</group>
+<!-- Group 13265X6605-->
+<group name="AC130_SOLNICHNY">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="352.03568840026855" y="0"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="1.681640625" z="-11.4072265625" a="164.45077514648438" y="-8.5941162109375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="4" x="-2.01953125" z="15.5869140625" a="302.0733108520508" y="-4.566525936126709"/>
+	<child type="CraterLong" spawnsecondary="false" x="1.65625" z="-10.4658203125" a="164.45103454589844" y="-4.138885498046875"/>
+	<child type="CraterLong" spawnsecondary="false" x="1.4755859375" z="-4.4921875" a="3.4816205501556396" y="-4.550533294677734"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="4" x="-0.9013671875" z="20.65185546875" a="24.039289474487305" y="-4.819589614868164"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-4.474609375" z="21.57421875" a="143.68690490722656" y="-8.386181831359863"/>
+	<child type="StaticObj_Wreck_Uaz_DE" deloot="0" lootmax="3" lootmin="2" x="-4.962890625" z="21.99658203125" a="167.75537109375" y="-4.086648941040039"/>
+	<child type="StaticObj_Wreck_HMMWV_DE" deloot="0" lootmax="3" lootmin="2" x="-8.134765625" z="25.28955078125" a="300.69772720336914" y="-4.037912368774414"/>
+	<child type="CraterLong" spawnsecondary="false" x="-6.8984375" z="23.05078125" a="167.75537109375" y="-5.083310127258301"/>
+</group>
+<!-- Group 8636X13348-->
+<group name="AC130_SEVERO">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="79.82007598876953" y="0"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-11.3359375" z="-2.1240234375" a="252.23566436767578" y="-8.594085693359375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="8.990234375" z="3.6201171875" a="154.43226623535156" y="-4.954048156738281"/>
+	<child type="CraterLong" spawnsecondary="false" x="-9.57421875" z="-1.205078125" a="252.23570251464844" y="-4.9972381591796875"/>
+	<child type="CraterLong" spawnsecondary="false" x="-4.427734375" z="-1.6513671875" a="91.26602935791016" y="-5.119102478027344"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="12.7978515625" z="1.69140625" a="111.82355499267578" y="-5.042228698730469"/>
+	<child type="CraterLong" spawnsecondary="false" x="21.8125" z="3.013671875" a="58.79309844970703" y="-5.0264739990234375"/>
+	<child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="3" x="19.55078125" z="1.41015625" a="244.79169464111328" y="-4.562599182128906"/>
+</group>
+<!-- Group 7021X8255-->
+<group name="AC130_NOVI">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="187.58460998535156" y="0"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="1.4365234375" z="11.447265625" a="0" y="-8.411956787109375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="4" x="-0.115234375" z="-8.046875" a="0" y="-4.80218505859375"/>
+	<child type="CraterLong" spawnsecondary="false" x="1.66796875" z="10.3583984375" a="0" y="-3.951934814453125"/>
+	<child type="CraterLong" spawnsecondary="false" x="0.6669921875" z="4.9794921875" a="338.08835220336914" y="-4.583740234375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="4" x="-2.49853515625" z="-11.7490234375" a="296.2208366394043" y="-5.1173095703125"/>
+	<child type="StaticObj_Wreck_BRDM_DE" deloot="0" lootmax="3" lootmin="3" x="-4.87109375" z="-22.97265625" a="233.15367889404297" y="-5.459503173828125"/>
+	<child type="CraterLong" spawnsecondary="false" x="-2.4375" z="-21.2314453125" a="53.5823974609375" y="-6.206451416015625"/>
+</group>
+<!-- Group 2002X9593-->
+<group name="AC130_NKORONA">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="208.34864807128906" y="0"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="5.3995361328125" z="10.189453125" a="20.763887405395508" y="-8.594085693359375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="6" lootmin="2" x="-2.76416015625" z="-9.28515625" a="282.96089935302734" y="-4.3709869384765625"/>
+	<child type="CraterLong" spawnsecondary="false" x="5.02294921875" z="8.2421875" a="20.763885498046875" y="-4.997222900390625"/>
+	<child type="CraterLong" spawnsecondary="false" x="1.4698486328125" z="4.4951171875" a="219.79454040527344" y="-5.11907958984375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="5" lootmin="3" x="-6.646240234375" z="-11.0615234375" a="240.35223388671875" y="-4.4591827392578125"/>
+	<child type="CraterLong" spawnsecondary="false" x="-8.6737060546875" z="-20.8466796875" a="187.32164001464844" y="-4.9609527587890625"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" deloot="0" lootmax="5" lootmin="3" x="-9.7696533203125" z="-22.89453125" a="199.0720977783203" y="-2.8759307861328125"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-9.17138671875" z="-20.0322265625" a="0" y="-7.31890869140625"/>
+</group>
+<!-- Group 4888X9554-->
+<group name="AC130_NWAF">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="314.53588485717773" y="0"/>
+	<child type="StaticObj_Ruin_HouseBlock_Corner_Total" spawnsecondary="false" x="10.12646484375" z="-7.5732421875" a="272.6096954345703" y="-2.651641845703125"/>
+	<child type="StaticObj_Rubble_Concrete2" spawnsecondary="false" x="2.63232421875" z="-6.080078125" a="0" y="-4.8736572265625"/>
+	<child type="StaticObj_Rubble_Concrete2" spawnsecondary="false" x="6.63623046875" z="-2.79296875" a="0" y="-4.8736572265625"/>
+	<child type="StaticObj_Rubble_Metal1" spawnsecondary="false" x="9.55615234375" z="-10.056640625" a="0" y="-3.2529296875"/>
+	<child type="StaticObj_Roads_Partgrav_10_100" spawnsecondary="false" x="-4.81005859375" z="6.2119140625" a="132.50796508789062" y="-4.886444091796875"/>
+	<child type="StaticObj_Roads_Partgrav_10_100" spawnsecondary="false" x="-16.521484375" z="18.4638671875" a="132.50796508789062" y="-4.886444091796875"/>
+	<child type="StaticObj_Roads_Partgrav_10_100" spawnsecondary="false" x="-26.7607421875" z="29.9189453125" a="132.50796508789062" y="-4.886444091796875"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="6" lootmin="3" x="-6.35791015625" z="6.8173828125" a="0" y="-4.720245361328125"/>
+	<child type="StaticObj_Wreck_Uaz_DE" deloot="0" lootmax="6" lootmin="1" x="-5.7890625" z="12.0224609375" a="0" y="-4.129180908203125"/>
+	<child type="StaticObj_Wreck_T72_Chassis_DE" deloot="0" lootmax="5" lootmin="1" x="-16.89453125" z="10.0234375" a="262.2323989868164" y="-4.220001220703125"/>
+	<child type="StaticObj_Wreck_T72_Turret_DE" spawnsecondary="false" x="-1.90087890625" z="2.998046875" a="0" y="-3.93414306640625"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="6.3427734375" z="6.6689453125" a="0" y="-7.76385498046875"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="8.765625" z="-7.5517578125" a="0" y="-8.48040771484375"/>
+</group>
+<!-- Group 1865X12086-->
+<group name="AC130_SINYSTOK">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="0" y="0"/>
+	<child type="CraterLong" spawnsecondary="false" x="1.301513671875" z="-12.32421875" a="0" y="-4.7060546875"/>
+	<child type="CraterLong" spawnsecondary="false" x="-2.5220947265625" z="-12.32421875" a="0" y="-4.26470947265625"/>
+	<child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="6" lootmin="3" x="-16.4246826171875" z="9.59765625" a="215.28590393066406" y="-3.1961669921875"/>
+	<child type="Land_Container_1Mo_DE" deloot="0" lootmax="5" lootmin="3" x="-2.0107421875" z="16.736328125" a="0" y="-3.590606689453125"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="6.07373046875" z="0.23046875" a="0" y="-7.77264404296875"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-4.72314453125" z="0.5810546875" a="0" y="-7.1916046142578125"/>
+</group>
+<!-- Group 8651X3952-->
+<group name="AC130_NYCTA">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="127.86785888671875" y="0"/>
+	<child type="StaticObj_Wreck_BRDM_DE" deloot="0" lootmax="6" lootmin="3" x="9.759765625" z="-8.0146484375" a="0" y="-4.55950927734375"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="4.5849609375" z="7.1455078125" a="0" y="-6.460052490234375"/>
+	<child type="Wreck_UH1Y" spawnsecondary="false" x="-2.3671875" z="0.203857421875" a="0" y="-8.965667724609375"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="6" lootmin="3" x="12.7978515625" z="-10.68359375" a="0" y="-5.3878173828125"/>
+</group>
+<!-- Group 12476X12373-->
+<group name="AC130_NEAF">
+	<child type="Land_Wreck_C130J" deloot="0" lootmax="15" lootmin="6" x="0" z="0" a="289.25445556640625" y="0"/>
+	<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="6" lootmin="3" x="-10.3974609375" z="4.14453125" a="0" y="-4.6548004150390625"/>
+	<child type="Wreck_Mi8_Crashed" spawnsecondary="false" x="-1.7392578125" z="5.2958984375" a="334.71887016296387" y="-8.435699462890625"/>
+	<child type="Wreck_Mi8_Crashed" spawnsecondary="false" x="-4.4873046875" z="0.1435546875" a="154.71820068359375" y="-8.970367431640625"/>
+	<child type="StaticObj_Decal_dirt_damage_long3" spawnsecondary="false" x="-8.6455078125" z="2.9638671875" a="294.6938018798828" y="-1.349945068359375"/>
+	<child type="StaticObj_Decal_dirt_damage_long1" spawnsecondary="false" x="-15.8251953125" z="5.484375" a="107.20355987548828" y="-1.3561553955078125"/>
+	<child type="StaticObj_Ruin_House_Total" spawnsecondary="false" x="12.2294921875" z="-5.447265625" a="224.2954559326172" y="-2.9231414794921875"/>
+	<child type="Land_Ruin_Mil_GuardBox_Green" spawnsecondary="false" x="11.84765625" z="-2.98046875" a="22.76589012145996" y="-3.9454345703125"/>
+	<child type="StaticObj_Rubble_Bricks3" spawnsecondary="false" x="8.7373046875" z="-5.505859375" a="0" y="-4.320587158203125"/>
+	<child type="Land_Container_1Mo_DE" deloot="0" lootmax="3" lootmin="3" x="-22.8408203125" z="3.7080078125" a="256.66316986083984" y="-3.746612548828125"/>
+</group>
+
+
+
+<!-- EVENT -->
+    <event name="StaticADAc130">
+        <nominal>2</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>1000</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>50</cleanupradius>
+        <secondary>InfectedADAC130</secondary><!--REPLACE WITH ANY ZOMBIE EVENT NAME AS DESIRED -->
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+
+
+
+<!--INFECTED SECONDARY EVENT OPTIONAL InfectedArmyHard ADJUSTED-->
+    <event name="InfectedADAC130">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>1000</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="5" lootmin="0" max="0" min="1" type="ZmbM_usSoldier_Officer_Convoy"/>
+        </children>
+    </event>
+
+	
+	<!--BORROWED PROTOS-->
+	
+	
+	<!-- bhaalshad modified proto -->
+		<group name="Land_Wreck_C130J" lootmax="30">
+		<!-- remove any usage tags you do not wish to use -->
+				<usage name="Military"/>
+				<container name="lootFloor" lootmax="30">
+		<!-- remove any catagories you do not wish to use -->
+						<category name="tools"/>
+						<category name="containers"/>
+						<category name="clothes"/>
+						<category name="weapons"/>
+							<tag name="floor"/>
+							<tag name="shelves" />
+		<!-- Right side of plane -->
+		<point pos="3.293945 -1.541862 6.939941" range="1.100000" height="1.145172" />
+					<point pos="4.630615 -1.221848 5.478027" range="1.203125" height="1.058037" flags="32" />
+					<point pos="4.128174 -1.250969 5.282227" range="1.237500" height="1.899963" flags="32" />
+					<point pos="3.601563 -1.275345 5.026855" range="1.237500" height="1.900002" flags="32" />
+					<point pos="3.976563 -1.479630 7.021972" range="1.340625" height="1.139282" flags="32" />
+					<point pos="5.462646 -1.856918 4.474609" range="1.595988" height="1.900002" flags="32" />
+					<point pos="3.273926 -1.856918 8.096679" range="1.718352" height="1.900002" flags="32" />
+					<point pos="2.722656 -1.856918 5.948730" range="1.821779" height="1.900002" flags="32" />
+					<point pos="6.276123 -1.856918 9.080566" range="1.827611" height="1.900002" flags="32" />
+					<point pos="4.192871 -1.856918 5.159668" range="1.846799" height="1.900002" flags="32" />
+					<point pos="7.588379 -1.856918 4.039551" range="1.898411" height="1.900002" flags="32" />
+					<point pos="4.540283 -1.856918 9.118164" range="1.908636" height="1.900002" flags="32" />
+					<point pos="1.502686 -1.856918 7.775879" range="1.942924" height="1.900002" flags="32" />
+					<point pos="6.894042 -1.856918 5.567383" range="2.068359" height="1.900002" flags="32" />
+					<point pos="7.488282 -1.856918 7.621094" range="2.069595" height="1.900002" flags="32" />
+		<!-- Center of the plane-->
+					<point pos="3.200000 -1.856918 0.200000" range="0.199951" height="1.900002" flags="32" />
+					<point pos="2.400000 -1.856918 1.400000" range="0.199951" height="1.900002" flags="32" />
+					<point pos="1.600000 -1.856918 -0.600000" range="0.199951" height="1.900002" flags="32" />
+					<point pos="-0.800000 -1.856918 1.800000" range="0.199951" height="1.900002" flags="32" />
+					<point pos="-1.800000 -1.856918 -0.800000" range="0.199951" height="1.900002" flags="32" />
+					<point pos="-2.800000 -1.856918 0.800000" range="0.199951" height="1.900002" flags="32" />
+		<!-- Left side of plane -->
+		<point pos="3.293945 -1.541862 -6.939941" range="1.100000" height="1.145172" />
+					<point pos="4.630615 -1.221848 -5.478027" range="1.203125" height="1.058037" flags="32" />
+					<point pos="4.128174 -1.250969 -5.282227" range="1.237500" height="1.899963" flags="32" />
+					<point pos="3.601563 -1.275345 -5.026855" range="1.237500" height="1.900002" flags="32" />
+					<point pos="3.976563 -1.479630 -7.021972" range="1.340625" height="1.139282" flags="32" />
+					<point pos="5.462646 -1.856918 -4.474609" range="1.595988" height="1.900002" flags="32" />
+					<point pos="3.273926 -1.856918 -8.096679" range="1.718352" height="1.900002" flags="32" />
+					<point pos="2.722656 -1.856918 -5.948730" range="1.821779" height="1.900002" flags="32" />
+					<point pos="6.276123 -1.856918 -9.080566" range="1.827611" height="1.900002" flags="32" />
+					<point pos="4.192871 -1.856918 -5.159668" range="1.846799" height="1.900002" flags="32" />
+					<point pos="7.588379 -1.856918 -4.039551" range="1.898411" height="1.900002" flags="32" />
+					<point pos="4.540283 -1.856918 -9.118164" range="1.908636" height="1.900002" flags="32" />
+					<point pos="1.502686 -1.856918 -7.775879" range="1.942924" height="1.900002" flags="32" />
+					<point pos="6.894042 -1.856918 -5.567383" range="2.068359" height="1.900002" flags="32" />
+					<point pos="7.488282 -1.856918 -7.621094" range="2.069595" height="1.900002" flags="32" />
+				</container>
+		</group>
+		
+		
+		<!-- GCODE -->
+		
+	<group name="Land_Roadblock_WoodenCrate" lootmax="14">
+        <usage name="Military"/>
+				<container name="lootTop" lootmax="9">
+						<category name="weapons"/>
+						<category name="containers" />
+							<point pos="0.208985 0.390473 -0.220703" range="0.900000" height="1.500000" />
+							<point pos="0.547852 0.393585 0.260742" range="0.140000" height="1.500000" />
+							<point pos="-0.183593 0.390991 -0.250977" range="0.140000" height="1.500000" />
+							<point pos="-0.512695 0.392044 0.221679" range="0.140000" height="1.500000" />
+							<point pos="-0.533203 0.391510 -0.252930" range="0.140000" height="1.500000" />
+							<point pos="-0.187500 0.392410 0.301757" range="0.140000" height="1.500000" />
+							<point pos="0.561524 0.389923 -0.269532" range="0.140000" height="1.500000" />
+							<point pos="0.089844 0.392746 0.242187" range="0.900000" height="1.500000" />
+							<point pos="0.370118 0.391205 0.012695" range="0.140000" height="1.500000" />
+				</container>
+				<container name="lootGround" lootmax="5">
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="weapons"/>
+							<point pos="2.124024 -0.235901 -0.083008" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="0.711914 -0.241302 2.417968" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-0.354492 -0.240906 1.742187" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-1.213867 -0.237549 0.047851" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="0.163086 -0.234573 -1.083985" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-1.061523 -0.235092 -0.799805" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-1.424804 -0.233841 -1.629883" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="2.259766 -0.234390 -1.216797" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-2.456054 -0.236877 -0.825196" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-1.985351 -0.243271 1.805664" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="0.525391 -0.232590 -2.576172" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="2.647461 -0.238663 1.991211" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-2.733398 -0.240753 0.490234" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="1.223633 -0.237717 1.285156" range="0.900000" height="1.500000" dechance="1.00" />
+							<point pos="-0.682617 -0.235824 -2.246093" range="0.500000" height="1.500000" dechance="1.00" />
+							<point pos="2.271484 -0.235824 -2.258789" range="0.500000" height="1.500000" dechance="1.00" />
+							<point pos="2.850586 -0.235824 0.765625" range="0.500000" height="1.500000" dechance="1.00" />
+							<point pos="1.308594 -0.235824 3.195313" range="0.500000" height="1.500000" />
+							<point pos="0.180664 -0.235824 0.854492" range="0.500000" height="1.500000" />
+							<point pos="1.197266 -0.235824 0.177735" range="0.500000" height="1.500000" />
+				</container>
+    </group>

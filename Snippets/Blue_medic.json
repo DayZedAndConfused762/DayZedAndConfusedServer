@@ -1,0 +1,266 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+    "characterTypes": [
+        "SurvivorM_Guo"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "ParamedicJacket_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "ParamedicPants_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "MilitaryBoots_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "PP19",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PP19_Bttstck",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "KobraOptic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "Mag_PP19_64Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "PistolSuppressor"
+                    ]
+                } 
+            ] 
+            },    
+			{
+            "slotName": "Armband",
+            "discreteItemSets": [
+                {
+                    "itemType": "Armband_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },	
+		{
+            "slotName": "Hips ",
+            "discreteItemSets": [
+                {
+                    "itemType": "CivilianBelt",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },		
+		{
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "SurgicalMask",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },	
+		{
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "BeanieHat_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },	
+		{
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "SurgicalGloves_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+            {
+                "slotName": "Back",
+                "discreteItemSets": [
+                    {
+                        "itemType": "DuffelBagSmall_Medical",
+                        "spawnWeight": 1,
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                            "Mag_PP19_64Rnd",
+                            "Canteen",
+                            "BloodTestKit",             
+							"TetracyclineAntibiotics",
+                            "PainkillerTablets",
+                            "CharcoalTablets",               
+							"Epinephrine",
+                            "AntiChemInjector",
+                            "Morphine"
+                        ]
+                    }  
+                ]
+                }
+    ],
+    "discreteUnsortedItemSets": [
+            {
+                "name": "Cargo1",
+                "spawnWeight": 1,
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "complexChildrenTypes": [
+                    {
+                        "itemType": "BandageDressing",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 2
+                    },
+                    {
+                        "itemType": "Chemlight_Blue",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 1
+                    },
+                    {
+                        "itemType": "Marmalade",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 3
+                    }
+                ]
+            }
+                ]
+            }
+

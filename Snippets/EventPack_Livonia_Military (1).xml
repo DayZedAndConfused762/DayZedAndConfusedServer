@@ -1,0 +1,636 @@
+<!-- 14 Military Events -->
+<!-- Event (db/events.xml) -->
+<!-- Event Pack Military -->
+<event name="Static_EventPack_Military">
+	<nominal>8</nominal>
+	<min>0</min>
+	<max>0</max>
+	<lifetime>1800</lifetime>
+	<restock>0</restock>
+	<saferadius>100</saferadius>
+	<distanceradius>10</distanceradius>
+	<cleanupradius>1000</cleanupradius>
+	<secondary>InfectedArmy</secondary>
+	<flags deletable="1" init_random="0" remove_damaged="0"/>
+	<position>fixed</position>
+	<limit>child</limit>
+	<active>1</active>
+	<children/>
+</event>
+<!-- Spawn (cfgeventspawns.xml) -->
+<!-- Event Pack Military -->
+<event name="Static_EventPack_Military">
+	<zone smin="0" smax="0" dmin="6" dmax="12" r="30" />
+	<pos x="7321.07861328125" z="11559.3662109375" a="0" y="174.94082641601562" group="EventPack_Military_BrenaEast"/>
+	<pos x="11000.400390625" z="1463.9100341796875" a="0" y="317.1737976074219" group="EventPack_Military_DolnikNorth"/>
+	<pos x="4554.80126953125" z="9236.4326171875" a="0" y="190.9473114013672" group="EventPack_Military_GilinskaWest"/>
+	<pos x="11801.99609375" z="5261.248046875" a="0" y="310.12164306640625" group="EventPack_Military_GiraltowNorth"/>
+	<pos x="8735.4482421875" z="11288.86328125" a="0" y="193.96153259277344" group="EventPack_Military_KolembrodySouth"/>
+	<pos x="8922.783203125" z="7332.33740234375" a="0" y="328.11474609375" group="EventPack_Military_LemborkNorth"/>
+	<pos x="4824.52978515625" z="3805.1513671875" a="0" y="396.64324951171875" group="EventPack_Military_NadborWest"/>
+	<pos x="4782.591796875" z="7199.56298828125" a="0" y="318.8307800292969" group="EventPack_Military_OlszankaSouth"/>
+	<pos x="2447.4765625" z="1860.134765625" a="0" y="532.1930541992188" group="EventPack_Military_PolanaWest"/>
+	<pos x="6663.7197265625" z="2059.786376953125" a="0" y="332.17138671875" group="EventPack_Military_SwarogEast"/>
+	<pos x="10181.59375" z="10734.845703125" a="0" y="211.39097595214844" group="EventPack_Military_TarnowEast"/>
+	<pos x="3064.91748046875" z="8002.6171875" a="0" y="205.36407470703125" group="EventPack_Military_TopolinEast"/>
+	<pos x="1343.5880126953125" z="8812.9033203125" a="0" y="278.5089416503906" group="EventPack_Military_TopolinNorth"/>
+	<pos x="9224.251953125" z="3422.995361328125" a="0" y="307.79327392578125" group="EventPack_Military_WrzeszczSouth"/>
+</event>
+<!-- Group (cfgeventgroups.xml) -->
+<!-- Event Pack Military -->
+<group name="EventPack_Military_BrenaEast">
+	<child type="Land_wreck_truck01_aban2_firetruck_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="95.51708984375" y="0"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-11.59228515625" z="19.69140625" a="0" y="1.916229248046875"/>
+	<child type="Land_wreck_truck01_aban1_firetruck_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="4.1826171875" z="6.779296875" a="91.01941680908203" y="0.028411865234375"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="5.83154296875" z="16.5751953125" a="5.820101261138916" y="1.9585723876953125"/>
+	<child type="StaticObj_Wreck_Ural_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-4.4306640625" z="14.3681640625" a="227.62281799316406" y="1.5191650390625"/>
+	<child type="StaticObj_Wreck_Ural_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-2.06689453125" z="24.4404296875" a="227.622802734375" y="1.50811767578125"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-9.71923828125" z="2.7861328125" a="0" y="0.5545654296875"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-6.55078125" z="17.4609375" a="0" y="0.65509033203125"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-1.31982421875" z="10.8828125" a="0" y="0.5400848388671875"/>
+	<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="-10.2685546875" z="8.4638671875" a="0" y="0.934478759765625"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="7.5341796875" z="-8.7373046875" a="5.8200907707214355" y="1.729705810546875"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-25.81396484375" z="22.13671875" a="115.07220458984375" y="2.2862548828125"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-13.76904296875" z="2.6572265625" a="0" y="1.1031341552734375"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-6.62353515625" z="19.9091796875" a="0" y="1.05963134765625"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-7.763671875" z="8.2099609375" a="0" y="0.8215179443359375"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-12.2412109375" z="9.470703125" a="0" y="1.14984130859375"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-10.9169921875" z="11.1630859375" a="0" y="1.1485443115234375"/>
+	<child type="AugShort" spawnsecondary="false" x="-3.9130859375" z="6.48046875" a="0" y="0.77459716796875"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="-8.4453125" z="-1.1064453125" a="0" y="0.1634368896484375"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="-8.62744140625" z="21.60546875" a="0" y="0.373504638671875"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="6.2333984375" z="2.66015625" a="0" y="0.028289794921875"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-23.9501953125" z="19.1767578125" a="0" y="0.4818267822265625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-1.4931640625" z="21.7548828125" a="0" y="0.3295745849609375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="5.8583984375" z="13.2783203125" a="0" y="0.1715087890625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="5.5625" z="-9.033203125" a="0" y="-0.0436859130859375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-23.03076171875" z="-8.1552734375" a="0" y="0.2957916259765625"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="3.4677734375" z="-1.8349609375" a="0" y="0.0569915771484375"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-27.38037109375" z="21.0400390625" a="0" y="0.5107879638671875"/>
+	<child type="Land_Wreck_C130J_2" spawnsecondary="false" x="-19.2294921875" z="0.5390625" a="37.92801284790039" y="6.016448974609375"/>
+</group>
+<group name="EventPack_Military_DolnikNorth">
+	<child type="Land_Wreck_C130J_2" deloot="0" x="0" z="0" a="3" y="0"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="33.6787109375" z="2.0343017578125" a="0" y="-2.88543701171875"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="33.548828125" z="35.68408203125" a="0" y="-0.915618896484375"/>
+	<child type="Land_wreck_truck01_aban2_firetruck_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="6.58203125" z="26.9091796875" a="104.33057403564453" y="-3.878875732421875"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="14.3994140625" z="13.6280517578125" a="0" y="-3.905120849609375"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-2.7626953125" z="22.1837158203125" a="151.88706970214844" y="-4.861114501953125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="39.18359375" z="49.0667724609375" a="0" y="-0.09002685546875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="38.9619140625" z="22.4527587890625" a="0" y="-1.6904296875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="38.0107421875" z="-9.52978515625" a="0" y="-3.58642578125"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="8.6318359375" z="36.0859375" a="0" y="-1.410797119140625"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="2.765625" z="14.359130859375" a="0" y="-3.7786865234375"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="4.2314453125" z="16.1661376953125" a="0" y="-3.55242919921875"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="13.1376953125" z="20.548583984375" a="0" y="-2.68408203125"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-4.3203125" z="7.091552734375" a="0" y="-4.955535888671875"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-6.1416015625" z="9.446533203125" a="0" y="-4.99188232421875"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="1.201171875" z="16.455322265625" a="0" y="-3.81402587890625"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="11.8037109375" z="18.6944580078125" a="0" y="-2.897918701171875"/>
+	<child type="StaticObj_ammoboxes_single" spawnsecondary="false" x="3.2646484375" z="18.57470703125" a="0" y="-3.778289794921875"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="5.048828125" z="13.1239013671875" a="0" y="-3.741058349609375"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="-1.400390625" z="15.2003173828125" a="0" y="-4.21929931640625"/>
+	<child type="AmmoBox" spawnsecondary="false" x="1.390625" z="22.6019287109375" a="0" y="-3.914764404296875"/>
+	<child type="AmmoBox" spawnsecondary="false" x="17.98828125" z="20.8843994140625" a="0" y="-2.8118896484375"/>
+	<child type="SVD" spawnsecondary="false" x="9.90234375" z="21.2794189453125" a="0" y="-3.585906982421875"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="16.455078125" z="23.5401611328125" a="0" y="-3.220916748046875"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="6.970703125" z="29.9287109375" a="0" y="-3.58447265625"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="-2.3408203125" z="26.0411376953125" a="0" y="-4.569488525390625"/>
+	<child type="Aug" spawnsecondary="false" x="6.9228515625" z="1.8238525390625" a="0" y="-4.36724853515625"/>
+	<child type="Mag_CMAG_40Rnd" spawnsecondary="false" x="5.7587890625" z="9.1160888671875" a="0" y="-4.625244140625"/>
+	<child type="Mag_CMAG_40Rnd" spawnsecondary="false" x="-9.8984375" z="10.7509765625" a="0" y="-5.987030029296875"/>
+	<child type="Mag_CMAG_40Rnd" spawnsecondary="false" x="35.7275390625" z="24.6915283203125" a="0" y="-3.091827392578125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="37.3720703125" z="6.67236328125" a="0" y="-4.1318359375"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="34.6142578125" z="39.3580322265625" a="0" y="-2.1561279296875"/>
+	<child type="AmmoBox_762x39_20Rnd" spawnsecondary="false" x="11.267578125" z="33.046875" a="0" y="-3.06683349609375"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="0.673828125" z="29.576904296875" a="0" y="-4.066375732421875"/>
+	<child type="AmmoBox_556x45_20Rnd" spawnsecondary="false" x="14.1708984375" z="7.7744140625" a="0" y="-4.129638671875"/>
+	<child type="AmmoBox_556x45_20Rnd" spawnsecondary="false" x="11.36328125" z="23.639404296875" a="0" y="-3.4498291015625"/>
+	<child type="AmmoBox_556x45_20Rnd" spawnsecondary="false" x="37.6220703125" z="-3.9527587890625" a="0" y="-4.812835693359375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="36.484375" z="38.8133544921875" a="0" y="-2.233245849609375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="40.802734375" z="47.6156005859375" a="0" y="-1.7147216796875"/>
+	<child type="PSO11Optic" spawnsecondary="false" x="35.328125" z="16.9647216796875" a="0" y="-3.278839111328125"/>
+	<child type="ACOGOptic_6x" spawnsecondary="false" x="34.875" z="7.3800048828125" a="0" y="-3.959808349609375"/>
+	<child type="ElectronicRepairKit" spawnsecondary="false" x="37.759765625" z="25.48681640625" a="0" y="-3.041900634765625"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="36.7158203125" z="-1.00390625" a="0" y="-4.618682861328125"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="16.6279296875" z="27.5203857421875" a="0" y="-2.96551513671875"/>
+	<child type="M4_Suppressor" spawnsecondary="false" x="13.697265625" z="17.479248046875" a="0" y="-3.65057373046875"/>
+	<child type="MilitaryBoots_Redpunk" spawnsecondary="false" x="38.056640625" z="12.05078125" a="0" y="-3.39764404296875"/>
+	<child type="CombatBoots_Brown" spawnsecondary="false" x="39.365234375" z="44.7449951171875" a="0" y="-1.89794921875"/>
+	<child type="SewingKit" spawnsecondary="false" x="35.3896484375" z="-9.9532470703125" a="0" y="-5.194732666015625"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="35.0283203125" z="34.132568359375" a="0" y="-2.488250732421875"/>
+	<child type="CargoPants_Black" spawnsecondary="false" x="34.748046875" z="25.361328125" a="0" y="-2.7381591796875"/>
+	<child type="CargoPants_Green" spawnsecondary="false" x="38.1494140625" z="38.640625" a="0" y="-1.948394775390625"/>
+	<child type="M65Jacket_Black" spawnsecondary="false" x="35.107421875" z="-6.202392578125" a="0" y="-4.78759765625"/>
+	<child type="M65Jacket_Khaki" spawnsecondary="false" x="37.40625" z="16.1795654296875" a="0" y="-3.429443359375"/>
+	<child type="Mich2001Helmet" spawnsecondary="false" x="36.82421875" z="40.923583984375" a="0" y="-2.080810546875"/>
+	<child type="UniversalLight" spawnsecondary="false" x="37.01171875" z="10.7266845703125" a="0" y="-3.922332763671875"/>
+	<child type="Battery9V" spawnsecondary="false" x="38.4072265625" z="4.9976806640625" a="0" y="-4.2999267578125"/>
+	<child type="Battery9V" spawnsecondary="false" x="35.8466796875" z="32.4993896484375" a="0" y="-2.637847900390625"/>
+	<child type="Battery9V" spawnsecondary="false" x="13.4697265625" z="28.746337890625" a="0" y="-3.126953125"/>
+	<child type="BalaclavaMask_Green" spawnsecondary="false" x="33.0078125" z="41.0340576171875" a="0" y="-2.089385986328125"/>
+	<child type="BalaclavaMask_Blackskull" spawnsecondary="false" x="39.669921875" z="11.55712890625" a="0" y="-3.87774658203125"/>
+	<child type="BeanieHat_Black" spawnsecondary="false" x="38.951171875" z="31.03515625" a="0" y="-2.698455810546875"/>
+	<child type="PetushokHat_Green" spawnsecondary="false" x="36.5478515625" z="1.6798095703125" a="0" y="-4.459930419921875"/>
+</group>
+<group name="EventPack_Military_GilinskaWest">
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="36.128814697265625" y="0"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="11.15087890625" z="13.1328125" a="38.35261154174805" y="-0.29852294921875"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-9.34375" z="-10.0615234375" a="44.031829833984375" y="1.886566162109375"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="24.89599609375" z="18.1708984375" a="24.77700424194336" y="1.2642974853515625"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-14.8203125" z="-19.5849609375" a="53.816307067871094" y="2.5440216064453125"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="0.1748046875" z="-7.6826171875" a="6.692391872406006" y="1.974365234375"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="21.744140625" z="26.4033203125" a="37.84638214111328" y="1.8938446044921875"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="31.455078125" z="30.263671875" a="52.80758285522461" y="1.41748046875"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-6.0771484375" z="-20.4375" a="10.300090789794922" y="1.288116455078125"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="23.259765625" z="34.94140625" a="62.53229904174805" y="0.3929290771484375"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="12.71533203125" z="4.873046875" a="39.19078826904297" y="0.629150390625"/>
+	<child type="StaticObj_Wreck_Trailer_Cistern" spawnsecondary="false" x="15.86572265625" z="18.595703125" a="130.98599243164062" y="-0.270660400390625"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-3.810546875" z="-7.3447265625" a="0" y="0.8266754150390625"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="19.80712890625" z="15.134765625" a="0" y="0.3249359130859375"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-4.93798828125" z="-5.5126953125" a="0" y="1.0797576904296875"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="20.6513671875" z="18.982421875" a="0" y="0.5621795654296875"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="8.6015625" z="7.1220703125" a="0" y="0.73406982421875"/>
+	<child type="Mag_AK101_30Rnd_Green" spawnsecondary="false" x="5.669921875" z="-2.3271484375" a="0" y="0.1262359619140625"/>
+	<child type="Mag_AK101_30Rnd_Green" spawnsecondary="false" x="16.58154296875" z="12.9951171875" a="0" y="-0.1055755615234375"/>
+	<child type="AK101_Green" spawnsecondary="false" x="7.3798828125" z="9.4140625" a="0" y="0.1802520751953125"/>
+	<child type="Mag_AK101_30Rnd" spawnsecondary="false" x="-10.3056640625" z="-15.083984375" a="0" y="0.6495208740234375"/>
+	<child type="AK101_Black" spawnsecondary="false" x="26.87158203125" z="24.7294921875" a="0" y="-0.0340576171875"/>
+	<child type="Mag_AK101_30Rnd" spawnsecondary="false" x="26.623046875" z="29.943359375" a="0" y="-0.23443603515625"/>
+	<child type="StaticObj_Wreck_Trailer_Cistern" spawnsecondary="false" x="4.64404296875" z="5.583984375" a="130.98599243164062" y="-0.1762237548828125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-6.41943359375" z="-13.2744140625" a="0" y="0.59161376953125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="4.109375" z="1.3828125" a="0" y="0.1835784912109375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-6.62841796875" z="-3.2451171875" a="0" y="0.3925323486328125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="14.23876953125" z="13.119140625" a="0" y="-0.02703857421875"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="22.4775390625" z="23.24609375" a="0" y="-0.1307220458984375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="25.44775390625" z="30.6630859375" a="0" y="-0.1725616455078125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="8.13818359375" z="0.71875" a="0" y="0.1397552490234375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="17.6201171875" z="9.966796875" a="0" y="-0.0340728759765625"/>
+	<child type="UKAssVest_Olive" spawnsecondary="false" x="0.60986328125" z="-3.638671875" a="0" y="0.0897369384765625"/>
+	<child type="UKAssVest_Khaki" spawnsecondary="false" x="19.01513671875" z="22.7744140625" a="0" y="-0.316925048828125"/>
+	<child type="MilitaryBoots_Beige" spawnsecondary="false" x="4.3349609375" z="-5.6923828125" a="0" y="0.03033447265625"/>
+	<child type="MilitaryBoots_Brown" spawnsecondary="false" x="14.26513671875" z="15.544921875" a="0" y="-0.2675628662109375"/>
+	<child type="TacticalGloves_Beige" spawnsecondary="false" x="-4.0771484375" z="-4.6630859375" a="0" y="0.1634521484375"/>
+	<child type="TacticalGloves_Green" spawnsecondary="false" x="14.9912109375" z="8.80078125" a="0" y="-0.2256927490234375"/>
+	<child type="TacticalGoggles" spawnsecondary="false" x="7.3408203125" z="3.302734375" a="0" y="0.104400634765625"/>
+	<child type="TacticalBaconCan_Opened" spawnsecondary="false" x="1.36669921875" z="0.451171875" a="0" y="-0.0034637451171875"/>
+	<child type="bldr_TacticalBaconCan_Opened" spawnsecondary="false" x="17.87841796875" z="18.556640625" a="0" y="-0.3150787353515625"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-7.35302734375" z="-6.5205078125" a="0" y="0.4324951171875"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="10.65283203125" z="10.833984375" a="0" y="-0.0249176025390625"/>
+	<child type="CargoPants_Beige" spawnsecondary="false" x="0.92724609375" z="-2.1396484375" a="0" y="0.0466766357421875"/>
+	<child type="CargoPants_Green" spawnsecondary="false" x="18.5087890625" z="12.28515625" a="0" y="-0.2732391357421875"/>
+	<child type="SewingKit" spawnsecondary="false" x="2.00732421875" z="-7.2236328125" a="0" y="0.24163818359375"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="22.89453125" z="25.353515625" a="0" y="-0.1638641357421875"/>
+	<child type="Mich2001Helmet" spawnsecondary="false" x="5.5087890625" z="8.2548828125" a="0" y="0.12811279296875"/>
+	<child type="M65Jacket_Tan" spawnsecondary="false" x="-0.24609375" z="4.9052734375" a="0" y="-0.02349853515625"/>
+	<child type="M65Jacket_Olive" spawnsecondary="false" x="20.361328125" z="17.072265625" a="0" y="-0.284454345703125"/>
+</group>
+<group name="EventPack_Military_GiraltowNorth">
+	<child type="Land_Wreck_C130J_2" deloot="0" x="0" z="0" a="197.00523376464844" y="0"/>
+	<child type="Land_wreck_truck01_aban1_firetruck_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="21.9453125" z="-12.55224609375" a="121.95750427246094" y="-5.180450439453125"/>
+	<child type="Land_wreck_truck01_aban2_firetruck_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="23.0361328125" z="-19.91845703125" a="123.2894058227539" y="-4.8680419921875"/>
+	<child type="Land_wreck_truck01_aban2_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="9.6904296875" z="-16.912109375" a="0" y="-5.276947021484375"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="31.01953125" z="-54.55810546875" a="236.8325958251953" y="-2.241363525390625"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="22.015625" z="-60.685546875" a="236.8325958251953" y="-2.19921875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="14.578125" z="-37.828125" a="141.678955078125" y="-2.844757080078125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="16.0166015625" z="-68.70068359375" a="225.83250427246094" y="-2.085357666015625"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="47.6142578125" z="-46.533203125" a="284.2860412597656" y="-2.37579345703125"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-4.8515625" z="-29.43408203125" a="0" y="-4.1171875"/>
+	<child type="Land_wreck_truck01_aban2_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="3.3115234375" z="-22.634765625" a="0" y="-5.208282470703125"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="36.5595703125" z="-38.42822265625" a="0" y="-3.185821533203125"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="1.775390625" z="-14.22021484375" a="0" y="-4.63385009765625"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-4.24609375" z="-15.92822265625" a="0" y="-4.542755126953125"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="8.58984375" z="-4.96044921875" a="0" y="-4.628387451171875"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-11.19921875" z="-3.791015625" a="0" y="-5.463897705078125"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-12.900390625" z="-8.19384765625" a="0" y="-5.227569580078125"/>
+	<child type="AmmoBox" spawnsecondary="false" x="-1.35546875" z="-12.189453125" a="0" y="-5.465728759765625"/>
+	<child type="StaticObj_ammoboxes_big" spawnsecondary="false" x="-7.1572265625" z="-12.2890625" a="0" y="-4.517333984375"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="7.591796875" z="-21.47802734375" a="0" y="-4.70654296875"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="10.744140625" z="-8.21728515625" a="0" y="-4.988555908203125"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="5.9072265625" z="-15.09423828125" a="0" y="-4.921051025390625"/>
+	<child type="Aug" spawnsecondary="false" x="4.4794921875" z="-1.68359375" a="0" y="-4.981536865234375"/>
+	<child type="Mag_CMAG_40Rnd" spawnsecondary="false" x="13.0625" z="-2.64501953125" a="0" y="-5.405670166015625"/>
+	<child type="Mag_CMAG_40Rnd" spawnsecondary="false" x="-0.0830078125" z="-22.26806640625" a="0" y="-5.116607666015625"/>
+	<child type="AK74_Green" spawnsecondary="false" x="-1.248046875" z="-17.8037109375" a="0" y="-5.095123291015625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-10.4453125" z="-10.35009765625" a="0" y="-5.621612548828125"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="18.8505859375" z="-14.04345703125" a="0" y="-5.0035400390625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-1.474609375" z="-15.41064453125" a="0" y="-5.3411865234375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="16.0810546875" z="-21.77392578125" a="0" y="-4.88348388671875"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="13.2666015625" z="-40.76953125" a="0" y="-4.30706787109375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="31.5986328125" z="-58.92578125" a="0" y="-3.673248291015625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="44.6533203125" z="-46.3759765625" a="0" y="-3.82147216796875"/>
+	<child type="bldr_prop_AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="32.5908203125" z="-37.77734375" a="0" y="-4.012420654296875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="27.8671875" z="-54.30224609375" a="0" y="-3.6883544921875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="18.6455078125" z="-61.16259765625" a="0" y="-3.656951904296875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-5.701171875" z="-28.6396484375" a="0" y="-4.994354248046875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="6.1767578125" z="-1.73046875" a="0" y="-5.56884765625"/>
+	<child type="MilitaryBoots_Beige" spawnsecondary="false" x="32.783203125" z="-41.18798828125" a="0" y="-3.33172607421875"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-13.998046875" z="-10.28076171875" a="0" y="-5.662261962890625"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="20.5712890625" z="-59.056640625" a="0" y="-3.622955322265625"/>
+	<child type="SewingKit" spawnsecondary="false" x="6.4609375" z="-25.80322265625" a="0" y="-4.91510009765625"/>
+	<child type="SewingKit" spawnsecondary="false" x="-13.3154296875" z="-3.92138671875" a="0" y="-5.886505126953125"/>
+	<child type="TacticalBaconCan_Opened" spawnsecondary="false" x="43.7646484375" z="-48.78369140625" a="0" y="-3.85614013671875"/>
+	<child type="BakedBeansCan_Opened" spawnsecondary="false" x="27.3818359375" z="-56.68115234375" a="0" y="-3.6986083984375"/>
+</group>
+<group name="EventPack_Military_KolembrodySouth">
+	<child type="StaticObj_Dead_MassGrave_15m" deloot="0" x="0" z="0" a="131.1811981201172" y="0"/>
+	<child type="StaticObj_Wreck_Bulldozer" spawnsecondary="false" x="1.3466796875" z="-3.8642578125" a="133.72348022460938" y="1.64990234375"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="15.52734375" z="19.939453125" a="184.93856811523438" y="-0.8076629638671875"/>
+	<child type="StaticObj_Wreck_BRDM_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="4.0341796875" z="13.6533203125" a="131.98020935058594" y="-0.529693603515625"/>
+	<child type="StaticObj_Wreck_Uaz_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="10.4453125" z="3.458984375" a="0" y="0.2266845703125"/>
+	<child type="StaticObj_Wreck_HMMWV_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="15.046875" z="7.255859375" a="196.1190185546875" y="0.04779052734375"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="12.8505859375" z="-10.1064453125" a="329.474817276001" y="1.5218353271484375"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="16.595703125" z="-4.8955078125" a="316.25904846191406" y="1.3183746337890625"/>
+	<child type="StaticObj_Wreck_BRDM_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-10.12890625" z="-16.4384765625" a="114.1504898071289" y="2.26910400390625"/>
+	<child type="StaticObj_Wreck_BMP1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-23.216796875" z="-8.0185546875" a="103.16773986816406" y="2.45147705078125"/>
+	<child type="StaticObj_Wreck_T72_Chassis_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-15.46484375" z="5.55859375" a="145.9946746826172" y="0.8464202880859375"/>
+	<child type="StaticObj_Wreck_T72_Turret_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-16.2412109375" z="14.955078125" a="0" y="-0.20343017578125"/>
+	<child type="StaticObj_Wreck_BMP1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-6.9521484375" z="13.7958984375" a="186.26956176757812" y="0.240203857421875"/>
+	<child type="AK101_Green" spawnsecondary="false" x="14.0498046875" z="13.443359375" a="0" y="-1.028472900390625"/>
+	<child type="AK101" spawnsecondary="false" x="-3.552734375" z="-14.015625" a="0" y="1.1307830810546875"/>
+	<child type="Mag_AK101_30Rnd" spawnsecondary="false" x="13.162109375" z="10.212890625" a="0" y="-0.996429443359375"/>
+	<child type="Mag_AK101_30Rnd" spawnsecondary="false" x="12.3330078125" z="-7.46484375" a="0" y="0.05413818359375"/>
+	<child type="Mag_AK101_30Rnd" spawnsecondary="false" x="-8.9794921875" z="-6.4951171875" a="0" y="1.1136474609375"/>
+	<child type="Mag_AK101_30Rnd" spawnsecondary="false" x="-20.3115234375" z="-4.3271484375" a="0" y="1.3934783935546875"/>
+	<child type="AmmoBox_556x45_20Rnd" spawnsecondary="false" x="13.17578125" z="-9.0302734375" a="0" y="0.1395721435546875"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-0.740234375" z="-13.7236328125" a="0" y="0.824371337890625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="5.7109375" z="-17.08984375" a="0" y="0.716644287109375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-12.3203125" z="-14.265625" a="0" y="1.22412109375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="17.8388671875" z="17.98828125" a="0" y="-1.49249267578125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="0.2978515625" z="12.1611328125" a="0" y="-0.9093780517578125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-11.9873046875" z="3.484375" a="0" y="-0.1010894775390625"/>
+	<child type="StaticObj_Dead_pile2" spawnsecondary="false" x="3.158203125" z="-16.4775390625" a="0" y="0.8598480224609375"/>
+	<child type="StaticObj_Dead_pile4" spawnsecondary="false" x="-7.947265625" z="-15.0322265625" a="0" y="1.2362518310546875"/>
+	<child type="StaticObj_Dead_pile2" spawnsecondary="false" x="-3.212890625" z="11.783203125" a="0" y="-0.9400177001953125"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-1.833984375" z="-15.763671875" a="0" y="1.3711700439453125"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="8.0458984375" z="-9.35546875" a="0" y="1.094085693359375"/>
+	<child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="-29.59765625" z="9.986328125" a="0" y="-0.4798583984375"/>
+	<child type="bldr_ShellCrater2_Small" spawnsecondary="false" x="-7.369140625" z="3.46875" a="0" y="-1.1543731689453125"/>
+	<child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="-12.09765625" z="18.486328125" a="0" y="-1.92950439453125"/>
+	<child type="StaticObj_ShellCrater1_Decal" spawnsecondary="false" x="-21.46484375" z="8.0283203125" a="0" y="0.9725494384765625"/>
+	<child type="StaticObj_ShellCrater2_Decal" spawnsecondary="false" x="-11.08984375" z="8.876953125" a="0" y="1.31414794921875"/>
+	<child type="StaticObj_Misc_WoodenCrate" spawnsecondary="false" x="-17.0556640625" z="-12.583984375" a="0" y="1.59417724609375"/>
+	<child type="StaticObj_Misc_WoodenCrate" spawnsecondary="false" x="7.0146484375" z="-5.5771484375" a="0" y="0.8386993408203125"/>
+	<child type="StaticObj_Misc_WoodenCrate_5x" spawnsecondary="false" x="-0.931640625" z="-11.2392578125" a="0" y="1.76190185546875"/>
+	<child type="StaticObj_ShellCrater2_Debris" spawnsecondary="false" x="-15.6357421875" z="-2.0546875" a="0" y="0.8593292236328125"/>
+	<child type="StaticObj_ShellCrater2_Debris" spawnsecondary="false" x="3.232421875" z="8.90625" a="0" y="-0.752471923828125"/>
+</group>
+<group name="EventPack_Military_LemborkNorth">
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="0" y="0"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="1.341796875" z="11.83642578125" a="0" y="-0.933197021484375"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="0.4931640625" z="30.36962890625" a="0" y="-2.48077392578125"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="2.9775390625" z="-16.365234375" a="0" y="-0.178985595703125"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="0.4765625" z="52.59326171875" a="0" y="-4.8143310546875"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="1.15234375" z="-35.2529296875" a="0" y="0.495880126953125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="3.83984375" z="-54.18701171875" a="0" y="1.977325439453125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="5.984375" z="-44.10595703125" a="0" y="1.646484375"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="1.2119140625" z="-24.76123046875" a="0" y="0.9656982421875"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="5.1083984375" z="-3.57275390625" a="0" y="0.200653076171875"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="5.4677734375" z="21.03271484375" a="0" y="-1.440582275390625"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="5.0908203125" z="42.71630859375" a="0" y="-3.262847900390625"/>
+	<child type="AugShort" spawnsecondary="false" x="3.107421875" z="7.1025390625" a="0" y="-1.652496337890625"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="-1.1767578125" z="-17.3154296875" a="0" y="-0.962554931640625"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="1.890625" z="58.72216796875" a="0" y="-6.06988525390625"/>
+	<child type="AK74_Green" spawnsecondary="false" x="3.015625" z="-48.97216796875" a="0" y="0.384002685546875"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="7.6474609375" z="-46.3017578125" a="0" y="0.14678955078125"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-1.677734375" z="21.0322265625" a="0" y="-3.019195556640625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="0.830078125" z="-48.13427734375" a="0" y="0.166290283203125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="3.6337890625" z="-34.14501953125" a="0" y="-0.291015625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="1.2900390625" z="31.48046875" a="0" y="-4.009674072265625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="-0.484375" z="-10.09912109375" a="0" y="-1.256683349609375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="3.484375" z="30.47314453125" a="0" y="-3.91058349609375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="2.0908203125" z="13.158203125" a="0" y="-2.630706787109375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="3.484375" z="-45.65234375" a="0" y="0.11248779296875"/>
+	<child type="AmmoBox" spawnsecondary="false" x="0.828125" z="-4.60107421875" a="0" y="-1.5592041015625"/>
+	<child type="MilitaryBoots_Redpunk" spawnsecondary="false" x="4.2763671875" z="-29.333984375" a="0" y="0.0074462890625"/>
+	<child type="TacticalShirt_Tan" spawnsecondary="false" x="1.2177734375" z="-42.533203125" a="0" y="0.330108642578125"/>
+	<child type="TacticalShirt_Olive" spawnsecondary="false" x="3.7841796875" z="53.6572265625" a="0" y="-5.346405029296875"/>
+	<child type="TacticalBaconCan_Opened" spawnsecondary="false" x="5.189453125" z="-25.14306640625" a="0" y="-0.62701416015625"/>
+	<child type="TacticalGoggles" spawnsecondary="false" x="2.888671875" z="5.212890625" a="0" y="-2.003265380859375"/>
+	<child type="HighCapacityVest_Olive" spawnsecondary="false" x="0.9765625" z="-28.8203125" a="0" y="-0.343353271484375"/>
+	<child type="HighCapacityVest_Black" spawnsecondary="false" x="1.25" z="19.1796875" a="0" y="-2.900482177734375"/>
+	<child type="CargoPants_Beige" spawnsecondary="false" x="-1.5234375" z="-13.42626953125" a="0" y="-0.803192138671875"/>
+	<child type="CargoPants_Green" spawnsecondary="false" x="2.373046875" z="26.29345703125" a="0" y="-3.298492431640625"/>
+	<child type="SewingKit" spawnsecondary="false" x="5.76953125" z="-3.10302734375" a="0" y="-1.576446533203125"/>
+	<child type="SewingKit" spawnsecondary="false" x="6.220703125" z="7.7890625" a="0" y="-2.2230224609375"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="-1.9482421875" z="-35.27197265625" a="0" y="-0.223297119140625"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="4.9228515625" z="11.81396484375" a="0" y="-2.493804931640625"/>
+	<child type="Whetstone" spawnsecondary="false" x="6.4951171875" z="-11.0888671875" a="0" y="-1.0521240234375"/>
+	<child type="CombatKnife" spawnsecondary="false" x="2.8779296875" z="-24.0244140625" a="0" y="-0.607421875"/>
+	<child type="NylonKnifeSheath" spawnsecondary="false" x="-2.4921875" z="-6.3623046875" a="0" y="-1.429779052734375"/>
+</group>
+<group name="EventPack_Military_NadborWest">
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="357.4792478084564" y="0"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-6.50732421875" z="33.37060546875" a="286.8499450683594" y="-4.688262939453125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="18.88037109375" z="-0.53271484375" a="0" y="1.996124267578125"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="30.26611328125" z="20.8515625" a="0" y="-2.348724365234375"/>
+	<child type="CraterLong" spawnsecondary="false" x="33.97021484375" z="-23.475341796875" a="312.9452133178711" y="2.689849853515625"/>
+	<child type="StaticObj_Decal_dirt_damage_long1" spawnsecondary="false" x="23.43994140625" z="-16.358642578125" a="136.36587524414062" y="5.023406982421875"/>
+	<child type="StaticObj_Decal_dirt_damage_long1" spawnsecondary="false" x="18.2080078125" z="-11.98681640625" a="136.36585998535156" y="4.474639892578125"/>
+	<child type="StaticObj_Decal_dirt_damage_long1" spawnsecondary="false" x="12.86572265625" z="-7.126953125" a="136.36585998535156" y="3.8905029296875"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="18.74072265625" z="-5.99755859375" a="0" y="1.319610595703125"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="17.95166015625" z="-8.703369140625" a="0" y="1.525909423828125"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="15.01611328125" z="-5.967041015625" a="0" y="1.1881103515625"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="6.23388671875" z="25.15576171875" a="0" y="-4.78741455078125"/>
+	<child type="StaticObj_Misc_Pallets2" spawnsecondary="false" x="15.6298828125" z="-3.367431640625" a="0" y="0.56427001953125"/>
+	<child type="StaticObj_Misc_Pallets1" spawnsecondary="false" x="16.4755859375" z="-14.567138671875" a="0" y="1.07806396484375"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="13.8193359375" z="-17.155029296875" a="0" y="1.229522705078125"/>
+	<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="6.60693359375" z="28.1513671875" a="0" y="-4.64483642578125"/>
+	<child type="AugShort" spawnsecondary="false" x="14.0478515625" z="-14.03125" a="0" y="1.355133056640625"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="0.748046875" z="-4.38330078125" a="0" y="-0.600830078125"/>
+	<child type="Mag_Aug_30Rnd" spawnsecondary="false" x="34.20361328125" z="21.875244140625" a="0" y="-3.686126708984375"/>
+	<child type="AK74_Green" spawnsecondary="false" x="9.23095703125" z="28.3974609375" a="0" y="-4.9742431640625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="17.07177734375" z="-16.120849609375" a="0" y="1.09564208984375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="4.8505859375" z="23.264404296875" a="0" y="-4.838897705078125"/>
+	<child type="AmmoBox" spawnsecondary="false" x="16.8828125" z="-11.339111328125" a="0" y="0.849609375"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="2.3330078125" z="-3.314697265625" a="0" y="-0.515167236328125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="11.2861328125" z="17.140380859375" a="0" y="-3.139404296875"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="19.23779296875" z="-14.400390625" a="0" y="1.167266845703125"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="20.42236328125" z="-21.112060546875" a="0" y="1.52789306640625"/>
+	<child type="AmmoBox_556x45Tracer_20Rnd" spawnsecondary="false" x="19.412109375" z="32.018798828125" a="0" y="-4.79779052734375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="5.712890625" z="21.58740234375" a="0" y="-4.523223876953125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="27.98876953125" z="16.860595703125" a="0" y="-3.522369384765625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="35.78466796875" z="21.368896484375" a="0" y="-3.57025146484375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="12.388671875" z="-17.048583984375" a="0" y="0.797607421875"/>
+	<child type="JungleBoots_Brown" spawnsecondary="false" x="5.2509765625" z="31.377685546875" a="0" y="-5.41436767578125"/>
+	<child type="CargoPants_Beige" spawnsecondary="false" x="21.88232421875" z="-17.27734375" a="0" y="1.768829345703125"/>
+	<child type="bldr_prop_CargoPants_Green" spawnsecondary="false" x="-2.33056640625" z="-0.674560546875" a="0" y="-0.71661376953125"/>
+	<child type="M65Jacket_Olive" spawnsecondary="false" x="7.283203125" z="21.796630859375" a="0" y="-4.518341064453125"/>
+	<child type="M65Jacket_Khaki" spawnsecondary="false" x="16.8447265625" z="0.28955078125" a="0" y="0.492889404296875"/>
+	<child type="Land_Wreck_C130J_Cargo" spawnsecondary="false" x="24.10888671875" z="-15.335693359375" a="307.0051918029785" y="7.450286865234375"/>
+	<child type="Land_wreck_truck01_aban1_firetruck_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="25.2001953125" z="21.442138671875" a="0" y="-4.39178466796875"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="10.52392578125" z="31.31298828125" a="283.83876037597656" y="-5.40557861328125"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="14.2080078125" z="25.385009765625" a="277.58480072021484" y="-5.015960693359375"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="44.12060546875" z="19.118896484375" a="270.3529968261719" y="-2.381103515625"/>
+</group>
+<group name="EventPack_Military_OlszankaSouth">
+	<child type="Land_wreck_truck01_aban2_green_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="6.099722385406494" y="0"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-3.56103515625" z="-29.607421875" a="0" y="0.223785400390625"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-1.77734375" z="-11.59765625" a="0" y="1.334869384765625"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="2.78125" z="17.00244140625" a="0" y="0.8583984375"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="4.25634765625" z="8.00439453125" a="0" y="1.274688720703125"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="0.21875" z="-20.36767578125" a="0" y="1.791046142578125"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-5.51904296875" z="-41.310546875" a="0" y="2.440521240234375"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="6.591796875" z="34.93115234375" a="0" y="0.67694091796875"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="0.37353515625" z="2.64501953125" a="97.28475952148438" y="2.147003173828125"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-3.49853515625" z="-27.53955078125" a="0" y="2.038604736328125"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="0.0673828125" z="0.81005859375" a="186.1001739501953" y="2.125274658203125"/>
+	<child type="AK74_Green" spawnsecondary="false" x="1.4130859375" z="8.68798828125" a="0" y="-0.303924560546875"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="2.53759765625" z="22.1748046875" a="0" y="-0.75927734375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-3.0205078125" z="-39.4296875" a="0" y="0.68218994140625"/>
+	<child type="CargoPants_Beige" spawnsecondary="false" x="5.59423828125" z="11.2568359375" a="0" y="-0.232330322265625"/>
+	<child type="CargoPants_Green" spawnsecondary="false" x="-5.88037109375" z="-32.83544921875" a="0" y="0.766998291015625"/>
+	<child type="M65Jacket_Khaki" spawnsecondary="false" x="5.36083984375" z="31.9306640625" a="0" y="-0.8541259765625"/>
+	<child type="M65Jacket_Tan" spawnsecondary="false" x="1.51806640625" z="-16.37451171875" a="0" y="0.1082763671875"/>
+	<child type="UKAssVest_Khaki" spawnsecondary="false" x="6.86083984375" z="38.44580078125" a="0" y="-1.149810791015625"/>
+	<child type="UKAssVest_Olive" spawnsecondary="false" x="-3.40673828125" z="-12.14794921875" a="0" y="-0.071441650390625"/>
+	<child type="TortillaBag" spawnsecondary="false" x="6.8994140625" z="8.85546875" a="0" y="-0.3060302734375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="6.79541015625" z="32.06494140625" a="0" y="-1.0487060546875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="4.42333984375" z="20.69189453125" a="0" y="-0.756805419921875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="3.18896484375" z="3.06298828125" a="0" y="-0.4022216796875"/>
+	<child type="AmmoBox" spawnsecondary="false" x="-2.36376953125" z="-19.6650390625" a="0" y="0.037750244140625"/>
+	<child type="TacticalGloves_Green" spawnsecondary="false" x="1.111328125" z="13.314453125" a="0" y="-0.4757080078125"/>
+	<child type="TacticalGloves_Beige" spawnsecondary="false" x="-0.23681640625" z="-8.13134765625" a="0" y="-0.120941162109375"/>
+	<child type="JungleBoots_Olive" spawnsecondary="false" x="5.01220703125" z="33.42919921875" a="0" y="-1.0601806640625"/>
+</group>
+<group name="EventPack_Military_PolanaWest">
+	<child type="StaticObj_Wreck_Ural_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="71.58819580078125" y="0"/>
+	<child type="StaticObj_Wreck_Ural_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="31.7568359375" z="8.9766845703125" a="78.32377624511719" y="0.6256103515625"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="10.661865234375" z="3.7666015625" a="69.22300720214844" y="1.2608642578125"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="43.334716796875" z="11.0421142578125" a="76.94425201416016" y="1.056640625"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="67.24169921875" z="10.0633544921875" a="97.75802612304688" y="1.3232421875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="54.20849609375" z="10.902099609375" a="85.9034652709961" y="1.18865966796875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="21.33837890625" z="6.093017578125" a="79.58391571044922" y="1.35076904296875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-16.84130859375" z="-6.635986328125" a="73.78446960449219" y="-1.47833251953125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-34.874267578125" z="-13.4549560546875" a="74.90802764892578" y="-3.7845458984375"/>
+	<child type="AKM" spawnsecondary="false" x="55.935546875" z="13.1611328125" a="0" y="-0.04730224609375"/>
+	<child type="Mag_AKM_Drum_TEST" spawnsecondary="false" x="25.2568359375" z="6.3564453125" a="0" y="-0.30975341796875"/>
+	<child type="Mag_AKM_Drum75Rnd" spawnsecondary="false" x="38.9599609375" z="11.9046630859375" a="0" y="-0.54583740234375"/>
+	<child type="Mag_AKM_Drum75Rnd" spawnsecondary="false" x="-10.9189453125" z="-3.4222412109375" a="0" y="-2.306640625"/>
+	<child type="bldr_prop_AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="65.149169921875" z="11.7891845703125" a="0" y="-0.17486572265625"/>
+	<child type="bldr_prop_AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="53.139404296875" z="13.1375732421875" a="0" y="-0.30194091796875"/>
+	<child type="bldr_prop_AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="12.458740234375" z="2.0614013671875" a="0" y="-0.3514404296875"/>
+	<child type="bldr_prop_AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-29.642578125" z="-10.9107666015625" a="0" y="-4.642578125"/>
+	<child type="bldr_prop_AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="33.52685546875" z="11.8209228515625" a="0" y="-0.46734619140625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="47.154541015625" z="9.81591796875" a="0" y="-0.46630859375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="1.90673828125" z="3.1568603515625" a="0" y="-0.816650390625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-33.939208984375" z="-15.5345458984375" a="0" y="-5.3499755859375"/>
+	<child type="AK74_Green" spawnsecondary="false" x="-7.46484375" z="-1.2015380859375" a="0" y="-1.6678466796875"/>
+	<child type="AK_RailHndgrd_Green" spawnsecondary="false" x="5.36669921875" z="-1.0184326171875" a="0" y="-0.74615478515625"/>
+	<child type="AK_RailHndgrd_Green" spawnsecondary="false" x="48.9580078125" z="12.9635009765625" a="0" y="-0.4442138671875"/>
+	<child type="AKS74U_Bttstck_Green" spawnsecondary="false" x="-8.764404296875" z="-5.9742431640625" a="0" y="-2.1683349609375"/>
+	<child type="AKS74U_Bttstck_Green" spawnsecondary="false" x="58.95947265625" z="10.64599609375" a="0" y="-0.2427978515625"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="-0.8349609375" z="-2.9354248046875" a="0" y="-1.2496337890625"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="49.702880859375" z="8.7218017578125" a="0" y="-0.44512939453125"/>
+	<child type="KobraOptic" spawnsecondary="false" x="63.478271484375" z="12.4390869140625" a="0" y="-0.1429443359375"/>
+	<child type="KobraOptic" spawnsecondary="false" x="16.303955078125" z="6.6275634765625" a="0" y="0.0123291015625"/>
+	<child type="Battery9V" spawnsecondary="false" x="54.9326171875" z="9.1934814453125" a="0" y="-0.43084716796875"/>
+	<child type="Battery9V" spawnsecondary="false" x="13.8232421875" z="4.1226806640625" a="0" y="-0.208251953125"/>
+	<child type="Battery9V" spawnsecondary="false" x="36.22265625" z="10.4285888671875" a="0" y="-0.50146484375"/>
+	<child type="AmmoBox" spawnsecondary="false" x="33.16943359375" z="7.253662109375" a="0" y="-0.430908203125"/>
+</group>
+<group name="EventPack_Military_SwarogEast">
+	<child type="Wreck_Mi8" deloot="0" x="0" z="0" a="58.147239685058594" y="0"/>
+	<child type="Wreck_Mi8" spawnsecondary="false" x="29.478515625" z="12.7783203125" a="58.14716720581055" y="-1.420135498046875"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="4.44775390625" z="-1.21240234375" a="0" y="-0.973358154296875"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="3.5068359375" z="-2.82470703125" a="0" y="-0.9168701171875"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-2.306640625" z="-6.147216796875" a="0" y="-0.78424072265625"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="32.42236328125" z="11.74365234375" a="0" y="-2.542694091796875"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="31.55615234375" z="8.0283203125" a="0" y="-2.302764892578125"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="33.91162109375" z="9.01123046875" a="0" y="-2.479766845703125"/>
+	<child type="AmmoBox" spawnsecondary="false" x="0.7607421875" z="-4.775390625" a="0" y="-1.65264892578125"/>
+	<child type="AmmoBox" spawnsecondary="false" x="26.7119140625" z="7.49072265625" a="0" y="-2.8046875"/>
+	<child type="M79" spawnsecondary="false" x="6.9833984375" z="-2.831298828125" a="0" y="-1.276763916015625"/>
+	<child type="AntiChemInjector" spawnsecondary="false" x="-1.21337890625" z="-4.806884765625" a="0" y="-1.56396484375"/>
+	<child type="AntiChemInjector" spawnsecondary="false" x="28.291015625" z="7.1396484375" a="0" y="-2.87109375"/>
+	<child type="AntiChemInjector" spawnsecondary="false" x="34.13525390625" z="12.15283203125" a="0" y="-3.46612548828125"/>
+	<child type="BandageDressing" spawnsecondary="false" x="3.732421875" z="-4.46142578125" a="0" y="-1.716827392578125"/>
+	<child type="BandageDressing" spawnsecondary="false" x="29.66552734375" z="8.088134765625" a="0" y="-3.017608642578125"/>
+	<child type="SalineBagIV" spawnsecondary="false" x="-5.4892578125" z="-7.7705078125" a="0" y="-1.29071044921875"/>
+	<child type="SalineBagIV" spawnsecondary="false" x="21.19775390625" z="4.98583984375" a="0" y="-2.389923095703125"/>
+	<child type="StaticObj_ammoboxes_single" spawnsecondary="false" x="8.80322265625" z="1.107421875" a="0" y="-1.517547607421875"/>
+	<child type="StaticObj_ammoboxes_single" spawnsecondary="false" x="24.18310546875" z="4.9296875" a="0" y="-2.07757568359375"/>
+	<child type="StaticObj_ammoboxes_single" spawnsecondary="false" x="37.92236328125" z="12.398681640625" a="0" y="-3.20281982421875"/>
+	<child type="StaticObj_ammoboxes_single" spawnsecondary="false" x="7.02294921875" z="-0.662353515625" a="0" y="-1.4603271484375"/>
+	<child type="AKM" spawnsecondary="false" x="2.02197265625" z="-4.41552734375" a="0" y="-1.51055908203125"/>
+	<child type="Mag_AKM_Drum_TEST" spawnsecondary="false" x="26.1953125" z="4.602783203125" a="0" y="-2.572662353515625"/>
+	<child type="Mag_AKM_Drum_TEST" spawnsecondary="false" x="25.3193359375" z="7.68994140625" a="0" y="-2.7236328125"/>
+	<child type="Mag_AKM_Drum75Rnd" spawnsecondary="false" x="-3.81494140625" z="-7.2783203125" a="0" y="-1.403656005859375"/>
+	<child type="Mag_AKM_Drum75Rnd" spawnsecondary="false" x="6.0205078125" z="1.567138671875" a="0" y="-1.904052734375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="-7.6396484375" z="-6.007080078125" a="0" y="-1.24267578125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="1.31396484375" z="-7.53564453125" a="0" y="-1.63128662109375"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="6.15234375" z="-4.694091796875" a="0" y="-1.877716064453125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="21.7890625" z="2.668701171875" a="0" y="-2.312286376953125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="22.60693359375" z="6.736572265625" a="0" y="-2.56573486328125"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="27.7939453125" z="9.5263671875" a="0" y="-3.039306640625"/>
+	<child type="AmmoBox_762x39Tracer_20Rnd" spawnsecondary="false" x="32.6279296875" z="5.947265625" a="0" y="-2.980987548828125"/>
+	<child type="AK_Suppressor" spawnsecondary="false" x="9.20751953125" z="-0.82177734375" a="0" y="-1.95159912109375"/>
+	<child type="KobraOptic" spawnsecondary="false" x="20.32763671875" z="8.239013671875" a="0" y="-2.56671142578125"/>
+	<child type="ElectronicRepairKit" spawnsecondary="false" x="36.38427734375" z="9.0126953125" a="0" y="-3.411163330078125"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="4.34619140625" z="-6.340576171875" a="0" y="-1.7305908203125"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="22.693359375" z="4.26953125" a="0" y="-2.40216064453125"/>
+	<child type="ZmbM_usSoldier_Officer_Convoy" spawnsecondary="false" x="5.826171875" z="-4.195556640625" a="0" y="-1.007080078125"/>
+	<child type="ZmbM_usSoldier_Officer_Convoy" spawnsecondary="false" x="27.71875" z="3.65234375" a="0" y="-1.7244873046875"/>
+	<child type="ZmbM_usSoldier_Officer_Convoy" spawnsecondary="false" x="8.09326171875" z="2.447021484375" a="0" y="-1.105255126953125"/>
+	<child type="ZmbM_usSoldier_Officer_Convoy" spawnsecondary="false" x="19.0419921875" z="4.656982421875" a="0" y="-1.48291015625"/>
+	<child type="ZmbM_usSoldier_Officer_Convoy" spawnsecondary="false" x="14.88037109375" z="-0.48876953125" a="0" y="-1.228973388671875"/>
+	<child type="ZmbM_usSoldier_Officer_Convoy" spawnsecondary="false" x="81.60498046875" z="30.5078125" a="0" y="-5.106781005859375"/>
+	<child type="ZmbM_usSoldier_Officer_Convoy" spawnsecondary="false" x="-67.8916015625" z="-18.0565185546875" a="0" y="3.589324951171875"/>
+</group>
+<group name="EventPack_Military_TarnowEast">
+	<child type="Land_Wreck_C130J_2" deloot="0" x="0" z="0" a="29.013601303100586" y="0"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="7.251953125" z="12.4609375" a="359.9186260327697" y="-5.5557861328125"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="5.5478515625" z="6.54296875" a="359.9186260327697" y="-5.4094085693359375"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-0.4599609375" z="10.576171875" a="359.9186260327697" y="-5.339202880859375"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-19.0380859375" z="23.1552734375" a="350.3955545425415" y="-3.741241455078125"/>
+	<child type="StaticObj_Wreck_Ural_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="11.830078125" z="18.685546875" a="194.35313415527344" y="-5.4756927490234375"/>
+	<child type="StaticObj_Wreck_Ural_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="3.7734375" z="20.126953125" a="179.6056671142578" y="-4.8966827392578125"/>
+	<child type="Land_wreck_truck01_aban2_firetruck_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-7.287109375" z="12.541015625" a="303.5939712524414" y="-5.6385498046875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-8.5634765625" z="28.2041015625" a="3.3862528800964355" y="-4.1315155029296875"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-27.3310546875" z="12.2939453125" a="306.23725509643555" y="-2.5268402099609375"/>
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-30.44140625" z="24.5546875" a="349.4475440979004" y="-3.2916412353515625"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-1.1845703125" z="8.8271484375" a="0" y="-5.5287933349609375"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="15.4404296875" z="9.33203125" a="0" y="-6.5163116455078125"/>
+	<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="12.7470703125" z="13.2958984375" a="0" y="-6.0735321044921875"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="15.5087890625" z="13.0673828125" a="0" y="-6.5601654052734375"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="7.810546875" z="17.970703125" a="0" y="-5.74432373046875"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="12.4150390625" z="10.5068359375" a="0" y="-5.94915771484375"/>
+	<child type="AK74" spawnsecondary="false" x="-3.857421875" z="17.9072265625" a="0" y="-5.4197235107421875"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="9.609375" z="20.51171875" a="0" y="-6.4312744140625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-24.322265625" z="12.634765625" a="0" y="-4.2267608642578125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="10.7373046875" z="10.6865234375" a="0" y="-6.4271240234375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="14.6220703125" z="18.4697265625" a="0" y="-6.741058349609375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-16.087890625" z="21.8857421875" a="0" y="-5.0697784423828125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-10.5537109375" z="7.123046875" a="0" y="-5.24822998046875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-4.919921875" z="8.337890625" a="0" y="-5.6163482666015625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-11.6630859375" z="28.318359375" a="0" y="-5.4931793212890625"/>
+	<child type="JungleBoots_Brown" spawnsecondary="false" x="-6.548828125" z="27.7890625" a="0" y="-5.7226104736328125"/>
+	<child type="UKAssVest_Camo" spawnsecondary="false" x="-7.7861328125" z="16.46875" a="0" y="-5.4447174072265625"/>
+	<child type="BallisticHelmet_Black" spawnsecondary="false" x="-16.55078125" z="23.8330078125" a="0" y="-5.1206207275390625"/>
+</group>
+<group name="EventPack_Military_TopolinEast">
+	<child type="Land_wreck_truck01_aban2_green_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="247.13011169433594" y="0"/>
+	<child type="Land_wreck_truck01_aban2_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="15.18359375" z="7.330078125" a="240.65966033935547" y="-0.5612945556640625"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-12.884521484375" z="-6.5205078125" a="246.87442016601562" y="2.426727294921875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-22.1494140625" z="-11.13525390625" a="253.16122436523438" y="2.935791015625"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="23.93701171875" z="13.3759765625" a="249.56458282470703" y="0.8101654052734375"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="35.62109375" z="15.8671875" a="249.56466674804688" y="0.4906005859375"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-31.893798828125" z="-13.02490234375" a="253.1612777709961" y="3.4415283203125"/>
+	<child type="StaticObj_Wreck_Trailer_Cistern" spawnsecondary="false" x="-6.171630859375" z="-2.310546875" a="343.68069076538086" y="0.3277130126953125"/>
+	<child type="StaticObj_Wreck_Trailer_Cistern" spawnsecondary="false" x="9.07568359375" z="4.8095703125" a="343.68077087402344" y="-0.3050994873046875"/>
+	<child type="AmmoBox" spawnsecondary="false" x="9.605712890625" z="3.76513671875" a="0" y="-0.2557373046875"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="13.5439453125" z="6.453125" a="329.4501609802246" y="1.415283203125"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="-2.7763671875" z="-1.20068359375" a="68.50707244873047" y="2.07745361328125"/>
+	<child type="AK74_Green" spawnsecondary="false" x="-18.07470703125" z="-8.650390625" a="0" y="1.41162109375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-9.46923828125" z="-1.00341796875" a="0" y="0.7213897705078125"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="20.049560546875" z="9.53564453125" a="0" y="-0.428558349609375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-16.57421875" z="-9.11083984375" a="0" y="1.1498565673828125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-6.068115234375" z="0.64453125" a="0" y="0.46435546875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="6.6630859375" z="1.8046875" a="0" y="-0.0286407470703125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="20.30126953125" z="12.88916015625" a="0" y="-0.560638427734375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="31.42041015625" z="14.55078125" a="0" y="-0.836273193359375"/>
+	<child type="UKAssVest_Black" spawnsecondary="false" x="-7.8505859375" z="-4.94580078125" a="0" y="0.615447998046875"/>
+	<child type="CargoPants_Black" spawnsecondary="false" x="6.140625" z="4.60986328125" a="0" y="0.1521148681640625"/>
+	<child type="M65Jacket_Black" spawnsecondary="false" x="23.657958984375" z="10.45263671875" a="0" y="-0.52178955078125"/>
+	<child type="SewingKit" spawnsecondary="false" x="-0.763916015625" z="-1.94091796875" a="0" y="0.2139892578125"/>
+	<child type="LeatherSewingKit" spawnsecondary="false" x="11.68310546875" z="4.39599609375" a="0" y="-0.2863922119140625"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="33.100341796875" z="14.95166015625" a="0" y="-0.9516448974609375"/>
+	<child type="MilitaryBoots_Black" spawnsecondary="false" x="-29.193359375" z="-13.943359375" a="0" y="2.25103759765625"/>
+	<child type="BalaclavaMask_Black" spawnsecondary="false" x="27.74365234375" z="16.92919921875" a="0" y="-0.8634185791015625"/>
+</group>
+<group name="EventPack_Military_TopolinNorth">
+	<child type="StaticObj_Wreck_BMP2_DE" lootmax="2" lootmin="1" deloot="0" x="0" z="0" a="334.34872817993164" y="0"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-16.448974609375" z="-18.0224609375" a="0" y="-0.365325927734375"/>
+	<child type="StaticObj_Misc_SupplyBox3_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-23.296875" z="-20.00390625" a="0" y="-0.340972900390625"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-19.719970703125" z="-15.8310546875" a="0" y="-0.62109375"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-13.8443603515625" z="-24.384765625" a="320.44971466064453" y="-1.088775634765625"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-20.357666015625" z="-27.9501953125" a="316.84273529052734" y="-1.10443115234375"/>
+	<child type="StaticObj_Wreck_BMP1_NoPlacement_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-23.8304443359375" z="-7.73828125" a="0" y="-0.086395263671875"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-36.6514892578125" z="-25.216796875" a="82.85492706298828" y="0.39501953125"/>
+	<child type="StaticObj_ammoboxes_big" spawnsecondary="false" x="-27.2589111328125" z="-22.6689453125" a="0" y="-0.161407470703125"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="-18.64599609375" z="-21.1103515625" a="0" y="-0.4539794921875"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="-12.7138671875" z="-18.4228515625" a="0" y="-0.38201904296875"/>
+	<child type="StaticObj_ammoboxes_single" spawnsecondary="false" x="-14.1451416015625" z="-11.7080078125" a="126.17330169677734" y="-0.757049560546875"/>
+	<child type="StaticObj_ammoboxes_single" spawnsecondary="false" x="-17.257080078125" z="-15.3994140625" a="0" y="-0.7589111328125"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="-19.205322265625" z="-12.9169921875" a="0" y="-0.864044189453125"/>
+	<child type="StaticObj_Misc_Pallets1" spawnsecondary="false" x="-13.0799560546875" z="-13.244140625" a="0" y="-0.913055419921875"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-30.012451171875" z="-17.4384765625" a="0" y="-0.46759033203125"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="-27.228515625" z="-15.6435546875" a="0" y="-0.47491455078125"/>
+	<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="-22.968994140625" z="-13.90234375" a="114.50607299804688" y="-0.541595458984375"/>
+	<child type="StaticObj_PalletTrolley_01_yellow_F" spawnsecondary="false" x="-22.055908203125" z="-23.5185546875" a="0" y="-0.52490234375"/>
+	<child type="StaticObj_Wreck_BRDM_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-5.053466796875" z="-16.07421875" a="183.6453399658203" y="-0.399932861328125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="25.4246826171875" z="-6.8125" a="354.92360496520996" y="-1.1993408203125"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-8.28271484375" z="-6.6220703125" a="272.5963363647461" y="0.627960205078125"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="-17.5025634765625" z="-5.474609375" a="0" y="0.6094970703125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="11.9205322265625" z="-7.2666015625" a="286.2525405883789" y="-0.13006591796875"/>
+	<child type="AK74_Black" spawnsecondary="false" x="1.8997802734375" z="-11.203125" a="0" y="-1.00799560546875"/>
+	<child type="AK74_Green" spawnsecondary="false" x="-21.9202880859375" z="-8.646484375" a="0" y="-0.8994140625"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="6.5177001953125" z="1.046875" a="0" y="-1.0341796875"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-15.59423828125" z="-15.1357421875" a="0" y="-1.028900146484375"/>
+	<child type="Mag_AK74_45Rnd" spawnsecondary="false" x="-27.472412109375" z="-19.552734375" a="0" y="-0.998199462890625"/>
+	<child type="KobraOptic" spawnsecondary="false" x="-8.9052734375" z="-18.677734375" a="0" y="-1.247039794921875"/>
+	<child type="PSO11Optic" spawnsecondary="false" x="-14.1868896484375" z="-7.4482421875" a="0" y="-0.32049560546875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-4.535888671875" z="-12.5712890625" a="0" y="-1.1107177734375"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-22.7259521484375" z="-17.6318359375" a="0" y="-1.0875244140625"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-23.8055419921875" z="-23.28125" a="0" y="-1.079315185546875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-27.47802734375" z="-14.03515625" a="0" y="-1.095672607421875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-10.9339599609375" z="-17.3291015625" a="0" y="-1.14971923828125"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-32.0169677734375" z="-22.89453125" a="0" y="-1.079315185546875"/>
+	<child type="AmmoBox_545x39Tracer_20Rnd" spawnsecondary="false" x="-7.8504638671875" z="-14.64453125" a="0" y="-1.148223876953125"/>
+	<child type="Whetstone" spawnsecondary="false" x="-25.2783203125" z="-16.1474609375" a="0" y="-1.238555908203125"/>
+	<child type="CombatBoots_Beige" spawnsecondary="false" x="-34.038818359375" z="-26.9013671875" a="0" y="-1.22967529296875"/>
+	<child type="CombatKnife" spawnsecondary="false" x="-16.29150390625" z="-19.8466796875" a="0" y="-1.194244384765625"/>
+</group>
+<group name="EventPack_Military_WrzeszczSouth">
+	<child type="Land_Wreck_C130J_2" deloot="0" x="0" z="0" a="93.119384765625" y="0"/>
+	<child type="Land_wreck_truck01_aban2_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="16.8759765625" z="3.14697265625" a="108.93236541748047" y="-7.888671875"/>
+	<child type="Land_wreck_truck01_aban1_green_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="17.09765625" z="-3.441162109375" a="131.5194854736328" y="-8.41766357421875"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="92.78125" z="13.341552734375" a="133.2062530517578" y="-18.170867919921875"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="120.388671875" z="-70.28271484375" a="94.12287902832031" y="-27.176788330078125"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="92.994140625" z="-8.105224609375" a="192.9923553466797" y="-19.356475830078125"/>
+	<child type="Land_Wreck_V3S_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="95.1376953125" z="3.281494140625" a="176.35227966308594" y="-18.8106689453125"/>
+	<child type="Land_Wreck_offroad02_aban2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="91.646484375" z="-18.023681640625" a="149.6580352783203" y="-19.790435791015625"/>
+	<child type="Land_Wreck_offroad02_aban1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="11.322265625" z="-13.512451171875" a="305.83782958984375" y="-6.469879150390625"/>
+	<child type="CraterLong" spawnsecondary="false" x="-13.939453125" z="1.345703125" a="84.7304916381836" y="-4.192352294921875"/>
+	<child type="StaticObj_Decal_dirt_damage_long1" spawnsecondary="false" x="2.701171875" z="0.705078125" a="100.49940490722656" y="-2.679412841796875"/>
+	<child type="StaticObj_Decal_dirt_damage_long1" spawnsecondary="false" x="8.80078125" z="-0.019775390625" a="281.07601165771484" y="-3.46337890625"/>
+	<child type="StaticObj_Decal_dirt_damage_long1" spawnsecondary="false" x="16.00390625" z="-1.593505859375" a="280.2759780883789" y="-4.508453369140625"/>
+	<child type="StaticObj_Decal_dirt_rocks2" spawnsecondary="false" x="5.3837890625" z="5.968017578125" a="0" y="-5.335693359375"/>
+	<child type="StaticObj_Decal_dirt_rocks1" spawnsecondary="false" x="0.841796875" z="7.16552734375" a="0" y="-4.602447509765625"/>
+	<child type="StaticObj_Misc_SupplyBox1_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="5.9189453125" z="-5.83349609375" a="0" y="-6.35870361328125"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="6.712890625" z="-1.307861328125" a="0" y="-6.023834228515625"/>
+	<child type="StaticObj_Misc_Pallets1" spawnsecondary="false" x="9.9931640625" z="-2.82666015625" a="0" y="-7.210601806640625"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="7.197265625" z="4.2900390625" a="0" y="-6.14630126953125"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="10.01953125" z="0.2138671875" a="0" y="-6.27508544921875"/>
+	<child type="StaticObj_Misc_SupplyBox2_DE" lootmax="2" lootmin="1" spawnsecondary="false" x="8.255859375" z="-4.11328125" a="0" y="-6.355224609375"/>
+	<child type="StaticObj_Misc_Pallets3" spawnsecondary="false" x="92.7861328125" z="-1.031494140625" a="0" y="-20.16571044921875"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="95.181640625" z="-11.301025390625" a="0" y="-20.679931640625"/>
+	<child type="StaticObj_ammoboxes_stacked" spawnsecondary="false" x="97.3408203125" z="-1.14892578125" a="0" y="-20.23236083984375"/>
+	<child type="AmmoBox" spawnsecondary="false" x="93.2958984375" z="4.214111328125" a="0" y="-20.23590087890625"/>
+	<child type="SVD" spawnsecondary="false" x="16.4794921875" z="6.81640625" a="0" y="-7.4466552734375"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="12.919921875" z="-10.9619140625" a="0" y="-8.2572021484375"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="12.0361328125" z="-1.56005859375" a="0" y="-7.52899169921875"/>
+	<child type="Mag_SVD_10Rnd" spawnsecondary="false" x="20.1962890625" z="-2.76708984375" a="0" y="-8.675140380859375"/>
+	<child type="PSO11Optic" spawnsecondary="false" x="1.529296875" z="-6.83642578125" a="0" y="-6.193115234375"/>
+	<child type="ElectronicRepairKit" spawnsecondary="false" x="12.6064453125" z="2.554931640625" a="0" y="-7.280029296875"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="11.26953125" z="-6.99853515625" a="0" y="-7.711883544921875"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="11.6572265625" z="6.68212890625" a="0" y="-6.854248046875"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="17.9462890625" z="-8.486328125" a="0" y="-8.6583251953125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="1.94921875" z="-9.61669921875" a="0" y="-6.687530517578125"/>
+	<child type="AmmoBox_762x54Tracer_20Rnd" spawnsecondary="false" x="4.5009765625" z="8.08740234375" a="0" y="-5.90203857421875"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="14.392578125" z="-8.47412109375" a="0" y="-8.232177734375"/>
+	<child type="WeaponCleaningKit" spawnsecondary="false" x="0.0234375" z="5.453125" a="0" y="-5.57122802734375"/>
+	<child type="ASVAL" spawnsecondary="false" x="92.943359375" z="2.033447265625" a="0" y="-20.263397216796875"/>
+	<child type="Mag_Vikhr_30Rnd" spawnsecondary="false" x="90.2919921875" z="-9.621826171875" a="0" y="-20.91400146484375"/>
+	<child type="Mag_Vikhr_30Rnd" spawnsecondary="false" x="95.5888671875" z="-1.2392578125" a="0" y="-20.5289306640625"/>
+	<child type="Mag_Vikhr_30Rnd" spawnsecondary="false" x="92.6357421875" z="-14.662353515625" a="0" y="-21.1854248046875"/>
+	<child type="AmmoBox_9x39AP_20Rnd" spawnsecondary="false" x="91.740234375" z="-3.475830078125" a="0" y="-20.613372802734375"/>
+	<child type="AmmoBox_9x39_20Rnd" spawnsecondary="false" x="91.751953125" z="11.217529296875" a="0" y="-19.857513427734375"/>
+	<child type="AmmoBox_9x39_20Rnd" spawnsecondary="false" x="89.7353515625" z="-18.2041015625" a="0" y="-21.39691162109375"/>
+	<child type="AmmoBox_9x39_20Rnd" spawnsecondary="false" x="94.134765625" z="-17.4228515625" a="0" y="-21.348236083984375"/>
+	<child type="AmmoBox_9x39_20Rnd" spawnsecondary="false" x="97.0107421875" z="-3.559326171875" a="0" y="-20.679229736328125"/>
+	<child type="AmmoBox_9x39_20Rnd" spawnsecondary="false" x="95.6259765625" z="11.891357421875" a="0" y="-19.88177490234375"/>
+	<child type="ACOGOptic" spawnsecondary="false" x="94.6845703125" z="-2.844482421875" a="0" y="-20.546051025390625"/>
+</group>
+
+

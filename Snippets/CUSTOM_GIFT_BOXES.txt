@@ -1,0 +1,128 @@
+****** install notes ******
+
+Just copy and paste in the spawnabletypes xml file. (make sure to replace old gift boxes.
+Change to suit your needs but remember to check how many slots each gift box has max.
+
+****************************************
+Next to the file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+Custom gift boxes template by Anonymous4750#8239
+
+****************************************
+
+<!-- spawnabletypes.xml - REPLACE ENTRY -->
+
+<!-- GIFT BOX -->
+	<type name="GiftBox_Small_1"> <!-- snack -->
+		<cargo chance="1.00">
+			<item name="ZagorkyChocolate" chance="1.00" />
+			<item name="SodaCan_Fronta" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Small_2"> <!-- snack -->
+		<cargo chance="1.00">
+			<item name="SodaCan_Kvass" chance="1.00" />
+			<item name="ZagorkyPeanuts" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Small_3"> <!-- snack -->
+		<cargo chance="1.00">
+			<item name="Pate" chance="1.00" />
+			<item name="SodaCan_Cola" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Small_4"> <!-- snack -->
+		<cargo chance="1.00">
+			<item name="Zagorky" chance="1.00" />
+			<item name="SodaCan_Sprite" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_1"> <!-- building supplies -->
+		<cargo chance="1.00">
+			<item name="CombinationLock4" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="NailBox" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_2"> <!-- building supplies -->
+		<cargo chance="1.00">
+			<item name="WoodAxe" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="NailBox" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Pliers" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_3"> <!-- building supplies -->
+		<cargo chance="1.00">
+			<item name="Handsaw" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="MetalWire" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_4"> <!-- medical supplies -->
+		<cargo chance="1.00">
+			<item name="SurgicalMask" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="FirstAidKit" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Epinephrine" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_1"> <!-- gungift -->
+		<cargo chance="1.00">
+			<item name="CZ61" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Mag_CZ61_20Rnd" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_2"> <!-- gungift -->
+		<cargo chance="1.00">
+			<item name="MP5K" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="Mag_MP5_30Rnd" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_3"> <!-- gungift -->
+		<cargo chance="1.00">
+			<item name="Magnum" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="PlateCarrierHolster" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="MilitaryBelt" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="AmmoBox_357_20Rnd" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_4"> <!-- gungift -->
+		<cargo chance="1.00">
+			<item name="SawedoffIzh43Shotgun" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00">
+			<item name="AmmoBox_00buck_10rnd" chance="1.00" />
+		</cargo>
+	</type>
+<!--  END OF GIFT BOX  -->
+
+
+****************************************    
+Org File Created by Anonymous4750#8239. For more help files for DayZ come visit us at http://bhaalshad.com 
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)    

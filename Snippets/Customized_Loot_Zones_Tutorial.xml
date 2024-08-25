@@ -1,0 +1,114 @@
+*Customized Loot Zones*
+
+Here we will be creating custom loot zones using mapgroupproto and mapgrouppos.
+
+For this example I will be placing a building on NWAF and creating 
+a custom loot pool for it to spawn exclusive items in only that location.
+
+You can also turn existing vanilla areas into custom areas using the 
+#🔎dayz-xml-injector-bot pull feature to find mapgrouppos entries for editing.
+
+For this example we will be using a Land_Shed_W5 spawned in on NWAF.
+
+-------------------------------------------------------------------------------------------------------------
+
+Below is the json entry Ive exported from editor, to use this example add "./custom/TestZoneJson.json", to cfggameplay.json
+
+*TestZoneJson*
+
+        {
+            "Objects": [
+                {
+                    "name": "Land_Shed_W5",
+                    "pos": [
+                        4292.94287109375,
+                        340.3159484863281,
+                        10186.9755859375
+                    ],
+                    "ypr": [
+                        26.999961853027345,
+                        -0.0,
+                        -0.0
+                    ],
+                    "scale": 1.0,
+                    "enableCEPersistency": 0
+                }
+            ]
+        }
+
+-------------------------------------------------------------------------------------------------------------
+
+*mapgrouppos export*
+
+	<group name="Land_Shed_W5" pos="4292.942871 340.315948 10186.975586" rpy="-0.000000 -0.000000 26.999962" a="63"/>
+
+-------------------------------------------------------------------------------------------------------------
+
+*mapgroupproto vanilla*
+
+        <group name="Land_Shed_W5" lootmax="3">
+				<usage name="Industrial" />
+				<usage name="Farm" />
+				<container name="lootFloor" lootmax="3">
+						<category name="tools" />
+						<category name="containers" />
+						<tag name="ground" />
+						<tag name="floor" />
+						<point pos="-1.097940 -1.326691 1.196910" range="0.220215" height="0.550537" />
+						<point pos="-0.947935 -1.445526 -1.914181" range="0.535645" height="1.330627" />
+						<point pos="0.539381 -1.444931 -1.804889" range="0.646729" height="1.610413" />
+						<point pos="0.829944 -1.445480 -0.495517" range="0.680176" height="1.699402" />
+						<point pos="0.119054 -1.446762 1.330221" range="0.709228" height="1.773070" />
+				</container>
+		</group>
+
+-------------------------------------------------------------------------------------------------------------
+
+First we will start by creating a custom usage tag in limitsdefinition.       
+
+*limitsdefinition custom*
+
+    <usage name="CustomShed"/>
+
+-------------------------------------------------------------------------------------------------------------
+
+*mapgrouppos custom*
+
+Start by giving the mapgrouppos entry a custom name, here I will simply add a 1 to the end of "Land_Shed_W5" 
+making it Land_Shed_W51 as shown below.
+	
+    <group name="Land_Shed_W51" pos="4292.942871 340.315948 10186.975586" rpy="-0.000000 -0.000000 26.999962" a="63"/>
+
+-------------------------------------------------------------------------------------------------------------
+
+*mapgroupproto custom*
+
+Then we will giving the mapgroupproto entry a custom name, here I will simply add a 1 to the end of "Land_Shed_W5" 
+making it Land_Shed_W51 as shown below.
+
+We will also add our new custom usage <usage name="CustomShed" /> to the entry.
+
+Now we can also edit the lootmax for maximum spawn points. The example below shows 5 spawn points so we will be 
+changing the lootmax from 3 to 5
+
+I have also removed the categories but that step is optional as I use #areaflags
+
+        <group name="Land_Shed_W51" lootmax="5">
+				<usage name="CustomShed" />
+				<container name="lootFloor" lootmax="5">
+						<tag name="ground" />
+						<tag name="floor" />
+						<point pos="-1.097940 -1.326691 1.196910" range="0.220215" height="0.550537" />
+						<point pos="-0.947935 -1.445526 -1.914181" range="0.535645" height="1.330627" />
+						<point pos="0.539381 -1.444931 -1.804889" range="0.646729" height="1.610413" />
+						<point pos="0.829944 -1.445480 -0.495517" range="0.680176" height="1.699402" />
+						<point pos="0.119054 -1.446762 1.330221" range="0.709228" height="1.773070" />
+				</container>
+		</group>
+
+-------------------------------------------------------------------------------------------------------------
+
+*types vanilla* 
+
+Now you will want to go to types.xml and add the custom usage <usage name="CustomShed" /> to any and all items 
+you would like to spawn in the custom area
