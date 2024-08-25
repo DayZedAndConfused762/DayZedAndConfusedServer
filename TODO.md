@@ -17,7 +17,6 @@
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
 ## To Do List
-- Upload mod files to github
 - steamQueryPort = 2492;			Confirm correct steam query port in Config.cfg
 
 <!-- ------------------------------ToDo End ------------------------------ -->
