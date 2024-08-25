@@ -1,0 +1,258 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+    "characterTypes": [],
+    "attachmentSlotItemSets": [
+		{
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "Headtorch_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                        "simpleChildrenUseDefaultAttributes": false,
+                        "simpleChildrenTypes": [ "Battery9V" ]
+                }
+            ]
+        },
+		{
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "PaydayMask_Chains",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "ManSuit_Khaki",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+		{
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PlateCarrierVest_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+		{
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "SurgicalGloves_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+		{
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "SlacksPants_Khaki",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "Sneakers_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "VSS",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PSO11Optic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                                "simpleChildrenUseDefaultAttributes": false,
+                                "simpleChildrenTypes": [ "Battery9V" ]
+                        },
+                        {
+                            "itemType": "Mag_Vikhr_30Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ]
+                } 
+            ] 
+        }  
+    ],
+    "discreteUnsortedItemSets": [
+            {
+                "name": "Cargo1",
+                "spawnWeight": 1,
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "complexChildrenTypes": [
+					{
+                        "itemType": "CombatKnife",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 1
+					},
+					{
+                        "itemType": "ChernarusMap",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 4
+                    },
+					{
+                        "itemType": "PetrolLighter",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 7
+                    },					
+					{
+                        "itemType": "BandageDressing",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 5
+					},
+					{
+                        "itemType": "Mag_Vikhr_30Rnd",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
+					},
+					{
+                        "itemType": "AmmoBox_9x39AP_20Rnd",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
+					},
+					{
+                        "itemType": "PeachesCan_Opened", 
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 6
+                    },
+                    {
+                        "itemType": "TacticalBaconCan_Opened",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
+                    }
+                ]
+            }
+                ]
+            }
+	
+
+				

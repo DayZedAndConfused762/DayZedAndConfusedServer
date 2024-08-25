@@ -1,0 +1,438 @@
+{
+    "name": "Oliver_loadout",
+    "spawnWeight": 1,
+    "characterTypes": [
+        "SurvivorM_Oliver"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "M4A1",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "M68Optic",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "Mag_STANAG_60Rnd",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "M9A1_Bayonet",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "M4_MPHndgrd",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "M4_MPBttstck",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        }
+                    ],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PlateCarrierVest",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "M67Grenade",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "M67Grenade",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "FlashGrenade",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "FlashGrenade",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "PlateCarrierPouches",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        }
+                    ],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "AssaultBag_Ttsko",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "USMCPants_Woodland",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "JungleBoots_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Hands",
+            "discreteItemSets": [
+                {
+                    "itemType": "TacticalGloves_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "MilitaryBelt",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Canteen",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "NylonKnifeSheath",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [
+                                "CombatKnife"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": true
+                        }
+                    ],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "Mosin9130_Camo",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PUScopeOptic",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [
+                                "Ammo_762x54"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": true
+                        }
+                    ],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "Mich2001Helmet",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "NVGoggles",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": true
+                        }
+                    ],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "Balaclava3Holes_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "USMCJacket_Woodland",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+        {
+            "name": "",
+            "spawnWeight": 1,
+            "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+            },
+            "complexChildrenTypes": [],
+            "simpleChildrenTypes": [
+                "BandageDressing",
+                "BandageDressing",
+                "BakedBeansCan",
+                "BakedBeansCan",
+                "Mag_STANAG_60Rnd",
+                "Mag_STANAG_60Rnd",
+                "VitaminBottle",
+                "TetracyclineAntibiotics",
+                "SportGlasses_Orange",
+                "AmmoBox_762x54_20Rnd",
+                "AmmoBox_762x54_20Rnd",
+                "AmmoBox_762x54_20Rnd",
+                "M4_Suppressor",
+                "Mag_STANAG_60Rnd",
+                "Mag_STANAG_60Rnd",
+                "Rangefinder",
+                "Battery9V",
+                "Battery9V",
+                "Compass",
+                "AmmoBox_556x45_20Rnd",
+                "AmmoBox_556x45_20Rnd",
+                "AmmoBox_556x45_20Rnd",
+                "AmmoBox_556x45_20Rnd",
+                "AmmoBox_556x45_20Rnd",
+                "AmmoBox_556x45_20Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
+        }
+    ]
+}
