@@ -1,0 +1,155 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+    "characterTypes": [
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "FlatCap_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+        {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "DesignerGlasses",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "Sweater_Gray",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "SlacksPants_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "Wellies_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+            {
+                "name": "Cargo1",
+                "spawnWeight": 1,
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "complexChildrenTypes": [
+                    {
+                        "itemType": "BandageDressing",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 3
+                    },
+                    {
+                        "itemType": "BandageDressing",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 2
+                    },
+                    {
+                        "itemType": "ChernarusMap",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 1
+                    },
+                    {
+                        "itemType": "Marmalade",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
+                    },
+                    {
+                        "itemType": "Canteen",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
+                    }
+                ]
+            }
+                ]
+            }
+

@@ -1,0 +1,56 @@
+
+this is how you will add head torches to zombies. a few entries will be needed and 2 files will need to be edited
+remember to save back ups of your files just in case
+
+
+cfgrandompreset.xml file
+
+this will be added in your randompreset file. it will give the zombie a 25% chance of spawning a head tourch and its a 50% chance of which one it will spawn adjust to your liking
+
+<attachments chance="0.25" name="zombielight">
+    <item name="Headtorch_Black" chance="0.50" />
+    <item name="Headtorch_Grey" chance="0.50" />
+</attachments>
+
+
+cfgspawnabletype.xml 
+
+this will add a battery to both head torch types.
+
+<type name="Headtorch_Black">
+        <attachments>
+            <item name="Battery9V" />
+        </attachments>
+    </type>
+	<type name="Headtorch_Grey">
+        <attachments>
+            <item name="Battery9V" />
+        </attachments>
+    </type>
+
+this next step will be an example of where to add the attachment preset on the zombies you wan to wear the head torches
+
+<type name="ZmbF_JournalistNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="glassesCity" />
+		<attachments preset="hatsCity" />
+	</type>
+
+this is before the change to this zombie code block, if you notice there is an attachment preset classed glassescity. if you want to know what possability that they can wear, 
+you can look in randompresets file to see what it has. for this example we will be changing it to our new preset 
+
+
+
+    <type name="ZmbF_JournalistNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="zombielight" />   <------- change made
+		<attachments preset="hatsCity" />
+	</type>
+
+you can change an attachment preset that a zombie already has or add it to the zombie
+
+this is the line that you will add to any zombie that you want to have the head torches
+
+<attachments preset="zombielight" />
