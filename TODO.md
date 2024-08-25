@@ -17,6 +17,7 @@
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
 ## To Do List
+- create a list of mods and put links to them
 - edit mod types files to work with namalsk
 - sort snippets files
 - add spawn loadouts to namalsk
