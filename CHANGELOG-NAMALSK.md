@@ -23,9 +23,17 @@
 ## 8/27/2024
 
 - Upload mod types.xml files
-  - Edit @BaseBuildingPlus types file (types_bbp.xml) to work wiht Namalsk
+  - Edit @BaseBuildingPlus types file (types_bbp.xml) to work with Namalsk
+  - Edit @CodeLock types file (types_codelock.xml) to work with Namalsk
+  - Edit @DrugsPlus types file (types_drugsplus.xml) to work with Namalsk
+  - Edit @MMG Base Storage types file (types_mmg_base_storage.xml) to work with Namalsk
 - Add links to mod types files to cfgeconomycore.xml
   - file name="types_bbp.xml" type="types"
+  - file name="types_codelock.xml" type="types"
+  - file name="types_drugsplus.xml" type="types"
+  - file name="types_mmg_base_storage.xml" type="types"
+- Add events types.xml link to cfgeconomycore.xml that was missed from last update
+  - file name="types_events.xml" type="types"
 
 <!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
 
@@ -33,7 +41,7 @@
 
 ## 8/25/2024
 
-- Added Heli Crashes
+- Added Heli Crash events
 
 <!-- ++++++++++++++++++++ 8/25/2024 End ++++++++++++++++++++ -->
 
