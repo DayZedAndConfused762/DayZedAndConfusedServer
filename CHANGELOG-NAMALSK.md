@@ -34,6 +34,9 @@
   - file name="types_mmg_base_storage.xml" type="types"
 - Add events types.xml link to cfgeconomycore.xml that was missed from last update
   - file name="types_events.xml" type="types"
+- Add loot tags for Heli and Train crash events to cfglimitsdefinition.xml
+  - tag name="helicrash"
+  - tag name="traincrash"
 
 <!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
 
