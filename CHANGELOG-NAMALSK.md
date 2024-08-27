@@ -37,6 +37,7 @@
 - Add loot tags for Heli and Train crash events to cfglimitsdefinition.xml
   - tag name="helicrash"
   - tag name="traincrash"
+- Add Train Crash events using code snippet Add_DynamicTrainEvents_Namalsk.txt
 
 <!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
 
