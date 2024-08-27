@@ -27,11 +27,13 @@
   - Edit @CodeLock types file (types_codelock.xml) to work with Namalsk
   - Edit @DrugsPlus types file (types_drugsplus.xml) to work with Namalsk
   - Edit @MMG Base Storage types file (types_mmg_base_storage.xml) to work with Namalsk
+  - Edit @CannabisPlus types file (types_cannabisplus.xml) to work with Namalsk
 - Add links to mod types files to cfgeconomycore.xml
   - file name="types_bbp.xml" type="types"
   - file name="types_codelock.xml" type="types"
   - file name="types_drugsplus.xml" type="types"
   - file name="types_mmg_base_storage.xml" type="types"
+  - file name="types_cannabisplus.xml" type="types"
 - Add events types.xml link to cfgeconomycore.xml that was missed from last update
   - file name="types_events.xml" type="types"
 - Add loot tags for Heli and Train crash events to cfglimitsdefinition.xml
