@@ -44,7 +44,7 @@
 
 ## 8/25/2024
 
-- Added Heli Crash events
+- Added Heli Crash events using code snippet addrandom_heli_crash_to_namalks.xml
 
 <!-- ++++++++++++++++++++ 8/25/2024 End ++++++++++++++++++++ -->
 
