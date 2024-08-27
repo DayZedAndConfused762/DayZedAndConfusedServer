@@ -12,11 +12,21 @@
 
 ## Contents:
 
+- [8/27/2024](#8/27/2024)
 - [8/25/2024](#8/25/2024)
 - [8/23/2024](#8/23/2024)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+<!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
+
+## 8/27/2024
+
+- Upload mod types.xml files
+  - Edit @BaseBuildingPlus types file (types_bbp.xml) to work wiht Namalsk
+- Add links to mod types files to cfgeconomycore.xml
+  - <file name="types_bbp.xml" type="types" />
+<!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
 
