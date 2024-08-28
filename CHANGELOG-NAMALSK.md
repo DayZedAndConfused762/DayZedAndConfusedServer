@@ -18,7 +18,18 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
-<!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ 8/28/2024 Start ++++++++++++++++++++ -->
+
+## 8/28/2024
+
+- Upload mod types.xml files
+  - Edit @MuchStuffPack types file (types_muchstuffpack.xml) to work wiht Namalsk
+- Add links to mod types files to cfgeconomycore.xml
+  - file name="types_muchstuffpack.xml" type="types"
+
+<!-- ++++++++++++++++++++ 8/28/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 8/27/2024 Start ++++++++++++++++++++ -->
 
 ## 8/27/2024
 
@@ -41,7 +52,7 @@
   - tag name="traincrash"
 - Add Train Crash events using code snippet Add_DynamicTrainEvents_Namalsk.txt
 
-<!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ 8/27/2024 Start ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 8/25/2024 Start ++++++++++++++++++++ -->
 
