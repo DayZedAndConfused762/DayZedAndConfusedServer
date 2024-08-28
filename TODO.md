@@ -19,6 +19,8 @@
 ## To Do List
 
 - create a list of mods and put links to them
+- add vodka
+- add working items that don't spawn
 - add spawn loadouts to namalsk
 - steamQueryPort = 2492;			Confirm correct steam query port in Config.cfg
 - uninstall @ForwardOperatorGear
