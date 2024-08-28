@@ -28,8 +28,11 @@
   - Adjusted spawn amounts and categories for @MMG Base Storage (types_mmg_base_storage.xml)
   - Adjusted spawn amounts and categories for @CannabisPlus (types_cannabisplus.xml)
   - Adjusted spawn amounts and categories for @MuchStuffPack (types_muchstuffpack.xml)
+  - Adjusted spawn amounts and categories for @DrugsPlus (types_drugsplus.xml)
+  - Adjusted spawn amounts and categories for @CodeLock (types_codelock.xml)
 - Add links to mod types files to cfgeconomycore.xml
   - file name="types_muchstuffpack.xml" type="types"
+- Edited some categories in mapgroupproto.xml
 
 <!-- ++++++++++++++++++++ 8/28/2024 End ++++++++++++++++++++ -->
 

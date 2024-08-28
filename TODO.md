@@ -21,7 +21,6 @@
 - create a list of mods and put links to them
 - add spawn loadouts to namalsk
 - steamQueryPort = 2492;			Confirm correct steam query port in Config.cfg
-- edit mod files for @CannabisPlus - need to finish adding tags/categories and set spawn amount
 - uninstall @ForwardOperatorGear
 - review https://steamcommunity.com/sharedfiles/filedetails/?id=2896141950
 - review https://steamcommunity.com/sharedfiles/filedetails/?id=2898868802
