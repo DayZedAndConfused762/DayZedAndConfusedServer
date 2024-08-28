@@ -20,9 +20,7 @@
 
 - create a list of mods and put links to them
 - edit mod types files to work with namalsk
-- sort snippets files
 - add spawn loadouts to namalsk
-- add train event to namalsk
 - steamQueryPort = 2492;			Confirm correct steam query port in Config.cfg
 - edit mod files for @CannabisPlus - need to finish adding tags/categories and set spawn amount
 - edit mod files for @Forward Operator Gear
