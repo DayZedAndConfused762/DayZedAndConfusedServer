@@ -12,6 +12,7 @@
 
 ## Contents:
 
+- [8/28/2024](#8/28/2024)
 - [8/27/2024](#8/27/2024)
 - [8/25/2024](#8/25/2024)
 - [8/23/2024](#8/23/2024)
@@ -23,7 +24,10 @@
 ## 8/28/2024
 
 - Upload mod types.xml files
-  - Edit @MuchStuffPack types file (types_muchstuffpack.xml) to work wiht Namalsk
+  - Edit @MuchStuffPack types file (types_muchstuffpack.xml) to work with Namalsk, adjusted spawn amounts and categories
+  - Adjusted spawn amounts and categories for @MMG Base Storage (types_mmg_base_storage.xml)
+  - Adjusted spawn amounts and categories for @CannabisPlus (types_cannabisplus.xml)
+  - Adjusted spawn amounts and categories for @MuchStuffPack (types_muchstuffpack.xml)
 - Add links to mod types files to cfgeconomycore.xml
   - file name="types_muchstuffpack.xml" type="types"
 

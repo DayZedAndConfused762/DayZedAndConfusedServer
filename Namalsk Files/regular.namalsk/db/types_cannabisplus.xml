@@ -45,15 +45,24 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagSkunk">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_CannabisBrickSkunk">
         <nominal>0</nominal>
@@ -67,30 +76,40 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisSkunk">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_JointSkunk">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
  	<type name="CP_Plant_CannabisBlue">
         <lifetime>3888000</lifetime>
@@ -136,7 +155,7 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagBlue">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -144,7 +163,14 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_CannabisBrickBlue">
         <nominal>0</nominal>
@@ -158,7 +184,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisBlue">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -166,12 +192,17 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_JointBlue">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -179,10 +210,14 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
  	<type name="CP_Plant_CannabisKush">
         <lifetime>3888000</lifetime>
@@ -197,11 +232,14 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        
-        <tag name="farm"/>
-        
+        <category name="food" />
+        <category name="tools" />
         <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_CannabisSeedsKush">
         <nominal>0</nominal>
@@ -228,7 +266,7 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagKush">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -236,7 +274,14 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_CannabisBrickKush">
         <nominal>0</nominal>
@@ -250,7 +295,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisKush">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -258,12 +303,17 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_JointKush">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -271,10 +321,14 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
  	<type name="CP_Plant_CannabisStardawg">
         <lifetime>3888000</lifetime>
@@ -320,7 +374,7 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagStardawg">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -328,7 +382,14 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_CannabisBrickStardawg">
         <nominal>0</nominal>
@@ -342,7 +403,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisStardawg">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -350,12 +411,17 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_JointStardawg">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -363,29 +429,35 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" /> 
     </type>
  	<type name="CP_Plant_Tobacco">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_Tobacco">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        
-        <tag name="farm"/>
-        
+        <category name="food" />
+        <category name="tools" />
         <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="military" />
     </type>
     <type name="CP_TobaccoSeeds">
         <nominal>0</nominal>
@@ -412,22 +484,23 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CigarettePack_Empty">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CigarettePack_Chernamorka">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -435,14 +508,15 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CigarettePack_Merkur">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -450,14 +524,15 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
     </type>
     <type name="CigarettePack_Partyzanka">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -465,40 +540,47 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food" />
+        <category name="tools" />
         <tag name="medical"/>
-        
-        
-        
-        
+        <tag name="military"/>        
     </type>
     <type name="CP_Cigarette">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
     <type name="CP_RollingPapers">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
     </type>
 
 <!-- V2.1 - 13 Oct 2020 -->
@@ -546,7 +628,7 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagFuture">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -554,7 +636,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_CannabisBrickFuture">
         <nominal>0</nominal>
@@ -568,7 +659,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisFuture">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -576,12 +667,19 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_JointFuture">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -589,10 +687,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
  	<type name="CP_Plant_CannabisS1">
         <lifetime>3888000</lifetime>
@@ -622,7 +726,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_CannabisSeedsPackS1">
         <nominal>0</nominal>
@@ -638,7 +751,7 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagS1">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -646,7 +759,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_CannabisBrickS1">
         <nominal>0</nominal>
@@ -660,7 +782,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisS1">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -668,12 +790,19 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_JointS1">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -681,10 +810,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
      	<type name="CP_Plant_CannabisNomad">
         <lifetime>3888000</lifetime>
@@ -730,7 +865,7 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagNomad">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -738,7 +873,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_CannabisBrickNomad">
         <nominal>0</nominal>
@@ -752,7 +896,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisNomad">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -760,12 +904,19 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_JointNomad">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -773,10 +924,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
   	<type name="CP_Plant_CannabisBlackFrost">
         <lifetime>3888000</lifetime>
@@ -822,7 +979,7 @@
         <tag name="hunting"/>
     </type>
     <type name="CP_CannabisBagBlackFrost">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -830,7 +987,16 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_CannabisBrickBlackFrost">
         <nominal>0</nominal>
@@ -844,7 +1010,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisBlackFrost">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -852,12 +1018,19 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
     <type name="CP_JointBlackFrost">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -865,39 +1038,44 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <tag name="medical"/>
-        
-        
-        
+        <category name="food" />
+        <category name="tools" />
+        <tag name="civilian" />
+        <tag name="hunting" />
+        <tag name="police" />
+        <tag name="industrial" />
+        <tag name="farm" />
+        <tag name="fishing" />
+        <tag name="medical" />
+        <tag name="firefighter" />
     </type>
 
 <!-- V2.5 - 23 Nov 2020 -->
     <type name="CP_Relief_Balm">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food" />
+        <category name="tools" />
         <tag name="medical"/>
-        
-        
-        
     </type>
 
 <!-- V3.0 - 2022 -->
     <type name="CP_Pouch">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="tools"/>
+	    <category name="tools"/>
         <tag name="industrial"/>
         <tag name="farm"/>
         <tag name="fishing"/>
@@ -911,7 +1089,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-	<category name="tools"/>
+	    <category name="tools"/>
         <tag name="industrial"/>
         <tag name="farm"/>
         <tag name="fishing"/>
@@ -957,7 +1135,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>    
     <type name="CP_Workbench_Kit">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -965,7 +1143,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="tools"/>
+	    <category name="tools"/>
         <tag name="industrial"/>
         <tag name="farm"/>
         <tag name="fishing"/>
@@ -975,7 +1153,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="CP_Bagger">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -987,7 +1165,7 @@
         <tag name="civilian" />
     </type>
     <type name="CP_PlasticWrapper">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -999,10 +1177,10 @@
         <tag name="civilian" />
     </type>    
     <type name="CP_EmptyBag">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1011,10 +1189,10 @@
         <tag name="civilian" />
     </type>
     <type name="CP_PlasticRoll">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

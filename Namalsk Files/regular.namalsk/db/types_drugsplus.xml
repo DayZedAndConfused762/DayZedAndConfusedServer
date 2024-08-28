@@ -43,7 +43,7 @@
         <tag name="civilian"/>
     </type>
     <type name="DP_CocaBag">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -54,6 +54,7 @@
         <category name="tools"/>
         <tag name="industrial"/>
         <tag name="civilian"/>
+        <tag name="farm" />
     </type>
     <type name="DP_CocaBrick">
         <nominal>2</nominal>
@@ -70,15 +71,16 @@
 
     <!-- Mar 04, 2021 -->
     <type name="PsilocybeMushroom">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="food"/>
+        <tag name="civilian"/>
     </type>
  <!--  ********** Already in vanilla types file **********
     <type name="DisinfectantAlcohol">

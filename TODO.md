@@ -19,13 +19,9 @@
 ## To Do List
 
 - create a list of mods and put links to them
-- edit mod types files to work with namalsk
 - add spawn loadouts to namalsk
 - steamQueryPort = 2492;			Confirm correct steam query port in Config.cfg
 - edit mod files for @CannabisPlus - need to finish adding tags/categories and set spawn amount
-- edit mod files for @Forward Operator Gear - need to finish adding tags/categories and set spawn amount / change spawnable types
-- edit mod files for @MMG Base Storage -  need to finish adding tags/categories and set spawn amount
-- edit mod files for @MuchStufPack -  need to finish adding tags/categories and set spawn amount
 - uninstall @ForwardOperatorGear
 - review https://steamcommunity.com/sharedfiles/filedetails/?id=2896141950
 - review https://steamcommunity.com/sharedfiles/filedetails/?id=2898868802
@@ -41,7 +37,11 @@
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2392955057
 - https://steamcommunity.com/sharedfiles/filedetails/?id=3087753796
 - https://steamcommunity.com/sharedfiles/filedetails/?id=3173340611
-- 
+- https://steamcommunity.com/workshop/browse/?appid=221100&searchtext=namalsk&childpublishedfileid=0&browsesort=textsearch&section=
+- https://steamcommunity.com/sharedfiles/filedetails/?id=2328254129&searchtext=namalsk
+- https://steamcommunity.com/sharedfiles/filedetails/?id=2941804897&searchtext=namalsk
+- https://steamcommunity.com/sharedfiles/filedetails/?id=2357023907&searchtext=namalsk
+- https://steamcommunity.com/sharedfiles/filedetails/?id=2353424547&searchtext=namalsk
 
 <!-- ------------------------------ToDo End ------------------------------ -->
 
