@@ -91,10 +91,10 @@
 <!-- AMMUNITION_BOXED START -->
 
   <type name="AmmoBox_556x45_20Rnd">
-    <nominal>3</nominal>
+    <nominal>4</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -105,10 +105,10 @@
     <tag name="military" />
   </type>
   <type name="AmmoBox_556x45Tracer_20Rnd">
-    <nominal>3</nominal>
+    <nominal>2</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -119,10 +119,10 @@
     <tag name="military" />
   </type>
   <type name="AmmoBox_308Win_20Rnd">
-    <nominal>3</nominal>
+    <nominal>4</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -134,6 +134,36 @@
     <tag name="hunting" />
   </type>
   <type name="AmmoBox_308WinTracer_20Rnd">
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="hunting" />
+  </type>
+  <type name="AmmoBox_762x54_20Rnd">
+    <nominal>5</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+    <tag name="civilian" />
+  </type>
+  <type name="AmmoBox_762x54Tracer_20Rnd">
     <nominal>3</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
@@ -146,43 +176,13 @@
     <value />
     <category name="weapons" />
     <tag name="military" />
-    <tag name="hunting" />
-  </type>
-  <type name="AmmoBox_762x54_20Rnd">
-    <nominal>4</nominal>
-    <lifetime>2700</lifetime>
-    <restock>1800</restock>
-    <min>3</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="weapons" />
-    <tag name="military" />
-    <tag name="civilian" />
-  </type>
-  <type name="AmmoBox_762x54Tracer_20Rnd">
-    <nominal>4</nominal>
-    <lifetime>2700</lifetime>
-    <restock>1800</restock>
-    <min>3</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="weapons" />
-    <tag name="military" />
     <tag name="civilian" />
   </type>
   <type name="AmmoBox_762x39_20Rnd">
-    <nominal>4</nominal>
+    <nominal>45</nominal>
     <lifetime>2700</lifetime>
     <restock>300</restock>
-    <min>3</min>
+    <min>34</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -195,10 +195,10 @@
     <tag name="civilian" />
   </type>
   <type name="AmmoBox_762x39Tracer_20Rnd">
-    <nominal>4</nominal>
+    <nominal>3</nominal>
     <lifetime>2700</lifetime>
     <restock>300</restock>
-    <min>3</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -336,10 +336,10 @@
     <tag name="police" />
   </type>
   <type name="AmmoBox_545x39_20Rnd">
-    <nominal>3</nominal>
+    <nominal>4</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -350,7 +350,21 @@
     <tag name="military" />
   </type>
   <type name="AmmoBox_545x39Tracer_20Rnd">
-    <nominal>3</nominal>
+    <nominal>2</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+    <usage />
+    <value />
+    <category name="weapons" />
+    <tag name="military" />
+  </type>
+  <type name="AmmoBox_9x39_20Rnd">
+    <nominal>4</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -363,25 +377,11 @@
     <category name="weapons" />
     <tag name="military" />
   </type>
-  <type name="AmmoBox_9x39_20Rnd">
-    <nominal>3</nominal>
-    <lifetime>2700</lifetime>
-    <restock>1800</restock>
-    <min>3</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="weapons" />
-    <tag name="military" />
-  </type>
   <type name="AmmoBox_9x39AP_20Rnd">
-    <nominal>3</nominal>
+    <nominal>2</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
-    <min>3</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1539,8 +1539,8 @@
 <!-- ATTACHMENTS_GRIP START -->
 
   <type name="M4_PlasticHndgrd">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1553,8 +1553,8 @@
     <tag name="military" />
   </type>
   <type name="M4_RISHndgrd">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>2</nominal>
+    <min>2</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1567,8 +1567,8 @@
     <tag name="military" />
   </type>
   <type name="M4_MPHndgrd">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>1</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1581,8 +1581,8 @@
     <tag name="military" />
   </type>
   <type name="AK_WoodHndgrd">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1595,8 +1595,8 @@
     <tag name="military" />
   </type>
   <type name="AK74_Hndgrd">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1609,8 +1609,8 @@
     <tag name="military" />
   </type>
   <type name="AK_RailHndgrd">
-    <nominal>10</nominal>
-    <min>6</min>
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1623,8 +1623,8 @@
     <tag name="military" />
   </type>
   <type name="AK_PlasticHndgrd">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1637,8 +1637,8 @@
     <tag name="military" />
   </type>
   <type name="MP5_PlasticHndgrd">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1652,8 +1652,8 @@
     <tag name="military" />
   </type>
   <type name="MP5_RailHndgrd">
-    <nominal>5</nominal>
-    <min>2</min>
+    <nominal>3</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1706,8 +1706,8 @@
 <!-- ATTACHMENTS_OPTIC START -->
 
   <type name="M4_CarryHandleOptic">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -1734,8 +1734,8 @@
     <tag name="military" />
   </type>
   <type name="M68Optic">
-    <nominal>6</nominal>
-    <min>3</min>
+    <nominal>4</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -2371,7 +2371,7 @@
 <!-- CLOTHING_BELTS START -->
 
   <type name="CivilianBelt">
-    <nominal>25</nominal>
+    <nominal>20</nominal>
     <min>16</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -2466,7 +2466,7 @@
     <tag name="civilian" />
   </type>
   <type name="AviatorGlasses">
-    <nominal>10</nominal>
+    <nominal>7</nominal>
     <min>5</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -2481,7 +2481,7 @@
     <tag name="military" />
   </type>
   <type name="TacticalGoggles">
-    <nominal>10</nominal>
+    <nominal>7</nominal>
     <min>5</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -2495,7 +2495,7 @@
     <tag name="military" />
   </type>
   <type name="DesignerGlasses">
-    <nominal>7</nominal>
+    <nominal>5</nominal>
     <min>3</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -2509,7 +2509,7 @@
     <tag name="civilian" />
   </type>
   <type name="ThickFramesGlasses">
-    <nominal>7</nominal>
+    <nominal>5</nominal>
     <min>3</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -2523,7 +2523,7 @@
     <tag name="civilian" />
   </type>
   <type name="ThinFramesGlasses">
-    <nominal>7</nominal>
+    <nominal>5</nominal>
     <min>3</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
@@ -3581,8 +3581,8 @@
     <tag name="civilian" />
   </type>
   <type name="Sneakers_Black">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3595,8 +3595,8 @@
     <tag name="civilian" />
   </type>
   <type name="Sneakers_Gray">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3609,8 +3609,8 @@
     <tag name="civilian" />
   </type>
   <type name="Sneakers_Green">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3623,8 +3623,8 @@
     <tag name="civilian" />
   </type>
   <type name="Sneakers_Red">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3637,8 +3637,8 @@
     <tag name="civilian" />
   </type>
   <type name="Sneakers_White">
-    <nominal>5</nominal>
-    <min>3</min>
+    <nominal>3</nominal>
+    <min>2</min>
     <lifetime>1800</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3651,8 +3651,8 @@
     <tag name="civilian" />
   </type>
   <type name="AthleticShoes_Blue">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>300</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3665,8 +3665,8 @@
     <tag name="civilian" />
   </type>
   <type name="AthleticShoes_Black">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>300</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3679,8 +3679,8 @@
     <tag name="civilian" />
   </type>
   <type name="AthleticShoes_Brown">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>300</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3693,8 +3693,8 @@
     <tag name="civilian" />
   </type>
   <type name="AthleticShoes_Green">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>300</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -3707,8 +3707,8 @@
     <tag name="civilian" />
   </type>
   <type name="AthleticShoes_Grey">
-    <nominal>0</nominal>
-    <min>0</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>300</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -4195,203 +4195,6 @@
 
 <!-- CLOTHING_HEAD START -->
 
-  <type name="dzn_gorkahood_flat">
-    <nominal>6</nominal>
-    <min>4</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier12" />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_gorkahood_autumn">
-    <nominal>6</nominal>
-    <min>4</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier23" />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_gorkahood_pautrev">
-    <nominal>6</nominal>
-    <min>4</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier12" />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_gorkahood_winter">
-    <nominal>2</nominal>
-    <min>1</min>
-    <lifetime>1800</lifetime>
-    <restock>500</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier34" />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_sumrakhood_coldw">
-    <nominal>3</nominal>
-    <min>1</min>
-    <lifetime>1800</lifetime>
-    <restock>300</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier34" />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_yegerhood_coldw">
-    <nominal>3</nominal>
-    <min>1</min>
-    <lifetime>1800</lifetime>
-    <restock>300</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier34" />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_yegerhood_woodl">
-    <nominal>3</nominal>
-    <min>1</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value user="Tier23" />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_milberet_red">
-    <nominal>5</nominal>
-    <min>2</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_milberet_blue">
-    <nominal>5</nominal>
-    <min>2</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_milberet_green">
-    <nominal>5</nominal>
-    <min>2</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_milberet_black">
-    <nominal>5</nominal>
-    <min>2</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_milberet_specnaz">
-    <nominal>5</nominal>
-    <min>2</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_BallisticHelmet_White">
-    <nominal>5</nominal>
-    <min>2</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="military" />
-  </type>
-  <type name="dzn_GorkaHelmet_White">
-    <nominal>5</nominal>
-    <min>2</min>
-    <lifetime>1800</lifetime>
-    <restock>0</restock>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
-    <usage />
-    <value />
-    <category name="clothes" />
-    <tag name="police" />
-    <tag name="military" />
-  </type>
   <type name="BallisticHelmet_Green">
     <nominal>2</nominal>
     <min>1</min>
@@ -14840,10 +14643,10 @@
     <tag name="civilian" />
   </type>
   <type name="BrassKnuckles_Shiny">
-    <nominal>8</nominal>
+    <nominal>4</nominal>
     <lifetime>1800</lifetime>
     <restock>0</restock>
-    <min>6</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14887,10 +14690,10 @@
 <!-- TOOLS_LIGHTING START -->
 
   <type name="Spotlight">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>604800</lifetime>
     <restock>0</restock>
-    <min>16</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15100,8 +14903,8 @@
 <!-- TOOLS_MATERIALS START -->
 
   <type name="MetalPlate">
-    <nominal>80</nominal>
-    <min>75</min>
+    <nominal>40</nominal>
+    <min>35</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>10</quantmin>
@@ -15128,8 +14931,8 @@
     <tag name="industrial" />
   </type>
   <type name="WoodenPlank">
-    <nominal>80</nominal>
-    <min>75</min>
+    <nominal>40</nominal>
+    <min>35</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>10</quantmin>
@@ -16241,8 +16044,8 @@
     <tag name="industrial" />
   </type>
   <type name="HeadlightH7_Box">
-    <nominal>25</nominal>
-    <min>22</min>
+    <nominal>15</nominal>
+    <min>210</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
