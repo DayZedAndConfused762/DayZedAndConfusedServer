@@ -14,41 +14,11 @@ Server files for the DayZedAndConfused DayZ servers
 
 # Contents:
 
-- [Bitterroot Files](#Bitterroot-Files)
-- [Namalsk Files](#Namalsk-Files)
-- [Code Snippets](#Code-Snippets)
+- [Bitterroot Files](Bitterroot/README.md)
+- [Namalsk Files](Namalsk/README.md)
+- [Code Snippets](Snippets/README.md)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
-
-
-<!-- ------------------------------ Bitterroot Start ------------------------------ -->
-
-## Bitterroot Files
-
-* [Bitterroot Server Files](Bitterroot/README.md) Description of file
-* [File Name](template-index.md) Description of file
-
-<!-- ------------------------------ Bitterroot End ------------------------------ -->
-
-
-<!-- ------------------------------ Bitterroot Start ------------------------------ -->
-
-## Namalsk Files
-
-* [File Name](template-index.md) Description of file
-* [File Name](template-index.md) Description of file
-
-<!-- ------------------------------ Bitterroot End ------------------------------ -->
-
-
-<!-- ------------------------------ Bitterroot Start ------------------------------ -->
-
-## Code Snippets
-
-* [File Name](template-index.md) Description of file
-* [File Name](template-index.md) Description of file
-
-<!-- ------------------------------ Bitterroot End ------------------------------ -->
 
 
 <!-- ------------------------------ Outro Start ------------------------------ -->
