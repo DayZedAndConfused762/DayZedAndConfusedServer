@@ -18,7 +18,8 @@
 
 ## To Do List
 
-- create a list of mods and put links to them
+
+- check "mapgroupproto.xml" to correct quantity mismatch errors in _DE objects
 - add vodka
 - add working items that don't spawn
 - add spawn loadouts to namalsk
