@@ -20,6 +20,7 @@
 
 
 - add vodka
+- add random colored vehicle parts
 - add working items that don't spawn
 - add spawn loadouts to namalsk
 - steamQueryPort = 2492;			Confirm correct steam query port in Config.cfg
