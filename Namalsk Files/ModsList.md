@@ -12,12 +12,14 @@
 
 ## Contents:
 
-[Installed Mods](#Installed Mods)
+- [Installed Mods](#InstalledMods)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
 
 <!-- ------------------------------ Installed Mods End ------------------------------ -->
+
+## Installed Mods
 
   - @BaseBuildingPlus
   - @CannabisPlus
