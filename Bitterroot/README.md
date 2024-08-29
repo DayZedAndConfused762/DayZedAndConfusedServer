@@ -14,7 +14,7 @@ Files for the DayZed And Confused Bitterroot Server
 
 ## Contents: 
 
-- [DZAC Bitterroot Mission Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Bitterroot/regular.namalsk)
+- [DZAC Bitterroot Mission Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Bitterroot/empty.Bitterroot)
 - [DZAC Bitterroot Profile Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Bitterroot/profiles)
 - [DZAC Bitterroot Mod Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Bitterroot/Mod%20Files)
 
