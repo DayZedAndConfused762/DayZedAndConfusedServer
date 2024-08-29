@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
+
+<!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
 	
 <types>
 	<!--________________ NEW CLASS FROM OTHER ZOMBIE MODS (have to be before the vanilla classes) ______________-->
@@ -17,8 +18,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -50,8 +51,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -83,8 +84,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -108,7 +109,8 @@
  		<Size_Maxi 					Day="1.0"	Night="1.0"/>
  		<Can_Throw_Stones			Day="1"		Night="1"/>
     </type>	
-
+
+
 	<!-- Weak but Always run --> 
 	<type name="ZmbM__Runner_Base">		<!-- Correspond to ZmbM_JoggerSkinny_Base (the vanilla class name have been changed) --> 				
         <Health_Points				Day="50" 	Night="50"/>	<!-- Normal -->
@@ -118,8 +120,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="3.0" 	Night="3.0"/>	<!-- Never Walk -->
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -151,8 +153,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="3.0" 	Night="3.0"/>	<!-- Never Walk -->
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -176,7 +178,8 @@
  		<Size_Maxi 					Day="1.0"	Night="1.0"/>
  		<Can_Throw_Stones			Day="1"		Night="1"/>
     </type>
-
+
+
 	<!-- Normal health and don't sprint -->
 	<type name="ZmbM_FarmerFat_Base">							
         <Health_Points				Day="65" 	Night="65"/>	<!-- Normal -->
@@ -186,8 +189,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -219,8 +222,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -252,8 +255,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -285,8 +288,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -318,8 +321,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -351,8 +354,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -384,8 +387,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -417,8 +420,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -450,8 +453,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -483,8 +486,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.4" 	Night="0.4"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -516,8 +519,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.4" 	Night="0.4"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -549,8 +552,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -582,8 +585,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -615,8 +618,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -648,8 +651,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -683,8 +686,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -716,8 +719,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -749,8 +752,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -782,8 +785,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -817,8 +820,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -850,8 +853,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -885,8 +888,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -918,11 +921,11 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
-		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
+		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
 		<Move_Speed_Adjust_Max		Day="0.2" 	Night="0.2"/>
 		<Animation_Type				Day="-9" 	Night="-9"/>
         <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
@@ -953,8 +956,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -986,8 +989,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1021,8 +1024,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1054,8 +1057,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1089,8 +1092,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.4" 	Night="0.4"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1122,8 +1125,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1155,8 +1158,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1188,8 +1191,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -1224,7 +1227,7 @@
         <Resistance_to_Explosions	Day="0.0001 " Night="0.0001 "/>	<!-- Explosion resistance decrease to make possible to kill walkers with grenade -->
 		<Resistance_to_Stun_Bullets	Day="0.1" 	Night="0.1"/>
         <Resistance_to_HeadShots	Day="0.001" Night="0.001"/>	<!-- Headshot resistance decrease -->
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
 		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
 		<Move_Speed_Max				Day="1.5" 	Night="1.5"/>	<!-- Max speed decreased to walk -->
@@ -1257,7 +1260,7 @@
         <Resistance_to_Explosions	Day="0.0001 " Night="0.0001 "/>	<!-- Explosion resistance decrease to make possible to kill walkers with grenade -->
 		<Resistance_to_Stun_Bullets	Day="0.1" 	Night="0.1"/>
         <Resistance_to_HeadShots	Day="0.001" Night="0.001"/>	<!-- Head shot resistance decrease -->
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
 		<Move_Speed_Max				Day="1.5" 	Night="1.5"/>	<!-- Max speed decreased to walk -->
@@ -1291,11 +1294,11 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="3.0" 	Night="3.0"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
-		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
 		<Move_Speed_Adjust_Max		Day="0.0" 	Night="0.0"/>
 		<Animation_Type				Day="-9" 	Night="-9"/>
         <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
@@ -1324,8 +1327,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="3.0" 	Night="3.0"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1357,8 +1360,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1390,8 +1393,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1425,8 +1428,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -1458,8 +1461,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1491,8 +1494,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1524,8 +1527,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -1557,8 +1560,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -1582,7 +1585,8 @@
  		<Size_Maxi 					Day="1.0"	Night="1.0"/>
  		<Can_Throw_Stones			Day="1"		Night="1"/>
     </type>
-
+
+
 	<!-- Specials -->
 	<type name="ZmbM_HermitSkinny_Beige">						
         <Health_Points				Day="100" 	Night="100"/> 	<!-- Strong Lvl 1 -->	
@@ -1592,8 +1596,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="1.0" 	Night="1.0"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	
@@ -1625,8 +1629,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
 		<Resistance_to_Stun_Bullets	Day="0.1" 	Night="0.1"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1658,8 +1662,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
 		<Resistance_to_Stun_Bullets	Day="1.0" 	Night="1.0"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1691,8 +1695,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
 		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="2.5" 	Night="2.5"/>	<!-- Always run -->
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- And Sprint when aggro player -->
@@ -1724,11 +1728,11 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
 		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
-		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
+		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
 		<Move_Speed_Adjust_Max		Day="0.5" 	Night="0.5"/>
 		<Animation_Type				Day="-9" 	Night="-9"/>
         <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
@@ -1757,8 +1761,8 @@
         <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
         <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
 		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.5" 	Night="2.5"/>
@@ -1790,8 +1794,8 @@
         <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
         <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
 		<Resistance_to_Stun_Bullets	Day="1.0" 	Night="1.0"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
@@ -1823,8 +1827,8 @@
         <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
         <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
 		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>
@@ -1857,8 +1861,8 @@
         <Resistance_to_Vehicles		Day="100" 	Night="100"/>	<!-- Vehicles Resistant -->
         <Resistance_to_Explosions	Day="10" 	Night="10"/>	<!-- Explosions Resistant -->
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -1887,7 +1891,8 @@
 	<!--___________________________________ FOR THE DARK HORDE MOD ______________________________________________-->
 	
 	<!--____ WARNING : IF YOU USE WINTER CHERNARUS MAP (and maybe other winter maps) WITH THE DARK HORDE MOD ____-->
-	<!-- Keep ZmbM_JournalistSkinny_Base ZmbF_PatientOld_Base ZmbM_CitizenASkinny_Base After the Dark Horde Creatures -->
+	<!-- Keep ZmbM_JournalistSkinny_Base ZmbF_PatientOld_Base ZmbM_CitizenASkinny_Base After the Dark Horde Creatures -->
+
 	<type name="ZmbM_DH_Master_Day">
         <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
         <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
@@ -1896,8 +1901,8 @@
         <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
         <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
 		<Resistance_to_Stun_Bullets	Day="1.5" 	Night="1.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -1921,7 +1926,8 @@
  		<Size_Maxi 					Day="1.6"	Night="1.6"/>
  		<Can_Throw_Stones			Day="2"		Night="2"/>
     </type>
-	<type name="ZmbM_DH_Master_Night">							<!--  This class is use if go through walls option of Dark Horde mod is Activated  -->
+
+	<type name="ZmbM_DH_Master_Night">							<!--  This class is use if go through walls option of Dark Horde mod is Activated  -->
         <Health_Points				Day="400" 	Night="400"/> 	<!--  Strong Lvl 5  -->
         <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
@@ -1929,8 +1935,8 @@
         <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
         <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
 		<Resistance_to_Stun_Bullets	Day="1.5" 	Night="1.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -1963,8 +1969,8 @@
         <Resistance_to_Vehicles		Day="10000" Night="10000"/>	<!-- Vehicles Immune -->
         <Resistance_to_Explosions	Day="100" 	Night="100"/> 	<!-- Explosions Immune -->
 		<Resistance_to_Stun_Bullets	Day="1.5" 	Night="1.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -1997,8 +2003,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint-->
@@ -2031,8 +2037,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/>
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>
 		<Resistance_to_Stun_Bullets	Day="0.7" 	Night="0.7"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="2.0" 	Night="2.0"/>	<!-- Always run -->
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint-->
@@ -2065,8 +2071,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Sprint -->
@@ -2100,7 +2106,7 @@
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.9" 	Night="0.9"/>
         <Resistance_to_HeadShots	Day="0.001" Night="0.001"/>	<!-- Head shot resistance decrease -->
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
 		<Move_Speed_Max				Day="1.5" 	Night="1.5"/>	<!-- Max speed decreased to walk -->
@@ -2133,8 +2139,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't Sprint -->
@@ -2168,8 +2174,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -2202,8 +2208,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.3" 	Night="0.3"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -2236,8 +2242,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.5" 	Night="0.5"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.0" 	Night="2.0"/>	<!-- Don't sprint -->
@@ -2273,7 +2279,7 @@
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.8" 	Night="0.8"/>
         <Resistance_to_HeadShots	Day="0.001" Night="1.0"/>	<!-- Headshot resistance decrease -->
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>	
 		<Move_Speed_Max				Day="1.5" 	Night="3.0"/>	<!-- Max speed decreased to walk -->
@@ -2307,7 +2313,7 @@
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
         <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
@@ -2340,8 +2346,8 @@
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/>
-        <Resistance_to_HeadShots	Day="0.4" 	Night="0.4"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/>
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>
@@ -2399,7 +2405,8 @@
  		<Size_Maxi 					Day="-99"	Night="-99"/>
  		<Can_Throw_Stones			Day="1"		Night="1"/>
     </type>
-
+
+
 	<!--____________________________________ DEFAULT CONFIG ____________________________________________________-->	
 	<type name="ZombieBase">									<!-- KEEP THIS CLASS (ZombieBase) IN LAST POSITION -->
         <Health_Points				Day="100" 	Night="100"/> 	<!-- Integer (Quantity) [1 to 10000] -->		
@@ -2410,7 +2417,7 @@
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->
 		<Resistance_to_Stun_Bullets	Day="0.2" 	Night="0.2"/> 	<!-- Decimal (Ratio) [0.0 to 2.0] -->
         <Resistance_to_HeadShots	Day="0.2" 	Night="0.2"/>	<!-- Decimal (Ratio) [0.0 to infinite] -->		
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
+		<Resist_to_Melee_HeadShots	Day="0.3" 	Night="0.3"/> 	<!-- Decimal (Ratio) [0.0 to infinite] -->
 		<Special_HeadShot_Weapons	Day="0"		Night="0"/>		<!-- Integer [0 or 1] -->
 		<Move_Speed_Min				Day="0.0" 	Night="0.0"/>	<!-- Decimal (Quantity) [0.0 to 3.0] -->
 		<Move_Speed_Max				Day="3.0" 	Night="3.0"/>	<!-- Decimal (Quantity) [1.0 to 3.0] -->		
@@ -2437,5 +2444,7 @@
 	<!--________________________ DON'T ADD NEW CLASS AFTER DEFAULT CONFIG ________________________________-->
 </types>
 <!--  ___________ YOU CAN FIND DETAILED INSTRUCTIONS in PvZmoD_CustomisableZombies_HELP.txt file ___________  -->
-
-
+
+
+
+

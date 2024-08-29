@@ -32,6 +32,7 @@
 - Edit "mapgroupproto.xml" to correct lootmax mismatch errors
 - Edit "Config.cfg" change "template" form "regular.namalsk" to "dayzed.namalsk"
 - Rename Namalsk mission folder from "regular.namalsk" to "dayzed.namalsk"
+- Edit @PvZmoD_CustomisableZombies settings file "@PvZmoD_CustomisableZombies_Characteristics.xml" to adjust various zombie stats
 
 <!-- ++++++++++++++++++++ 8/28/2024 Start ++++++++++++++++++++ -->
 
