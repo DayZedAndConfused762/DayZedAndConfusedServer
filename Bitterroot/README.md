@@ -3,9 +3,9 @@
 
 <!-- ------------------------------ Intro Start ------------------------------ -->
 
-# Namalsk Server Files
+# Bitterroot Server Files
 
-Files for the DayZed And Confused Namalsk Server
+Files for the DayZed And Confused Bitterroot Server
 
 <!-- ------------------------------ Intro End ------------------------------ -->
 
@@ -14,9 +14,9 @@ Files for the DayZed And Confused Namalsk Server
 
 ## Contents: 
 
-- [DZAC Namalsk Mission Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/regular.namalsk)
-- [DZAC Namalsk Profile Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/profiles)
-- [DZAC Namalsk Mod Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/Mod%20Files)
+- [DZAC Bitterroot Mission Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Bitterroot/regular.namalsk)
+- [DZAC Bitterroot Profile Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Bitterroot/profiles)
+- [DZAC Bitterroot Mod Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Bitterroot/Mod%20Files)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
