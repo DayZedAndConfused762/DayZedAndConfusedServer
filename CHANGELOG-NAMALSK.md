@@ -29,6 +29,7 @@
   - Change "BBP_CanAttachFlashlights" to "1"
   - Change "BBP_CanAttachXmaslights" to "1"
   - Change "BBP_CanAttachCamonets" to "1"
+- Edit "mapgroupproto.xml" to correct lootmax mismatch errors
 
 <!-- ++++++++++++++++++++ 8/28/2024 Start ++++++++++++++++++++ -->
 
