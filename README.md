@@ -14,8 +14,8 @@ Server files for the DayZedAndConfused DayZ servers
 
 # Contents:
 
-- [Bitterroot Files](Bitterroot-Files/)
-- [Namalsk Files](Namalsk-Files/)
+- [Bitterroot Files](Bitterroot/)
+- [Namalsk Files](Namalsk/)
 - [Code Snippets](Snippets/)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
