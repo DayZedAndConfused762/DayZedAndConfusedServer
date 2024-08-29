@@ -2253,18 +2253,43 @@
     </type>
     <type name="ZmbF_DoctorSkinny">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbF_HikerSkinny_Blue">
         <cargo preset="toolshunting" />
+        <attachments chance="0.1">
+            <item name="LargeGasCanister" change="0.1" />
+            <item name="MediumGasCanister" change="0.3" />
+            <item name="SmallGasCanister" change="0.6" />
+        </attachments>
     </type>
     <type name="ZmbF_HikerSkinny_Green">
         <cargo preset="toolshunting" />
+        <attachments chance="0.1">
+            <item name="LargeGasCanister" change="0.1" />
+            <item name="MediumGasCanister" change="0.3" />
+            <item name="SmallGasCanister" change="0.6" />
+        </attachments>
     </type>
     <type name="ZmbF_HikerSkinny_Grey">
         <cargo preset="toolshunting" />
+        <attachments chance="0.1">
+            <item name="LargeGasCanister" change="0.1" />
+            <item name="MediumGasCanister" change="0.3" />
+            <item name="SmallGasCanister" change="0.6" />
+        </attachments>
     </type>
     <type name="ZmbF_HikerSkinny_Red">
         <cargo preset="toolshunting" />
+        <attachments chance="0.1">
+            <item name="LargeGasCanister" change="0.1" />
+            <item name="MediumGasCanister" change="0.3" />
+            <item name="SmallGasCanister" change="0.6" />
+        </attachments>
     </type>
     <type name="ZmbF_JoggerSkinny_Blue">
         <cargo preset="toolshunting" />
@@ -2280,15 +2305,31 @@
     </type>
     <type name="ZmbF_JournalistNormal_Blue">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.50">
+            <item name="PressVest_Blue" chance="0.5" />
+            <item name="PressVest_LightBlue" chance="0.5" />
+        </attachments>
     </type>
     <type name="ZmbF_JournalistNormal_Green">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.50">
+            <item name="PressVest_Blue" chance="0.5" />
+            <item name="PressVest_LightBlue" chance="0.5" />
+        </attachments>
     </type>
     <type name="ZmbF_JournalistNormal_Red">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.50">
+            <item name="PressVest_Blue" chance="0.5" />
+            <item name="PressVest_LightBlue" chance="0.5" />
+        </attachments>
     </type>
     <type name="ZmbF_JournalistNormal_White">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.50">
+            <item name="PressVest_Blue" chance="0.5" />
+            <item name="PressVest_LightBlue" chance="0.5" />
+        </attachments>
     </type>
     <type name="ZmbF_MechanicNormal_Beige">
         <cargo preset="toolsgeneral" />
@@ -2316,15 +2357,35 @@
     </type>
     <type name="ZmbF_NurseFat">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbF_ParamedicNormal_Blue">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbF_ParamedicNormal_Green">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbF_ParamedicNormal_Red">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbF_PatientOld">
         <cargo preset="toolsmedic" />
@@ -2367,12 +2428,33 @@
     </type>
     <type name="ZmbF_SkaterYoung_Brown">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.4">
+        	<item name="SkateHelmet_Black" chance="0.2" />
+        	<item name="SkateHelmet_Blue" chance="0.2" />
+	        <item name="SkateHelmet_Gray" chance="0.1" />
+        	<item name="SkateHelmet_Green" chance="0.1" />
+	        <item name="SkateHelmet_Red" chance="0.4" />
+        </attachments>
     </type>
     <type name="ZmbF_SkaterYoung_Striped">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.4">
+        	<item name="SkateHelmet_Black" chance="0.2" />
+        	<item name="SkateHelmet_Blue" chance="0.2" />
+	        <item name="SkateHelmet_Gray" chance="0.1" />
+        	<item name="SkateHelmet_Green" chance="0.1" />
+	        <item name="SkateHelmet_Red" chance="0.4" />
+        </attachments>
     </type>
     <type name="ZmbF_SkaterYoung_Violet">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.4">
+        	<item name="SkateHelmet_Black" chance="0.2" />
+        	<item name="SkateHelmet_Blue" chance="0.2" />
+	        <item name="SkateHelmet_Gray" chance="0.1" />
+        	<item name="SkateHelmet_Green" chance="0.1" />
+	        <item name="SkateHelmet_Red" chance="0.4" />
+        </attachments>
     </type>
     <type name="ZmbF_SurvivorNormal_Blue">
         <cargo preset="toolshunting" />
@@ -2433,30 +2515,91 @@
     </type>
     <type name="ZmbM_CommercialPilotOld_Blue">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.33">
+            <item name="ZSh3PilotHelmet" chance="1.0" />
+        </attachments>
     </type>
     <type name="ZmbM_CommercialPilotOld_Brown">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.33">
+            <item name="ZSh3PilotHelmet" chance="1.0" />
+        </attachments>
     </type>
     <type name="ZmbM_CommercialPilotOld_Grey">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.33">
+            <item name="ZSh3PilotHelmet" chance="1.0" />
+        </attachments>
     </type>
     <type name="ZmbM_CommercialPilotOld_Olive">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.33">
+            <item name="ZSh3PilotHelmet" chance="1.0" />
+        </attachments>
     </type>
     <type name="ZmbM_ConstrWorkerNormal_Beige">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.25">
+            <item name="ConstructionHelmet_Blue" chance="0.1" />
+            <item name="ConstructionHelmet_Lime" chance="0.3" />
+            <item name="ConstructionHelmet_Orange" chance="0.2" />
+            <item name="ConstructionHelmet_Red" chance="0.2" />
+            <item name="ConstructionHelmet_White" chance="0.1" />
+            <item name="ConstructionHelmet_Yellow" chance="0.1" />
+        </attachments>
+        <attachments chance="0.4">
+            <item name="ReflexVest" chance="1" />
+        </attachments>
     </type>
     <type name="ZmbM_ConstrWorkerNormal_Black">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.25">
+            <item name="ConstructionHelmet_Blue" chance="0.1" />
+            <item name="ConstructionHelmet_Lime" chance="0.3" />
+            <item name="ConstructionHelmet_Orange" chance="0.2" />
+            <item name="ConstructionHelmet_Red" chance="0.2" />
+            <item name="ConstructionHelmet_White" chance="0.1" />
+            <item name="ConstructionHelmet_Yellow" chance="0.1" />
+        </attachments>
+        <attachments chance="0.4">
+            <item name="ReflexVest" chance="1" />
+        </attachments>
     </type>
     <type name="ZmbM_ConstrWorkerNormal_Green">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.25">
+            <item name="ConstructionHelmet_Blue" chance="0.1" />
+            <item name="ConstructionHelmet_Lime" chance="0.3" />
+            <item name="ConstructionHelmet_Orange" chance="0.2" />
+            <item name="ConstructionHelmet_Red" chance="0.2" />
+            <item name="ConstructionHelmet_White" chance="0.1" />
+            <item name="ConstructionHelmet_Yellow" chance="0.1" />
+        </attachments>
+        <attachments chance="0.4">
+            <item name="ReflexVest" chance="1" />
+        </attachments>
     </type>
     <type name="ZmbM_ConstrWorkerNormal_Grey">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.25">
+            <item name="ConstructionHelmet_Blue" chance="0.1" />
+            <item name="ConstructionHelmet_Lime" chance="0.3" />
+            <item name="ConstructionHelmet_Orange" chance="0.2" />
+            <item name="ConstructionHelmet_Red" chance="0.2" />
+            <item name="ConstructionHelmet_White" chance="0.1" />
+            <item name="ConstructionHelmet_Yellow" chance="0.1" />
+        </attachments>
+        <attachments chance="0.4">
+            <item name="ReflexVest" chance="1" />
+        </attachments>
     </type>
     <type name="ZmbM_DoctorFat">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbM_FarmerFat_Beige">
         <cargo preset="toolsgeneral" />
@@ -2518,12 +2661,27 @@
     </type>
     <type name="ZmbM_HikerSkinny_Blue">
         <cargo preset="toolshunting" />
+        <attachments chance="0.05">
+            <item name="LargeGasCanister" change="0.1" />
+            <item name="MediumGasCanister" change="0.3" />
+            <item name="SmallGasCanister" change="0.6" />
+        </attachments>
     </type>
     <type name="ZmbM_HikerSkinny_Green">
         <cargo preset="toolshunting" />
+        <attachments chance="0.05">
+            <item name="LargeGasCanister" change="0.1" />
+            <item name="MediumGasCanister" change="0.3" />
+            <item name="SmallGasCanister" change="0.6" />
+        </attachments>
     </type>
     <type name="ZmbM_HikerSkinny_Yellow">
         <cargo preset="toolshunting" />
+        <attachments chance="0.05">
+            <item name="LargeGasCanister" change="0.1" />
+            <item name="MediumGasCanister" change="0.3" />
+            <item name="SmallGasCanister" change="0.6" />
+        </attachments>
     </type>
     <type name="ZmbM_HunterOld_Autumn">
         <cargo preset="toolshunting" />
@@ -2577,6 +2735,10 @@
         <cargo preset="toolsgeneral" />
     </type>
     <type name="ZmbM_JournalistSkinny">
+        <attachments chance="0.50">
+            <item name="PressVest_Blue" chance="0.5" />
+            <item name="PressVest_LightBlue" chance="0.5" />
+        </attachments>
         <cargo preset="toolsgeneral" />
     </type>
     <type name="ZmbM_MechanicSkinny_Blue">
@@ -2614,15 +2776,35 @@
     </type>
     <type name="ZmbM_ParamedicNormal_Black">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbM_ParamedicNormal_Blue">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbM_ParamedicNormal_Green">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbM_ParamedicNormal_Red">
         <cargo preset="toolsmedic" />
+        <attachments chance="0.6">
+            <item name="MedicalScrubsHat_Green" chance="0.4" />
+            <item name="MedicalScrubsHat_Blue" chance="0.4" />
+	        <item name="MedicalScrubsHat_White" chance="0.2" />
+        </attachments>
     </type>
     <type name="ZmbM_PatientSkinny">
         <cargo preset="toolsmedic" />
@@ -2665,21 +2847,53 @@
     </type>
     <type name="ZmbM_priestPopSkinny">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.7">
+            <item name="WitchHood_Red" chance="0.3" />
+            <item name="WitchHood_Black" chance="0.7" />
+        </attachments>
     </type>
     <type name="ZmbM_PrisonerSkinny">
         <cargo preset="toolsgeneral" />
     </type>
     <type name="ZmbM_SkaterYoung_Blue">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.4">
+        	<item name="SkateHelmet_Black" chance="0.2" />
+        	<item name="SkateHelmet_Blue" chance="0.2" />
+	        <item name="SkateHelmet_Gray" chance="0.1" />
+        	<item name="SkateHelmet_Green" chance="0.1" />
+	        <item name="SkateHelmet_Red" chance="0.4" />
+        </attachments>
     </type>
     <type name="ZmbM_SkaterYoung_Brown">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.4">
+        	<item name="SkateHelmet_Black" chance="0.2" />
+        	<item name="SkateHelmet_Blue" chance="0.2" />
+	        <item name="SkateHelmet_Gray" chance="0.1" />
+        	<item name="SkateHelmet_Green" chance="0.1" />
+	        <item name="SkateHelmet_Red" chance="0.4" />
+        </attachments>
     </type>
     <type name="ZmbM_SkaterYoung_Green">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.4">
+        	<item name="SkateHelmet_Black" chance="0.2" />
+        	<item name="SkateHelmet_Blue" chance="0.2" />
+	        <item name="SkateHelmet_Gray" chance="0.1" />
+        	<item name="SkateHelmet_Green" chance="0.1" />
+	        <item name="SkateHelmet_Red" chance="0.4" />
+        </attachments>
     </type>
     <type name="ZmbM_SkaterYoung_Grey">
         <cargo preset="toolsgeneral" />
+        <attachments chance="0.4">
+        	<item name="SkateHelmet_Black" chance="0.2" />
+        	<item name="SkateHelmet_Blue" chance="0.2" />
+	        <item name="SkateHelmet_Gray" chance="0.1" />
+        	<item name="SkateHelmet_Green" chance="0.1" />
+	        <item name="SkateHelmet_Red" chance="0.4" />
+        </attachments>
     </type>
     <type name="ZmbM_SoldierNormal">
         <cargo preset="toolsmilitary" />

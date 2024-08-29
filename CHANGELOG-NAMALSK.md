@@ -33,6 +33,14 @@
 - Edit "Config.cfg" change "template" form "regular.namalsk" to "dayzed.namalsk"
 - Rename Namalsk mission folder from "regular.namalsk" to "dayzed.namalsk"
 - Edit @PvZmoD_CustomisableZombies settings file "@PvZmoD_CustomisableZombies_Characteristics.xml" to adjust various zombie stats
+- Adjusted items spawned on zombies
+  - Journalist Zombies may spawn with Press Vests (PressVest_Blue", "PressVest_LightBlue")
+  - Fishing Zombies may spawn with Flight Helmet (ZSh3PilotHelmet)
+  - Medical Zombies may spawn with Scrub hats (MedicalScrubsHat_Green, MedicalScrubsHat_White, MedicalScrubsHat_Blue)
+  - Skate Zombies may spawn with Skate Helmet (SkateHelmet_Black, SkateHelmet_Blue, SkateHelmet_Gray, SkateHelmet_Green, SkateHelmet_Red)
+  - Hiker Zombies have a low change to spawn with Gas cans (LargeGasCanister, MediumGasCanister, SmallGasCanister)
+  - Construction Worker Zombies have a chance to spawn with Hardhats ConstructionHelmet_Blue, ConstructionHelmet_Lime, ConstructionHelmet_Orange, ConstructionHelmet_Red, ConstructionHelmet_White, ConstructionHelmet_Yellow) and Reflective Vest (ReflexVest)
+  - Priest Zombies may spawn with Witch Hoods (WitchHood_Red, WitchHood_Black)
 
 <!-- ++++++++++++++++++++ 8/28/2024 Start ++++++++++++++++++++ -->
 
