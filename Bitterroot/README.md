@@ -1,20 +1,40 @@
-Hello!
+<!-- ======================================== template-index.md Start ======================================== -->
 
-You can find the empty.Bitterroot missions files below. 
-All you will need to do is download the ZIP in the Github repository and then upload into the mpmissions folder wherever you are hositng your server.
 
-Bitterroot is a map that features several overhauls including buildings, weeapons and more. 
-Many of the files have had vanilla items changed or removed entirely.
-You will find the removed items down at the very bottom of each file for your convenience if you wish to re-add them.
+<!-- ------------------------------ Intro Start ------------------------------ -->
 
-You can find High Definition sat map and tier map of Bitterroot here.
+# Namalsk Server Files
 
-https://mega.nz/folder/2Zx03LSZ#EE-gEtYLHu2o9aAgHB3PuQ
+Files for the DayZed And Confused Namalsk Server
 
-Bitterroot Wiki page
+<!-- ------------------------------ Intro End ------------------------------ -->
 
-https://bitterrootdayz.fandom.com/wiki/BitterrootDayZ_Wiki
 
-Join the discord for further support or questions. Good luck!
+<!-- ------------------------------ Overview Start ------------------------------ -->
 
-https://discord.gg/bitterroot
+## Contents: 
+
+- [DZAC Namalsk Mission Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/regular.namalsk)
+- [DZAC Namalsk Profile Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/profiles)
+- [DZAC Namalsk Mod Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/Mod%20Files)
+
+<!-- ------------------------------ Overview End ------------------------------ -->
+
+
+<!-- ------------------------------ Section Start ------------------------------ 
+
+## Section name
+
+* [File Name](template-index.md) Description of file
+* [File Name](template-index.md) Description of file
+
+- ------------------------------ Section End ------------------------------ -->
+
+
+<!-- ------------------------------ Outro Start ------------------------------ -->
+
+<!-- ------------------------------ Outro End ------------------------------ -->
+
+
+<!-- ======================================== template-index.md Start ======================================== -->
+
