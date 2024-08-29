@@ -17,6 +17,7 @@ Files for the DayZed And Confused Namalsk Server
 - [DZAC Namalsk Mission Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/regular.namalsk)
 - [DZAC Namalsk Profile Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/profiles)
 - [DZAC Namalsk Mod Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/Mod%20Files)
+- [Namalsk Vanilla Files](https://github.com/DayZedAndConfused762/DayZedAndConfusedServer/tree/main/Namalsk/Vanilla%20Files)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
