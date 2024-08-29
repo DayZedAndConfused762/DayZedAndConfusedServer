@@ -12,12 +12,23 @@
 
 ## Contents:
 
+- [8/29/2024](#8/29/2024)
 - [8/28/2024](#8/28/2024)
 - [8/27/2024](#8/27/2024)
 - [8/25/2024](#8/25/2024)
 - [8/23/2024](#8/23/2024)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
+
+## 8/29/2024
+
+- Edit @BaseBuildingPlus settings "BBP_Settings.json":
+  - Change "BBP_FlagBuildAnywhere" to "1"
+  - Change "BBP_TentBuildAnywhere" to "1"
+  - Change "BBP_VanillaBuildAnywhere" to "1"
+  - Change "BBP_CanAttachFlashlights" to "1"
+  - Change "BBP_CanAttachXmaslights" to "1"
+  - Change "BBP_CanAttachCamonets" to "1"
 
 <!-- ++++++++++++++++++++ 8/28/2024 Start ++++++++++++++++++++ -->
 
