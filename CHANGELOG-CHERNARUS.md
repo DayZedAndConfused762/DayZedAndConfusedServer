@@ -38,6 +38,7 @@
   - change "staminaWeightLimitThreshold" to "10000.0"
   - change "ignoreMapOwnership" to "true"
   - change "displayPlayerPosition" to "true"
+- Started work on sorted types file for Chernarus
 
 
 <!-- ++++++++++++++++++++ 8/30/2024 End ++++++++++++++++++++ -->
