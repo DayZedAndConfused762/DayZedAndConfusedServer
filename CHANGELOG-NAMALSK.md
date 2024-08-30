@@ -12,6 +12,7 @@
 
 ## Contents:
 
+- [8/30/2024](#8/30/2024)
 - [8/29/2024](#8/29/2024)
 - [8/28/2024](#8/28/2024)
 - [8/27/2024](#8/27/2024)
@@ -19,6 +20,11 @@
 - [8/23/2024](#8/23/2024)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
+
+## 8/30/2024
+
+- Update motd in Config.cfg
+  - motd[] = "Welcome to DayZed And Confused", "This server is inder development", "Visit our Discord: https://discord.gg/UkHvV7j6kf"
 
 ## 8/29/2024
 
