@@ -19,6 +19,7 @@
 ## To Do List
 
 
+- setup server restarts
 - add vodka
 - add random colored vehicle parts
 - add working items that don't spawn
