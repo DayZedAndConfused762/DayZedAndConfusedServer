@@ -18,7 +18,7 @@
 
 ## To Do List
 
-
+- setup server messaging
 - setup server restarts
 - add vodka
 - add random colored vehicle parts
