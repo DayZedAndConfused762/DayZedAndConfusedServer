@@ -1,3 +1,46 @@
+
+- Adjusted items spawned on zombies
+  - Journalist Zombies may spawn with Press Vests (PressVest_Blue", "PressVest_LightBlue")
+  - Fishing Zombies may spawn with Flight Helmet (ZSh3PilotHelmet)
+  - Medical Zombies may spawn with Scrub hats (MedicalScrubsHat_Green, MedicalScrubsHat_White, MedicalScrubsHat_Blue)
+  - Skate Zombies may spawn with Skate Helmet (SkateHelmet_Black, SkateHelmet_Blue, SkateHelmet_Gray, SkateHelmet_Green, SkateHelmet_Red)
+  - Hiker Zombies have a low change to spawn with Gas cans (LargeGasCanister, MediumGasCanister, SmallGasCanister)
+  - Construction Worker Zombies have a chance to spawn with Hardhats ConstructionHelmet_Blue, ConstructionHelmet_Lime, ConstructionHelmet_Orange, ConstructionHelmet_Red, ConstructionHelmet_White, ConstructionHelmet_Yellow) and Reflective Vest (ReflexVest)
+  - Priest Zombies may spawn with Witch Hoods (WitchHood_Red, WitchHood_Black)
+
+- Configure Mods: 
+  - @BaseBuildingPlus
+    - Copy namalsk config
+    - change "BBP_FlagBuildAnywhere" to "1"
+    - change "BBP_TentBuildAnywhere" to "1"
+    - change "BBP_VanillaBuildAnywhere" to "1"
+  - @CannabisPlus
+    - change "activateCigaretteSmokingEffect" to "1"
+  - @CodeLock
+    - CodeLockPerms.json: 
+      - change "playerId" to "76561198059652382"
+      - change "CanOpenLocks" to "true"
+      - change "CanChangePasscodes" to "true"
+      - change "CanRemoveLocks" to "true
+  - @DrugsPlus
+    - change "allowcokeenergybuff" to "1"
+  - @PvZmoD_CustomisableZombies
+    - PvZmoD_CustomisableZombies_Characteristics.xml:
+    - PvZmoD_CustomisableZombies_Globals.xml:
+      - change "Zombies_Hit_Players_On_Obstacles_Activated"	"Day" to "0" "Night" to "0"
+      - change "Zombies_Size_Activated" "Day" to "1" "Night" to "1"
+      - change "Zombies_Hearing_Crouching_Players_Ratio" "Day" to "0.6"	"Night" to "0.6"
+      - change "Damages_To_Vehicles		Activated" to "0"
+      - change "Zombies_Throw_Stones_Activated"	"Day"	to "0" "Night to "0"
+    - PvZmoD_Information_Panel.xml
+      - change "Custom_Server_Link" "Value" to "https://discord.gg/UkHvV7j6kf"
+  - @VPPAdminTools
+    - SuperAdmins.txt:
+      - add DirtyHam steamid: "76561198059652382"
+
+
+
+
 Mag_AK101_30Rnd_Black [30rd KA-101 Mag]
 Mag_AK101_30Rnd_Green [30rd KA-101 Mag]
 Mag_AK74_30Rnd_Black [30rd KA-74 Mag]
