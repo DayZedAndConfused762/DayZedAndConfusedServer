@@ -45,7 +45,8 @@
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2328254129&searchtext=namalsk
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2941804897&searchtext=namalsk
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2357023907&searchtext=namalsk
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2353424547&searchtext=namalsk
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2353424547&searchtext=namalsk\
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819
 
 <!-- ------------------------------ToDo End ------------------------------ -->
 
