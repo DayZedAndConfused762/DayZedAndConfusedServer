@@ -18,6 +18,7 @@
 
 ## To Do List
 
+- dayzyourway.com
 - setup server messaging
 - setup server restarts
 - add vodka
