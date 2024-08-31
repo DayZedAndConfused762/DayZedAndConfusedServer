@@ -1,0 +1,46 @@
+		{ 	"AreaName": "Bunker", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "EffectTrigger",
+			"Data": { 
+				"Pos": [ 1200.55, 0, 14539.02 ],
+				"Radius": 200,
+				"PosHeight": 21,
+				"NegHeight": 10,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Bunker", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "EffectTrigger",
+			"Data": { 
+				"Pos": [ 1256.45, 0, 14515.20 ],
+				"Radius": 200,
+				"PosHeight": 21,
+				"NegHeight": 10,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},

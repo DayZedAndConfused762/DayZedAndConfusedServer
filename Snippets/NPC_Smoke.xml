@@ -1,0 +1,158 @@
+  
+  THIS IS SMOKES PERSONAL NPC IT CONTAINS MY PERSONAL FAVORITE LOADOUT HOPE YOU ENJOY
+  
+  
+<-- ADD SPAWNABLETYPES -->
+  
+  
+  <type name="SurvivorM_Smoke">
+        <attachments chance="1.00">
+            <item name="M65Jacket_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CargoPants_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalGloves_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Sneakers_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BalaclavaMask_Blackskull" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mich2001Helmet" chance="1.00" />
+        </attachments> 
+		<attachments chance="1.00">
+            <item name="MilitaryBelt" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CZ550" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Mag_CZ550_10Rnd" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Mag_CZ550_10Rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="AliceBag_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Battery9V" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="NVGoggles" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Battery9V" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="WeaponCleaningKit" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="PlateCarrierHolster" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="NylonKnifeSheath" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CombatKnife" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Canteen" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CanOpener" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="GhillieSuit_Woodland" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="GhillieHood_Woodland" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Ammo_308Win" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Ammo_308Win" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SodaCan_Cola" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="M4A1" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="M4_RISHndgrd" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="M4_CQBBttstck" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_STANAGCoupled_30Rnd" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Mag_STANAGCoupled_30Rnd" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="M4_Suppressor" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BandageDressing" chance="1.00" />
+        </attachments>
+    </type> 
+
+
+
+
+
+
+
+
+
+<-- ADD EVENTS -->
+
+
+<event name="Item_SurvivorM_Boris">
+    <nominal>1</nominal>
+    <min>1</min>
+    <max>2</max>
+    <lifetime>0</lifetime>
+    <restock>0</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>10</distanceradius>
+    <cleanupradius>0</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="1"/>
+    <position>fixed</position>
+    <limit>child</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="1" min="1" type="SurvivorM_Boris"/>
+    </children>
+</event> 
+
+
+
+
+
+
+<-- ADD TO EVENTSPAWNS -->
+
+
+
+<event name="Item_SurvivorM_Boris">
+    <pos x="XXXXX" z="XXXXX" a="0" />
+	
+	
+	
+	
+	 
+</event>

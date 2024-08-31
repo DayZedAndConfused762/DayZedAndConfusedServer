@@ -1,0 +1,240 @@
+****** install notes ******
+Install as instructed.
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+two custom handcuffed toxic zone npcs
+****************************************
+<!-- events.xml New Entry-->
+
+  <event name="Item_Anti_Hazard">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>5</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children> 
+            <child lootmax="0" lootmin="0" max="1" min="1" type="SurvivorM_Taiki"/>
+        </children>
+    </event>
+  <event name="Item_Anti_Hazard1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>2</distanceradius>
+        <cleanupradius>5</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children> 
+            <child lootmax="0" lootmin="0" max="1" min="1" type="SurvivorM_Oliver"/>
+        </children>
+    </event>
+
+
+<!-- cfgeventspawns.xml New Entry -->
+
+    <event name="Item_Anti_Hazard">
+		<pos x="0000.00" z="0000.00" a="0.00" />
+    </event>
+
+    <event name="Item_Anti_Hazard1">
+		<pos x="0000.00" z="0000.00" a="0.00" />
+    </event>
+
+
+<!-- cfgspawnabletypes.xml New Entry -->
+
+<!-- AntiHazard -->
+    <type name="SurvivorM_Taiki">
+	    <attachments>
+		    <item name="HandcuffsLocked" />
+	    </attachments>	
+	    <attachments>
+		    <item name="NBCHoodYellow" />
+	    </attachments>
+	    <attachments>
+		    <item name="NBCJacketYellow" />
+	    </attachments>	
+	    <attachments>
+		    <item name="NBCPantsYellow" />
+	    </attachments>
+	    <attachments>
+		    <item name="NBCBootsYellow" />
+	    </attachments>	
+	    <attachments>
+		    <item name="NBCGlovesYellow" />
+	    </attachments>
+	    <attachments>
+		    <item name="AirborneMask" />
+	    </attachments>	
+	    <attachments>
+		    <item name="HighCapacityVest_Black" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="DryBag_Black" />
+	    </attachments>
+	    <attachments>
+		    <item name="AntiChemInjector" />
+	    </attachments>	
+	    <attachments>
+		    <item name="AntiChemInjector" />
+	    </attachments>
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="FirefighterAxe_Green" />
+	    </attachments>	
+	    <attachments>
+		    <item name="FAMAS" />
+	    </attachments>	
+	    <attachments>
+		    <item name="ImprovisedSuppressor" />
+	    </attachments>	
+	    <attachments>
+		    <item name="Mag_FAMAS_25Rnd" />
+	    </attachments>	
+	    <attachments>
+		    <item name="Mag_FAMAS_25Rnd" />
+	    </attachments>
+	    <attachments>
+		    <item name="WaterBottle" />
+	    </attachments>	
+	    <attachments>
+		    <item name="TacticalBaconCan_Opened" />
+	    </attachments>	
+	    <attachments>
+		    <item name="BandageDressing" />
+	    </attachments>
+    </type>
+    <type name="SurvivorM_Oliver">
+	    <attachments>
+		    <item name="HandcuffsLocked" />
+	    </attachments>	
+	    <attachments>
+		    <item name="NBCHoodGray" />
+	    </attachments>
+	    <attachments>
+		    <item name="NBCJacketGray" />
+	    </attachments>	
+	    <attachments>
+		    <item name="NBCPantsGray" />
+	    </attachments>
+	    <attachments>
+		    <item name="NBCBootsGray" />
+	    </attachments>		
+	    <attachments>
+		    <item name="NBCGlovesGray" />
+	    </attachments>
+	    <attachments>
+		    <item name="AirborneMask" />
+	    </attachments>	
+	    <attachments>
+		    <item name="HighCapacityVest_Black" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="M18SmokeGrenade_Green" />
+	    </attachments>
+	    <attachments>
+		    <item name="DryBag_Black" />
+	    </attachments>
+	    <attachments>
+		    <item name="AntiChemInjector" />
+	    </attachments>	
+	    <attachments>
+		    <item name="AntiChemInjector" />
+	    </attachments>
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="GasMask_Filter" />
+	    </attachments>	
+	    <attachments>
+		    <item name="FirefighterAxe_Green" />
+	    </attachments>	
+	    <attachments>
+		    <item name="FAMAS" />
+	    </attachments>	
+	    <attachments>
+		    <item name="ImprovisedSuppressor" />
+	    </attachments>	
+	    <attachments>
+		    <item name="Mag_FAMAS_25Rnd" />
+	    </attachments>	
+	    <attachments>
+		    <item name="Mag_FAMAS_25Rnd" />
+	    </attachments>
+	    <attachments>
+		    <item name="WaterBottle" />
+	    </attachments>	
+	    <attachments>
+		    <item name="TacticalBaconCan_Opened" />
+	    </attachments>	
+	    <attachments>
+		    <item name="TacticalBaconCan_Opened" />
+	    </attachments>	
+	    <attachments>
+		    <item name="BandageDressing" />
+	    </attachments>
+	    <attachments>
+		    <item name="BandageDressing" />
+	    </attachments>
+    </type>
+
+****************************************		
+Org File Created by Dayzdevil. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

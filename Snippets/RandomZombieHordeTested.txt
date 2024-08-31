@@ -1,0 +1,79 @@
+
+
+
+
+The 'No Event' Random Zombie horde.
+
+This will add zombie hordes to your either map, with-out the use of player made events. It primarily uses zombie_territories.xml, along with events.xml
+
+****** install notes ******
+
+Step 1 - Events.XML
+You can use any zombie event, (i.e infectedarmy, infectedindustrial and so on) or you can make you own. 
+Copy and paste this or edit the children to how you want your horde to look like.
+
+
+<event name="InfectedRandom">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="10" min="5" type="ZmbM_PatrolNormal_Autumn"/> <!-- Mili-->
+            <child lootmax="5" lootmin="0" max="10" min="5" type="ZmbM_usSoldier_Heavy_Woodland"/> <!-- Mili-->
+			<child lootmax="5" lootmin="0" max="10" min="5" type="ZmbF_CitizenBSkinny"/> <!-- City-->
+			<child lootmax="5" lootmin="0" max="10" min="5" type="ZmbM_ClerkFat_Khaki"/> <!-- City-->
+			<child lootmax="5" lootmin="0" max="10" min="5" type="ZmbM_FirefighterNormal"/> <!-- FireFighter -->
+			<child lootmax="5" lootmin="0" max="10" min="5" type="ZmbM_MechanicSkinny_Green"/> <!-- Industrial -->
+			<child lootmax="5" lootmin="0" max="10" min="5" type="ZmbF_ParamedicNormal_Red"/> <!-- Paramedic -->
+        </children>
+    </event>
+	
+	
+You will need to alter the  min levels here, or you’ll end up with more than one type of zombie, take FireFighter it was set to a min 100.
+to even them out, I changed the min to 10 of each, this way you’ll have more of a chance of an even amount of each type.	
+
+Step 2 Zombie_Territories.xml
+
+Within the first territory colour add this.
+
+        <zone name="InfectedReligious" smin="3" smax="5" dmin="20" dmax="20" x="0000.00" z="0000.00" r="90"/>
+        <zone name="InfectedSolitude" smin="3" smax="5" dmin="20" dmax="20" x="0000.00" z="0000.00" r="90"/>
+        <zone name="InfectedArmyHard" smin="3" smax="5" dmin="20" dmax="20" x="0000.00" z="0000.00" r="90"/>
+        <zone name="InfectedRandom" smin="3" smax="5" dmin="20" dmax="20" x="0000.00" z="0000.00" r="90"/>
+        <zone name="InfectedVillage" smin="3" smax="5" dmin="20" dmax="20" x="0000.00" z="0000.00" r="90"/>
+		<zone name="InfectedRandom" smin="3" smax="5" dmin="20" dmax="20" x="0000.00" z="0000.00" r="90"/>
+	
+	
+You'll see the zone names have different zombie event names, so this will call up these "hordes" at whatever locations you want. All you must do is add in the X and Z.
+you can get the X and X co ords from Izurvive you then just have to copy them into where I’ve put 0000.00. You can have as many locations as you like.
+
+Step 3 Globals.xml
+
+Within here, you’ll need to head to the bottom of the page, and look for ZombieMaxCount and increase value from 1000 to 1500 (depending on how many hordes/Max children you have)~
+It will look like this.
+
+<var name="ZombieMaxCount" type="0" value="1000"/>	
+
+Change it to look like this.
+
+<var name="ZombieMaxCount" type="0" value="1500"/>
+
+Step 4
+validate your xmls. goto https://www.xmlvalidation.com/index.php?id=1&L=0 and make sure your files/edits are working 100%
+once that is done, upload your files, restart and enjoy.
+
+This is just one way to help with performance and help with lag, as it’s calling up fewer custom events. 
+
+****************************************    
+Org File Created by EpicFailWinner. For more help files for DayZ come visit us at http://bhaalshad.com 
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)

@@ -1,0 +1,92 @@
+****** install notes ******
+Install as is. Do not Change any of the code.
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+adds custom loot spawn points.
+
+****************************************
+<!-- mapgroupproto.xml Replace Entry -->
+
+        <group name="Land_Tenement_Big" lootmax="10">
+		<usage name="Town" />
+                <container name="lootFloor" lootmax="10">
+	            <category name="tools" />
+		    <category name="containers" />
+		    <category name="clothes" />
+                    <point pos="1.398875 -19.762848 1.202037" range="0.5" height="1.5" />
+                    <point pos="-3.097719 -5.831915 7.022564" range="0.5" height="1.5" />
+                    <point pos="-7.981091 -6.161812 9.704002" range="0.5" height="1.5" />
+                    <point pos="-6.415437 -4.764635 -1.738022" range="0.5" height="1.5" />
+                    <point pos="-1.469148 -6.157869 5.340683" range="0.5" height="1.5" />
+                    <point pos="3.496823 -5.995573 -3.513852" range="0.5" height="1.5" />
+                    <point pos="6.371778 -6.159813 -3.508338" range="0.5" height="1.5" />
+                    <point pos="7.978889 -6.157814 -10.208344" range="0.5" height="1.5" />
+                    <point pos="0.533342 -5.794935 -9.801158" range="0.5" height="1.5" />
+                    <point pos="3.222988 -6.285723 -0.178324" range="0.5" height="1.5" />
+                    <point pos="-0.660227 -2.757835 8.936110" range="0.5" height="1.5" />
+                    <point pos="7.954409 -2.763809 9.853250" range="0.5" height="1.5" />
+                    <point pos="2.747835 -2.760813 3.514373" range="0.5" height="1.5" />
+                    <point pos="-1.028332 0.989975 -7.230692" range="0.5" height="1.5" />
+                    <point pos="-8.005302 0.729137 -10.198619" range="0.5" height="1.5" />
+                    <point pos="-6.105709 1.770090 -3.066185" range="0.5" height="1.5" />
+                    <point pos="-0.818043 1.508068 -5.445603" range="0.5" height="1.5" />
+                    <point pos="-3.223150 8.175566 8.821840" range="0.5" height="1.5" />
+                    <point pos="-7.984797 7.529139 9.430170" range="0.5" height="1.5" />
+                    <point pos="-5.240231 7.529139 -1.717777" range="0.5" height="1.5" />
+                    <point pos="-3.183685 7.441187 0.669739" range="0.5" height="1.5" />
+                    <point pos="2.499675 10.929136 -2.944081" range="0.5" height="1.5" />
+                    <point pos="6.476195 11.830191 -2.698279" range="0.5" height="1.5" />
+                    <point pos="0.501906 11.465353 -10.442065" range="0.5" height="1.5" />
+                    <point pos="2.954706 14.329138 2.606500" range="0.5" height="1.5" />
+                    <point pos="4.521855 15.682138 2.649975" range="0.5" height="1.5" />
+                    <point pos="7.907870 14.329355 10.078344" range="0.5" height="1.5" />
+                    <point pos="-6.048389 15.036070 -2.881348" range="0.5" height="1.5" />
+                    <point pos="-1.439577 14.599268 -9.900543" range="0.5" height="1.5" />
+                    <point pos="-7.954033 14.329355 -10.103879" range="0.5" height="1.5" />
+                    <point pos="3.742942 13.716364 -0.141226" range="0.5" height="1.5" />
+                    <point pos="4.484893 21.319139 1.133689" range="0.5" height="1.5" />
+                    <point pos="2.811712 22.397520 -0.396179" range="0.5" height="1.5" />
+                    <point pos="1.400992 24.554239 1.142182" range="0.5" height="1.5" />
+                    <point pos="4.535974 24.554239 -1.574926" range="0.5" height="1.5" />
+                    <point pos="4.500824 24.554243 1.130843" range="0.5" height="1.5" />
+                    <point pos="1.488365 24.554239 -1.516674" range="0.5" height="1.5" />
+                    <point pos="6.841778 21.319136 -9.888876" range="0.5" height="1.5" />
+                    <point pos="6.312718 21.319143 0.000256" range="0.5" height="1.5" />
+                    <point pos="-1.863350 21.950014 -3.770236" range="0.5" height="1.5" />
+                    <point pos="6.370271 23.347200 4.691364" range="0.5" height="1.5" />
+                    <point pos="-6.405385 21.319136 9.072302" range="0.5" height="1.5" />
+                    <point pos="1.679320 21.319136 5.978682" range="0.5" height="1.5" />
+                    <point pos="1.679320 21.319136 5.978682" range="0.5" height="1.5" />
+                    <point pos="-7.211609 21.279139 -9.991995" range="0.5" height="1.5" />
+                    <point pos="-5.856581 21.319136 0.587629" range="0.5" height="1.5" />
+                    <point pos="4.281077 -20.938654 -0.108392" range="0.5" height="1.5" />
+                    <point pos="2.203696 -20.938654 -0.141474" range="0.5" height="1.5" />
+                    <point pos="5.335756 -16.270811 -1.541681" range="0.5" height="1.5" />
+                    <point pos="5.981734 -12.870813 -1.510658" range="0.5" height="1.5" />
+                    <point pos="5.350189 -9.470762 -1.553698" range="0.5" height="1.5" />
+                    <point pos="5.770172 -4.161072 -10.531240" range="0.5" height="1.5" />
+                    <point pos="6.150181 -2.670765 1.135864" range="0.5" height="1.5" />
+                    <point pos="6.083309 4.129240 -1.573812" range="0.5" height="1.5" />
+                    <point pos="6.243403 7.529238 -0.211635" range="0.5" height="1.5" />
+                    <point pos="8.088102 10.929136 -10.126410" range="0.5" height="1.5" />
+                    <point pos="3.284175 10.747919 -0.101458" range="0.5" height="1.5" />
+                    <point pos="-1.501645 14.329138 -5.286654" range="0.5" height="1.5" />
+                    <point pos="-1.543194 14.329138 -3.753827" range="0.5" height="1.5" />
+                    <point pos="-6.188386 14.329138 -5.555445" range="0.5" height="1.5" />
+                    <point pos="6.304981 14.329138 9.616179" range="0.5" height="1.5" />
+                    <point pos="6.082283 14.329355 0.812866" range="0.5" height="1.5" />
+                    <point pos="6.048630 21.231241 9.170123" range="0.5" height="1.5" />
+                    <point pos="3.373955 21.950014 -7.831271" range="0.5" height="1.5" />
+                    <point pos="0.501030 -16.270811 -0.123834" range="0.5" height="1.5" />
+                </container>
+        </group>
+
+****************************************		
+Org File Created by Dayzdevil#0666. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

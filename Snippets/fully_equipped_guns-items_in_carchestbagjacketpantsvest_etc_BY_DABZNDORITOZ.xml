@@ -1,0 +1,569 @@
+all you have to do is fill the iventory of the car,chest,bag,jacket,pants,vest etc evenly and completely 42/42 or 100/100 400/400 etc then add your attachments at the end and they will spawn on any item that they can attach to.
+
+there is one problem with this and its similar to the dysync with npc, all of the attachments that spawn attached to a gun/item spawn dysyn/stuck on the gun/item and you have to sync them by logging out and in, or while standing at or on the
+ car,chest,bag,jacket,pants,vest etc that you grabbed your fully equipped gun/item from you have to take off the attachments and then re equip them and you have to do that while at or on the car,chest,bag,jacket,pants,vest etc.
+
+it seems that the game thinks these attachments are in a void of inventory space and thats why you have to be on or at the car,chest,bag,jacket,pants,vest etc because if the
+ car,chest,bag,jacket,pants,vest etc de spawns before you can sync your items you now cant and have to log to sync them
+
+if you do not sync your items they might despawn when the car,chest,bag,jacket,pants,vest etc that you got your fully equipped gun/item from despawns or a few seconds after that, if your attachments dont despawn they will be stuck
+
+if your wearing the bag,vest,pants etc and dont plan on removing them then you dont have to worry about anything and all item will stay sync and you dont have to do nothing  
+
+you do not have to sync mags that in know of, ive been doing this for months on my public high pop server and have had no problems with mags
+
+you do not have to sync handguards or buttstocks if you do not plan to remove them
+
+
+
+
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+             MAKE SURE YOU READ EVERYTHING ABOVE BEFORE USING THIS CODE     MAKE SURE YOU READ EVERYTHING ABOVE BEFORE USING THIS CODE     MAKE SURE YOU READ EVERYTHING ABOVE BEFORE USING THIS CODE 
+
+
+
+
+                                                EXAMPLES  BELOW
+
+            SPAWNABLETYPES.XML
+
+
+          
+
+
+
+       THIS FIRST EXAMPLE IS THE TRUCK WITH GUNS WITH MAGS/HANDGURD/BUTTSTOCK ATTACHED
+       
+
+
+              <type name="Truck_01_Covered_Blue">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Hood_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_1_1_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_2_1_Blue" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="M4A1_Green" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ACOGOptic_6x" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ReflexOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK74" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="KobraOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK74_45Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK74_45Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK101" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="KobraOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AKM" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="KobraOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AKM_Drum75Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AKM_Drum75Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="B95" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_308Win" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_308Win" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="FAL" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ACOGOptic_6x" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Izh43Shotgun" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_12gaSlug" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_12gaSlug" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_12gaSlug" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="SawedoffIzh18" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_12gaSlug" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_12gaSlug" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_12gaBeanbag" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_12gaBeanbag" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mosin9130_Camo" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_762x54Tracer" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_762x54Tracer" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="SawedoffMosin9130_Black" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Scout" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ACOGOptic_6x" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="SKS_Green" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_762x39" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_762x39" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_762x39" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="SVD" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="PSO1Optic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="KazuarOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="VSS" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="PSO1Optic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="KazuarOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Winchester70_Green" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_308Win" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Ammo_308Win" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ASVAL" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="PSO1Optic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="KazuarOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        
+   
+        
+        <attachments chance="1.00">
+			<item name="M4_Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="M4_MPBttstck_Green" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="M4_MPHndgrd_Green" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK74_Hndgrd_Camo" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK74_WoodBttstck_Camo" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK74_45Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_WoodHndgrd_Camo" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_WoodBttstck_Camo" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_WoodHndgrd_Camo" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_WoodBttstck_Camo" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AKM_Drum75Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ImprovisedSuppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Fal_FoldingBttstck" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ImprovisedSuppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="M4_Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ImprovisedSuppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_VAL_20Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="ImprovisedSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+
+
+
+
+
+      SECOND EXAMPLE ALICEBAG
+
+
+     <type name="AliceBag_Green">
+		 <attachments chance="1.00">
+            		<item name="M4A1_Black" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="PlateCarrierVest" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="NVGHeadstrap" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="WitchHood_Black" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="BakedBeansCan_Opened" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="BakedBeansCan_Opened" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="Battery9V" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="Ammo_357" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="VitaminBottle" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="SodaCan_Fronta" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="BandageDressing" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="M4_RISHHndgrd" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="M4_OEBttstck_Black" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="ACOGOptic_6x" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="M4_Suppressor" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="NVGoggles" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="Battery9V" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="M67Grenade" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="M67Grenade" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="M67Grenade" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="M67Grenade" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="PlateCarrierHolster" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="Magnum" chance="1.00" />
+		 </attachments>
+         <attachments chance="1.00">
+            		<item name="PlateCarrierPouches" chance="1.00" />
+		 </attachments>
+    </type>
+
+
+
+   THIRD EXAMPLE JACKET
+
+  <type name="M65Jacket_Olive">
+		<attachments chance="1.00">
+			<item name="AK101" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Lunchmeat_Opened" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="Lunchmeat_Opened" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="BandageDressing" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="BandageDressing" chance="1.00" />
+		</attachments>
+        
+        <attachments chance="1.00">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="1.00">
+			<item name="AK_WoodHndgrd_Camo" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_WoodBttstck_Camo" chance="1.00" />
+		</attachments>
+	</type>

@@ -1,0 +1,61 @@
+<!--ADDING THE EVIL GOAT-->
+
+<!--!!!USE ONLY ONE EVENT BLOCK DEPENDING ON YOUR NEEDS!!!-->
+
+<!--REPLACE THE GOAT EVENT WITH THIS BLOCK IF YOUR USING VANILLA CODE AND KEEPING THE OTHER GOAT TYPES-->
+
+    <event name="AnimalGoat">
+        <nominal>8</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircusF"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_White"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_Spooky"/>
+        </children>
+    </event>
+
+<!--REPLACE THE GOAT EVENT WITH THIS BLOCK IF YOUR NOT USING THE VANILLA CODE AND NOT KEEPING THE OTHER GOAT TYPES-->
+<!--THIS USES THE SAME METHOD AS BHAALSHADS #WOLF-AND-BEARS-OH-MY TO ENSURE THEY SPAWN-->
+
+    <event name="AnimalGoat">
+        <nominal>200</nominal>
+        <min>200</min>
+        <max>200</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_Spooky"/>
+        </children>
+    </event>
+
+    <!--ADD THIS TYPE ENTRY TO EXISTING TYPES-->
+    
+    <type name="Animal_CapraHircus_Spooky">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
