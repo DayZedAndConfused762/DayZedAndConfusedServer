@@ -29,7 +29,6 @@
   - change "serverNightTimeAcceleration" to "2"
   - change "serverTimePersistent" to "1"
   - change "motd[]" to  "Welcome to DayZed And Confused", "This server is inder development", "Visit our Discord: https://discord.gg/UkHvV7j6kf"
-  - change "lightingConfig" to "1"
   - change "template" to "dayzed.chernarusplus"
   - add "vppDisablePassword = 1;"
 - Edit "cfggameplay.json":
