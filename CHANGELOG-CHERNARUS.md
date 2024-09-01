@@ -39,19 +39,26 @@
   - change "displayPlayerPosition" to "true"
 - Started work on sorted types file for Chernarus
 - Install Mods:
-  - @BaseBuildingPlus
-  - @CF
-  - @CodeLock
-  - @Ear-Plugs
-  - @PvZmoD_CustomisableZombies
-  - @SchanaModGlobalChat
-  - @VPPAdminTools
+  - @BaseBuildingPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1710977250
+  - @Burlap_Rifle_Wrap: https://steamcommunity.com/sharedfiles/filedetails/?id=3314346214
+  - @CannabisPlus: https://steamcommunity.com/workshop/filedetails/?id=1932611410
+  - @CF: https://steamcommunity.com/workshop/filedetails/?id=1559212036
+  - @Code Lock: https://steamcommunity.com/sharedfiles/filedetails/?id=1646187754
+  - @DrugsPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=2170927235
+  - @Ear-Plugs: https://steamcommunity.com/workshop/filedetails/?id=1819514788
+  - @MMG Base Storage: https://steamcommunity.com/workshop/filedetails/?id=3210162677
+  - @Modular Vest System - Reworked: https://steamcommunity.com/sharedfiles/filedetails/?id=2629595854
+  - @MuchFramework: https://steamcommunity.com/workshop/filedetails/?id=3171576913
+  - @MuchStuffPack: https://steamcommunity.com/sharedfiles/filedetails/?id=1991570984
+  - @PvZmoD_CustomisableZombies: https://steamcommunity.com/sharedfiles/filedetails/?id=2051775667
+  - @SchanaModGlobalChat: https://steamcommunity.com/workshop/filedetails/?id=2115602332
+  - @VPPAdminTools: https://steamcommunity.com/sharedfiles/filedetails/?id=1828439124
 - Configure Mods: 
   - @BaseBuildingPlus
     - change "BBP_FlagBuildAnywhere" to "1"
     - change "BBP_TentBuildAnywhere" to "1"
     - change "BBP_VanillaBuildAnywhere" to "1"
-    - channge "BBP_CanAttachFlashlights": to "1"
+    - change "BBP_CanAttachFlashlights": to "1"
     - change "BBP_CanAttachXmaslights" to "1"
   - @PvZmoD_CustomisableZombies
     - PvZmoD_CustomisableZombies_Characteristics.xml:
@@ -60,7 +67,15 @@
   - @VPPAdminTools
     - SuperAdmins.txt:
       - add DirtyHam steamid: "76561198059652382"
-
+- Add mod types.xml
+  - @BaseBuildingPlus
+  - @Burlap_Rilfe_Rap
+  - @CodeLock
+  - @CannabisPlus
+  - @DrugsPlus
+  - @MMG Base Storage
+  - @Modular Vest System - Reworked
+  - @MuchStuffPack
 
 <!-- ++++++++++++++++++++ 9/1/2024 End ++++++++++++++++++++ -->
 
