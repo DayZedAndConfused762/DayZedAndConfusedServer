@@ -19,8 +19,33 @@
 
 <!-- ++++++++++++++++++++ 9/2/2024 Start ++++++++++++++++++++ -->
 
+- Edit globals.xml:
+  - change "IdleModeStartup" value="0"
+  - change "ZombieMaxCount" value="1500"
 - Created types.xml file categorized by item type
-
+- Configure Mods: 
+  - @CannabisPlus
+    - change "activateCigaretteSmokingEffect" to "1"
+  - @CodeLock
+    - CodeLockPerms.json: 
+      - change "playerId" to "76561198059652382"
+      - change "CanOpenLocks" to "true"
+      - change "CanChangePasscodes" to "true"
+      - change "CanRemoveLocks" to "true
+  - @DrugsPlus
+    - change "allowcokeenergybuff" to "1"
+  - @MMG Base Storage
+    - change "DeleteLockAfterRaid" to "true"
+  - @PvZmoD_CustomisableZombies
+    - PvZmoD_CustomisableZombies_Characteristics.xml:
+      - Edited various infected stats
+    - PvZmoD_CustomisableZombies_Globals.xml:
+      - change "Zombies_Hit_Players_On_Obstacles_Activated"	"Day" to "0" "Night" to "0"
+      - change "Zombies_Size_Activated" "Day" to "1" "Night" to "1"
+      - change "Zombies_Hearing_Crouching_Players_Ratio" "Day" to "0.6"	"Night" to "0.6"
+      - change "Damages_To_Vehicles		Activated" to "0"
+      - change "Zombies_Throw_Stones_Activated"	"Day"	to "0" "Night to "0"
+        
 <!-- ++++++++++++++++++++ 9/2/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 9/1/2024 Start ++++++++++++++++++++ -->
@@ -67,7 +92,6 @@
     - change "BBP_CanAttachFlashlights": to "1"
     - change "BBP_CanAttachXmaslights" to "1"
   - @PvZmoD_CustomisableZombies
-    - PvZmoD_CustomisableZombies_Characteristics.xml:
     - PvZmoD_Information_Panel.xml
       - change "Custom_Server_Link" "Value" to "https://discord.gg/UkHvV7j6kf"
   - @VPPAdminTools
