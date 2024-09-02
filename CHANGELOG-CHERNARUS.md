@@ -19,6 +19,8 @@
 
 <!-- ++++++++++++++++++++ 9/2/2024 Start ++++++++++++++++++++ -->
 
+- Tweaks to cfgspawnabletypes.xml
+- Tweaks to cfgrandompresets.xml
 - Edit globals.xml:
   - change "IdleModeStartup" value="0"
   - change "ZombieMaxCount" value="1500"
