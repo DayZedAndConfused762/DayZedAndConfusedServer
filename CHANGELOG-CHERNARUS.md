@@ -19,6 +19,8 @@
 
 <!-- ++++++++++++++++++++ 9/2/2024 Start ++++++++++++++++++++ -->
 
+## 9/2/2024
+
 - Tweaks to cfgspawnabletypes.xml
 - Tweaks to cfgrandompresets.xml
 - Edit globals.xml:
@@ -67,7 +69,7 @@
   - change "sprintStaminaModifierErc" to "0.5"
   - change "sprintStaminaModifierCro" to "0.5"
   - change "staminaWeightLimitThreshold" to "12000.0"
-  - change "staminaKgToStaminaPercentPenalty" to "1.00"
+  - change "staminaKgToStaminaPercentPenalty" to "0.50"
   - change "ignoreMapOwnership" to "true"
   - change "displayPlayerPosition" to "true"
 - Started work on sorted types file for Chernarus
