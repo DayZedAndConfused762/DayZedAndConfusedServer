@@ -27,7 +27,7 @@
 - Adjust @CodeLock types spawn quantities
 - Adjust @DrugsPlus types spawn quantities
 - Adjust @MMG Raid Tools spawn quantities
-- Adjust @MMG Storage spawn quantities   ---   left off at Msp_BunnyEarsHeadband
+- Adjust @MMG Storage spawn quantities     ---  need to see what this is Msp_PolarBear
 
 <!-- ++++++++++++++++++++ 9/3/2024 End ++++++++++++++++++++ -->
 
