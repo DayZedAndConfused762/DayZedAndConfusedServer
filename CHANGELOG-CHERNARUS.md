@@ -12,10 +12,24 @@
 
 ## Contents:
 
+- [9/3/2024](#9/3/2024)
 - [9/2/2024](#9/2/2024)
 - [9/1/2024](#9/1/2024)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
+
+<!-- ++++++++++++++++++++ 9/2/2024 Start ++++++++++++++++++++ -->
+
+## 9/3/2024
+
+- Adjust @Burlap_Rifle_Wrap types spawn quantities
+- Adjust @CannabisPlus types spawn quantities
+- Adjust @CodeLock types spawn quantities
+- Adjust @DrugsPlus types spawn quantities
+- Adjust @MMG Raid Tools spawn quantities
+- Adjust @MMG Storage spawn quantities   ---   left off at mmg_locker02_blue_kit
+
+<!-- ++++++++++++++++++++ 9/3/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 9/2/2024 Start ++++++++++++++++++++ -->
 
