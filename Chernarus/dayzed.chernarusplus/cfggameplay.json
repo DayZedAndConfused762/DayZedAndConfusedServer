@@ -12,9 +12,9 @@
 		"disablePersonalLight": false,
 		"StaminaData":
 		{
-			"sprintStaminaModifierErc": 1.0,
-			"sprintStaminaModifierCro": 1.0,
-			"staminaWeightLimitThreshold": 6000.0,
+			"sprintStaminaModifierErc": 0.5,
+			"sprintStaminaModifierCro": 0.5,
+			"staminaWeightLimitThreshold": 12000.0,
 			"staminaMax": 100.0,
 			"staminaKgToStaminaPercentPenalty": 0.5,
 			"staminaMinCap": 5.0,
@@ -94,9 +94,9 @@
 	},
 	"MapData":
 	{
-		"ignoreMapOwnership": false,
+		"ignoreMapOwnership": true,
 		"ignoreNavItemsOwnership": false,
-		"displayPlayerPosition": false,
+		"displayPlayerPosition": true,
 		"displayNavInfo": true
 	}
 }
