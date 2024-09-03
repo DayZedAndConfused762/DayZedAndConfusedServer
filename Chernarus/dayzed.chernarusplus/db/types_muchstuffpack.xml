@@ -1665,10 +1665,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Slouchie_Beige">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1678,10 +1678,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Slouchie_Black">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1691,10 +1691,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Slouchie_Blue">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1704,10 +1704,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Slouchie_Red">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1717,25 +1717,22 @@
         <usage name="Village" />
     </type>
     <type name="Msp_DuffleBag_Green">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
-        <usage name="Town" />
-        <usage name="Village" />
-        <value name="Tier3" />
-        <value name="Tier4" />
+        <usage name="Military"/>
     </type>
     <type name="Msp_DuffleBag_Black">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1747,25 +1744,22 @@
         <value name="Tier4" />
     </type>
     <type name="Msp_DuffleBag_Blue">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
-        <usage name="Town" />
-        <usage name="Village" />
-        <value name="Tier3" />
-        <value name="Tier4" />
+        <usage name="Police" />
     </type>
     <type name="Msp_DuffleBag_Red">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1777,7 +1771,7 @@
         <value name="Tier4" />
     </type>
     <type name="Msp_WaistPack_Tan">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1791,7 +1785,7 @@
         <value name="Tier4" />
     </type>
     <type name="Msp_WaistPack_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1805,7 +1799,7 @@
         <value name="Tier4" />
     </type>
     <type name="Msp_WaistPack_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1819,7 +1813,7 @@
         <value name="Tier4" />
     </type>
     <type name="Msp_WaistPack_Brown">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1833,7 +1827,7 @@
         <value name="Tier4" />
     </type>
     <type name="Msp_WaistPack_UrbanFlektarn">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1847,7 +1841,7 @@
         <value name="Tier4" />
     </type>
     <type name="Msp_WaistPack_Blue">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1856,15 +1850,15 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Military" />
+        <usage name="Police" />
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
     <type name="Msp_BaseballCap_Beige">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1875,10 +1869,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_Black">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1889,10 +1883,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_Blue">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1903,10 +1897,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_Camo">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1917,10 +1911,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_Olive">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1931,10 +1925,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_Pink">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1945,10 +1939,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_Red">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1959,10 +1953,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_CMMG_Pink">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1973,10 +1967,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_BaseballCap_CMMG_Black">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1987,7 +1981,7 @@
         <usage name="Village" />
     </type>
     <type name="Msp_SportsBag_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1997,12 +1991,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Town" />
+        <usage namne="School" />
         <usage name="Village" />
         <value name="Tier1" />
         <value name="Tier2" />
     </type>
     <type name="Msp_SportsBag_Blue">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2012,12 +2007,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Town" />
+        <usage namne="School" />
         <usage name="Village" />
         <value name="Tier1" />
         <value name="Tier2" />
     </type>
     <type name="Msp_SportsBag_Gray">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2027,12 +2023,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Town" />
+        <usage namne="School" />
         <usage name="Village" />
         <value name="Tier1" />
         <value name="Tier2" />
     </type>
     <type name="Msp_SportsBag_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2042,12 +2039,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Town" />
+        <usage namne="School" />
         <usage name="Village" />
         <value name="Tier1" />
         <value name="Tier2" />
     </type>
     <type name="Msp_SportsBag_Red">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2057,12 +2055,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Town" />
+        <usage namne="School" />
         <usage name="Village" />
         <value name="Tier1" />
         <value name="Tier2" />
     </type>
     <type name="Msp_SlingBackpack_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2077,7 +2076,7 @@
         <value name="Tier2" />
     </type>
     <type name="Msp_SlingBackpack_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2092,7 +2091,7 @@
         <value name="Tier2" />
     </type>
     <type name="Msp_SlingBackpack_Gray">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2107,7 +2106,7 @@
         <value name="Tier2" />
     </type>
     <type name="Msp_SlingBackpack_Tan">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2141,7 +2140,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="Msp_Shelf_Kit">
-        <nominal>1</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -2168,9 +2167,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
-        <usage name="Hunting" />
+        <usage name="Historical"/>
     </type>
     <type name="Msp_MedievalGibbet">
         <lifetime>3888000</lifetime>
@@ -2186,9 +2183,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
-        <usage name="Hunting" />
+        <usage name="Historical"/>
     </type>
     <type name="Msp_MedievalGibbetWithMount">
         <lifetime>3888000</lifetime>
@@ -2204,8 +2199,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Blue">
         <nominal>1</nominal>
@@ -2217,8 +2213,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_LimeGreen">
         <nominal>1</nominal>
@@ -2230,8 +2227,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Orange">
         <nominal>1</nominal>
@@ -2243,8 +2241,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Purple">
         <nominal>1</nominal>
@@ -2256,8 +2255,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Red">
         <nominal>1</nominal>
@@ -2269,8 +2269,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Msp_Mattress_Blue">
         <nominal>1</nominal>
@@ -2282,8 +2283,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Msp_Mattress_Green">
         <nominal>1</nominal>
@@ -2295,8 +2296,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Msp_Mattress_Pink">
         <nominal>1</nominal>
@@ -2308,8 +2309,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Msp_Mattress_Yellow">
         <nominal>1</nominal>
@@ -2321,15 +2322,15 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
-        <usage name="Coast" />
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Msp_WoodenChair">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_WoodenTable_Kit">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -2339,6 +2340,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="floor" />
+        <usage name="Town"/>
+        <usage name="Village"/>
         <usage name="Industrial" />
         <usage name="Farm" />
     </type>
@@ -2351,7 +2354,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_RoomDivider_Kit">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -2361,8 +2364,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="floor" />
-        <usage name="Industrial" />
-        <usage name="Farm" />
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="Msp_RoomDivider">
         <lifetime>3888000</lifetime>
@@ -2389,7 +2392,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Lamp_Standing_Wood_Kit">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -2407,7 +2410,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Lamp_Ceiling_Mosaic_Kit">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -2426,10 +2429,10 @@
     </type>
 
     <type name="Msp_PolarBear">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2493,10 +2496,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Egg_Blue">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2506,10 +2509,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Egg_Pink">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2519,10 +2522,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Egg_Red">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2532,10 +2535,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Egg_Green">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2545,10 +2548,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Egg_Purple">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2558,10 +2561,10 @@
         <usage name="Village" />
     </type>
     <type name="Msp_Egg_Yellow">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2571,7 +2574,7 @@
         <usage name="Village" />
     </type>
     <type name="Msp_CoffinBox">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2584,7 +2587,7 @@
         <usage name="Lunapark" />
     </type>
     <type name="Msp_WitchHat">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2596,7 +2599,7 @@
         <usage name="Lunapark" />
     </type>
     <type name="MSP_WitchCauldron">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2617,7 +2620,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
         <usage name="Coast" />
     </type>
     <type name="Msp_BeachChair">
@@ -2634,7 +2636,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
         <usage name="Coast" />
     </type>
     <type name="Msp_BeachUmbrella">
@@ -2647,14 +2648,13 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
         <usage name="Coast" />
     </type>
     <type name="Msp_Floatie_Wheel">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2664,10 +2664,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_Floatie_Unicorn">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2677,10 +2677,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_Floatie_Unicorn_Rainbow">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2690,10 +2690,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_Floatie_Unicorn_BlueRainbow">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2703,10 +2703,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_Floatie_Unicorn_GreenRainbow">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2716,10 +2716,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_Floatie_Unicorn_PurpleRainbow">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2729,10 +2729,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_Floatie_Flamingo">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2742,10 +2742,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_Volleyball">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>5600</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2755,10 +2755,10 @@
         <usage name="Coast" />
     </type>
     <type name="Msp_KiddiePool_Kit">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2772,10 +2772,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_KiddiePool_Pink_Kit">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2789,10 +2789,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_KiddiePool_Yellow_Kit">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2815,7 +2815,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Industrial" />
         <usage name="Coast" />
     </type>
     <type name="Msp_VolleyballNet">
@@ -2823,7 +2822,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Water_Gun">
-        <nominal>10</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -2853,10 +2852,10 @@
         <usage name="Coast" />
     </type>
 	<type name="Msp_FlipFlops_Black">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>5</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2866,10 +2865,10 @@
 		<usage name="Coast" />
 	</type> 
 	<type name="Msp_FlipFlops_White">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>5</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2879,10 +2878,10 @@
 		<usage name="Coast" />
 	</type>
 	<type name="Msp_FlipFlops_Blue">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>5</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2892,10 +2891,10 @@
 		<usage name="Coast" />
 	</type>
 	<type name="Msp_FlipFlops_Red">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>5</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2905,10 +2904,10 @@
 		<usage name="Coast" />
 	</type>
 	<type name="Msp_FlipFlops_Pink">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>5</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2918,10 +2917,10 @@
 		<usage name="Coast" />
 	</type>
 	<type name="Msp_FlipFlops_Purple">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>5</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2931,10 +2930,10 @@
 		<usage name="Coast" />
 	</type>
 	<type name="Msp_FlipFlops_Yellow">
-		<nominal>10</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>5</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
