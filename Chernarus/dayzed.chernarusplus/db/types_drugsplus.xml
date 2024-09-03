@@ -6,10 +6,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="DP_CocaLeaves">
-        <nominal>30</nominal>
+        <nominal>10</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -32,10 +32,10 @@
         <category name="food"/>
     </type>
     <type name="DP_CocaSeedsPack">
-        <nominal>20</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -45,7 +45,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="DP_CocaBag">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -54,17 +54,24 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="food"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+        <usage name="School"/>
     </type>
     <type name="DP_CocaBrick">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+        <category name="tools"/>
+        <usage name="Police"/>
     </type>
 
     <!-- Mar 04, 2021 -->
@@ -79,6 +86,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="food"/>
     </type>
+<!--
     <type name="DisinfectantAlcohol">
         <nominal>25</nominal>
         <lifetime>7200</lifetime>
@@ -92,4 +100,5 @@
         <tag name="shelves"/>
         <value name="Tier4"/>
     </type>
+-->
 </types>

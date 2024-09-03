@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>    
 	<type name="mmg_raidsaw">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -13,10 +13,10 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-		<usage name="Military"/>
+		    <usage name="Military"/>
     </type>
 	<type name="mmg_raid_driver">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -28,6 +28,6 @@
         <tag name="floor"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-		<usage name="Military"/>
+		    <usage name="Military"/>
     </type>
 </types>

@@ -8,10 +8,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_CannabisSkunk">
-        <nominal>45</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>30</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -34,10 +34,10 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackSkunk">
-        <nominal>30</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>20</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -69,41 +69,62 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisSkunk">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointSkunk">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
  	<type name="CP_Plant_CannabisBlue">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 	<type name="CP_CannabisBlue">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -126,10 +147,10 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackBlue">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -161,41 +182,62 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisBlue">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointBlue">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
  	<type name="CP_Plant_CannabisKush">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 	<type name="CP_CannabisKush">
-        <nominal>9</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -218,10 +260,10 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackKush">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -253,41 +295,62 @@
         <category name="food"/>
     </type>
     <type name="CP_CigarettePack_CannabisKush">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointKush">
-        <nominal>9</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>7</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
  	<type name="CP_Plant_CannabisStardawg">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_CannabisStardawg">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -310,7 +373,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackStardawg">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -353,33 +416,54 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointStardawg">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
  	<type name="CP_Plant_Tobacco">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_Tobacco">
-        <nominal>50</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>35</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -402,10 +486,10 @@
         <category name="food"/>
     </type>
  	<type name="CP_TobaccoSeedsPack">
-        <nominal>33</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>25</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -415,64 +499,100 @@
         <usage name="Hunting"/>
     </type>
     <type name="CP_CigarettePack_Empty">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>25</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-        <usage name="Town"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CigarettePack_Chernamorka">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-        <usage name="Town"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CigarettePack_Merkur">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-        <usage name="Town"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CigarettePack_Partyzanka">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-        <usage name="Town"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_Cigarette">
         <nominal>10</nominal>
@@ -483,25 +603,44 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_RollingPapers">
-        <nominal>45</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>35</min>
+        <min>10</min>
         <quantmin>1</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-        <usage name="Town"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
 
 <!-- V2.1 - 13 Oct 2020 -->
@@ -510,10 +649,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_CannabisFuture">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -536,7 +675,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackFuture">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -579,33 +718,54 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointFuture">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
  	<type name="CP_Plant_CannabisS1">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_CannabisS1">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -628,7 +788,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackS1">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -671,33 +831,54 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointS1">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
      	<type name="CP_Plant_CannabisNomad">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_CannabisNomad">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -720,7 +901,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackNomad">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -763,33 +944,54 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointNomad">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
   	<type name="CP_Plant_CannabisBlackFrost">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
     <type name="CP_CannabisBlackFrost">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -812,7 +1014,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisSeedsPackBlackFrost">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -855,37 +1057,59 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+    	<category name="food"/>
+    	<category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier4"/>
+        <tag name="ground"/>
+    	<usage name="Medic"/>
+    	<usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_JointBlackFrost">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
+	    <category name="food"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <tag name="ground"/>
+	    <usage name="Medic"/>
+	    <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Lunapark"/>
     </type>
 
 <!-- V2.5 - 23 Nov 2020 -->
     <type name="CP_Relief_Balm">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
         <tag name="shelves"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -895,33 +1119,40 @@
         <nominal>10</nominal>
         <lifetime>3600</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
         <usage name="Office"/>
         <usage name="School"/>
-        <usage name="Prison"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
     </type>
     <type name="CP_DryPost_Kit">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="CP_DryPost">
         <lifetime>3888000</lifetime>
@@ -964,65 +1195,68 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>    
     <type name="CP_Workbench_Kit">
-        <nominal>40</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>20</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="CP_Workbench">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="CP_Bagger">
-        <nominal>20</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
+        <tag name="ground"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <usage name="School"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="CP_PlasticWrapper">
-        <nominal>20</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+	    <category name="tools"/>
+        <tag name="floor"/>
         <tag name="shelves"/>
+        <tag name="ground"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <usage name="School"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>    
     <type name="CP_EmptyBag">
-        <nominal>60</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>45</min>
+        <min>10</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1034,10 +1268,10 @@
         <usage name="School"/>
     </type>
     <type name="CP_PlasticRoll">
-        <nominal>40</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>30</min>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1045,5 +1279,9 @@
         <category name="tools"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="School"/>
     </type>
 </types>
