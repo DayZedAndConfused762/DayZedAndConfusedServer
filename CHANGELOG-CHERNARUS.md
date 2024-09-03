@@ -27,7 +27,7 @@
 - Adjust @CodeLock types spawn quantities
 - Adjust @DrugsPlus types spawn quantities
 - Adjust @MMG Raid Tools spawn quantities
-- Adjust @MMG Storage spawn quantities   ---   left off at mmg_locker02_blue_kit
+- Adjust @MMG Storage spawn quantities   ---   left off at Msp_BunnyEarsHeadband
 
 <!-- ++++++++++++++++++++ 9/3/2024 End ++++++++++++++++++++ -->
 
