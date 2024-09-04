@@ -1,391 +1,165 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-
 <spawnabletypes>
-	<type name="Barrel_Blue">
-		<hoarder />
-	</type>
-	<type name="Barrel_Green">
-		<hoarder />
-	</type>
-	<type name="Barrel_Red">
-		<hoarder />
-	</type>
-	<type name="Barrel_Yellow">
-		<hoarder />
-	</type>
-	<type name="CarTent">
-		<hoarder />
-	</type>
-	<type name="LargeTent">
-		<hoarder />
-	</type>
-	<type name="MediumTent">
-		<hoarder />
-	</type>
-	<type name="MediumTent_Green">
-		<hoarder />
-	</type>
-	<type name="MediumTent_Orange">
-		<hoarder />
-	</type>
-	<type name="PartyTent">
-		<hoarder />
-	</type>
-	<type name="PartyTent_Blue">
-		<hoarder />
-	</type>
-	<type name="PartyTent_Brown">
-		<hoarder />
-	</type>
-	<type name="PartyTent_Lunapark">
-		<hoarder />
-	</type>
-	<type name="SeaChest">
-		<hoarder />
-	</type>
-	<type name="SmallProtectorCase">
-		<hoarder />
-	</type>
-	<type name="UndergroundStash">
-		<hoarder />
-	</type>
-	<type name="WoodenCrate">
-		<hoarder />
-	</type>
-	<type name="GiftWrapPaper">
-		<damage min="0.0" max="0.32" />
-	</type>
-	<type name="NVGoggles">
-		<damage min="0.0" max="0.32" />
-	</type>
-	
-	<type name="KazuarOptic">
-		<damage min="0.0" max="0.32" />
-	</type>
-	
-	<type name="StarlightOptic">
-		<damage min="0.0" max="0.32" />
-	</type>
-	
-	<type name="AugOptic">
-		<damage min="0.0" max="0.0" />
-	</type>
-	
-	<type name="SSG82Optic">
-		<damage min="0.0" max="0.0" />
-	</type>
-	
-	<type name="BandageDressing">
-		<damage min="0.0" max="0.0" />
-	</type>
-	<type name="PlateCarrierVest">
-	</type>
-	<type name="ChristmasHeadband_Antlers">
-		<damage min="0.0" max="0.0" />
-	</type>
-	<type name="ChristmasHeadband_Trees">
-		<damage min="0.0" max="0.0" />
-	</type>
-	<type name="ChristmasHeadband_Gingerbread">
-		<damage min="0.0" max="0.0" />
-	</type>
-	<type name="PlateCarrierVest_Camo">
-		<damage min="0.1" max="0.6" />
-		<attachments chance="0.85">
-			<item name="PlateCarrierHolster_Camo" chance="1.00" />
-		</attachments>
-		<attachments chance="0.85">
-			<item name="PlateCarrierPouches_Camo" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="SparkPlug">
-	</type>
-	<type name="Glowplug">
-	</type>
-	<type name="CarRadiator">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="CarBattery">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="TruckBattery">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="Stone">
-		<damage min="0.1" max="0.1" />
-	</type>
-	<type name="SmallStone">
-		<damage min="0.0" max="0.0" />
-	</type>
+
+<!-- ================================================================================================================== -->
+<!--                               Chernarus cfgspawnabletypes.xml organized by item type.                              -->
+<!--                          Sorted by DayZedAndConfsued762, DayZed and Confused DayZ Servers.                         -->
+<!--                                            https://discord.gg/UkHvV7j6kf                                           -->
+<!-- ================================================================================================================== -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- Categories: -->
+<!-- -->
+<!-- AMMUNITION -->
+<!--  AMMUNITION_OPTICS  AMMUNITION_SUPPRESSORS  -->
+<!-- -->
+<!-- ATTACHMENTS -->
+<!-- -->
+<!-- CLOTHING -->
+<!--  CLOTHING_HEAD  CLOTHING_NBC  CLOTHING_PANTS  CLOTHING_TOPS  CLOTHING_VESTS  -->
+<!-- -->
+<!-- CONTAINERS -->
+<!--  CONTAINERS_CARRIED  CONTAINERS_PLACED  CONTAINERS_WORN  -->
+<!-- -->
+<!-- FIREARMS: -->
+<!--  FIREARMS_ASSAULT  FIREARMS_PISTOLS  FIREARM_RIFLES  FIREARMS_SHOTGUNS  FIREARMS_SMG  -->
+<!-- -->
+<!-- FUTURE: -->
+<!-- -->
+<!-- INFECTED: -->
+<!--  INFECTED_ARMY  INFECTED_CITY  INFECTED_FIREFIGHTER  INFECTED_INDUSTRIAL  INFECTED_MEDICAL  -->
+<!--  INFECTED_NBC  INFECTED_POLICE  INFECTED_PRISONER  INFECTED_RELIGIOUS  INFECTED_SOLITUDE  -->
+<!--  INFECTED_VILLAGE  INFECTED_SPECIAL  -->
+<!-- -->
+<!-- MEDICALS -->
+<!-- -->
+<!-- NUTRITION: -->
+<!--  NUTRITION_DRINKS -->
+<!-- -->
+<!-- SEASONAL -->
+<!-- -->
+<!-- TOOLS: -->
+<!--  TOOLS_COMMUNIATION  TOOLS_MATERIALS  TOOLS_NAVIGATION  -->
+<!-- -->
+<!-- VEHICLES: -->
+<!--  VEHICLES_ADA4X4_BASE  VEHICLES_ADA4X4_PARTS  VEHICLES_GUNTER2_BASE  VEHICLES_GUNTER2_PARTS  VEHICLES_M1025_BASE  VEHICLES_M1025_PARTS  
+VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PARTS  -->
+<!--  VEHICLES_PARTS  VEHICLES_SARKA120_BASE  VEHICLES_SARKA120_PARTS    -->
+<!-- -->
+<!-- -->
+
+<!-- ++++++++++ AMMUNITION START ++++++++++ -->
+
 	<type name="Ammo_40mm_Explosive">
 		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="Ammo_40mm_POX">
 		<damage min="0.0" max="0.35" />
 	</type>
-	<type name="AssaultBag_Ttsko">
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+
+<!-- ++++++++++ AMMUNITION END ++++++++++ -->
+
+<!-- ++++++++++ ATTACHMENTS START ++++++++++ -->
+
+<!-- ATTACHMENTS_OPTICS START -->
+
+	<type name="AugOptic">
+		<damage min="0.0" max="0.0" />
 	</type>
-	<type name="AssaultBag_Black">
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+	<type name="KazuarOptic">
+		<damage min="0.0" max="0.32" />
 	</type>
-	<type name="AssaultBag_Green">
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
+	<type name="SSG82Optic">
+		<damage min="0.0" max="0.0" />
 	</type>
-	<type name="DryBag_Orange">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+	<type name="StarlightOptic">
+		<damage min="0.0" max="0.32" />
 	</type>
-	<type name="DryBag_Yellow">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+
+<!-- ATTACHMENTS_OPTICS END -->
+
+<!-- ATTACHMENTS_OPTICS START -->
+
+	<type name="M4_Suppressor">
+		<damage min="0.0" max="0.32" />
 	</type>
-	<type name="DryBag_Blue">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+	<type name="PistolSuppressor">
+		<damage min="0.40" max="0.75" />
 	</type>
-	<type name="DryBag_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+	<type name="AK_Suppressor">
+		<damage min="0.0" max="0.32" />
 	</type>
-	<type name="DryBag_Black">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+
+<!-- ATTACHMENTS_OPTICS END -->
+
+<!-- ++++++++++ ATTACHMENTS END ++++++++++ -->
+
+<!-- ++++++++++ CLOTHING START ++++++++++ -->
+
+<!-- CLOTHING_HEAD START -->
+
+	<type name="DirtBikeHelmet_Black">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
 	</type>
-	<type name="DryBag_Red">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+	<type name="DirtBikeHelmet_Red">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
 	</type>
-	<type name="HuntingBag">
-		<cargo preset="foodVillage" />
-		<cargo preset="toolsIndustrial" />
-		<cargo preset="mixHunter" />
+	<type name="DirtBikeHelmet_Police">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
 	</type>
-	<type name="MountainBag_Red">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
+	<type name="DirtBikeHelmet_Khaki">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
 	</type>
-	<type name="MountainBag_Blue">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
+	<type name="DirtBikeHelmet_Green">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
 	</type>
-	<type name="MountainBag_Orange">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
+	<type name="DirtBikeHelmet_Chernarus">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
 	</type>
-	<type name="MountainBag_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
+	<type name="DirtBikeHelmet_Blue">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
 	</type>
-	<type name="SmershBag">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="ChildBag_Green">
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="ChildBag_Red">
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="ChildBag_Blue">
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="TaloonBag_Blue">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="TaloonBag_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="TaloonBag_Orange">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="TaloonBag_Violet">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="TortillaBag">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="ArmyPouch_Beige">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="ArmyPouch_Black">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="ArmyPouch_Camo">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="ArmyPouch_Green">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="CanvasBag_Olive">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="CanvasBag_Medical">
-		<cargo chance="0.6">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.2">
-			<item name="IodineTincture" />
-		</cargo>
-		<cargo chance="0.2">
-			<item name="TetracyclineAntibiotics" />
-		</cargo>
-		<cargo chance="0.2">
-			<item name="VitaminBottle" />
-		</cargo>
-	</type>
-	<type name="Slingbag_Black">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="SlingBag_Gray">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="SlingBag_Brown">
-		<cargo preset="foodVillage" />
-		<cargo preset="mixVillage" />
-	</type>
-	<type name="HipPack_Black">
-		<cargo chance="0.6">
-			<item name="Zagorky" />
-		</cargo>
-		<cargo chance="0.4">
-			<item name="ChernarusMap" />
-		</cargo>
-	</type>
-	<type name="HipPack_Green">
-		<cargo chance="0.6">
-			<item name="Zagorky" />
-		</cargo>
-		<cargo chance="0.4">
-			<item name="ChernarusMap" />
-		</cargo>
-	</type>
-	<type name="HipPack_Medical">
-		<cargo chance="0.6">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.6">
-			<item name="VitaminBottle" />
-		</cargo>
-	</type>
-	<type name="HipPack_Party">
-		<cargo chance="0.02">
-			<item name="Derringer_Pink" />
-		</cargo>
-	</type>
-	<type name="DuffelBagSmall_Camo">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="DuffelBagSmall_Medical">
-		<cargo chance="0.8">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.15">
-			<item name="TetracyclineAntibiotics" />
-		</cargo>
-		<cargo chance="0.01">
-			<item name="AntiChemInjector" />
-		</cargo>
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="DuffelBagSmall_Green">
-		<cargo preset="foodArmy" />
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="FirstAidKit">
-		<tag name="shelves" />
-		<cargo chance="1">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="Thermometer" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="StartKitIV" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodBagEmpty" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodTestKit" />
-		</cargo>
-	</type>
-	<type name="AmmoBox">
-		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
-		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
-		<cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>			
-		<cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>	
-		<cargo chance="0.25"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>			
-		<cargo chance="0.25"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>			
-		<cargo chance="0.15"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>			
-		<cargo chance="0.15"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>	
-		<cargo chance="0.25"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>			
-		<cargo chance="0.25"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>				
-		<cargo chance="0.15"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>			
-		<cargo chance="0.15"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>	
-		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
-		<cargo chance="0.25"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>			
-		<cargo chance="0.25"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>		
-		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
-		<cargo chance="0.25"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>			
-		<cargo chance="0.25"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>		
-		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
-		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>		
-		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>			
-		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
-		<cargo chance="0.01"> <item name="Ammo_40mm_ChemGas" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Black" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Red" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_White" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Green" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
-		
-	</type>
-	
+
+<!-- CLOTHING_HEAD END -->
+
+<!-- CLOTHING_NBC START -->
+
 	<type name="AirborneMask">
 		<damage min="0.0" max="0.35" />
 		<cargo chance="0.2">
@@ -401,30 +175,41 @@
 	<type name="GasMask">
 		<damage min="0.0" max="0.35" />
 	</type>
-	<type name="Bear_Beige">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+	<type name="NBCBootsGray">
+		<damage min="0.0" max="0.35" />
 	</type>
-	<type name="Bear_Dark">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+	<type name="NBCBootsYellow">
+		<damage min="0.0" max="0.35" />
 	</type>
-	<type name="Bear_Pink">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+	<type name="NBCGlovesGray">
+		<damage min="0.0" max="0.35" />
 	</type>
-	<type name="Bear_White">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
-		</cargo>
+	<type name="NBCGlovesYellow">
+		<damage min="0.0" max="0.35" />
 	</type>
+	<type name="NBCHoodGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCHoodYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCJacketGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCJacketYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCPantsGray">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="NBCPantsYellow">
+		<damage min="0.0" max="0.35" />
+	</type>
+
+<!-- CLOTHING_NBC END -->
+
+<!-- CLOTHING_PANTS START -->
+
 	<type name="ShortJeans_Black">
 		<cargo preset="foodVillage" />
 	</type>
@@ -465,21 +250,6 @@
 	</type>
 	<type name="TTSKOPants">
 		<cargo preset="mixArmy" />
-	</type>
-	<type name="HuntingJacket_Autumn">
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="HuntingJacket_Brown">
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="HuntingJacket_Spring">
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="HuntingJacket_Summer">
-		<cargo preset="mixHunter" />
-	</type>
-	<type name="HuntingJacket_Winter">
-		<cargo preset="mixHunter" />
 	</type>
 	<type name="HunterPants_Autumn">
 		<cargo preset="mixHunter" />
@@ -552,15 +322,6 @@
 	</type>
 	<type name="GorkaPants_PautRev">
 		<cargo preset="mixArmy" />
-	</type>
-	<type name="ParamedicJacket_Blue">
-		<cargo preset="toolsMedic" />
-	</type>
-	<type name="ParamedicJacket_Crimson">
-		<cargo preset="toolsMedic" />
-	</type>
-	<type name="ParamedicJacket_Green">
-		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ParamedicPants_Blue">
 		<cargo preset="toolsMedic" />
@@ -642,6 +403,54 @@
 	</type>
 	<type name="BDUPants">
 		<cargo preset="mixArmy" />
+	</type>
+	<type name="FirefightersPants_Beige">
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="FirefightersPants_Black">
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PolicePants">
+		<cargo preset="ammoPolice" />
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PolicePantsOrel">
+		<cargo preset="ammoPolice" />
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PrisonUniformPants">
+		<cargo chance="0.10">
+			<item name="Rope" chance="0.14" />
+		</cargo>
+	</type>
+
+<!-- CLOTHING_PANTS END -->
+
+<!-- CLOTHING_TOPS START -->
+
+	<type name="HuntingJacket_Autumn">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Brown">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Spring">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Summer">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Winter">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="ParamedicJacket_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="ParamedicJacket_Crimson">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="ParamedicJacket_Green">
+		<cargo preset="toolsMedic" />
 	</type>
 	<type name="ManSuit_Black">
 		<cargo chance="0.02">
@@ -906,17 +715,7 @@
 	<type name="FirefighterJacket_Black">
 		<cargo preset="toolsPolice" />
 	</type>
-	<type name="FirefightersPants_Beige">
-		<cargo preset="toolsPolice" />
-	</type>
-	<type name="FirefightersPants_Black">
-		<cargo preset="toolsPolice" />
-	</type>
 	<type name="PoliceJacket">
-		<cargo preset="ammoPolice" />
-		<cargo preset="toolsPolice" />
-	</type>
-	<type name="PolicePants">
 		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
@@ -924,16 +723,7 @@
 		<cargo preset="ammoPolice" />
 		<cargo preset="toolsPolice" />
 	</type>
-	<type name="PolicePantsOrel">
-		<cargo preset="ammoPolice" />
-		<cargo preset="toolsPolice" />
-	</type>
 	<type name="PrisonUniformJacket">
-		<cargo chance="0.10">
-			<item name="Rope" chance="0.14" />
-		</cargo>
-	</type>
-	<type name="PrisonUniformPants">
 		<cargo chance="0.10">
 			<item name="Rope" chance="0.14" />
 		</cargo>
@@ -1081,77 +871,1113 @@
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 	</type>
-	<type name="DirtBikeHelmet_Black">
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+
+<!-- CLOTHING_TOPS END -->
+
+<!-- CLOTHING_VESTS START -->
+
+	<type name="PlateCarrierVest">
+	</type>
+
+	<type name="PlateCarrierVest_Camo">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.85">
+			<item name="PlateCarrierHolster_Camo" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		<attachments chance="0.85">
+			<item name="PlateCarrierPouches_Camo" chance="1.00" />
 		</attachments>
 	</type>
-	<type name="DirtBikeHelmet_Red">
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Visor" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="DirtBikeHelmet_Police">
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Visor" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="DirtBikeHelmet_Khaki">
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Visor" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="DirtBikeHelmet_Green">
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Visor" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="DirtBikeHelmet_Chernarus">
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Visor" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="DirtBikeHelmet_Blue">
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="DirtBikeHelmet_Visor" chance="1.00" />
-		</attachments>
-	</type>
-	<!--START OF ZOMBIES  -->
-	<!--NBC-->
-	<type name="ZmbM_NBC_Grey">
-		<cargo preset="ContaminatedCargo" />
-		<cargo chance="0.03">
-			<item name="AntiChemInjector" chance="1.0" />
+
+<!-- CLOTHING_VESTS START -->
+
+<!-- ++++++++++ CLOTHING END ++++++++++ -->
+
+<!-- ++++++++++ CONTAINERS START ++++++++++ -->
+
+<!-- CONTAINERS_CARRIED START -->
+
+	<type name="Bear_Beige">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
 		</cargo>
 	</type>
-	<type name="ZmbM_NBC_Yellow">
-		<cargo preset="ContaminatedCargo" />
+	<type name="Bear_Dark">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Bear_Pink">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Bear_White">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="FirstAidKit">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
+
+<!-- CONTAINERS_CARRIED END -->
+
+<!-- CONTAINERS_PLACED START -->
+
+	<type name="AmmoBox">
+		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
+		<cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>			
+		<cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>			
+		<cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>	
+		<cargo chance="0.25"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>			
+		<cargo chance="0.25"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>			
+		<cargo chance="0.15"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>			
+		<cargo chance="0.15"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>	
+		<cargo chance="0.25"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>			
+		<cargo chance="0.25"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>				
+		<cargo chance="0.15"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>			
+		<cargo chance="0.15"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>	
+		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>			
+		<cargo chance="0.25"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>			
+		<cargo chance="0.25"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>		
+		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>			
+		<cargo chance="0.25"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>			
+		<cargo chance="0.25"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>		
+		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>			
+		<cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>		
+		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>			
+		<cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
+		<cargo chance="0.01"> <item name="Ammo_40mm_ChemGas" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Black" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Red" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_White" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Smoke_Green" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="1.0"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.50"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.20"> <item name="Ammo_40mm_Explosive" /> </cargo>
+		<cargo chance="0.10"> <item name="Ammo_40mm_Explosive" /> </cargo>
+	</type>
+
+	<type name="Barrel_Blue">
+		<hoarder />
+	</type>
+	<type name="Barrel_Green">
+		<hoarder />
+	</type>
+	<type name="Barrel_Red">
+		<hoarder />
+	</type>
+	<type name="Barrel_Yellow">
+		<hoarder />
+	</type>
+	<type name="CarTent">
+		<hoarder />
+	</type>
+	<type name="LargeTent">
+		<hoarder />
+	</type>
+	<type name="MediumTent">
+		<hoarder />
+	</type>
+	<type name="MediumTent_Green">
+		<hoarder />
+	</type>
+	<type name="MediumTent_Orange">
+		<hoarder />
+	</type>
+	<type name="PartyTent">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Blue">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Brown">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Lunapark">
+		<hoarder />
+	</type>
+	<type name="SeaChest">
+		<hoarder />
+	</type>
+	<type name="SmallProtectorCase">
+		<hoarder />
+	</type>
+	<type name="UndergroundStash">
+		<hoarder />
+	</type>
+	<type name="WoodenCrate">
+		<hoarder />
+	</type>
+
+<!-- CONTAINERS_PLACED END -->
+
+<!-- CONTAINERS_WORN START -->
+
+	<type name="AssaultBag_Ttsko">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="AssaultBag_Black">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="AssaultBag_Green">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="DryBag_Orange">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Yellow">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingBag">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="MountainBag_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="MountainBag_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="MountainBag_Orange">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="MountainBag_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SmershBag">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ChildBag_Green">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ChildBag_Red">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ChildBag_Blue">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="TaloonBag_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TaloonBag_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TaloonBag_Orange">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TaloonBag_Violet">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TortillaBag">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ArmyPouch_Beige">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="ArmyPouch_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ArmyPouch_Camo">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ArmyPouch_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="CanvasBag_Olive">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasBag_Medical">
+		<cargo chance="0.6">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="IodineTincture" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>
+		<cargo chance="0.2">
+			<item name="VitaminBottle" />
+		</cargo>
+	</type>
+	<type name="Slingbag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlingBag_Gray">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlingBag_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="HipPack_Black">
+		<cargo chance="0.6">
+			<item name="Zagorky" />
+		</cargo>
+		<cargo chance="0.4">
+			<item name="ChernarusMap" />
+		</cargo>
+	</type>
+	<type name="HipPack_Green">
+		<cargo chance="0.6">
+			<item name="Zagorky" />
+		</cargo>
+		<cargo chance="0.4">
+			<item name="ChernarusMap" />
+		</cargo>
+	</type>
+	<type name="HipPack_Medical">
+		<cargo chance="0.6">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.6">
+			<item name="VitaminBottle" />
+		</cargo>
+	</type>
+	<type name="HipPack_Party">
+		<cargo chance="0.02">
+			<item name="Derringer_Pink" />
+		</cargo>
+	</type>
+	<type name="DuffelBagSmall_Camo">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="DuffelBagSmall_Medical">
+		<cargo chance="0.8">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.15">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>
 		<cargo chance="0.01">
-			<item name="AntiChemInjector" chance="1.0" />
+			<item name="AntiChemInjector" />
 		</cargo>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
-	<!--ARMY-->
+	<type name="DuffelBagSmall_Green">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+
+<!-- CONTAINERS_WORN END -->
+
+<!-- ++++++++++ CONTAINERS END ++++++++++ -->
+
+<!-- ++++++++++ FIREARMS START ++++++++++ -->
+
+<!-- FIREARMS_ASSAULT START -->
+
+	<type name="AKM">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="AK_PlasticBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="AK_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AK74">
+		<attachments chance="1.00">
+			<item name="AK74_WoodBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK74_Hndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AKS74U">
+		<attachments chance="1.00">
+			<item name="AKS74U_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AK101">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="1.00">
+			<item name="AK_PlasticBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="M4A1">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BUISOptic" chance="0.50" />
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CMAG_40Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="Mag_CMAG_20Rnd" chance="0.70" />
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="M16A2">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.30">
+			<item name="Mag_CMAG_40Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="Mag_CMAG_20Rnd" chance="0.70" />
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="FAMAS">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.75">
+			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="Aug">
+		<attachments chance="0.25">
+			<item name="Mag_Aug_30Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.15" />
+			<item name="ReflexOptic" chance="0.15" />
+			<item name="ACOGOptic" chance="0.15" />
+		</attachments>	
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="AugShort">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.25">
+			<item name="Mag_Aug_30Rnd" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="FAL">
+		<damage min="0.45" max="0.85" />
+		<attachments chance="1.00">
+			<item name="Fal_FoldingBttstck" chance="0.50" />
+			<item name="Fal_OeBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.20" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="VSS">
+		<attachments chance="1.0">
+			<item name="PSO11Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.35" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
+		</attachments>
+	</type>	
+	<type name="ASVAL">
+		<attachments chance="0.35">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.35" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.15" />
+			<item name="ReflexOptic" chance="0.15" />
+			<item name="ACOGOptic" chance="0.15" />
+		</attachments>	
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Vikhr">
+		<attachments chance="0.25">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO1Optic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.35" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
+		</attachments>
+	</type>	
+
+<!-- FIREARMS_ASSAULT END -->
+
+<!-- FIREARMS_PISTOLS START -->
+
+	<type name="MakarovIJ70">
+		<attachments chance="0.60">
+			<item name="Mag_IJ70_8Rnd" chance="1.00" />
+		</attachments>
+		<!-- MakarovPBSuppressor -->
+	</type>
+	<type name="MKII">
+		<attachments chance="0.60">
+			<item name="Mag_MKII_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="CZ75">
+		<attachments chance="0.70">
+			<item name="Mag_CZ75_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Glock19">
+		<attachments chance="0.20">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.03">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_Glock_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="FNX45">
+		<attachments chance="0.10">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="FNP45_MRDSOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Colt1911">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_1911_7Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Engraved1911">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_1911_7Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Deagle">
+		<attachments chance="0.10">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Deagle_Gold">
+		<attachments chance="0.25">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="LongHorn">
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="P1">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_P1_8Rnd" chance="1.00" />
+		</attachments>
+	</type>
+
+<!-- FIREARMS_PISTOLS END -->
+
+<!-- FIREARM_RIFLES START -->
+
+	<type name="SV98">
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.30" />	
+			<item name="ReflexOptic" chance="0.30" />	
+			<item name="ACOGOptic" chance="0.25" />	
+			<item name="ACOGOptic_6x" chance="0.15" />
+		</attachments>
+		<attachments chance="0.45">
+			<item name="Mag_SV98_10Rnd" chance="1.0" />
+		</attachments>
+	</type>	
+	<type name="CZ527">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CZ527_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Winchester70">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Mosin9130">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SKS">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SVD">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="B95">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Ruger1022">
+		<damage min="0.0" max="0.32" />
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
+			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Scout">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="ACOGOptic_6x" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Chernarus">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="ACOGOptic_6x" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Livonia">
+		<attachments chance="0.75">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="ACOGOptic_6x" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="CZ550">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CZ550_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SSG82">
+		<attachments chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="M14">
+		<attachments chance="0.25">
+			<item name="Mag_M14_10Rnd" chance="0.70" />
+			<item name="Mag_M14_20Rnd" chance="0.30" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="M4_T3NRDSOptic" chance="0.30" />
+			<item name="ReflexOptic" chance="0.30" />
+			<item name="ACOGOptic" chance="0.30" />
+			<item name="ACOGOptic_6x" chance="0.10" />
+		</attachments>
+	</type>
+
+<!-- FIREARM_RIFLES END -->
+
+<!-- FIREARMS_SHOTGUNS START -->
+
+	<type name="Saiga">
+		<attachments chance="1.00">
+			<item name="Saiga_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_Saiga_5Rnd" chance="0.60" />
+			<item name="Mag_Saiga_8Rnd" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="MP133Shotgun">
+		<damage min="0.0" max="0.32" />
+		<attachments chance="0.30">
+			<item name="FNP45_MRDSOptic" chance="0.30" />
+		</attachments>
+	</type>
+
+<!-- FIREARMS_SHOTGUNS END -->
+
+<!-- FIREARMS_SMG START -->
+
+<type name="CZ61">
+		<attachments chance="0.20">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="Mag_CZ61_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="MP5K">
+		<attachments chance="0.05">
+			<item name="MP5_RailHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MP5_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MP5k_StockBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_MP5_15Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="0.5" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="BUISOptic" chance="0.30" />
+			<item name="M68Optic" chance="0.20" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="MP5_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="UMP45">
+		<attachments chance="0.20">
+			<item name="Mag_UMP_25Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="BUISOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="M4_T3NRDSOptic" chance="0.20" />
+			<item name="ReflexOptic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.30" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="PP19">
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PP19_Bttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="PSO11Optic" chance="0.30" />
+			<item name="PSO1Optic" chance="0.30" />
+			<item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mag_PP19_64Rnd" chance="1.00" />
+		</attachments>
+	</type>
+
+<!-- FIREARMS_SMG END -->
+
+<!-- ++++++++++ FIREARMS END ++++++++++ -->
+
+<!-- ++++++++++ FUTURE START ++++++++++ -->
+
+<!-- FUTURE
+	<type name="M249">
+		<attachments chance="1.00">
+			<item name="M249_Hndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="M249_Bipod" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="M249_RisHndgrd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Groza">
+		<attachments chance="1.00">
+			<item name="Att_LowerReceiver_Groza" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Att_Barrel_Groza_Short" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_Groza_20Rnd" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="PM73Rak">
+		<attachments chance="0.08">
+			<item name="Mag_PM73_25Rnd" chance="0.50" />
+			<item name="Mag_PM73_15Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Scout">
+		<attachments chance="1.00">
+			<item name="M68Optic" chance="0.30" />
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Trumpet">
+		<attachments chance="0.25">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="FNX45_arrow">
+		<attachments chance="0.10">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="FNP45_MRDSOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="LongHorn">
+		<attachments chance="0.20">
+			<item name="Crossbow_RedpointOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="P1">
+		<attachments chance="0.10">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_P1_8Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Red9">
+		<attachments chance="0.10">
+			<item name="Red9Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+-->
+<!--
+	<type name="V3S_Chassis">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver" chance="0.50" />
+			<item name="V3SDoors_CoDriver" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver" chance="0.50" />
+			<item name="V3SDoors_CoDriver" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Chassis_Blue">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Blue" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Blue" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Chassis_Orange">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Orange" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Orange" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Chassis_Grey">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Grey" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Grey" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo_Blue">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Blue" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Blue" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo_Orange">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Orange" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Orange" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo_Grey">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Grey" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Grey" chance="0.50" />
+		</attachments>
+	</type>
+-->
+
+<!-- ++++++++++ FUTURE END ++++++++++ -->
+
+<!-- ++++++++++ INFECTED START ++++++++++ -->
+
+<!-- INFECTED_ARMY START -->
+
 	<type name="ZmbM_PatrolNormal_Autumn">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
@@ -1202,8 +2028,11 @@
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
-	
-	<!--City-->
+
+<!-- INFECTED_ARMY END -->
+
+<!-- INFECTED_CITY START -->
+
 	<type name="ZmbF_Clerk_Normal_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
@@ -1619,7 +2448,20 @@
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
-	<!-- Industrial -->
+
+<!-- INFECTED_CITY END -->
+
+<!-- INFECTED_FIREFIGHTER START -->
+
+	<type name="ZmbM_FirefighterNormal">
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsFirefighter" />
+	</type>
+
+<!-- INFECTED_FIREFIGHTER END -->
+
+<!-- INFECTED_INDUSTRIAL START -->
+
 	<type name="ZmbF_BlueCollarFat_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
@@ -1802,12 +2644,11 @@
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
-	<!-- FireFighter -->
-	<type name="ZmbM_FirefighterNormal">
-		<cargo preset="toolsCity" />
-		<attachments preset="hatsFirefighter" />
-	</type>
-	<!-- Medic -->
+
+<!-- INFECTED_INDUSTRIAL END -->
+
+<!-- INFECTED_MEDICAL START -->
+
 	<type name="ZmbF_DoctorSkinny">
 		<cargo preset="toolsMedic" />
 		<attachments preset="hatsMedic" />
@@ -1846,7 +2687,28 @@
 	<type name="ZmbM_PatientSkinny">
 		<cargo preset="toolsMedic" />
 	</type>
-	<!-- Police -->
+
+<!-- INFECTED_MEDICAL END -->
+
+<!-- INFECTED_NBC START -->
+
+	<type name="ZmbM_NBC_Grey">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.03">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+	</type>
+	<type name="ZmbM_NBC_Yellow">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.01">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+	</type>
+
+<!-- INFECTED_NBC END -->
+
+<!-- INFECTED_POLICE START -->
+
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
@@ -1882,7 +2744,11 @@
 		<attachments preset="hatsPolice" />
 		<attachments preset="vestsPolice" />
 	</type>
-	<!-- Prisoner -->
+
+<!-- INFECTED_POLICE END -->
+
+<!-- INFECTED_PRISONER START -->
+
 	<type name="ZmbM_PrisonerSkinny">
 		<cargo chance="0.10">
 			<item name="Rope" chance="0.14" />
@@ -1890,11 +2756,19 @@
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsPrisoner" />
 	</type>
-	<!-- Religious -->
+
+<!-- INFECTED_PRISONER END -->
+
+<!-- INFECTED_RELIGIOUS START -->
+
 	<type name="ZmbM_priestPopSkinny">
 		<cargo preset="foodHermit" />
 	</type>
-	<!-- Solitude -->
+
+<!-- INFECTED_RELIGIOUS END -->
+
+<!-- INFECTED_SOLITUDE START -->
+
 	<type name="ZmbF_HikerSkinny_Blue">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
@@ -2002,7 +2876,11 @@
 		<attachments preset="bagsHunter" />
 		<attachments preset="vestsHunter" />
 	</type>
-	<!-- Village -->
+
+<!-- INFECTED_SOLITUDE END -->
+
+<!-- INFECTED_VILLAGE START -->
+
 	<type name="ZmbF_MilkMaidOld_Beige">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
@@ -2131,614 +3009,51 @@
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 	</type>
-	<!-- Special -->
+
+<!-- INFECTED_VILLAGE END -->
+
+<!-- INFECTED_SPECIAL START -->
+
 	<type name="ZmbM_Santa">
 		<attachments preset="SantaHat" />
 	</type>
-	<!--END OF ZOMBIES  -->
-	<!--  WEAPONS  -->
-	<type name="MakarovIJ70">
-		<attachments chance="0.60">
-			<item name="Mag_IJ70_8Rnd" chance="1.00" />
-		</attachments>
-		<!-- MakarovPBSuppressor -->
+
+<!-- INFECTED_SPECIAL END -->
+
+<!-- ++++++++++ INFECTED END ++++++++++ -->
+
+<!-- ++++++++++ MEDICALS START ++++++++++ -->
+
+	<type name="BandageDressing">
+		<damage min="0.0" max="0.0" />
 	</type>
-	<type name="MKII">
-		<attachments chance="0.60">
-			<item name="Mag_MKII_10Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="CZ75">
-		<attachments chance="0.70">
-			<item name="Mag_CZ75_15Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Glock19">
-		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.03">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_Glock_15Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="FNX45">
-		<attachments chance="0.10">
-			<item name="Mag_FNX45_15Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-		<attachments chance="0.15">
-			<item name="FNP45_MRDSOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="CZ61">
-		<attachments chance="0.20">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.50">
-			<item name="Mag_CZ61_20Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="MP5K">
-		<attachments chance="0.05">
-			<item name="MP5_RailHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="MP5_PlasticHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="MP5k_StockBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_MP5_15Rnd" chance="0.5" />
-			<item name="Mag_MP5_30Rnd" chance="0.5" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="BUISOptic" chance="0.30" />
-			<item name="M68Optic" chance="0.20" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.10" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="MP5_Compensator" chance="1.00" />
-		</attachments>
-		<attachments chance="0.15">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="UMP45">
-		<attachments chance="0.20">
-			<item name="Mag_UMP_25Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M68Optic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.30" />
-		</attachments>
-		<attachments chance="0.15">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="VSS">
-		<attachments chance="1.0">
-			<item name="PSO11Optic" chance="1.00" />
-		</attachments>
-		<attachments chance="0.35">
-			<item name="Mag_VSS_10Rnd" chance="0.50" />
-			<item name="Mag_VAL_20Rnd" chance="0.35" />
-			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
-		</attachments>
-	</type>	
-	<type name="ASVAL">
-		<attachments chance="0.35">
-			<item name="Mag_VSS_10Rnd" chance="0.50" />
-			<item name="Mag_VAL_20Rnd" chance="0.35" />
-			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
-		</attachments>	
-		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Vikhr">
-		<attachments chance="0.25">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO1Optic" chance="0.50" />
-		</attachments>
-		<attachments chance="0.35">
-			<item name="Mag_VSS_10Rnd" chance="0.50" />
-			<item name="Mag_VAL_20Rnd" chance="0.35" />
-			<item name="Mag_Vikhr_30Rnd" chance="0.15" />
-		</attachments>
-	</type>	
-	<type name="SV98">
-		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.30" />	
-			<item name="ReflexOptic" chance="0.30" />	
-			<item name="ACOGOptic" chance="0.25" />	
-			<item name="ACOGOptic_6x" chance="0.15" />
-		</attachments>
-		<attachments chance="0.45">
-			<item name="Mag_SV98_10Rnd" chance="1.0" />
-		</attachments>
-	</type>	
-	<type name="CZ527">
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_CZ527_5rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Winchester70">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Mosin9130">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="Mosin_Compensator" chance="1.00" />
-		</attachments>
-		<attachments chance="0.05">
-			<item name="PUScopeOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="SKS">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="PUScopeOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="AKM">
-		<damage min="0.45" max="0.85" />
-		<attachments chance="1.00">
-			<item name="AK_PlasticBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_PlasticHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.50">
-			<item name="KashtanOptic" chance="0.30" />
-			<item name="PSO11Optic" chance="0.20" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="AK_Suppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_AKM_30Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="AK74">
-		<attachments chance="1.00">
-			<item name="AK74_WoodBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="AK74_Hndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_AK74_45Rnd" chance="0.15" />
-			<item name="Mag_AK74_30Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="AKS74U">
-		<attachments chance="1.00">
-			<item name="AKS74U_Bttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_AK74_30Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="AK101">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="1.00">
-			<item name="AK_PlasticBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_PlasticHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_AK101_30Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="M4A1">
-		<damage min="0.45" max="0.85" />
-		<attachments chance="1.00">
-			<item name="M4_OEBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="M4_PlasticHndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="BUISOptic" chance="0.50" />
-			<item name="M4_CarryHandleOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_CMAG_40Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.50" />
-			<item name="Mag_CMAG_20Rnd" chance="0.70" />
-			<item name="Mag_CMAG_30Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="M16A2">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.30">
-			<item name="Mag_CMAG_40Rnd" chance="0.15" />
-			<item name="Mag_CMAG_10Rnd" chance="0.50" />
-			<item name="Mag_CMAG_20Rnd" chance="0.70" />
-			<item name="Mag_CMAG_30Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="FAMAS">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.75">
-			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
-		</attachments>
-	</type>
-	<type name="Aug">
-		<attachments chance="0.25">
-			<item name="Mag_Aug_30Rnd" chance="1.0" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
-		</attachments>	
-		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="AugShort">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.25">
-			<item name="Mag_Aug_30Rnd" chance="1.0" />
-		</attachments>
-	</type>
-	<type name="FAL">
-		<damage min="0.45" max="0.85" />
-		<attachments chance="1.00">
-			<item name="Fal_FoldingBttstck" chance="0.50" />
-			<item name="Fal_OeBttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="BUISOptic" chance="0.20" />
-			<item name="M68Optic" chance="0.20" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.20" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_FAL_20Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="SVD">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="Mag_SVD_10Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.50">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.30" />
-		</attachments>
-	</type>
-	<type name="Colt1911">
-		<attachments chance="0.05">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_1911_7Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Engraved1911">
-		<attachments chance="0.05">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.60">
-			<item name="Mag_1911_7Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="B95">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Saiga">
-		<attachments chance="1.00">
-			<item name="Saiga_Bttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_Saiga_5Rnd" chance="0.60" />
-			<item name="Mag_Saiga_8Rnd" chance="0.40" />
-		</attachments>
-	</type>
-	<type name="Ruger1022">
-		<damage min="0.0" max="0.32" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="0.50">
-			<item name="Mag_Ruger1022_30Rnd" chance="0.30" />
-			<item name="Mag_Ruger1022_15Rnd" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="Deagle">
-		<attachments chance="0.10">
-			<item name="Mag_Deagle_9rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Deagle_Gold">
-		<attachments chance="0.25">
-			<item name="Mag_Deagle_9rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Scout">
-		<attachments chance="0.75">
-			<item name="Mag_Scout_5Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.25" />
-			<item name="M68Optic" chance="0.25" />
-			<item name="ACOGOptic" chance="0.25" />
-			<item name="ACOGOptic_6x" chance="0.25" />
-			<item name="M4_Suppressor" chance="0.25" />
-		</attachments>
-	</type>
-	<type name="Scout_Chernarus">
-		<attachments chance="0.75">
-			<item name="Mag_Scout_5Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.25" />
-			<item name="M68Optic" chance="0.25" />
-			<item name="ACOGOptic" chance="0.25" />
-			<item name="ACOGOptic_6x" chance="0.25" />
-			<item name="M4_Suppressor" chance="0.25" />
-		</attachments>
-	</type>
-	<type name="Scout_Livonia">
-		<attachments chance="0.75">
-			<item name="Mag_Scout_5Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.25" />
-			<item name="M68Optic" chance="0.25" />
-			<item name="ACOGOptic" chance="0.25" />
-			<item name="ACOGOptic_6x" chance="0.25" />
-			<item name="M4_Suppressor" chance="0.25" />
-		</attachments>
-	</type>
-	<type name="CZ550">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
-			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_CZ550_10rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="PP19">
-		<attachments chance="0.15">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="PP19_Bttstck" chance="1.00" />
-		</attachments>
-		<attachments chance="0.25">
-			<item name="PSO11Optic" chance="0.30" />
-			<item name="PSO1Optic" chance="0.30" />
-			<item name="KobraOptic" chance="0.40" />
-		</attachments>
-		<attachments chance="0.20">
-			<item name="Mag_PP19_64Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="LongHorn">
-		<attachments chance="1.00">
-			<item name="PistolOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="P1">
-		<attachments chance="0.05">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.60">
-			<item name="Mag_P1_8Rnd" chance="1.00" />
-		</attachments>
-	</type>
-		<type name="SSG82">
-		<attachments chance="0.1">
-			<item name="Mag_SSG82_5rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="MP133Shotgun">
-		<damage min="0.0" max="0.32" />
-		<attachments chance="0.30">
-			<item name="FNP45_MRDSOptic" chance="0.30" />
-		</attachments>
-	</type>
-	<type name="M14">
-		<attachments chance="0.25">
-			<item name="Mag_M14_10Rnd" chance="0.70" />
-			<item name="Mag_M14_20Rnd" chance="0.30" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="M4_T3NRDSOptic" chance="0.30" />
-			<item name="ReflexOptic" chance="0.30" />
-			<item name="ACOGOptic" chance="0.30" />
-			<item name="ACOGOptic_6x" chance="0.10" />
-		</attachments>
-	</type>
-	<type name="M4_Suppressor">
-		<damage min="0.0" max="0.32" />
-	</type>
-	<type name="PistolSuppressor">
-		<damage min="0.40" max="0.75" />
-	</type>
-	<type name="AK_Suppressor">
-		<damage min="0.0" max="0.32" />
-	</type>
-	<type name="NBCBootsGray">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCBootsYellow">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCGlovesGray">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCGlovesYellow">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCHoodGray">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCHoodYellow">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCJacketGray">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCJacketYellow">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCPantsGray">
-		<damage min="0.0" max="0.35" />
-	</type>
-	<type name="NBCPantsYellow">
-		<damage min="0.0" max="0.35" />
-	</type>
+
+<!-- ++++++++++ MEDICALS END ++++++++++ -->
+
+<!-- ++++++++++ NUTRITION ++++++++++ -->
+
+<!--  NUTRITION_DRINKS END -->
+
 	<type name="WaterBottle">
 	</type>
 	<type name="Canteen">
 	</type>
-	
-<!-- FUTURE
-	<type name="M249">
-		<attachments chance="1.00">
-			<item name="M249_Hndgrd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="M249_Bipod" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="M249_RisHndgrd" chance="1.00" />
-		</attachments>
+
+<!--  NUTRITION_DRINKS START -->
+
+<!-- ++++++++++ NUTRITION ++++++++++ -->
+
+<!-- ++++++++++ SEASONAL START ++++++++++ -->
+
+	<type name="ChristmasHeadband_Antlers">
+		<damage min="0.0" max="0.0" />
 	</type>
-	<type name="Groza">
-		<attachments chance="1.00">
-			<item name="Att_LowerReceiver_Groza" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Att_Barrel_Groza_Short" chance="1.00" />
-		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_Groza_20Rnd" chance="0.30" />
-		</attachments>
+	<type name="ChristmasHeadband_Trees">
+		<damage min="0.0" max="0.0" />
 	</type>
-	<type name="PM73Rak">
-		<attachments chance="0.08">
-			<item name="Mag_PM73_25Rnd" chance="0.50" />
-			<item name="Mag_PM73_15Rnd" chance="0.50" />
-		</attachments>
+	<type name="ChristmasHeadband_Gingerbread">
+		<damage min="0.0" max="0.0" />
 	</type>
-	<type name="Scout">
-		<attachments chance="1.00">
-			<item name="M68Optic" chance="0.30" />
-			<item name="ACOGOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_Scout_5Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Trumpet">
-		<attachments chance="0.25">
-			<item name="HuntingOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="FNX45_arrow">
-		<attachments chance="0.10">
-			<item name="Mag_FNX45_15Rnd" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="FNP45_MRDSOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="LongHorn">
-		<attachments chance="0.20">
-			<item name="Crossbow_RedpointOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="PistolOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="P1">
-		<attachments chance="0.10">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_P1_8Rnd" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="Red9">
-		<attachments chance="0.10">
-			<item name="Red9Bttstck" chance="1.00" />
-		</attachments>
-	</type>
--->
-	<!--  END OF WEAPONS  -->
-	<type name="PersonalRadio">
-		<attachments chance="0.30">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="GPSReceiver">
-		<attachments chance="0.30">
-			<item name="Battery9V" chance="1.00" />
-		</attachments>
-	</type>
-	
-	<!-- XMAS -->
 	<type name="GiftBox_Small_1">
 		<cargo preset="Xmas_Clothes_Small" />
 		<cargo preset="Xmas_Lights_Small" />
@@ -2939,8 +3254,59 @@
 		<cargo preset="Xmas_Food_Small" />
 		<cargo preset="Xmas_Chemlights_Small" />
 	</type>
-	
-	<!-- VEHICLES -->
+	<type name="GiftWrapPaper">
+		<damage min="0.0" max="0.32" />
+	</type>
+
+<!-- ++++++++++ SEASONAL END ++++++++++ -->
+
+<!-- ++++++++++ TOOLS START ++++++++++ -->
+
+<!-- TOOLS_COMMUNIATION START -->
+
+	<type name="PersonalRadio">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+
+<!-- TOOLS_COMMUNIATION END -->
+
+<!-- TOOLS_LIGHTING START -->
+
+	<type name="NVGoggles">
+		<damage min="0.0" max="0.32" />
+	</type>
+
+<!-- TOOLS_LIGHTING END -->
+
+<!-- TOOLS_MATERIALS START -->
+
+	<type name="Stone">
+		<damage min="0.1" max="0.1" />
+	</type>
+	<type name="SmallStone">
+		<damage min="0.0" max="0.0" />
+	</type>
+
+<!-- TOOLS_MATERIALS END -->
+
+<!-- TOOLS_NAVIGATION START -->
+
+	<type name="GPSReceiver">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+
+<!-- TOOLS_NAVIGATION END -->
+
+<!-- ++++++++++ TOOLS END ++++++++++ -->
+
+<!-- ++++++++++ VEHICLES START ++++++++++ -->
+
+<!-- VEHICLES_ADA4X4 START -->
+
 	<type name="OffroadHatchback">
 		<attachments chance="1.00">
 			<item name="HatchbackWheel" chance="0.80" />
@@ -3073,205 +3439,11 @@
 			<item name="HatchbackTrunk_White" chance="0.20" />
 		</attachments>
 	</type>
-	<type name="Offroad_02">
-		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Wheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Trunk" chance="0.50" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Hood" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Door_1_1" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Door_1_2" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Door_2_1" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Offroad_02_Door_2_2" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="GlowPlug" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.30" />
-		</attachments>
-	</type>
-	<!-- -->
-	<type name="CivilianSedan">
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_Driver" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_CoDriver" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_BackLeft" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_BackRight" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanHood" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanTrunk" chance="0.20" />
-		</attachments>
-	</type>
-	<type name="CivilianSedan_Wine">
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_Driver_Wine" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_CoDriver_Wine" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_BackLeft_Wine" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_BackRight_Wine" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanHood_Wine" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanTrunk_Wine" chance="0.20" />
-		</attachments>
-	</type>
-	<type name="CivilianSedan_Black">
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.80" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanWheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CarBattery" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="SparkPlug" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_Driver_Black" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_CoDriver_Black" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_BackLeft_Black" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanDoors_BackRight_Black" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanHood_Black" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CivSedanTrunk_Black" chance="0.20" />
-		</attachments>
-	</type>
-	<!-- -->
+
+<!-- VEHICLES_ADA4X4 END -->
+
+<!-- VEHICLES_GUNTER2 START -->
+
 	<type name="Hatchback_02">
 		<attachments chance="1.00">
 			<item name="Hatchback_02_Wheel" chance="0.80" />
@@ -3422,7 +3594,373 @@
 			<item name="Hatchback_02_Trunk_Blue" chance="0.20" />
 		</attachments>
 	</type>
-	<!-- -->
+
+<!-- VEHICLES_GUNTER2 END -->
+
+<!-- VEHICLES_M1025 START -->
+
+	<type name="Offroad_02">
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Trunk" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Hood" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_1" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_2" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_1" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_2" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+	</type>
+
+<!-- VEHICLES_M1025 END -->
+
+<!-- VEHICLES_M3S START -->
+
+	<type name="Truck_01_Covered">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.25" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Hood" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_1_1" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_2_1" chance="0.40" />
+		</attachments>
+	</type>
+	<type name="Truck_01_Covered_Blue">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.25" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Hood_Blue" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_1_1_Blue" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_2_1_Blue" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Truck_01_Covered_Orange">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.25" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.10" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Hood_Orange" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_1_1_Orange" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_2_1_Orange" chance="0.50" />
+		</attachments>
+	</type>
+
+<!-- VEHICLES_M3S END -->
+
+<!-- VEHICLES_OLGA24 START -->
+
+	<type name="CivilianSedan">
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_Driver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_CoDriver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackLeft" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackRight" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanHood" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanTrunk" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="CivilianSedan_Wine">
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_Driver_Wine" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_CoDriver_Wine" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackLeft_Wine" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackRight_Wine" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanHood_Wine" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanTrunk_Wine" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="CivilianSedan_Black">
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_Driver_Black" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_CoDriver_Black" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackLeft_Black" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackRight_Black" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanHood_Black" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanTrunk_Black" chance="0.20" />
+		</attachments>
+	</type>
+
+<!-- VEHICLES_OLGA24 END -->
+
+<!-- VEHICLES_PARTS START -->
+
+	<type name="SparkPlug">
+	</type>
+	<type name="Glowplug">
+	</type>
+	<type name="CarRadiator">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="CarBattery">
+		<damage min="0.0" max="0.35" />
+	</type>
+	<type name="TruckBattery">
+		<damage min="0.0" max="0.35" />
+	</type>
+
+<!-- VEHICLES_PARTS END -->
+
+<!-- VEHICLES_SARKA120 START -->
+
 	<type name="Sedan_02">
 		<attachments chance="1.00">
 			<item name="Sedan_02_Wheel" chance="0.80" />
@@ -3573,282 +4111,11 @@
 			<item name="Sedan_02_Trunk_Grey" chance="0.20" />
 		</attachments>
 	</type>
-	<type name="Truck_01_Covered">
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.25" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Hood" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Door_1_1" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Door_2_1" chance="0.40" />
-		</attachments>
-	</type>
-	<type name="Truck_01_Covered_Blue">
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.25" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Hood_Blue" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Door_1_1_Blue" chance="0.50" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Door_2_1_Blue" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="Truck_01_Covered_Orange">
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="TruckBattery" chance="0.25" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="0.10" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Hood_Orange" chance="0.30" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Door_1_1_Orange" chance="0.50" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="Truck_01_Door_2_1_Orange" chance="0.50" />
-		</attachments>
-	</type>
-<!--
-	<type name="V3S_Chassis">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver" chance="0.50" />
-			<item name="V3SDoors_CoDriver" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="V3S_Cargo">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver" chance="0.50" />
-			<item name="V3SDoors_CoDriver" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="V3S_Chassis_Blue">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver_Blue" chance="0.50" />
-			<item name="V3SDoors_CoDriver_Blue" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="V3S_Chassis_Orange">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver_Orange" chance="0.50" />
-			<item name="V3SDoors_CoDriver_Orange" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="V3S_Chassis_Grey">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver_Grey" chance="0.50" />
-			<item name="V3SDoors_CoDriver_Grey" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="V3S_Cargo_Blue">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver_Blue" chance="0.50" />
-			<item name="V3SDoors_CoDriver_Blue" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="V3S_Cargo_Orange">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver_Orange" chance="0.50" />
-			<item name="V3SDoors_CoDriver_Orange" chance="0.50" />
-		</attachments>
-	</type>
-	<type name="V3S_Cargo_Grey">
-		<attachments chance="1.00">
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.60" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheel" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="V3SWheelDouble" chance="0.40" />
-			<item name="TruckBattery" chance="0.30" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="HeadlightH7" chance="0.10" />
-			<item name="V3SHood_Blue" chance="0.30" />
-			<item name="V3SDoors_Driver_Grey" chance="0.50" />
-			<item name="V3SDoors_CoDriver_Grey" chance="0.50" />
-		</attachments>
-	</type>
--->
+
+<!-- VEHICLES_SARKA120 END -->
+
+
+<!-- ++++++++++ VEHICLES END ++++++++++ -->
+
 </spawnabletypes>
+
