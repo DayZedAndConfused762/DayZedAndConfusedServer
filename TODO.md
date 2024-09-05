@@ -19,14 +19,14 @@
 ## To Do List
 
 - dayzyourway.com
+- add working items that don't spawn
+- add and adjust cfgspawntypes (guns/zombies)
 - setup server messaging
 - setup server restarts
 - add vodka
 - add random colored vehicle parts
-- add working items that don't spawn
-- add spawn loadouts to namalsk
+- add spawn loadouts to chernarus
 - steamQueryPort = 2492;			Confirm correct steam query port in Config.cfg
-- uninstall @ForwardOperatorGear
 - review mods for possible use:
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2896141950
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2898868802
