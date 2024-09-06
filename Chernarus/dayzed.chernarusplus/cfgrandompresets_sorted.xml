@@ -221,12 +221,12 @@
 				<item name="MedicalScrubsHat_White" chance="0.35" />
 		</attachments>
 		<attachments chance="0.20" name="hatsMotorbike">
-				<item name="MotoHelmet_Black" chance="0.10" />
-				<item name="MotoHelmet_Blue" chance="0.10" />
+				<item name="MotoHelmet_Black" chance="0.05" />
+				<item name="MotoHelmet_Blue" chance="0.05" />
 				<item name="MotoHelmet_Green" chance="0.05" />
-				<item name="MotoHelmet_Grey" chance="0.10" />
+				<item name="MotoHelmet_Grey" chance="0.05" />
 				<item name="MotoHelmet_Lime" chance="0.10" />
-				<item name="MotoHelmet_Red" chance="0.10" />
+				<item name="MotoHelmet_Red" chance="0.05" />
 				<item name="MotoHelmet_White" chance="0.10" />
 				<item name="DarkMotoHelmet_Black" chance="0.05" />
 				<item name="DarkMotoHelmet_Blue" chance="0.05" />
@@ -235,6 +235,10 @@
 				<item name="DarkMotoHelmet_Lime" chance="0.05" />
 				<item name="DarkMotoHelmet_Red" chance="0.05" />
 				<item name="DarkMotoHelmet_White" chance="0.05" />
+				<item name="Bandana_Blackpattern" chance="0.05" />
+				<item name="Bandana_Camopattern" chance="0.05" />
+				<item name="Bandana_Greenpattern" chance="0.05" />
+				<item name="Bandana_Redpattern" chance="0.05" />
 		</attachments>
 		<attachments chance="0.50" name="hatsPolice">
 				<item name="PoliceCap" chance="1.00" />
@@ -397,6 +401,11 @@
 				<item name="AmmoBox_762x39Tracer_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54Tracer" chance="0.08" />
 				<item name="AmmoBox_762x54Tracer_20Rnd" chance="0.05" />
+		</cargo>
+		<cargo chance="0.1" name="mixFish">
+				<item name="Bait" chance="0.20" />
+				<item name="BoneHook" chance="0.60" />
+				<item name="Hook" chance="0.20" />
 		</cargo>
 
 <!-- ++++++++++ MIX END ++++++++++ -->
@@ -732,11 +741,18 @@
 			<item name="TaloonBag_Violet" chance="0.10" />
 			<item name="TaloonBag_Green" chance="0.10" />
 		</attachments>
+		<attachments chance="0.1" name="bagsHiker">
+			<item name="HuntingBag" chance="0.40" />
+			<item name="HuntingBag_Hannah" chance="0.30" />
 		<attachments chance="0.1" name="bagsHunter">
 			<item name="ArmyPouch_Beige" chance="0.35" />
 			<item name="ArmyPouch_Green" chance="0.35" />
 			<item name="CourierBag" chance="0.20" />
 			<item name="HuntingBag" chance="0.10" />
+		</attachments>
+		<attachments chance="0.1" name="bagsMedic">
+			<item name="CanvasBag_Medical" chance="0.70" />
+			<item name="DuffelBagSmall_Medical" chance="0.30" />
 		</attachments>
 		<attachments chance="0.1" name="bagsVillage">
 				<item name="Slingbag_Black" chance="0.20" />

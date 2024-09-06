@@ -2827,26 +2827,34 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Grey">
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
 		<attachments preset="hatsCommon_T1" />
-		<attachments preset="backpacks_T1" />
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Olive">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbM_Jacket_beige">
 		<cargo preset="foodCity" />
@@ -2944,7 +2952,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
-		<attachments preset="helmetsCommon_T1" />
+		<attachments preset="hatsCitySkate" />
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
@@ -3172,15 +3180,19 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 	</type>
 	<type name="ZmbF_NurseFat">
 		<cargo preset="toolsMedic" />
+		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Blue">
 		<cargo preset="toolsMedic" />
+		<cargo preset="bagsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Green">
 		<cargo preset="toolsMedic" />
+		<cargo preset="bagsMedic" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Red">
 		<cargo preset="toolsMedic" />
+		<cargo preset="bagsMedic" />
 	</type>
 	<type name="ZmbF_PatientOld">
 		<cargo preset="toolsMedic" />
@@ -3191,15 +3203,19 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 	</type>
 	<type name="ZmbM_ParamedicNormal_Black">
 		<cargo preset="toolsMedic" />
+		<cargo preset="bagsMedic" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Blue">
 		<cargo preset="toolsMedic" />
+		<cargo preset="bagsMedic" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Green">
 		<cargo preset="toolsMedic" />
+		<cargo preset="bagsMedic" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Red">
 		<cargo preset="toolsMedic" />
+		<cargo preset="bagsMedic" />
 	</type>
 	<type name="ZmbM_PatientSkinny">
 		<cargo preset="toolsMedic" />
@@ -3214,12 +3230,18 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0" />
 		</cargo>
+		<cargo chance="0.01">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</chance>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
 		<cargo preset="ContaminatedCargo" />
-		<cargo chance="0.01">
+		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0" />
 		</cargo>
+		<cargo chance="0.01">
+			<item name="Grenade_ChemGas" chance="1.0 " />
+		</chance>
 	</type>
 
 <!-- INFECTED_NBC END -->
@@ -3293,40 +3315,48 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
+		<attachments preset="bagsHiker" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Grey">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
+		<attachments preset="bagsHiker" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
+		<attachments preset="bagsHiker" />
 	</type>
 	<type name="ZmbF_HikerSkinny_Red">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
+		<attachments preset="bagsHiker" />
 	</type>
 	<type name="ZmbM_FishermanOld_Blue">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="mixFish" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="mixFish" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Grey">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="mixFish" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_FishermanOld_Red">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
+		<cargo preset="mixFish" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Beige">
@@ -3353,16 +3383,19 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
+		<attachments preset="bagsHiker" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Green">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
+		<attachments preset="bagsHiker" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Yellow">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
+		<attachments preset="bagsHiker" />
 	</type>
 	<type name="ZmbM_HunterOld_Autumn">
 		<cargo preset="foodHermit" />
