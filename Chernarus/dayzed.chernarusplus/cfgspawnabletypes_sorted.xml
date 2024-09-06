@@ -1335,7 +1335,97 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 			<item name="Mag_AK74_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
+	<type name="AK74_Black">
+		<attachments chance="1.00">
+            <item name="AK_PlasticBttstck_Green" chance="0.1" />
+            <item name="AK_WoodBttstck_Camo" chance="0.1" />
+            <item name="AK_FoldingBttstck_Green" chance="0.1" />
+            <item name="AK_WoodBttstck_Black" chance="0.1" />
+            <item name="AK74_WoodBttstck" chance="0.30" />
+            <item name="AK_WoodBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.50">
+            <item name="AK_RailHndgrd_Green" chance="0.1" />
+            <item name="AK_WoodHndgrd_Camo" chance="0.1" />
+            <item name="AK_WoodHndgrd_Black" chance="0.20" />
+            <item name="AK_WoodHndgrd" chance="0.20" />
+            <item name="AK_RailHndgrd" chance="0.2" />
+            <item name="AK74_Hndgrd" chance="0.2" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="PSO1Optic" chance="0.30" />
+            <item name="KobraOptic" chance="0.30" />
+            <item name="KashtanOptic" chance="0.35" />
+            <item name="PSO11Optic" chance="0.05" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd_Green" chance="0.35" />
+			<item name="Mag_AK74_30Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="AK74_Green">
+		<attachments chance="1.00">
+            <item name="AK_PlasticBttstck_Green" chance="0.1" />
+            <item name="AK_WoodBttstck_Camo" chance="0.1" />
+            <item name="AK_FoldingBttstck_Green" chance="0.1" />
+            <item name="AK_WoodBttstck_Black" chance="0.1" />
+            <item name="AK74_WoodBttstck" chance="0.30" />
+            <item name="AK_WoodBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.50">
+            <item name="AK_RailHndgrd_Green" chance="0.1" />
+            <item name="AK_WoodHndgrd_Camo" chance="0.1" />
+            <item name="AK_WoodHndgrd_Black" chance="0.20" />
+            <item name="AK_WoodHndgrd" chance="0.20" />
+            <item name="AK_RailHndgrd" chance="0.2" />
+            <item name="AK74_Hndgrd" chance="0.2" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="PSO1Optic" chance="0.30" />
+            <item name="KobraOptic" chance="0.30" />
+            <item name="KashtanOptic" chance="0.35" />
+            <item name="PSO11Optic" chance="0.05" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd_Green" chance="0.35" />
+			<item name="Mag_AK74_30Rnd" chance="0.50" />
+		</attachments>
+	</type>
 	<type name="AKS74U">
+		<atachments chance="1.00">
+            <item name="AK_PlasticBttstck" chance="0.2" />
+            <item name="AK_WoodBttstck_Camo" chance="0.1" />
+            <item name="AK_FoldingBttstck_Green" chance="0.1" />
+            <item name="AK_WoodBttstck_Black" chance="0.2" />
+            <item name="AK74_WoodBttstck" chance="0.1" />
+            <item name="AK_WoodBttstck" chance="0.1" />
+            <item name="AKS74U_Bttstck" chance="0.2" />
+        </attachments>
+		<attachments chance="0.40">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd_Green" chance="0.35" />
+			<item name="Mag_AK74_30Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="AKS74U_Black">
+		<atachments chance="1.00">
+            <item name="AK_PlasticBttstck" chance="0.2" />
+            <item name="AK_WoodBttstck_Camo" chance="0.1" />
+            <item name="AK_FoldingBttstck_Green" chance="0.1" />
+            <item name="AK_WoodBttstck_Black" chance="0.2" />
+            <item name="AK74_WoodBttstck" chance="0.1" />
+            <item name="AK_WoodBttstck" chance="0.1" />
+            <item name="AKS74U_Bttstck" chance="0.2" />
+        </attachments>
+		<attachments chance="0.40">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd_Green" chance="0.35" />
+			<item name="Mag_AK74_30Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="AKS74U_Green">
 		<atachments chance="1.00">
             <item name="AK_PlasticBttstck" chance="0.2" />
             <item name="AK_WoodBttstck_Camo" chance="0.1" />
@@ -1381,7 +1471,137 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
             <item name="AK_Suppressor" chance="1.0" />
         </attachments>
 	</type>
+	<type name="AK101_Black">
+		<attachments chance="1.00">
+            <item name="AK_PlasticBttstck" chance="0.10" />
+            <item name="AK_PlasticBttstck_Green" chance="0.10" />
+            <item name="AK_WoodBttstck_Camo" chance="0.20" />
+            <item name="AK_FoldingBttstck" chance="0.10" />
+            <item name="AK_WoodBttstck_Black" chance="0.20" />
+            <item name="AK_WoodBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.40">
+            <item name="AK_PlasticHndgrd" chance="0.25" />
+            <item name="AK_WoodHndgrd" chance="0.25" />
+            <item name="AK_WoodHndgrd_Camo" chance="0.20" />
+            <item name="AK_WoodHndgrd_Black" chance="0.20" />
+            <item name="AK_RailHndgrd" chance="0.10" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="PSO1Optic" chance="0.25" />
+            <item name="KobraOptic" chance="0.35" />
+            <item name="KashtanOptic" chance="0.35" />
+            <item name="PSO11Optic" chance="0.05" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="Mag_AK101_30Rnd" chance="0.6" />
+            <item name="Mag_AK101_30Rnd_Green" chance="0.4" />
+		</attachments>
+		<attachments chance="0.10">
+            <item name="AK_Suppressor" chance="1.0" />
+        </attachments>
+	</type>
+	<type name="AK101_Green">
+		<attachments chance="1.00">
+            <item name="AK_PlasticBttstck" chance="0.10" />
+            <item name="AK_PlasticBttstck_Green" chance="0.10" />
+            <item name="AK_WoodBttstck_Camo" chance="0.20" />
+            <item name="AK_FoldingBttstck" chance="0.10" />
+            <item name="AK_WoodBttstck_Black" chance="0.20" />
+            <item name="AK_WoodBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="0.40">
+            <item name="AK_PlasticHndgrd" chance="0.25" />
+            <item name="AK_WoodHndgrd" chance="0.25" />
+            <item name="AK_WoodHndgrd_Camo" chance="0.20" />
+            <item name="AK_WoodHndgrd_Black" chance="0.20" />
+            <item name="AK_RailHndgrd" chance="0.10" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="PSO1Optic" chance="0.25" />
+            <item name="KobraOptic" chance="0.35" />
+            <item name="KashtanOptic" chance="0.35" />
+            <item name="PSO11Optic" chance="0.05" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="Mag_AK101_30Rnd" chance="0.6" />
+            <item name="Mag_AK101_30Rnd_Green" chance="0.4" />
+		</attachments>
+		<attachments chance="0.10">
+            <item name="AK_Suppressor" chance="1.0" />
+        </attachments>
+	</type>
     <type name="M4A1">
+        <attachments chance="1.00">
+            <item name="M4_RISHndgrd" chance="0.20" />
+            <item name="M4_MPHndgrd" chance="0.30" />
+            <item name="M4_PlasticHndgrd" chance="0.50" />
+        </attachments>
+        <attachments chance="0.50">
+            <item name="M4_MPBttstck" chance="0.25" />
+            <item name="M4_CQBBttstck" chance="0.25" />
+            <item name="M4_OEBttstck" chance="0.50" />
+        </attachments>
+        <attachments chance="0.30">
+            <item name="M4_CarryHandleOptic" chance="0.30" />
+            <item name="BUISOptic" chance="0.25" />
+            <item name="ReflexOptic" chance="0.15" />
+            <item name="M4_T3NRDSOptic" chance="0.10" />
+            <item name="M68Optic" chance="0.10" />
+            <item name="ACOGOptic" chance="0.10" />
+        </attachments>
+        <attachments chance="0.40">
+            <item name="Mag_CMAG_40Rnd" chance="0.25" />
+            <item name="Mag_STANAG_30Rnd" chance="0.3" />
+            <item name="Mag_CMAG_40Rnd_Green" chance="0.25" />
+            <item name="Mag_STANAGCoupled_30Rnd" chance="0.12" />
+            <item name="Mag_STANAG_60Rnd" chance="0.08" />
+        </attachments>
+        <attachments chance="0.10">
+            <item name="M4_Suppressor" chance="1.0" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+    </type>
+    <type name="M4A1_Black">
+        <attachments chance="1.00">
+            <item name="M4_RISHndgrd" chance="0.20" />
+            <item name="M4_MPHndgrd" chance="0.30" />
+            <item name="M4_PlasticHndgrd" chance="0.50" />
+        </attachments>
+        <attachments chance="0.50">
+            <item name="M4_MPBttstck" chance="0.25" />
+            <item name="M4_CQBBttstck" chance="0.25" />
+            <item name="M4_OEBttstck" chance="0.50" />
+        </attachments>
+        <attachments chance="0.30">
+            <item name="M4_CarryHandleOptic" chance="0.30" />
+            <item name="BUISOptic" chance="0.25" />
+            <item name="ReflexOptic" chance="0.15" />
+            <item name="M4_T3NRDSOptic" chance="0.10" />
+            <item name="M68Optic" chance="0.10" />
+            <item name="ACOGOptic" chance="0.10" />
+        </attachments>
+        <attachments chance="0.40">
+            <item name="Mag_CMAG_40Rnd" chance="0.25" />
+            <item name="Mag_STANAG_30Rnd" chance="0.3" />
+            <item name="Mag_CMAG_40Rnd_Green" chance="0.25" />
+            <item name="Mag_STANAGCoupled_30Rnd" chance="0.12" />
+            <item name="Mag_STANAG_60Rnd" chance="0.08" />
+        </attachments>
+        <attachments chance="0.10">
+            <item name="M4_Suppressor" chance="1.0" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+    </type>
+    <type name="M4A1_Green">
         <attachments chance="1.00">
             <item name="M4_RISHndgrd" chance="0.20" />
             <item name="M4_MPHndgrd" chance="0.30" />
@@ -1689,7 +1909,66 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
             <item name="GhillieAtt_Woodland" chance="0.30" />
         </attachments>
 	</type>
+	<type name="CZ527_Black">
+        <attachments chance="0.50">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="0.45">
+            <item name="Mag_CZ527_5rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+	</type>
+	<type name="CZ527_Green">
+        <attachments chance="0.50">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="0.45">
+            <item name="Mag_CZ527_5rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+	</type>
+	<type name="CZ527_Camo">
+        <attachments chance="0.50">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="0.45">
+            <item name="Mag_CZ527_5rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+	</type>
 	<type name="Winchester70">
+        <attachments chance="0.50">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+	</type>
+	<type name="Winchester70_Black">
+        <attachments chance="0.50">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+	</type>
+	<type name="Winchester70_Green">
         <attachments chance="0.50">
             <item name="HuntingOptic" chance="1.00" />
         </attachments>
@@ -1714,6 +1993,26 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         </attachments>
 	</type>
 	<type name="SKS">
+        <attachments chance="0.50">
+            <item name="PUScopeOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+	</type>
+	<type name="SKS_Black">
+        <attachments chance="0.50">
+            <item name="PUScopeOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="0.05">
+            <item name="GhillieAtt_Mossy" chance="0.30" />
+            <item name="GhillieAtt_Tan" chance="0.30" />
+            <item name="GhillieAtt_Woodland" chance="0.30" />
+        </attachments>
+	</type>
+	<type name="SKS_Green">
         <attachments chance="0.50">
             <item name="PUScopeOptic" chance="1.00" />
         </attachments>
@@ -2304,18 +2603,21 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
+		<attachments preset="vestsPress" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
+		<attachments preset="vestsPress" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
+		<attachments preset="vestsPress" />
 	</type>
 	<type name="ZmbF_JournalistNormal_White">
 		<cargo preset="drinks_T1" />
@@ -2323,6 +2625,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo preset="toolsCommon_T1" />
 		<attachments preset="hatsCommon_T1" />
 		<attachments preset="backpacks_T1" />
+		<attachments preset="vestsPress" />
 	</type>
 	<type name="ZmbF_ShortSkirt_beige">
 		<cargo preset="foodCity" />
@@ -2618,6 +2921,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 	<type name="ZmbM_JournalistSkinny">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
+		<attachments preset="vestsPress" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Beige">
 		<cargo preset="foodCity" />
