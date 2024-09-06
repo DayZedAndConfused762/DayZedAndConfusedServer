@@ -402,10 +402,24 @@
 				<item name="Ammo_762x54Tracer" chance="0.08" />
 				<item name="AmmoBox_762x54Tracer_20Rnd" chance="0.05" />
 		</cargo>
-		<cargo chance="0.1" name="mixFish">
+		<cargo chance="0.20" name="mixFish">
 				<item name="Bait" chance="0.20" />
 				<item name="BoneHook" chance="0.60" />
 				<item name="Hook" chance="0.20" />
+		</cargo>
+		<cargo chance="0.10" name="mixDrugs">
+				<item name="DP_CocaBag" chance="0.50" />
+				<item name="PsilocybeMushroom" chance="0.50" />
+		</cargo>
+		<cargo chance="0.30" name="mixJoints">
+				<item name="CP_JointSkunk" chance="0.15" />
+				<item name="CP_JointBlue" chance="0.15" />
+				<item name="CP_JointKush" chance="0.15" />
+				<item name="CP_JointStardawg" chance="0.15" />
+				<item name="CP_JointFuture" chance="0.10" />
+				<item name="CP_JointS1" chance="0.10" />
+				<item name="CP_JointNomad" chance="0.10" />
+				<item name="CP_JointBlackFrost" chance="0.10" />
 		</cargo>
 
 <!-- ++++++++++ MIX END ++++++++++ -->
@@ -751,8 +765,18 @@
 			<item name="HuntingBag" chance="0.10" />
 		</attachments>
 		<attachments chance="0.1" name="bagsMedic">
-			<item name="CanvasBag_Medical" chance="0.70" />
-			<item name="DuffelBagSmall_Medical" chance="0.30" />
+			<item name="CanvasBag_Medical" chance="0.30" />
+			<item name="DuffelBagSmall_Medical" chance="0.20" />
+			<item name="Msp_ParamedicBag_Red" chance="0.04" />
+			<item name="Msp_ParamedicBag_Green" chance="0.03" />
+			<item name="Msp_ParamedicBag_Blue" chance="0.03" />
+			<item name="Msp_MedicBag_Red" chance="0.10" />
+			<item name="Msp_MedicBag_Blue" chance="0.10" />
+			<item name="Msp_MedicBag_Green" chance="0.10" />
+			<item name="Msp_MedicBag_Black" chance="0.10" />
+		</attachments>
+		<attachments chance="0.1" name="bagsNBC">
+			<item name="Msp_ParamedicBag_NBC" chance="1.00" />
 		</attachments>
 		<attachments chance="0.1" name="bagsVillage">
 				<item name="Slingbag_Black" chance="0.20" />
