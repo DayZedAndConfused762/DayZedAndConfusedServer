@@ -35,6 +35,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 	</defaults>
 	<ce folder="db">
+		<file name="types_basefortifications.xml" type="types" />
 		<file name="types_bbp.xml" type="types" />
 		<file name="types_burlapriflewrap.xml" type="types" />
 		<file name="types_codelock.xml" type="types" />

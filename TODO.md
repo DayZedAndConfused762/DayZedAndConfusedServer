@@ -19,11 +19,8 @@
 ## To Do List
 
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
-- add base fortifications types file
 - install building fortifications mod
 - dayzyourway.com
-- add working items that don't spawn
-- add and adjust cfgspawntypes (guns/zombies)
 - setup server messaging
 - setup server restarts
 - add vodka

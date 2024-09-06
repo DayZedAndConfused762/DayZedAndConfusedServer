@@ -27,6 +27,7 @@
 - Added some non spawning items to types (melee and different color weapons/attachments)
 - Adjustments to cfgrandompresets.xml
 - Adjustments to cfgspawnabletypes.xml
+- ADd @BaseFortifications types.xml
 
 <!-- ++++++++++++++++++++ 9/6/2024 Start ++++++++++++++++++++ -->
 
