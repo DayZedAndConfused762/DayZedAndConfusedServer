@@ -18,6 +18,7 @@
 
 ## To Do List
 
+- spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
 - add base fortifications types file
 - install building fortifications mod
 - dayzyourway.com
