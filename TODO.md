@@ -18,6 +18,7 @@
 
 ## To Do List
 
+- remove MSP Grenade box
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
 - install building fortifications mod
 - dayzyourway.com
