@@ -25,6 +25,7 @@
 
 <!-- ++++++++++++++++++++ 9/10/2024 Start ++++++++++++++++++++ -->
 
+- Change "globals.xml" "IdleModeCountdown" "value" to "86400"
 - Adjusted spawn rates of some vanilla tools
 - Adjusted spawn rates of vanilla pouches
 - Lowered spawns of small protector cases and teddy bears
