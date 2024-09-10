@@ -25,6 +25,9 @@
 
 <!-- ++++++++++++++++++++ 9/10/2024 Start ++++++++++++++++++++ -->
 
+- Added Vodka spawns
+- @BaseBuildingPlus
+  - change "BBP_SetInfiniteLifetime" to "0"
 - Added magic mushroom spawns event
 - Added convoy officer with punch card to convoy event
 - Change "globals.xml" "IdleModeCountdown" "value" to "86400"
