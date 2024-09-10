@@ -1,0 +1,168 @@
+
+- Adjusted items spawned on zombies
+  - Journalist Zombies may spawn with Press Vests (PressVest_Blue", "PressVest_LightBlue")
+  - Fishing Zombies may spawn with Flight Helmet (ZSh3PilotHelmet)
+  - Medical Zombies may spawn with Scrub hats (MedicalScrubsHat_Green, MedicalScrubsHat_White, MedicalScrubsHat_Blue)
+  - Skate Zombies may spawn with Skate Helmet (SkateHelmet_Black, SkateHelmet_Blue, SkateHelmet_Gray, SkateHelmet_Green, SkateHelmet_Red)
+  - Hiker Zombies have a low change to spawn with Gas cans (LargeGasCanister, MediumGasCanister, SmallGasCanister)
+  - Construction Worker Zombies have a chance to spawn with Hardhats ConstructionHelmet_Blue, ConstructionHelmet_Lime, ConstructionHelmet_Orange, ConstructionHelmet_Red, ConstructionHelmet_White, ConstructionHelmet_Yellow) and Reflective Vest (ReflexVest)
+  - Priest Zombies may spawn with Witch Hoods (WitchHood_Red, WitchHood_Black)
+
+- Configure Mods: 
+  - @BaseBuildingPlus
+    - Copy namalsk config
+    - change "BBP_FlagBuildAnywhere" to "1"
+    - change "BBP_TentBuildAnywhere" to "1"
+    - change "BBP_VanillaBuildAnywhere" to "1"
+  - @CannabisPlus
+    - change "activateCigaretteSmokingEffect" to "1"
+  - @CodeLock
+    - CodeLockPerms.json: 
+      - change "playerId" to "76561198059652382"
+      - change "CanOpenLocks" to "true"
+      - change "CanChangePasscodes" to "true"
+      - change "CanRemoveLocks" to "true
+  - @DrugsPlus
+    - change "allowcokeenergybuff" to "1"
+  - @PvZmoD_CustomisableZombies
+    - PvZmoD_CustomisableZombies_Characteristics.xml:
+    - PvZmoD_CustomisableZombies_Globals.xml:
+      - change "Zombies_Hit_Players_On_Obstacles_Activated"	"Day" to "0" "Night" to "0"
+      - change "Zombies_Size_Activated" "Day" to "1" "Night" to "1"
+      - change "Zombies_Hearing_Crouching_Players_Ratio" "Day" to "0.6"	"Night" to "0.6"
+      - change "Damages_To_Vehicles		Activated" to "0"
+      - change "Zombies_Throw_Stones_Activated"	"Day"	to "0" "Night to "0"
+    - PvZmoD_Information_Panel.xml
+      - change "Custom_Server_Link" "Value" to "https://discord.gg/UkHvV7j6kf"
+  - @VPPAdminTools
+    - SuperAdmins.txt:
+      - add DirtyHam steamid: "76561198059652382"
+
+
+
+
+Mag_AK101_30Rnd_Black [30rd KA-101 Mag]
+Mag_AK101_30Rnd_Green [30rd KA-101 Mag]
+Mag_AK74_30Rnd_Black [30rd KA-74 Mag]
+Mag_AK74_30Rnd_Green [30rd KA-74 Mag]
+Mag_AKM_Drum75Rnd_Black [75rd KA-M Drum Mag]
+Mag_AKM_Drum75Rnd_Green [75rd KA-M Drum Mag]
+Mag_AKM_Palm30Rnd_Black [30rd KA-M Polymer Mag]
+Mag_AKM_Palm30Rnd_Green [30rd KA-M Polymer Mag]
+Mag_CMAG_10Rnd_Black [10rd Mag-C Magazine]
+Mag_CMAG_10Rnd_Green [10rd Mag-C Magazine]
+Mag_CMAG_20Rnd_Black [20rd Mag-C Magazine]
+Mag_CMAG_20Rnd_Green [20rd Mag-C Magazine]
+Mag_CMAG_30Rnd_Black [30rd Mag-C Magazine]
+Mag_CMAG_30Rnd_Green [30rd Mag-C Magazine]
+Mag_CMAG_40Rnd_Black [40rd Mag-C Magazine]
+Mag_CMAG_40Rnd_Green [40rd Mag-C Magazine]
+AK74_Hndgrd_Black [KA Wooden Handguard]
+AK74_Hndgrd_Camo [KA Wooden Handguard]
+AK74_WoodBttstck_Black [KA Wooden Buttstock]
+AK74_WoodBttstck_Camo [KA Wooden Buttstock]
+AKS74U_Bttstck_Black [KAS-74U Folding Buttstock]
+AKS74U_Bttstck_Green [KAS-74U Folding Buttstock]
+AK_FoldingBttstck_Black [KA Folding Buttstock]
+AK_FoldingBttstck_Green [KA Folding Buttstock]
+AK_PlasticBttstck_Black [KA Polymer Buttstock]
+AK_PlasticBttstck_Green [KA Polymer Buttstock]
+AK_RailHndgrd_Black [KA Rail Handguard]
+AK_RailHndgrd_Green [KA Rail Handguard]
+AK_WoodBttstck_Black [KA Wooden Buttstock]
+AK_WoodBttstck_Camo [KA Wooden Buttstock]
+AK_WoodHndgrd_Black [KA Wooden Handguard]
+AK_WoodHndgrd_Camo [KA Wooden Handguard]
+M4_CQBBttstck_Black [M4-A1 CQB Buttstock]
+M4_CQBBttstck_Green [M4-A1 CQB Buttstock]
+M4_MPBttstck_Black [M4-A1 MP Buttstock]
+M4_MPBttstck_Green [M4-A1 MP Buttstock]
+M4_MPHndgrd_Black [M4-A1 MP Handguard]
+M4_MPHndgrd_Green [M4-A1 MP Handguard]
+M4_OEBttstck_Black [M4-A1 Telescopic Buttstock]
+M4_OEBttstck_Green [M4-A1 Telescopic Buttstock]
+M4_PlasticHndgrd_Black [M4-A1 Polymer Handguard]
+M4_PlasticHndgrd_Green [M4-A1 Polymer Handguard]
+M4_RISHndgrd_Black [M4-A1 Rail Handguard]
+M4_RISHndgrd_Green [M4-A1 Rail Handguard]
+
+
+m4 attachments 	optics
+AK Handguards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <cargo chance="0.27">
+            <item name="Ammo_9x19" chance="1.00" />
+        </cargo>
+
+
+        <attachments chance="0.33">
+            <item name="ZSh3PilotHelmet" chance="1.0" />
+        </attachments>
+
+
+Hook
+
+
+
+<attachments chance="0.6">
+	<item name="MedicalScrubsHat_Green" chance="0.4" />
+	<item name="MedicalScrubsHat_Blue" chance="0.4" />
+	<item name="MedicalScrubsHat_White" chance="0.2" />
+</attachments>
+MedicalScrubsHat_Green
+MedicalScrubsHat_White
+MedicalScrubsHat_Blue
+
+<attachments chance="0.4">
+	<item name="SkateHelmet_Black" chance="0.2" />
+	<item name="SkateHelmet_Blue" chance="0.2" />
+	<item name="SkateHelmet_Gray" chance="0.1" />
+	<item name="SkateHelmet_Green" chance="0.1" />
+	<item name="SkateHelmet_Red" chance="0.4" />
+</attachments>
+
+
+<attachments chance="0.1">
+<item name="LargeGasCanister" chance="0.1" />
+<item name="MediumGasCanister" chance="0.3" />
+<item name="SmallGasCanister" chance="0.6" />
+</attachments>
+
+<attachments chance="0.25">
+<item name="ConstructionHelmet_Blue" chance="0.1" />
+<item name="ConstructionHelmet_Lime" chance="0.3" />
+<item name="ConstructionHelmet_Orange" chance="0.2" />
+<item name="ConstructionHelmet_Red" chance="0.2" />
+<item name="ConstructionHelmet_White" chance="0.1" />
+<item name="ConstructionHelmet_Yellow" chance="0.1" />
+</attachments>
+
+<attachments chance="0.4">
+<item name="ReflexVest" chance="1" />
+</attachments>
+
+
+
+
+<attachments chance="0.7">
+<item name="WitchHood_Red" chance="0.3" />
+<item name="WitchHood_Black" chance="0.7" />
+</attachments>
+
+
