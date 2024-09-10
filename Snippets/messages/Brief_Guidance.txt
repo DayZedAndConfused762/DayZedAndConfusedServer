@@ -1,0 +1,178 @@
+/*
+!========================================================================
+*                   💡 Important Information
+*                       📍 messages.xml
+!========================================================================
+*/
+
+
+How to stack up multiple messages without the merging or overlapping issue that occurs at times
+
+
+💡 ・Source of Information・ 💡
+This is also clearly explained in detail how to use the messages.xml file
+https://community.bistudio.com/wiki/DayZ:Server_Messages
+
+
+📍 ・EXTREMELY IMPORTANT INFORMATION・ 📍
+Before we do anything let's go ahead & remove those "comment-errors" from the file
+So the file is readable by the game or otherwise nothing will function in the file
+▸ At the top of the file you will find "<!--" & one at the bottom of the file "-->"
+▸ Deleting those comment's out of the file, will allow the file to be read by the game
+
+
+/*
+!========================================================================
+*                   💡 Important Information
+*                       📍 CODE BLOCK
+!========================================================================
+*/
+
+
+Anything in between this (Code Block) is what tells the game
+▸ What to display on your screen, how often with delays, repeats etc.
+▸ For more info on how these work relation to the code block you create see the links above
+
+Each "Code Block" is a line of message that appears on your screen as shown below
+The more "Code Block's" the more line of messages
+Use minimal so it reduces the clutter on your screen
+
+
+This is a CODE BLOCK with 1 line of message
+<message>
+    <repeat>15</repeat>
+    <text>
+        Enter your message here to display on screen
+    </text>
+</message>
+
+---------------------------------------------
+
+This has 2 CODE BLOCK's with 2 line of messages
+<message>
+    <repeat>15</repeat>
+    <text>
+        Enter your message here to display on screen 1
+    </text>
+</message>
+
+<message>
+    <repeat>15</repeat>
+    <text>
+        Enter your message here to display on screen 2
+    </text>
+</message>
+
+
+/*
+!========================================================================
+*                   💡 Important Information
+*                       📍 Template
+!========================================================================
+*/
+
+
+Each section can have as many "Code Blocks" as you want.
+I have provided maximum up to 3 lines of messages in a single section.
+
+Section 1 ~ contains 3 lines of messages
+Section 2 ~ contains 2 lines of messages
+Section 3 ~ contains 2 lines of messages
+Section 4 ~ contains a single line of message
+
+
+/*
+!========================================================================
+*                   💡 Important Information
+*                       📍 What To Do
+!========================================================================
+*/
+
+
+All you have to do is download the template & fill in this part [ YOUR MESSAGE ] with what ever you want.
+▸ You can remove the brackets [] or leave them up to you
+▸ You can also add/remove any code blocks from the file to your liking
+▸ Of course changing your deadline value, onconnect value or shutdown sequence to your liking also
+▸ The deadline value is set to 4hrs in the templates
+
+Any questions don't hesitate to @ me in the thread
+
+
+/*
+!========================================================================
+*                   💡 Restart Mechanisms
+*          📍 Messages.xml or Automated Tasks or Kill Feed Bots
+!========================================================================
+*/
+
+
+When using Messages.xml & Automated Tasks alongside Kill Feed Bots, there's a crucial factor to consider
+
+・Messages.xml・
+Messages are unscheduled, meaning they're triggered by the server's restarts
+The timer for these messages resets every time you restart the server, regardless of the current time
+Once the timer hits 10 hours, the server automatically shuts down & won't restart until you manually initiate the restart
+
+・Automated Tasks・
+In contrast, Automated Tasks are scheduled & rely on specific times that you set
+They don't depend on server restarts but rather execute based on the schedule you define
+
+・Kill Feed Bots・
+Kill Feed Bots offer various commands to ensure the continuous operation of your server, including automated restarts
+
+
+Understanding this difference is important for coordinating various server activities & ensuring smooth operation without conflicts
+
+
+/*
+!========================================================================
+*                   💡 Combining Restart Schedules
+*          📍 Messages.xml or Automated Tasks or Kill Feed Bots
+!========================================================================
+*/
+
+
+⚠️This method is not reliable⚠️
+
+Using Messages & Automated Tasks Together
+▸ Are not reliable nor the timer can be aligned/synced to work together
+
+Each time you stop the server to make edits to your files, it affects the timer recorded in the messages file.
+So, when you eventually restart the server, the duration of time you were offline gets added to the timer.
+This means that the longer you stay offline making changes, the more the timer gets out of sync or misaligned.
+Therefore, frequent stopping & restarting of the server can lead to the timer becoming unsynchronized or misaligned over time.
+
+
+✅ This method is reliable ✅
+
+Using Messages & Kill Feed Bot Together
+▸ Enabling the Auto Restart command from your Kill Feed Bot provides a reliable way to keep your server online
+▸ Even if it goes down unexpectedly
+▸ This feature ensures that your server remains operational without requiring manual intervention for restarts
+
+However, it's essential to note that while this automated system helps maintain server uptime
+There may still be occasions when manual intervention is necessary
+Such as when the hosting service experiences downtime or requires manual restarts
+
+
+/*
+!========================================================================
+* ✨✨✨✨ Bhaalshad's Coding 101 DayZ Server ✨✨✨✨
+*                   ✨ Credits ✨
+!========================================================================
+*/
+
+Author : Deniz The Menace®️
+Source : http://bhaalshad.com
+
+For More Help / Files For DayZ Come Visit Us At http://bhaalshad.com
+If You Upload This To Another Discord Or Webpage
+Please Leave Filename Intact & Don't Take Credit As Your Own.
+Thank You & Enjoy :)
+
+/*
+!========================================================================
+*                   ✨ Credits ✨
+* ✨✨✨✨ Bhaalshad's Coding 101 DayZ Server ✨✨✨✨
+!========================================================================
+*/

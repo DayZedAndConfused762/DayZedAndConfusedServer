@@ -1,0 +1,6381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<damage min="0.1" max="0.1" />
+<!-- added or changed -->
+<!--
+this chest is meant to be a starter chest for new 
+character spawns and testing. make changes to it as needed.
+-->
+<!-- added 1.14 -->
+ <type name="AmmoBox">
+        <cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>            
+        <cargo chance="0.20"> <item name="AmmoBox_9x39_20Rnd" /> </cargo>            
+        <cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>            
+        <cargo chance="0.10"> <item name="AmmoBox_9x39AP_20Rnd" /> </cargo>    
+        <cargo chance="0.25"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>            
+        <cargo chance="0.25"> <item name="AmmoBox_308Win_20Rnd" /> </cargo>            
+        <cargo chance="0.15"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>            
+        <cargo chance="0.15"> <item name="AmmoBox_308WinTracer_20Rnd" /> </cargo>    
+        <cargo chance="0.25"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>            
+        <cargo chance="0.25"> <item name="AmmoBox_762x54_20Rnd" /> </cargo>                
+        <cargo chance="0.15"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>            
+        <cargo chance="0.15"> <item name="AmmoBox_762x54Tracer_20Rnd" /> </cargo>    
+        <cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_545x39_20Rnd" /> </cargo>            
+        <cargo chance="0.25"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>            
+        <cargo chance="0.25"> <item name="AmmoBox_545x39Tracer_20Rnd" /> </cargo>        
+        <cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_556x45_20Rnd" /> </cargo>        
+    
+        <cargo chance="0.25"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>            
+        <cargo chance="0.25"> <item name="AmmoBox_556x45Tracer_20Rnd" /> </cargo>        
+        <cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>            
+        <cargo chance="0.5"> <item name="AmmoBox_762x39_20Rnd" /> </cargo>        
+        <cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>            
+        <cargo chance="0.25"> <item name="AmmoBox_762x39Tracer_20Rnd" /> </cargo>
+    </type>
+    <type name="AirborneMask">
+        <cargo chance="0.2">
+            <item name="GasMask_Filter" />
+        </cargo>
+    </type>
+    <type name="GP5GasMask">
+        <cargo chance="0.2">
+            <item name="GasMask_Filter" />
+        </cargo>
+    </type>
+<!-- NBC -->
+    <type name="ZmbM_NBC_Grey">
+        <cargo preset="ContaminatedCargo" />
+        <cargo chance="0.03">
+            <item name="AntiChemInjector" chance="1.0" />
+        </cargo>
+    </type>
+    <type name="ZmbM_NBC_Yellow">
+        <cargo preset="ContaminatedCargo" />
+        <cargo chance="0.01">
+            <item name="AntiChemInjector" chance="1.0" />
+        </cargo>
+    </type>
+    <type name="FAMAS">
+        <attachments chance="0.75">
+            <item name="Mag_FAMAS_25Rnd" chance="1.0" />
+        </attachments>
+    </type>
+	<!-- end -->
+	<type name="SeaChest">
+ 		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="1">
+			<item name="VitaminBottle" />
+		</cargo>
+		<cargo chance="1">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>
+		<cargo chance="1">
+			<item name="Rice" />
+		</cargo>
+		<cargo chance="1">
+			<item name="SodaCan_Kvass" />
+		</cargo>		
+        <attachments chance="1.00">
+            <item name="Sword" chance="1.00" />
+        </attachments>	
+        <attachments chance="1.00">
+            <item name="AssaultBag_Black" chance="1.00" />
+        </attachments>	
+		<cargo chance="1">
+			<item name="USMCJacket_Woodland" />
+		</cargo>
+		<cargo chance="1">
+			<item name="USMCPants_Woodland" />
+		</cargo>
+		<cargo chance="1">
+			<item name="MilitaryBoots_Black" />
+		</cargo>
+		<cargo chance="1">
+			<item name="MilitaryBelt" />
+		</cargo>
+		<cargo chance="1">
+			<item name="canteen" />
+		</cargo>
+		<unique />
+	</type>
+<type name="BUISOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="M68Optic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="M4_T3NRDSOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="FNP45_MRDSOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="ReflexOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="ACOGOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="PUScopeOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="KashtanOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="LongrangeOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="HuntingOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="PistolOptic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="PSO1Optic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+<type name="PSO11Optic">		
+	<attachments>
+		<item name="Battery9V" />
+	</attachments>
+</type>
+	
+<type name="MilitaryBelt">
+		<attachments chance="1.00">
+			<item name="NylonKnifeSheath" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CombatKnife" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Canteen" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PlateCarrierHolster" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FNX45" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="NVGHeadstrap">
+		<attachments chance="1.00">
+			<item name="NVGoggles" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Mich2001Helmet">
+		<attachments chance="1.00">
+			<item name="NVGoggles" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+<type name="PlateCarrierVest">
+		<attachments chance="1.00">
+			<item name="PlateCarrierHolster" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PlateCarrierPouches" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MakarovIJ70">
+		<attachments>
+			<item name="Mag_IJ70_8Rnd" />
+		</attachments>
+	</type>
+	<type name="MKII">
+		<attachments>
+			<item name="Mag_MKII_10Rnd" />
+		</attachments>
+	</type>
+	<type name="CZ75">
+		<attachments>
+			<item name="Mag_CZ75_15Rnd" />
+		</attachments>
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+		<attachments>
+			<item name="TLRLight" />
+		</attachments>
+	</type>
+	<type name="Glock19">
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+		<attachments>
+			<item name="TLRLight" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Glock_15Rnd" />
+		</attachments>
+	</type>
+	<type name="FNX45">
+		<attachments>
+			<item name="Mag_FNX45_15Rnd" />
+		</attachments>
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+		<attachments>
+			<item name="TLRLight" />
+		</attachments>
+		<attachments>
+			<item name="FNP45_MRDSOptic" />
+		</attachments>
+	</type>
+	<type name="CZ61">
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_CZ61_20Rnd" />
+		</attachments>
+	</type>
+	<type name="MP5K">
+		<attachments>
+			<item name="MP5_PlasticHndgrd" />
+		</attachments>
+		<attachments>
+			<item name="MP5k_StockBttstck" />
+		</attachments>
+		<attachments>
+			<item name="Mag_MP5_30Rnd" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+	</type>
+	<type name="UMP45">
+		<attachments>
+			<item name="Mag_UMP_25Rnd" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+		<attachments>
+			<item name="TLRLight" />
+		</attachments>
+	</type>
+	<type name="VSS">
+		<attachments>
+			<item name="PSO1Optic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_VSS_10Rnd" />
+		</attachments>
+	</type>	
+	<type name="ASVAL">
+		<attachments>
+			<item name="Mag_VAL_20Rnd" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>	
+		<attachments>
+			<item name="TLRLight" />
+		</attachments>
+	</type>
+	<type name="CZ527">
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_CZ527_5rnd" />
+		</attachments>
+	</type>
+	<type name="Winchester70">
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+	</type>
+	<type name="Mosin9130">
+		<attachments>
+			<item name="Mosin_Compensator" />
+		</attachments>
+		<attachments>
+			<item name="PUScopeOptic" />
+		</attachments>
+	</type>
+	<type name="SKS">
+		<attachments>
+			<item name="PUScopeOptic" />
+		</attachments>
+	</type>
+	<type name="AKM">
+		<attachments>
+			<item name="AK_PlasticBttstck" />
+		</attachments>
+		<attachments>
+			<item name="AK74_Hndgrd" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="AK_Suppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_30Rnd" />
+		</attachments>
+	</type>
+	<type name="AKM_TESTBED">
+		<attachments>
+			<item name="AK_PlasticBttstck" />
+		</attachments>
+		<attachments>
+			<item name="AK74_Hndgrd" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="AK_Suppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AKM_Drum75Rnd" />
+		</attachments>
+	</type>	
+	<type name="AK74">
+		<attachments>
+			<item name="AK_PlasticBttstck" />
+		</attachments>
+		<attachments>
+			<item name="AK_PlasticHndgrd" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="AK_Suppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AK74_30Rnd" />
+		</attachments>
+	</type>
+	<type name="AKS74U">
+		<attachments>
+			<item name="AK_PlasticBttstck" />
+		</attachments>
+		<attachments>
+			<item name="AK_Suppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AK74_30Rnd" />
+		</attachments>
+	</type>
+	<type name="AK101">
+		<attachments>
+			<item name="AK_PlasticBttstck" />
+		</attachments>
+		<attachments>
+			<item name="AK_PlasticHndgrd" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+		<attachments>
+			<item name="AK_Suppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_AK101_30Rnd" />
+		</attachments>
+	</type>
+	<type name="M4A1">
+		<attachments>
+			<item name="M4_OEBttstck" />
+		</attachments>
+		<attachments>
+			<item name="M4_PlasticHndgrd" />
+		</attachments>
+		<attachments>
+			<item name="M4_CarryHandleOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_STANAGCoupled_30Rnd" />
+		</attachments>
+		<attachments chance="1">
+			<item name="M4_Suppressor" />
+		</attachments>		
+	</type>
+	<type name="FAL">
+		<attachments>
+			<item name="Fal_OeBttstck" />
+		</attachments>
+		<attachments>
+			<item name="ACOGOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_FAL_20Rnd" />
+		</attachments>
+	</type>
+	<type name="SVD">
+		<subcounter min="30" max="60" />
+		<attachments>
+			<item name="Mag_SVD_10Rnd" />
+		</attachments>
+		<attachments>
+			<item name="PSO11Optic" />
+		</attachments>
+	</type>
+	<type name="Colt1911">
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_1911_7Rnd" />
+		</attachments>
+	</type>
+	<type name="Engraved1911">
+		<attachments>
+			<item name="PistolSuppressor" />
+		</attachments>
+		<attachments>
+			<item name="Mag_1911_7Rnd" />
+		</attachments>
+	</type>
+	<type name="B95">
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+	</type>
+	<type name="Saiga">
+		<attachments>
+			<item name="Saiga_Bttstck" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Saiga_Drum20Rnd" />
+		</attachments>
+	</type>
+	<type name="Ruger1022">
+		<attachments>
+			<item name="HuntingOptic" />
+		</attachments>
+		<attachments>
+			<item name="Mag_Ruger1022_30Rnd" />
+		</attachments>
+	</type>
+	<type name="Deagle">
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Deagle_Gold">
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Scout">
+		<attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="ACOGOptic_6x" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Chernarus">
+		<attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="ACOGOptic_6x" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+	<type name="Scout_Livonia">
+		<attachments chance="1.00">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_T3NRDSOptic" chance="0.25" />
+			<item name="M68Optic" chance="0.25" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="ACOGOptic_6x" chance="0.25" />
+			<item name="M4_Suppressor" chance="0.25" />
+		</attachments>
+	</type>
+    <type name="M16A2">
+        <attachments chance="1.00">
+            <item name="Mag_CMAG_40Rnd" chance="0.20" />
+            <item name="Mag_CMAG_10Rnd" chance="0.50" />
+            <item name="Mag_CMAG_20Rnd" chance="0.70" />
+            <item name="Mag_CMAG_30Rnd" chance="1.00" />
+        </attachments>
+    </type>
+	<type name="BaseRadio">
+		 <attachments chance="1.00">
+			<item name="CarBattery" />
+		</attachments>
+	</type>
+	<type name="Land_Radio_PanelPAS">
+		<attachments>
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+	</type>	
+<type name="Truck_01_Covered">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Hood" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Barrel_Yellow" chance="1.00" />
+		</attachments>		
+
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenCrate" chance="1.00" />
+		</attachments>
+
+		<attachments chance="1.00">
+			<item name="WoodenLog" chance="1.00" /><!-- 1 log per entry -->
+		</attachments>
+		<attachments chance="1.00">
+			<item name="WoodenPlank" chance="1.00" /><!-- 10 planks per entry -->
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MetalPlate" chance="1.00" /><!-- 10 plates per entry -->
+		</attachments>
+
+				<attachments chance="1.00">
+					<item name="CanisterGasoline" chance="1.00" />
+				</attachments>
+				<attachments chance="1.00">
+					<item name="CanisterGasoline" chance="1.00" />
+				</attachments>
+	</type>
+	<type name="Truck_01_Covered_Blue">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Hood_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_1_1_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_2_1_Blue" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">
+					<item name="CanisterGasoline" chance="1.00" />
+				</attachments>			
+				<attachments chance="1.00">
+					<item name="CanisterGasoline" chance="1.00" />
+				</attachments>
+				<attachments chance="1.00">
+					<item name="rice" chance="1.00" />
+				</attachments>
+
+				<attachments chance="1.00">
+					<item name="TruckBattery" chance="1.00" />
+				</attachments>		
+	</type>
+	<type name="Truck_01_Covered_Orange">
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_WheelDouble" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Hood_Orange" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_1_1_Orange" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Truck_01_Door_2_1_Orange" chance="1.00" />
+		</attachments>
+				<attachments chance="1.00">
+					<item name="CanisterGasoline" chance="1.00" />
+				</attachments>			
+				<attachments chance="1.00">
+					<item name="CanisterGasoline" chance="1.00" />
+				</attachments>
+				<attachments chance="1.00">
+					<item name="rice" chance="1.00" />
+				</attachments>
+
+				<attachments chance="1.00">
+					<item name="TruckBattery" chance="1.00" />
+				</attachments>		
+	</type>	
+	<type name="ChainSaw">
+		<attachments>
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="PowerGenerator">
+		<attachments>
+			<item name="SparkPlug" />
+		</attachments>	
+	</type>	
+	<type name="Headtorch_Black">
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>	
+	</type>	
+	<type name="NVGoggles">
+		<attachments>
+			<item name="Battery9V" />
+		</attachments>	
+	</type>
+<type name="SurvivorF_Eva"><!-- 1 -->
+	<attachments>
+		<item name="MilitaryBeret_ChDKZ" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Desert" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Desert" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_OEBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_RISHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_STANAG_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorF_Maria"><!-- 2 -->
+	<attachments>
+		<item name="MilitaryBeret_NZ" />
+	</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TTSKOPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Olive" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FAL" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Fal_FoldingBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FAL_20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorF_Irena"><!-- 3 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Woodland" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AKM"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_RailHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AKM_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>
+
+
+<type name="SurvivorF_Naomi"><!-- 4 -->
+	<attachments>
+		<item name="MilitaryBeret_Red" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="ZmbM_Jacket_black" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FNX45"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FNX45_15Rnd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PistolSuppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="TLRLight" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="FNP45_MRDSOptic" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorF_Gabi"><!-- 5 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="PrisonUniformJacket" />
+	</attachments>
+	<attachments>
+		<item name="PrisonUniformPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_PlasticBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AK101_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorF_Linda"><!-- 6 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="Saiga"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Saiga_Bttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_Saiga_Drum20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type> 	
+<type name="SurvivorF_Keiko"><!-- 7 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="NylonKnifeSheath" />
+	</attachments>
+	<attachments>
+		<item name="CombatKnife" />
+	</attachments>		
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1_Green" />
+	</attachments>
+	<attachments>
+		<item name="ACOGOptic" />
+	</attachments>
+	<attachments>
+		<item name="M4_CQBBttstck" />
+	</attachments>
+	<attachments>
+		<item name="M4_RISHndgrd_Green" />
+	</attachments>
+	<attachments>
+		<item name="M4_Suppressor" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>	
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="LargeTent" />
+	</attachments>
+	<attachments>
+		<item name="PlateCarrierHolster" />
+	</attachments>	
+	<attachments>
+		<item name="Canteen" />
+	</attachments>	
+</type>
+<type name="SurvivorF_Frida"><!-- 8 -->
+	<attachments>
+		<item name="MilitaryBeret_ChDKZ" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Desert" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Desert" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_OEBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_RISHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_STANAG_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorF_Helga"><!-- 9 -->
+	<attachments>
+		<item name="MilitaryBeret_NZ" />
+	</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TTSKOPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Olive" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FAL" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Fal_FoldingBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FAL_20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorF_Judy"><!-- 10 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Woodland" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AKM"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_RailHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AKM_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>
+
+
+<type name="SurvivorM_Boris"><!-- 11 -->
+	<attachments>
+		<item name="MilitaryBeret_Red" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="ZmbM_Jacket_black" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FNX45"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FNX45_15Rnd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PistolSuppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="TLRLight" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="FNP45_MRDSOptic" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorM_Cyril"><!-- 12 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="PrisonUniformJacket" />
+	</attachments>
+	<attachments>
+		<item name="PrisonUniformPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_PlasticBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AK101_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorM_Denis"><!-- 13 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="Saiga"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Saiga_Bttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_Saiga_Drum20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type> 	
+<type name="SurvivorM_Elias"><!-- 14 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="NylonKnifeSheath" />
+	</attachments>
+	<attachments>
+		<item name="CombatKnife" />
+	</attachments>		
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1_Green" />
+	</attachments>
+	<attachments>
+		<item name="ACOGOptic" />
+	</attachments>
+	<attachments>
+		<item name="M4_CQBBttstck" />
+	</attachments>
+	<attachments>
+		<item name="M4_RISHndgrd_Green" />
+	</attachments>
+	<attachments>
+		<item name="M4_Suppressor" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>	
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="PlateCarrierHolster" />
+	</attachments>	
+	<attachments>
+		<item name="Canteen" />
+	</attachments>	
+</type>	
+<type name="SurvivorM_Francis"><!-- 15 -->
+	<attachments>
+		<item name="MilitaryBeret_ChDKZ" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Desert" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Desert" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_OEBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_RISHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_STANAG_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorM_Guo"><!-- 16 -->
+	<attachments>
+		<item name="MilitaryBeret_NZ" />
+	</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TTSKOPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Olive" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FAL" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Fal_FoldingBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FAL_20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorM_Hassan"><!-- 17 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Woodland" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AKM"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_RailHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AKM_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>
+<type name="SurvivorM_Indar"><!-- 18 -->
+	<attachments>
+		<item name="MilitaryBeret_Red" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="ZmbM_Jacket_black" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FNX45"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FNX45_15Rnd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PistolSuppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="TLRLight" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="FNP45_MRDSOptic" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorM_Jose"><!-- 19 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="PrisonUniformJacket" />
+	</attachments>
+	<attachments>
+		<item name="PrisonUniformPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_PlasticBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AK101_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorM_Kaito"><!-- 20 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="Saiga"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Saiga_Bttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_Saiga_Drum20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type> 	
+<type name="SurvivorM_Lewis"><!-- 21 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="NylonKnifeSheath" />
+	</attachments>
+	<attachments>
+		<item name="CombatKnife" />
+	</attachments>		
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1_Green" />
+	</attachments>
+	<attachments>
+		<item name="ACOGOptic" />
+	</attachments>
+	<attachments>
+		<item name="M4_CQBBttstck" />
+	</attachments>
+	<attachments>
+		<item name="M4_RISHndgrd_Green" />
+	</attachments>
+	<attachments>
+		<item name="M4_Suppressor" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>	
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="PlateCarrierHolster" />
+	</attachments>	
+	<attachments>
+		<item name="Canteen" />
+	</attachments>	
+</type>	
+<type name="SurvivorM_Manua"><!-- 22 -->
+	<attachments>
+		<item name="MilitaryBeret_ChDKZ" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Desert" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Desert" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_OEBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="M4_RISHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_STANAG_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorM_Mirek"><!-- 23 -->
+	<attachments>
+		<item name="MilitaryBeret_NZ" />
+	</attachments>
+		<attachments>
+			<item name="NVGHeadstrap" />
+	</attachments>
+	<attachments>
+		<item name="TTsKOJacket_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TTSKOPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Olive" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FAL" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Fal_FoldingBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="ACOGOptic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FAL_20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>	
+<type name="SurvivorM_Niki"><!-- 24 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="USMCJacket_Woodland" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AKM"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_RailHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AKM_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>	
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+</type>
+<type name="SurvivorM_Oliver"><!-- 25 -->
+	<attachments>
+		<item name="MilitaryBeret_Red" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="ZmbM_Jacket_black" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FNX45"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FNX45_15Rnd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PistolSuppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="TLRLight" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="FNP45_MRDSOptic" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorM_Peter"><!-- 26 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="PrisonUniformJacket" />
+	</attachments>
+	<attachments>
+		<item name="PrisonUniformPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_PlasticBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AK101_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorM_Quinn"><!-- 27 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Camo" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Green" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="Saiga"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Saiga_Bttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_Saiga_Drum20Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RDG2SmokeGrenade_Black" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+		<attachments>
+			<item name="RGD5Grenade" />
+		</attachments>
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type> 	
+<type name="SurvivorM_Rolf"><!-- 28 -->
+	<attachments>
+		<item name="MilitaryBeret_CDF" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="BDUJacket" />
+	</attachments>
+	<attachments>
+		<item name="BDUPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="NylonKnifeSheath" />
+	</attachments>
+	<attachments>
+		<item name="CombatKnife" />
+	</attachments>		
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Beige" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="M4A1_Green" />
+	</attachments>
+	<attachments>
+		<item name="ACOGOptic" />
+	</attachments>
+	<attachments>
+		<item name="M4_CQBBttstck" />
+	</attachments>
+	<attachments>
+		<item name="M4_RISHndgrd_Green" />
+	</attachments>
+	<attachments>
+		<item name="M4_Suppressor" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="Mag_STANAGCoupled_30Rnd" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>	
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+	<attachments>
+		<item name="PlateCarrierHolster" />
+	</attachments>	
+	<attachments>
+		<item name="Canteen" />
+	</attachments>	
+</type>	
+<type name="SurvivorM_Seth"><!-- 29 -->
+	<attachments>
+		<item name="MilitaryBeret_Red" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="ZmbM_Jacket_black" />
+	</attachments>
+	<attachments>
+		<item name="USMCPants_Woodland" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Black" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="FNX45"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_FNX45_15Rnd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PistolSuppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="TLRLight" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="FNP45_MRDSOptic" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+<type name="SurvivorM_Taiki"><!-- 30 -->
+	<attachments>
+		<item name="MilitaryBeret_UN" />
+	</attachments>
+	<attachments>
+		<item name="NVGHeadstrap" />
+	</attachments>	
+	<attachments>
+		<item name="PrisonUniformJacket" />
+	</attachments>
+	<attachments>
+		<item name="PrisonUniformPants" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBoots_Black" />
+	</attachments>	
+	<attachments>
+		<item name="HighCapacityVest_Black" />
+	</attachments>
+	<attachments>
+		<item name="AliceBag_Green" />
+	</attachments>
+	<attachments>
+		<item name="TacticalGloves_Black" />
+	</attachments>	
+	<attachments>
+		<item name="MilitaryBelt" />
+	</attachments>	
+	<attachments>
+		<item name="AK101"/>
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_PlasticBttstck" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_WoodHndgrd" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="PSO11Optic" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="AK_Suppressor" chance="1.00" />
+	</attachments>
+	<attachments chance="1.00">
+		<item name="Mag_AK101_30Rnd" chance="1.00" />
+	</attachments>
+	<attachments>
+		<item name="Sword" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RDG2SmokeGrenade_Black" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>
+	<attachments>
+		<item name="RGD5Grenade" />
+	</attachments>	
+				<attachments>
+					<item name="BloodTestKit" />
+				</attachments>
+				<attachments>
+					<item name="BandageDressing" />
+				</attachments>
+				<attachments>
+					<item name="Rice" />
+				</attachments>
+				<attachments>
+					<item name="SodaCan_Cola" />
+				</attachments>				
+				
+</type>
+	<type name="FirstAidKit">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="1">
+			<item name="BloodTestKit" />
+		</cargo>
+		<cargo chance="1">
+			<item name="StartKitIV" />
+		</cargo>
+			<cargo chance="1">
+			<item name="VitaminBottle" />
+		</cargo>
+		<cargo chance="1">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>	
+	</type>	
+	<type name="OffroadHatchback">
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_Driver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_CoDriver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackHood" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackTrunk" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="OffroadHatchback_Blue">
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_Driver_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_CoDriver_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackHood_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackTrunk_Blue" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="OffroadHatchback_White">
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_Driver_White" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_CoDriver_White" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackHood_White" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackTrunk_White" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- -->
+	<type name="CivilianSedan">
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_Driver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_CoDriver" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackLeft" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackRight" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanHood" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanTrunk" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="CivilianSedan_Wine">
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_Driver_Wine" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_CoDriver_Wine" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackLeft_Wine" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackRight_Wine" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanHood_Wine" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanTrunk_Wine" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="CivilianSedan_Black">
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_Driver_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_CoDriver_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackLeft_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanDoors_BackRight_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanHood_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CivSedanTrunk_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- -->
+	<type name="Hatchback_02">
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Hood" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Trunk" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hatchback_02_Black">
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_1_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_2_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_1_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_2_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Hood_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Trunk_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Hatchback_02_Blue">
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_1_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_2_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_1_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_2_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Hood_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Trunk_Blue" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- -->
+	<type name="Sedan_02">
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_1_2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_2_2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Hood" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Trunk" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sedan_02_Red">
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sedan_02_Door_1_1_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_1_2_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_2_1_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_2_2_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Hood_Red" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Trunk_Red" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Sedan_02_Grey">
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sedan_02_Door_1_1_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_1_2_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_2_1_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Door_2_2_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Hood_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Sedan_02_Trunk_Grey" chance="1.00" />
+		</attachments>
+	</type>	
+<!-- end added or changed -->
+	
+	<type name="Barrel_Blue">
+		<hoarder />
+	</type>
+	<type name="Barrel_Green">
+		<hoarder />
+	</type>
+	<type name="Barrel_Red">
+		<hoarder />
+	</type>
+	<type name="Barrel_Yellow">
+		<hoarder />
+	</type>
+	<type name="CarTent">
+		<hoarder />
+	</type>
+	<type name="LargeTent">
+		<hoarder />
+	</type>
+	<type name="MediumTent">
+		<hoarder />
+	</type>
+	<type name="MediumTent_Green">
+		<hoarder />
+	</type>
+	<type name="MediumTent_Orange">
+		<hoarder />
+	</type>
+	<type name="PartyTent">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Blue">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Brown">
+		<hoarder />
+	</type>
+	<type name="PartyTent_Lunapark">
+		<hoarder />
+	</type>
+	<type name="SmallProtectorCase">
+		<hoarder />
+	</type>
+	<type name="UndergroundStash">
+		<hoarder />
+	</type>
+	<type name="WoodenCrate">
+		<hoarder />
+	</type>
+	<type name="AssaultBag_Ttsko">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="AssaultBag_Black">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="AssaultBag_Green">
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="DryBag_Orange">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Yellow">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="DryBag_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingBag">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="MountainBag_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="MountainBag_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="MountainBag_Orange">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="MountainBag_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SmershBag">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ChildBag_Green">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ChildBag_Red">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ChildBag_Blue">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="TaloonBag_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TaloonBag_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TaloonBag_Orange">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TaloonBag_Violet">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TortillaBag">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Bear_Beige">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Bear_Dark">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Bear_Pink">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="Bear_White">
+		<cargo chance="0.00">
+			<item name="Paper" chance="0.50" />
+			<item name="Rag" chance="0.50" />
+		</cargo>
+	</type>
+	<type name="ShortJeans_Black">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ShortJeans_Blue">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ShortJeans_Brown">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ShortJeans_Darkblue">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ShortJeans_Green">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="ShortJeans_Red">
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="CargoPants_Beige">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+	<type name="CargoPants_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+	<type name="CargoPants_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+	<type name="CargoPants_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+	<type name="CargoPants_Grey">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+	<type name="TTSKOPants">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="HuntingJacket_Autumn">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Brown">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Spring">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Summer">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HuntingJacket_Winter">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HunterPants_Autumn">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HunterPants_Brown">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HunterPants_Spring">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HunterPants_Summer">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="HunterPants_Winter">
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="CanvasPants_Beige">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPants_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPants_Grey">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPants_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPants_Violet">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPantsMidi_Beige">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPantsMidi_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPantsMidi_Grey">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPantsMidi_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="CanvasPantsMidi_Violet">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitPants_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitPants_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitPants_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitPants_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitPants_LightBlue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="GorkaPants_Summer">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="GorkaPants_Autumn">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="GorkaPants_Flat">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="GorkaPants_PautRev">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="ParamedicJacket_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="ParamedicJacket_Crimson">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="ParamedicJacket_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="ParamedicPants_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="ParamedicPants_Crimson">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="ParamedicPants_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="MedicalScrubsPants_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="MedicalScrubsPants_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="MedicalScrubsPants_White">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="USMCPants_Desert">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="USMCPants_Woodland">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SlacksPants_Beige">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlacksPants_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlacksPants_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlacksPants_Brown">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlacksPants_DarkGrey">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlacksPants_Khaki">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlacksPants_LightGrey">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="SlacksPants_White">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Pink">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_White">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Browncheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Blackcheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Beige">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Breeches_Beetcheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BDUPants">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="NBCPantsGray">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsMedic" />
+		<cargo chance="0.20">
+			<item name="Mag_FNX45_15Rnd" chance="0.14" />
+			<item name="Ammo_762x54" chance="0.14" />
+			<item name="Ammo_762x39" chance="0.14" />
+		</cargo>
+	</type>
+	<type name="Sweater_Gray">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Sweater_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Sweater_Green">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Sweater_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Shirt_BlueCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Shirt_BlueCheckBright">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Shirt_GreenCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Shirt_RedCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Shirt_WhiteCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Shirt_PlaneBlack">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Hoodie_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Hoodie_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Hoodie_Brown">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Hoodie_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Hoodie_Grey">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Hoodie_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TacticalShirt_Grey">
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="TacticalShirt_Black">
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="TacticalShirt_Olive">
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="TacticalShirt_Tan">
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="HikingJacket_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="HikingJacket_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="HikingJacket_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="HikingJacket_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Raincoat_Orange">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Raincoat_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Raincoat_Yellow">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Raincoat_Pink">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Raincoat_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Raincoat_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Raincoat_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="M65Jacket_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="M65Jacket_Khaki">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="M65Jacket_Tan">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="M65Jacket_Olive">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="TTsKOJacket_Camo">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="GorkaEJacket_Summer">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="GorkaEJacket_Flat">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="GorkaEJacket_Autumn">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="GorkaEJacket_PautRev">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="RidersJacket_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_Beige">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_RedCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_BlackCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_BlueCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_GreyCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="WoolCoat_BrownCheck">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitJacket_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitJacket_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitJacket_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitJacket_LightBlue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="TrackSuitJacket_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="FirefighterJacket_Beige">
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="FirefighterJacket_Black">
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="FirefightersPants_Beige">
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="FirefightersPants_Black">
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PoliceJacket">
+		<cargo preset="ammoPolice" />
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PolicePants">
+		<cargo preset="ammoPolice" />
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PoliceJacketOrel">
+		<cargo preset="ammoPolice" />
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PolicePantsOrel">
+		<cargo preset="ammoPolice" />
+		<cargo preset="toolsPolice" />
+	</type>
+	<type name="PrisonUniformJacket">
+		<cargo chance="0.10">
+			<item name="Rope" chance="0.14" />
+		</cargo>
+	</type>
+	<type name="PrisonUniformPants">
+		<cargo chance="0.10">
+			<item name="Rope" chance="0.14" />
+		</cargo>
+	</type>
+	<type name="MiniDress_Pink">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="MiniDress_PinkChecker">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="MiniDress_RedChecker">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="MiniDress_WhiteChecker">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="MiniDress_GreenChecker">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="MiniDress_BrownChecker">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="MiniDress_BlueChecker">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="MiniDress_BlueWithDots">
+		<cargo chance="0.10">
+			<item name="Ammo_9x19" chance="0.20" />
+			<item name="Ammo_380" chance="0.20" />
+		</cargo>
+	</type>
+	<type name="QuiltedJacket_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="QuiltedJacket_Green">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="QuiltedJacket_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="QuiltedJacket_Red">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="QuiltedJacket_Grey">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="QuiltedJacket_Orange">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="QuiltedJacket_Yellow">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="QuiltedJacket_Violet">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BomberJacket_Black">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BomberJacket_Brown">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BomberJacket_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BomberJacket_Grey">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BomberJacket_Maroon">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BomberJacket_Olive">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="BomberJacket_SkyBlue">
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="MedicalScrubsShirt_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="MedicalScrubsShirt_Green">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="MedicalScrubsShirt_White">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="LabCoat">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="NurseDress_White">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="NurseDress_Blue">
+		<cargo preset="toolsMedic" />
+	</type>
+	<type name="USMCJacket_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="USMCJacket_Woodland">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+	</type>
+	<type name="Blouse_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Blouse_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Blouse_Violet">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="Blouse_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+	</type>
+	<type name="NBCJacketGray">
+	</type>
+	<type name="DirtBikeHelmet_Black">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Red">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Police">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Khaki">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Green">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Chernarus">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="DirtBikeHelmet_Blue">
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="DirtBikeHelmet_Visor" chance="1.00" />
+		</attachments>
+	</type>
+
+	<!-- START OF ZOMBIES  -->
+	<!-- ARMY -->
+	<type name="ZmbM_PatrolNormal_Autumn">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Flat">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_PatrolNormal_PautRev">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Summer">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_SoldierNormal">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_usSoldier_normal_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_usSoldier_normal_Woodland">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+	</type>	
+	<!-- City -->
+	<type name="ZmbF_Clerk_Normal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_CitizenBSkinny">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_JournalistNormal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_checks">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_stripes">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_white">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_ShortSkirt_yellow">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Striped">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Violet">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Orange">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_ClerkFat_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_ClerkFat_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_ClerkFat_Khaki">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_ClerkFat_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Olive">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+	</type>
+	<type name="ZmbM_Jacket_beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_bluechecks">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_greenchecks">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_khaki">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_magenta">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_Jacket_stripes">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="bagsCity" />
+	</type>
+	<type name="ZmbM_JournalistSkinny">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsMotorbike" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsMotorbike" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsMotorbike" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="bagsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+	</type>
+	<!-- Industrial -->
+	<type name="ZmbF_BlueCollarFat_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Orange">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HeavyIndustryWorker">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Orange">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Yellow">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		
+		<attachments preset="hatsIndustrial" />
+		<attachments preset="bagsIndustrial" />
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<!-- FireFighter -->
+	<type name="ZmbM_FirefighterNormal">
+		<cargo preset="toolsCity" />
+		<attachments preset="hatsFirefighter" />
+		<attachments preset="ZombieItemDropFirefighter" />
+	</type>
+	<!-- Medic -->
+	<type name="ZmbF_DoctorSkinny">
+		<cargo preset="toolsMedic" />
+		<attachments preset="hatsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_NurseFat">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Blue">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Green">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Red">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_PatientOld">
+		<cargo preset="toolsMedic" />
+		
+	</type>
+	<type name="ZmbM_DoctorFat">
+		<cargo preset="toolsMedic" />
+		<attachments preset="hatsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Black">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Blue">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Green">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Red">
+		<cargo preset="toolsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_PatientSkinny">
+		<cargo preset="toolsMedic" />
+		
+	</type>
+	<!-- Police -->
+	<type name="ZmbF_PoliceWomanNormal">
+		<cargo preset="toolsPolice" />
+		<attachments preset="ZombieAmmoDropPolice" />
+		<attachments preset="hatsPolice" />
+		<attachments preset="vestsPolice" />
+	</type>
+	<type name="ZmbM_PolicemanFat">
+		<cargo preset="toolsPolice" />
+		<attachments preset="ZombieAmmoDropPolice" />
+		<attachments preset="hatsPolice" />
+		<attachments preset="vestsPolice" />
+	</type>
+	<type name="ZmbM_PolicemanSpecForce">
+		<cargo preset="foodArmy" />
+		<attachments>
+			<item name="BallisticHelmet_Black" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="AliceBag_Black" />
+		</attachments>
+		<attachments>
+			<item name="Rice" />
+		</attachments>
+		<attachments>
+			<item name="SodaCan_Kvass" />
+		</attachments>
+		<attachments>
+			<item name="TetracyclineAntibiotics" />
+		</attachments>
+		<attachments>
+			<item name="EasterEgg" />
+		</attachments>		
+		<attachments preset="ZombieItemDropSwat" />
+	</type>
+	<!-- Prisoner -->
+	<type name="ZmbM_PrisonerSkinny">
+		<attachments preset="hatsPrisoner" />
+		<attachments preset="ZombieItemDropFirefighter" />
+	</type>
+	<!-- Religious -->
+	<type name="ZmbM_priestPopSkinny">
+		<cargo preset="foodHermit" />
+		
+		<attachments preset="ZombieFunnyHats" />
+	</type>
+	<!-- Solitude -->
+	<type name="ZmbF_HikerSkinny_Blue">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Grey">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Red">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_FishermanOld_Blue">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_FishermanOld_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_FishermanOld_Grey">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_FishermanOld_Red">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Beige">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Black">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Red">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Blue">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Yellow">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HunterOld_Autumn">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HunterOld_Spring">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HunterOld_Summer">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<type name="ZmbM_HunterOld_Winter">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		<attachments preset="bagsSolitude" />
+		<attachments preset="ZombieItemDropSolitude" />
+	</type>
+	<!-- Village -->
+	<type name="ZmbF_MilkMaidOld_Beige">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Grey">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+	</type>
+	<type name="ZmbF_VillagerOld_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbF_VillagerOld_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbF_VillagerOld_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbF_VillagerOld_White">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbM_FarmerFat_Beige">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbM_FarmerFat_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+	</type>
+	<type name="ZmbM_FarmerFat_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+	</type>
+	<type name="ZmbM_FarmerFat_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbM_VillagerOld_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbM_VillagerOld_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<type name="ZmbM_VillagerOld_White">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="bagsVillage" />
+	</type>
+	<!--END OF ZOMBIES  -->
+
+
+<!-- FUTURE
+	<type name="AugSteyr">
+		<attachments chance="0.10">
+			<item name="M4_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_STANAG_30Rnd" chance="0.20" />
+			<item name="Mag_CMAG_10Rnd" chance="0.20" />
+			<item name="Mag_CMAG_20Rnd" chance="0.20" />
+			<item name="Mag_CMAG_30Rnd" chance="0.20" />
+			<item name="Mag_CMAG_40Rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="M249">
+		<attachments chance="1.00">
+			<item name="M249_Hndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="M249_Bipod" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="M249_RisHndgrd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Groza">
+		<attachments chance="1.00">
+			<item name="Att_LowerReceiver_Groza" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Att_Barrel_Groza_Short" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_Groza_20Rnd" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="PM73Rak">
+		<attachments chance="0.08">
+			<item name="Mag_PM73_25Rnd" chance="0.50" />
+			<item name="Mag_PM73_15Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="Scout">
+		<attachments chance="1.00">
+			<item name="M68Optic" chance="0.30" />
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_Scout_5Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Trumpet">
+		<attachments chance="0.25">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="FNX45_arrow">
+		<attachments chance="0.10">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="FNP45_MRDSOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="LongHorn">
+		<attachments chance="0.20">
+			<item name="Crossbow_RedpointOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="P1">
+		<attachments chance="0.10">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_P1_8Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="Red9">
+		<attachments chance="0.10">
+			<item name="Red9Bttstck" chance="1.00" />
+		</attachments>
+	</type>
+-->
+	<!--  END OF WEAPONS  -->
+	<type name="PersonalRadio">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- XMAS -->
+	<type name="GiftBox_Small_1"> 
+		<cargo chance="0.35">
+			<item name="TLRLight" chance="0.50" />
+			<item name="UniversalLight" chance="0.50" />
+		</cargo>
+		<cargo chance="0.80">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.35" />
+			<item name="Mag_1911_7Rnd" chance="0.35" />
+			<item name="Mag_CZ75_15Rnd" chance="0.35" />
+			<item name="Mag_IJ70_8Rnd" chance="0.35" />
+			<item name="Mag_SVD_10Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Small_2">
+		<cargo chance="0.35">
+			<item name="TLRLight" chance="0.50" />
+			<item name="UniversalLight" chance="0.50" />
+		</cargo>
+		<cargo chance="0.80">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.35" />
+			<item name="Mag_1911_7Rnd" chance="0.35" />
+			<item name="Mag_CZ75_15Rnd" chance="0.35" />
+			<item name="Mag_IJ70_8Rnd" chance="0.35" />
+			<item name="Mag_SVD_10Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Small_3">
+		<cargo chance="0.35">
+			<item name="TLRLight" chance="0.50" />
+			<item name="UniversalLight" chance="0.50" />
+		</cargo>
+		<cargo chance="0.80">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.35" />
+			<item name="Mag_1911_7Rnd" chance="0.35" />
+			<item name="Mag_CZ75_15Rnd" chance="0.35" />
+			<item name="Mag_IJ70_8Rnd" chance="0.35" />
+			<item name="Mag_SVD_10Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Small_4">
+		<cargo chance="0.35">
+			<item name="TLRLight" chance="0.50" />
+			<item name="UniversalLight" chance="0.50" />
+		</cargo>
+		<cargo chance="0.80">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.35" />
+			<item name="Mag_1911_7Rnd" chance="0.35" />
+			<item name="Mag_CZ75_15Rnd" chance="0.35" />
+			<item name="Mag_IJ70_8Rnd" chance="0.35" />
+			<item name="Mag_SVD_10Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_1">
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_2">
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_3">
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Medium_4">
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_1">
+		<cargo chance="0.35">
+			<item name="MP5K" chance="0.40" />
+			<item name="CZ61" chance="0.40" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_20Rnd" chance="0.15" />
+			<item name="Mag_CZ527_5rnd" chance="0.20" />
+			<item name="Mag_Saiga_5Rnd" chance="0.15" />
+		</cargo>
+		<cargo chance="0.03">
+			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
+			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
+			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_2">
+		<cargo chance="0.35">
+			<item name="MP5K" chance="0.40" />
+			<item name="CZ61" chance="0.40" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_20Rnd" chance="0.15" />
+			<item name="Mag_CZ527_5rnd" chance="0.20" />
+			<item name="Mag_Saiga_5Rnd" chance="0.15" />
+		</cargo>
+		<cargo chance="0.03">
+			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
+			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
+			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_3">
+		<cargo chance="0.35">
+			<item name="MP5K" chance="0.40" />
+			<item name="CZ61" chance="0.40" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_20Rnd" chance="0.15" />
+			<item name="Mag_CZ527_5rnd" chance="0.20" />
+			<item name="Mag_Saiga_5Rnd" chance="0.15" />
+		</cargo>
+		<cargo chance="0.03">
+			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
+			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
+			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	<type name="GiftBox_Large_4">
+		<cargo chance="0.35">
+			<item name="MP5K" chance="0.40" />
+			<item name="CZ61" chance="0.40" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="CombinationLock" chance="1.00" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="PersonalRadio" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="Netting" chance="1.00" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="KazuarOptic" chance="0.05" />
+			<item name="PUScopeOptic" chance="0.20" />
+			<item name="PSO1Optic" chance="0.20" />
+			<item name="ACOGOptic" chance="0.15" />
+			<item name="M68Optic" chance="0.15" />
+			<item name="KobraOptic" chance="0.15" />
+			<item name="M4_CarryHandleOptic" chance="0.10" />
+		</cargo>
+		<cargo chance="0.90">
+			<item name="AmmoBox_00buck_10rnd" chance="0.10" />
+			<item name="AmmoBox_12gaSlug_10Rnd" chance="0.10" />
+			<item name="AmmoBox_380_35rnd" chance="0.10" />
+			<item name="AmmoBox_9x19_25rnd" chance="0.10" />
+			<item name="AmmoBox_45ACP_25rnd" chance="0.10" />
+			<item name="AmmoBox_556x45_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x39_20Rnd" chance="0.10" />
+			<item name="AmmoBox_762x54_20Rnd" chance="0.10" />
+		</cargo>
+		<cargo chance="0.70">
+			<item name="Battery9V" chance="0.50" />
+			<item name="NailBox" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Chemlight_Blue" chance="0.20" />
+			<item name="Chemlight_Green" chance="0.20" />
+			<item name="Chemlight_Red" chance="0.20" />
+			<item name="Chemlight_Yellow" chance="0.20" />
+			<item name="Chemlight_White" chance="0.20" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Headtorch_Grey" chance="0.50" />
+			<item name="Headtorch_Black" chance="0.50" />
+		</cargo>
+		<cargo chance="0.20">
+			<item name="Mag_CZ61_20Rnd" chance="0.20" />
+			<item name="Mag_MP5_30Rnd" chance="0.20" />
+			<item name="Mag_FNX45_15Rnd" chance="0.25" />
+			<item name="Mag_Glock_15Rnd" chance="0.25" />
+			<item name="Mag_MKII_10Rnd" chance="0.15" />
+			<item name="Mag_1911_7Rnd" chance="0.15" />
+			<item name="Mag_CZ75_15Rnd" chance="0.15" />
+			<item name="Mag_IJ70_8Rnd" chance="0.15" />
+			<item name="Mag_SVD_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.15" />
+			<item name="Mag_CMAG_20Rnd" chance="0.15" />
+			<item name="Mag_CZ527_5rnd" chance="0.20" />
+			<item name="Mag_Saiga_5Rnd" chance="0.15" />
+		</cargo>
+		<cargo chance="0.03">
+			<item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
+			<item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
+			<item name="Mag_AKM_Drum75Rnd" chance="0.10" />
+		</cargo>
+	</type>
+	
+<!--
+	<type name="V3S_Chassis">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver" chance="0.50" />
+			<item name="V3SDoors_CoDriver" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver" chance="0.50" />
+			<item name="V3SDoors_CoDriver" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Chassis_Blue">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Blue" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Blue" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Chassis_Orange">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Orange" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Orange" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Chassis_Grey">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Grey" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Grey" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo_Blue">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Blue" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Blue" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo_Orange">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Orange" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Orange" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="V3S_Cargo_Grey">
+		<attachments chance="1.00">
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.60" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheel" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="V3SWheelDouble" chance="0.40" />
+			<item name="TruckBattery" chance="0.30" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="HeadlightH7" chance="0.10" />
+			<item name="V3SHood_Blue" chance="0.30" />
+			<item name="V3SDoors_Driver_Grey" chance="0.50" />
+			<item name="V3SDoors_CoDriver_Grey" chance="0.50" />
+		</attachments>
+	</type>
+-->
+</spawnabletypes>

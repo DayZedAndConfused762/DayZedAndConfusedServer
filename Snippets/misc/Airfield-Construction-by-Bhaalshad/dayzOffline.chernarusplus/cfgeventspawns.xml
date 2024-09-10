@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<eventposdef>
+
+<!-- Death Match addons -->
+
+<!-- for testing spawn points 
+	
+	<event name="StaticTower">
+		<pos x="5265.0" z="10110.0" a="0.000000" />
+	</event>
+
+ end for testing spawn points -->
+ 
+<!-- ********************Non Area Placements*********************** -->
+<!-- Radar Building -->
+	<event name="StaticBuilding24">
+		<pos x="11955.0" z="12550.0" a="113.000000" />
+	</event>
+
+<!-- crash site -->
+<event name="StaticPlaneCrash">
+<zone smin="6" smax="6" dmin="6" dmax="6" r="45" />
+	<pos x="11930.40" z="12592.24" a="130.0" />
+	<pos x="12320.40" z="12436.24" a="315.0" />
+</event>
+<!-- end crash site -->
+
+<!-- X-Mass -->
+<!--
+	<event name="StaticChristmasTree">
+		<pos x="4481.520508" z="10548.796875" a="169.894226" />
+	</event>
+
+	<event name="ItemSantaStash">
+		<pos x="4036.181641" z="11727.075684" a="0.000000" />
+		<pos x="4450.181641" z="9615.075684" a="0.000000" />
+	</event>
+-->
+<!-- End X-Mass -->
+
+<!--
+	<event name="VehicleOffroadHatchback">
+		<pos x="2682.17" z="1307.75" a="30" />
+		<pos x="2909.856445" z="1358.379150" a="30.000000" />
+	</event>
+-->
+    <event name="Loot" />
+
+<!-- PA System -->
+<!--
+	<event name="ItemPA">
+		<pos x="4023.00" z="11883.00" a="180.0" />
+	</event>      
+	<event name="StaticPATower1">
+		<pos x="4034.0" z="11870.0" a="0.000000" />
+	</event>   
+-->	
+<!-- end PA System -->
+
+<!-- Graves -->
+<!--
+	<event name="Static_Dead_MassGrave1">
+		<pos x="11887.520508" z="12462.796875" a="160.894226" />
+	</event>	
+-->
+<!-- end Graves -->
+	
+<!-- **********************Area 1**************************** -->
+<!-- Water Well -->
+
+<event name="StaticWellPump1">
+	<pos x="11879.21" z="12490.17" a="-1" />
+</event>
+
+<!-- end Water Well -->
+
+<!-- Pet Bear -->
+
+<event name="ItemBear1">
+	<pos x="11791.40" z="12430.24" a="180.0" />
+</event>
+<event name="ItemBear2">
+	<pos x="12635.40" z="12804.24" a="180.0" />
+</event>
+
+<!-- end pet bear -->
+<!-- Area 1 Construction Buildings -->
+	<event name="StaticBuilding0">
+		<pos x="11842.0" z="12513.0" a="113.000000" />
+	</event>
+	<event name="StaticBuilding01">
+		<pos x="11863.0" z="12504.0" a="293.000000" />
+	</event>
+	<event name="StaticBuildingStore">
+		<pos x="11885.0" z="12450.8" a="23.000000" />
+	</event>
+<!-- Construction Houses Area 1 -->
+	<event name="StaticBuilding1">
+		<pos x="11903.0" z="12521.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding2">
+		<pos x="11881.0" z="12528.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding3">
+		<pos x="11925.0" z="12508.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding4">
+		<pos x="11895.0" z="12562.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding5">
+		<pos x="11916.0" z="12552.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding6">
+		<pos x="11939.0" z="12542.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding7">
+		<pos x="11814.0" z="12596.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding8">
+		<pos x="11835.0" z="12587.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding9">
+		<pos x="11855.0" z="12578.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding10">
+		<pos x="11820.0" z="12555.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding11">
+		<pos x="11840.0" z="12547.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding12">
+		<pos x="11862.0" z="12536.0" a="25.000000" />
+	</event>	
+	<event name="StaticBuilding35">
+		<pos x="11893.0" z="12481.0" a="203.000000" />
+	</event>
+	<event name="StaticBuilding36">
+		<pos x="11921.0" z="12446.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding37">
+		<pos x="11914.0" z="12415.0" a="295.000000" />
+	</event>	
+	
+<!-- ******************************Area 2****************************** -->	
+<!-- Construction Buildings Area 2 -->	
+	<event name="StaticBuilding13">
+		<pos x="12122.0" z="12675.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding14">
+		<pos x="12113.0" z="12654.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding15">
+		<pos x="12167.0" z="12665.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding16">
+		<pos x="12192.0" z="12650.0" a="25.000000" />
+	</event>
+	<event name="StaticBuilding17">
+		<pos x="12222.0" z="12634.0" a="25.000000" />
+	</event>	
+	<event name="StaticBuilding18">
+		<pos x="12169.0" z="12626.0" a="25.000000" />
+	</event>	
+	<event name="StaticBuilding19">
+		<pos x="12190.0" z="12618.0" a="25.000000" />
+	</event>	
+	<event name="StaticBuilding21">
+		<pos x="11853.0" z="12600.0" a="25.000000" />
+	</event>
+
+	<event name="StaticBuilding20">
+		<pos x="12081.5" z="12661.0" a="115.000000" />
+	</event>
+	<event name="StaticBuilding22">
+		<pos x="12089.0" z="12692.0" a="205.000000" />
+	</event>
+	<event name="StaticBuilding23">
+		<pos x="12126.0" z="12705.0" a="203.000000" />
+	</event>
+	
+<!-- ****************************Area 3************************** -->	
+<!-- Construction Houses Area 3 -->
+	<event name="StaticBuilding25">
+		<pos x="12041.0" z="12577.0" a="113.000000" />
+	</event>
+	<event name="StaticBuilding26">
+		<pos x="12060.0" z="12570.0" a="113.000000" />
+	</event>
+	<event name="StaticBuilding27">
+		<pos x="12080.0" z="12563.0" a="113.000000" />
+	</event>
+	<event name="StaticBuilding28">
+		<pos x="12099.0" z="12556.0" a="113.000000" />
+	</event>
+	<event name="StaticBuilding29">
+		<pos x="12119.0" z="12549.0" a="113.000000" />
+	</event>
+
+	<event name="StaticBuilding30">
+		<pos x="12062.0" z="12590.0" a="315.000000" />
+	</event>
+	<event name="StaticBuilding31">
+		<pos x="12085.0" z="12591.0" a="315.000000" />
+	</event>
+	<event name="StaticBuilding32">
+		<pos x="12106.0" z="12592.0" a="315.000000" />
+	</event>
+	<event name="StaticBuilding33">
+		<pos x="12127.0" z="12593.0" a="315.000000" />
+	</event>
+	<event name="StaticBuilding34">
+		<pos x="12151.0" z="12596.0" a="315.000000" />
+	</event>
+
+<!-- ***********************Area 4********************** -->
+
+<!-- ***********************Area 5 South********************** -->
+	<event name="StaticBuilding38">
+		<pos x="12183.0" z="12443.5" a="113.000000" />
+	</event>	
+	<event name="StaticBuilding39">
+		<pos x="12209.0" z="12435.0" a="293.000000" />
+	</event>
+	<event name="StaticBuilding40">
+		<pos x="12244.0" z="12421.0" a="293.000000" />
+	</event>
+	<event name="StaticBuilding41">
+		<pos x="12195.0" z="12397.0" a="203.000000" />
+	</event>	
+	<event name="StaticBuilding42">
+		<pos x="12228.70" z="12386.0" a="113.000000" />
+	</event>
+
+<!-- ***********************Area 5 North********************** -->
+	<event name="StaticBuilding43">
+		<pos x="12236.0" z="12501.5" a="113.000000" />
+	</event>
+	<event name="StaticBuilding44">
+		<pos x="12208.0" z="12519.5" a="203.000000" />
+	</event>
+	<event name="StaticBuilding45">
+		<pos x="12266.0" z="12498.5" a="203.000000" />
+	</event>
+	<!--
+	<event name="StaticBuilding46">
+		<pos x="12242.0" z="12521.5" a="293.000000" />
+	</event>
+		
+	<event name="StaticBuilding47">
+		<pos x="12251.0" z="12504.5" a="203.000000" />
+	</event>
+	
+	<event name="StaticBuilding48">
+		<pos x="12272.0" z="12498.5" a="203.000000" />
+	</event>
+	<event name="StaticBuilding49">
+		<pos x="12269.0" z="12487.5" a="203.000000" />
+	</event>	
+	-->
+<!-- end Death Match addons -->
+
+
+</eventposdef>

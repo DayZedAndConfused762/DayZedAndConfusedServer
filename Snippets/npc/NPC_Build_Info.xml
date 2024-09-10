@@ -1,0 +1,248 @@
+
+<!--
+This tutorial will explain the proper way of building NPCs
+Most people open there spawnabletype, create the NPC and just start adding items in at random,
+that tends to have a lot of loot not spawning, guns not built properly, and over all a messed up NPC
+
+When building, keeping track of the slot count is very important. How do u find the slot count of each item? Google is a good place
+
+An NPC has no cargo slots, it only has slots for clothing, 2 slots on its back, and something in its hands. As your deciding what 
+to put on the NPC, where to put those items in the code block is very important and i will explain the best way for the best results
+
+were going to start with the lowest slot count and lowest cargo 1st
+the list below is a base guide to follow when building
+
+
+
+Hands : if your using sheet metal or HandcuffsLocked for NPC to be tied up. 
+            You can add a sea chest than items but other items may go in the sea chest so be ware
+            Barrels can be placed here as well but it will not be able to have loot in it
+Sholder: Shovel, pick axe or anything that can be on the sholder. IF you prefer a rifel, it will be the rifle than all its attachments
+Sholder: Shovel, pick axe or anything that can be on the sholder. IF you prefer a rifel, it will be the rifle than all its attachments
+Gloves: any gloves
+Face: mask
+Eye: glasses or if NVG strap, add strap than NVG
+HeadGear: helmet, and helmet attachments if any
+Boots: any boots. If the boots can hold a knife, place that after the boot class name
+Belt: after belt, you will need to add the canteen, Sheath, knife, holster, handgun, mag, than any other handgun attachments
+Vest: If vest has slots for nades, add those 1st than items for its storage
+        if vest is plate carrior, add the holster, hand gun, attachments for handgun, THAN pouches... than items for pouches cargo
+Pants: add all items you want in the pants
+jacket: add all items you want in the jacket
+Backpack: hand held radio and glowstick, than add all items you want in the jacket.
+
+Again, KEEP TRACK OF THE SLOT COUNT. HOW MUCH EACH ITEMS STORAGE CAPACITY AND HOW MANY SLOTS EACH ITEM TAKES IN THE STORAGE.
+
+This is an example of an NPC code block-->
+
+
+<type name="SurvivorM_Elias">
+    <!-- hands-->
+		<attachments chance="1">
+			<item name="HandcuffsLocked" chance="1.00" />
+		</attachments>
+        <!-- sholder-->
+		<attachments chance="1">
+			<item name="Aug" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="ACOGOptic_6x" chance="1.00" />
+		</attachments>
+        <!-- sholder-->
+		<attachments chance="1">
+			<item name="FAL" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Fal_FoldingBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+        <!-- gloves-->
+		<attachments chance="1">
+			<item name="TacticalGloves_Black" chance="1.00" />
+		</attachments>
+        <!-- face -->
+		<attachments chance="1">
+			<item name="BalaclavaMask_Beige" chance="1.00" />
+		</attachments>
+        <!-- helmet-->
+		<attachments chance="1">
+			<item name="GorkaHelmet" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="GorkaHelmetVisor" chance="1.00" />
+		</attachments>
+        <!--Boots -->
+		<attachments chance="1">
+			<item name="MilitaryBoots_Beige" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="HuntingKnife" chance="1.00" />
+		</attachments>
+        <!--Belt and any attachments for it-->
+		<attachments chance="1">
+			<item name="CivilianBelt" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Canteen" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="NylonKnifeSheath" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="PlateCarrierHolster" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="FangeKnife" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="FNX45" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+        <!--vest. this example is plate carrier with nades, pouches, holster, gun and mag in gun-->
+		<attachments chance="1">
+			<item name="PlateCarrierVest_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="M18SmokeGrenade_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="FlashGrenade" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="M67Grenade" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="M67Grenade" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="PlateCarrierHolster_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Deagle_Gold" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="PlateCarrierPouches_Black" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FAL_20Rnd" chance="1.00" /> <!-- there is not enough space in the pouches so this mag will not spawn. -->
+		</attachments>                                      <!-- if there is space availible above, it will spawn. not below-->
+        <!-- Pants than items win pants
+            any guns in bag or other clothing can not have attachments on the gun, it will spawn 
+            separately-->
+		<attachments chance="1">
+			<item name="BDUPants" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="BandageDressing" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="BandageDressing" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="SodaCan_Spite" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="SodaCan_Spite" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="SodaCan_Spite" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="LeatherSewingKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="SewingKit" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="WeaponCleaningKit" chance="1.00" />
+		</attachments>
+        <!-- Jacket and items in jacket
+            any guns in bag or other clothing can not have attachments on the gun, it will spawn 
+            separately-->
+		<attachments chance="1">
+			<item name="BDUJacket" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_STANAG_60Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_Deagle_9rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+        <!-- Backpack and items in backpack 
+            any guns in bag or other clothing can not have attachments on the gun, it will spawn 
+            separately-->
+		<attachments chance="1">
+			<item name="AliceBag_Camo" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="LandMineTrap" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="LandMineTrap" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="LandMineTrap" chance="1.00" />
+		</attachments>
+		<attachments chance="1">
+			<item name="LargeTent" chance="1.00" />
+		</attachments>
+	</type>
+
+    <!-- This is only an example for basic NPC build. This will help you to get an understanding on how it works. If you want to try different
+        ways to do it, you are more than welcome too. As there may be other ways to do it and i may have missed a something. 
+        Look at the structure of the code block and the guide i have given.--> 
