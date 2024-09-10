@@ -25,6 +25,7 @@
 
 <!-- ++++++++++++++++++++ 9/10/2024 Start ++++++++++++++++++++ -->
 
+- Vehicles now spawn with random colored doors/trunks/hoods
 - Added Vodka spawns
 - @BaseBuildingPlus
   - change "BBP_SetInfiniteLifetime" to "0"
