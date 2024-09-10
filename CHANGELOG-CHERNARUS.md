@@ -37,6 +37,7 @@
 ## 9/8/2024
 
 - Added Radio Zenit map edit
+- Added fog to Green Mountain
 
 <!-- ++++++++++++++++++++ 9/8/2024 End ++++++++++++++++++++ -->
 
