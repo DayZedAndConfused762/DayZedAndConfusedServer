@@ -1,0 +1,115 @@
+Land_Wreck_C130J_2
+when using this proto, please make sure the rotation of the Land_Wreck_C130J_2 or Land_Wreck_C130J_Cargo is set to 0. using rotations other than 0 will result in the loots shifting/rotating in odd ways making the loot sit at odd angles.
+
+
+<group name="Land_Wreck_C130J_2" lootmax="54">
+                <usage name="Military" />
+                <usage name="Medic"/>
+                <container name="lootFloor" lootmax="12">
+                        <category name="tools" />
+                        <category name="containers" />
+                        <category name="clothes" />
+                        <category name="weapons" />
+                        <tag name="floor" />
+                        <tag name="shelves" />
+                        <point pos="2.234375 -4.494446 -0.680665" range="0.500000" height="1.500000" />
+                        <point pos="0.839844 -4.494446 0.020019" range="0.500000" height="1.500000" />
+                        <point pos="2.234375 -4.494446 0.820800" range="0.500000" height="1.500000" />
+                        <point pos="-0.455078 -4.494446 -0.680665" range="0.500000" height="1.500000" />
+                        <point pos="-1.849609 -4.494446 0.020019" range="0.500000" height="1.500000" />
+                        <point pos="-0.455078 -4.494446 0.820800" range="0.500000" height="1.500000" />
+                        <point pos="-2.945312 -4.494446 -0.680665" range="0.500000" height="1.500000" />
+                        <point pos="-4.339843 -4.494446 0.020019" range="0.500000" height="1.500000" />
+                        <point pos="-2.945312 -4.494446 0.820800" range="0.500000" height="1.500000" />
+                        <point pos="-5.933593 -4.494446 -0.680665" range="0.500000" height="1.500000" />
+                        <point pos="-7.328125 -4.494446 0.020019" range="0.500000" height="1.500000" />
+                        <point pos="-5.933593 -4.494446 0.820800" range="0.500000" height="1.500000" />
+                </container>
+				<dispatch dechance="1">
+		    <proxy type="Vikhr" pos="4.009765 -3.665985 -1.508789" rpy="0 90 0" dechance="1" />
+            <proxy type="Mosin9130_Green" pos="4.009765 -3.258210 -1.508789" rpy="0 90 0" dechance="1" />
+            <proxy type="M14" pos="4.009765 -2.883026 -1.508789" rpy="0 90 0" dechance="1" />
+			<proxy type="ASVAL" pos="4.009765 -2.483026 -1.508789" rpy="0 90 0" dechance="1" />
+            <proxy type="M4A1" pos="-0.771485 -3.665985 -1.408691" rpy="0 90 0" dechance="1" />
+            <proxy type="M16A2" pos="-0.771485 -3.258210 -1.408691" rpy="0 90 0" dechance="1" />
+            <proxy type="M14" pos="-0.771485 -2.883026 -1.408691" rpy="0 90 0" dechance="1" />
+			<proxy type="AK74_Green" pos="-0.771485 -2.483026 -1.408691" rpy="0 90 0" dechance="1" />
+            <proxy type="AKM" pos="-0.771485 -3.665985 1.394043" rpy="0 90 0" dechance="1" />
+            <proxy type="CZ550" pos="-0.771485 -3.258210 1.394043" rpy="0 90 0" dechance="1" />
+            <proxy type="SKS_Black" pos="-0.771485 -2.883026 1.394043" rpy="0 90 0" dechance="1" />
+			<proxy type="Aug" pos="-0.771485 -2.483026 1.394043" rpy="0 90 0" dechance="1" />
+            <proxy type="TortillaBag" pos="-1.458985 -3.267914 -1.367676" rpy="0 90 0" dechance="1" />
+			<proxy type="AliceBag_Black" pos="-1.458985 -4.025391 -1.367676" rpy="0 90 0" dechance="1" />
+			<proxy type="LeatherSack_Beige" pos="-1.458985 -2.625391 -1.367676" rpy="0 90 0" dechance="1" />
+            <proxy type="AliceBag_Camo" pos="-1.957031 -4.025391 -1.367676" rpy="0 90 0" dechance="1" />
+            <proxy type="AliceBag_Green" pos="-1.957031 -3.267914 -1.367676" rpy="0 90" dechance="1" />
+			<proxy type="LeatherSack_Brown" pos="-1.957031 -2.667914 -1.367676" rpy="0 90" dechance="1" />
+            <proxy type="AssaultBag_Black" pos="-2.654297 -4.025391 -1.367676" rpy="0 90 0" dechance="1" />
+            <proxy type="AssaultBag_Ttsko" pos="-2.654297 -3.267914 -1.367676" rpy="0 90 0" dechance="1" />
+			<proxy type="MountainBag_Orange" pos="-2.654297 -2.667914 -1.367676" rpy="0 90 0" dechance="1" />
+            <proxy type="CoyoteBag_Green" pos="-3.351563 -4.025391 -1.367676" rpy="0 90 0" dechance="1" />
+            <proxy type="CoyoteBag_Brown" pos="-3.351563 -3.267914 -1.367676" rpy="0 90 0" dechance="1" />
+			<proxy type="TaloonBag_Violet" pos="-3.351563 -2.667914 -1.367676" rpy="0 90 0" dechance="1" />
+			<proxy type="DryBag_Yellow" pos="-4.048828 -4.025391 -1.367676" rpy="0 90 0" dechance="1" />
+            <proxy type="HuntingBag_Hannah" pos="-4.048828 -3.267914 -1.367676" rpy="0 90 0" dechance="1" />
+			<proxy type="MountainBag_Blue" pos="-4.048828 -2.667914 -1.367676" rpy="0 90 0" dechance="1" />
+            <proxy type="M65Jacket_Olive" pos="-1.987305 -4.027741 1.414102" rpy="0.0 180.0 270.0" dechance="1" />
+			<proxy type="M65Jacket_Black" pos="-1.987305 -3.162903 1.414102" rpy="0.0 180.0 270.0" dechance="1" />
+			<proxy type="BDUJacket" pos="-1.987305 -2.362903 1.414102" rpy="0.0 180.0 270.0" dechance="1" />
+            <proxy type="M65Jacket_Khaki" pos="-2.784180 -4.027741 1.414102" rpy="0.0 180.0 270.0" dechance="1" />
+            <proxy type="M65Jacket_Tan" pos="-2.784180 -3.162903 1.414102" rpy="0.0 180.0 270.0" dechance="1" />
+			<proxy type="GorkaEJacket_PautRev" pos="-2.784180 -2.362903 1.414102" rpy="0.0 180.0 270.0" dechance="1" />
+			<proxy type="PlateCarrierVest_Camo" pos="-3.437548 -4.096497 1.414824" rpy="0.0 180.0 270.0" dechance="1" />
+			<proxy type="PlateCarrierVest" pos="-3.437548 -3.307038 1.414824" rpy="0.0 180.0 270.0" dechance="1" />
+			<proxy type="HighCapacityVest_Olive" pos="-3.437548 -2.707038 1.414824" rpy="0.0 180.0 270.0" dechance="1" />
+            <proxy type="PlateCarrierVest_Black" pos="-4.234375 -3.307038 1.414824" rpy="0.0 180.0 270.0" dechance="1" />
+            <proxy type="PlateCarrierVest_Green" pos="-4.234375 -4.103241 1.414824" rpy="0.0 180.0 270.0" dechance="1" />
+			<proxy type="HighCapacityVest_Black" pos="-4.234375 -2.703241 1.414824" rpy="0.0 180.0 270.0" dechance="1" />
+            <proxy type="Winchester70_Black" pos="-8.939453 -3.465985 -0.207519" rpy="0 0 0" dechance="1" />
+			<proxy type="SSG82" pos="-8.939453 -3.280249 -0.207519" rpy="0 0 0" dechance="1" />
+            <proxy type="Scout_Chernarus" pos="-8.939453 -3.093903 -0.207519" rpy="0 0 0" dechance="1" />
+			<proxy type="FAL" pos="-8.939453 -2.753903 -0.207519" rpy="0 0 0" dechance="1" />
+			<proxy type="PP19" pos="-8.939453 -2.603903 -0.207519" rpy="0 0 0" dechance="1" />
+            <proxy type="JungleBoots_Black" pos="-8.752930 -4.582489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="AmmoBox" pos="-8.000000 -4.462489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="AmmoBox" pos="-7.880000 -4.462489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="AmmoBox" pos="-7.760000 -4.462489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="AmmoBox" pos="-7.640000 -4.462489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="AmmoBox" pos="-7.520000 -4.462489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="BaseRadio" pos="-7.200000 -4.590489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="BDUPants" pos="-6.700000 -4.590489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="GorkaPants_PautRev" pos="-6.200000 -4.590489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="TTSKOPants" pos="-5.700000 -4.590489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="GorkaPants_Summer" pos="-5.200000 -4.590489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="ClaymoreMine" pos="-4.800000 -4.575489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="ClaymoreMine" pos="-4.800000 -4.515489 1.187500" rpy="0 0 0" dechance="1" />
+			<proxy type="MilitaryBoots_Black" pos="-8.752930 -4.582489 0.687012" rpy="0 0 0" dechance="1" />
+			<proxy type="TTSKOBoots" pos="-8.752930 -4.582489 0.186523" rpy="0 0 0" dechance="1" />
+            <proxy type="WorkingBoots_Brown" pos="-8.752930 -4.582489 -0.313965" rpy="0 0 0" dechance="1" />	
+			<proxy type="Mich2001Helmet" pos="-8.928711 -4.039795 0.497559" rpy="270 180 0" dechance="1" />
+			<proxy type="GorkaHelmet_Black" pos="-8.928711 -4.039795 0.998047" rpy="270 180 0" dechance="1" />
+			<proxy type="GorkaHelmet" pos="-8.928711 -3.655426 0.998047" rpy="270 180 0" dechance="1" />
+			<proxy type="UMP45" pos="-8.938711 -3.095426 0.998047" rpy="0 0 0" dechance="1" />
+			<proxy type="Glock19" pos="-8.939453 -2.903903 -1.007519" rpy="0 0 0" dechance="1" />
+			<proxy type="Glock19" pos="-8.939453 -2.903903 -1.507519" rpy="0 0 0" dechance="1" />
+			<proxy type="Engraved1911" pos="-8.939453 -2.753903 -1.007519" rpy="0 0 0" dechance="1" />
+			<proxy type="Colt1911" pos="-8.939453 -2.753903 -1.507519" rpy="0 0 0" dechance="1" />
+			<proxy type="FNX45" pos="-8.939453 -2.603903 -1.007519" rpy="0 0 0" dechance="1" />
+			<proxy type="FNX45" pos="-8.939453 -2.603903 -1.507519" rpy="0 0 0" dechance="1" />
+			<proxy type="CZ75" pos="-8.939453 -2.453903 -0.907519" rpy="0 0 0" dechance="1" />
+			<proxy type="CZ75" pos="-8.939453 -2.453903 -1.407519" rpy="0 0 0" dechance="1" />
+			<proxy type="CZ61" pos="-8.939453 -2.303903 -1.207519" rpy="0 0 0" dechance="1" />
+			<proxy type="CZ61" pos="-8.939453 -2.303903 -0.807519" rpy="0 0 0" dechance="1" />
+			<proxy type="AKS74U" pos="-8.939453 -2.303903 -0.007519" rpy="0 0 0" dechance="1" />
+			<proxy type="MP5K" pos="-8.938711 -2.605426 0.998047" rpy="0 0 0" dechance="1" />
+            <proxy type="BallisticHelmet_BDU" pos="-8.928711 -3.655426 0.497559" rpy="270 180 0" dechance="1" />
+			<proxy type="BallisticHelmet_Desert" pos="-8.928711 -3.655426 1.498535" rpy="270 180 0" dechance="1" />
+            <proxy type="Mich2001Helmet" pos="-8.928711 -4.041260 1.498535" rpy="270 180 0" dechance="1" />
+			<proxy type="FirstAidKit" pos="4.467773 -2.809601 1.634277" rpy="90 0 0" dechance="1" />
+            <proxy type="FirstAidKit" pos="4.866211 -2.809601 1.634277" rpy="0 90 0" dechance="1" />
+            <proxy type="MediumTent_Green" pos="4.007773 -2.409601 1.564277" rpy="0.0 180.0 270.0" dechance="1" />
+            <proxy type="MediumTent_Orange" pos="3.607773 -2.409601 1.564277" rpy="0.0 180.0 270.0" dechance="1" />	
+            <proxy type="LargeTent" pos="4.007773 -3.609601 1.564277" rpy="0.0 180.0 270.0" dechance="1" />
+            <proxy type="LargeTent" pos="3.607773 -3.609601 1.564277" rpy="0.0 180.0 270.0" dechance="1" />			
+        </dispatch>
+        </group>

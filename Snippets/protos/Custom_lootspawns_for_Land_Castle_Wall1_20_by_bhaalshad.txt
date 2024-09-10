@@ -1,0 +1,34 @@
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+Land_Castle_Wall1_20 custom loot spawns
+
+
+Replace the one you have in mapgroupproto.xml with this
+
+****************************************
+<!-- 1st mapgroupproto.xml Replace Entry -->
+		<group name="Land_Castle_Wall1_20" lootmax="6">
+		<usage name="Military" />
+				<container name="lootshelves" lootmax="6">
+						<category name="weapons" />
+						<category name="mags" />
+						<point pos="-1.909033 0.537132 -4.593994" range="1.326172" height="2.000000" />
+						<point pos="-1.975537 0.537628 0.332520" range="1.585454" height="2.000000" />
+						<point pos="-1.980957 0.537407 4.218506" range="1.437500" height="2.000000" />
+
+						<point pos="2.909033 0.537132 -4.593994" range="1.326172" height="2.000000" />
+						<point pos="2.975537 0.537628 0.332520" range="1.585454" height="2.000000" />
+						<point pos="2.980957 0.537407 4.218506" range="1.437500" height="2.000000" />
+						
+				</container>
+		</group>
+
+
+****************************************	
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at bhaalshad.com
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

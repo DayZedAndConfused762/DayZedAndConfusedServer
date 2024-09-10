@@ -1,0 +1,83 @@
+****** install notes ******
+Install as is. Do not Change any of the code.
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+adds custom loot spawn points to the buildings around the map.
+
+****************************************
+<!-- mapgroupproto.xml Replace Entry -->
+
+
+        <group name="Land_Tenement_Small" lootmax="5">
+				<usage name="Town" />
+				<container name="lootFloor" lootmax="5">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+                        <point pos="4.201852 -7.429617 -0.659840" range="0.5" height="1.5" />
+                        <point pos="3.320894 -7.429617 1.261841" range="0.5" height="1.5" />
+                        <point pos="-6.129349 -7.429617 -2.795197" range="0.5" height="1.5" />
+                        <point pos="-3.344158 -6.504745 -8.153034" range="0.5" height="1.5" />
+                        <point pos="-4.847426 -6.504745 -8.262337" range="0.5" height="1.5" />
+                        <point pos="7.791222 -7.429677 -9.456445" range="0.5" height="1.5" />
+                        <point pos="5.279440 -6.580947 -2.590005" range="0.5" height="1.5" />
+                        <point pos="6.102774 -7.429618 -5.233781" range="0.5" height="1.5" />
+                        <point pos="0.298045 -7.429616 -9.748265" range="0.5" height="1.5" />
+                        <point pos="-1.770905 -6.342746 -3.282124" range="0.5" height="1.5" />
+                        <point pos="-8.051993 -4.029676 -0.979918" range="0.5" height="1.5" />
+                        <point pos="-1.835333 -4.029637 3.900095" range="0.5" height="1.5" />
+                        <point pos="-3.005281 -3.244645 3.083964" range="0.5" height="1.5" />
+                        <point pos="-5.778310 -4.029637 9.328253" range="0.5" height="1.5" />
+                        <point pos="3.057062 -4.029616 -0.894896" range="0.5" height="1.5" />
+                        <point pos="3.081910 -0.504092 3.988762" range="0.5" height="1.5" />
+                        <point pos="2.003957 0.017475 8.945977" range="0.5" height="1.5" />
+                        <point pos="4.530987 -0.629867 3.187595" range="0.5" height="1.5" />
+                        <point pos="2.526193 -0.629868 5.446455" range="0.5" height="1.5" />
+                        <point pos="-1.824357 2.765054 -3.176481" range="0.5" height="1.5" />
+                        <point pos="4.708453 2.765054 -2.634337" range="0.5" height="1.5" />
+                        <point pos="7.765277 2.770331 -9.819471" range="0.5" height="1.5" />
+                        <point pos="0.251842 2.765054 -9.971086" range="0.5" height="1.5" />
+                        <point pos="-6.095449 2.765052 -9.569063" range="0.5" height="1.5" />
+                        <point pos="-3.065760 2.765054 -6.678075" range="0.5" height="1.5" />
+                        <point pos="-5.461416 2.765054 -3.919054" range="0.5" height="1.5" />
+                        <point pos="6.072599 2.770432 0.243064" range="0.5" height="1.5" />
+                        <point pos="2.718201 6.169127 2.939123" range="0.5" height="1.5" />
+                        <point pos="6.289408 6.169127 2.988203" range="0.5" height="1.5" />
+                        <point pos="-1.639941 6.169129 7.457189" range="0.5" height="1.5" />
+                        <point pos="7.789428 6.170333 10.604374" range="0.5" height="1.5" />
+                        <point pos="2.010459 6.816993 8.952417" range="0.5" height="1.5" />
+                        <point pos="-5.494625 6.170333 -1.194494" range="0.5" height="1.5" />
+                        <point pos="-8.008017 6.170333 -1.169056" range="0.5" height="1.5" />
+                        <point pos="-2.016250 6.169127 3.859637" range="0.5" height="1.5" />
+                        <point pos="-6.525038 6.169127 10.679419" range="0.5" height="1.5" />
+                        <point pos="-3.174155 6.169129 2.965121" range="0.5" height="1.5" />
+                        <point pos="-4.658922 6.169127 7.193724" range="0.5" height="1.5" />
+                        <point pos="-1.081985 6.170333 -1.135216" range="0.5" height="1.5" />
+                        <point pos="6.101930 6.170432 1.562070" range="0.5" height="1.5" />
+                        <point pos="7.316519 9.760331 10.461426" range="0.5" height="1.5" />
+                        <point pos="7.332537 9.760331 7.538689" range="0.5" height="1.5" />
+                        <point pos="3.183385 10.518834 -7.397126" range="0.5" height="1.5" />
+                        <point pos="7.201276 9.760333 -7.199640" range="0.5" height="1.5" />
+                        <point pos="7.191876 9.760333 -9.973331" range="0.5" height="1.5" />
+                        <point pos="-0.195736 9.760331 0.402209" range="0.5" height="1.5" />
+                        <point pos="-7.580454 9.760333 1.836145" range="0.5" height="1.5" />
+                        <point pos="-1.973356 10.518834 4.102563" range="0.5" height="1.5" />
+                        <point pos="-4.426772 10.260331 11.413879" range="0.5" height="1.5" />
+                        <point pos="-7.164233 10.260320 7.471975" range="0.5" height="1.5" />
+                        <point pos="6.780715 10.260388 0.874715" range="0.5" height="1.5" />
+                        <point pos="-3.645168 10.260331 -10.765352" range="0.5" height="1.5" />
+                        <point pos="-3.069825 9.760331 -6.801986" range="0.5" height="1.5" />
+                        <point pos="4.201852 -7.429617 -0.659840" range="0.5" height="1.5" />
+</container>
+</group>
+
+****************************************		
+Org File Created by Dayzdevil#0666. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

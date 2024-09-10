@@ -1,0 +1,110 @@
+
+								<!-- This is my version of <( Land_House_1W06 )> -->
+			 
+			<!-- Created By: Josie Garfunkle -- <( The G Code )> -- <( https://discord.gg/pSG7Nv8atE )> -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <({ GG })> ++++++++++++++++++++ -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <({ GG })> ++++++++++++++++++++ -->
+
+       <!-- mapgrouppos.xml ADD/REPLACE Entry(S) -->
+	   <!-- Position Provided For Custom Altar Location -->
+		
+	<group name="Land_House_1W06" pos="8202.318359 472.011566 9010.962891" rpy="0.000000 0.000000 106.000465" a="-16.0005"/>
+	  
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <({ GG })> ++++++++++++++++++++ -->
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <({ GG })> ++++++++++++++++++++ -->
+	  
+	  <!-- mapgroupproto.xml ADD/REPLACE Entry(S) -->
+	  
+		
+		<group name="Land_House_1W06" lootmax="150">
+				<usage name="Hunting" />
+				<usage name="Village" />
+				<container name="lootFloor">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<point pos="1.460671 -0.918320 0.408933" range="0.546875" height="1.367188" />
+						<point pos="-0.562731 -0.919647 2.035714" range="0.570801" height="1.426941" />
+						<point pos="-3.768200 -0.920273 -1.041844" range="0.583984" height="1.459960" />
+						<point pos="-0.163851 -0.918381 0.350697" range="0.663818" height="1.659545" />
+						<point pos="-1.253998 -0.918427 -3.539245" range="1.199951" height="2.000000" />
+				</container>
+				<container name="lootshelves">
+						<category name="clothes" />
+						<category name="food" />
+						<category name="weapons" />
+						<point pos="-3.512975 0.231995 -4.429177" range="0.100000" height="0.250000" />
+						<point pos="-3.525670 -0.523712 -3.529469" range="0.100000" height="0.250000" />
+						<point pos="-3.520661 -0.523712 -4.413338" range="0.100000" height="0.250000" />
+						<point pos="-1.938741 -0.068146 0.115935" range="0.134375" height="0.335938" />
+						<point pos="1.833612 0.023453 -4.204971" range="0.151855" height="0.327972" />
+						<point pos="1.833571 0.502609 -3.637205" range="0.153320" height="0.383300" />
+						<point pos="1.825029 0.023453 -3.275270" range="0.161621" height="0.327972" />
+						<point pos="0.308977 -0.522980 -4.634706" range="0.192871" height="0.482177" />
+						<point pos="-0.627417 -0.443161 -0.830691" range="0.237500" height="0.593750" />
+						<point pos="-1.821997 0.488113 2.204390" range="0.237500" height="0.593750" />
+						<point pos="-1.764936 -0.144470 0.787025" range="0.306250" height="0.765625" />
+				</container>
+				<container name="lootweapons">
+						<category name="weapons" />
+						<category name="explosives" />
+						<point pos="-3.499624 0.231995 -3.519240" range="0.100000" height="0.250000" />
+						<point pos="-1.538859 0.091309 -0.893033" range="0.134375" height="0.335938" />
+						<point pos="1.833851 0.502609 -4.368628" range="0.154297" height="0.385742" />
+						<point pos="1.826951 0.023453 -2.542176" range="0.159668" height="0.328659" />
+						<point pos="-2.255464 -0.523117 -4.653797" range="0.189897" height="0.474743" />
+						<point pos="-1.534539 -0.144470 1.439515" range="0.306250" height="0.765625" />
+						<point pos="0.795447 -0.918610 1.984577" range="0.623291" height="1.558228" />
+						<point pos="0.595996 -0.918411 -2.641548" range="0.854269" height="2.000000" />
+				</container>
+				<dispatch>
+						<proxy type="TaloonBag_Orange" pos="-0.540772 1.163311 2.53" rpy="0.0 270.0 0.0" />
+						<proxy type="MountainBag_Green" pos="0.115966 0.620094 2.55" rpy="0.0 270.0 0.0" />
+						<proxy type="DryBag_Orange" pos="1.960693 0.472896 1.966797" rpy="0.0 0.0 0.0" />
+						<proxy type="DryBag_Blue" pos="1.960693 0.222015 1.415039" rpy="0.0 0.0 0.0" />
+						<proxy type="Winchester70" pos="2.008056 0.976989 -4.171875" rpy="0.0 0.0 0.0" />
+						<proxy type="B95" pos="2.010742 0.731254 -3.669922" rpy="0.0 0.0 0.0" />
+						<proxy type="Ammo_308Win" pos="1.908447 0.509498 -3.099609" rpy="0.0 20.0 0.0" />
+						<proxy type="Ammo_308Win" pos="1.565918 0.004551 -2.975586" rpy="0.0 50.0 0.0" />
+						<proxy type="Ammo_308WinTracer" pos="1.570312 0.004551 -4.393555" rpy="0.0 40.0 0.0" />
+						<proxy type="SKS" pos="2.010742 0.154396 -4.259766" rpy="0.0 0.0 0.0" />
+						<proxy type="Ammo_762x39Tracer" pos="1.837402 0.050659 -4.448242" rpy="0.0 10.0 0.0" />
+						<proxy type="AmmoBox_762x39_20Rnd" pos="1.826904 0.055240 -4.616211" rpy="90.0 20.0 0.0" />
+						<proxy type="Deagle" pos="-0.283692 0.134567 -0.429687" rpy="90.0 285.0 0.0" />
+						<proxy type="Mag_Deagle_9rnd" pos="-0.520508 0.127941 -0.411133" rpy="90.0 20.0 0.0" />
+						<proxy type="Ammo_357" pos="-0.704834 0.147663 -0.357422" rpy="0.0 0.0 0.0" />
+						<proxy type="AmmoBox_357_20Rnd" pos="-0.830811 0.158752 -0.382812" rpy="90.0 0.0 0.0" />
+						<proxy type="BandageDressing" pos="-2.095948 0.146393 -0.373047" rpy="90.0 60.0 0.0" />
+						<proxy type="BandageDressing" pos="-1.946778 0.146393 -0.387695" rpy="90.0 40.0 0.0" />
+						<proxy type="TaloonBag_Violet" pos="-4.305176 0.382534 -0.814453" rpy="0.0 180.0 0.0" />
+						<proxy type="TaloonBag_Green" pos="-4.305176 0.148155 -1.345703" rpy="0.0 180.0 0.0" />
+												
+						<proxy type="DirtBikeHelmet_Red" pos="0.315185 -0.798939 -4.620118" rpy="0.0 20.0 0.0" />
+						<proxy type="Mp133Shotgun" pos="1.308349 -0.515644 -4.934571" rpy="-3.0 -20.0 265.0" />
+						<proxy type="Ammo_12gaPellets" pos="1.163574 0.331963 -5.152344" rpy="0.0 20.0 0.0" />
+						<proxy type="Ammo_12gaPellets" pos="1.021728 0.329907 -5.125287" rpy="0.0 110.0 0.0" />
+						<proxy type="Ammo_12gaPellets" pos="1.620605 0.010506 -4.666016" rpy="0.0 70.0 0.0" />
+						<proxy type="Matchbox" pos="-3.747559 0.261440 -3.424805" rpy="270.0 0.0 0.0" />
+						<proxy type="PetrolLighter" pos="-3.482422 0.233330 -4.070313" rpy="0.0 20.0 90.0" />
+						<proxy type="Pot" pos="-3.469727 -0.516319 -4.350586" rpy="0.0 0.0 0.0" />
+						<proxy type="QuiltedJacket_Violet" pos="-2.813721 1.050804 -5.125287" rpy="90   270   0" />
+						<proxy type="HuntingKnife" pos="-1.107910 0.315331 -5.203125" rpy="90.0 176.0 0.0" />
+						<proxy type="SodaCan_Kvass" pos="-1.655762 0.385330 -5.137696" rpy="0.0 -55.0 0.0" />
+						<proxy type="LeatherGloves_Brown" pos="-1.487793 0.315331 -5.173829" rpy="0.0 30.0 0.0" />
+												
+						<proxy type="M65Jacket_Black" pos="-2.179443 1.069450 2.032226" rpy="-90  180  -90" />
+						<proxy type="BDUJacket" pos="-2.179443 0.754310 1.026367" rpy="-90  180  -90" />
+						<proxy type="BallisticHelmet_Green" pos="-1.268799 -0.461163 1.259765" rpy="0.0 50.0 0.0" />
+						<proxy type="AmmoBox" pos="1.395264 -0.807499 2.456054" rpy="0.0 140.0 0.0" />
+						<proxy type="Ammo_762x39" pos="1.226319 -0.915650 2.546875" rpy="0.0 30.0 0.0" />
+						<proxy type="AmmoBox_45ACP_25rnd" pos="1.495362 -0.874863 2.281253" rpy="270.0 0.0 0.0" />
+						<proxy type="Bear_Dark" pos="1.939209 -0.820584 2.129883" rpy="0.0 320.0 0.0" />
+						<proxy type="M67Grenade" pos="1.978272 -0.883652 1.993164" rpy="0.0 0.0 0.0" />
+						<proxy type="Sword" pos="-4.27 -0.72 -3.35" rpy="7.0 5.0 0.0" />
+				</dispatch>
+		</group>
+	  
+	  
+		 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <({ GG })> ++++++++++++++++++++ -->
+		 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <({ GG })> ++++++++++++++++++++ -->
+		 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ <({ Good Game })> ++++++++++++++++ -->

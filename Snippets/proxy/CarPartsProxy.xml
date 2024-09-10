@@ -1,0 +1,40 @@
+				<!-- ///INSTALLING THE FILES/// 
+					First find the Land_wreck_ vehicles in the mapgroupproto.xml
+					There are 2 different sections for each car color.
+					Land_Wreck_sed02_aban1_yellow_DE
+					Land_Wreck_sed02_aban1_yellow
+				Just use the search feature and search for the first section of the name.
+				Find the section that says <dispatch> and add the new codes below. You can add them to the DE and non DE sections.
+					-->
+				
+				<!--Land_Wreck_hb01_aban2 --> 
+				<dispatch>
+					<proxy type="CarRadiator" pos="-1.786621 -0.503967 0.113769" rpy="0.000000 0.000000 0.000000" />
+					<proxy type="CarBattery" pos="-1.016601 -0.023956 0.733887" rpy="0.000000 0.000000 0.000000" />
+					<proxy type="SparkPlug" pos="-1.241211 -0.140137 0.048340" rpy="0.000000 0.000000 45.000000" />
+				</dispatch>
+				<!--Land_Wreck_hb02_aban2 -->
+				<dispatch>
+					<proxy type="SparkPlug" pos="-1.244629 -0.024170 -0.051758" rpy="0.000000 0.000000 45.000000" />
+					<proxy type="CarRadiator" pos="-1.554200 -0.364166 0.007812" rpy="0.000000 0.000000 0.000000" />
+					<proxy type="CarBattery" pos="-1.464356 -0.034180 -0.472168" rpy="0.000000 90.000000 0.000000" />
+				</dispatch>
+				<!--Land_Wreck_sed01_aban1-->
+				<dispatch>
+					<proxy type="CarRadiator" pos="-2.110352 -0.321533 0.205078" rpy="0.000000 0.000000 0.000000" />
+					<proxy type="SparkPlug" pos="-1.800293 -0.006531 0.055176" rpy="0.000000 0.000000 45.000000" />
+					<proxy type="CarBattery" pos="-1.320313 -0.044525 0.675293" rpy="0.000000 0.000000 0.000000" />
+				</dispatch>
+				<!--Land_Wreck_sed02_aban2-->
+				<dispatch>
+				<proxy type="CarRadiator" pos="-2.153320 -0.261261 0.059570" rpy="0.000000 0.000000 0.000000" />
+				<proxy type="SparkPlug" pos="1.541504 -0.065308 0.005859" rpy="0.000000 0.000000 45.000000" />
+				<proxy type="CarBattery" pos="1.551270 -0.165314 -0.384278" rpy="0.000000 0.000000 0.000000" />
+				</dispatch> 
+
+				<!--Land_wreck_truck01_aban1-->
+				<dispatch>
+				<proxy type="HeadlightH7" pos="-2.539551 1.105591 0.720215" rpy="0.000000 0.000000 0.000000" />
+				<proxy type="TruckBattery" pos="-1.149414 0.665589 0.850097" rpy="0.000000 90.000000 0.000000" />
+				<proxy type="HeadlightH7" pos="-2.559570 0.965607 -0.779785" rpy="0.000000 0.000000 0.000000" />
+				</dispatch>
