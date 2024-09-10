@@ -1,0 +1,88 @@
+Making the Haunted Zombies
+(Pumpkin Men, Knights, Witches)
+
+Events.xml - add new entry
+    <event name="InfectedWitch">
+        <nominal>550</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_SkaterYoung_Blue"/>
+        </children>
+    </event>
+	
+cfgspawnabletypes.xml - replace entry
+    <type name="ZmbM_SkaterYoung_Blue">
+		<attachments preset="ZombieWitchHats" />
+		<attachments chance="0.10"><item name="CrookedNose" /></attachments>
+		<attachments><item name="HighCapacityVest_Black" /></attachments>
+		<cargo chance="0.25"><item name="TetracyclineAntibiotics" /></cargo>
+		<cargo chance="0.25"><item name="VitaminBottle" /></cargo>		
+		<cargo preset="ZombieItemDropSwat" />
+		<cargo preset="ZombieItemDropIndustrial" />
+		<cargo preset="foodArmy" />
+    </type>	
+	
+cfgrandompresets.xml - add new entry
+<attachments chance="1.00" name="ZombieWitchHats"> 
+	<item name="WitchHat" chance="0.33" />
+	<item name="GreatHelm" chance="0.33" />
+	<item name="PumpkinHelmet" chance="0.33" />
+</attachments>
+
+<attachments chance="1.00" name="ZombieItemDropSwat">
+		<item name="SodaCan_Kvass" chance="0.20" />
+		<item name="Mag_FAMAS_25Rnd" chance="0.20" />
+		<item name="Mag_AKM_Drum75Rnd" chance="0.20" />
+		<item name="Mag_1911_7Rnd" chance="0.20" />
+		<item name="Mag_Deagle_9rnd" chance="0.20" />
+		<item name="Mag_AK101_30Rnd" chance="0.20" />
+		<item name="Mag_AK74_30Rnd" chance="0.20" />
+		<item name="Mag_FAL_20Rnd" chance="0.20" />
+		<item name="Mag_FNX45_15Rnd" chance="0.20" />
+		<item name="Mag_Glock_15Rnd" chance="0.20" />
+		<item name="Mag_STANAGCoupled_30Rnd" chance="0.20" />
+		<item name="Mag_SVD_10Rnd" chance="0.20" />
+		<item name="Mag_Saiga_Drum20Rnd" chance="0.20" />
+		<item name="Mag_VAL_20Rnd" chance="0.20" />
+		<item name="Mag_VSS_10Rnd" chance="0.20" />
+</attachments>
+
+<attachments chance="0.35" name="ZombieItemDropIndustrial"> 
+	<item name="XmasLights" chance="0.05" />
+	<item name="CableReel" chance="0.05" />
+	<item name="DuctTape" chance="0.05" />
+	<item name="Battery9V" chance="0.05" />
+	<item name="NailBox" chance="0.05" />
+	<item name="Roadflare" chance="0.05" />
+	<item name="Chemlight_White" chance="0.05" />
+	<item name="Chemlight_Red" chance="0.05" />
+	<item name="PetrolLighter" chance="0.05" />
+	<item name="Rope" chance="0.05" />
+	<item name="MetalWire" chance="0.05" />
+	<item name="Rangefinder" chance="0.05" />
+	<item name="Pliers" chance="0.05" />
+	<item name="Shovel" chance="0.05" />
+	<item name="Crowbar" chance="0.05" />
+	<item name="Hammer" chance="0.05" />
+	<item name="Wrench" chance="0.05" />
+	<item name="Screwdriver" chance="0.05" />
+	<item name="SledgeHammer" chance="0.05" />
+	<item name="SodaCan_Kvass" chance="0.05" />
+</attachments>	
+
+
+Remember to add spawn points for these in the zombie_territories.xml
+Example ...
+<zone name="InfectedWitch" smin="4" smax="8" dmin="6" dmax="15" x="11962.0" z="12661.0" r="140"/>
+
+Adjust the dmin/dmax for how many in the horde and set the cords to where you want them at

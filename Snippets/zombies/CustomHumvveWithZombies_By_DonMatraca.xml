@@ -1,0 +1,107 @@
+<FILE CODED BY DonMatraca>
+
+<!-- CUSTOM HUMVEES WITH GHILLIES, WITCHES AND JACK-O LANTERN ZOMBIES -->
+
+<!-- This goes as new entry on Events.xml and if necessary make copies buy changing the number in the name-->
+<!--Humvee Watchers Vehicle Event -->
+	<event name="VehicleHumveeWatchers1">
+        <nominal>50</nominal>
+        <min>50</min>
+        <max>50</max>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>20</cleanupradius>
+		<secondary>InfectedHumveeWatchers</secondary>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Offroad_02"/>
+        </children>
+    </event>
+	<!-- END -->
+
+    <!-- This needs to go on events.xml as a new entry and doesnt need copies, this one stays how it is -->
+	<!--Humvee Watchers Zombie Event -->
+	<event name="InfectedHumveeWatchers">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>10</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>10</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>parent</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_priestPopSkinny"/> 
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_CitizenBSkinny"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbF_JoggerSkinny_Brown"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_usSoldier_normal_Desert"/>
+			<child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_HermitSkinny_Green"/>
+			<child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_PatrolNormal_Flat"/>
+        </children>
+    </event>
+	<!-- END -->
+
+
+    <!-- This needs to go in randompresets.xml as a new entry-->
+	<!-- Presets -->
+            <!-- ghillies -->
+    <attachments chance="1.00" name="humveeGhilliesHead">
+            <item name="GhillieHood_Mossy" chance="1.00"/>
+    </attachments>
+    <attachments chance="1.00" name="humveeGhilliesBody">
+            <item name="GhillieSuit_Mossy" chance="1.00"/>
+    </attachments>
+    <!-- Witch hoods -->
+    <attachments chance="1.00" name="humveeWitchtHoodBlack">
+            <item name="WitchHood_Black" chance="1.00"/>
+    </attachments>
+    <attachments chance="1.00" name="humveeWitchtHoodBrown">
+            <item name="WitchHood_Brown" chance="1.00"/>
+    </attachments>
+    <!-- Jack-o Lantern (Working)-->
+    <attachments chance="1.00" name="humveeHeadPumpkin">
+            <item name="PumpkinHelmet" chance="1.00"/>
+    </attachments>
+
+
+    <!-- This needs to go on spawnabletypes.xml but replacing the old entries under the same type name -->
+    <!-- Spawnabletypes to make them have clothes -->
+    <type name="ZmbM_priestPopSkinny">
+		<attachments preset="humveeWitchtHoodBlack" />
+	</type>
+    <type name="ZmbM_usSoldier_normal_Desert">
+		<attachments preset="humveeGhilliesHead" />
+        <attachments preset="humveeGhilliesBody" />
+	</type>
+    <type name="ZmbM_PatrolNormal_Flat">
+		<attachments preset="humveeGhilliesHead" />
+        <attachments preset="humveeGhilliesBody" />
+	</type>
+    <type name="ZmbF_CitizenBSkinny">
+		<attachments preset="humveeHeadPumpkin" />
+	</type>
+    <type name="ZmbF_JoggerSkinny_Brown">
+		<attachments preset="humveeWitchtHoodBrown" />
+	</type>
+    <type name="ZmbM_HermitSkinny_Green">
+		<attachments preset="humveeHeadPumpkin" />
+	</type>
+            <!--
+             NOTES: 
+            1. If you dont want the zombies used here to be in any other part of the map go to events.xml and search for the infected code blocks and remove each zombie is used here form the list of that code block 
+            2. If you like you can make copies of the event to have more of the same humvee in the map, but only make copies of the vehicle event, the event with the zombies remains as it is
+            3. Suggestions and whatever you wanna add to the zombies are free of action to anyone!
+            4. Have fun and let me know how it works
+            -->
+
+
+</FILE CODED BY DonMatraca>	
