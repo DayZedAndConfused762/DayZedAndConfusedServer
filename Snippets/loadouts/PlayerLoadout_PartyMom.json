@@ -1,0 +1,352 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+    "characterTypes": [
+      "SurvivorF_Eva",
+      "SurvivorF_Frida",
+      "SurvivorF_Gabi",
+      "SurvivorF_Helga",
+      "SurvivorF_Irena",
+      "SurvivorF_Judy",
+      "SurvivorF_Keiko",
+      "SurvivorF_Linda",
+      "SurvivorF_Maria",
+      "SurvivorF_Naomi",
+      "SurvivorF_Baty"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "CowboyHat_darkBrown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "Repeater",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 100,
+                        "quantityMax": 100
+                    },
+                    "quickBarSlot": 1
+                }                 
+            ]
+        },
+		{
+         "slotName":"Armband",
+         "discreteItemSets":[
+            {
+               "itemType":"Armband_Red",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            },
+            {
+               "itemType":"Armband_Blue",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            },
+			{
+               "itemType":"Armband_White",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            },
+			{
+               "itemType":"Armband_Yellow",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            },
+			{
+               "itemType":"Armband_Orange",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            },
+			{
+               "itemType":"Armband_Green",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            },
+			{
+               "itemType":"Armband_Pink",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            },
+			{
+               "itemType":"Armband_Black",
+               "spawnWeight":1,
+               "attributes":{
+                  "healthMin":1.0,
+                  "healthMax":1.0,
+                  "quantityMin":1.0,
+                  "quantityMax":1.0
+               },
+               "quickBarSlot":-1
+            }
+        ]
+    },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "Blouse_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "ShortJeans_Darkblue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "HipPack_Party",
+                    "spawnWeight": 1,
+					"attributes": {
+                        "healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+                    },
+					"quickBarSlot": -1,
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": [
+						"Cannabis",
+						"Apple",
+						"PetrolLighter",
+                        "CigarettePack_Chernamorka",
+						"TetracyclineAntibiotics"       
+
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "ChestHolster",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Magnum",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 100,
+                                "quantityMax": 100
+                            },
+                            "quickBarSlot": 2
+                        }
+                        
+                    ]
+                }
+            ]
+        },		
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "MedievalBoots",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "WoolGlovesFingerless_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+						"healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+				"slotName": "Back",
+                "discreteItemSets": [
+                    {
+                    "itemType": "TaloonBag_Violet",
+                    "spawnWeight": 1,
+					"attributes": {
+                        "healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+                    },
+					"quickBarSlot": -1,
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": [
+						"Heatpack",
+						"AmmoBox_357_20Rnd",
+						"AmmoBox_357_20Rnd",
+                        "VitaminBottle",
+						"Vodka",
+                        "Ammo_357"      
+					]
+                }  
+			]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+            {
+                "name": "Cargo1",
+                "spawnWeight": 1,
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "complexChildrenTypes": [
+                    {
+                        "itemType": "BandageDressing",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 3
+                    },
+                    {
+                        "itemType": "ChernarusMap",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 5
+                    },
+                    {
+                        "itemType": "Chemlight_White",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 6
+                    },
+					{
+                        "itemType": "KitchenKnife",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 4
+                    },
+                    {
+                        "itemType": "Heatpack",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 7
+                    }
+                ]
+            }
+                ]
+            }
+
