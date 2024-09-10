@@ -1,0 +1,2683 @@
+﻿How do zombies spawn and what they spawn with.
+----------------------------------------------------------
+-Territories contain the event name to spawn
+-Events contain the types to use on the child line
+-Types contains the values to set and ties to the spawnabletypes
+-Spawnabletypes contains what item will go on zombie and ties to randompresets
+-Randompresets contain list of possible items to spawn beyound spawnabletypes
+
+#Two Forgotten CFG Types
+Note: In events we have this bit of code.....
+
+    <event name="InfectedArmy">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+        </children>
+    </event>
+
+Notice the last 2 Child lines....
+Neither of them are listed in the cfgspawnabletypes.xml but the rest are.
+Seems the Devs forgot to add these in. So I have created the entries for you. 
+
+
+<!-- 1: cfgspawnabletypes.xml Add Entry -->
+
+    <type name="ZmbM_usSoldier_normal_Desert">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+        <attachments preset="bagsArmy" />
+        <attachments preset="vestsArmy" />
+    </type>
+    <type name="ZmbM_usSoldier_normal_Woodland">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+        <attachments preset="bagsArmy" />
+        <attachments preset="vestsArmy" />
+    </type>
+
+Save and upload your new file and have a blast 🙂
+
+#Adding / Removing Zombies
+
+Adding in Zombie Hordes in zombie_territories.xml 
+
+There are many types of zombies. Example...
+
+InfectedReligious
+InfectedFirefighter
+InfectedArmy
+InfectedPolice
+InfectedSolitude
+InfectedPrisoner
+InfectedIndustrial
+InfectedVillage
+InfectedMedic
+InfectedCity
+InfectedArmyHard
+InfectedPoliceHard
+InfectedMummy
+InfectedSanta
+InfectedNBC
+InfectedNBCYellow
+
+In the zombie file you will see lines like this...
+<zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="11133.1" z="4428.73" r="60"/>
+
+You can copy this line as a template.
+Replace the name with the type of zombies you want to spawn in.
+name="InfectedReligious" can be changed to name="InfectedCity" for example. 
+
+Next leave the smin and smax at 0. You want to edit the dmin and dmax numbers.
+For a large horde you could do something like this...
+
+<zone name="InfectedReligious" smin="0" smax="0" dmin="200" dmax="300" x="3583.1" z="9884.73" r="60"/>
+
+This is telling the game to spawn in 200 minimal up to a maximum of 300 zombies.
+To remove them you set them to 0 then none can spawn. That or comment out the line works too.
+ 
+The X and Z numbers correspond to the location at which you want the zombies to spawn at.
+If you do not know where or how to get coordinates I would
+suggest using the iZurvive Dayz Map Tool. It can be found here... https://www.izurvive.com/
+
+R is the radius (in meters) of where they can spawn. Locations are commented on the side. 
+smin/smax = static amount of zombies, they will always spawn even if a player isn't near.
+
+Now where to put your new zombie line of code. Open the zombie_territories.xml file...
+At the top of the file you will see these lines...
+
+<?xml version="1.0" encoding="UTF-8"?>
+<territory-type>
+
+    <territory color="1291845632">
+    you want to place your code here, under the first territory color line.
+
+Save and upload your new file and have a blast 🙂 
+
+#Custom Presets For Loot Drops
+
+Using these 2 sets of codes will allow you to have custom loot drops for your zombies.
+
+<!-- cfgrandompresets.xml New Entry -->
+<!-- new -->
+<attachments chance="0.25" name="ClothingDrop">
+        <item name="TacticalGloves_Black" chance="0.05" />
+        <item name="TTSKOPants" chance="0.05" />
+        <item name="GorkaPants_Autumn" chance="0.05" />
+        <item name="USMCPants_Desert" chance="0.05" />
+        <item name="USMCPants_Woodland" chance="0.05" />
+        <item name="BDUPants" chance="0.05" />
+        <item name="MilitaryBoots_Black" chance="0.10" />
+        <item name="TTsKOJacket_Camo" chance="0.05" />
+        <item name="GorkaEJacket_Autumn" chance="0.05" />
+        <item name="USMCJacket_Desert" chance="0.05" />
+        <item name="USMCJacket_Woodland" chance="0.05" />
+        <item name="PlateCarrierHolster" chance="0.05" />
+        <item name="HighCapacityVest_Olive" chance="0.05" />
+        <item name="GhillieSuitWoodland" chance="0.05" />
+        <item name="NVGoggles" chance="0.05" />
+        <item name="GhillieSuitMossy" chance="0.05" />
+        <item name="NVGHeadstrap" chance="0.05" />
+        <item name="MilitaryBelt" chance="0.05" />
+        <item name="NylonKnifeSheath" chance="0.05" />
+</attachments>
+<attachments chance="0.15" name="Scopes">
+        <item name="FNP45_MRDSOptic" chance="0.20" />
+        <item name="KashtanOptic" chance="0.20" />
+        <item name="PSO1Optic" chance="0.20" />
+        <item name="PSO11Optic" chance="0.10" />
+        <item name="HuntingOptic" chance="0.10" />
+        <item name="ACOGOptic" chance="0.20" />
+</attachments>
+<attachments chance="0.15" name="Stocks">
+        <item name="AK_WoodBttstck" chance="0.20" />
+        <item name="AK74_WoodBttstck" chance="0.20" />
+        <item name="M4_OEBttstck" chance="0.20" />
+        <item name="Fal_OeBttstck" chance="0.20" />
+        <item name="Saiga_Bttstck" chance="0.20" />
+</attachments>
+<attachments chance="0.15" name="HandRail">
+        <item name="AK_WoodHndgrd" chance="0.33" />
+        <item name="AK_RailHndgrd" chance="0.33" />
+        <item name="M4_RISHndgrd" chance="0.33" />
+</attachments>
+<attachments chance="0.15" name="Silencers">
+        <item name="PistolSuppressor" chance="0.50" />
+        <item name="AK_Suppressor" chance="0.50" />
+</attachments>
+<attachments chance="0.35" name="WeaponMele">
+        <item name="WoodAxe" chance="0.20" />
+        <item name="Hatchet" chance="0.20" />
+        <item name="FirefighterAxe" chance="0.20" />
+        <item name="Sword" chance="0.10" />
+        <item name="CombatKnife" chance="0.10" />
+        <item name="Machete" chance="0.20" />
+</attachments>
+<attachments chance="0.25" name="WeaponRifle">
+        <item name="AK74" chance="0.10" />
+        <item name="AK101" chance="0.10" />
+        <item name="AKM" chance="0.10" />
+        <item name="B95" chance="0.10" />
+        <item name="FAL" chance="0.10" />
+        <item name="M4A1" chance="0.10" />
+        <item name="Saiga" chance="0.10" />
+        <item name="Winchester70" chance="0.10" />
+        <item name="SVD" chance="0.10" />
+        <item name="VSS" chance="0.10" />
+</attachments>
+<attachments chance="0.25" name="WeaponHandGun">
+        <item name="Engraved1911" chance="0.33" />
+        <item name="FNX45" chance="0.33" />
+        <item name="Glock19" chance="0.33" />
+</attachments>
+<attachments chance="0.25" name="ZombieItemDropSwat">
+        <item name="CarTent" chance="0.05" />
+        <item name="LargeTent" chance="0.05" />
+        <item name="MediumTent" chance="0.10" />
+        <item name="Compass" chance="0.10" />
+        <item name="Rangefinder" chance="0.10" />
+        <item name="Binoculars" chance="0.10" />
+        <item name="Flashlight" chance="0.15" />
+        <item name="WeaponCleaningKit" chance="0.10" />
+        <item name="PetrolLighter" chance="0.10" />
+        <item name="M67Grenade" chance="0.15" />
+</attachments>
+<attachments chance="0.25" name="ZombieItemDropFirefighter">
+        <item name="Chainsaw" chance="0.20" />
+        <item name="CanisterGasoline" chance="0.20" />
+        <item name="FirefighterAxe" chance="0.20" />
+        <item name="FirstAidKit" chance="0.20" />
+        <item name="SalineBagIV" chance="0.20" />
+</attachments>
+<attachments chance="0.25" name="ZombieItemDropIndustrial"> 
+    <item name="XmasLights" chance="0.05" />
+    <item name="CableReel" chance="0.05" />
+    <item name="DuctTape" chance="0.05" />
+    <item name="Battery9V" chance="0.05" />
+    <item name="NailBox" chance="0.05" />
+    <item name="Roadflare" chance="0.05" />
+    <item name="Chemlight_White" chance="0.05" />
+    <item name="Chemlight_Red" chance="0.05" />
+    <item name="CanisterGasoline" chance="0.05" />
+    <item name="Rope" chance="0.05" />
+    <item name="MetalWire" chance="0.05" />
+    <item name="Pickaxe" chance="0.05" />
+    <item name="Pliers" chance="0.05" />
+    <item name="Shovel" chance="0.05" />
+    <item name="Crowbar" chance="0.05" />
+    <item name="Hammer" chance="0.05" />
+    <item name="Wrench" chance="0.05" />
+    <item name="Screwdriver" chance="0.05" />
+    <item name="SledgeHammer" chance="0.05" />
+    <item name="Spotlight" chance="0.05" />
+</attachments>
+<attachments chance="0.25" name="ZombieItemDropSolitude"> 
+    <item name="CamoNetShelter" chance="0.20" />
+    <item name="CamoNet" chance="0.10" />
+    <item name="DuctTape" chance="0.20" />
+    <item name="AmmoBox" chance="0.10" />
+    <item name="Battery9V" chance="0.20" />
+    <item name="Matchbox" chance="0.20" />
+</attachments>
+<attachments chance="0.25" name="ZombieAmmoDropVillage"> 
+    <item name="Mag_CLIP9x19_10Rnd" chance="0.20" />
+    <item name="Mag_CLIP762x39_10Rnd" chance="0.10" />
+    <item name="NailBox" chance="0.20" />
+    <item name="Shovel" chance="0.10" />
+    <item name="Rope" chance="0.20" />
+    <item name="CanisterGasoline" chance="0.20" />
+</attachments>
+<attachments chance="0.25" name="ZombieAmmoDropCity"> 
+    <item name="Hammer" chance="0.20" />
+    <item name="Hacksaw" chance="0.10" />
+    <item name="FishingRod" chance="0.20" />
+    <item name="Rope" chance="0.10" />
+    <item name="NailBox" chance="0.20" />
+    <item name="CanisterGasoline" chance="0.20" />
+</attachments>
+<attachments chance="0.25" name="ZombieAmmoDropPolice"> 
+    <item name="Mag_FNX45_15Rnd" chance="0.33" />
+    <item name="Mag_1911_7Rnd" chance="0.33" />
+    <item name="Mag_Glock_15Rnd" chance="0.33" />
+</attachments>
+<attachments chance="0.25" name="ZombieAmmoDropArmy"> 
+    <item name="Mag_AK101_30Rnd" chance="0.10" />
+    <item name="Mag_AKM_30Rnd" chance="0.10" />
+    <item name="Mag_AKM_Drum75Rnd" chance="0.10" />
+    <item name="Mag_FAL_20Rnd" chance="0.10" />
+    <item name="Mag_STANAG_30Rnd" chance="0.10" />
+    <item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
+    <item name="Mag_SVD_10Rnd" chance="0.10" />
+    <item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
+    <item name="Mag_VSS_10Rnd" chance="0.10" />
+    <item name="Mag_AK74_30Rnd" chance="0.10" />
+</attachments>
+<attachments chance="0.35" name="ZombieFunnyHats"> 
+    <item name="SantasHat" chance="0.33" />
+    <item name="GreatHelm" chance="0.33" />
+    <item name="PumpkinHelmet" chance="0.33" />
+</attachments>
+<attachments chance="0.25" name="MedicInventory">
+    <item name="PainkillerTablets" chance="0.10" />
+    <item name="PurificationTablets" chance="0.10" />
+    <item name="SalineBag" chance="0.10" />
+    <item name="TetracyclineAntibiotics" chance="0.10" />
+    <item name="VitaminBottle" chance="0.10" />
+    <item name="Bandage" chance="0.10" />
+    <item name="BandageDressing" chance="0.30" />
+    <item name="Epinephrine" chance="0.10" />
+</attachments>
+<!-- end new -->
+<!-- cfgspawnabletypes.xml Replace Entry -->
+
+    <!-- START OF ZOMBIES  -->
+    <!-- ARMY -->
+due to the amount of zombies i have condensed the information into a file
+
+	<type name="ZmbM_usSoldier_normal_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>
+	<type name="ZmbM_usSoldier_normal_Woodland">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>	
+	<type name="ZmbM_PatrolNormal_Autumn">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Flat">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />	
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />		
+	</type>
+	<type name="ZmbM_PatrolNormal_PautRev">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Summer">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>
+	<type name="ZmbM_SoldierNormal">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropArmy" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="vestsArmy" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>
+	<!-- City -->
+	<type name="ZmbF_Clerk_Normal_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />	
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_White">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Beige">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_CitizenBSkinny">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_JournalistNormal_White">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_beige">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_black">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_checks">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_stripes">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_white">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_ShortSkirt_yellow">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Striped">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_SkaterYoung_Violet">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Orange">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_SurvivorNormal_White">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CitizenASkinny_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CitizenBFat_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_ClerkFat_Brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_ClerkFat_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_ClerkFat_Khaki">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_ClerkFat_White">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCity" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Olive">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_beige">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_black">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_bluechecks">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_greenchecks">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_khaki">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_magenta">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_Jacket_stripes">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="hatsCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_JournalistSkinny">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Beige">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsMotorbike" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Black">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsMotorbike" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsMotorbike" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Brown">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCitySkate" />
+		<attachments preset="ClothingDrop" />
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCitySkate" />
+		
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsCitySkate" />
+		
+		<attachments preset="ZombieAmmoDropCity" />
+		<attachments preset="WeaponMele" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<!-- Industrial -->
+	<type name="ZmbF_BlueCollarFat_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_White">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Beige">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Orange">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Beige">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Black">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Beige">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_White">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_HeavyIndustryWorker">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Blue">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Grey">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Green">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Orange">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Red">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Yellow">
+		<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="hatsIndustrial" />
+		
+		<attachments preset="vestsIndustrial" />
+		<attachments preset="ZombieItemDropIndustrial" />
+	</type>
+	<!-- FireFighter -->
+	<type name="ZmbM_FirefighterNormal">
+	<cargo preset="foodCity" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFirefighter" />
+		<attachments preset="ZombieItemDropFirefighter" />
+	</type>
+	<!-- Medic -->
+	<type name="ZmbF_DoctorSkinny">
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_NurseFat">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Blue">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Green">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Red">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbF_PatientOld">
+		<attachments preset="bagsArmy" />
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_DoctorFat">
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsMedic" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Black">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Blue">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Green">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Red">
+		<attachments preset="bagsArmy" />
+		
+		<attachments preset="MedicInventory" />
+	</type>
+	<type name="ZmbM_PatientSkinny">
+		<attachments preset="bagsArmy" />
+		<attachments preset="MedicInventory" />
+	</type>
+	<!-- Police -->
+	<type name="ZmbF_PoliceWomanNormal">
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropPolice" />
+		<attachments preset="hatsPolice" />
+		<attachments preset="vestsPolice" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>
+	<type name="ZmbM_PolicemanFat">
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropPolice" />
+		<attachments preset="hatsPolice" />
+		<attachments preset="vestsPolice" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+	</type>
+	<type name="ZmbM_PolicemanSpecForce">
+		<cargo preset="foodArmy" />
+		<attachments>
+			<item name="BallisticHelmet_Black" />
+		</attachments>
+		<attachments>
+			<item name="HighCapacityVest_Black" />
+		</attachments>
+		<attachments>
+			<item name="AliceBag_Black" />
+		</attachments>
+		<attachments preset="ZombieItemDropSwat" />
+		<attachments preset="WeaponRifle" />
+		<attachments preset="WeaponHandGun" />
+		<attachments preset="Scopes" />
+		<attachments preset="Stocks" />
+		<attachments preset="HandRail" />
+		<attachments preset="Silencers" />
+		<attachments preset="ZombieAmmoDropArmy" />
+	</type>
+	<!-- Prisoner -->
+	<type name="ZmbM_PrisonerSkinny">
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsPrisoner" />
+		<attachments preset="ZombieItemDropFirefighter" />
+		<attachments preset="WeaponMele" />
+	</type>
+	<!-- Religious -->
+	<type name="ZmbM_priestPopSkinny">
+		<cargo preset="foodHermit" />
+		<attachments preset="ZombieFunnyHats" />
+	</type>
+	<!-- Solitude -->
+	<type name="ZmbF_HikerSkinny_Blue">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Grey">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Green">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Red">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FishermanOld_Blue">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FishermanOld_Green">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FishermanOld_Grey">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FishermanOld_Red">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Beige">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Black">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Green">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Red">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Blue">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Green">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Yellow">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HunterOld_Autumn">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HunterOld_Spring">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HunterOld_Summer">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_HunterOld_Winter">
+		<cargo preset="foodHermit" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="vestsHunter" />
+		
+		<attachments preset="ZombieItemDropSolitude" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<!-- Village -->
+	<type name="ZmbF_MilkMaidOld_Beige">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Black">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Green">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Grey">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_VillagerOld_Blue">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+		<attachments preset="hatsFarm" />
+		
+	</type>
+	<type name="ZmbF_VillagerOld_Green">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+		<attachments preset="hatsFarm" />
+		
+	</type>
+	<type name="ZmbF_VillagerOld_Red">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+		<attachments preset="hatsFarm" />
+		
+	</type>
+	<type name="ZmbF_VillagerOld_White">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+		<attachments preset="hatsFarm" />
+		
+	</type>
+	<type name="ZmbF_JoggerSkinny_Blue">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Brown">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Green">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbF_JoggerSkinny_Red">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FarmerFat_Beige">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FarmerFat_Blue">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FarmerFat_Brown">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_FarmerFat_Green">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Blue">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Green">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Red">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_VillagerOld_Blue">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_VillagerOld_Green">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+	<type name="ZmbM_VillagerOld_White">
+		<cargo preset="foodVillage" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="ZombieAmmoDropVillage" />
+		<attachments preset="hatsFarm" />
+		<attachments preset="ClothingDrop" />
+	</type>
+note : the ability to have a zombie store rifles no longer works due to changes the devs made. basically you have 12 slots you can use on zombies.
+
+#Increasing Heli Zombie Spawns Globally 
+These values are used when no values are set for a event spawn.
+to set values per event see ⁠making-dynamic-events 
+
+<!-- cfgeconomycore.xml Replace Entry -->
+ Open up your file and you will see 4 lines like this..
+ 
+<default name="dyn_smin" value="0" />
+<default name="dyn_smax" value="0" />
+<default name="dyn_dmin" value="1" />
+<default name="dyn_dmax" value="5" />
+
+Now if you want to see more then just 0-5 guards at a heli crash or any 
+dynamic site you might want to make a change like this...
+
+<default name="dyn_smin" value="0" />
+<default name="dyn_smax" value="0" />
+<default name="dyn_dmin" value="10" /><!-- was 1 -->
+<default name="dyn_dmax" value="20" /><!-- was 5 -->
+Now using this example you can have anywhere from 10 to 20 guards at a site.
+By simply editing those 2 lines you can have swarms of guards if you wanted too !
+
+<!-- events.xml View Entry -->
+this is the default entry below.... 
+<event name="InfectedArmy">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+        </children>
+    </event>
+
+#Standard Loot Per Zombie Type With Gilli Suits
+
+There are 2 areas that are coverd here.
+1: New presets
+2: All the zombie names calling the presets
+
+If you are looking to spice up your zombies for the game and want them to drop loot 
+that is more fitted to the type of zombie they are, this might help. 
+
+As a side note,
+most of the items you see in the presets below I have removed from the loot table for 
+common drops on my server. So if my players want the items, they have to go zombie hunting :)
+If you want to go this route as well (optional ofc) you can edit the types.xml and set the items
+in question to nominal="0" and min="0".
+
+<!-- 1: cfgradompreset.xml New Entry -->
+<attachments chance="1.00" name="ZombieGilliSuit">
+        <item name="GhillieSuit_Mossy" chance="0.33" />
+        <item name="GhillieSuit_Tan" chance="0.33" />
+        <item name="GhillieSuit_Woodland" chance="0.34" />
+</attachments>
+<attachments chance="1.00" name="ZombieGilliHat">
+        <item name="GhillieHood_Mossy" chance="0.33" />
+        <item name="GhillieHood_Tan" chance="0.33" />
+        <item name="GhillieHood_Woodland" chance="0.34" />
+</attachments>
+
+<!-- 2: cfgspawnabletypes.xml Replace Entry -->
+
+    <!--START OF ZOMBIES  -->
+    <!-- Army -->
+due to the amount of zombies i have condensed the information into a file
+
+	<type name="ZmbM_PatrolNormal_Autumn">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="glassesArmy" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Flat">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="glassesArmy" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_PatrolNormal_PautRev">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="glassesArmy" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Summer">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="glassesArmy" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_SoldierNormal">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="glassesArmy" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_usSoldier_normal_Desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<type name="ZmbM_usSoldier_normal_Woodland">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsArmy" />
+	</type>
+	<!-- City -->
+	<type name="ZmbF_Clerk_Normal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_Clerk_Normal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_CitizenANormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_CitizenANormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_CitizenANormal_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_CitizenBSkinny">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_JournalistNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_JournalistNormal_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_JournalistNormal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_ShortSkirt_beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_checks">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_stripes">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_white">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_ShortSkirt_yellow">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_SkaterYoung_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		
+	</type>
+	<type name="ZmbF_SkaterYoung_Striped">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		
+	</type>
+	<type name="ZmbF_SkaterYoung_Violet">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		
+	</type>
+	<type name="ZmbF_SurvivorNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_SurvivorNormal_Orange">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_SurvivorNormal_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_SurvivorNormal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CitizenASkinny_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CitizenASkinny_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CitizenASkinny_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CitizenASkinny_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CitizenBFat_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CitizenBFat_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CitizenBFat_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_ClerkFat_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_ClerkFat_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_ClerkFat_Khaki">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_ClerkFat_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_CommercialPilotOld_Olive">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbM_Jacket_beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_bluechecks">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_greenchecks">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_khaki">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_magenta">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_Jacket_stripes">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_JournalistSkinny">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />		
+	</type>
+	<type name="ZmbM_MotobikerFat_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_MotobikerFat_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Brown">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_SkaterYoung_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<!-- Industrial -->
+	<type name="ZmbF_BlueCollarFat_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbF_BlueCollarFat_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbF_MechanicNormal_Orange">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Black">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_ConstrWorkerNormal_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Beige">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_HandymanNormal_White">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_HeavyIndustryWorker">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Blue">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Grey">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_MechanicSkinny_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Green">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Orange">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Red">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<type name="ZmbM_OffshoreWorker_Yellow">
+		<cargo preset="foodCity" />
+		<cargo preset="toolsIndustrial" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsIndustrial" />
+	</type>
+	<!-- FireFighter -->
+	<type name="ZmbM_FirefighterNormal">
+		<cargo preset="toolsCity" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<!-- Medic -->
+	<type name="ZmbF_DoctorSkinny">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_NurseFat">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Blue">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Green">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_ParamedicNormal_Red">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_PatientOld">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_DoctorFat">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Black">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Blue">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Green">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_ParamedicNormal_Red">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_PatientSkinny">
+		<cargo preset="toolsMedic" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<!-- Police -->
+	<type name="ZmbF_PoliceWomanNormal">
+		<cargo preset="toolsPolice" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="vestsPolice" />
+	</type>
+	<type name="ZmbM_PolicemanFat">
+		<cargo preset="toolsPolice" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="vestsPolice" />
+	</type>
+	<type name="ZmbM_PolicemanSpecForce">
+		<cargo preset="toolsPolice" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="vestsPolice" />
+	</type>
+	<!-- Prisoner -->
+	<type name="ZmbM_PrisonerSkinny">
+		<cargo chance="0.10">
+			<item name="Rope" chance="0.14" />
+		</cargo>
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<!-- Religious -->
+	<type name="ZmbM_priestPopSkinny">
+		<cargo preset="foodHermit" />
+	</type>
+	<!-- Solitude -->
+	<type name="ZmbF_HikerSkinny_Blue">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Grey">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbF_HikerSkinny_Red">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_FishermanOld_Blue">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_FishermanOld_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_FishermanOld_Grey">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_FishermanOld_Red">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Beige">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Black">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HermitSkinny_Red">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Blue">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Green">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HikerSkinny_Yellow">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		<attachments preset="ZombieGilliSuit" />
+	</type>
+	<type name="ZmbM_HunterOld_Autumn">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsHunter" />
+	</type>
+	<type name="ZmbM_HunterOld_Spring">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsHunter" />
+	</type>
+	<type name="ZmbM_HunterOld_Summer">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliHat" />
+		
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="vestsHunter" />
+	</type>
+	<type name="ZmbM_HunterOld_Winter">
+		<cargo preset="foodHermit" />
+		<cargo preset="toolsHermit" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+		<attachments preset="vestsHunter" />
+	</type>
+	<!-- Village -->
+	<type name="ZmbF_MilkMaidOld_Beige">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_MilkMaidOld_Grey">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbF_VillagerOld_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_VillagerOld_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_VillagerOld_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_VillagerOld_White">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_JoggerSkinny_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_JoggerSkinny_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_JoggerSkinny_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbF_JoggerSkinny_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_FarmerFat_Beige">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_FarmerFat_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbM_FarmerFat_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbM_FarmerFat_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+	</type>
+	<type name="ZmbM_JoggerSkinny_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_JoggerSkinny_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_JoggerSkinny_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_VillagerOld_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_VillagerOld_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+	<type name="ZmbM_VillagerOld_White">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsVillage" />
+		<attachments preset="ZombieGilliSuit" />
+		<attachments preset="ZombieGilliHat" />
+		
+	</type>
+
+
+Zombies will respawn once the dead zombie is cleaned up (de-spawned)
+based on the "CleanupLifetimeDeadInfected" value set in globals.xml
+This value is in seconds. So the higher the number, the longer it takes them
+to respawn.

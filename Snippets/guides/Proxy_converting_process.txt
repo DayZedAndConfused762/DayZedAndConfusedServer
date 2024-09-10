@@ -1,0 +1,290 @@
+
+
+
+
+
+
+								<!-- hope this helps explain how to go from clicking stuff offline
+								     to inserting a dispatch and tweeking the grid from there -->
+
+
+							   *the first insert was passed to me from a member for help, i only used it to show the process
+							   this DOES NOT create your nice clean proxy
+							   this puts the items roughly where you want and lets you adjust from there
+							   But this hopefully helps show what you need to down
+							   this is my method anyways, not sure how others achieve it
+							   
+							    cheers - Josie G
+
+
+								
+								<!-- Building rough work -->
+								
+								
+								SpawnObject( "Land_City_PoliceStation", "6633.084961 13.889924 2586.689941", "42.299995 0.000000 0.000000" );
+								SpawnObject( "MP5K_1", "6633.583008 17.083315 2581.343018", "-47.000149 0.000000 0.000000" );
+								SpawnObject( "UMP45_1", "6633.533691 17.313850 2581.293701", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "CZ75_1", "6634.077148 16.847168 2581.891357", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "Colt1911_1", "6633.582031 16.846842 2581.341797", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "Glock19_1", "6633.928223 16.854406 2581.689453", "-46.999992 -0.000000 0.000000" );
+								SpawnObject( "MakarovIJ70_1", "6633.736328 16.855700 2581.497559", "-46.999992 -0.000000 0.000000" );
+								SpawnObject( "Mp133Shotgun_1", "6633.860352 16.570065 2581.644531", "-46.999943 0.000000 0.000000" );
+								SpawnObject( "PistolSuppressor_1", "6634.920898 16.364090 2582.820068", "132.999573 90.000000 -89.999374" );
+								SpawnObject( "Mag_UMP_25Rnd_1", "6634.950195 16.535049 2582.833008", "-46.999962 0.000000 -89.999985" );
+								SpawnObject( "Scout_1", "6633.808594 16.315155 2581.572266", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "MP5_Compensator_1", "6633.855469 17.349398 2581.655029", "-132.999969 -90.000000 179.999985" );
+								SpawnObject( "MP5k_StockBttstck_1", "6634.208984 17.354605 2582.061035", "-46.999985 0.000000 90.000000" );
+								SpawnObject( "MP5_PlasticHndgrd_1", "6634.056152 17.404449 2581.856689", "135.000000 0.000000 0.000000" );
+								SpawnObject( "MP5_RailHndgrd_1", "6633.957031 17.413061 2581.757324", "-45.000214 0.000000 -0.000104" );
+								SpawnObject( "Mag_MP5_30Rnd_1", "6634.848633 17.292999 2582.752686", "129.998047 0.000000 70.999763" );
+								SpawnObject( "ReflexOptic_1", "6634.402344 16.338699 2582.254639", "130.000000 0.000000 -90.000000" );
+								SpawnObject( "ACOGOptic_1", "6634.550293 16.320768 2582.403076", "131.000076 0.000000 -89.999626" );
+								SpawnObject( "M4_Suppressor_1", "6634.749023 16.357792 2582.602539", "42.000168 -90.000000 -0.000104" );
+								SpawnObject( "Mag_Glock_15Rnd_1", "6634.910156 17.152121 2582.800049", "132.999969 0.000000 109.999512" );
+								SpawnObject( "Mag_1911_7Rnd_1", "6634.948730 17.050869 2582.853516", "132.999969 -0.000000 109.999924" );
+								SpawnObject( "Mag_IJ70_8Rnd_1", "6634.951172 16.950871 2582.856445", "132.999969 0.000000 94.999626" );
+								SpawnObject( "Mag_CZ75_15Rnd_1", "6634.953613 16.802126 2582.858643", "132.999969 0.000000 103.999329" );
+								SpawnObject( "Mag_CZ61_20Rnd_1", "6634.951172 16.648823 2582.856201", "-46.999996 0.000000 74.999985" );
+								SpawnObject( "CZ61_1", "6633.852539 17.083000 2581.652100", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "PoliceBaton_1", "6634.704102 16.711269 2582.557861", "179.999893 0.000000 0.000000" );
+								SpawnObject( "PoliceVest_1", "6634.310059 16.990644 2582.156494", "-137.477127 0.000000 -90.999977" );
+							
+								<!-- ----------< GG >---------- -->
+						
+						
+								<!-- Now replace the items with GiftBox_Large_1   -->
+								<!-- then run this through the calculator -->
+								GiftBox_Large_1
+						
+								SpawnObject( "Land_City_PoliceStation", "6633.084961 13.889924 2586.689941", "42.299995 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.583008 17.083315 2581.343018", "-47.000149 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.533691 17.313850 2581.293701", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6634.077148 16.847168 2581.891357", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.582031 16.846842 2581.341797", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.928223 16.854406 2581.689453", "-46.999992 -0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.736328 16.855700 2581.497559", "-46.999992 -0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.860352 16.570065 2581.644531", "-46.999943 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6634.920898 16.364090 2582.820068", "132.999573 90.000000 -89.999374" );
+								SpawnObject( "GiftBox_Large_1", "6634.950195 16.535049 2582.833008", "-46.999962 0.000000 -89.999985" );
+								SpawnObject( "GiftBox_Large_1", "6633.808594 16.315155 2581.572266", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.855469 17.349398 2581.655029", "-132.999969 -90.000000 179.999985" );
+								SpawnObject( "GiftBox_Large_1", "6634.208984 17.354605 2582.061035", "-46.999985 0.000000 90.000000" );
+								SpawnObject( "GiftBox_Large_1", "6634.056152 17.404449 2581.856689", "135.000000 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6633.957031 17.413061 2581.757324", "-45.000214 0.000000 -0.000104" );
+								SpawnObject( "GiftBox_Large_1", "6634.848633 17.292999 2582.752686", "129.998047 0.000000 70.999763" );
+								SpawnObject( "GiftBox_Large_1", "6634.402344 16.338699 2582.254639", "130.000000 0.000000 -90.000000" );
+								SpawnObject( "GiftBox_Large_1", "6634.550293 16.320768 2582.403076", "131.000076 0.000000 -89.999626" );
+								SpawnObject( "GiftBox_Large_1", "6634.749023 16.357792 2582.602539", "42.000168 -90.000000 -0.000104" );
+								SpawnObject( "GiftBox_Large_1", "6634.910156 17.152121 2582.800049", "132.999969 0.000000 109.999512" );
+								SpawnObject( "GiftBox_Large_1", "6634.948730 17.050869 2582.853516", "132.999969 -0.000000 109.999924" );
+								SpawnObject( "GiftBox_Large_1", "6634.951172 16.950871 2582.856445", "132.999969 0.000000 94.999626" );
+								SpawnObject( "GiftBox_Large_1", "6634.953613 16.802126 2582.858643", "132.999969 0.000000 103.999329" );
+								SpawnObject( "GiftBox_Large_1", "6634.951172 16.648823 2582.856201", "-46.999996 0.000000 74.999985" );
+								SpawnObject( "GiftBox_Large_1", "6633.852539 17.083000 2581.652100", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6634.704102 16.711269 2582.557861", "179.999893 0.000000 0.000000" );
+								SpawnObject( "GiftBox_Large_1", "6634.310059 16.990644 2582.156494", "-137.477127 0.000000 -90.999977" );
+								
+								<!-- ----------< GG >---------- -->
+							
+							<!-- it spits back this -->
+							
+							<!-- this is 1 line less notice!! because the building line from the top is now gone
+							   these are the items' spots... -->
+							   
+							   
+							   
+							<point pos="-5.346923 3.193391 -0.498047" range="0.500000" height="1.500000" />
+							<point pos="-5.396240 3.423926 -0.448730" range="0.500000" height="1.500000" />
+							<point pos="-4.798584 2.957244 -0.992187" range="0.500000" height="1.500000" />
+							<point pos="-5.348144 2.956918 -0.497070" range="0.500000" height="1.500000" />
+							<point pos="-5.000488 2.964482 -0.843262" range="0.500000" height="1.500000" />
+							<point pos="-5.192382 2.965776 -0.651367" range="0.500000" height="1.500000" />
+							<point pos="-5.045410 2.680141 -0.775391" range="0.500000" height="1.500000" />
+							<point pos="-3.869873 2.474166 -1.835937" range="0.500000" height="1.500000" />
+							<point pos="-3.856933 2.645125 -1.865234" range="0.500000" height="1.500000" />
+							<point pos="-5.117675 2.425231 -0.723633" range="0.500000" height="1.500000" />
+							<point pos="-5.034912 3.459474 -0.770508" range="0.500000" height="1.500000" />
+							<point pos="-4.628906 3.464681 -1.124023" range="0.500000" height="1.500000" />
+							<point pos="-4.833252 3.514525 -0.971191" range="0.500000" height="1.500000" />
+							<point pos="-4.932617 3.523137 -0.872070" range="0.500000" height="1.500000" />
+							<point pos="-3.937255 3.403075 -1.763672" range="0.500000" height="1.500000" />
+							<point pos="-4.435302 2.448775 -1.317383" range="0.500000" height="1.500000" />
+							<point pos="-4.286865 2.430844 -1.465332" range="0.500000" height="1.500000" />
+							<point pos="-4.087402 2.467868 -1.664062" range="0.500000" height="1.500000" />
+							<point pos="-3.889892 3.262197 -1.825195" range="0.500000" height="1.500000" />
+							<point pos="-3.836425 3.160945 -1.863769" range="0.500000" height="1.500000" />
+							<point pos="-3.833496 3.060947 -1.866211" range="0.500000" height="1.500000" />
+							<point pos="-3.831298 2.912202 -1.868652" range="0.500000" height="1.500000" />
+							<point pos="-3.833740 2.758899 -1.866211" range="0.500000" height="1.500000" />
+							<point pos="-5.037841 3.193076 -0.767578" range="0.500000" height="1.500000" />
+							<point pos="-4.132080 2.821345 -1.619141" range="0.500000" height="1.500000" />
+							<point pos="-4.533447 3.100720 -1.225098" range="0.500000" height="1.500000" />
+								
+
+								<!-- ----------< GG >---------- -->
+								
+						Copy below line in place of the word "point" and replace the range lines to rpy="0.0 0.0 0.0" 
+								proxy type"GiftBox_Large_1"
+								
+								this just makes it an clean insert to copy your items back into afterwards to finish up
+								
+							<!-- Then add your dispatch tags -->
+							
+						<dispatch>
+							<proxy type="GiftBox_Large_1" pos="-5.346923 3.193391 -0.498047" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.396240 3.423926 -0.448730" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.798584 2.957244 -0.992187" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.348144 2.956918 -0.497070" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.000488 2.964482 -0.843262" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.192382 2.965776 -0.651367" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.045410 2.680141 -0.775391" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.869873 2.474166 -1.835937" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.856933 2.645125 -1.865234" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.117675 2.425231 -0.723633" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.034912 3.459474 -0.770508" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.628906 3.464681 -1.124023" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.833252 3.514525 -0.971191" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.932617 3.523137 -0.872070" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.937255 3.403075 -1.763672" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.435302 2.448775 -1.317383" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.286865 2.430844 -1.465332" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.087402 2.467868 -1.664062" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.889892 3.262197 -1.825195" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.836425 3.160945 -1.863769" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.833496 3.060947 -1.866211" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.831298 2.912202 -1.868652" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-3.833740 2.758899 -1.866211" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-5.037841 3.193076 -0.767578" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.132080 2.821345 -1.619141" rpy="0.0 0.0 0.0" />
+							<proxy type="GiftBox_Large_1" pos="-4.533447 3.100720 -1.225098" rpy="0.0 0.0 0.0" />
+						</dispatch>	
+						
+								<!-- ----------< GG >---------- -->
+								
+								<!-- Now put your original work, minus the building/class pos line
+									and copy and paste your items in their correct spots -->
+								<!-- i copy the original section with the new one to quickly go back and forth
+								
+								
+								SpawnObject( "MP5K", "6633.583008 17.083315 2581.343018", "-47.000149 0.000000 0.000000" );
+								SpawnObject( "UMP45", "6633.533691 17.313850 2581.293701", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "CZ75_1", "6634.077148 16.847168 2581.891357", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "Colt1911", "6633.582031 16.846842 2581.341797", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "Glock19", "6633.928223 16.854406 2581.689453", "-46.999992 -0.000000 0.000000" );
+								SpawnObject( "MakarovIJ70", "6633.736328 16.855700 2581.497559", "-46.999992 -0.000000 0.000000" );
+								SpawnObject( "Mp133Shotgun", "6633.860352 16.570065 2581.644531", "-46.999943 0.000000 0.000000" );
+								SpawnObject( "PistolSuppressor", "6634.920898 16.364090 2582.820068", "132.999573 90.000000 -89.999374" );
+								SpawnObject( "Mag_UMP_25Rnd", "6634.950195 16.535049 2582.833008", "-46.999962 0.000000 -89.999985" );
+								SpawnObject( "Scout", "6633.808594 16.315155 2581.572266", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "MP5_Compensator", "6633.855469 17.349398 2581.655029", "-132.999969 -90.000000 179.999985" );
+								SpawnObject( "MP5k_StockBttstck", "6634.208984 17.354605 2582.061035", "-46.999985 0.000000 90.000000" );
+								SpawnObject( "MP5_PlasticHndgrd", "6634.056152 17.404449 2581.856689", "135.000000 0.000000 0.000000" );
+								SpawnObject( "MP5_RailHndgrd", "6633.957031 17.413061 2581.757324", "-45.000214 0.000000 -0.000104" );
+								SpawnObject( "Mag_MP5_30Rnd", "6634.848633 17.292999 2582.752686", "129.998047 0.000000 70.999763" );
+								SpawnObject( "ReflexOptic", "6634.402344 16.338699 2582.254639", "130.000000 0.000000 -90.000000" );
+								SpawnObject( "ACOGOptic", "6634.550293 16.320768 2582.403076", "131.000076 0.000000 -89.999626" );
+								SpawnObject( "M4_Suppressor", "6634.749023 16.357792 2582.602539", "42.000168 -90.000000 -0.000104" );
+								SpawnObject( "Mag_Glock_15Rnd", "6634.910156 17.152121 2582.800049", "132.999969 0.000000 109.999512" );
+								SpawnObject( "Mag_1911_7Rnd", "6634.948730 17.050869 2582.853516", "132.999969 -0.000000 109.999924" );
+								SpawnObject( "Mag_IJ70_8Rnd", "6634.951172 16.950871 2582.856445", "132.999969 0.000000 94.999626" );
+								SpawnObject( "Mag_CZ75_15Rnd", "6634.953613 16.802126 2582.858643", "132.999969 0.000000 103.999329" );
+								SpawnObject( "Mag_CZ61_20Rnd", "6634.951172 16.648823 2582.856201", "-46.999996 0.000000 74.999985" );
+								SpawnObject( "CZ61", "6633.852539 17.083000 2581.652100", "-46.999992 0.000000 0.000000" );
+								SpawnObject( "PoliceBaton", "6634.704102 16.711269 2582.557861", "179.999893 0.000000 0.000000" );
+								SpawnObject( "PoliceVest", "6634.310059 16.990644 2582.156494", "-137.477127 0.000000 -90.999977" );
+								
+							<dispatch>
+								<proxy type="MP5K" pos="-5.346923 3.193391 -0.498047" rpy="0.0 0.0 0.0" />
+								<proxy type="UMP45" pos="-5.396240 3.423926 -0.448730" rpy="0.0 0.0 0.0" />
+								<proxy type="CZ75_1" pos="-4.798584 2.957244 -0.992187" rpy="0.0 0.0 0.0" />
+								<proxy type="Colt1911" pos="-5.348144 2.956918 -0.497070" rpy="0.0 0.0 0.0" />
+								<proxy type="Glock19" pos="-5.000488 2.964482 -0.843262" rpy="0.0 0.0 0.0" />
+								<proxy type="MakarovIJ70" pos="-5.192382 2.965776 -0.651367" rpy="0.0 0.0 0.0" />
+								<proxy type="Mp133Shotgun" pos="-5.045410 2.680141 -0.775391" rpy="0.0 0.0 0.0" />
+								<proxy type="PistolSuppressor" pos="-3.869873 2.474166 -1.835937" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_UMP_25Rnd" pos="-3.856933 2.645125 -1.865234" rpy="0.0 0.0 0.0" />
+								<proxy type="Scout" pos="-5.117675 2.425231 -0.723633" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5_Compensator" pos="-5.034912 3.459474 -0.770508" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5k_StockBttstck" pos="-4.628906 3.464681 -1.124023" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5_PlasticHndgrd" pos="-4.833252 3.514525 -0.971191" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5_RailHndgrd" pos="-4.932617 3.523137 -0.872070" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_MP5_30Rnd" pos="-3.937255 3.403075 -1.763672" rpy="0.0 0.0 0.0" />
+								<proxy type="ReflexOptic" pos="-4.435302 2.448775 -1.317383" rpy="0.0 0.0 0.0" />
+								<proxy type="ACOGOptic" pos="-4.286865 2.430844 -1.465332" rpy="0.0 0.0 0.0" />
+								<proxy type="M4_Suppressor" pos="-4.087402 2.467868 -1.664062" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_Glock_15Rnd" pos="-3.889892 3.262197 -1.825195" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_1911_7Rnd" pos="-3.836425 3.160945 -1.863769" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_IJ70_8Rnd" pos="-3.833496 3.060947 -1.866211" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_CZ75_15Rnd" pos="-3.831298 2.912202 -1.868652" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_CZ61_20Rnd" pos="-3.833740 2.758899 -1.866211" rpy="0.0 0.0 0.0" />
+								<proxy type="CZ61" pos="-5.037841 3.193076 -0.767578" rpy="0.0 0.0 0.0" />
+								<proxy type="PoliceBaton" pos="-4.132080 2.821345 -1.619141" rpy="0.0 0.0 0.0" />
+								<proxy type="PoliceVest" pos="-4.533447 3.100720 -1.225098" rpy="0.0 0.0 0.0" />
+							</dispatch>	
+							
+							<!-- ----------< GG >---------- -->
+							
+					<!-- this will be your finished product, insert this inplace of, or under proto container for the proto your building -->
+								
+							<dispatch>
+								<proxy type="MP5K" pos="-5.346923 3.193391 -0.498047" rpy="0.0 0.0 0.0" />
+								<proxy type="UMP45" pos="-5.396240 3.423926 -0.448730" rpy="0.0 0.0 0.0" />
+								<proxy type="CZ75_1" pos="-4.798584 2.957244 -0.992187" rpy="0.0 0.0 0.0" />
+								<proxy type="Colt1911" pos="-5.348144 2.956918 -0.497070" rpy="0.0 0.0 0.0" />
+								<proxy type="Glock19" pos="-5.000488 2.964482 -0.843262" rpy="0.0 0.0 0.0" />
+								<proxy type="MakarovIJ70" pos="-5.192382 2.965776 -0.651367" rpy="0.0 0.0 0.0" />
+								<proxy type="Mp133Shotgun" pos="-5.045410 2.680141 -0.775391" rpy="0.0 0.0 0.0" />
+								<proxy type="PistolSuppressor" pos="-3.869873 2.474166 -1.835937" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_UMP_25Rnd" pos="-3.856933 2.645125 -1.865234" rpy="0.0 0.0 0.0" />
+								<proxy type="Scout" pos="-5.117675 2.425231 -0.723633" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5_Compensator" pos="-5.034912 3.459474 -0.770508" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5k_StockBttstck" pos="-4.628906 3.464681 -1.124023" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5_PlasticHndgrd" pos="-4.833252 3.514525 -0.971191" rpy="0.0 0.0 0.0" />
+								<proxy type="MP5_RailHndgrd" pos="-4.932617 3.523137 -0.872070" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_MP5_30Rnd" pos="-3.937255 3.403075 -1.763672" rpy="0.0 0.0 0.0" />
+								<proxy type="ReflexOptic" pos="-4.435302 2.448775 -1.317383" rpy="0.0 0.0 0.0" />
+								<proxy type="ACOGOptic" pos="-4.286865 2.430844 -1.465332" rpy="0.0 0.0 0.0" />
+								<proxy type="M4_Suppressor" pos="-4.087402 2.467868 -1.664062" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_Glock_15Rnd" pos="-3.889892 3.262197 -1.825195" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_1911_7Rnd" pos="-3.836425 3.160945 -1.863769" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_IJ70_8Rnd" pos="-3.833496 3.060947 -1.866211" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_CZ75_15Rnd" pos="-3.831298 2.912202 -1.868652" rpy="0.0 0.0 0.0" />
+								<proxy type="Mag_CZ61_20Rnd" pos="-3.833740 2.758899 -1.866211" rpy="0.0 0.0 0.0" />
+								<proxy type="CZ61" pos="-5.037841 3.193076 -0.767578" rpy="0.0 0.0 0.0" />
+								<proxy type="PoliceBaton" pos="-4.132080 2.821345 -1.619141" rpy="0.0 0.0 0.0" />
+								<proxy type="PoliceVest" pos="-4.533447 3.100720 -1.225098" rpy="0.0 0.0 0.0" />
+							</dispatch>	
+								
+								
+								
+						
+								<!-- ----------< GG >---------- -->
+						
+							<!-- this will give you a rough placement, youll need to tweek and play with the rpy -->
+							<!-- just change 1 at a time by 90, til you know which axis you are changing -->
+							<!-- then minor adjust by 1.0s til you get the hang of ballparking gaps between numbers -->
+							<!-- rpy is trully too hard to fully explain without a grid ball animation to show a person simply -->
+							<!-- but its semi backwards from how it works in the offline mode to making it work like this -->
+							<!-- the first 0.0 if looking at item straight on will barrel roll the item -->
+							<!-- the middle 0.0 rotates clockwise 0-360 if imagine looking down on item -->
+							<!-- the third 0.0 can look at it two ways -->
+							<!-- it rolls the item forwards or backwards so to speak -->
+							<!-- or if imagine if looking at the item from the side it will spin clockwise/counter -->
+							<!-- hope this helps on starting a project to getting you down to the fine tuning -->
+				
+				
+				<!-- ----------< Happy Mapping >---------- -->
+				  <!-- ----------< Good Game >---------- -->
+				  
+				  
+				  
+				  
+				  
+				
+							
+							
+							
+								
+								
+								
+								

@@ -1,0 +1,308 @@
+#Definitions
+1:Basic Definitions
+2:Globals Definitions
+3:Persistence Definitions with charts
+4:Item cleanup Definitions with charts
+5:Teir layouts
+6:Economy
+7:EconomyCore Definitions
+
+---------------------------------------------------------------------------------
+1:Basic Definitions
+
+Name		 Class Name of Item to Spawn
+
+Nominal		 Number of items spawned in the world at any given time. 
+		(Ideal Value) Must be more or equal to min value
+		
+Lifetime	 Time (In Seconds) before this type of items gets deleted in the world 
+		(If no players interact with it)
+		 lifetime 604800 (seven days) , 3888000 (45 days)
+		 
+Restock		 If Value=0, Respawn item type in bulk to reach Nominal Value, 
+		 If !=0, then Value=Time in seconds to respawn 1 additional item type, 
+		 until Nominal Value is reached.
+		 
+Max   		 The maximum amount of spawns of this type on the server that is occurring 
+		(or possibility of it occurring) on the server		 
+
+Min		 Minimum number of items of this type in world, Once number falls below minimum, 
+		 the Restock process begins. (must be less or equal to nominal value)
+		 
+QuantMin	 Minimum % Value for quantity (Rags #, Mag Ammo Value, Ammo Counts), 
+		 Use -1 if Not Applicable. (less or equal to quantmax value) See note below
+		 
+QuantMax	 Maximum % Value for quantity (Rags #, Mag Ammo Value, Ammo Counts), 
+		 Use -1 if Not Applicable. (more or equal to quantmin value) See note below
+		 
+Cost		 Priority of Item Spawning in CE queue (100 is default)
+
+Flags		 flags directs the spawner, in what case it must take min and nominal 
+			 values in to consideration for every item counting for spawning:
+
+Limit Options
+	child 			will randomly pick a single child item to spawn at each event.
+
+	mixed 			will pick a single child item, starting from the top at each event until the child max is reached.
+
+	parent 			will spawn all of the child items at each event adhering to the child's min/max values.
+
+	custom 			uses external sources to determine the `limits`, like territory files. 
+
+Child Line Options
+	Lootmin			Minimum amount of loot object can spawn. See object in mapgroupproto for value.
+		
+	Lootmax			Maximum amount of loot object can spawn. See object in mapgroupproto for value.
+			
+	Min				Minimum number to spawn at a given location as set in cfgeventspawns.
+			
+	Max				Maximum number to spawn at a given location as set in cfgeventspawns.
+			
+count_in_cargo   Count items stored in containers as part of Nominal Value (0=False, 1=True)
+
+count_in_hoarder tents, barrels, underground stashes (0=False, 1=True)
+
+count_in_map 	 Count items in map as part of Nominal Value (0=False, 1=True)
+
+count_in_player  Count items stored in Player Inventory as part of Nominal Value (0=False, 1=True)
+
+crafted 	 Is the item a crafted item (0=False, 1=True)
+
+deloot 		 dynamic event loot objects - helicrashes in majority of cases only by default
+
+Category Name	 Useful for sorting, Internal Category. Name must start with (Vehicle, Static, Loot, Item, Infected, Animal).
+
+Safe Radius 	 is how far away you need to be for the spawn not to happen or close down
+
+Distance Radius  Distance away from other similar zone of this type. Infected City spawn zones cannot spawn 
+		 within 50m of each other. Not really a problem
+		 
+Cleanup Radius 	 Allows objects/zombies to be cleared from an area for however long you are within the area.
+
+		( Example - Let me explain: Let's say the values we use are 300. When you are 300m from a village, zombies 
+		then spawn immediately. Once we are within that 300m, no more zombies will spawn so long as we are within 
+		300m of the zone. The zombies that are within this "saferadius" will not despawn unless you move out of 
+		this 300m radius. )
+
+If you want zombies that respawn endlessly, you should set this saferadius to 0. This allows zombies to respawn immediately.
+
+Tag Name (optional)	MUST be AFTER the category
+Usage Name (optional)	Internal Category used in the mpmissions\dayzOffline.chernarusplus\cfgRandomPresets.xml file.
+Value Name (optional)	Used to specify Central Loot Economy Spawning Locations
+
+Note: MUST BE be -1 for all normal items types OR from 0 to 100 (value in percents) for items that could have something inside (subclass inside the item),
+For example for bullets inside weapon mags, water bottle, canteen, can of soda..
+Note: you cannot set quantmin 20 quantmax -1 it will break things!!
+
+---------------------------------------------------------------------------------
+2:Globals Definitions
+
+Definitions for the Globals.xml File
+
+Variable					Type		Default			Description
+AnimalMaxCount				Integer		200		Maximal limit of spawned animals (not ambient) across all zones in map
+CleanupAvoidance			Integer		100		(m) Distance from player required for item deletion
+CleanupLifetimeDeadAnimal	Integer		1200	(sec) Default lifetime for dead animals
+CleanupLifetimeDeadInfected	Integer		330		(sec) Default lifetime for dead infected
+CleanupLifetimeDeadPlayer	Integer		3600	(sec) Default lifetime for dead player
+CleanupLifetimeDeadPlayer	Integer		3600	(sec) Default lifetime for dead player
+CleanupLifetimeDefault		Integer		45		(sec) Default lifetime for entities with no specific economy setup, but damage >= 1.0 (ie. dead)
+CleanupLifetimeLimit		Integer		50		How many items can be deleted at once during standard cleanup
+CleanupLifetimeRuined		Integer		330		(sec) Default lifetime for ruined loot
+FlagRefreshFrequency		Integer		432000	(sec) Items lifetime will be refreshed with this frequency.
+FlagRefreshMaxDuration		Integer		3456000	(sec) How long the flag will be refreshing items.
+IdleModeCountdown			Integer		60		(sec) Activate economy idle mode on empty server after given time
+IdleModeStartup				Integer		1		Enable economy idle mode on server startup
+InitialSpawn				Integer		100		(%) How much loot will be spawned on server initial start (without storage).
+LootProxyPlacement			Integer		1		Allow dispatch containers to receive the loot.
+RespawnAttempt				Integer		2		How many attempts are performed during single item respawn
+RespawnLimit				Integer		20		How many items of one type can be spawned at once
+RespawnTypes				Integer		12		How many different types can be respawned at once
+RestartSpawn				Integer		0		(%) How much loot should be respawned during restart to nomimal
+SpawnInitial				Integer		1200	How many initial test are allowed for item spawn
+TimeHopping					Integer		60		(sec) penalty time for server hoppers
+TimeLogin					Integer		15		(sec) default login time
+TimeLogout					Integer		15		(sec) default logout time
+TimePenalty					Integer		20		(sec) penalty time for player that is still in play session
+ZombieMaxCount				Integer		1000	Maximal limit of spawned zombies across all zones in map
+ZoneSpawnDist				Integer		300		(m) Distance to invoke infected spawn in nearby zone (dynamic infected)
+** Added with 1.10
+WorldWetTempUpdate			Integer		1		Allow update of wetness and temperature values on all items in the world.
+FoodDecay					Integer		1		Allow decay on food (requires WorldWetTempUpdate set to 1).
+
+
+
+	
+---------------------------------------------------------------------------------
+3:Persistence Definitions with charts
+
+Persistence  - in a nutshell is the ability for things to be carried over across server  
+		restarts, be it a weapon, a body, a tent, a vehicle, whatever. Items that are  
+		persistent do not disappear during restarts. All inventory items are persistent 
+		across restarts. as tents, vehicles are not in game there is no way to define that.
+		Character save data including location and inventory is persistent.
+		Servers are still persistent for 45 days.
+		
+		When players refer to an item, object or structure as being "Persistent ", what they 
+		mean is the item, object or structure does not despawn or move during a server restart 
+		and has a very long Item Cleanup time, or the amount of time before an object is despawned 
+		by the Central Loot Economy. There are a couple of exceptions to these rules:
+		
+		Ruined Items are cleaned up regardless of their Persistence
+		Vehicles will occasionally move or slide during a server restart depending on its location
+		
+		The length of time an item, object or structure is in the world before the Central Loot Economy 
+		despawns it, varies based on the object itself. If, at any point, the object is interacted with 
+		in any way, its Item Cleanup timer will reset. Essentially, Persistent objects that are regularly 
+		used or interacted with will never despawn (assuming they do not become ruined or the server is 
+		not wiped).
+
+See chart below...
+Items													Persistence
+Oil Barrels, Sea Chests, Wooden Cases					45 Days
+Tents													45 Days
+Ammo Boxes, Protective Cases							45 Days
+Fences, Watchtowers, Wire Mesh Barriers					45 Days
+Underground Stashes										45 Days
+Battery Chargers, Cable Reels, Generators, Spotlights	7 Days
+
+---------------------------------------------------------------------------------
+
+4:Item cleanup Definitions with charts
+
+Item Cleanup  - Items or objects that are "non-persistence" are also managed by the Central Loot Economy. 
+		"Non-persistence" items will not automatically despawn if walked away from, rather these 
+		items just have a much shorter Item Cleanup time and/or may be removed upon a server restart.
+
+Items						Time
+Car Battery, Truck Battery	12 Hours
+Backpacks*					6 Hours
+Garden Plot, Garden Plants	6 Hours
+All Other Items				15 Minutes - 4 Hours
+
+---------------------------------------------------------------------------------
+5:Teir layouts
+
+Teirs -		coastal areas tier 1, central part tier2, north left part of the map tier 3, NW Forest 4 
+		For chernarus there are 4 tiers, for Livonia ONLY 3 (three) !!!!!	
+
+---------------------------------------------------------------------------------
+
+6:Economy
+
+for economy.xml
+
+    <dynamic init="1" load="1" respawn="1" save="1"/> 	event spawns
+    <animals init="1" load="0" respawn="1" save="0"/>	bears, wolves etc.
+    <zombies init="1" load="0" respawn="1" save="0"/>	infected
+    <vehicles init="1" load="1" respawn="1" save="1"/>	cars
+    <randoms init="0" load="0" respawn="1" save="0"/>	dynamic events like helis
+    <custom init="1" load="1" respawn="1" save="1"/>	imported using mapgroouppos and init
+    <building init="1" load="1" respawn="1" save="1"/>	buildings in the map
+    <player init="1" load="1" respawn="1" save="1"/>	player information
+    
+1 is on, 0 is off. init=initial load up, load=object spawns, respawn=well respawn lol and save=save to Persistence files
+
+---------------------------------------------------------------------------------
+
+7:EconomyCore Definitions
+
+for cfgEconomyCore.xml
+
+cfgEconomyCore - It is used to configure classes included in the central economy, persistence backups, 
+		 infected dynamic zones, CE logging and updaters.
+
+Root Classes - 	 Root classes are parent classes of entities which will be used by the central economy. 
+		 This allows you to specifically define what you want to be a part of the economy and what 
+		 should stay omitted.
+		 
+		 
+Attributes:
+
+name - 			name of entity type
+reportMemoryLOD - 	default is yes, this allows to turn off console messages about missing memory LODs
+act - 			sets entity type (none/character/car)
+
+If "act" type of entity is set to none (or is missing), the entity is considered to be loot. 
+Make sure to properly define entities as character/car where needed since economy sets them 
+up in a different way.
+
+Variable			Type		Default	Description
+world_segments		Integer		12	Defines how in many segments world will be split by CE - this affects save, 
+									load, cleanup and other processing events - it's performance wide for huge 
+									maps (note that default value is for Chernarus map!)
+backup_period		Integer		60	Period of regular backup creation (minutes)
+backup_count		Integer		12	Count of backups to keep - folders
+backup_startup		Boolean		false	Process backup at startup of server
+dyn_radius			Float		20	Default value for dynamic infected zone - size of the zone (meters)
+dyn_smin			Float		0	Default value for dynamic infected zone - minimal static count
+dyn_smax			Float		0	Default value for dynamic infected zone - maximal static count
+dyn_dmin			Float		0	Default value for dynamic infected zone - minimal dynamic count
+dyn_dmax			Float		5	Default value for dynamic infected zone - maximal dynamic count
+save_events_startup	Boolean		on	If disabled, no data/events.bin is created at startup 
+									(usefull for minimal hive setup)
+save_types_startup	Boolean		on	If disabled, no data/types.bin is created at startup 
+									(usefull for minimal hive setup)
+log_hivewarning		Boolean		on	enable/ disable some of the hive warning messages in console
+log_storageinfo		Boolean		off	enable/ disable periodic storage info messages in console (if CE stores files)
+log_missionfilewarning	Boolean		on	enable/ disable console warning messages about mission files 
+								   (typically sandbox mode does not require them all)
+log_celoop			Boolean		off	enable/ disable logging of CE loop timing and basic statistical info
+log_ce_dynamicevent	Boolean		off	enable/ disable logging of CE specific - dynamic events specific
+log_ce_vehicle		Boolean		off	enable/ disable logging of CE specific - vehicle specific
+log_ce_lootspawn	Boolean		off	enable/ disable logging of CE specific - loot spawn specific
+log_ce_lootcleanup	Boolean		off	enable/ disable logging of CE specific - cleanup specific 
+									(not just loot actually)
+log_ce_lootrespawn	Boolean		off	enable/ disable logging of CE specific - loot respawn specific
+log_ce_statistics	Boolean		off	enable/ disable logging of CE specific - statistical data
+log_ce_zombie		Boolean		off	enable/ disable logging of CE specific - infected related
+log_ce_animal		Boolean		off	enable/ disable logging of CE specific - animal related
+
+
+Persistence backups
+Chernarus is a large map which contains a vast amount of objects which need to be controlled by the central economy. 
+In order to do so in a performance-friendly fashion, map is split into segments which are then individually saved in 
+a periodic intervals. Since most of the server uptime a segment of Chernarus is in the process of being saved, a 
+server crash or other technical difficulties may corrupt the segment and in turn compromise the persistence. For 
+this reason, an automated backup system has been created which can be configured by the following variables of the 
+cfgEconomyCore.xml:
+
+world_segments
+Defines the number of world segments.
+
+Default value "12" is set with a Chernarus in mind, if you are running another map with a different 
+size/loot economy/amount of entities, you may want to adjust the amount of segments to its specifications.
+
+backup_period
+This configures how often are persistence backups created.
+
+Every X minutes, a new backup of the current persistence will be created, overriding the oldest backup 
+based on the backup_count variable. Minimum value "15", default is "60".
+
+backup_count
+This determines the amount of kept persistence backups.
+
+If set to "3" with a backup_period of "20", it will keep 3 backups made over period of one hour, 
+and after 80 minutes it will override the oldest one. Default value is "12".
+
+backup_startup
+This will create backup on the server immediately after server finished load operations and 
+initial/additional respawn. Default is "false".
+
+---------------------------------------------------------------------------------------------------
+8: Central Loot Economy (C.L.E.)
+
+The Central Loot Economy (often abbreviated "CLE" or "CE") is DayZ's unique management system for loot 
+spawning and clean-up. It is a complex system of tags, categories, zones, maximums, minimums, averages, 
+and so on. The CLE dictates exactly how many of each item can be present on a single instance of the 
+game at a time (one server), with important factors like randomization and rarity baked in. These values 
+can be adjusted at any time, without requiring players or servers to install a game update.
+
+In addition to controlling how much of each item is present, it also "cleans up" the map by removing items 
+which have become ruined or which have gone untouched for a set amount of time. This function prevents the 
+game from becoming cluttered with useless items, serves players with a continually refreshed pool of 
+available gear, acts as one method of preventing individual players from having too much influence over the 
+entire server's economy. For more information about how long items stay in place without activity, please 
+see Persistence (Found in working terms in the file section).
+
+

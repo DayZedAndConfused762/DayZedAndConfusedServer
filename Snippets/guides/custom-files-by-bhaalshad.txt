@@ -1,0 +1,98 @@
+This will show you how you can organize your items in the types file in a much more effcient way.
+
+First you need to make a few files to prepare.
+
+Open up your types.xml
+remove everything in there except the top 2 lines and the verry last line so it looks like this when you are done.
+
+```<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+
+	
+</types>```
+
+Now you want to choose "save as" not "save" !
+To know what to name this new file here are some examples.
+
+```
+weapons.xml
+ammo.xml
+equipment.xml
+xmas.xml
+clothes.xml
+tools.xml
+special.xml
+containers.xml
+vehiclesparts.xml
+food.xml
+medical.xml
+explosives.xml
+dontuse.xml
+```
+You can ofc use any name you wish, but make sure you put the .xml at the end.
+
+Now after you have made all the files you want to use, you need to place the items in their new file.
+For example if you made a weapons.xml file you would move all your weapons from the types file into this weapons.xml file.
+I like to keep animals and zombies in the org types.xml file and move everything else out. Just an idea.
+
+After you get all your items moved to the files you have made we are ready for the next step.
+
+Open up your cfgeconomycore.xml
+at the bottom you will see these lines
+
+```
+	</defaults>
+</economycore>
+```
+We are going to place are new files inbetween the last 2 lines like this.
+
+```
+	</defaults>
+	<!-- place new code here -->
+  <ce folder="foldername">
+    <file name="weapons.xml" type="types" />
+	<file name="ammo.xml" type="types" />
+	<file name="equipment.xml" type="types" />
+	<file name="xmas.xml" type="types" />
+	<file name="clothes.xml" type="types" />
+	<file name="tools.xml" type="types" />
+	<file name="special.xml" type="types" />
+	<file name="containers.xml" type="types" />
+	<file name="vehiclesparts.xml" type="types" />
+	<file name="food.xml" type="types" />
+	<file name="medical.xml" type="types" />
+	<file name="explosives.xml" type="types" />
+	<file name="dontuse.xml" type="types" />
+  </ce>	
+
+</economycore>
+
+```
+You will notice folder="foldername" this tells the game where your files
+are located at. So if you want them in a folder called NewFiles
+you would put folder="NewFiles". You can ofc place them in the DB folder along with
+the types.xml file as well and just use folder="db"
+
+You will notice the type="types" part of the line.
+That tells the game your new file is a types file.
+
+You can use this method for many other files as well.
+Example
+types 			- interprets file as types.xml
+spawnabletypes 	- interprets file as cfgspawnabletypes.xml
+globals 		- interprets file as globals.xml
+economy 		- interprets file as economy.xml
+events 			- interprets file as events.xml
+messages 		- interprets file as messages.xml
+
+There can be multiple files defined under ce element as well as multiple ce elements. This can be used, for example, when one folder handles overrides of vanilla values and other folders append files from chosen mods.
+
+When all is said and done just send you files over to the server.
+If you told it to use your files in a new folder, make sure you create it
+on the server and place your files into it. But what ever you used as the folder name
+it is key that you place your new files in the one you named for them to be read by the game.
+
+
+
+
+	

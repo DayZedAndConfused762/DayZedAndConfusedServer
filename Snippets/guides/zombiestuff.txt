@@ -1,0 +1,325 @@
+How do zombies spawn and what they spawn with.
+----------------------------------------------------------
+-Territories contain the event name to spawn
+-Events contain the types to use on the child line
+-Types contains the values to set and ties to the spawnabletypes
+-Spawnabletypes contains what item will go on zombie and ties to randompresets
+-Randompresets contain list of possible items to spawn beyound spawnabletypes
+
+#Two Forgotten CFG Types
+Note: In events we have this bit of code.....
+
+    <event name="InfectedArmy">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+        </children>
+    </event>
+
+Notice the last 2 Child lines....
+Neither of them are listed in the cfgspawnabletypes.xml but the rest are.
+Seems the Devs forgot to add these in. So I have created the entries for you.
+
+
+
+<!-- 1: cfgspawnabletypes.xml Add Entry -->
+
+
+    <type name="ZmbM_usSoldier_normal_Desert">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+        <attachments preset="bagsArmy" />
+        <attachments preset="vestsArmy" />
+    </type>
+    <type name="ZmbM_usSoldier_normal_Woodland">
+        <cargo preset="foodArmy" />
+        <cargo preset="ammoArmy" />
+        <attachments preset="bagsArmy" />
+        <attachments preset="vestsArmy" />
+    </type>
+
+Save and upload your new file and have a blast
+
+
+<attachments chance="0.25" name="WeaponRifle">
+        <item name="AK74" chance="0.10" />
+        <item name="AK101" chance="0.10" />
+        <item name="AKM" chance="0.10" />
+        <item name="B95" chance="0.10" />
+        <item name="FAL" chance="0.10" />
+        <item name="M4A1" chance="0.10" />
+        <item name="Saiga" chance="0.10" />
+        <item name="Winchester70" chance="0.10" />
+        <item name="SVD" chance="0.10" />
+        <item name="VSS" chance="0.10" />        
+</attachments>
+<attachments chance="0.25" name="WeaponHandGun">
+        <item name="Engraved1911" chance="0.33" />
+        <item name="FNX45" chance="0.33" />
+        <item name="Glock19" chance="0.33" />
+</attachments>
+<attachments chance="0.25" name="ZombieItemDropSwat">
+        <item name="CarTent" chance="0.05" />
+        <item name="LargeTent" chance="0.05" />
+        <item name="MediumTent" chance="0.10" />
+        <item name="Compass" chance="0.10" />
+        <item name="Rangefinder" chance="0.10" />
+        <item name="Binoculars" chance="0.10" />
+        <item name="Flashlight" chance="0.15" />
+        <item name="WeaponCleaningKit" chance="0.10" />
+        <item name="PetrolLighter" chance="0.10" />
+        <item name="M67Grenade" chance="0.15" />        
+</attachments>
+
+
+#Adding / Removing Zombies
+
+Adding in Zombie Hordes in zombie_territories.xml 
+
+There are many types of zombies. Example...
+
+InfectedReligious
+InfectedFirefighter
+InfectedArmy
+InfectedPolice
+InfectedSolitude
+InfectedPrisoner
+InfectedIndustrial
+InfectedVillage
+InfectedMedic
+InfectedCity
+InfectedArmyHard
+InfectedPoliceHard
+InfectedMummy
+InfectedSanta
+InfectedNBC
+InfectedNBCYellow
+
+In the zombie file you will see lines like this...
+<zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="11133.1" z="4428.73" r="60"/>
+
+You can copy this line as a template.
+Replace the name with the type of zombies you want to spawn in.
+name="InfectedReligious" can be changed to name="InfectedCity" for example.
+
+
+<!-- cfgrandompresets.xml New Entry -->
+
+<!-- chance here would be 35%, you can edit to your liking -->
+<attachments chance="0.35" name="ZombieItemDropSwat">
+    <!-- You can use any item found in types.xml to replace below -->
+        <item name="AK101" chance="0.20" />
+        <item name="AKM" chance="0.20" />
+        <item name="FAL" chance="0.20" />
+        <item name="M4A1" chance="0.20" />
+        <item name="SVD" chance="0.20" />
+    <!-- Total of the chances above should come to 100 if you add or remove items -->
+</attachments>
+
+<!-- cfgspawnabletypes.xml Replace Entry -->
+<type name="ZmbM_PolicemanSpecForce">
+        <cargo preset="foodArmy" />
+        <attachments>
+            <item name="BallisticHelmet_Black" />
+        </attachments>
+        <attachments>
+            <item name="HighCapacityVest_Black" />
+        </attachments>
+        <attachments>
+            <item name="AliceBag_Black" />
+        </attachments>
+        <!-- this calls the preset from above -->
+        <!-- you can add this preset line to any zombie you wish -->
+        <attachments preset="ZombieItemDropSwat" /> 
+    </type>
+
+Now that crates a custom zombie appearance, but if you want to do more.
+Say you want this cutom zombie to be at helicopter crash sites for example.
+Well we can do that too.
+
+We'll use the same zombie we have been working on, so now that part is done we need to open
+events and add the following....
+
+<!-- events.xml New Entry -->
+<event name="InfectedHeliGuards">
+        <nominal>200</nominal>
+        <min>200</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="20" min="20" type="ZmbM_PolicemanSpecForce"/>
+        </children>
+    </event>
+
+Now search for "InfectedPolice", you will see this...
+<event name="InfectedPolice">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+<child lootmax="5" lootmin="0" max="0" min="40" type="ZmbF_PoliceWomanNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PolicemanFat"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PolicemanSpecForce"/>
+        </children>
+    </event>
+
+What we want to do is comment out the "ZmbM_PolicemanSpecForce" line so only are crash sites
+will use them. Or you can leave them in to have them in both.
+
+If you want to leave them in skip a head to the next part other wise replace the above with this...
+<event name="InfectedPolice">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbF_PoliceWomanNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PolicemanFat"/>
+           <!-- <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PolicemanSpecForce"/> -->
+        </children>
+    </event>
+
+Now to add your custom zombies to the crash site itself. Search for "StaticHeliCrash"
+you will see this...
+<event name="StaticHeliCrash">
+        <nominal>140</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="20" lootmin="10" max="3" min="1" type="Wreck_Mi8"/>
+            <child lootmax="20" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
+        </children>
+    </event>
+	
+It's the <secondary>InfectedArmy</secondary> line we need to change. To use your new custom
+zombies change that out to <secondary>InfectedHeliGuards</secondary> so the events looks like this...
+<event name="StaticHeliCrash">
+        <nominal>140</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedHeliGuards</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="20" lootmin="10" max="3" min="1" type="Wreck_Mi8"/>
+            <child lootmax="20" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
+        </children>
+    </event>
+
+That's it you are done. You now have a custome zombie with dif clothes, presets, and will now
+spawn at the helicopter crash sites !
+
+#Increasing Heli Zombie Spawns Globally 
+These values are used when no values are set for a event spawn.
+to set values per event see ⁠making-dynamic-events 
+
+<!-- cfgeconomycore.xml Replace Entry -->
+ Open up your file and you will see 4 lines like this..
+ 
+<default name="dyn_smin" value="0" />
+<default name="dyn_smax" value="0" />
+<default name="dyn_dmin" value="1" />
+<default name="dyn_dmax" value="5" />
+
+Now if you want to see more then just 0-5 guards at a heli crash or any 
+dynamic site you might want to make a change like this...
+
+<default name="dyn_smin" value="0" />
+<default name="dyn_smax" value="0" />
+<default name="dyn_dmin" value="10" /><!-- was 1 -->
+<default name="dyn_dmax" value="20" /><!-- was 5 -->
+
+Now using this example you can have anywhere from 10 to 20 guards at a site.
+By simply editing those 2 lines you can have swarms of guards if you wanted too !
+
+<!-- events.xml View Entry -->
+this is the default entry below.... 
+
+<event name="InfectedArmy">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Flat"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_PatrolNormal_PautRev"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+        </children>
+    </event>
+
+
+Zombies will respawn once the dead zombie is cleaned up (de-spawned)
+based on the "CleanupLifetimeDeadInfected" value set in globals.xml
+This value is in seconds. So the higher the number, the longer it takes them
+to respawn.

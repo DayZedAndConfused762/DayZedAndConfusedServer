@@ -1,0 +1,142 @@
+Cfgplayerspawnpoints.xml defines the rules for spawning of players and spawnpoints themselves.
+
+There are three different sections designated for fresh players (required), players that hop from server of the same map and players that travel from a different map (hop and travel are only relevant for official servers).
+
+Each section has its own spawn_params, generator_params and generator_posbubbles.
+
+Spawn_params
+Runtime parameters used when the player is spawning into the world.
+
+<spawn_params>
+    <!-- used to rate point against infected in meters -->
+    <min_dist_infected>30.0</min_dist_infected>
+    <max_dist_infected>70.0</max_dist_infected>
+    <!-- used to rate point against other players in meters -->
+    <min_dist_player>25.0</min_dist_player>
+    <max_dist_player>70.0</max_dist_player>
+    <!-- used to rate point against buildings in meters -->
+    <min_dist_static>0.5</min_dist_static>
+    <max_dist_static>2.0</max_dist_static>
+</spawn_params>
+
+Parameters below the value get invalidated, parameters between the values are more favorable than parameters than above the value. 
+Generator_params
+Spawn points are generated around positions given inside <generator_posbubbles> element.
+
+Around every position is created a rectangle with given dimensions.
+
+This rectangle is then sampled for spawn point candidates in form of a grid.
+
+<generator_params>
+    <grid_density>8</grid_density>
+    <!-- total width of grid in meters -->
+    <grid_width>40.0</grid_width>
+    <!-- total height of grid in meters -->
+    <grid_height>40.0</grid_height>
+    <!-- minimum distance from buildings for valid spawn point -->
+    <min_dist_static>0.5</min_dist_static>
+    <!-- maximum distance from buildings used to rate valid spawn point -->
+    <max_dist_static>2.0</max_dist_static>
+    <!-- terrain slope limits for valid spawn point -->
+    <min_steepness>-45</min_steepness>
+    <max_steepness>45</max_steepness>
+</generator_params>
+
+Player spawn points in DayZ
+Spawning groups
+Spawning groups are a feature that allows for grouping of spawn points and randomly cycles through those groups. It is divided into two sections, which are called group_params and generator_posbubbles.
+
+Group params
+Collection of user created groups. Each group has a lifetime and once this lifetime is depleted a group will change.  Additionally if counter parameter is used, group lifetime will be reset with each player that respawns within the group. Once counter is fully depleted, players spawning within the group will no longer reset the lifetime.
+
+Enablegroups - Enables or disables the functionality. If turned off, the functionality ignores groups completely and reads the file as a simple list of spawn points. 
+Lifetime - This is a timer for how long the group will stay active.
+
+Counter - Defines number of players that will reset the lifetime if they spawn within the group.
+
+Lifetime and Counter can be turned off by putting in value of -1 and it can be overwritten for each specific group.
+
+<group_params>
+      <enablegroups>true</enablegroups> <!-- enables and disables this functionality -->
+      <lifetime>360</lifetime>          <!-- sets lifetime to a group -->
+      <counter>-1</counter>             <!-- sets number of players that will reset the group -->
+</group_params>
+
+Generator Posbubbles
+group name - custom name for a group
+
+pos - position of a grid created according to parameters defined in generator_params 
+<generator_posbubbles>
+    <group name="WestCherno">
+        <pos x="6096.508789" z="1936.261475" />
+        <pos x="6206.861328" z="2141.101807" />
+        <pos x="6101.810547" z="2050.623291" />
+    </group>
+</generator_posbubbles>
+
+Setup using Spawning Groups
+<fresh>
+    <spawn_params>
+        <min_dist_infected>30</min_dist_infected>
+        <max_dist_infected>70</max_dist_infected>
+        <min_dist_player>25</min_dist_player>
+        <max_dist_player>70</max_dist_player>
+        <min_dist_static>0</min_dist_static>
+        <max_dist_static>0</max_dist_static>
+    </spawn_params>
+    <generator_params>
+        <grid_density>15</grid_density>
+        <grid_width>200</grid_width>
+        <grid_height>200</grid_height>
+        <min_dist_static>0</min_dist_static>
+        <max_dist_static>0</max_dist_static>
+        <min_steepness>-39.999996</min_steepness>
+        <max_steepness>39.999996</max_steepness>
+    </generator_params>
+    <group_params>
+        <enablegroups>true</enablegroups>
+        <lifetime>360</lifetime>
+        <counter>5</counter>
+    </group_params>
+    <generator_posbubbles>
+        <group name="Tents" lifetime="300" counter="25">
+            <pos x="4212.421875" z="11038.256836"/>
+        </group>
+        <group name="Industrial" lifetime="300" counter="-1">
+            <pos x="4712.299805" z="10595"/>
+        </group>
+        <group name="Range" lifetime="-1" counter="25">
+            <pos x="5334.310059" z="9850.320313"/>
+        </group>
+        <group name="Offices">
+            <pos x="4527.549805" z="9668.4404" />
+        </group>
+    </generator_posbubbles>
+</fresh>
+
+Setup not using Spawning Groups
+<fresh>
+    <spawn_params>
+        <min_dist_infected>30</min_dist_infected>
+        <max_dist_infected>70</max_dist_infected>
+        <min_dist_player>25</min_dist_player>
+        <max_dist_player>70</max_dist_player>
+        <min_dist_static>0</min_dist_static>
+        <max_dist_static>0</max_dist_static>
+    </spawn_params>
+    <generator_params>
+        <grid_density>15</grid_density>
+        <grid_width>200</grid_width>
+        <grid_height>200</grid_height>
+        <min_dist_static>0</min_dist_static>
+        <max_dist_static>0</max_dist_static>
+        <min_steepness>-39.999996</min_steepness>
+        <max_steepness>39.999996</max_steepness>
+    </generator_params>
+    <generator_posbubbles>
+        <pos x="4212.421875" z="11038.256836"/>
+        <pos x="4712.299805" z="10595"/>
+        <pos x="5334.310059" z="9850.320313"/>
+        <pos x="4527.549805" z="9668.4404" />
+    </generator_posbubbles>
+</fresh>

@@ -1,0 +1,63 @@
+For this discussion I’ll define <server_root> as the base directory for all your server files. 
+Typically this is where DayZServer_x64.exe, serverDZ.cfg, the mpmissions directory and other 
+files/directories are located.
+
+On a GSP, <server_root> is most likely the root directory where you login via FTP or some 
+control panel file manager.
+
+NOTE: If you are using a plain windows server, I always suggest copying server files from 
+the STEAM download directory to something new, like c:\dayzserver.
+
+Download mods from Steam -> Community -> Workshop -> DayZ. If you are using a GSP, there 
+may be a control panel for this and you might be able to skip ahead.
+
+By default mods will be located in c:\Program Files (x86)\Steam\steamapps\workshop\content\22100\<publishedid>
+publishedid shows as id in the URL of the website or steam app when you are viewing the mod.
+For example, the URL for the WeaponsReduxPack is https://steamcommunity.com/sharedfiles/filedetails/?id=1559317235
+
+Open the mod directory and then edit the file “meta.cpp”
+You’ll also see publishedid and name (of the mod)
+
+Grab all the files from the mod and place them in the server root in a directory like  @<modname> 
+For example <server_root>\@WeaponsReduxPack [Fyi: For simplicity, I generally use the name from meta.cpp.
+
+Find the keys directory of the mod and copy the *.bikey file(s) to <server_root>\keys
+When launching the server, add “mod=@mod1;@mod2;”.  If you are using a GSP, this might just be in the control panel.
+@mod1 and @mod2 are the directory names you created in the previous step. Again, they don’t have to be 
+the exact mod names, but they have to match the directory name so the server can find the mods
+
+Make sure to put dependencies first (@CF is a dependency for a number of mods and should be first, for example)
+Make sure to put a semicolon between the mods
+If any directory name(mod name) has spaces in it, you’ll need to wrap the whole thing in quotes like 
+“mod=@mod1;@mod2;”  (so just do it anyway).
+Don’t forget mod-specific configuration
+Typically mod configs go in the <server_profiles> directory like <server_root>\profile.
+Don’t forget that some mods require client configuration (especially for key bindings)
+
+***** Debugging Considerations *****
+Is the mod loaded properly on the server?
+Check the command line and the top of dayz*.RPT log file (DayZServer_x64*.RPT).
+If using a GSP, the command line will be a function of control panel. If you are unsure, look around 
+the directory structure for the dayz*.RPT log files. At the top of the file will be the exact command 
+line used to launch the server.
+
+The directory containing the dayz*.RPT log file is also the profile directory used by most mods.
+
+Is the mod loaded on the client?
+
+Did you using the in-game browser and select the mod or did you use dayzsalauncher and have it manager mods automatically?
+
+Does the mod name on the command line (“mod=@mod1”) match the directory name of the mod in the server folder?
+
+Did you copy the key (*.bikey) from the mod into the server keys directory?
+
+Did you add any necessary config files required by the mod. Some mods will provide templates or additional 
+config files in the mod folder. Some will list them on the steam workshop page. Some won’t give you much of anything.
+
+Did you add any necessary loot table info?
+
+Any items added via a mod must have entries in types.xml. If it spawns with attachments, it will also need entries 
+in cfgspawnabletypes.xml. If it is a vehicle it will also need entries in events.xml and cfgeventspawns.xml
+
+
+

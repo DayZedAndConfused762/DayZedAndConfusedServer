@@ -1,0 +1,134 @@
+****** install notes ******
+First make sure you back up your files before adding any new code!
+
+Looking to really customize your server to just how you want it.
+Here are some tips / examples to steam line your loot spawns.
+
+This first part is optional, well it all is but you know lol.
+If you want to keep your items seperate by what they are used for
+to make finding them and making changes easier use this next step.
+Else you can skip this part and move on to the Definitions below.
+
+See #adding-custom-files for full tutorial
+Economycore : 
+```
+  <ce folder="foldername">
+    <file name="weapons.xml" type="types" />
+    <file name="ammo.xml" type="types" />
+    <file name="equipment.xml" type="types" />
+    <file name="xmas.xml" type="types" />
+    <file name="clothes.xml" type="types" />
+    <file name="tools.xml" type="types" />
+    <file name="special.xml" type="types" />
+    <file name="containers.xml" type="types" />
+    <file name="vehiclesparts.xml" type="types" />
+    <file name="food.xml" type="types" />
+    <file name="medical.xml" type="types" />
+    <file name="explosives.xml" type="types" />
+    <file name="dontuse.xml" type="types" />
+  </ce>    
+``` 
+Cfglimitsdefinitions :
+Remove all tags in these 2 areas and replace.
+```
+    <categories>
+        <category name="mymap"/>
+    </categories>
+    <usageflags>
+        <usage name="Military"/>
+        <usage name="Weapons"/>
+        <usage name="Exsplosives"/>
+        <usage name="Equipment"/>
+        <usage name="Containers"/>
+        <usage name="Medical"/>
+        <usage name="Carparts"/>
+        <usage name="Clothes"/>
+        <usage name="Food"/>
+        <usage name="Special"/>
+        <usage name="Xmas"/>
+        <usage name="DontUse"/>
+        <usage name="HandTools"/>
+        <usage name="Tools"/>
+        <usage name="RepairItems"/>
+        <usage name="Mags"/>
+        <usage name="Ammo"/>
+        <usage name="PvPItems"/>
+        <usage name="Police"/>
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Coast"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+        <usage name="Prison"/>
+    </usageflags>
+```
+In the types.xml you will need to replace the category for
+each item with <category name="mymap"/> and then remove all
+usages and place in the ones you want from the list above.
+
+Example,
+```
+Any item that would be editble or drinkable you would give it the usage tag of "Food".
+
+Any item that would be a tool, you could break down to what type of tool. Like small hand
+held tools use "HandTools" while larger Tools such as shovels, pickaxe etc can just use the normal
+"Tools".
+
+For Guns, you basically have 2 types, 1 is "Military" and the other (non military)
+would be "Weapons".
+
+For medical items (default most are under tools. wth lol) use the usage "Medical"
+and so on and so on for anything you want to break down to fit your needs.
+```
+In the mapgroupproto.xml you will need to remove all categories
+and usage tags set to that object and place in your 1 category 
+and then what ever usage tags you want that building to have.
+
+Some examples on how this can be used.
+Lets say you want all medical buildings to only spawn in medical suplies.
+Well you would go into mapgroupproto.xml and in each medical building you 
+would place the usage tag of "Medical". If you wanted it to also have food
+you could also add the "Food" usage as well. And so on until you have it just
+the way you want it.
+
+Another example would be, say you wanted all military buildings to have 
+military style guns, ammo, and clothing. Well for this you would use the tags 
+Military, Clothes, Ammo, and Mags. You wouldn't use Weapons, as that you would 
+assign to any gun in types.xml that is not a military type weapon.
+To make sure you are getting military clothes only, that is where the usages 
+for the clothes in types.xml comes in. For every military style clothes you see 
+have them have the usages of "Military" and "clothes" while all the other clothes
+would only use the "clothes" tag only.
+
+Using this method you can customize each and every type of building to have 
+the exact type of loot you want in it, without all that extra BS that shouldn't
+be spawning there. And your types.xml file will also be just the way you want your
+map to be able to use the items.
+
+It is also recommended to remove all tiers from the types.xml they look like this,
+```
+		<value name="Tier1"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+```
+as well as change any item that has deloot set to 1, change that to 0.
+
+Doing this will allow you to better control the placement of items. To me it seems stupid 
+to have a gun only spawn in tier 1 lets say, when the building it spawns in is in all 
+tiers of the map. 
+
+As for deloot, using the custom usages removes the need for this option. Say you want a gun
+to only spawn at dynamic events, such as the heli crashes. Well you can give the gun the usage 
+tag of "Special" and on the Heli in mapgroupproto.xml give it the same usage.
+Or even make a new usage to add to your list like "HeliLoot" and use that instead etc.
+
+****************************************	
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)
