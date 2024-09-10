@@ -1,0 +1,222 @@
+****** install notes ******
+Make sure to place all code in the files as stated bellow.
+There are 6 files that make this project work as seen in the video.
+This Castle is at the Krazno Airfield on Chernarus
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+This is a large Caslte that can be used for a PVP arena, PVE Events, 
+or even as a base!.
+
+****************************************
+<!-- 1st custom folder and json settings -->
+This uses the a custom json file (haunted3.json). If you need yo know how to add into
+your server see #making-json-files  
+
+<!-- 2nd mapgrouppos.xml New Entry -->
+<!-- haunted 3.0 -->
+	<group name="Land_Castle_Bergfrit" pos="12110.799805 143.000000 12526.900391" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12142.400391 143.000000 12515.700195" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12040.822266 158.338577 12554.580078" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12214.050781 158.338516 12493.127930" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12313.532227 158.338577 12616.434570" rpy="0.000000 0.000000 19.999998" a="70"/>
+	<group name="Land_Castle_Bergfrit" pos="12046.212891 158.338577 12713.792969" rpy="0.000000 0.000000 -159.999985" a="-110"/>
+	<group name="Land_Castle_Bergfrit" pos="12236.200195 143.000000 12713.799805" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Castle_Bergfrit" pos="12167.799805 143.000000 12736.799805" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Castle_Bergfrit" pos="12221.700195 143.339005 12761.299805" rpy="0.000000 0.000000 -69.999794" a="160"/>
+	<group name="Land_Castle_Bergfrit" pos="12209.139648 143.338654 12765.770508" rpy="0.000000 0.000000 -69.999825" a="160"/>
+	<group name="Land_Castle_Bergfrit" pos="12235.836914 143.338593 12768.600586" rpy="0.000000 0.000000 -159.999420" a="-110.001"/>
+	<group name="Land_Castle_Bergfrit" pos="12240.299805 143.339005 12780.799805" rpy="0.000000 0.000000 -159.998993" a="-110.001"/>
+	<group name="Land_Castle_Bergfrit" pos="12219.500000 158.339005 12776.000000" rpy="0.000000 0.000000 -69.999794" a="160"/>
+	<group name="Land_Castle_Bergfrit" pos="12220.700195 143.000000 12801.000000" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12201.641602 143.338623 12780.109375" rpy="0.000000 0.000000 19.999956" a="70"/>
+	<group name="Land_Castle_Bergfrit" pos="12232.599609 143.339005 12796.099609" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12222.700195 158.339005 12785.099609" rpy="0.000000 0.000000 109.999977" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12206.286133 143.338623 12792.967773" rpy="0.000000 0.000000 19.999956" a="70"/>
+	<group name="Land_Chapel" pos="12224.500000 180.000000 12781.900391" rpy="0.000000 0.000000 25.000000" a="65"/>
+	<group name="Land_Chapel" pos="12218.299805 180.000000 12778.500000" rpy="0.000000 0.000000 -159.999939" a="-110"/>
+	<group name="Land_Castle_Bergfrit" pos="12178.809570 158.338577 12849.174805" rpy="0.000000 0.000000 -159.999985" a="-110"/>
+	<group name="Land_Castle_Bergfrit" pos="12296.799805 160.500000 12805.099609" rpy="0.000000 0.000000 19.999998" a="70"/>
+	<group name="Land_Castle_Bastion2" pos="12301.299805 141.000000 12607.299805" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bastion2" pos="12298.299805 141.000000 12598.700195" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bastion2" pos="12295.200195 141.000000 12590.099609" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_Castle_Bastion2" pos="12292.260742 141.000015 12581.809570" rpy="0.000000 0.000000 109.999977" a="-20"/>
+	<group name="Land_Castle_Bastion2" pos="12289.333984 141.000015 12573.276367" rpy="0.000000 0.000000 109.999977" a="-20"/>
+	<group name="Land_Castle_Bastion2" pos="12286.210938 141.000015 12564.648438" rpy="0.000000 0.000000 109.999977" a="-20"/>
+	<group name="Land_Castle_Bastion2" pos="12283.188477 141.000000 12555.998047" rpy="0.000000 0.000000 109.999977" a="-20"/>
+	<group name="Land_Church3" pos="12167.599609 154.500000 12634.299805" rpy="0.000000 0.000000 -68.999992" a="159"/>
+	<group name="Land_Monument_T34" pos="12116.458008 143.282074 12491.635742" rpy="0.000000 0.000000 109.999992" a="-20"/>
+	<group name="Land_House_1B01_Pub" pos="12038.299805 142.899994 12645.500000" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Misc_Well_Pump_Blue" pos="12133.299805 141.000000 12608.799805" rpy="0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_Misc_Well_Pump_Blue" pos="12174.099609 141.000000 12591.500000" rpy="0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_Ruin_HouseBig1" pos="12106.400391 142.500000 12559.599609" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12092.799805 141.000000 12564.700195" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig2" pos="12074.200195 144.000000 12569.099609" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig3" pos="12059.200195 144.500000 12577.500000" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12043.299805 143.000000 12582.400391" rpy="0.000000 0.000000 -72.000008" a="162"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12030.099609 142.000000 12590.400391" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig1" pos="12113.983398 142.501038 12583.108398" rpy="0.000000 0.000000 -161.999969" a="-108"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12100.382813 141.001038 12588.208984" rpy="0.000000 0.000000 -161.999969" a="-108"/>
+	<group name="Land_Ruin_HouseBig2" pos="12081.783203 144.001038 12592.608398" rpy="0.000000 0.000000 -161.999969" a="-108"/>
+	<group name="Land_Ruin_HouseBig3" pos="12066.783203 144.501038 12601.008789" rpy="0.000000 0.000000 -161.999969" a="-108"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12050.882813 143.001038 12605.909180" rpy="0.000000 0.000000 107.999992" a="-18"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12037.682617 142.001038 12613.909180" rpy="0.000000 0.000000 -161.999969" a="-108"/>
+	<group name="Land_Ruin_HouseBig1" pos="12247.630859 142.500000 12507.217773" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12234.030273 141.000000 12512.318359" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig2" pos="12215.430664 144.000000 12516.717773" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig3" pos="12200.430664 144.500000 12525.118164" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12184.530273 143.000000 12530.018555" rpy="0.000000 0.000000 -72.000015" a="162"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12171.330078 142.000000 12538.018555" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig1" pos="12255.213867 142.501038 12530.726563" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12241.613281 141.001038 12535.827148" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig2" pos="12223.013672 144.001038 12540.226563" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig3" pos="12208.013672 144.501038 12548.626953" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12192.113281 143.001038 12553.527344" rpy="0.000000 0.000000 107.999992" a="-18"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12178.913086 142.001038 12561.527344" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12173.161133 141.000000 12685.770508" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig2" pos="12154.561523 144.000000 12690.169922" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig3" pos="12139.561523 144.500000 12698.570313" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12123.661133 143.000000 12703.470703" rpy="0.000000 0.000000 -72.000008" a="162"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12110.460938 142.000000 12711.470703" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12180.744141 141.001038 12709.279297" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig2" pos="12162.144531 144.001038 12713.678711" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig3" pos="12147.144531 144.501038 12722.079102" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12131.244141 143.001038 12726.979492" rpy="0.000000 0.000000 107.999992" a="-18"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12118.043945 142.001038 12734.979492" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig1" pos="12271.494141 142.499969 12646.888672" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12257.893555 140.999969 12651.989258" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig2" pos="12239.293945 143.999969 12656.388672" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig3" pos="12224.293945 144.499969 12664.789063" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12208.393555 142.999969 12669.689453" rpy="0.000000 0.000000 -72.000008" a="162"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12195.193359 141.999969 12677.689453" rpy="0.000000 0.000000 18.000000" a="72"/>
+	<group name="Land_Ruin_HouseBig1" pos="12279.077148 142.501007 12670.397461" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig1_Half" pos="12265.476563 141.001007 12675.498047" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig2" pos="12246.876953 144.001007 12679.897461" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseBig3" pos="12231.876953 144.501007 12688.297852" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_HouseSmall1" pos="12215.976563 143.001007 12693.198242" rpy="0.000000 0.000000 107.999992" a="-18"/>
+	<group name="Land_Ruin_HouseBig3_Half" pos="12202.776367 142.001007 12701.198242" rpy="0.000000 0.000000 -161.999954" a="-108"/>
+	<group name="Land_Ruin_Church2" pos="12050.700195 144.600006 12662.799805" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Ruin_Church2" pos="12056.955078 144.600006 12679.739258" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Ruin_Church2" pos="12063.170898 144.599976 12696.552734" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Castle_Bergfrit" pos="12110.799805 153.000000 12526.900391" rpy="0.000000 0.000000 109.999977" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12142.400391 153.000000 12515.700195" rpy="0.000000 0.000000 109.999977" a="-20"/>
+	<group name="Land_Castle_Bergfrit" pos="12236.200195 153.000000 12713.799805" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Castle_Bergfrit" pos="12167.799805 153.000000 12736.799805" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Mil_Barracks1" pos="12162.500000 142.300003 12763.700195" rpy="0.000000 0.000000 19.999998" a="70"/>
+	<group name="Land_Mil_Barracks1" pos="12167.205078 142.299973 12777.061523" rpy="0.000000 0.000000 19.999996" a="70"/>
+	<group name="Land_Mil_Barracks1" pos="12172.255859 142.300018 12790.252930" rpy="0.000000 0.000000 19.999996" a="70"/>
+	<group name="Land_Mil_Barracks1" pos="12177.223633 142.299988 12803.608398" rpy="0.000000 0.000000 19.999996" a="70"/>
+	<group name="Land_Mil_Barracks1" pos="12182.338867 142.299988 12818.368164" rpy="0.000000 0.000000 19.999996" a="70"/>
+	<group name="Land_Mil_Barracks4" pos="12256.700195 141.500000 12732.700195" rpy="0.000000 0.000000 -159.999985" a="-110"/>
+	<group name="Land_Mil_Barracks4" pos="12262.619141 141.500015 12748.064453" rpy="0.000000 0.000000 -159.999969" a="-110"/>
+	<group name="Land_Mil_Barracks4" pos="12268.785156 141.500015 12765.062500" rpy="0.000000 0.000000 -159.999969" a="-110"/>
+	<group name="Land_Mil_Barracks4" pos="12274.763672 141.930237 12781.616211" rpy="0.000000 0.000000 -159.999969" a="-110"/>
+	<group name="Land_Dead_MassGrave" pos="12112.700195 140.600006 12626.299805" rpy="0.000000 0.000000 0.000000" a="90"/>
+	<group name="Land_Chapel2_White" pos="12179.200195 143.000000 12664.200195" rpy="0.000000 0.000000 19.999998" a="70"/>
+	<group name="Land_Chapel2_White" pos="12120.700195 143.000000 12648.799805" rpy="0.000000 0.000000 -69.999992" a="160"/>
+	<group name="Land_Chapel2_White" pos="12210.500000 143.000000 12612.000000" rpy="0.000000 0.000000 115.000015" a="-25"/>
+	
+<!-- 3rd cfgspawnabletypes.xml Replace Entry -->
+	<!-- replace the zombie bellow only if you are using 4,5, and 6 bellow -->
+    <type name="ZmbM_SkaterYoung_Blue">
+		<attachments preset="ZombieWitchHats" />
+		<attachments><item name="CrookedNose" /></attachments>
+		<attachments><item name="HighCapacityVest_Black" /></attachments>
+		<attachments><item name="BomberJacket_Black" /></attachments>
+		<attachments><item name="CargoPants_Black" /></attachments>
+		<cargo chance="0.25"><item name="TetracyclineAntibiotics" /></cargo>
+		<cargo chance="0.25"><item name="EasterEgg" /></cargo>		
+		<cargo preset="foodArmy" />
+    </type>
+
+<!-- 4th zombie_territories.xml New Entry (optional)-->
+<!-- Airstrip Krasnostav (Haunted Castle 3.0) -->
+<zone name="InfectedWitch" smin="4" smax="8" dmin="4" dmax="10" x="12111.0" z="12694.0" r="140"/>
+<zone name="InfectedWitch" smin="4" smax="8" dmin="4" dmax="10" x="12240.0" z="12638.0" r="140"/>
+<zone name="InfectedWitch" smin="4" smax="8" dmin="4" dmax="10" x="12228.0" z="12550.0" r="140"/>
+<zone name="InfectedWitch" smin="4" smax="8" dmin="4" dmax="10" x="12088.0" z="12603.0" r="140"/>	
+<zone name="InfectedWitch" smin="4" smax="8" dmin="4" dmax="10" x="12207.0" z="12749.0" r="140"/>
+
+<!-- 5th events.xml New Entry -->
+    <event name="InfectedWitch">
+        <nominal>150</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_SkaterYoung_Blue"/>
+        </children>
+    </event>
+
+<!-- 6th cfgrandomoresets.xml New Entry -->
+<attachments chance="1.00" name="ZombieWitchHats"> 
+	<item name="WitchHat" chance="0.33" />
+	<item name="GreatHelm" chance="0.33" />
+	<item name="PumpkinHelmet" chance="0.33" />
+</attachments>
+	
+****************************************    
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at https://discord.gg/bhaalshad
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :) 
+
+
+for the fog effect add the following to your cfgEffectArea.json file 
+        {     "AreaName": "Haunted-Area-1", 
+            "Type": "SpookyArea", 
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 12167, 0, 12634 ],
+                "Radius": 100,
+                "PosHeight":50,
+                "NegHeight": 20,
+                "InnerRingCount": 1,
+                "InnerPartDist": 25,
+                "OuterRingToggle": 1, 
+                "OuterPartDist": 40,
+                "OuterOffset": -80, 
+                "VerticalLayers": 0,
+                "VerticalOffset": 0,
+                "ParticleName": "graphics/particles/spooky_mist"
+                },
+            "PlayerData": {
+                "AroundPartName": "graphics/particles/smoke_bonfire",
+                "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+                "PPERequesterType": "PPERequester_GlassesSportBlack"
+            }
+        },
+        {     "AreaName": "Haunted-Area-2", 
+            "Type": "SpookyArea", 
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 12167, 0, 12634 ],
+                "Radius": 100,
+                "PosHeight":50,
+                "NegHeight": 20,
+                "InnerRingCount": 1,
+                "InnerPartDist": 25,
+                "OuterRingToggle": 1, 
+                "OuterPartDist": 60,
+                "OuterOffset": -120, 
+                "VerticalLayers": 1,
+                "VerticalOffset": 25,
+                "ParticleName": "graphics/particles/spooky_mist"
+                },
+            "PlayerData": {
+                "AroundPartName": "graphics/particles/smoke_bonfire",
+                "TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+                "PPERequesterType": "PPERequester_GlassesSportBlack"
+            }
+        },

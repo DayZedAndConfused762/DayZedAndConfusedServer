@@ -1,0 +1,96 @@
+
+****** install notes ******
+Just add in the information to your cfgenvironment.xml where shown
+
+****************************************
+
+I will use the Bear information for this example, however this method
+described bellow will work on any animal you wish to modify.
+
+This will allow you to better control how many animals can spawn
+in a given location. In the territory files each terriory has many 
+spawn ponits placements, see like this in the bear territory file.
+
+    <territory color="4294901760">
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="6520.83" z="2770.83" r="200"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7239.58" z="2256.25" r="200"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7683.33" z="1633.33" r="300"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7160.42" z="1387.5" r="200"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8225" z="1250" r="150"/>
+    </territory>
+
+Now we know as for bears only 1 spawns in at each location even though 
+the dmin/dmax is set to 0. This is because the system uses a default value.
+What we are going to do is over right that value as shown bellow.
+
+Open up your cfgenvironment.xml file and you will see this area.
+
+		<territory type="Herd" name="Deer" behavior="DZDeerGroupBeh">
+			<file usable="red_deer_territories" />
+		</territory>
+		<territory type="Herd" name="Cow" behavior="DZdomesticGroupBeh">
+			<file usable="cattle_territories" />
+		</territory>
+		<territory type="Herd" name="Goat" behavior="DZSheepGroupBeh">
+			<file usable="sheep_goat_territories" />
+		</territory>
+		<territory type="Herd" name="Sheep" behavior="DZSheepGroupBeh">
+			<file usable="sheep_goat_territories" />
+		</territory>
+		<territory type="Herd" name="RoeDeer" behavior="DZDeerGroupBeh">
+			<file usable="roe_deer_territories" />
+		</territory>
+		<territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
+			<file usable="wolf_territories" />
+		</territory>
+		<territory type="Herd" name="WildBoar" behavior="DZDeerGroupBeh">
+			<file usable="wild_boar_territories" />
+		</territory>
+		<territory type="Herd" name="Pig" behavior="DZSheepGroupBeh">
+			<file usable="pig_territories" />
+		</territory>
+		<territory type="Herd" name="Bear" behavior="DZdomesticGroupBeh">
+			<file usable="bear_territories"/>
+		</territory>
+
+For this example as mentioned above we are going to edit the bears.
+so we want this part of the code.
+
+		<territory type="Herd" name="Bear" behavior="DZdomesticGroupBeh">
+			<file usable="bear_territories"/>
+		</territory>
+
+Now to change it so we can change the amount that can spawn we add some new lines of code.
+
+		<territory type="Herd" name="Bear" behavior="DZdomesticGroupBeh">
+			<file usable="bear_territories"/>
+			<!-- new entries -->
+			<item name="zoneCountMin" val="10" /><!-- min amount to spawn in -->
+			<item name="zoneCountMax" val="10" /><!-- max amount to spawn in -->
+			<item name="globalCountMax" val="50" /><!-- how many can be spawned on map at a given time -->
+			<item name="playerSpawnRadiusNear" val="25" /><!-- how close is player to trigger event -->
+			<item name="playerSpawnRadiusFar" val="75" /><!-- how far is player to trigger event -->
+		</territory>			
+		
+As you can see what I have done is changed the system default from 1 to 10.
+Now at each of the spawn points decided by the territory file there we be
+10 bears at each spawn location.
+
+You can also change the global values, and player spawn radius if you wish.
+
+It seems a territory section is randomly chosen, and if it's chosen, 
+then min and max is considered.
+
+Use the following only if you want gaurenteed spawns, if you want to keep
+it random skip the next part.
+
+Put your new spawn point line in every territory section of the bear_territories.xml 
+(or what ever animal you are using), and it spawns every time.
+Replace the X and Z cords to an area you wish to see the bear at.
+
+( You might want to be quiet walking in the woods )
+
+****************************************	
+Org File Created by Your Name. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

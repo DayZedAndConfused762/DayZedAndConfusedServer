@@ -1,0 +1,48 @@
+Adding the Evil Goat as its own event
+
+events.xml  (replace entry)
+  <event name="AnimalGoat">
+        <nominal>200</nominal>
+        <min>200</min>
+        <max>200</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_Spooky"/><!-- for evil goat -->
+<!-- the child lines below you can keep (for org goats as well) or remove to just use the evil goat above -->
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircusF"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_White"/>
+        </children>
+    </event>
+
+types.xml   (add entry)
+    <type name="Animal_CapraHircus_Spooky">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+
+sheep_goat_territories.xml
+You can just keep the cords this file has or you can add custom areas as well. if you add a custom area, make sure to place them under each territory color. Your new code line would look something like this....
+<territory color="872412928">
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11846.00" z="12376.06" r="100"/> <!-- your added line -->
+<!-- cords already in file below -->
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="9156.43" z="4008.21" r="80"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9286.07" z="4081.07" r="100"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8884.29" z="4098.21" r="120"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8741.79" z="4123.93" r="80"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9345" z="3935.36" r="100"/>

@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+			<!-- This is my version of the ({---   Land_Mil_Tower_Small   ---}) -->
+			<!-- may add vanilla <container> insert above my <dispatch> (under usages)if desired -->
+			<!-- i choose specific locations for my custom protos -->
+			<!-- and run vanilla elsewhere -->
+			<!-- or you can remove the _Custom and run both protos but it thins your loot more -->
+			<!-- your limitsdefinitions, types tags, and spawnablytypes are up to you -->
+	<!-- .....lootmax="???" your call, Survivor! I made and tested at sites provided but all work well on my servers -->
+	<!-- tip: bags are interchangable, weapons are interchangable, not all jackets are same but not hard to play with -->
+			<!-- any ammo or small tools can be switched to desire for the most part as well ->
+			<!-- Enjoy, Happy Mapping!!
+
+			<!-- Created By: Josie Garfunkle -- Garfunkle Gaming -- https://Discord.gg/2TEVDgM -->
+		
+			<!-- posted at https://discord.gg/vP3Y89AjAW for community use -->
+
+		<!-- -----------------------------({ Good Game })-------------------------------- -->
+
+
+
+       <!-- mapgrouppos.xml ADD Entry -->
+
+            <!-- pick desired locations of : Land_Mil_Tower_Small  (Green Guard Towers) -->
+	  
+	  
+	  
+	  <!-- mapgroupproto.xml ADD Entry -->
+	  
+	  
+		<!-- Spotlights on Green Guard Towers -->
+		<group name="Land_Mil_Tower_Small_Lights" lootmax="3">
+				<usage name="Pumpkin" />
+					<dispatch>
+						<proxy type="PumpkinHelmet" pos="1.112060 3.398273 0.822754" rpy="75.0 270.0 0.0" />
+						<proxy type="PumpkinHelmet" pos="1.939575 3.398273 0.125000" rpy="75.0 0.0 0.0" />
+						<proxy type="PumpkinHelmet" pos="1.190429 3.398273 -0.693116" rpy="75.0 90.0 0.0" />
+					</dispatch>
+		</group>
+	  
+	  
+	  <!-- ------------ ---------------< GG >------------ --------------- -->
