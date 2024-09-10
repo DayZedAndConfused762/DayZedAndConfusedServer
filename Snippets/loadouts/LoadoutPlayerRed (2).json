@@ -1,0 +1,280 @@
+	{
+	  "name": "PlayerRed",
+	  "spawnWeight": 1,
+	  "characterTypes": [],
+	  "attachmentSlotItemSets": [
+		{
+		  "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "FAMAS",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [
+                        "Mag_FAMAS_25Rnd"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+		{
+		  "slotName": "shoulderR",
+		  "discreteItemSets": [
+			{
+			  "itemType": "Scout_Chernarus",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": 2,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"ACOGOptic",
+				"Mag_Scout_5Rnd"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Vest",
+		  "discreteItemSets": [
+			{
+			  "itemType": "HighCapacityVest_Black",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"TacticalBaconCan_Opened",
+				"TacticalBaconCan_Opened",
+				"SodaCan_Cola",
+				"SodaCan_Cola"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Headgear",
+		  "discreteItemSets": [
+			{
+			  "itemType": "BaseballCap_Red",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Armband",
+		  "discreteItemSets": [
+			{
+			  "itemType": "Armband_Red",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Gloves",
+		  "discreteItemSets": [
+			{
+			  "itemType": "TacticalGloves_Black",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Body",
+		  "discreteItemSets": [
+			{
+			  "itemType": "BomberJacket_Maroon",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"Mag_FAMAS_25Rnd",
+				"Mag_FAMAS_25Rnd",
+				"Mag_Scout_5Rnd",
+				"AmmoBox_556x45_20Rnd",
+				"AmmoBox_556x45_20Rnd"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Legs",
+		  "discreteItemSets": [
+			{
+			  "itemType": "ParamedicPants_Crimson",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Feet",
+		  "discreteItemSets": [
+			{
+			  "itemType": "MilitaryBoots_Redpunk",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"CombatKnife"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Eyewear",
+		  "discreteItemSets": [
+			{
+			  "itemType": "SportGlasses_Orange",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Mask",
+		  "discreteItemSets": [
+			{
+			  "itemType": "BalaclavaMask_Blackskull",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Hips",
+		  "discreteItemSets": [
+			{
+			  "itemType": "HipPack_Black",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"BandageDressing"
+			  ],
+			  "complexChildrenTypes": [
+							{
+								"itemType": "BandageDressing",
+								"attributes": {
+									"healthMin": 1,
+									"healthMax": 1,
+									"quantityMin": 1,
+									"quantityMax": 1
+								},
+								"quickBarSlot": 3,
+								"simpleChildrenTypes": [],
+								"simpleChildrenUseDefaultAttributes": true
+							},
+							{
+								"itemType": "ChernarusMap",
+								"attributes": {
+									"healthMin": 1,
+									"healthMax": 1,
+									"quantityMin": 1,
+									"quantityMax": 1
+								},
+								"quickBarSlot": 4,
+								"simpleChildrenTypes": [],
+								"simpleChildrenUseDefaultAttributes": true
+							}
+						]
+			}
+		  ]
+		}
+	  ]
+	}

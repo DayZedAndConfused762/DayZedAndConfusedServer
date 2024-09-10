@@ -1,0 +1,297 @@
+	{
+	  "name": "PlayerGreen",
+	  "spawnWeight": 1,
+	  "characterTypes": [],
+	  "attachmentSlotItemSets": [
+		{
+		  "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "AKM",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "KobraOptic",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": true
+                        }
+                    ],
+                    "simpleChildrenTypes": [
+                        "Mag_AKM_30Rnd",
+                        "AK_WoodHndgrd",
+                        "AK_WoodBttstck"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+		{
+		  "slotName": "shoulderR",
+		  "discreteItemSets": [
+			{
+			  "itemType": "CZ527_Green",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": 2,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"HuntingOptic",
+				"Mag_CZ527_5Rnd"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Vest",
+		  "discreteItemSets": [
+			{
+			  "itemType": "UKAssVest_Camo",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"TacticalBaconCan_Opened",
+				"TacticalBaconCan_Opened",
+				"SodaCan_Cola",
+				"SodaCan_Cola"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Headgear",
+		  "discreteItemSets": [
+			{
+			  "itemType": "BaseballCap_Camo",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Armband",
+		  "discreteItemSets": [
+			{
+			  "itemType": "Armband_Green",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Gloves",
+		  "discreteItemSets": [
+			{
+			  "itemType": "TacticalGloves_Green",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Body",
+		  "discreteItemSets": [
+			{
+			  "itemType": "TacticalShirt_Olive",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"Mag_AKM_30Rnd",
+				"Mag_AKM_30Rnd",
+				"Mag_CZ527_5Rnd",
+				"AmmoBox_762x39_20Rnd",
+				"AmmoBox_762x39_20Rnd"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Legs",
+		  "discreteItemSets": [
+			{
+			  "itemType": "CargoPants_Green",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Feet",
+		  "discreteItemSets": [
+			{
+			  "itemType": "MilitaryBoots_Black",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"CombatKnife"
+			  ],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Eyewear",
+		  "discreteItemSets": [
+			{
+			  "itemType": "SportGlasses_Green",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Mask",
+		  "discreteItemSets": [
+			{
+			  "itemType": "BalaclavaMask_Green",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [],
+			  "complexChildrenTypes": []
+			}
+		  ]
+		},
+		{
+		  "slotName": "Hips",
+		  "discreteItemSets": [
+			{
+			  "itemType": "HipPack_Green",
+			  "spawnWeight": 1,
+			  "attributes": {
+				"healthMin": 1,
+				"healthMax": 1,
+				"quantityMin": 1,
+				"quantityMax": 1
+			  },
+			  "quickBarSlot": -1,
+			  "simpleChildrenUseDefaultAttributes": false,
+			  "simpleChildrenTypes": [
+				"BandageDressing"
+			  ],
+			  "complexChildrenTypes": [
+							{
+								"itemType": "BandageDressing",
+								"attributes": {
+									"healthMin": 1,
+									"healthMax": 1,
+									"quantityMin": 1,
+									"quantityMax": 1
+								},
+								"quickBarSlot": 3,
+								"simpleChildrenTypes": [],
+								"simpleChildrenUseDefaultAttributes": true
+							},
+							{
+								"itemType": "ChernarusMap",
+								"attributes": {
+									"healthMin": 1,
+									"healthMax": 1,
+									"quantityMin": 1,
+									"quantityMax": 1
+								},
+								"quickBarSlot": 4,
+								"simpleChildrenTypes": [],
+								"simpleChildrenUseDefaultAttributes": true
+							}
+						]
+			}
+		  ]
+		}
+	  ]
+	}
