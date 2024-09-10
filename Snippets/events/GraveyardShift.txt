@@ -1,0 +1,193 @@
+--------------------------------------------------GraveyardShift----------------------------------------------------
+Created and designed by Terra Viator (DutchOverland) 2023
+
+Random undergroundStash event with loot. Located at the graveyard near Electrograd's eastern church ( on the rocks).
+The loot can be changed to whatever you want.
+
+Copy/paste into the corresponding files;
+
+Eventspawns:
+           
+    <event name="StaticGraveyardShiftLoot">  
+	    <zone smin="1" smax="1" dmin="2" dmax="4" r="45" />
+		<pos x="10626.3" z="2664.0" a="33.1" /> 
+		<pos x="10624.1" z="2643.0" a="32.8" /> 
+		<pos x="10626.0" z=" 2626.3" a="32.2" /> 
+		<pos x="10609.1" z="2658.0" a="33.1" /> 
+        <pos x="10629.6" z="2645.8" a="32.9" />		
+	</event> 
+	
+Events:
+  
+    <event name="StaticGraveyardShiftLoot">
+        <nominal>5</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>1200</lifetime>
+        <restock>3300</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <secondary>InfectedMummy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>parent</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="UndergroundStash"/>
+        </children>
+    </event>
+	
+SpawableTypes:
+
+    <type name="UndergroundStash">		
+		       <cargo chance="1.00">
+     		   <item name="AmmoBox_308Win_20Rnd" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="Winchester70_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="WitchHood_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="AmmoBox_308Win_20Rnd" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="BalaclavaMask_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="TacticalGloves_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="CargoPants_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="TacticalShirt_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="AmmoBox_308Win_20Rnd" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="JungleBoots_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="Headtorch_Black" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="Rangefinder" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+     		   <item name="Rice" chance="1.00" />
+		       </cargo>
+			   <cargo chance="1.00">
+			   <item name="HuntingOptic" chance="1.00" />
+		       </cargo>
+	    </type>
+		
+cfgUndergroundTriggers:
+    
+{
+    "Triggers":
+	[
+        { 	
+            "_comments1": "GraveyardShift",
+            "_comments2": "from center coords",
+			"Position": [  10619.328125,
+                34.02191162109375,
+                2644.012939453125 ],
+			"Orientation": [ 0, 0, 0 ],
+			"Size": [ 35, 20, 35 ],
+			"EyeAccommodation": 0.8,
+			"Breadcrumbs": []
+		}
+	]
+}
+
+cfgEffectAreas:
+
+         { 	"AreaName": "GraveyardShiftMist", 
+			"Type": "SpookyArea",
+			"TriggerType": "Effecttrigger",
+			"Data": { 
+				"Pos": [ 10620.33, 0, 2645.75 ],
+				"Radius": 30,
+				"PosHeight": 10,
+				"NegHeight": 10,
+				"InnerRingCount": 1,
+				"InnerPartDist": 20,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 10, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/spooky_mist",
+				"PPERequesterType": "PPERequester_DeathDarkening"
+			}
+		},
+		{ 	"AreaName": "GraveyardShiftMist2", 
+			"Type": "SpookyArea",
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 10622.33, 0, 2643.75 ],
+				"Radius": 30,
+				"PosHeight": 10,
+				"NegHeight": 10,
+				"InnerRingCount": 1,
+				"InnerPartDist": 25,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 1,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_ground"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/blood_bleeding_01",
+				"TinyPartName": "graphics/particles/env_fly_swarm_01",
+				"PPERequesterType": "PPERequester_ShockHitReaction"
+			}
+		},
+		{ 	"AreaName": "GraveyardShiftOrientation", 
+			"Type": "SpookyArea",
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 10622.33, 0, 2643.75 ],
+				"Radius": 10,
+				"PosHeight": 10,
+				"NegHeight": 10,
+				"InnerRingCount": 1,
+				"InnerPartDist": 10,
+				"OuterRingToggle": 0, 
+				"OuterPartDist": 0, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/breath_vapour_heavy"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/blood_bleeding_01",
+				"TinyPartName": "graphics/particles/env_fly_swarm_01",
+				"PPERequesterType": "PPERequester_ShockHitReaction"
+			}
+		},
+		
+Messages:
+
+        <message>
+                <delay>10</delay>
+                <repeat>60</repeat>
+                <onconnect>1</onconnect>
+                <text>RELIGION ON A ROCK WITH VIEW OF THE SEA</text>
+        </message>
+		
+        <message>
+                <delay>12</delay>
+                <repeat>60</repeat>
+                <onconnect>1</onconnect>
+                <text>DEATH YOU'LL SEEK AND A TREASURE AWAITS THEE</text>
+        </message>

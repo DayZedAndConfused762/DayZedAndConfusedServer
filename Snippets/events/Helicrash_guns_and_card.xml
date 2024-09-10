@@ -1,0 +1,120 @@
+
+
+	<!-- in mapgroupproto you will add in a few lines in Wreck_UH1Y and Wreck_Mi8_Crashed group code blocks so 
+		that you can have 2 guns ALWAYS spawn at the helicrash and 25% chance of a punch card
+	If you dont want the guns or the punch card, u can comment out or remove that code block. You can also adjust 
+	the chance of the guns to spawn so its not always spawning but thats up to you.
+
+	Once code blocks are added, remove comment out lines -->
+
+
+		<group name="Wreck_UH1Y" lootmax="15">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="15">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="1.357636 -1.856922 2.039550" range="0.185402" height="1.756649" flags="32" />
+						<point pos="3.630615 -1.856922 0.478027" range="0.203125" height="0.507813" flags="32" />
+						<point pos="3.128174 -1.856922 0.282226" range="0.237500" height="0.593750" flags="32" />
+						<point pos="2.601563 -1.856922 0.026855" range="0.237500" height="0.593750" flags="32" />
+						<point pos="2.976563 -1.856922 2.021972" range="0.340625" height="0.851563" flags="32" />
+						<point pos="4.462646 -1.856922 -0.474610" range="0.595988" height="1.489970" flags="32" />
+						<point pos="2.273926 -1.856922 3.096679" range="0.718352" height="1.795880" flags="32" />
+						<point pos="1.722656 -1.856922 -1.948730" range="0.821779" height="2.000004" flags="32" />
+						<point pos="5.276123 -1.856922 4.080566" range="0.827611" height="2.000004" flags="32" />
+						<point pos="3.192871 -1.856922 -1.159668" range="0.846799" height="2.000004" flags="32" />
+						<point pos="-3.063140 -1.856922 3.171630" range="0.816895" height="2.000000" flags="32" />
+						<point pos="3.540283 -1.856922 4.118164" range="0.908636" height="2.000004" flags="32" />
+						<point pos="0.502686 -1.856922 2.775879" range="0.942924" height="2.000004" flags="32" />
+						<point pos="6.488282 -1.856922 2.621093" range="1.069595" height="0.560911" flags="32" />
+						<point pos="-0.299072 -1.856922 -1.951172" range="1.199951" height="2.000004" flags="32" />
+						<point pos="-5.641358 -1.856922 2.865478" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-6.365722 -1.856922 -0.791017" range="1.050690" height="2.000000" flags="32" />
+						<point pos="-7.866791 -1.856922 1.028075" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-1.301361 -1.856922 3.279541" range="0.930111" height="2.000000" flags="32" />
+						<point pos="-2.462616 -1.856922 -2.051270" range="0.965907" height="2.000000" flags="32" />
+						<point pos="-4.542145 -1.856922 -1.998291" range="1.114297" height="2.000000" flags="32" />
+						<point pos="1.053284 -1.856922 -0.203858" range="1.009568" height="1.428749" flags="32" />
+						<point pos="2.162994 -1.856922 1.857910" range="0.489321" height="0.239521" flags="32" />
+						<point pos="-4.164428 -1.856922 2.812988" range="0.277910" height="1.145630" flags="32" />
+						<point pos="-4.802368 -1.856922 -0.578615" range="0.329033" height="1.024933" flags="32" />
+				</container>
+				<!-- The lines below you will add below </container> end tag -->
+				<dispatch dechance="1.0"> <!-- adjust chance-->
+					<proxy type="AK101" pos="-3.017131 -1.5 0.206791" rpy="90.0 30.0 -10.0" dechance="1.00" />						
+				</dispatch>
+
+				<dispatch dechance="1.0"> <!-- adjust chance-->
+					<proxy type="AK74" pos="-5.15 -1.5 -0.52" rpy="5.0 0.0 -25.0" dechance="1.00" />						
+				</dispatch>
+				<!-- this next part is for Punch cards. change the chance 0.25 to what ever chance u want it to spawn-->
+				<dispatch dechance="0.25"> <!-- adjust chance-->
+                    <proxy type="PunchedCard" pos="-4.902 -1.116 0.252" rpy="90 0.0 0.0" dechance="1.00" />
+                </dispatch>
+				<!-- end -->
+		</group>
+		<group name="Wreck_Mi8_Crashed" lootmax="15">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="15">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="-2.693787 -1.888990 1.671386" range="0.703328" height="2.000000" flags="32" />
+						<point pos="-1.758788 -1.888990 -2.302246" range="0.597443" height="1.493607" flags="32" />
+						<point pos="-5.150909 -1.888990 -4.171387" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-9.951996 -1.888990 -2.661621" range="0.932135" height="2.000000" flags="32" />
+						<point pos="-9.645112 -1.888990 1.531249" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-7.113404 -1.888990 1.797849" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-4.582459 -1.888990 1.906738" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-1.599335 -1.888990 -0.949219" range="0.764948" height="1.163458" flags="32" />
+						<point pos="-3.084625 -1.796867 -1.247071" range="0.393962" height="0.169039" />
+						<point pos="-4.700715 -1.854195 -1.203125" range="0.334039" height="0.211958" />
+						<point pos="-7.857819 -1.816639 -0.384278" range="0.407959" height="1.019897" />
+						<point pos="-6.361786 -1.474339 -0.424318" range="0.203125" height="0.507813" />
+						<point pos="-5.188050 -1.487791 -0.553956" range="0.168750" height="0.421875" />
+						<point pos="-3.660218 -1.511133 -0.747803" range="0.134375" height="0.335938" />
+						<point pos="-3.550293 -1.555975 -2.536621" range="0.203125" height="0.507813" />
+						<point pos="-6.174928 -1.774635 -1.928222" range="0.216064" height="0.540161" />
+						<point pos="-6.652740 -1.799643 -1.263429" range="0.603010" height="0.139997" />
+						<point pos="-5.446472 -1.813892 -1.698241" range="0.548840" height="1.410522" />
+						<point pos="-2.769746 -1.517029 -2.799561" range="0.203125" height="0.507813" />
+						<point pos="-3.818542 -1.811153 -1.685303" range="0.460957" height="1.302490" />
+				</container>
+				<!-- The lines below you will add below </container> end tag -->
+				<dispatch dechance="1.0"> <!-- adjust chance-->
+					<proxy type="AK101" pos="-8.088387 -1.1 -0.340433" rpy="0.0 15.0 0.0" dechance="1.00" />						
+				</dispatch>
+
+				<dispatch dechance="1.0"> <!-- adjust chance-->
+					<proxy type="Aug" pos="-8.088387 -0.8 -0.340433" rpy="0.0 195.0 0.0" dechance="1.00" />						
+				</dispatch>
+				<!-- this next part is for Punch cards. change the chance 0.25 to what ever chance u want it to spawn-->
+				<dispatch dechance="1.0"> <!-- adjust chance-->
+					<proxy type="PunchedCard" pos="-7.0 -1.8 -0.540433" rpy="90.0 0.0 0.0" dechance="1.00" />						
+				</dispatch>
+				<!-- end -->
+		</group>
+
+
+<!-- If for what ever reason you dont want these guns to spawn at the helicrash, you can change it to what 
+	ever gun you want by changeing the type name or remove the lines you dont want
+      For example:
+	<proxy type="Aug" pos="-8.088387 -0.8 -0.340433" rpy="0.0 195.0 0.0" dechance="1.00" /> will spawn an Aug, if you want to 
+	change it, replace "Aug" with what ever gun you want
+	if you change it to an item (clothing, bag, ect...), it may not light up the way it should -->
+
+	<!-- This next code block will be added to your spawnabletype file so that the punch cards will spawn
+		 Badly Damaged so that it can only be used once -->	
+
+<!-- cfgspawnabletype.xml-->
+
+<type name="PunchedCard">
+	<damage min="0.80" max="0.90" />
+</type>

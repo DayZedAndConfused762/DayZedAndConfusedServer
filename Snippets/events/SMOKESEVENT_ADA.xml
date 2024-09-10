@@ -1,0 +1,191 @@
+
+THIS IS SMOKES PERSONAL EVENT CAR. IT DOESNT SPAWN IN REST OF WORLD LIKE OTHER CARS IT ONLY SPAWNS IN THE SPOT I PUT IT IN{SEE END}
+SHOULD HAVE EVERYTHING YOU NEED TO GET KITTED.
+
+
+
+<-- ADD SPAWNABLETYPES -->
+
+
+
+<type name="OffroadHatchback_White">
+        <attachments chance="1.00">
+            <item name="HatchbackWheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackWheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackWheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackWheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackWheel" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarRadiator" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CarBattery" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SparkPlug" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HeadlightH7" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackDoors_Driver_White" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackDoors_CoDriver_White" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackHood_White" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HatchbackTrunk_White" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="CanisterGasoline" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CZ550" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Canteen" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Canteen" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Canteen" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Canteen" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="M4A1_Green" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="NVGoggles" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mich2001Helmet" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Battery9V" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Battery9V" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Mag_STANAGCoupled_30Rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_STANAGCoupled_30Rnd" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Mag_STANAGCoupled_30Rnd" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_STANAGCoupled_30Rnd" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="M4_MPHndgrd_Green" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="M4_MPBttstck_Green" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="WeaponCleaningKit" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_CZ550_10Rnd" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="SewingKit" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="LeatherSewingKit" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="M4_Suppressor" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="PlateCarrierVest" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="PlateCarrierPouches" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="CanOpener" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="TacticalBaconCan" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Sneakers_Red" chance="1.00" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="CargoPants_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="M65Jacket_Black" chance="1.00" />
+        </attachments>
+			<attachments chance="1.00">
+            <item name="M4_Suppressor" chance="1.00" />
+        </attachments>
+    </type>
+	
+	
+	
+	
+	
+	<-- ADD TO EVENTSPAWNS -->
+	
+	
+		  <event name="Vehicle_Custom">
+        <pos x="XXXXX" z="XXXXX" a="0" />
+    </event>
+	
+	PUT YOUR COORDS U WANT IT TO SPAWN HERE WHERE THE XXXX ARE
+	
+	
+	
+	
+	
+	
+	<-- ADD EVENTS -->
+	
+	
+	
+	
+		<event name="Vehicle_Custom">
+        <nominal>4</nominal>
+        <min>4</min>
+        <max>25</max>
+        <lifetime>900</lifetime>
+        <restock>10</restock>
+        <saferadius>5</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>parent</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="OffroadHatchback_White"/>
+        </children>
+    </event>
+	
+	
+	**** IVE REMOVED THE WHITE OFF ROAD FROM CHILD LINE IN EVENTS SO THAT IT ONLY SPAWNS WHEN ITS CALLED FOR IT WONT SPAWN IN THE REST OF WORLD LIKE OTHER VEHICLES********

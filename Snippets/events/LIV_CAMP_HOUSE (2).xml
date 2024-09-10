@@ -1,0 +1,72 @@
+
+	<!--GG GIFTZ -->
+	
+	
+	
+	
+    <event name="Static_CAMP_HOUSE_LIV">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>10</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <secondary></secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+	
+	<!-- EVENTSPAWNS -->
+	<event name="Static_CAMP_HOUSE_LIV">
+		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
+		<pos x="1297.981812" z="4875.922363" a="236.817841" y="254.778610" group="CAMP_CREATIONS"/>
+		<pos x="1284.061401" z="4920.308105" a="265.179214" y="253.393921" group="CAMP_CREATIONS"/>
+		<pos x="1287.031982" z="4903.370605" a="254.994858" y="253.922150" group="CAMP_CREATIONS"/>
+		<pos x="1322.362671" z="4885.734863" a="55.304741" y="255.395737" group="CAMP_CREATIONS"/>
+		<pos x="1307.472534" z="4863.815430" a="228.825073" y="255.227066" group="CAMP_CREATIONS"/>
+		<pos x="1315.126831" z="4898.848633" a="68.969797" y="254.404724" group="CAMP_CREATIONS"/>
+		<pos x="1310.673828" z="4915.089844" a="73.997511" y="253.425491" group="CAMP_CREATIONS"/>
+		<pos x="11591.940430" z="1956.350586" a="154.569702" y="267.640106" group="CAMP_CREATIONS"/>
+		<pos x="11607.393555" z="1943.831421" a="146.834785" y="268.002380" group="CAMP_CREATIONS"/>
+		<pos x="11615.343750" z="1972.927490" a="135.232376" y="267.495514" group="CAMP_CREATIONS"/>
+		<pos x="11603.696289" z="1963.270752" a="143.61188099999998" y="267.399811" group="CAMP_CREATIONS"/>
+		<pos x="11621.649414" z="1953.410522" a="140.131161" y="267.872833" group="CAMP_CREATIONS"/>
+		<pos x="11633.240234" z="1966.108643" a="128.915543" y="267.919342" group="CAMP_CREATIONS"/>
+	</event>
+	
+	
+	<!-- Group -->
+	<group name="CAMP_CREATIONS">
+		<child type="StaticObj_Forest_HumanSkeleton" spawnsecondary="false" x="2.587158203125" z="3.6328125" a="0" y="-1.243316650390625"/>
+		<child type="StaticObj_Misc_WoodenCrate_5x" spawnsecondary="false" x="2.163330078125" z="-2.2099609375" a="0" y="-0.7532501220703125"/>
+		<child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="-1.4609375" z="1.78125" a="0" y="-1.45257568359375"/>
+		<child type="StaticObj_Slum_Roof3" spawnsecondary="false" x="0.124755859375" z="-5.185546875" a="178.17630004882812" y="-0.742584228515625"/>
+		<child type="StaticObj_Furniture_hospital_bench" spawnsecondary="false" x="-2.256591796875" z="-1.634765625" a="0" y="-1.7398834228515625"/>
+		<child type="StaticObj_Furniture_ch_mod_h" spawnsecondary="false" x="2.7890625" z="1.3310546875" a="84.97162628173828" y="-1.7191162109375"/>
+		<child type="StaticObj_Furniture_Dkamna_uhli" spawnsecondary="false" x="1.1435546875" z="3.97265625" a="0" y="-1.7172393798828125"/>
+		<child type="FireplaceIndoor" spawnsecondary="false" x="1.053466796875" z="4.08984375" a="0" y="-1.6442413330078125"/>
+		<child type="Animal_SusDomesticus" spawnsecondary="false" x="1.400634765625" z="1.9091796875" a="0" y="-1.6892242431640625"/>
+	</group>
+	
+		<!-- PROTO_TEMPLATE -->
+	
+			</defaults>
+			<group name="StaticObj_Furniture_hospital_bench" lootmax="1">
+				<dispatch dechance="1">
+					<proxy type="DryBag_Green" pos="-1.364258 0.537811 -4.060059" rpy="-0.000000 0.000000 -0.000000" dechance="1" />
+					<proxy type="DryBag_Red" pos="-1.397461 0.274719 -4.843506" rpy="-0.000000 0.000000 -0.000000" dechance="1" />
+					<proxy type="HuntingBag_Hannah" pos="-0.498047 0.416198 -3.535400" rpy="-0.000000 83.436531 -0.000000" dechance="1" />
+					<proxy type="Matchbox" pos="-0.238282 0.600647 -0.644531" rpy="-0.000000 0.000000 -0.000000" dechance="1" />
+					<proxy type="Hatchet" pos="-1.294922 0.915161 -3.558105" rpy="-0.000000 0.000000 -0.000000" dechance="1" />
+					<proxy type="Pot" pos="5.684570 0.950332 -3.331299" rpy="-0.000000 0.000000 -0.000000" dechance="1" />
+					<proxy type="FieldShovel" pos="-0.875000 1.326873 -3.870117" rpy="89.901085 -180.000000 -180.000000" dechance="1" />
+					<proxy type="M65Jacket_Black" pos="4.543945 0.364563 -5.093994" rpy="-0.000000 0.000000 -0.000000" dechance="1" />
+				</dispatch>
+		</group>
+	
+	

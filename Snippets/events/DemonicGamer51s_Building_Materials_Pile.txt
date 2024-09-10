@@ -1,0 +1,80 @@
+<!-- Events.xml Entry -->
+
+    <event name="Item_Building_Supplies_A">
+        <nominal>520</nominal>
+        <min>520</min>
+        <max>520</max>
+        <lifetime>0</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="100" min="100" type="Nail"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="Hatchet"/>
+            <child lootmax="0" lootmin="0" max="200" min="200" type="WoodenPlank"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="Pickaxe"/>
+            <child lootmax="0" lootmin="0" max="200" min="200" type="WoodenLog"/>
+        </children>
+    </event>
+    <event name="Item_Building_Supplies_B">
+        <nominal>550</nominal>
+        <min>550</min>
+        <max>550</max>
+        <lifetime>0</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="100" min="100" type="Nail"/>
+            <child lootmax="0" lootmin="0" max="30" min="30" type="Hatchet"/>
+            <child lootmax="0" lootmin="0" max="200" min="200" type="WoodenPlank"/>
+            <child lootmax="0" lootmin="0" max="20" min="20" type="Pickaxe"/>
+            <child lootmax="0" lootmin="0" max="200" min="200" type="WoodenLog"/>
+        </children>
+    </event>
+    <event name="Item_Building_Supplies_C">
+        <nominal>345</nominal>
+        <min>345</min>
+        <max>345</max>
+        <lifetime>0</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="200" min="200" type="WoodenPlank"/>
+            <child lootmax="0" lootmin="0" max="15" min="15" type="Pliers"/>
+            <child lootmax="0" lootmin="0" max="20" min="20" type="BarbedWire"/>
+            <child lootmax="0" lootmin="0" max="30" min="30" type="MetalWire"/>
+            <child lootmax="0" lootmin="0" max="10" min="10" type="CombinationLock4"/>
+            <child lootmax="0" lootmin="0" max="70" min="70" type="MetalPlate"/>
+        </children>
+    </event>
+
+<!-- Eventspawns.xml Entry -->
+
+<!-- Replace Co-ords with your own -->
+
+  	<event name="Item_Building_Supplies_A">
+        <pos x="2659.08" z="5474.83" a="0" /> 
+    </event>
+    <event name="Item_Building_Supplies_B">
+        <pos x="2685.26 /" z="5447.87" a="0" />
+    </event>
+    <event name="Item_Building_Supplies_C">
+        <pos x="2644.23" z="5489.68" a="0" />
+    </event> 

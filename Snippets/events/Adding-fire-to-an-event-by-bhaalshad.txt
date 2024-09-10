@@ -1,0 +1,185 @@
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+Placing the fire effect to an event, object, or item.
+This example will place a mass grave at a small airfield
+in Chernarus and have fire and smoke coming from it.
+
+If you only want smoke or fire, then only add the one you wish.
+each will have a note saying 
+for fire or for smoke.
+
+****************************************
+<!-- 1st types.xml Replace Entry -->
+
+Use these settings so the bonfire does not spawn in the game as a loot item.
+
+For fire
+	<type name="Bonfire">
+        <nominal>25</nominal>
+        <lifetime>6000</lifetime>
+        <restock>0</restock>
+        <min>25</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="dontuse"/>
+        <usage name="DoNotUse" />
+    </type>
+
+Use these settings so the smoke does not spawn in the game as a loot item.
+
+For smoke
+    <type name="Wreck_UH1Y">
+        <nominal>25</nominal>
+        <lifetime>60000</lifetime>
+        <restock>0</restock>
+        <min>25</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="dontuse"/>
+        <usage name="DoNotUse" />
+    </type>
+	
+****************************************	
+<!-- 2nd cfglimitsdefinition.xml New Entry -->
+
+Use these settings so the object that has these will not spawn in the game as a loot item.
+
+        <category name="dontuse"/>
+        <usage name="DoNotUse" />
+
+****************************************	
+<!-- 3rd mapgroupproto.xml New Entry -->
+
+For the fire effect
+		<group name="FireEffect">
+				<usage name="DoNotUse" />
+				<container name="lootFloor">
+					<category name="dontuse" />
+				</container>
+			<dispatch>
+				<proxy type="Bonfire" pos="0.0 -6.0 -0.0" rpy="180.000000 0.000000 0.0" />
+			</dispatch>
+		</group>
+
+for the smoke
+        <group name="HeliSmoke" lootmax="1">
+		<usage name="DoNotUse" />
+               <container name="loot" lootmax="1">
+					<category name="dontuse"/>
+               </container>
+               <dispatch>
+                       <proxy type="Wreck_UH1Y" pos="0.0 -5.0 0.0" rpy="0.0 0.0 0.0" />
+               </dispatch>
+        </group>
+		
+For the Mass Grave
+		<group name="Land_Dead_MassGrave" lootmax="34">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="34">
+						<category name="weapons"/>
+						<point pos="4.293945 -1.541862 4.939941" range="0.100000" height="1.145172" />
+						<point pos="5.630615 -1.221848 3.478027" range="0.203125" height="1.058037" />
+						<point pos="5.128174 -1.250969 3.282227" range="0.237500" height="1.899963" />
+						<point pos="4.601563 -1.275345 3.026855" range="0.237500" height="1.900002" />
+						<point pos="4.976563 -1.479630 5.021972" range="0.340625" height="1.139282" />
+						<point pos="5.462646 -1.856918 3.474609" range="0.595988" height="1.900002" />
+						<point pos="4.273926 -1.856918 6.096679" range="0.718352" height="1.900002" />
+						<point pos="3.722656 -1.856918 4.948730" range="0.821779" height="1.900002" />
+						<point pos="6.276123 -1.856918 6.080566" range="0.827611" height="1.900002" />
+
+						<point pos="5.192871 -1.856918 -4.159668" range="0.846799" height="1.900002" />
+						<point pos="4.588379 -1.856918 -3.039551" range="0.898411" height="1.900002" />
+						<point pos="5.540283 -1.856918 -7.118164" range="0.908636" height="1.900002" />
+						<point pos="2.502686 -1.856918 -5.775879" range="0.942924" height="1.900002" />
+						<point pos="5.894042 -1.856918 -3.567383" range="1.068359" height="1.900002" />
+						<point pos="6.488282 -1.856918 -5.621094" range="1.069595" height="1.900002" />
+						<point pos="2.299072 -1.856918 -4.951172" range="1.199951" height="1.900002" />
+						<point pos="2.732910 -1.856918 -3.940430" range="1.199951" height="1.900002" />
+						
+						<point pos="-4.293945 -1.541862 -4.939941" range="0.100000" height="1.145172" />
+						<point pos="-5.630615 -1.221848 -3.478027" range="0.203125" height="1.058037" />
+						<point pos="-5.128174 -1.250969 -3.282227" range="0.237500" height="1.899963" />
+						<point pos="-4.601563 -1.275345 -3.026855" range="0.237500" height="1.900002" />
+						<point pos="-4.976563 -1.479630 -5.021972" range="0.340625" height="1.139282" />
+						<point pos="-5.462646 -1.856918 -3.474609" range="0.595988" height="1.900002" />
+						<point pos="-4.273926 -1.856918 -6.096679" range="0.718352" height="1.900002" />
+						<point pos="-3.722656 -1.856918 -4.948730" range="0.821779" height="1.900002" />
+						<point pos="-6.276123 -1.856918 -6.080566" range="0.827611" height="1.900002" />
+
+						<point pos="-5.192871 -1.856918 4.159668" range="0.846799" height="1.900002" />
+						<point pos="-4.588379 -1.856918 3.039551" range="0.898411" height="1.900002" />
+						<point pos="-5.540283 -1.856918 7.118164" range="0.908636" height="1.900002" />
+						<point pos="-2.502686 -1.856918 5.775879" range="0.942924" height="1.900002" />
+						<point pos="-5.894042 -1.856918 3.567383" range="1.068359" height="1.900002" />
+						<point pos="-6.488282 -1.856918 5.621094" range="1.069595" height="1.900002" />
+						<point pos="-2.299072 -1.856918 4.951172" range="1.199951" height="1.900002" />
+						<point pos="-2.732910 -1.856918 3.940430" range="1.199951" height="1.900002" />						
+				</container>
+		</group>
+		
+****************************************	
+<!-- 4th mapgrouppos.xml New Entry -->
+
+The Y value here, 2nd set of numbers in the pos; 
+
+pos cords. 3 sets of numbers
+1st = X cord
+2nd = Y (Elevation)
+3rd = Z cord
+
+If you need to find the Elevation, there are 2 good ways you can do this.
+1: have a friend hit you.
+2: kill yourself in-game.
+Both of these will show in your logs, which take about 5 minutes to register,
+the order of the coordinates in the logs is like this :  X, Z, E
+
+Add the following lines to your mapgrouppos.xml file
+for fire
+<group name="FireEffect" pos="11987.540000 140.200000 12571.730000" rpy="0.000000 0.000000 0.000000" a="0.0" />
+
+for the smoke
+<group name="HeliSmoke"  pos="11987.540000 140.200000 12571.730000" rpy="0.000000 0.000000 0.000000" a="0.0" />
+
+****************************************	
+<!-- 5th cfgeventspawns.xml New Entry -->
+
+Notice here the X and Z cord match what we have in the pos file above.
+This is important to make sure the fire and smoke is right under this event.
+
+<event name="StaticGrave">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="45" />
+<pos x="11987.54" z="12571.73" a="0.000000" />
+</event>
+
+****************************************	
+<!-- 6th events.xml New Entry -->
+   <event name="StaticGrave">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="50" lootmin="10" max="1" min="1" type="Land_Dead_MassGrave"/>
+        </children>
+    </event>
+****************************************	
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at http://bhaalshad.com
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

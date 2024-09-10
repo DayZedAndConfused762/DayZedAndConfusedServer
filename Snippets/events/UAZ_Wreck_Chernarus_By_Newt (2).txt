@@ -1,0 +1,66 @@
+For use in Chernarus, work's on all platforms.
+(Add to Mapgroupproto.xml)
+    <group name="Land_Wreck_Uaz" lootmax="10">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="10">
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="1.672654 -0.265442 -0.195427" range="0.387367" height="0.181305" />
+						<point pos="1.746750 -0.259766 0.361112" range="0.156253" height="0.177795" />
+						<point pos="0.439132 -0.276154 -0.529345" range="0.134375" height="0.335938" />
+						<point pos="0.425411 -0.257477 0.486419" range="0.168750" height="0.421875" />
+						<point pos="0.653404 -0.066956 -0.011987" range="0.100000" height="0.250000" />
+						<point pos="-0.374241 -0.304047 -0.407834" range="0.196289" height="0.490723" />
+						<point pos="-0.405989 -0.291016 0.358694" range="0.229492" height="0.573731" />
+						<point pos="-1.465418 0.151215 -0.227352" range="0.409375" height="1.023438" />
+						<point pos="-2.125782 0.116974 0.399090" range="0.203125" height="0.507690" />
+						<point pos="-0.830931 -0.500488 -0.467392" range="0.110352" height="0.275880" />
+						<point pos="-0.866100 -0.489319 0.377680" range="0.100000" height="0.250000" />
+				</container>
+		</group>
+		
+(Add to events.xml)		
+    <event name="StaticLand_Wreck_Uaz">
+        <nominal>7</nominal>
+        <min>1</min>
+        <max>7</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="1" max="7" min="1" type="Land_Wreck_Uaz"/>
+        </children>
+    </event>
+	
+(Add to cfgeventspawns.xml)	
+	<event name="StaticLand_Wreck_Uaz">
+        <zone smin="7" smax="7" dmin="3" dmax="1" r="45" />
+        <pos x="5043.15" z="8632.79" a="0.000000" />
+        <pos x="6114.51" z="10577.23" a="0.000000" />
+		<pos x="3125.01" z="6606.69" a="0.000000" />
+		<pos x="2529.05" z="6453.07" a="0.000000" />
+		<pos x="4315.95" z="6523.07" a="0.000000" />
+		<pos x="3752.08" z="8681.40" a="0.000000" />
+		<pos x="4127.34" z="8747.51" a="0.000000" />
+    </event>
+	
+(Add to types.xml)	
+	<type name="Land_Wreck_Uaz">
+    <nominal>0</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <usage name="Military" />
+  </type>

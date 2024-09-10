@@ -1,0 +1,143 @@
+// Adds random dayz vanilla heli crashes to Namalsk server - copy and paste the blocks to the correct file - you can add more locations to the cfgeventspawns - this uses the default Namalsk loot tags for spawning loot.  Tested and working with the new dayz 1.14 sounds for heli crashes - cheers Red-Tic
+
+// events.xml
+
+    <event name="StaticHeliCrash">
+        <nominal>3</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2100</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="10" lootmin="6" max="6" min="3" type="Wreck_Mi8_Crashed"/>
+            <child lootmax="10" lootmin="6" max="6" min="3" type="Wreck_UH1Y"/>
+        </children>
+    </event>
+	
+/// types.xml ( prob not needed but they are listed in default dayz maps like this as well )
+
+
+    <type name="Wreck_Mi8_Crashed">
+        <nominal>0</nominal>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="Wreck_UH1Y">
+        <nominal>0</nominal>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	
+/// cfgeventspawns.xml ( you can edit and add your own locations as well here ) 
+
+    <event name="StaticHeliCrash">
+		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
+		<pos x="4083.680000" z="9212.640000" a="-1" /> <!-- BK T12 -->
+		<pos x="4238.470000" z="8111.360000" a="-1" />	<!-- A1 Bunker Entrance -->
+		<pos x="3702.890000" z="8125.730000" a="-1" />	<!-- Near A3 -->
+		<pos x="3271.840000" z="6656.730000" a="-1" />	<!-- BK L02 -->
+		<pos x="4170.460000" z="6588.320000" a="-1" />	<!-- BK L01 -->
+		<pos x="455.60000" z="6256.650000" a="-1" />	<!-- ABOVE A2 -->
+		<pos x="5800.220000" z="6730.940000" a="-1" />	<!-- BK L16 -->
+		<pos x="7243.720000" z="7033.630000" a="-1" />	<!-- TARA UP ON THE HILL HELIPAD -->
+		<pos x="6314.450000" z="9370.250000" a="-1" />	<!-- CENTER OF AIRFIELD  -->
+		<pos x="5747.090000" z="9766.700000" a="-1" />	<!-- SOUTH SIDE OF SEBJAM DAM -->
+		<pos x="4865.800000" z="10901.20000" a="-1" />	<!-- BK M06 -->
+		<pos x="4445.150000" z="10724.80000" a="-1" />	<!-- BK T07 -->
+		<pos x="1251.260000" z="11819.90000" a="-1" />	<!-- OUTPOST -->
+		<pos x="3904.020000" z="10068.50000" a="-1" />	<!-- BK T08 -->
+		<pos x="4969.220000" z="7093.030000" a="-1" />	<!-- North of A2 -->
+		<pos x="3871.230000" z="7546.970000" a="-1" />	<!-- Norinsk -->
+		<pos x="7304.230000" z="18036.10000" a="-1" />	<!-- Hospital -->
+    </event>
+	
+///mapgroupproto.xml ( this follows the Namalsk loot spawn for the mi8 frozen wrecks that are static already on the map )
+
+		<group name="Wreck_UH1Y" lootmax="15">
+				<container name="Outside" lootmax="4">
+						<category name="tools" />
+						<category name="clothes" />
+						<category name="containers" />
+						<category name="bags" />
+						<tag name="military" />
+						<point pos="-5.263671 -1.697941 -1.540254" range="0.641679" height="1.604197" flags="32" />
+						<point pos="-1.020752 -1.697941 1.857117" range="0.916504" height="2.000000" flags="32" />
+						<point pos="-3.418701 -1.697941 2.712554" range="0.991638" height="2.000000" flags="32" />
+						<point pos="-5.699463 -1.697941 3.075257" range="1.089050" height="2.000000" flags="32" />
+						<point pos="-8.340575 -1.697941 2.692229" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-10.091432 -1.697941 0.980437" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-8.632567 -1.697941 -1.467530" range="1.199951" height="2.000000" flags="32" />
+				</container>
+				<container name="Inside" lootmax="4">
+						<category name="weapons" />
+						<tag name="military" />
+						<point pos="-4.629761 -1.278091 1.165435" range="0.134375" height="0.335938" />
+						<point pos="-5.358154 -1.274183 1.239744" range="0.134375" height="0.335938" />
+						<point pos="-3.433105 -1.497941 0.351317" range="0.346466" height="0.866165" />
+						<point pos="-6.118652 -1.497941 1.103635" range="0.352814" height="0.882034" />
+						<point pos="-1.844971 -1.497941 0.199554" range="0.382843" height="0.957107" />
+						<point pos="-2.653320 -1.497941 0.109741" range="0.430481" height="1.311188" />
+						<point pos="-5.702636 -1.497941 0.199890" range="0.562158" height="1.312824" />
+						<point pos="-4.502441 -1.497941 0.152374" range="0.638977" height="1.496754" />
+						<point pos="2.150391 -1.497941 0.690094" range="1.199951" height="0.469932" flags="32" />
+				</container>
+				<container name="Rifles" lootmax="2">
+						<category name="rifles" />
+						<tag name="military" />
+						<point pos="-3.675537 -1.697941 -2.409088" range="1.168583" height="2.000000" flags="32" />
+						<point pos="-0.007446 -1.697941 -0.406769" range="1.199951" height="1.507634" flags="32" />
+				</container>
+		</group>
+		<group name="Wreck_Mi8_Crashed" lootmax="15">
+				<container name="Outside" lootmax="4">
+						<category name="tools" />
+						<category name="clothes" />
+						<category name="containers" />
+						<category name="bags" />
+						<tag name="military" />
+						<point pos="-5.263671 -1.697941 -1.540254" range="0.641679" height="1.604197" flags="32" />
+						<point pos="-1.020752 -1.697941 1.857117" range="0.916504" height="2.000000" flags="32" />
+						<point pos="-3.418701 -1.697941 2.712554" range="0.991638" height="2.000000" flags="32" />
+						<point pos="-5.699463 -1.697941 3.075257" range="1.089050" height="2.000000" flags="32" />
+						<point pos="-8.340575 -1.697941 2.692229" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-10.091432 -1.697941 0.980437" range="1.199951" height="2.000000" flags="32" />
+						<point pos="-8.632567 -1.697941 -1.467530" range="1.199951" height="2.000000" flags="32" />
+				</container>
+				<container name="Inside" lootmax="4">
+						<category name="weapons" />
+						<tag name="military" />
+						<point pos="-4.629761 -1.278091 1.165435" range="0.134375" height="0.335938" />
+						<point pos="-5.358154 -1.274183 1.239744" range="0.134375" height="0.335938" />
+						<point pos="-3.433105 -1.497941 0.351317" range="0.346466" height="0.866165" />
+						<point pos="-6.118652 -1.497941 1.103635" range="0.352814" height="0.882034" />
+						<point pos="-1.844971 -1.497941 0.199554" range="0.382843" height="0.957107" />
+						<point pos="-2.653320 -1.497941 0.109741" range="0.430481" height="1.311188" />
+						<point pos="-5.702636 -1.497941 0.199890" range="0.562158" height="1.312824" />
+						<point pos="-4.502441 -1.497941 0.152374" range="0.638977" height="1.496754" />
+						<point pos="2.150391 -1.497941 0.690094" range="1.199951" height="0.469932" flags="32" />
+				</container>
+				<container name="Rifles" lootmax="2">
+						<category name="rifles" />
+						<tag name="military" />
+						<point pos="-3.675537 -1.697941 -2.409088" range="1.168583" height="2.000000" flags="32" />
+						<point pos="-0.007446 -1.697941 -0.406769" range="1.199951" height="1.507634" flags="32" />
+				</container>
+		</group>

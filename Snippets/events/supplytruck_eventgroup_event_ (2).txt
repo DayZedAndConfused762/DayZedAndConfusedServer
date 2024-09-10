@@ -1,0 +1,242 @@
+PUT IN EVENTS
+
+<!--new supplytrucks-->
+    <event name="Static_Truck_Supplys">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+<!--new supplytrucks end-->
+
+-----------------------------------------------------------------------------------------
+
+PUT IN EVENT SPAWNS
+
+<!--new supply truck-->       
+    <event name="Static_Truck_Supplys">
+        <zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
+		<pos x="9594.103515625" z="10811.1884765625" a="0" y="208.51344299316406" group="SupplyTruck_glininska"/>	
+		<pos x="9594.103515625" z="10811.1884765625" a="0" y="208.51344299316406" group="SupplyTruck_tarnow"/>					
+		<pos x="6459.63134765625" z="4722.36962890625" a="0" y="309.130615234375" group="SupplyTruck_mine_nadbor"/>				
+		<pos x="2063.27734375" z="7752.16552734375" a="0" y="178.5763702392578" group="SupplyTruck_toplin"/>						
+		<pos x="11794.453125" z="10618.86328125" a="0" y="173.07630920410156" group="SupplyTruck_grabin"/>		
+		<pos x="11492.1005859375" z="6998.341796875" a="0" y="243.0428466796875" group="SupplyTruck_sitnik"/>
+    </event>
+<!--end new supply truck-->
+
+
+---------------------------------------------------------------------------------------------
+
+PUT IN EVENTGROUPS
+
+<!--supplytrucks-->
+       
+    <!--<pos x="9594.103515625" z="10811.1884765625" a="0" y="208.51344299316406" group="SupplyTruck_grabin"/-->
+	<group name="SupplyTruck_grabin">	
+	    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+		<child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+		<child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+		<child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+		<child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+		<child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+		<child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+		<child type="Barrel_Red" deloot="0" lootmax="3" lootmin="1" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+		<child type="Barrel_Yellow" deloot="0" lootmax="3" lootmin="1" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+		<child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+		<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+		<child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+		<child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+	</group>		
+	<!--pos x="9594.103515625" z="10811.1884765625" a="0" y="208.51344299316406" group="SupplyTruck_tarnow"/-->				
+	<group name="SupplyTruck_tarnow">	
+	    <child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="1.427734375" z="5.3525390625" a="184.76966857910156" y="-0.628021240234375"/>
+		<child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="148.76840209960938" y="0"/>
+		<child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-0.150390625" z="0.009765625" a="148.76840209960938" y="-0.007415771484375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.7666015625" z="1.720703125" a="256.769287109375" y="-0.577056884765625"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.9716796875" z="6.0830078125" a="328.7692527770996" y="-0.5711669921875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="3.6337890625" z="3.609375" a="58.768131256103516" y="-0.580230712890625"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.3408203125" z="5.912109375" a="328.7695140838623" y="-0.5511474609375"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.0146484375" z="9.9169921875" a="148.7683563232422" y="0.12591552734375"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="5.03125" z="9.0322265625" a="49.76826095581055" y="0.12054443359375"/>
+		<child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="2.0068359375" z="4.25" a="148.76840209960938" y="0.55609130859375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.0732421875" z="4.2255859375" a="310.7693061828613" y="0.504638671875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.6005859375" z="3.228515625" a="256.769287109375" y="0.529693603515625"/>
+		<child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="2.2880859375" z="0.076171875" a="148.76840209960938" y="0.07879638671875"/>
+		<child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="2.029296875" z="0.056640625" a="247.76910400390625" y="0.067352294921875"/>
+		<child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="2.0615234375" z="-0.0673828125" a="328.7692527770996" y="0.064361572265625"/>
+		<child type="Barrel_Red" deloot="0" lootmax="3" lootmin="1" x="0.6142578125" z="5.064453125" a="328.7692527770996" y="0.38653564453125"/>
+		<child type="Barrel_Yellow" deloot="0" lootmax="3" lootmin="1" x="2.0107421875" z="4.82421875" a="49.76826095581055" y="0.47113037109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.4769287109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.6962890625" z="2.5732421875" a="337.76920890808105" y="0.376800537109375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="0.9541015625" z="2.6875" a="328.7692527770996" y="0.443634033203125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="1.2294921875" z="2.6044921875" a="328.7692527770996" y="0.45556640625"/>
+		<child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-0.046875" z="0.2548828125" a="301.76927185058594" y="-0.32586669921875"/>
+		<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="1.9599609375" z="0.416015625" a="328.7692527770996" y="-0.262359619140625"/>
+		<child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="1.6728515625" z="0.5087890625" a="122.26831817626953" y="0.093292236328125"/>
+		<child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="1.9267578125" z="0.9736328125" a="122.26831817626953" y="0.099151611328125"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-0.083984375" z="0.328125" a="0.7688300609588623" y="-0.00787353515625"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="0.0517578125" z="0.486328125" a="328.7692527770996" y="-0.019866943359375"/>
+	</group>	
+	<!--pos x="6459.63134765625" z="4722.36962890625" a="0" y="309.130615234375" group="SupplyTruck_mine_nadbor"/-->			
+	<group name="SupplyTruck_mine_nadbor">
+		<child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="68.4634780883789" y="0"/>
+		<child type="Barrel_Red" deloot="0" lootmax="3" lootmin="1" x="0.61865234375" z="-0.60302734375" a="212.463134765625" y="1.014556884765625"/>
+		<child type="Barrel_Yellow" deloot="0" lootmax="3" lootmin="1" x="0.2138671875" z="0.75439453125" a="293.4624938964844" y="1.099151611328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.548828125" z="1.0380859375" a="212.463134765625" y="1.104949951171875"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.59814453125" z="0.7529296875" a="212.463134765625" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.814453125" z="0.5732421875" a="221.46319580078125" y="1.00482177734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.814453125" z="0.5732421875" a="221.46319580078125" y="1.00482177734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.59814453125" z="0.7529296875" a="212.463134765625" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.548828125" z="1.0380859375" a="212.463134765625" y="1.083587646484375"/>
+		<child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="5.21923828125" z="0.94140625" a="185.46304321289062" y="0.302154541015625"/>
+		<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="4.185546875" z="2.6611328125" a="212.463134765625" y="0.36566162109375"/>
+		<child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="4.236328125" z="2.35986328125" a="5.962366104125977" y="0.7213134765625"/>
+		<child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="3.70458984375" z="2.3857421875" a="152.4625701904297" y="0.7271728515625"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="5.171875" z="0.8740234375" a="244.46292877197266" y="0.620147705078125"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="4.974609375" z="0.92041015625" a="212.463134765625" y="0.608154296875"/>
+		<child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="5.43310546875" z="1.08837890625" a="32.46258544921875" y="0.628021240234375"/>
+		<child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="5.490234375" z="0.94873046875" a="32.46258544921875" y="0.62060546875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="4.2275390625" z="-0.3583984375" a="140.46292114257812" y="0.05096435546875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.7841796875" z="1.958984375" a="212.463134765625" y="0.056854248046875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="0.58740234375" z="2.74609375" a="302.4624481201172" y="0.04779052734375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="0.7294921875" z="-2.72998046875" a="212.46339416503906" y="0.076873779296875"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-3.4521484375" z="-3.30908203125" a="32.46257781982422" y="0.753936767578125"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-4.89794921875" z="1.599609375" a="293.4624938964844" y="0.748565673828125"/>
+		<child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="0.72998046875" z="1.00830078125" a="32.46258544921875" y="1.184112548828125"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.16845703125" z="0.17822265625" a="194.46311950683594" y="1.132659912109375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.828125" z="1.099609375" a="140.46292114257812" y="1.15771484375"/>
+		<child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="4.35107421875" z="3.10888671875" a="140.46292114257812" y="0.706817626953125"/>
+		<child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="4.4794921875" z="2.88330078125" a="131.46273803710938" y="0.69537353515625"/>
+		<child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="4.5771484375" z="2.962890625" a="212.463134765625" y="0.6923828125"/>
+	</group>	
+    <!--<pos x="2063.27734375" z="7752.16552734375" a="0" y="178.5763702392578" group="SupplyTruck_mine_toplin"/-->
+	<group name="SupplyTruck_mine_toplin">
+		<child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="191.1813201904297" y="0"/>
+		<child type="Barrel_Red" deloot="0" lootmax="3" lootmin="1" x="-0.843017578125" z="-0.19482421875" a="335.1809616088867" y="1.014556884765625"/>
+		<child type="Barrel_Yellow" deloot="0" lootmax="3" lootmin="1" x="0.5185546875" z="-0.58642578125" a="56.180538177490234" y="1.099151611328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-0.50390625" z="-2.7041015625" a="335.1809616088867" y="1.104949951171875"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-0.7705078125" z="-2.591796875" a="335.1809616088867" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-1.040283203125" z="-2.6767578125" a="344.18103313446045" y="1.0048370361328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-1.040283203125" z="-2.6767578125" a="344.18103313446045" y="1.0048370361328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-0.7705078125" z="-2.591796875" a="335.1809616088867" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-0.50390625" z="-2.7041015625" a="335.1809616088867" y="1.083587646484375"/>
+		<child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-2.029541015625" z="-4.8994140625" a="308.1806869506836" y="0.302154541015625"/>
+		<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="-0.022216796875" z="-4.958984375" a="335.1809616088867" y="0.36566162109375"/>
+		<child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="-0.303466796875" z="-4.83837890625" a="128.68038940429688" y="0.7213287353515625"/>
+		<child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="0.0048828125" z="-4.40576171875" a="275.1805114746094" y="0.7271575927734375"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-2.05810546875" z="-4.82470703125" a="7.180854797363281" y="0.620147705078125"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-1.9140625" z="-4.6806640625" a="335.1809616088867" y="0.608154296875"/>
+		<child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="-2.020263671875" z="-5.15771484375" a="155.18043518066406" y="0.628021240234375"/>
+		<child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-2.168212890625" z="-5.13037109375" a="155.18043518066406" y="0.6206207275390625"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-2.58544921875" z="-3.36279296875" a="263.1807861328125" y="0.05096435546875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="2.6123046875" z="0.44384765625" a="335.1809616088867" y="0.056854248046875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.995361328125" z="-1.9775390625" a="65.18049621582031" y="0.0478057861328125"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-2.690673828125" z="0.8623046875" a="335.1809616088867" y="0.076873779296875"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-0.91796875" z="4.693359375" a="155.18043518066406" y="0.753936767578125"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="3.991943359375" z="3.25830078125" a="56.180538177490234" y="0.748565673828125"/>
+		<child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="0.453857421875" z="-1.15869140625" a="155.18043518066406" y="1.184112548828125"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.481201171875" z="-1.078125" a="317.1808052062988" y="1.132659912109375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.06201171875" z="-2.13134765625" a="263.1807861328125" y="1.1577301025390625"/>
+		<child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="0.264892578125" z="-5.34033203125" a="263.1807861328125" y="0.706817626953125"/>
+		<child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="0.0048828125" z="-5.32666015625" a="254.18060302734375" y="0.6953582763671875"/>
+		<child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="0.020263671875" z="-5.4501953125" a="335.1809616088867" y="0.6923980712890625"/>
+	</group>	
+	<!--<pos x="11794.453125" z="10618.86328125" a="0" y="173.07630920410156" group="SupplyTruck_grabin"/-->
+	<group name="SupplyTruck_grabin">
+		<child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="73.30972290039062" y="0"/>
+		<child type="Barrel_Red" deloot="0" lootmax="3" lootmin="1" x="0.56640625" z="-0.654296875" a="217.30987548828125" y="1.014556884765625"/>
+		<child type="Barrel_Yellow" deloot="0" lootmax="3" lootmin="1" x="0.275390625" z="0.732421875" a="298.30970764160156" y="1.099151611328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.625" z="0.8173828125" a="217.30987548828125" y="1.104949951171875"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.6513671875" z="0.5283203125" a="217.30987548828125" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.8515625" z="0.3310546875" a="226.30999755859375" y="1.0048370361328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.8515625" z="0.3310546875" a="226.30999755859375" y="1.0048370361328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.6513671875" z="0.5283203125" a="217.30987548828125" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="2.625" z="0.8173828125" a="217.30987548828125" y="1.083587646484375"/>
+		<child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="5.279296875" z="0.49609375" a="190.30946350097656" y="0.302154541015625"/>
+		<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="4.3935546875" z="2.2978515625" a="217.30987548828125" y="0.36566162109375"/>
+		<child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="4.41796875" z="1.9921875" a="10.809675216674805" y="0.7213287353515625"/>
+		<child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="3.8916015625" z="2.0625" a="157.30929565429688" y="0.7271575927734375"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="5.2265625" z="0.4345703125" a="249.30995178222656" y="0.620147705078125"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="5.0322265625" z="0.494140625" a="217.30987548828125" y="0.608154296875"/>
+		<child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="5.501953125" z="0.623046875" a="37.3096809387207" y="0.628021240234375"/>
+		<child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="5.5458984375" z="0.4794921875" a="37.3096809387207" y="0.6206207275390625"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="4.1796875" z="-0.7158203125" a="145.30946350097656" y="0.05096435546875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-1.615234375" z="2.1005859375" a="217.30987548828125" y="0.056854248046875"/>
+	    <child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="0.814453125" z="2.6865234375" a="307.30982208251953" y="0.0478057861328125"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="0.494140625" z="-2.783203125" a="217.30987548828125" y="0.076873779296875"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-3.7216796875" z="-3.0087890625" a="37.30978775024414" y="0.753936767578125"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="-4.7490234375" z="2.00390625" a="298.30970764160156" y="0.748565673828125"/>
+		<child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="0.8095703125" z="0.94140625" a="37.3096809387207" y="1.184112548828125"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.1767578125" z="0.0771484375" a="199.30966186523438" y="1.132659912109375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="1.9150390625" z="0.94140625" a="145.30946350097656" y="1.1577301025390625"/>
+		<child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="4.5947265625" z="2.728515625" a="145.30946350097656" y="0.706817626953125"/>
+		<child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="4.7041015625" z="2.4931640625" a="136.30931091308594" y="0.6953582763671875"/>
+		<child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="4.806640625" z="2.5654296875" a="217.30987548828125" y="0.6923980712890625"/>
+	</group>	
+    <!--pos x="11490.033203125" z="6994.7294921875" a="0" y="244.64146423339844" group="SupplyTruck_sitnik"/-->
+	<group name="SupplyTruck_sitnik">
+		<child type="Land_wreck_truck01_aban1_blue" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="216.00010681152344" y="0"/>
+		<child type="Barrel_Red" deloot="0" lootmax="3" lootmin="1" x="-0.8447265625" z="0.177734375" a="0" y="1.014556884765625"/>
+		<child type="Barrel_Yellow" deloot="0" lootmax="3" lootmin="1" x="0.228515625" z="-0.75146484375" a="80.99995422363281" y="1.099151611328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-1.5927734375" z="-2.24169921875" a="0" y="1.104949951171875"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-1.7890625" z="-2.02685546875" a="0" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-2.0654296875" z="-1.99267578125" a="9" y="1.0048370361328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-2.0654296875" z="-1.99267578125" a="9" y="1.0048370361328125"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-1.7890625" z="-2.02685546875" a="0" y="1.0716552734375"/>
+		<child type="WoodenLog" deloot="0" lootmax="3" lootmin="1" x="-1.5927734375" z="-2.24169921875" a="0" y="1.083587646484375"/>
+		<child type="StaticObj_Furniture_box_c" deloot="0" lootmax="3" lootmin="1" x="-3.900390625" z="-3.591796875" a="333" y="0.302154541015625"/>
+		<child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="3" lootmin="1" x="-2.103515625" z="-4.49365234375" a="0" y="0.36566162109375"/>
+		<child type="FieldShovel" deloot="0" lootmax="3" lootmin="1" x="-2.3076171875" z="-4.26220703125" a="153.5" y="0.7213287353515625"/>
+		<child type="HandSaw" deloot="0" lootmax="3" lootmin="1" x="-1.845703125" z="-4.001953125" a="300.00000762939453" y="0.7271575927734375"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-3.89453125" z="-3.515625" a="32" y="0.620147705078125"/>
+		<child type="NailBox" deloot="0" lootmax="3" lootmin="1" x="-3.7001953125" z="-3.44189453125" a="0" y="0.608154296875"/>
+		<child type="Pliers" deloot="0" lootmax="3" lootmin="1" x="-4.0009765625" z="-3.8310546875" a="180" y="0.628021240234375"/>
+		<child type="Hammer" deloot="0" lootmax="3" lootmin="1" x="-4.1171875" z="-3.74267578125" a="180" y="0.6206207275390625"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-3.7587890625" z="-1.96533203125" a="288.0000534057617" y="0.05096435546875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="2.560546875" z="-0.689453125" a="0" y="0.056854248046875"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="0.978515625" z="-2.62744140625" a="89.99995422363281" y="0.0478057861328125"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-2.0791015625" z="1.9169921875" a="0" y="0.076873779296875"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="1.1357421875" z="4.64697265625" a="180.0001220703125" y="0.753936767578125"/>
+		<child type="StaticObj_Roadblock_Wood_Small" deloot="0" lootmax="3" lootmin="1" x="4.9892578125" z="1.28662109375" a="80.99995422363281" y="0.748565673828125"/>
+		<child type="WoodAxe" deloot="0" lootmax="3" lootmin="1" x="-0.072265625" z="-1.23974609375" a="180" y="1.184112548828125"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.8896484375" z="-0.77685546875" a="342.0000629425049" y="1.132659912109375"/>
+		<child type="WoodenPlank" deloot="0" lootmax="3" lootmin="1" x="-0.9482421875" z="-1.90625" a="288.0000457763672" y="1.1577301025390625"/>
+		<child type="ConstructionHelmet_Orange" deloot="0" lootmax="3" lootmin="1" x="-2.0009765625" z="-4.95166015625" a="288.0000457763672" y="0.706817626953125"/>
+		<child type="Headtorch_Grey" deloot="0" lootmax="3" lootmin="1" x="-2.2333984375" z="-4.83349609375" a="98.99999237060547" y="0.6953582763671875"/>
+		<child type="Battery9V" deloot="0" lootmax="3" lootmin="1" x="-2.26953125" z="-4.9521484375" a="0" y="0.6923980712890625"/>
+	</group>
+		
+	<!--end supplytrucks-->
+	
+	--------------------------------------------------------------------
+	
+	ALL DONE WITH HELP FROM XML INJECTOR ... https://discord.gg/97KUJUkFkz 
+	CREATOR. C00KIE ....https://discord.gg/u5qjHh4cuh

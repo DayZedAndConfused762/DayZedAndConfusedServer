@@ -1,0 +1,10 @@
+Better Console Convoys!!
+
+adds heli crash smoke to convoys (heli crash burried under vehicle)
+
+https://www.youtube.com/watch?v=8HBV6d0ryDs
+
+add this dispatch into the _DE MapGroupProtos of desired EventGroup wreck(s)
+        <dispatch dechance="1.0" >
+        <proxy type="Wreck_Mi8_Crashed" pos="4.778320 -6.381958 2.534180" rpy="-0.000000 0.000000 -0.000000" dechance="1.0" />
+        </dispatch>

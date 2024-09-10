@@ -1,0 +1,548 @@
+
+****** install notes ******
+leave all files as they are to make sure you have no problems when installing!.
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+Custom truck wreck Mod by Dayzdevil#0666
+
+****************************************
+<!-- events.xml New Entry -->
+
+<!-- truck wreck with tools-->
+    <event name="StaticCargoCrash">
+        <nominal>5</nominal>
+        <min>2</min>
+        <max>5</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="20" lootmin="10" max="5" min="2" type="Land_Wreck_V3S"/>
+        </children>
+    </event>
+
+
+<!-- 2nd eventspawn.xml Replace Entry -->
+
+<!-- replace StaticPoliceCar with this -->
+
+    <event name="StaticCargoCrash">
+		<pos x="6488.11377" z="11279.327148" a="331.097137" />
+		<pos x="6359.906" z="10970.853" a="67.064" />
+		<pos x="6338.02002" z="9893.797851" a="26.01256" />
+		<pos x="7848.484" z="12008.722" a="37.231" />
+		<pos x="7996.594726" z="11732.473633" a="199.711639" />
+		<pos x="6505.861328" z="11371.074219" a="298.275269" />
+		<pos x="6688.882813" z="11108.757812" a="75.392365" />
+		<pos x="4149.971192" z="10879.105469" a="3.0" />
+		<pos x="3722.452393" z="11782.958984" a="327.080139" />
+		<pos x="8414.664063" z="11792.691406" a="350.055481" />
+		<pos x="8353.12793" z="12356.853515" a="61.03891" />
+		<pos x="6472.615234" z="11384.462891" a="157.533035" />
+		<pos x="5922.908203" z="10918.842773" a="36.348999" />
+		<pos x="3420.500488" z="12272.62793" a="312.285767" />
+		<pos x="6383.099609" z="10685.764649" a="235.81572" />
+		<pos x="8569.46875" z="11831.824219" a="312.43277" />
+		<pos x="5319.240723" z="10332.233398" a="82.103706" />
+		<pos x="4971.74707" z="9933.133789" a="35.467239" />
+		<pos x="6298.469238" z="10186.726563" a="252.226685" />
+		<pos x="2575.733399" z="10539.349609" a="57.560768" />
+		<pos x="3654.589844" z="11807.682617" a="209.901093" />
+		<pos x="1785.687988" z="9978.848633" a="28.804871" />
+		<pos x="6411.234375" z="11474.079102" a="200.397461" />
+		<pos x="4513.448731" z="10431.603516" a="304.349762" />
+		<pos x="6444.068359" z="10972.613281" a="274.075287" />
+		<pos x="8409.725586" z="11938.353516" a="338.004456" />
+		<pos x="3662.584717" z="11766.540039" a="257.713287" />
+		<pos x="9269.058594" z="10812.646484" a="190.06102" />
+		<pos x="2128.720703" z="7480.880371" a="31.156281" />
+		<pos x="1422.899903" z="8162.966797" a="29.441721" />
+		<pos x="3038.069336" z="7002.733887" a="273.536407" />
+		<pos x="5227.058594" z="9543.676758" a="287.408142" />
+		<pos x="1463.247314" z="7534.189941" a="101.845825" />
+		<pos x="1754.757934" z="7333.782227" a="202.797852" />
+		<pos x="2765.414062" z="6914.140137" a="247.466644" />
+		<pos x="6467.390137" z="9190.259766" a="16.998789" />
+		<pos x="4010.04541" z="7924.544434" a="317.429504" />
+		<pos x="8568.229492" z="9716.191406" a="357.942535" />
+		<pos x="7999.175781" z="11310.397461" a="300.561371" />
+		<pos x="3237.681152" z="6730.034668" a="173.171906" />
+		<pos x="9119.704102" z="11131.629883" a="71.375359" />
+		<pos x="9307.307617" z="10863.737305" a="254.284149" />
+		<pos x="1063.0625" z="7290.509765" a="45.460758" />
+		<pos x="3148.748535" z="6825.958496" a="343.834015" />
+		<pos x="8974.840821" z="10201.0625" a="5.584618" />
+		<pos x="195.14299" z="8711.048828" a="161.904984" />
+		<pos x="2015.516" z="7398.663" a="15.725" />
+		<pos x="3983.811524" z="8505.53418" a="334.134399" />
+		<pos x="6388.703125" z="8440.959961" a="184.3414" />
+		<pos x="1306.161377" z="7736.472168" a="283.578888" />
+		<pos x="7988.39209" z="9839.576172" a="141.966919" />
+		<pos x="2715.453857" z="9575.534179" a="75.83326" />
+		<pos x="2012.489258" z="9533.734375" a="12.393936" />
+		<pos x="1268.126831" z="9430.241211" a="198.046036" />
+		<pos x="524.805603" z="7103.119629" a="167.232635" />
+		<pos x="8570.53125" z="9708.990234" a="4.0" />
+		<pos x="3794.619141" z="8749.554688" a="256.145691" />
+		<pos x="1725.175293" z="7023.241211" a="51.927124" />
+		<pos x="9287.700196" z="10874.574219" a="351.868073" />
+		<pos x="4754.915039" z="7619.975098" a="251.687897" />
+		<pos x="1468.517822" z="2716.733643" a="231.112915" />
+		<pos x="9066.761719" z="5400.399414" a="22.142506" />
+		<pos x="5963.387207" z="4142.478515" a="104.18528" />
+		<pos x="6091.931153" z="4146.655273" a="346.47937" />
+		<pos x="5961.09375" z="8086.413574" a="207.500687" />
+		<pos x="4691.421875" z="6769.232422" a="5.0" />
+		<pos x="4938.001953" z="6112.402832" a="132.36528" />
+		<pos x="1639.07959" z="3734.961426" a="149.658035" />
+		<pos x="5659.581543" z="5001.757812" a="113.84787" />
+		<pos x="5905.273926" z="4089.793945" a="96.898048" />
+		<pos x="7310.828613" z="6355.254883" a="38.65144" />
+		<pos x="7686.911621" z="5291.974609" a="34.683426" />
+		<pos x="8777.496094" z="6521.032227" a="245.207626" />
+		<pos x="8357.493164" z="4650.103516" a="314.343323" />
+		<pos x="5700.771485" z="3985.955811" a="335.946991" />
+		<pos x="4953.29541" z="7884.518555" a="12.100037" />
+		<pos x="6477.730957" z="8311.992188" a="345.646576" />
+		<pos x="4687.389649" z="6763.171875" a="289.408447" />
+		<pos x="5925.122559" z="6755.488281" a="337.66156" />
+		<pos x="8918.236328" z="6789.250977" a="313.020599" />
+		<pos x="8822.625977" z="6628.627442" a="272.55661" />
+		<pos x="784.161987" z="5640.982422" a="192.804337" />
+		<pos x="3153.250489" z="4945.765625" a="6.0" />
+		<pos x="2469.298584" z="5664.143555" a="297.491516" />
+		<pos x="5222.669922" z="5582.415039" a="205.492188" />
+		<pos x="8083.589844" z="8716.62793" a="323.161133" />
+		<pos x="8560.744141" z="8700.913086" a="332.419891" />
+		<pos x="4590.962891" z="6406.567871" a="10.899788" />
+		<pos x="1040.922486" z="5324.810547" a="320.172821" />
+		<pos x="5581.035644" z="5798.912598" a="152.193359" />
+		<pos x="8630.271485" z="8563.942383" a="299.54895" />
+		<pos x="7856.629395" z="3786.571777" a="309.297424" />
+		<pos x="10531.99707" z="11138.40918" a="33.507721" />
+		<pos x="8570.488281" z="4083.281738" a="170.771805" />
+		<pos x="3356.396973" z="2007.212768" a="15.774078" />
+		<pos x="10921.53418" z="11166.229492" a="37.67168" />
+		<pos x="10838.117188" z="10795.390625" a="328.157898" />
+		<pos x="9499.998047" z="10365.177734" a="99.690384" />
+		<pos x="4933.42334" z="3242.112793" a="222.393036" />
+		<pos x="6278.737305" z="3935.118408" a="287.644928" />
+		<pos x="9030.483399" z="4407.575684" a="7.348174" />
+		<pos x="4742.245605" z="2553.421142" a="129.523972" />
+		<pos x="10533.360352" z="11103.882812" a="40.415005" />
+		<pos x="11250.300781" z="9399.286133" a="210.978836" />
+		<pos x="11415.549805" z="9600.212891" a="10.385423" />
+		<pos x="3368.740967" z="2086.906982" a="29.343742" />
+		<pos x="11525.344" z="9430.395" a="43.550" />
+		<pos x="5548.995605" z="3850.894775" a="138.770706" />
+		<pos x="11021.088867" z="9115.153321" a="252.86348" />
+		<pos x="11436.125977" z="9039.438477" a="268.147705" />
+		<pos x="9771.207031" z="8525.051758" a="46.734444" />
+		<pos x="11670.374024" z="8686.259766" a="311.746948" />
+		<pos x="11710.168945" z="7207.355469" a="123.204544" />
+		<pos x="10230.925781" z="8699.237305" a="17.586586" />
+		<pos x="10427.600586" z="6748.856445" a="59.324318" />
+		<pos x="9559.28418" z="10279.202148" a="359.804169" />
+		<pos x="11603.75" z="8051.903808" a="34.830376" />
+		<pos x="11104.933594" z="11409.060547" a="62.949444" />
+		<pos x="9550.220703" z="10367.352539" a="189.032272" />
+		<pos x="10398.172852" z="6315.886719" a="56.727978" />
+		<pos x="10989.797852" z="6956.035156" a="259.329895" />
+		<pos x="11951.21875" z="5308.680664" a="75.555656" />
+		<pos x="3083.869873" z="2533.73291" a="348.977722" />
+		<pos x="11031.327148" z="4410.875977" a="154.948715" />
+		<pos x="11501.482422" z="4558.089355" a="131.826462" />
+		<pos x="11220.121094" z="4349.145508" a="307.876892" />
+		<pos x="12430.242187" z="6165.039551" a="162.684921" />
+		<pos x="10938.907227" z="4152.610352" a="296.854614" />
+		<pos x="11543.336914" z="4619.300781" a="99.102501" />
+		<pos x="11441.847656" z="4558.907715" a="323.063141" />
+		<pos x="10099.126953" z="4246.321777" a="80.634079" />
+		<pos x="1499.037720" z="7418.984375" a="299.352997" />
+		<pos x="1517.403687" z="7371.751953" a="65.102501" />
+		<pos x="1488.847656" z="7391.907715" a="69.063141" />
+		<pos x="1596.126953" z="7321.321777" a="75.634079" />
+	</event>
+
+<!-- limitsdefinition.xml New Entry -->
+
+        <category name="crash"/>
+		
+        <usage name="Loot" /> 
+
+
+<!-- types.xml Replace Entry -->
+
+    <type name="BarbedWire">
+        <nominal>60</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>50</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="CableReel">
+        <nominal>80</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>50</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+    </type>
+    <type name="Camonet">
+        <nominal>40</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="floor"/>
+        <usage name="Loot" /> 
+        <usage name="Military"/>
+    </type>
+    <type name="ChernarusMap">
+        <nominal>40</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="shelves"/>
+        <usage name="Loot" /> 
+        <usage name="Village"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="CombinationLock">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="CombinationLock4">
+        <nominal>35</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Crowbar">
+        <nominal>40</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="DuctTape">
+        <nominal>55</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>35</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Village"/>
+    </type>
+    <type name="Hacksaw">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Hammer">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>35</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>
+    </type>
+    <type name="HandSaw">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Hatchet">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>35</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="floor"/>
+        <usage name="Loot" /> 
+        <usage name="Farm"/>
+        <usage name="Village"/>
+    </type>
+    <type name="MetalPlate">
+        <nominal>80</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>50</min>
+        <quantmin>10</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="floor"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+    </type>
+    <type name="MetalWire">
+        <nominal>40</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="NailBox">
+        <nominal>70</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>50</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="shelves"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Pickaxe">
+        <nominal>30</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="shelves"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="Pliers">
+        <nominal>40</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>25</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>
+    </type>
+    <type name="PowerGenerator">
+        <nominal>80</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>50</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+    </type>
+    <type name="Shovel">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="floor"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+    </type>
+    <type name="SledgeHammer">
+        <nominal>30</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="floor"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+    </type>
+    <type name="Spotlight">
+        <nominal>60</nominal>
+        <lifetime>604800</lifetime>
+        <restock>0</restock>
+        <min>50</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+    </type>
+    <type name="Whetstone">
+        <nominal>40</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <tag name="shelves"/>
+        <usage name="Loot" /> 
+        <usage name="Farm"/>
+    </type>
+    <type name="WoodAxe">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="crash"/>
+        <usage name="Loot" /> 
+        <usage name="Industrial"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>
+    </type>
+
+<!-- mapgroupproto.xml New Entry -->
+
+                 <group name="Land_Wreck_V3S" lootmax="10">
+				<usage name="Loot" />
+				<container name="lootFloor" lootmax="10">
+						<category name="crash" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="2.293945 -1.541862 1.939941" range="0.100000" height="1.145172" />
+						<point pos="3.630615 -1.221848 0.478027" range="0.203125" height="1.058037" />
+						<point pos="3.128174 -1.250969 0.282227" range="0.237500" height="1.899963" />
+						<point pos="2.601563 -1.275345 0.026855" range="0.237500" height="1.900002" />
+						<point pos="2.976563 -1.479630 2.021972" range="0.340625" height="1.139282" />
+						<point pos="4.462646 -1.856918 -0.474609" range="0.595988" height="1.900002" />
+						<point pos="2.273926 -1.856918 3.096679" range="0.718352" height="1.900002" />
+						<point pos="1.722656 -1.856918 -1.948730" range="0.821779" height="1.900002" />
+						<point pos="5.276123 -1.856918 4.080566" range="0.827611" height="1.900002" />
+						<point pos="3.192871 -1.856918 -1.159668" range="0.846799" height="1.900002" />
+						<point pos="-2.588379 -1.856918 -0.039551" range="0.898411" height="1.900002" />
+						<point pos="3.540283 -1.856918 4.118164" range="0.908636" height="1.900002" />
+						<point pos="0.502686 -1.856918 2.775879" range="0.942924" height="1.900002" />
+						<point pos="5.894042 -1.856918 0.567383" range="1.068359" height="1.900002" />
+						<point pos="6.488282 -1.856918 2.621094" range="1.069595" height="1.900002" />
+						<point pos="-0.299072 -1.856918 -1.951172" range="1.199951" height="1.900002" />
+						<point pos="-0.732910 -1.856918 0.940430" range="1.199951" height="1.900002" />
+				</container>
+		</group>
+
+****************************************	
+Org File Created by Dayzdevil#0666. For more modded files contact Dayzdevil#0666 on discord.
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

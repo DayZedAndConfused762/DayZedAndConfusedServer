@@ -1,0 +1,825 @@
+						<!-- LIVONIA_GraveRobbers.XML Created/Edited by "@Brett Grindstaff(facebook) / @Grindy_28(discord)" 
+		Originally "GraveRobbingV1.0.xml" for Chenarus was created by "@Barry Mailey(facebook)" posted in "@DAYZ Free Xml Support Group(facebook)" 
+		I took the Chenarus file and editted it then used DayzOfflineMode to get the mapgrouppos locations thanks to "@DonSibleyGames(YouTube)" for tutorials-->
+<!-- =============== -->
+<!-- =============== -->
+
+
+<!-- cfgLimitsDefinitions.xml -->
+<!-- NEW ENTRY -->
+<!-- Add category and usage (usually add at the bottom under last entry of each)  : -->
+	<category name="BURRIED"/>
+	<usage name="burriedalive"/>
+<!-- =============== -->
+<!-- =============== -->
+
+
+<!-- types.xml  -->				
+<!-- REPLACE -->
+<!-- Replace "UndergroundStash" in Types or Add if Underground Stash has been remnoved fromn your types-->
+<!-- Set Nominal, min,  and restock to preference -->
+	<type name="UndergroundStash">
+        <nominal>80</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>60</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="BURRIED"/>
+		<usage name="burriedalive"/>
+    </type>
+<!-- =============== -->
+<!-- =============== -->
+
+
+<!-- cfgRandomPresets.xml -->
+<!-- NEW ENTRY -->
+<!-- Add these presets in cfgRandomPresets -->
+	<cargo chance="1.00" name="Grave_1">
+        <item name="PetrolLighter" chance="0.1" />
+        <item name="HuntingKnife" chance="0.2" />
+        <item name="FangeKnife" chance="0.1" />
+        <item name="FryingPan" chance="0.15" />
+        <item name="TetracyclineAntibiotics" chance="0.1" />
+        <item name="Pot" chance="0.15" />
+		<item name="NylonKnifeSheath" chance="0.2" />
+    </cargo>
+    <cargo chance="1.00" name="Grave_2">
+        <item name="DuctTape" chance="0.2" />
+        <item name="Battery9V" chance="0.2" />
+        <item name="Deagle" chance="0.1" />
+		<item name="Glock19" chance="0.1" />
+		<item name="Mag_Deagle_9rnd" chance="0.1" />
+		<item name="Mag_Glock_15Rnd" chance="0.1" />
+        <item name="PetrolLighter" chance="0.2" />
+        <item name="NVGHeadstrap" chance="0.1" />
+        <item name="NailBox" chance="0.1" />
+        <item name="FangeKnife" chance="0.2" />
+        <item name="NVGoggles" chance="0.1" />
+        <item name="BandageDressing" chance="0.2" />
+        <item name="NylonKnifeSheath" chance="0.2" />
+        <item name="Ammo_357" chance="0.2" />
+        <item name="Ammo_9x19" chance="0.2" />
+        <item name="Ammo_556x45Tracer" chance="0.2" />
+        <item name="Ammo_762x39Tracer" chance="0.2" />
+        <item name="Ammo_545x39Tracer" chance="0.2" />
+        <item name="Ammo_762x54Tracer" chance="0.2" />
+        <item name="Ammo_308WinTracer" chance="0.2" />
+        <item name="SodaCan_Fronta" chance="0.2" />
+        <item name="SodaCan_Pipsi" chance="0.2" />
+        <item name="Morphine" chance="0.2" />
+        <item name="TacticalBaconCan" chance="0.2" />
+        <item name="Honey" chance="0.1" />
+        <item name="PeachesCan" chance="0.2" />
+        <item name="Epinephrine" chance="0.2" />
+        <item name="BakedBeansCan" chance="0.2" />
+    </cargo>
+    <cargo chance="1.00" name="Grave_3">
+        <item name="SodaCan_Fronta" chance="0.2" />
+        <item name="SodaCan_Pipsi" chance="0.2" />
+        <item name="Morphine" chance="0.2" />
+        <item name="TacticalBaconCan" chance="0.2" />
+        <item name="Honey" chance="0.2" />
+        <item name="PeachesCan" chance="0.2" />
+        <item name="Epinephrine" chance="0.2" />
+        <item name="BakedBeansCan" chance="0.2" />
+        <item name="MilitaryBelt" chance="0.1" />
+        <item name="Canteen" chance="0.1" />
+        <item name="Ammo_45ACP" chance="0.2" />
+        <item name="Ammo_357" chance="0.05" />
+        <item name="Ammo_556x45Tracer" chance="0.2" />
+        <item name="Ammo_308WinTracer" chance="0.05" />
+        <item name="Ammo_762x39Tracer" chance="0.2" />
+        <item name="Ammo_762x54Tracer" chance="0.05" />
+    </cargo>
+    <cargo chance="0.80" name="Grave_4">
+        <item name="RDG2SmokeGrenade_White" chance="0.15" />
+		<item name="FlashGrenade" chance="0.25" />
+		<item name="M67Grenade" chance="0.25" />
+		<item name="RDG5Grenade" chance="0.25" />
+		<item name="HighCapacityVest_Black" chance="0.1" />
+		<item name="Deagle" chance="0.3" />
+		<item name="Mag_Deagle_9rnd" chance="0.3" />
+		<item name="Mag_Deagle_9rnd" chance="0.3" />
+		<item name="Ammo_357" chance="0.3" />
+    </cargo>
+    <cargo chance="0.25" name="Grave_5">
+        <item name="FAL" chance="0.20" />
+        <item name="SVD" chance="0.20" />
+        <item name="M4A1" chance="0.20" />
+        <item name="AKM_TESTBED" chance="0.20" />
+        <item name="ASVAL" chance="0.20" />
+    </cargo>
+    <cargo chance="0.35" name="Grave_6">
+        <item name="GhillieHood_Mossy" chance="0.25" />
+		<item name="GhillieAtt_Mossy" chance="0.25" />
+		<item name="GhillieAtt_Tan" chance="0.25" />
+		<item name="GhillieSuit_Mossy" chance="0.25" />
+		<item name="ImprovisedSuppressor" chance="1.00" />
+		<item name="AK_Suppressor" chance="0.3" />
+		<item name="PistolSuppressor" chance="0.3" />
+		<item name="M4_Suppressor" chance="0.3" />
+    </cargo>
+	<cargo chance="1.00" name="Grave_7">
+        <item name="HumanSteakMeat" chance="1.00" />
+    </cargo>
+	<cargo chance="1.00" name="Grave_8">
+        <item name="Guts" chance="1.00" />
+    </cargo>
+	<cargo chance="1.00" name="Grave_9">
+        <item name="Bone" chance="1.00" />
+    </cargo>
+<!-- =============== -->
+<!-- =============== -->
+
+
+<!-- cfgSpawnableTypes.xml -->
+<!-- NEW ENTRY -->
+<!-- Add this entry to cfgSpawnableTypes (preferably at the top) -->
+	<type name="UndergroundStash">
+        <cargo preset="Grave_1" />
+        <cargo preset="Grave_2" />
+        <cargo preset="Grave_3" />
+        <cargo preset="Grave_4" />
+        <cargo preset="Grave_5" />
+        <cargo preset="Grave_6" />
+        <cargo preset="Grave_7" />
+        <cargo preset="Grave_8" />
+        <cargo preset="Grave_9" />
+    </type>
+<!-- =============== -->
+<!-- =============== -->
+
+<!-- mapGroupProto.xml -->
+<!-- NEW ENTRY -->
+<!-- Add these groups near the top of mapGroupProto (or place right above ***<group name="Land_Roadblock_Table"***) -->
+		<group name="Static_Grave1" lootmax="2">
+				<container name="lootFloor" lootmax="2">
+				</container>
+				<dispatch>
+						<proxy type="UndergroundStash" pos="0.058594 0.437241 0.035156" rpy="0.0 0.0 0.0" />
+				</dispatch>
+		</group>
+		<group name="Static_Grave2" lootmax="2">
+				<container name="lootFloor" lootmax="2">
+				</container>
+				<dispatch>
+						<proxy type="UndergroundStash" pos="0.061524 0.452530 -0.086914" rpy="0.0 0.0 150.0" />
+				</dispatch>
+		</group>
+		<group name="Static_Grave3" lootmax="2">
+				<container name="lootFloor" lootmax="2">
+				</container>
+				<dispatch>
+						<proxy type="UndergroundStash" pos="0.074219 0.499878 0.073243" rpy="0.0 0.0 0.0" />
+				</dispatch>
+		</group>
+		<group name="Static_Grave4" lootmax="2">
+				<container name="lootFloor" lootmax="2">
+				</container>
+				<dispatch>
+						<proxy type="UndergroundStash" pos="0.080078 0.465714 0.003907" rpy="0.0 0.0 0.0" />
+				</dispatch>
+		</group>
+<!-- =============== -->
+<!-- =============== -->
+		
+<!-- mapGroupPos.xml -->                      <!-- Livonia(enoch) Only! -->
+<!-- NEW ENTRY -->
+<!-- Add these to the top of mapGroupPos  -->
+<!-- you may want to not use all of them if your getting lag or first try lowering the nominal on the types file "UndergroundStash"-->
+<!-- =============== -->
+<group name="Static_Grave3" pos="1417.031250 275.586273 9775.304688" rpy="0.0 0.0 -54.219772" a="144.219772"/>
+<group name="Static_Grave3" pos="1419.687500 275.342194 9778.878906" rpy="0.0 0.0 -54.5755" a="144.575500"/>
+<group name="Static_Grave3" pos="1421.312500 275.349182 9771.387695" rpy="0.0 0.0 125.931557" a="-35.931557"/>
+<group name="Static_Grave3" pos="1417.812500 275.561218 9776.347656" rpy="0.0 0.0 -54.795807" a="144.795807"/>
+<group name="Static_Grave3" pos="1409.734375 276.043884 9765.139648" rpy="0.0 0.0 -52.760986" a="142.760986"/>
+<group name="Static_Grave3" pos="1410.171875 275.841125 9762.211914" rpy="0.0 0.0 -144.308159" a="-125.691841"/>
+<group name="Static_Grave3" pos="1413.515625 275.736572 9770.059570" rpy="0.0 0.0 -53.19957" a="143.199570"/>
+<group name="Static_Grave2" pos="1412.046875 275.605560 9760.363281" rpy="0.0 0.0 -142.698288" a="-127.301712"/>
+<group name="Static_Grave2" pos="1414.937500 275.477386 9758.209961" rpy="0.0 0.0 -142.074554" a="-127.925446"/>
+<group name="Static_Grave2" pos="1416.984375 275.409424 9756.641602" rpy="0.0 0.0 -142.222481" a="-127.777519"/>
+<group name="Static_Grave2" pos="1420.875000 275.281036 9780.436523" rpy="0.0 0.0 -52.896194" a="142.896194"/>
+<group name="Static_Grave1" pos="1423.718750 275.193665 9774.683594" rpy="0.0 0.0 -54.454376" a="144.454376"/>
+<group name="Static_Grave1" pos="1411.500000 275.800110 9767.808594" rpy="0.0 0.0 128.728081" a="-38.728081"/>
+<group name="Static_Grave1" pos="1418.984375 275.311066 9777.927734" rpy="0.0 0.0 -53.338303" a="143.338303"/>
+<group name="Static_Grave1" pos="1422.265625 275.277863 9772.625977" rpy="0.0 0.0 -53.817184" a="143.817184"/>
+<group name="Static_Grave1" pos="1423.000000 275.234711 9773.689453" rpy="0.0 0.0 -53.735489" a="143.735489"/>
+<group name="Static_Grave4" pos="1413.968750 275.586121 9758.968750" rpy="0.0 0.0 36.767334" a="53.232666"/>
+<group name="Static_Grave4" pos="1415.343750 275.802826 9772.403320" rpy="0.0 0.0 -55.586441" a="145.586441"/>
+<group name="Static_Grave4" pos="1727.197510 219.179779 7163.908691" rpy="0.0 0.0 87.353161" a="2.646839"/>
+<group name="Static_Grave3" pos="1727.598877 219.237976 7184.009766" rpy="0.0 0.0 -87.923157" a="177.923157"/>
+<group name="Static_Grave3" pos="1734.226318 219.466400 7170.109863" rpy="0.0 0.0 178.664986" a="-88.664986"/>
+<group name="Static_Grave3" pos="1747.146484 219.835754 7170.331055" rpy="0.0 0.0 178.664986" a="-88.664986"/>
+<group name="Static_Grave3" pos="1738.212158 219.623032 7170.012207" rpy="0.0 0.0 178.664986" a="-88.664986"/>
+<group name="Static_Grave3" pos="1738.635376 219.788315 7166.632813" rpy="0.0 0.0 -0.349418999999997" a="90.349419"/>
+<group name="Static_Grave3" pos="1734.051270 219.989548 7158.458008" rpy="0.0 0.0 177.756401" a="-87.756401"/>
+<group name="Static_Grave4" pos="1742.731812 219.805038 7169.890625" rpy="0.0 0.0 1.86204499999999" a="88.137955"/>
+<group name="Static_Grave2" pos="1727.177368 219.159576 7171.130371" rpy="0.0 0.0 -89.45079" a="179.450790"/>
+<group name="Static_Grave2" pos="1730.472046 219.860474 7158.313477" rpy="0.0 0.0 178.219849" a="-88.219849"/>
+<group name="Static_Grave2" pos="1731.533569 219.912186 7158.333008" rpy="0.0 0.0 178.219849" a="-88.219849"/>
+<group name="Static_Grave2" pos="1727.218140 219.160004 7172.265625" rpy="0.0 0.0 -89.45079" a="179.450790"/>
+<group name="Static_Grave2" pos="1747.224976 220.037201 7166.824219" rpy="0.0 0.0 -2.350578" a="92.350578"/>
+<group name="Static_Grave2" pos="1727.721924 219.232834 7187.588867" rpy="0.0 0.0 -87.459824" a="177.459824"/>
+<group name="Static_Grave2" pos="1734.304810 219.600937 7166.603516" rpy="0.0 0.0 -2.350578" a="92.350578"/>
+<group name="Static_Grave2" pos="1727.662476 219.229218 7186.529297" rpy="0.0 0.0 -87.459824" a="177.459824"/>
+<group name="Static_Grave1" pos="1742.808594 219.936020 7166.910156" rpy="0.0 0.0 -0.349418999999997" a="90.349419"/>
+<group name="Static_Grave1" pos="1736.602051 219.768433 7166.721191" rpy="0.0 0.0 -0.349418999999997" a="90.349419"/>
+<group name="Static_Grave1" pos="1728.791504 219.842621 7158.141113" rpy="0.0 0.0 -1.980873" a="91.980873"/>
+<group name="Static_Grave1" pos="1727.489868 219.234573 7178.693359" rpy="0.0 0.0 93.346706" a="-3.346706"/>
+<group name="Static_Grave1" pos="1745.101929 219.995224 7166.842773" rpy="0.0 0.0 -0.349418999999997" a="90.349419"/>
+<group name="Static_Grave1" pos="1727.464966 219.089539 7175.564941" rpy="0.0 0.0 -89.991119" a="179.991119"/>
+<group name="Static_Grave1" pos="1736.531738 219.625061 7170.118164" rpy="0.0 0.0 178.664986" a="-88.664986"/>
+<group name="Static_Grave1" pos="1745.297485 220.465836 7159.346191" rpy="0.0 0.0 -3.416168" a="93.416168"/>
+<group name="Static_Grave1" pos="1727.676636 219.279663 7189.277344" rpy="0.0 0.0 92.339438" a="-2.339438"/>
+<group name="Static_Grave1" pos="1739.361938 220.256897 7158.752441" rpy="0.0 0.0 -0.973557" a="90.973557"/>
+<group name="Static_Grave1" pos="1732.106079 219.382172 7170.083008" rpy="0.0 0.0 178.664986" a="-88.664986"/>
+<group name="Static_Grave1" pos="1732.181763 219.523972 7166.622070" rpy="0.0 0.0 -0.349418999999997" a="90.349419"/>
+<group name="Static_Grave1" pos="1745.026245 219.796829 7170.303711" rpy="0.0 0.0 178.664986" a="-88.664986"/>
+<group name="Static_Grave4" pos="1741.266846 220.360916 7158.934570" rpy="0.0 0.0 -179.864372" a="-90.135628"/>
+<group name="Static_Grave4" pos="1740.299683 219.745773 7169.906738" rpy="0.0 0.0 -175.041992" a="-94.958008"/>
+<group name="Static_Grave4" pos="1743.607788 220.434341 7159.006836" rpy="0.0 0.0 1.456024" a="88.543976"/>
+<group name="Static_Grave4" pos="1740.437012 219.890991 7166.693848" rpy="0.0 0.0 5.33730300000001" a="84.662697"/>
+<group name="Static_Grave4" pos="1727.550537 219.256134 7181.913086" rpy="0.0 0.0 -85.126526" a="175.126526"/>
+<group name="Static_Grave4" pos="1737.791870 220.169571 7158.652344" rpy="0.0 0.0 3.12462600000001" a="86.875374"/>
+<group name="Static_Grave4" pos="1727.691528 219.247589 7180.216797" rpy="0.0 0.0 97.445072" a="-7.445072"/>
+<group name="Static_Grave4" pos="1736.075562 220.102020 7158.604492" rpy="0.0 0.0 -179.446785" a="-90.553215"/>
+<group name="Static_Grave4" pos="1727.502686 219.204437 7177.072266" rpy="0.0 0.0 -85.542938" a="175.542938"/>
+<group name="Static_Grave3" pos="1763.302246 220.847015 7160.737793" rpy="0.0 0.0 176.034592" a="-86.034592"/>
+<group name="Static_Grave3" pos="1768.237183 219.483353 7183.402344" rpy="0.0 0.0 8.678062" a="81.321938"/>
+<group name="Static_Grave3" pos="1761.641357 220.087662 7171.451172" rpy="0.0 0.0 176.802826" a="-86.802826"/>
+<group name="Static_Grave3" pos="1781.434448 221.125900 7162.233887" rpy="0.0 0.0 175.663689" a="-85.663689"/>
+<group name="Static_Grave3" pos="1779.962158 220.628372 7168.963379" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave3" pos="1766.161499 220.396378 7168.121582" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave3" pos="1767.660645 220.320755 7171.794922" rpy="0.0 0.0 176.802826" a="-86.802826"/>
+<group name="Static_Grave2" pos="1774.147583 219.418900 7182.789551" rpy="0.0 0.0 7.519226" a="82.480774"/>
+<group name="Static_Grave2" pos="1761.834473 220.273438 7167.948730" rpy="0.0 0.0 -4.21262400000001" a="94.212624"/>
+<group name="Static_Grave2" pos="1763.701294 219.406570 7184.119141" rpy="0.0 0.0 7.34689299999999" a="82.653107"/>
+<group name="Static_Grave2" pos="1775.465088 220.510681 7168.788574" rpy="0.0 0.0 -4.21262400000001" a="94.212624"/>
+<group name="Static_Grave2" pos="1777.863403 221.069824 7161.957031" rpy="0.0 0.0 176.127022" a="-86.127022"/>
+<group name="Static_Grave2" pos="1759.727905 220.758240 7160.474121" rpy="0.0 0.0 176.497849" a="-86.497849"/>
+<group name="Static_Grave2" pos="1760.794922 220.777954 7160.545410" rpy="0.0 0.0 176.497849" a="-86.497849"/>
+<group name="Static_Grave2" pos="1778.923462 221.079468 7162.016602" rpy="0.0 0.0 176.127022" a="-86.127022"/>
+<group name="Static_Grave1" pos="1777.916626 220.651398 7168.965332" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave1" pos="1792.704956 221.447525 7163.163574" rpy="0.0 0.0 -5.509079" a="95.509079"/>
+<group name="Static_Grave1" pos="1765.977905 220.271317 7171.848633" rpy="0.0 0.0 176.802826" a="-86.802826"/>
+<group name="Static_Grave1" pos="1759.524048 220.063980 7171.353027" rpy="0.0 0.0 176.802826" a="-86.802826"/>
+<group name="Static_Grave1" pos="1786.731689 221.272049 7162.720703" rpy="0.0 0.0 -3.066467" a="93.066467"/>
+<group name="Static_Grave1" pos="1759.711914 220.245697 7167.897949" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave1" pos="1772.406250 219.445343 7183.002441" rpy="0.0 0.0 8.678062" a="81.321938"/>
+<group name="Static_Grave1" pos="1776.594849 219.397018 7182.470703" rpy="0.0 0.0 9.520111" a="80.479889"/>
+<group name="Static_Grave1" pos="1768.559937 220.988556 7161.108398" rpy="0.0 0.0 -4.282433" a="94.282433"/>
+<group name="Static_Grave1" pos="1784.136108 220.778397 7169.354492" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave1" pos="1773.511963 220.526276 7168.736328" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave1" pos="1766.227539 219.493362 7183.775879" rpy="0.0 0.0 8.678062" a="81.321938"/>
+<group name="Static_Grave1" pos="1776.190552 221.105225 7161.722656" rpy="0.0 0.0 -4.073669" a="94.073669"/>
+<group name="Static_Grave1" pos="1761.861450 219.409653 7184.393555" rpy="0.0 0.0 8.678062" a="81.321938"/>
+<group name="Static_Grave1" pos="1770.324951 220.504578 7168.528320" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave1" pos="1764.126099 220.392761 7168.140137" rpy="0.0 0.0 -2.21167800000001" a="92.211678"/>
+<group name="Static_Grave4" pos="1781.529907 220.692841 7169.066895" rpy="0.0 0.0 3.475311" a="86.524689"/>
+<group name="Static_Grave4" pos="1788.341675 221.324371 7162.912598" rpy="0.0 0.0 178.043846" a="-88.043846"/>
+<group name="Static_Grave4" pos="1766.860840 220.961746 7161.012695" rpy="0.0 0.0 -4.499931" a="94.499931"/>
+<group name="Static_Grave4" pos="1785.192261 221.229324 7162.750488" rpy="0.0 0.0 1.03192900000001" a="88.968071"/>
+<group name="Static_Grave4" pos="1769.795288 219.506607 7183.210938" rpy="0.0 0.0 14.36515" a="75.634850"/>
+<group name="Static_Grave4" pos="1767.961060 220.489487 7168.234375" rpy="0.0 0.0 3.475311" a="86.524689"/>
+<group name="Static_Grave4" pos="1765.394165 220.942444 7160.914551" rpy="0.0 0.0 178.831322" a="-88.831322"/>
+<group name="Static_Grave4" pos="1771.995605 220.554245 7168.615723" rpy="0.0 0.0 -175.501793" a="-94.498207"/>
+<group name="Static_Grave4" pos="1770.279175 220.464905 7172.066406" rpy="0.0 0.0 -176.904015" a="-93.095985"/>
+<group name="Static_Grave4" pos="1770.181763 221.035049 7161.309082" rpy="0.0 0.0 175.989937" a="-85.989937"/>
+<group name="Static_Grave4" pos="1790.985962 221.411331 7162.990234" rpy="0.0 0.0 -0.636718999999999" a="90.636719"/>
+<group name="Static_Grave4" pos="1783.523193 221.224716 7162.420410" rpy="0.0 0.0 178.460335" a="-88.460335"/>
+<group name="Static_Grave4" pos="1771.972534 221.060028 7161.334961" rpy="0.0 0.0 -2.690781" a="92.690781"/>
+<group name="Static_Grave3" pos="3172.109375 233.739136 6833.935547" rpy="0.0 0.0 129.029835" a="-39.029835"/>
+<group name="Static_Grave2" pos="3173.171875 233.712479 6835.182617" rpy="0.0 0.0 128.489983" a="-38.489983"/>
+<group name="Static_Grave2" pos="3179.375000 233.696335 6846.225098" rpy="0.0 0.0 112.805914" a="-22.805914"/>
+<group name="Static_Grave2" pos="3171.140625 233.712479 6832.627930" rpy="0.0 0.0 127.974667" a="-37.974667"/>
+<group name="Static_Grave2" pos="3178.328125 233.712479 6843.886230" rpy="0.0 0.0 113.73028" a="-23.730280"/>
+<group name="Static_Grave1" pos="3178.968750 233.695480 6845.055664" rpy="0.0 0.0 -65.999039" a="155.999039"/>
+<group name="Static_Grave1" pos="3180.484375 233.589539 6848.407227" rpy="0.0 0.0 -66.042892" a="156.042892"/>
+<group name="Static_Grave3" pos="3155.937500 233.780670 6855.254883" rpy="0.0 0.0 -62.839828" a="152.839828"/>
+<group name="Static_Grave3" pos="3169.109375 233.966476 6864.089355" rpy="0.0 0.0 29.992802" a="60.007198"/>
+<group name="Static_Grave3" pos="3160.265625 233.933304 6862.022461" rpy="0.0 0.0 -46.947083" a="136.947083"/>
+<group name="Static_Grave3" pos="3181.078125 233.544708 6851.675293" rpy="0.0 0.0 92.942154" a="-2.942154"/>
+<group name="Static_Grave3" pos="3181.000000 233.572098 6850.393066" rpy="0.0 0.0 92.937387" a="-2.937387"/>
+<group name="Static_Grave2" pos="3171.468750 233.831253 6862.840332" rpy="0.0 0.0 29.736813" a="60.263187"/>
+<group name="Static_Grave2" pos="3170.312500 233.886398 6863.495117" rpy="0.0 0.0 29.795029" a="60.204971"/>
+<group name="Static_Grave2" pos="3161.125000 233.933762 6862.968750" rpy="0.0 0.0 -48.220612" a="138.220612"/>
+<group name="Static_Grave2" pos="3157.671875 233.820938 6858.686035" rpy="0.0 0.0 -61.520706" a="151.520706"/>
+<group name="Static_Grave1" pos="3166.531250 234.000336 6865.485352" rpy="0.0 0.0 28.403152" a="61.596848"/>
+<group name="Static_Grave1" pos="3155.218750 233.727341 6854.188477" rpy="0.0 0.0 116.956034" a="-26.956034"/>
+<group name="Static_Grave1" pos="3163.015625 233.986191 6864.600098" rpy="0.0 0.0 -47.419449" a="137.419449"/>
+<group name="Static_Grave1" pos="3178.875000 233.518814 6859.217285" rpy="0.0 0.0 33.517185" a="56.482815"/>
+<group name="Static_Grave1" pos="3156.968750 233.776276 6857.533691" rpy="0.0 0.0 -61.004471" a="151.004471"/>
+<group name="Static_Grave1" pos="3159.234375 233.862091 6861.009766" rpy="0.0 0.0 -48.042694" a="138.042694"/>
+<group name="Static_Grave1" pos="4782.171875 320.250458 6546.511230" rpy="0.0 0.0 -27.094666" a="117.094666"/>
+<group name="Static_Grave3" pos="4792.125000 320.498505 6550.629883" rpy="0.0 0.0 84.356668" a="5.643332"/>
+<group name="Static_Grave2" pos="4780.265625 320.585938 6552.589355" rpy="0.0 0.0 74.046854" a="15.953146"/>
+<group name="Static_Grave3" pos="4793.343750 305.130707 7527.149414" rpy="0.0 0.0 3.266563" a="86.733437"/>
+<group name="Static_Grave3" pos="4789.796875 305.239136 7527.560059" rpy="0.0 0.0 1.48595400000001" a="88.514046"/>
+<group name="Static_Grave2" pos="4790.953125 305.212494 7527.434570" rpy="0.0 0.0 3.300957" a="86.699043"/>
+<group name="Static_Grave1" pos="4786.828125 305.195496 7527.664551" rpy="0.0 0.0 4.13005800000001" a="85.869942"/>
+<group name="Static_Grave3" pos="4808.109375 305.127380 7509.155762" rpy="0.0 0.0 55.002377" a="34.997623"/>
+<group name="Static_Grave3" pos="5147.379883 196.489944 9950.074219" rpy="0.0 0.0 0" a="90.000000"/>
+<group name="Static_Grave3" pos="5175.836914 196.362961 9947.753906" rpy="0.0 0.0 91.396155" a="-1.396155"/>
+<group name="Static_Grave2" pos="5162.557617 196.370804 9945.634766" rpy="0.0 0.0 179.925972" a="-89.925972"/>
+<group name="Static_Grave2" pos="5175.583008 196.342697 9942.917969" rpy="0.0 0.0 92.133029" a="-2.133029"/>
+<group name="Static_Grave2" pos="5163.656738 196.369080 9945.633789" rpy="0.0 0.0 179.925972" a="-89.925972"/>
+<group name="Static_Grave2" pos="5150.719727 196.422699 9942.027344" rpy="0.0 0.0 0" a="90.000000"/>
+<group name="Static_Grave2" pos="5150.728027 196.422760 9945.201172" rpy="0.0 0.0 179.925972" a="-89.925972"/>
+<group name="Static_Grave2" pos="5155.168457 196.422760 9937.624023" rpy="0.0 0.0 -178.963921" a="-91.036079"/>
+<group name="Static_Grave1" pos="5159.314941 196.367981 9941.888672" rpy="0.0 0.0 0" a="90.000000"/>
+<group name="Static_Grave4" pos="5151.098145 196.443802 9937.978516" rpy="0.0 0.0 -178.335869" a="-91.664131"/>
+<group name="Static_Grave4" pos="5157.448730 196.535568 9937.744141" rpy="0.0 0.0 -176.467522" a="-93.532478"/>
+<group name="Static_Grave4" pos="5165.859863 196.360641 9937.127930" rpy="0.0 0.0 2.32667499999999" a="87.673325"/>
+<group name="Static_Grave3" pos="5166.499512 196.388000 9950.307617" rpy="0.0 0.0 0" a="90.000000"/>
+<group name="Static_Grave3" pos="5153.972168 196.449310 9950.112305" rpy="0.0 0.0 0" a="90.000000"/>
+<group name="Static_Grave1" pos="5173.610840 196.314850 9950.194336" rpy="0.0 0.0 0" a="90.000000"/>
+<group name="Static_Grave3" pos="5342.728027 369.126953 5594.504395" rpy="0.0 0.0 -34.184624" a="124.184624"/>
+<group name="Static_Grave1" pos="5339.055176 369.079102 5596.574219" rpy="0.0 0.0 -33.513023" a="123.513023"/>
+<group name="Static_Grave4" pos="5342.880859 369.160583 5599.555664" rpy="0.0 0.0 152.181293" a="-62.181293"/>
+<group name="Static_Grave4" pos="5346.727051 369.167999 5597.243652" rpy="0.0 0.0 152.181293" a="-62.181293"/>
+<group name="Static_Grave4" pos="5340.180176 369.198303 5592.882813" rpy="0.0 0.0 148.873489" a="-58.873489"/>
+<group name="Static_Grave3" pos="5349.974121 369.099121 5613.288574" rpy="0.0 0.0 146.789917" a="-56.789917"/>
+<group name="Static_Grave3" pos="5343.163574 369.099091 5626.692383" rpy="0.0 0.0 -34.001137" a="124.001137"/>
+<group name="Static_Grave3" pos="5345.223145 369.099091 5621.302246" rpy="0.0 0.0 147.277374" a="-57.277374"/>
+<group name="Static_Grave2" pos="5335.858887 369.079071 5603.769043" rpy="0.0 0.0 145.353504" a="-55.353504"/>
+<group name="Static_Grave2" pos="5336.627930 369.073914 5625.902832" rpy="0.0 0.0 146.491478" a="-56.491478"/>
+<group name="Static_Grave2" pos="5345.081543 369.072449 5618.001465" rpy="0.0 0.0 -33.753555" a="123.753555"/>
+<group name="Static_Grave1" pos="5342.996094 369.055481 5619.830078" rpy="0.0 0.0 146.709274" a="-56.709274"/>
+<group name="Static_Grave1" pos="5348.148926 369.055450 5608.209961" rpy="0.0 0.0 -33.450897" a="123.450897"/>
+<group name="Static_Grave1" pos="5341.580078 369.055481 5629.092773" rpy="0.0 0.0 146.709274" a="-56.709274"/>
+<group name="Static_Grave1" pos="5338.968262 369.061707 5602.449219" rpy="0.0 0.0 146.709274" a="-56.709274"/>
+<group name="Static_Grave4" pos="5342.289551 369.151611 5604.442871" rpy="0.0 0.0 -28.917809" a="118.917809"/>
+<group name="Static_Grave4" pos="5338.339844 369.148865 5626.663574" rpy="0.0 0.0 -30.598717" a="120.598717"/>
+<group name="Static_Grave4" pos="5341.354492 369.148865 5625.637207" rpy="0.0 0.0 -29.008728" a="119.008728"/>
+<group name="Static_Grave4" pos="5337.578125 369.148865 5623.532227" rpy="0.0 0.0 -29.417206" a="119.417206"/>
+<group name="Static_Grave4" pos="5341.336914 369.148865 5618.790527" rpy="0.0 0.0 -29.697708" a="119.697708"/>
+<group name="Static_Grave4" pos="5347.508301 369.148865 5619.288574" rpy="0.0 0.0 -28.996277" a="118.996277"/>
+<group name="Static_Grave3" pos="5357.346680 369.110809 5609.376465" rpy="0.0 0.0 146.648106" a="-56.648106"/>
+<group name="Static_Grave2" pos="5350.173340 369.075531 5604.356445" rpy="0.0 0.0 147.24844" a="-57.248440"/>
+<group name="Static_Grave2" pos="5355.088379 369.080658 5604.546875" rpy="0.0 0.0 -32.94207" a="122.942070"/>
+<group name="Static_Grave2" pos="5353.478027 369.078064 5612.116211" rpy="0.0 0.0 -33.591736" a="123.591736"/>
+<group name="Static_Grave1" pos="5358.051758 369.068329 5606.608398" rpy="0.0 0.0 -32.353188" a="122.353188"/>
+<group name="Static_Grave4" pos="5352.713867 369.153107 5614.774414" rpy="0.0 0.0 -30.535004" a="120.535004"/>
+<group name="Static_Grave4" pos="5355.258789 369.157196 5607.809082" rpy="0.0 0.0 -31.176796" a="121.176796"/>
+<group name="Static_Grave4" pos="5350.411133 369.149414 5609.886719" rpy="0.0 0.0 -30.535004" a="120.535004"/>
+<group name="Static_Grave3" pos="5787.813965 383.745819 4690.899414" rpy="0.0 0.0 -39.182327" a="129.182327"/>
+<group name="Static_Grave3" pos="5786.298828 384.102814 4681.747559" rpy="0.0 0.0 138.647007" a="-48.647007"/>
+<group name="Static_Grave3" pos="5786.116211 383.881439 4689.488770" rpy="0.0 0.0 -41.312271" a="131.312271"/>
+<group name="Static_Grave3" pos="5785.151855 384.337250 4676.575195" rpy="0.0 0.0 -45.155075" a="135.155075"/>
+<group name="Static_Grave3" pos="5787.938965 383.983246 4683.226563" rpy="0.0 0.0 136.51717" a="-46.517170"/>
+<group name="Static_Grave3" pos="5793.198730 384.162354 4667.115723" rpy="0.0 0.0 -45.155075" a="135.155075"/>
+<group name="Static_Grave3" pos="5776.197266 385.145264 4671.211426" rpy="0.0 0.0 138.647007" a="-48.647007"/>
+<group name="Static_Grave3" pos="5782.669434 385.031158 4663.572266" rpy="0.0 0.0 138.647007" a="-48.647007"/>
+<group name="Static_Grave3" pos="5795.985840 383.822876 4673.767090" rpy="0.0 0.0 136.51717" a="-46.517170"/>
+<group name="Static_Grave3" pos="5781.521973 385.309448 4658.399902" rpy="0.0 0.0 -45.155075" a="135.155075"/>
+<group name="Static_Grave3" pos="5775.050293 385.443726 4666.039063" rpy="0.0 0.0 -45.155075" a="135.155075"/>
+<group name="Static_Grave3" pos="5784.309570 384.855682 4665.051270" rpy="0.0 0.0 136.51717" a="-46.517170"/>
+<group name="Static_Grave3" pos="5795.886230 383.190186 4690.521973" rpy="0.0 0.0 136.51717" a="-46.517170"/>
+<group name="Static_Grave3" pos="5794.246094 383.395142 4689.042480" rpy="0.0 0.0 138.647007" a="-48.647007"/>
+<group name="Static_Grave3" pos="5793.098633 383.690826 4683.870605" rpy="0.0 0.0 -45.155075" a="135.155075"/>
+<group name="Static_Grave3" pos="5777.837402 384.966797 4672.690430" rpy="0.0 0.0 136.51717" a="-46.517170"/>
+<group name="Static_Grave3" pos="5794.345703 383.944550 4672.288086" rpy="0.0 0.0 138.647007" a="-48.647007"/>
+<group name="Static_Grave2" pos="5780.932617 385.182251 4662.058105" rpy="0.0 0.0 138.032982" a="-48.032982"/>
+<group name="Static_Grave2" pos="5784.562012 384.224548 4680.233398" rpy="0.0 0.0 138.032982" a="-48.032982"/>
+<group name="Static_Grave2" pos="5774.460449 385.283203 4669.697266" rpy="0.0 0.0 138.032982" a="-48.032982"/>
+<group name="Static_Grave2" pos="5792.608887 384.051605 4670.773926" rpy="0.0 0.0 138.032982" a="-48.032982"/>
+<group name="Static_Grave2" pos="5789.607422 383.542450 4692.348145" rpy="0.0 0.0 -39.796463" a="129.796463"/>
+<group name="Static_Grave2" pos="5792.509277 383.559082 4687.528809" rpy="0.0 0.0 138.032982" a="-48.032982"/>
+<group name="Static_Grave2" pos="5781.389648 384.215332 4685.361328" rpy="0.0 0.0 -39.796463" a="129.796463"/>
+<group name="Static_Grave1" pos="5783.057129 384.091217 4686.843750" rpy="0.0 0.0 140.716183" a="-50.716183"/>
+<group name="Static_Grave1" pos="5798.167969 383.090332 4688.163086" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5777.868164 385.487000 4659.281738" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5789.544434 384.335876 4667.997559" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5791.278809 383.350220 4693.831055" rpy="0.0 0.0 140.716183" a="-50.716183"/>
+<group name="Static_Grave1" pos="5781.497559 384.506348 4677.457031" rpy="0.0 0.0 -41.45433" a="131.454330"/>
+<group name="Static_Grave1" pos="5771.396484 385.537262 4666.920898" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5792.774414 383.119843 4695.005859" rpy="0.0 0.0 140.716183" a="-50.716183"/>
+<group name="Static_Grave1" pos="5786.591309 384.741547 4662.692383" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5790.220703 383.887360 4680.867676" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5772.849121 385.446259 4668.151367" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5784.555664 383.965057 4688.018066" rpy="0.0 0.0 140.716183" a="-50.716183"/>
+<group name="Static_Grave1" pos="5799.000977 383.593384 4676.523438" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5782.950195 384.385162 4678.687500" rpy="0.0 0.0 -41.45433" a="131.454330"/>
+<group name="Static_Grave1" pos="5790.897461 383.731201 4685.982910" rpy="0.0 0.0 -41.45433" a="131.454330"/>
+<group name="Static_Grave1" pos="5780.119629 384.878265 4670.331543" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5779.320801 385.364929 4660.512207" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5790.997070 384.219696 4669.228027" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5797.548340 383.672424 4675.292969" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5798.267578 383.720245 4671.408203" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave1" pos="5789.444824 383.831207 4684.752441" rpy="0.0 0.0 -41.45433" a="131.454330"/>
+<group name="Static_Grave4" pos="5791.571777 383.881073 4682.506836" rpy="0.0 0.0 -43.126053" a="133.126053"/>
+<group name="Static_Grave4" pos="5794.895020 384.070709 4668.352539" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5786.848145 384.248444 4677.812012" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5778.424316 385.164581 4668.648438" rpy="0.0 0.0 -39.01033" a="129.010330"/>
+<group name="Static_Grave4" pos="5773.522949 385.627350 4664.675293" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5783.624512 384.552216 4675.211914" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5776.747070 385.332123 4667.275879" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5796.472656 383.399719 4686.479980" rpy="0.0 0.0 -39.01033" a="129.010330"/>
+<group name="Static_Grave4" pos="5799.674805 383.716492 4673.047852" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5784.895996 385.022949 4661.009277" rpy="0.0 0.0 -39.01033" a="129.010330"/>
+<group name="Static_Grave4" pos="5788.525391 384.108612 4679.184570" rpy="0.0 0.0 -39.01033" a="129.010330"/>
+<group name="Static_Grave4" pos="5779.994629 385.526184 4657.036621" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5783.218750 385.196930 4659.636719" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5796.572266 383.944580 4669.725098" rpy="0.0 0.0 -39.01033" a="129.010330"/>
+<group name="Static_Grave4" pos="5791.671387 384.370972 4665.752441" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5794.795410 383.584717 4685.107422" rpy="0.0 0.0 -43.126053" a="133.126053"/>
+<group name="Static_Grave3" pos="5801.202148 383.542450 4674.411133" rpy="0.0 0.0 -45.155075" a="135.155075"/>
+<group name="Static_Grave3" pos="5802.349609 383.230011 4679.583496" rpy="0.0 0.0 138.647007" a="-48.647007"/>
+<group name="Static_Grave3" pos="5803.989746 383.046906 4681.062988" rpy="0.0 0.0 136.51717" a="-46.517170"/>
+<group name="Static_Grave2" pos="5800.612793 383.397705 4678.069824" rpy="0.0 0.0 138.032982" a="-48.032982"/>
+<group name="Static_Grave1" pos="5806.271484 382.929077 4678.703613" rpy="0.0 0.0 -41.4543" a="131.454300"/>
+<group name="Static_Grave4" pos="5802.898926 383.410095 4675.647949" rpy="0.0 0.0 -43.126083" a="133.126083"/>
+<group name="Static_Grave4" pos="5804.576172 383.219849 4677.020508" rpy="0.0 0.0 -39.01033" a="129.010330"/>
+<group name="Static_Grave3" pos="5993.688477 396.441071 4080.938721" rpy="0.0 0.0 138.6572" a="-48.657200"/>
+<group name="Static_Grave3" pos="5982.687500 396.951691 4085.723145" rpy="0.0 0.0 -41.027573" a="131.027573"/>
+<group name="Static_Grave3" pos="5987.125000 396.975189 4089.473389" rpy="0.0 0.0 -39.856308" a="129.856308"/>
+<group name="Static_Grave3" pos="5991.125000 396.493774 4078.593018" rpy="0.0 0.0 137.91798" a="-47.917980"/>
+<group name="Static_Grave3" pos="5997.187500 395.665466 4095.795410" rpy="0.0 0.0 50.39045" a="39.609550"/>
+<group name="Static_Grave3" pos="5984.500000 396.870972 4087.261230" rpy="0.0 0.0 -41.027573" a="131.027573"/>
+<group name="Static_Grave2" pos="5996.421875 395.661194 4096.730469" rpy="0.0 0.0 50.785866" a="39.214134"/>
+<group name="Static_Grave2" pos="5986.281250 396.883942 4088.732422" rpy="0.0 0.0 -40.694046" a="130.694046"/>
+<group name="Static_Grave2" pos="5991.953125 396.451202 4079.366455" rpy="0.0 0.0 137.080311" a="-47.080311"/>
+<group name="Static_Grave2" pos="5997.859375 395.629303 4094.921143" rpy="0.0 0.0 50.939194" a="39.060806"/>
+<group name="Static_Grave2" pos="5997.968750 396.039459 4084.514160" rpy="0.0 0.0 136.957294" a="-46.957294"/>
+<group name="Static_Grave1" pos="5985.359375 396.824829 4088.075195" rpy="0.0 0.0 139.472687" a="-49.472687"/>
+<group name="Static_Grave1" pos="5998.828125 395.945404 4085.216309" rpy="0.0 0.0 136.369419" a="-46.369419"/>
+<group name="Static_Grave1" pos="5992.859375 396.410309 4080.058594" rpy="0.0 0.0 -42.752121" a="132.752121"/>
+<group name="Static_Grave1" pos="5999.793945 395.484741 4092.584961" rpy="0.0 0.0 51.89352" a="38.106480"/>
+<group name="Static_Grave1" pos="5995.656250 395.671021 4097.629883" rpy="0.0 0.0 50.516682" a="39.483318"/>
+<group name="Static_Grave1" pos="5983.531250 396.806854 4086.537109" rpy="0.0 0.0 139.472687" a="-49.472687"/>
+<group name="Static_Grave1" pos="5999.734375 395.864655 4085.990967" rpy="0.0 0.0 136.346378" a="-46.346378"/>
+<group name="Static_Grave1" pos="5994.814941 395.698883 4098.654297" rpy="0.0 0.0 50.842667" a="39.157333"/>
+<group name="Static_Grave3" pos="5992.906250 395.783173 4100.818848" rpy="0.0 0.0 50.399529" a="39.600471"/>
+<group name="Static_Grave3" pos="5982.125000 396.497009 4105.694336" rpy="0.0 0.0 -129.686646" a="-140.313354"/>
+<group name="Static_Grave2" pos="5992.125000 395.768188 4101.675781" rpy="0.0 0.0 50.870956" a="39.129044"/>
+<group name="Static_Grave2" pos="5988.015625 395.756989 4106.918945" rpy="0.0 0.0 27.778973" a="62.221027"/>
+<group name="Static_Grave2" pos="5982.953125 396.590240 4104.704590" rpy="0.0 0.0 -129.560196" a="-140.439804"/>
+<group name="Static_Grave2" pos="5985.703125 395.912018 4108.139648" rpy="0.0 0.0 28.117752" a="61.882248"/>
+<group name="Static_Grave1" pos="5984.625000 395.918945 4108.707520" rpy="0.0 0.0 28.117752" a="61.882248"/>
+<group name="Static_Grave1" pos="5983.734375 396.633423 4103.770020" rpy="0.0 0.0 -129.762238" a="-140.237762"/>
+<group name="Static_Grave1" pos="5984.656250 396.684326 4102.795898" rpy="0.0 0.0 -130.114685" a="-139.885315"/>
+<group name="Static_Grave1" pos="5986.937500 395.801941 4107.479980" rpy="0.0 0.0 27.778973" a="62.221027"/>
+<group name="Static_Grave1" pos="5991.359375 395.762207 4102.544922" rpy="0.0 0.0 50.567242" a="39.432758"/>
+<group name="Static_Grave3" pos="6002.845703 394.853882 4089.064941" rpy="0.0 0.0 53.39196" a="36.608040"/>
+<group name="Static_Grave2" pos="6001.393066 395.155029 4090.739014" rpy="0.0 0.0 52.950665" a="37.049335"/>
+<group name="Static_Grave1" pos="6000.687500 395.302429 4091.694336" rpy="0.0 0.0 52.674232" a="37.325768"/>
+<group name="Static_Grave3" pos="6248.385742 214.560852 11772.901367" rpy="0.0 0.0 60.855656" a="29.144344"/>
+<group name="Static_Grave4" pos="6247.496582 214.780518 11774.746094" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6249.106934 214.446732 11770.929688" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6249.963379 214.271591 11768.938477" rpy="0.0 0.0 67.000372" a="22.999628"/>
+<group name="Static_Grave3" pos="6263.003418 211.733887 11747.039063" rpy="0.0 0.0 -115.342377" a="-154.657623"/>
+<group name="Static_Grave3" pos="6263.973145 211.424332 11745.054688" rpy="0.0 0.0 -117.472198" a="-152.527802"/>
+<group name="Static_Grave3" pos="6258.348145 212.268921 11749.568359" rpy="0.0 0.0 60.855656" a="29.144344"/>
+<group name="Static_Grave2" pos="6262.027344 212.025604 11749.125977" rpy="0.0 0.0 -115.95639" a="-154.043610"/>
+<group name="Static_Grave1" pos="6261.076172 211.309891 11743.511719" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6272.403320 211.547836 11748.692383" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave4" pos="6259.925781 211.726212 11745.605469" rpy="0.0 0.0 67.000372" a="22.999628"/>
+<group name="Static_Grave4" pos="6259.068848 212.028580 11747.596680" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave3" pos="6262.168945 214.138779 11774.486328" rpy="0.0 0.0 -115.342377" a="-154.657623"/>
+<group name="Static_Grave3" pos="6257.513672 214.443726 11777.015625" rpy="0.0 0.0 60.855656" a="29.144344"/>
+<group name="Static_Grave3" pos="6268.482910 212.613251 11756.840820" rpy="0.0 0.0 60.855656" a="29.144344"/>
+<group name="Static_Grave3" pos="6264.854980 213.343719 11764.399414" rpy="0.0 0.0 60.855656" a="29.144344"/>
+<group name="Static_Grave3" pos="6258.198242 212.989243 11756.745117" rpy="0.0 0.0 -115.342377" a="-154.657623"/>
+<group name="Static_Grave3" pos="6274.330566 211.968704 11752.219727" rpy="0.0 0.0 -115.342377" a="-154.657623"/>
+<group name="Static_Grave3" pos="6263.138672 213.974411 11772.501953" rpy="0.0 0.0 -117.472198" a="-152.527802"/>
+<group name="Static_Grave3" pos="6253.041016 214.196213 11770.372070" rpy="0.0 0.0 -115.342377" a="-154.657623"/>
+<group name="Static_Grave3" pos="6259.167969 212.764999 11754.760742" rpy="0.0 0.0 -117.472198" a="-152.527802"/>
+<group name="Static_Grave3" pos="6270.479492 212.830353 11759.885742" rpy="0.0 0.0 -117.472198" a="-152.527802"/>
+<group name="Static_Grave3" pos="6254.010742 214.019608 11768.387695" rpy="0.0 0.0 -117.472198" a="-152.527802"/>
+<group name="Static_Grave3" pos="6277.889160 212.481186 11757.889648" rpy="0.0 0.0 66.828377" a="23.171623"/>
+<group name="Static_Grave3" pos="6277.001953 212.676819 11759.911133" rpy="0.0 0.0 64.698456" a="25.301544"/>
+<group name="Static_Grave3" pos="6253.542969 213.359497 11759.274414" rpy="0.0 0.0 60.855656" a="29.144344"/>
+<group name="Static_Grave3" pos="6269.510254 213.029663 11761.870117" rpy="0.0 0.0 -115.342377" a="-154.657623"/>
+<group name="Static_Grave3" pos="6275.300293 211.726151 11750.234375" rpy="0.0 0.0 -117.472198" a="-152.527802"/>
+<group name="Static_Grave2" pos="6257.222168 213.152084 11758.832031" rpy="0.0 0.0 -115.95639" a="-154.043610"/>
+<group name="Static_Grave2" pos="6261.192871 214.275482 11776.573242" rpy="0.0 0.0 -115.95639" a="-154.043610"/>
+<group name="Static_Grave2" pos="6278.787109 212.243332 11755.766602" rpy="0.0 0.0 66.214239" a="23.785761"/>
+<group name="Static_Grave2" pos="6252.064941 214.345657 11772.458984" rpy="0.0 0.0 -115.95639" a="-154.043610"/>
+<group name="Static_Grave2" pos="6268.534180 213.187698 11763.957031" rpy="0.0 0.0 -115.95639" a="-154.043610"/>
+<group name="Static_Grave2" pos="6274.337891 213.173569 11765.592773" rpy="0.0 0.0 66.214239" a="23.785761"/>
+<group name="Static_Grave2" pos="6273.354492 212.193604 11754.306641" rpy="0.0 0.0 -115.95639" a="-154.043610"/>
+<group name="Static_Grave1" pos="6250.241211 214.639465 11776.170898" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6260.241699 213.907700 11770.958984" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6256.180664 213.348923 11760.807617" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6251.113770 213.976715 11766.844727" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6260.203613 212.480789 11752.837891" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6276.018555 212.826111 11761.816406" rpy="0.0 0.0 -113.273193" a="-156.726807"/>
+<group name="Static_Grave1" pos="6260.151367 214.445770 11778.548828" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6260.985840 212.304611 11751.101563" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6256.270996 212.691208 11753.217773" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6255.398438 213.481476 11762.542969" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6267.583008 212.728928 11758.342773" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6259.369141 214.555695 11780.284180" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6266.710449 213.495392 11767.668945" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6251.023438 214.529068 11774.434570" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6267.492676 213.372467 11765.932617" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6271.531250 212.591904 11758.017578" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6279.751465 212.025894 11753.750977" rpy="0.0 0.0 -113.273193" a="-156.726807"/>
+<group name="Static_Grave1" pos="6272.312988 212.448380 11756.282227" rpy="0.0 0.0 64.556431" a="25.443569"/>
+<group name="Static_Grave1" pos="6280.468262 211.799515 11751.989258" rpy="0.0 0.0 -113.273193" a="-156.726807"/>
+<group name="Static_Grave1" pos="6275.303223 213.010468 11763.581055" rpy="0.0 0.0 -113.273193" a="-156.726807"/>
+<group name="Static_Grave4" pos="6256.624512 214.643982 11778.859375" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6270.396484 212.189697 11752.776367" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6271.253418 211.949402 11750.786133" rpy="0.0 0.0 67.000372" a="22.999628"/>
+<group name="Static_Grave4" pos="6266.432617 213.038284 11760.436523" rpy="0.0 0.0 67.000372" a="22.999628"/>
+<group name="Static_Grave4" pos="6255.120605 213.032440 11755.311523" rpy="0.0 0.0 67.000372" a="22.999628"/>
+<group name="Static_Grave4" pos="6259.091309 214.183701 11773.052734" rpy="0.0 0.0 67.000372" a="22.999628"/>
+<group name="Static_Grave4" pos="6265.576172 213.235733 11762.427734" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6268.786133 212.639526 11756.592773" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6254.264160 213.236023 11757.301758" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6252.653809 213.586380 11761.118164" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6257.458984 212.561035 11751.413086" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6258.234375 214.348267 11775.043945" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave4" pos="6263.965820 213.557053 11766.244141" rpy="0.0 0.0 62.884645" a="27.115355"/>
+<group name="Static_Grave1" pos="7242.751465 228.615494 6499.797852" rpy="0.0 0.0 -24.485252" a="114.485252"/>
+<group name="Static_Grave4" pos="7246.557617 228.713730 6490.603027" rpy="0.0 0.0 -25.749527" a="115.749527"/>
+<group name="Static_Grave4" pos="7248.687988 228.729340 6485.520020" rpy="0.0 0.0 155.964043" a="-65.964043"/>
+<group name="Static_Grave3" pos="7240.528320 228.659561 6504.509766" rpy="0.0 0.0 156.082832" a="-66.082832"/>
+<group name="Static_Grave3" pos="7243.759766 228.658432 6506.157227" rpy="0.0 0.0 155.913269" a="-65.913269"/>
+<group name="Static_Grave2" pos="7242.679199 228.618225 6517.334961" rpy="0.0 0.0 -21.51754" a="111.517540"/>
+<group name="Static_Grave1" pos="7247.557617 228.603241 6519.208008" rpy="0.0 0.0 157.608818" a="-67.608818"/>
+<group name="Static_Grave1" pos="7247.349609 228.643326 6507.693359" rpy="0.0 0.0 -22.058022" a="112.058022"/>
+<group name="Static_Grave1" pos="7249.710449 228.614548 6502.823242" rpy="0.0 0.0 -22.381584" a="112.381584"/>
+<group name="Static_Grave1" pos="7246.125488 228.615479 6501.300781" rpy="0.0 0.0 -23.426872" a="113.426872"/>
+<group name="Static_Grave4" pos="7253.514160 228.709000 6493.643066" rpy="0.0 0.0 -23.878983" a="113.878983"/>
+<group name="Static_Grave4" pos="7260.798828 228.644730 6496.723633" rpy="0.0 0.0 -23.375076" a="113.375076"/>
+<group name="Static_Grave4" pos="7264.877441 228.680878 6499.110840" rpy="0.0 0.0 -23.878983" a="113.878983"/>
+<group name="Static_Grave4" pos="7259.351563 228.722885 6489.638672" rpy="0.0 0.0 162.107857" a="-72.107857"/>
+<group name="Static_Grave4" pos="7261.057617 228.718964 6486.081055" rpy="0.0 0.0 -30.253738" a="120.253738"/>
+<group name="Static_Grave4" pos="7257.753906 228.712845 6484.368164" rpy="0.0 0.0 -20.647041" a="110.647041"/>
+<group name="Static_Grave4" pos="7252.675781 228.719635 6487.202637" rpy="0.0 0.0 -21.869209" a="111.869209"/>
+<group name="Static_Grave4" pos="7263.481445 228.703476 6491.520996" rpy="0.0 0.0 159.862213" a="-69.862213"/>
+<group name="Static_Grave4" pos="7257.197266 228.710831 6495.368164" rpy="0.0 0.0 -21.32856" a="111.328560"/>
+<group name="Static_Grave3" pos="7259.112793 228.659149 6512.886230" rpy="0.0 0.0 155.913269" a="-65.913269"/>
+<group name="Static_Grave3" pos="7253.072266 228.658875 6504.372559" rpy="0.0 0.0 -25.362473" a="115.362473"/>
+<group name="Static_Grave3" pos="7254.861328 228.659760 6510.996582" rpy="0.0 0.0 156.565849" a="-66.565849"/>
+<group name="Static_Grave2" pos="7250.836914 228.632050 6509.285156" rpy="0.0 0.0 157.429062" a="-67.429062"/>
+<group name="Static_Grave1" pos="7255.590820 228.555573 6522.676758" rpy="0.0 0.0 158.333214" a="-68.333214"/>
+<group name="Static_Grave1" pos="7261.291504 228.615570 6508.305176" rpy="0.0 0.0 -26.287529" a="116.287529"/>
+<group name="Static_Grave1" pos="7260.228027 228.615570 6507.766602" rpy="0.0 0.0 -26.287529" a="116.287529"/>
+<group name="Static_Grave1" pos="7251.572754 228.606323 6520.949219" rpy="0.0 0.0 158.747566" a="-68.747566"/>
+<group name="Static_Grave3" pos="8548.323242 272.489075 8682.922852" rpy="0.0 0.0 -178.739624" a="-91.260376"/>
+<group name="Static_Grave3" pos="8509.099609 271.535156 8684.320313" rpy="0.0 0.0 178.730049" a="-88.730049"/>
+<group name="Static_Grave3" pos="8523.832031 271.972351 8690.448242" rpy="0.0 0.0 -0.768219000000002" a="90.768219"/>
+<group name="Static_Grave3" pos="8543.678711 272.488678 8683.018555" rpy="0.0 0.0 -178.087151" a="-91.912849"/>
+<group name="Static_Grave2" pos="8527.214844 272.066498 8690.430664" rpy="0.0 0.0 -3.402618" a="93.402618"/>
+<group name="Static_Grave2" pos="8530.504883 272.186584 8690.483398" rpy="0.0 0.0 -0.639778000000007" a="90.639778"/>
+<group name="Static_Grave2" pos="8534.631836 272.322876 8683.559570" rpy="0.0 0.0 -177.223557" a="-92.776443"/>
+<group name="Static_Grave2" pos="8522.139648 271.889832 8690.404297" rpy="0.0 0.0 -1.568718" a="91.568718"/>
+<group name="Static_Grave2" pos="8525.430664 271.998047 8690.392578" rpy="0.0 0.0 1.11679100000001" a="88.883209"/>
+<group name="Static_Grave1" pos="8522.050781 271.983063 8699.064453" rpy="0.0 0.0 -10.384605" a="100.384605"/>
+<group name="Static_Grave1" pos="8547.517578 272.445404 8694.346680" rpy="0.0 0.0 89.745059" a="0.254941"/>
+<group name="Static_Grave1" pos="8547.535156 272.445679 8693.164063" rpy="0.0 0.0 89.745059" a="0.254941"/>
+<group name="Static_Grave1" pos="8525.683594 272.093536 8699.699219" rpy="0.0 0.0 -9.32605700000001" a="99.326057"/>
+<group name="Static_Grave1" pos="8520.387695 271.866516 8683.994141" rpy="0.0 0.0 179.599434" a="-89.599434"/>
+<group name="Static_Grave1" pos="8512.802734 271.557465 8684.206055" rpy="0.0 0.0 -178.296486" a="-91.703514"/>
+<group name="Static_Grave1" pos="8535.722656 272.333740 8690.499023" rpy="0.0 0.0 178.486374" a="-88.486374"/>
+<group name="Static_Grave1" pos="8540.093750 272.438232 8690.692383" rpy="0.0 0.0 179.625168" a="-89.625168"/>
+<group name="Static_Grave1" pos="8516.703125 271.662506 8684.278320" rpy="0.0 0.0 -179.342102" a="-90.657898"/>
+<group name="Static_Grave1" pos="8530.807617 272.209839 8683.608398" rpy="0.0 0.0 3.28939099999999" a="86.710609"/>
+<group name="Static_Grave4" pos="8519.394531 271.995270 8698.644531" rpy="0.0 0.0 -5.807007" a="95.807007"/>
+<group name="Static_Grave3" pos="8539.353516 272.489685 8705.526367" rpy="0.0 0.0 167.777542" a="-77.777542"/>
+<group name="Static_Grave3" pos="8541.403320 272.488434 8705.998047" rpy="0.0 0.0 166.975029" a="-76.975029"/>
+<group name="Static_Grave3" pos="8518.103516 272.160583 8706.975586" rpy="0.0 0.0 -12.060783" a="102.060783"/>
+<group name="Static_Grave3" pos="8516.449219 272.070313 8706.537109" rpy="0.0 0.0 -12.230309" a="102.230309"/>
+<group name="Static_Grave3" pos="8537.965820 272.485504 8705.159180" rpy="0.0 0.0 167.693527" a="-77.693527"/>
+<group name="Static_Grave3" pos="8533.171875 272.358734 8700.983398" rpy="0.0 0.0 -11.261711" a="101.261711"/>
+<group name="Static_Grave2" pos="8533.660156 272.382782 8704.441406" rpy="0.0 0.0 168.556877" a="-78.556877"/>
+<group name="Static_Grave2" pos="8508.878906 271.794678 8704.930664" rpy="0.0 0.0 -10.714531" a="100.714531"/>
+<group name="Static_Grave1" pos="8529.466797 272.214813 8700.620117" rpy="0.0 0.0 -8.280716" a="98.280716"/>
+<group name="Static_Grave1" pos="8540.942383 272.444305 8702.529297" rpy="0.0 0.0 -12.18679" a="102.186790"/>
+<group name="Static_Grave1" pos="8542.105469 272.445404 8702.795898" rpy="0.0 0.0 -12.18679" a="102.186790"/>
+<group name="Static_Grave1" pos="8524.881836 272.151154 8702.936523" rpy="0.0 0.0 -10.362938" a="100.362938"/>
+<group name="Static_Grave1" pos="8512.597656 271.867584 8705.828125" rpy="0.0 0.0 169.798347" a="-79.798347"/>
+<group name="Static_Grave1" pos="8521.935547 272.108704 8702.423828" rpy="0.0 0.0 -10.362938" a="100.362938"/>
+<group name="Static_Grave4" pos="8542.381836 272.505890 8711.129883" rpy="0.0 0.0 -5.557106" a="95.557106"/>
+<group name="Static_Grave4" pos="8537.830078 272.469666 8710.501953" rpy="0.0 0.0 -5.053337" a="95.053337"/>
+<group name="Static_Grave4" pos="8529.932617 272.439117 8709.363281" rpy="0.0 0.0 -5.557106" a="95.557106"/>
+<group name="Static_Grave4" pos="8533.907227 272.527832 8709.987305" rpy="0.0 0.0 -3.006882" a="93.006882"/>
+<group name="Static_Grave4" pos="8519.513672 272.011444 8701.827148" rpy="0.0 0.0 169.423065" a="-79.423065"/>
+<group name="Static_Grave3" pos="8940.847656 317.979492 6836.577637" rpy="0.0 0.0 -39.506516" a="129.506516"/>
+<group name="Static_Grave3" pos="8941.758789 317.984497 6837.376465" rpy="0.0 0.0 -39.572556" a="129.572556"/>
+<group name="Static_Grave3" pos="8947.822266 317.821991 6817.467285" rpy="0.0 0.0 141.8908" a="-51.890800"/>
+<group name="Static_Grave2" pos="8931.823242 317.794739 6828.494629" rpy="0.0 0.0 -41.341888" a="131.341888"/>
+<group name="Static_Grave1" pos="8947.875000 317.985992 6842.658691" rpy="0.0 0.0 -40.275162" a="130.275162"/>
+<group name="Static_Grave1" pos="8945.241211 317.752991 6815.568848" rpy="0.0 0.0 141.263748" a="-51.263748"/>
+<group name="Static_Grave1" pos="8933.904297 317.833496 6830.393066" rpy="0.0 0.0 139.150856" a="-49.150856"/>
+<group name="Static_Grave4" pos="8949.505859 318.476837 6865.997559" rpy="0.0 0.0 52.570431" a="37.429569"/>
+<group name="Static_Grave3" pos="8982.908203 318.125458 6845.378418" rpy="0.0 0.0 -126.530533" a="-143.469467"/>
+<group name="Static_Grave3" pos="8958.008789 317.970276 6825.651367" rpy="0.0 0.0 141.330433" a="-51.330433"/>
+<group name="Static_Grave2" pos="8952.817383 317.894348 6821.354492" rpy="0.0 0.0 141.716629" a="-51.716629"/>
+<group name="Static_Grave2" pos="8977.862305 318.206635 6845.965820" rpy="0.0 0.0 -127.771362" a="-142.228638"/>
+<group name="Static_Grave1" pos="8980.065430 318.122223 6843.229492" rpy="0.0 0.0 53.336246" a="36.663754"/>
+<group name="Static_Grave1" pos="8962.439453 317.922058 6829.096680" rpy="0.0 0.0 141.263748" a="-51.263748"/>
+<group name="Static_Grave1" pos="8961.474609 317.924133 6828.332031" rpy="0.0 0.0 141.263748" a="-51.263748"/>
+<group name="Static_Grave4" pos="8953.415039 318.351227 6861.478516" rpy="0.0 0.0 -125.719955" a="-144.280045"/>
+<group name="Static_Grave4" pos="8971.170898 318.524170 6875.897949" rpy="0.0 0.0 53.099682" a="36.900318"/>
+<group name="Static_Grave4" pos="8975.076172 318.499817 6870.753418" rpy="0.0 0.0 -127.663116" a="-142.336884"/>
+<group name="Static_Grave4" pos="8957.084961 318.390045 6879.009766" rpy="0.0 0.0 -131.233765" a="-138.766235"/>
+<group name="Static_Grave3" pos="8973.720703 318.513428 6857.483398" rpy="0.0 0.0 -127.928696" a="-142.071304"/>
+<group name="Static_Grave3" pos="8985.507813 318.375885 6854.534668" rpy="0.0 0.0 55.68034" a="34.319660"/>
+<group name="Static_Grave3" pos="8969.627930 318.488068 6856.605469" rpy="0.0 0.0 52.801937" a="37.198063"/>
+<group name="Static_Grave4" pos="8961.775391 318.618713 6872.362305" rpy="0.0 0.0 52.446369" a="37.553631"/>
+<group name="Static_Grave4" pos="8964.199219 318.622864 6869.183105" rpy="0.0 0.0 -125.607605" a="-144.392395"/>
+<group name="Static_Grave4" pos="8959.037109 318.559052 6869.767578" rpy="0.0 0.0 -125.607605" a="-144.392395"/>
+<group name="Static_Grave2" pos="8979.469727 318.898041 6863.458496" rpy="0.0 0.0 54.463188" a="35.536812"/>
+<group name="Static_Grave2" pos="8984.084961 318.456360 6856.680664" rpy="0.0 0.0 55.939995" a="34.060005"/>
+<group name="Static_Grave2" pos="8978.834961 318.863312 6864.394531" rpy="0.0 0.0 54.463188" a="35.536812"/>
+<group name="Static_Grave1" pos="8981.212891 318.815826 6860.644043" rpy="0.0 0.0 53.922977" a="36.077023"/>
+<group name="Static_Grave1" pos="8988.114258 318.280579 6850.916016" rpy="0.0 0.0 55.293339" a="34.706661"/>
+<group name="Static_Grave4" pos="8966.367188 318.739044 6866.290039" rpy="0.0 0.0 50.960838" a="39.039162"/>
+<group name="Static_Grave4" pos="8954.344727 318.612732 6881.794434" rpy="0.0 0.0 47.297569" a="42.702431"/>
+<group name="Static_Grave4" pos="8965.918945 318.606415 6861.632813" rpy="0.0 0.0 50.960838" a="39.039162"/>
+<group name="Static_Grave3" pos="9509.368164 242.429962 10333.254883" rpy="0.0 0.0 2.707764" a="87.292236"/>
+<group name="Static_Grave3" pos="9502.650391 243.615585 10315.121094" rpy="0.0 0.0 -177.553429" a="-92.446571"/>
+<group name="Static_Grave3" pos="9512.993164 242.436295 10333.027344" rpy="0.0 0.0 3.218636" a="86.781364"/>
+<group name="Static_Grave3" pos="9514.310547 243.639008 10311.488281" rpy="0.0 0.0 2.707764" a="87.292236"/>
+<group name="Static_Grave3" pos="9512.725586 243.463837 10314.831055" rpy="0.0 0.0 -178.069412" a="-91.930588"/>
+<group name="Static_Grave3" pos="9501.974609 243.009079 10325.424805" rpy="0.0 0.0 -176.845139" a="-93.154861"/>
+<group name="Static_Grave3" pos="9517.935547 243.662613 10311.260742" rpy="0.0 0.0 3.218636" a="86.781364"/>
+<group name="Static_Grave3" pos="9515.352539 243.056564 10321.646484" rpy="0.0 0.0 2.275986" a="87.724014"/>
+<group name="Static_Grave3" pos="9509.187500 243.094589 10321.900391" rpy="0.0 0.0 2.275986" a="87.724014"/>
+<group name="Static_Grave3" pos="9507.969727 242.893845 10325.011719" rpy="0.0 0.0 -177.384331" a="-92.615669"/>
+<group name="Static_Grave3" pos="9502.679688 243.204590 10322.181641" rpy="0.0 0.0 2.275986" a="87.724014"/>
+<group name="Static_Grave2" pos="9518.270508 242.782669 10324.429688" rpy="0.0 0.0 -176.957153" a="-93.042847"/>
+<group name="Static_Grave2" pos="9512.777344 243.599045 10311.579102" rpy="0.0 0.0 2.595787" a="87.404213"/>
+<group name="Static_Grave2" pos="9507.834961 242.398071 10333.345703" rpy="0.0 0.0 2.595787" a="87.404213"/>
+<group name="Static_Grave2" pos="9503.504883 242.946686 10325.321289" rpy="0.0 0.0 -176.957153" a="-93.042847"/>
+<group name="Static_Grave1" pos="9503.429688 243.803299 10311.963867" rpy="0.0 0.0 2.45328499999999" a="87.546715"/>
+<group name="Static_Grave1" pos="9513.404297 243.107895 10321.802734" rpy="0.0 0.0 -177.015541" a="-92.984459"/>
+<group name="Static_Grave1" pos="9516.500000 242.400101 10332.874023" rpy="0.0 0.0 3.72599" a="86.274010"/>
+<group name="Static_Grave1" pos="9507.957031 243.564041 10314.760742" rpy="0.0 0.0 2.19008599999999" a="87.809914"/>
+<group name="Static_Grave1" pos="9515.765625 243.530212 10314.633789" rpy="0.0 0.0 2.40551000000001" a="87.594490"/>
+<group name="Static_Grave1" pos="9504.600586 243.615097 10314.961914" rpy="0.0 0.0 3.155052" a="86.844948"/>
+<group name="Static_Grave1" pos="9506.153320 243.172623 10322.113281" rpy="0.0 0.0 -177.24942" a="-92.750580"/>
+<group name="Static_Grave1" pos="9511.248047 242.912720 10324.699219" rpy="0.0 0.0 3.72599" a="86.274010"/>
+<group name="Static_Grave4" pos="9518.398438 243.079819 10321.480469" rpy="0.0 0.0 7.300552" a="82.699448"/>
+<group name="Static_Grave4" pos="9507.937500 243.151657 10322.111328" rpy="0.0 0.0 -173.674782" a="-96.325218"/>
+<group name="Static_Grave4" pos="9513.087891 242.890152 10324.659180" rpy="0.0 0.0 7.300552" a="82.699448"/>
+<group name="Static_Grave4" pos="9504.456055 242.491608 10333.559570" rpy="0.0 0.0 7.300552" a="82.699448"/>
+<group name="Static_Grave4" pos="9505.269531 243.748550 10311.963867" rpy="0.0 0.0 6.027962" a="83.972038"/>
+<group name="Static_Grave4" pos="9513.979492 243.522598 10314.625977" rpy="0.0 0.0 5.980194" a="84.019806"/>
+<group name="Static_Grave4" pos="9509.796875 243.540741 10314.771484" rpy="0.0 0.0 5.76474" a="84.235260"/>
+<group name="Static_Grave4" pos="9508.718750 243.698105 10311.823242" rpy="0.0 0.0 5.76474" a="84.235260"/>
+<group name="Static_Grave3" pos="10879.828125 186.972412 10648.657227" rpy="0.0 0.0 -38.448898" a="128.448898"/>
+<group name="Static_Grave3" pos="10884.531250 186.956009 10640.934570" rpy="0.0 0.0 52.212494" a="37.787506"/>
+<group name="Static_Grave3" pos="10897.921875 186.273026 10644.219727" rpy="0.0 0.0 54.309788" a="35.690212"/>
+<group name="Static_Grave3" pos="10890.765625 186.722702 10638.455078" rpy="0.0 0.0 -131.321701" a="-138.678299"/>
+<group name="Static_Grave3" pos="10891.953125 186.694305 10637.071289" rpy="0.0 0.0 -127.109406" a="-142.890594"/>
+<group name="Static_Grave3" pos="10886.937500 186.913467 10637.990234" rpy="0.0 0.0 51.182053" a="38.817947"/>
+<group name="Static_Grave3" pos="10895.375000 186.329788 10647.228516" rpy="0.0 0.0 52.721897" a="37.278103"/>
+<group name="Static_Grave3" pos="10898.468750 186.166840 10649.555664" rpy="0.0 0.0 -126.634247" a="-143.365753"/>
+<group name="Static_Grave3" pos="10888.109375 186.898697 10636.180664" rpy="0.0 0.0 49.354088" a="40.645912"/>
+<group name="Static_Grave3" pos="10883.281250 186.976227 10642.550781" rpy="0.0 0.0 50.752281" a="39.247719"/>
+<group name="Static_Grave3" pos="10885.781250 186.933487 10639.424805" rpy="0.0 0.0 52.408199" a="37.591801"/>
+<group name="Static_Grave3" pos="10899.609375 186.139954 10648.258789" rpy="0.0 0.0 -126.693451" a="-143.306549"/>
+<group name="Static_Grave3" pos="10875.093750 187.255859 10644.623047" rpy="0.0 0.0 -37.185699" a="127.185699"/>
+<group name="Static_Grave3" pos="10874.578125 187.470505 10635.536133" rpy="0.0 0.0 -125.449478" a="-144.550522"/>
+<group name="Static_Grave3" pos="10889.375000 186.754944 10640.118164" rpy="0.0 0.0 -130.493591" a="-139.506409"/>
+<group name="Static_Grave3" pos="10875.765625 187.456940 10634.001953" rpy="0.0 0.0 -125.50592" a="-144.494080"/>
+<group name="Static_Grave1" pos="10882.343750 186.949829 10643.675781" rpy="0.0 0.0 52.18272" a="37.817280"/>
+<group name="Static_Grave1" pos="10884.734375 186.793655 10645.746094" rpy="0.0 0.0 52.514175" a="37.485825"/>
+<group name="Static_Grave1" pos="10893.218750 186.331924 10649.963867" rpy="0.0 0.0 53.915764" a="36.084236"/>
+<group name="Static_Grave1" pos="10886.875000 186.769394 10642.941406" rpy="0.0 0.0 49.538193" a="40.461807"/>
+<group name="Static_Grave1" pos="10876.312500 187.131210 10646.144531" rpy="0.0 0.0 -36.965912" a="126.965912"/>
+<group name="Static_Grave1" pos="10889.859375 186.932709 10633.077148" rpy="0.0 0.0 53.826775" a="36.173225"/>
+<group name="Static_Grave1" pos="10896.500000 186.263641 10645.761719" rpy="0.0 0.0 52.848072" a="37.151928"/>
+<group name="Static_Grave1" pos="10893.890625 186.582077 10635.884766" rpy="0.0 0.0 -126.606567" a="-143.393433"/>
+<group name="Static_Grave1" pos="10881.140625 186.843460 10649.877930" rpy="0.0 0.0 -41.743118" a="131.743118"/>
+<group name="Static_Grave1" pos="10898.421875 186.593384 10625.017578" rpy="0.0 0.0 54.428974" a="35.571026"/>
+<group name="Static_Grave1" pos="10871.953125 187.459381 10638.975586" rpy="0.0 0.0 54.141308" a="35.858692"/>
+<group name="Static_Grave1" pos="10879.250000 187.388931 10628.873047" rpy="0.0 0.0 53.546539" a="36.453461"/>
+<group name="Static_Grave1" pos="10876.906250 187.407150 10632.246094" rpy="0.0 0.0 53.241093" a="36.758907"/>
+<group name="Static_Grave1" pos="10899.281250 186.193314 10642.535156" rpy="0.0 0.0 52.502861" a="37.497139"/>
+<group name="Static_Grave4" pos="10894.234375 186.405014 10648.537109" rpy="0.0 0.0 52.619415" a="37.380585"/>
+<group name="Static_Grave4" pos="10877.968750 187.496323 10630.521484" rpy="0.0 0.0 51.293594" a="38.706406"/>
+<group name="Static_Grave3" pos="10891.140625 186.304474 10659.186523" rpy="0.0 0.0 -40.46843" a="130.468430"/>
+<group name="Static_Grave3" pos="10891.906250 186.405182 10651.432617" rpy="0.0 0.0 55.059795" a="34.940205"/>
+<group name="Static_Grave3" pos="10892.578125 186.245956 10660.508789" rpy="0.0 0.0 -43.089554" a="133.089554"/>
+<group name="Static_Grave3" pos="10895.218750 186.230026 10653.781250" rpy="0.0 0.0 -126.986877" a="-143.013123"/>
+<group name="Static_Grave3" pos="10882.453125 186.858337 10651.321289" rpy="0.0 0.0 -43.614059" a="133.614059"/>
+<group name="Static_Grave3" pos="10885.187500 186.653748 10653.926758" rpy="0.0 0.0 -39.799088" a="129.799088"/>
+<group name="Static_Grave3" pos="10896.375000 186.206985 10652.316406" rpy="0.0 0.0 -125.418884" a="-144.581116"/>
+<group name="Static_Grave3" pos="10889.640625 186.387390 10657.963867" rpy="0.0 0.0 -39.603043" a="129.603043"/>
+<group name="Static_Grave3" pos="10886.468750 186.577988 10655.024414" rpy="0.0 0.0 -38.383408" a="128.383408"/>
+<group name="Static_Grave3" pos="10897.515625 186.185013 10650.861328" rpy="0.0 0.0 -124.719955" a="-145.280045"/>
+<group name="Static_Grave1" pos="10895.375000 186.129166 10663.030273" rpy="0.0 0.0 140.534325" a="-50.534325"/>
+<group name="Static_Grave1" pos="10898.468750 185.927460 10665.583984" rpy="0.0 0.0 141.114304" a="-51.114304"/>
+<group name="Static_Grave1" pos="10883.953125 186.683060 10652.750000" rpy="0.0 0.0 -40.81723" a="130.817230"/>
+<group name="Static_Grave3" pos="10908.718750 186.057755 10628.258789" rpy="0.0 0.0 55.452457" a="34.547543"/>
+<group name="Static_Grave3" pos="10913.125000 185.841446 10631.328125" rpy="0.0 0.0 -128.951645" a="-141.048355"/>
+<group name="Static_Grave3" pos="10904.125000 186.192474 10643.212891" rpy="0.0 0.0 -125.407654" a="-144.592346"/>
+<group name="Static_Grave3" pos="10900.890625 186.111984 10646.622070" rpy="0.0 0.0 -127.030579" a="-142.969421"/>
+<group name="Static_Grave3" pos="10907.765625 186.074890 10629.793945" rpy="0.0 0.0 55.783028" a="34.216972"/>
+<group name="Static_Grave3" pos="10918.515625 185.819702 10640.940430" rpy="0.0 0.0 61.121084" a="28.878916"/>
+<group name="Static_Grave3" pos="10901.843750 186.551865 10620.670898" rpy="0.0 0.0 -129.45192" a="-140.548080"/>
+<group name="Static_Grave3" pos="10900.812500 186.194962 10640.732422" rpy="0.0 0.0 52.328922" a="37.671078"/>
+<group name="Static_Grave3" pos="10912.796875 185.973740 10622.451172" rpy="0.0 0.0 56.376087" a="33.623913"/>
+<group name="Static_Grave3" pos="10900.718750 186.582260 10622.049805" rpy="0.0 0.0 -130.937073" a="-139.062927"/>
+<group name="Static_Grave3" pos="10910.140625 186.033997 10625.945313" rpy="0.0 0.0 55.688335" a="34.311665"/>
+<group name="Static_Grave3" pos="10911.421875 186.003510 10624.282227" rpy="0.0 0.0 56.871887" a="33.128113"/>
+<group name="Static_Grave3" pos="10920.578125 185.799911 10636.646484" rpy="0.0 0.0 64.344904" a="25.655096"/>
+<group name="Static_Grave3" pos="10916.453125 185.814209 10626.360352" rpy="0.0 0.0 -123.294418" a="-146.705582"/>
+<group name="Static_Grave3" pos="10921.312500 185.803238 10635.356445" rpy="0.0 0.0 63.495153" a="26.504847"/>
+<group name="Static_Grave1" pos="10915.734375 185.764938 10628.329102" rpy="0.0 0.0 -123.074783" a="-146.925217"/>
+<group name="Static_Grave1" pos="10919.187500 185.766068 10639.608398" rpy="0.0 0.0 61.498949" a="28.501051"/>
+<group name="Static_Grave1" pos="10902.859375 186.484879 10619.228516" rpy="0.0 0.0 50.136868" a="39.863132"/>
+<group name="Static_Grave1" pos="10922.343750 185.763977 10633.153320" rpy="0.0 0.0 61.48184" a="28.518160"/>
+<group name="Static_Grave1" pos="10902.250000 186.041962 10644.699219" rpy="0.0 0.0 -127.060287" a="-142.939713"/>
+<group name="Static_Grave1" pos="10905.062500 186.418335 10616.231445" rpy="0.0 0.0 50.268326" a="39.731674"/>
+<group name="Static_Grave1" pos="10911.843750 185.824860 10632.687500" rpy="0.0 0.0 -126.916626" a="-143.083374"/>
+<group name="Static_Grave3" pos="10907.312500 185.746719 10658.171875" rpy="0.0 0.0 57.022491" a="32.977509"/>
+<group name="Static_Grave3" pos="10902.359375 185.837296 10665.539063" rpy="0.0 0.0 55.201252" a="34.798748"/>
+<group name="Static_Grave3" pos="10905.406250 185.783646 10660.939453" rpy="0.0 0.0 58.017866" a="31.982134"/>
+<group name="Static_Grave3" pos="10912.031250 185.663193 10651.152344" rpy="0.0 0.0 59.355989" a="30.644011"/>
+<group name="Static_Grave3" pos="10909.453125 185.709366 10654.908203" rpy="0.0 0.0 55.737972" a="34.262028"/>
+<group name="Static_Grave1" pos="10903.125000 185.782516 10664.313477" rpy="0.0 0.0 56.158455" a="33.841545"/>
+<group name="Static_Grave1" pos="10906.406250 185.718948 10659.541992" rpy="0.0 0.0 57.209957" a="32.790043"/>
+<group name="Static_Grave1" pos="10911.000000 185.638672 10652.605469" rpy="0.0 0.0 56.669628" a="33.330372"/>
+<group name="Static_Grave3" pos="11138.279297 345.765106 4329.222168" rpy="0.0 0.0 -122.325516" a="-147.674484"/>
+<group name="Static_Grave3" pos="11133.583008 345.876801 4325.709961" rpy="0.0 0.0 57.685001" a="32.314999"/>
+<group name="Static_Grave3" pos="11148.618164 345.136169 4327.325195" rpy="0.0 0.0 60.120619" a="29.879381"/>
+<group name="Static_Grave3" pos="11117.223633 345.993988 4316.185547" rpy="0.0 0.0 -129.128983" a="-140.871017"/>
+<group name="Static_Grave3" pos="11125.990234 346.058197 4313.622559" rpy="0.0 0.0 52.900593" a="37.099407"/>
+<group name="Static_Grave3" pos="11122.858398 345.957733 4317.672852" rpy="0.0 0.0 52.900593" a="37.099407"/>
+<group name="Static_Grave3" pos="11136.862305 345.848755 4320.503418" rpy="0.0 0.0 57.685001" a="32.314999"/>
+<group name="Static_Grave2" pos="11124.860352 345.902527 4319.170898" rpy="0.0 0.0 -127.602249" a="-142.397751"/>
+<group name="Static_Grave2" pos="11149.889648 345.020569 4325.154785" rpy="0.0 0.0 60.583904" a="29.416096"/>
+<group name="Static_Grave2" pos="11140.678711 345.624542 4325.411621" rpy="0.0 0.0 -124.326431" a="-145.673569"/>
+<group name="Static_Grave2" pos="11116.453125 345.941071 4317.231934" rpy="0.0 0.0 -129.793396" a="-140.206604"/>
+<group name="Static_Grave2" pos="11126.681641 346.057159 4312.498535" rpy="0.0 0.0 54.910172" a="35.089828"/>
+<group name="Static_Grave1" pos="11122.883789 346.060852 4309.267090" rpy="0.0 0.0 51.309444" a="38.690556"/>
+<group name="Static_Grave1" pos="11141.712891 345.566956 4323.757324" rpy="0.0 0.0 -122.325516" a="-147.674484"/>
+<group name="Static_Grave1" pos="11128.144531 345.965576 4315.274902" rpy="0.0 0.0 -127.581207" a="-142.418793"/>
+<group name="Static_Grave1" pos="11124.053711 345.885498 4320.225586" rpy="0.0 0.0 -127.581207" a="-142.418793"/>
+<group name="Static_Grave1" pos="11124.283203 345.957397 4315.903809" rpy="0.0 0.0 50.901733" a="39.098267"/>
+<group name="Static_Grave1" pos="11138.078125 345.771454 4318.716797" rpy="0.0 0.0 57.685001" a="32.314999"/>
+<group name="Static_Grave1" pos="11134.960938 345.817688 4323.538086" rpy="0.0 0.0 57.685001" a="32.314999"/>
+<group name="Static_Grave1" pos="11146.021484 345.296753 4331.916504" rpy="0.0 0.0 -122.543716" a="-147.456284"/>
+<group name="Static_Grave1" pos="11139.298828 345.676331 4327.447266" rpy="0.0 0.0 -122.325516" a="-147.674484"/>
+<group name="Static_Grave1" pos="11118.691406 345.996918 4314.359863" rpy="0.0 0.0 50.128189" a="39.871811"/>
+<group name="Static_Grave1" pos="11135.845703 345.790344 4332.630859" rpy="0.0 0.0 -122.325516" a="-147.674484"/>
+<group name="Static_Grave1" pos="11119.621094 346.027496 4313.166992" rpy="0.0 0.0 51.309444" a="38.690556"/>
+<group name="Static_Grave1" pos="11142.121094 345.635742 4338.725586" rpy="0.0 0.0 -119.646896" a="-150.353104"/>
+<group name="Static_Grave4" pos="11137.398438 345.853729 4330.521973" rpy="0.0 0.0 -116.638321" a="-153.361679"/>
+<group name="Static_Grave4" pos="11125.285156 346.072662 4314.975098" rpy="0.0 0.0 56.421829" a="33.578171"/>
+<group name="Static_Grave4" pos="11121.967773 345.978882 4318.863281" rpy="0.0 0.0 50.884663" a="39.115337"/>
+<group name="Static_Grave4" pos="11146.718750 345.334076 4330.558594" rpy="0.0 0.0 -116.965729" a="-153.034271"/>
+<group name="Static_Grave4" pos="11121.849609 346.148285 4310.472656" rpy="0.0 0.0 53.131767" a="36.868233"/>
+<group name="Static_Grave4" pos="11132.274414 345.945038 4327.697266" rpy="0.0 0.0 57.685001" a="32.314999"/>
+<group name="Static_Grave4" pos="11142.570313 345.614166 4322.497070" rpy="0.0 0.0 64.384655" a="25.615345"/>
+<group name="Static_Grave4" pos="11147.544922 345.256683 4329.131348" rpy="0.0 0.0 62.917286" a="27.082714"/>
+<group name="Static_Grave4" pos="11144.004883 345.600433 4335.715820" rpy="0.0 0.0 -118.635605" a="-151.364395"/>
+<group name="Static_Grave4" pos="11145.094727 345.468262 4333.257324" rpy="0.0 0.0 60.075909" a="29.924091"/>
+<group name="Static_Grave2" pos="11150.412109 344.977875 4324.227539" rpy="0.0 0.0 60.583904" a="29.416096"/>
+<group name="Static_Grave3" pos="11727.747070 307.727966 4999.067383" rpy="0.0 0.0 -156.582962" a="-113.417038"/>
+<group name="Static_Grave3" pos="11711.832031 307.871460 4992.589355" rpy="0.0 0.0 -152.950302" a="-117.049698"/>
+<group name="Static_Grave3" pos="11724.772461 307.785400 4995.723145" rpy="0.0 0.0 22.422729" a="67.577271"/>
+<group name="Static_Grave3" pos="11729.093750 307.816528 4993.909180" rpy="0.0 0.0 22.422729" a="67.577271"/>
+<group name="Static_Grave3" pos="11715.889648 307.851715 4990.269531" rpy="0.0 0.0 -152.950302" a="-117.049698"/>
+<group name="Static_Grave2" pos="11721.830078 307.832062 4987.557617" rpy="0.0 0.0 -156.830978" a="-113.169022"/>
+<group name="Static_Grave2" pos="11705.719727 307.941589 4995.638672" rpy="0.0 0.0 -154.984222" a="-115.015778"/>
+<group name="Static_Grave1" pos="11729.211914 307.699585 4998.359375" rpy="0.0 0.0 -156.113075" a="-113.886925"/>
+<group name="Static_Grave4" pos="11709.494141 307.951782 4993.332520" rpy="0.0 0.0 -155.90126" a="-114.098740"/>
+<group name="Static_Grave4" pos="11707.536133 307.971863 4994.701172" rpy="0.0 0.0 -148.973587" a="-121.026413"/>
+<group name="Static_Grave4" pos="11713.128906 307.917450 4991.751465" rpy="0.0 0.0 -146.904327" a="-123.095673"/>
+<group name="Static_Grave4" pos="11727.651367 307.854309 4994.473633" rpy="0.0 0.0 28.468761" a="61.531239"/>
+<group name="Static_Grave4" pos="11724.501953 307.922791 4986.370117" rpy="0.0 0.0 -153.816849" a="-116.183151"/>
+<group name="Static_Grave3" pos="11743.976563 307.507172 5026.489746" rpy="0.0 0.0 20.882767" a="69.117233"/>
+<group name="Static_Grave3" pos="11714.001953 307.631989 5014.868164" rpy="0.0 0.0 22.145393" a="67.854607"/>
+<group name="Static_Grave3" pos="11736.795898 307.519135 5040.998047" rpy="0.0 0.0 25.50119" a="64.498810"/>
+<group name="Static_Grave3" pos="11718.330078 307.580231 5013.081543" rpy="0.0 0.0 22.145393" a="67.854607"/>
+<group name="Static_Grave3" pos="11740.141602 307.529114 5017.341309" rpy="0.0 0.0 -157.147881" a="-112.852119"/>
+<group name="Static_Grave3" pos="11728.007813 307.518921 5036.600098" rpy="0.0 0.0 -159.909233" a="-110.090767"/>
+<group name="Static_Grave3" pos="11714.469727 307.768341 5000.170410" rpy="0.0 0.0 22.215218" a="67.784782"/>
+<group name="Static_Grave3" pos="11728.952148 307.519104 5032.388184" rpy="0.0 0.0 20.487946" a="69.512054"/>
+<group name="Static_Grave3" pos="11735.832031 307.528168 5019.184570" rpy="0.0 0.0 -157.147881" a="-112.852119"/>
+<group name="Static_Grave3" pos="11741.013672 307.507507 5038.954590" rpy="0.0 0.0 25.50119" a="64.498810"/>
+<group name="Static_Grave2" pos="11735.278320 307.492493 5041.783691" rpy="0.0 0.0 25.968842" a="64.031158"/>
+<group name="Static_Grave2" pos="11713.548828 307.705902 5004.855469" rpy="0.0 0.0 -158.07373" a="-111.926270"/>
+<group name="Static_Grave2" pos="11723.888672 307.497223 5024.291016" rpy="0.0 0.0 -158.07373" a="-111.926270"/>
+<group name="Static_Grave2" pos="11724.788086 307.493774 5033.994141" rpy="0.0 0.0 20.692047" a="69.307953"/>
+<group name="Static_Grave2" pos="11708.870117 307.819305 5002.625488" rpy="0.0 0.0 22.397179" a="67.602821"/>
+<group name="Static_Grave2" pos="11738.323242 307.491150 5028.808105" rpy="0.0 0.0 21.064743" a="68.935257"/>
+<group name="Static_Grave1" pos="11733.071289 307.475494 5042.914063" rpy="0.0 0.0 25.992287" a="64.007713"/>
+<group name="Static_Grave1" pos="11712.988281 307.731628 5000.843262" rpy="0.0 0.0 22.685104" a="67.314896"/>
+<group name="Static_Grave1" pos="11742.482422 307.465851 5027.124023" rpy="0.0 0.0 21.352654" a="68.647346"/>
+<group name="Static_Grave1" pos="11745.535156 307.425964 5036.534668" rpy="0.0 0.0 25.992287" a="64.007713"/>
+<group name="Static_Grave1" pos="11722.487305 307.491302 5034.918457" rpy="0.0 0.0 20.715477" a="69.284523"/>
+<group name="Static_Grave1" pos="11710.427734 307.737640 5006.189453" rpy="0.0 0.0 -158.050301" a="-111.949699"/>
+<group name="Static_Grave1" pos="11730.454102 307.494141 5007.765625" rpy="0.0 0.0 23.522629" a="66.477371"/>
+<group name="Static_Grave1" pos="11720.768555 307.489197 5025.625000" rpy="0.0 0.0 -158.050301" a="-111.949699"/>
+<group name="Static_Grave4" pos="11744.464844 307.552124 5029.815430" rpy="0.0 0.0 28.150146" a="61.849854"/>
+<group name="Static_Grave4" pos="11726.937500 307.541870 5045.756348" rpy="0.0 0.0 31.547218" a="58.452782"/>
+<group name="Static_Grave4" pos="11739.604492 307.561890 5039.595703" rpy="0.0 0.0 31.547218" a="58.452782"/>
+<group name="Static_Grave4" pos="11725.398438 307.568817 5037.491211" rpy="0.0 0.0 25.217026" a="64.782974"/>
+<group name="Static_Grave4" pos="11731.781250 307.587036 5007.268066" rpy="0.0 0.0 28.191456" a="61.808544"/>
+<group name="Static_Grave4" pos="11737.272461 307.578766 5018.610840" rpy="0.0 0.0 -151.101807" a="-118.898193"/>
+<group name="Static_Grave4" pos="11749.021484 307.463715 5035.117188" rpy="0.0 0.0 27.206921" a="62.793079"/>
+<group name="Static_Grave4" pos="11730.268555 307.568817 5035.529297" rpy="0.0 0.0 25.217026" a="64.782974"/>
+<group name="Static_Grave4" pos="11741.513672 307.556519 5031.058105" rpy="0.0 0.0 -153.958603" a="-116.041397"/>
+<group name="Static_Grave4" pos="11716.884766 307.645996 5013.632324" rpy="0.0 0.0 28.191456" a="61.808544"/>
+<group name="Static_Grave4" pos="11735.942383 307.611481 5005.566895" rpy="0.0 0.0 -155.749878" a="-114.250122"/>

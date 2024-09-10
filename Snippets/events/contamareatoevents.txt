@@ -1,0 +1,6 @@
+Simply add the following snippet to any proto entry!
+the dechance value works like randompresets in chance aspect
+0.5=50% chance, 1 or 1.00=100%
+    <dispatch dechance="1.0" >  
+        <proxy type="ContaminatedArea_Dynamic" pos="0.0 0.0 0.0" rpy="0.0 0.0 0.0" dechance="0.5" />
+    </dispatch>

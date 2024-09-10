@@ -1,0 +1,154 @@
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+This will make your bonfire have a lot 
+more possible spawn points for loot
+38 in total
+****************************************
+<!-- 1st events.xml Replace Entry -->
+    <event name="StaticBonfire">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3888000</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>2500</cleanupradius>
+        <secondary>InfectedHeliGuards</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="34" lootmin="34" max="1" min="1" type="Bonfire"/>
+        </children>
+    </event>
+
+
+<!-- 2nd mapgroupproto.xml Replace Entry -->
+        <group name="Bonfire" lootmax="34"><!-- org was 8 -->
+                <usage name="SeasonalEvent" /><!-- new tag -->
+				<usage name="Military"/>
+                <container name="lootFloor" lootmax="34">
+						<category name="weapons" />
+						<!-- org pos lines
+                        <point pos="2.876667 0.5 3.211807" range="1.65" height="1.5" flags="32" />
+                        <point pos="2.496737 0.5 -3.174454" range="1.65" height="1.5" flags="32" />
+                        <point pos="-3.760472 0.5 3.067368" range="1.65" height="1.5" flags="32" />
+                        <point pos="-2.757211 0.5 -2.885785" range="1.65" height="1.5" flags="32" />
+                        <point pos="-3.068999 0.5 0.274213" range="1.65" height="1.5" flags="32" />
+                        <point pos="3.068931 0.5 0.468461" range="1.65" height="1.5" flags="32" />
+                        <point pos="0.829929 0.5 3.131861" range="1.65" height="1.5" flags="32" />
+                        <point pos="0.975612 0.5 -3.178558" range="1.65" height="1.5" flags="32" />
+						-->
+<!-- modified pos lines -->
+						<point pos="4.293945 -1.541862 4.939941" range="0.100000" height="1.145172" />
+						<point pos="5.630615 -1.221848 3.478027" range="0.203125" height="1.058037" />
+						<point pos="5.128174 -1.250969 3.282227" range="0.237500" height="1.899963" />
+						<point pos="4.601563 -1.275345 3.026855" range="0.237500" height="1.900002" />
+						<point pos="4.976563 -1.479630 5.021972" range="0.340625" height="1.139282" />
+						<point pos="5.462646 -1.856918 3.474609" range="0.595988" height="1.900002" />
+						<point pos="4.273926 -1.856918 6.096679" range="0.718352" height="1.900002" />
+						<point pos="3.722656 -1.856918 4.948730" range="0.821779" height="1.900002" />
+						<point pos="6.276123 -1.856918 6.080566" range="0.827611" height="1.900002" />
+
+						<point pos="5.192871 -1.856918 -4.159668" range="0.846799" height="1.900002" />
+						<point pos="4.588379 -1.856918 -3.039551" range="0.898411" height="1.900002" />
+						<point pos="5.540283 -1.856918 -7.118164" range="0.908636" height="1.900002" />
+						<point pos="2.502686 -1.856918 -5.775879" range="0.942924" height="1.900002" />
+						<point pos="5.894042 -1.856918 -3.567383" range="1.068359" height="1.900002" />
+						<point pos="6.488282 -1.856918 -5.621094" range="1.069595" height="1.900002" />
+						<point pos="2.299072 -1.856918 -4.951172" range="1.199951" height="1.900002" />
+						<point pos="2.732910 -1.856918 -3.940430" range="1.199951" height="1.900002" />
+						
+						<point pos="-4.293945 -1.541862 -4.939941" range="0.100000" height="1.145172" />
+						<point pos="-5.630615 -1.221848 -3.478027" range="0.203125" height="1.058037" />
+						<point pos="-5.128174 -1.250969 -3.282227" range="0.237500" height="1.899963" />
+						<point pos="-4.601563 -1.275345 -3.026855" range="0.237500" height="1.900002" />
+						<point pos="-4.976563 -1.479630 -5.021972" range="0.340625" height="1.139282" />
+						<point pos="-5.462646 -1.856918 -3.474609" range="0.595988" height="1.900002" />
+						<point pos="-4.273926 -1.856918 -6.096679" range="0.718352" height="1.900002" />
+						<point pos="-3.722656 -1.856918 -4.948730" range="0.821779" height="1.900002" />
+						<point pos="-6.276123 -1.856918 -6.080566" range="0.827611" height="1.900002" />
+
+						<point pos="-5.192871 -1.856918 4.159668" range="0.846799" height="1.900002" />
+						<point pos="-4.588379 -1.856918 3.039551" range="0.898411" height="1.900002" />
+						<point pos="-5.540283 -1.856918 7.118164" range="0.908636" height="1.900002" />
+						<point pos="-2.502686 -1.856918 5.775879" range="0.942924" height="1.900002" />
+						<point pos="-5.894042 -1.856918 3.567383" range="1.068359" height="1.900002" />
+						<point pos="-6.488282 -1.856918 5.621094" range="1.069595" height="1.900002" />
+						<point pos="-2.299072 -1.856918 4.951172" range="1.199951" height="1.900002" />
+						<point pos="-2.732910 -1.856918 3.940430" range="1.199951" height="1.900002" />							
+                </container>
+        </group>
+
+
+<!-- 3rd cfgeventspawns.xml Replace Entry -->
+    <event name="StaticBonfire">
+	<zone smin="1" smax="1" dmin="1" dmax="1" r="55" />
+        <pos x="12209.0" z="12834.0" a="0.000000" /><!-- use any or all spawn points here -->
+	</event>
+
+****************************************	
+Org File Created by bhaalshad. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	
+
+
+
+if you want the InfectedHeliGuards that I use add this to your events.xml
+    <event name="InfectedHeliGuards">
+        <nominal>200</nominal>
+        <min>200</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="5" max="10" min="5" type="ZmbM_PolicemanSpecForce"/>
+        </children>
+    </event>
+and in cfgspawnabletypes.xml replace with this 
+    <type name="ZmbM_PolicemanSpecForce">
+        <attachments>
+            <item name="BallisticHelmet_Black" />
+        </attachments>
+        <attachments>
+            <item name="HighCapacityVest_Black" />
+        </attachments>
+        <attachments>
+            <item name="AliceBag_Black" />
+        </attachments>
+        <attachments>
+            <item name="Rice" />
+        </attachments>
+        <attachments>
+            <item name="SodaCan_Kvass" />
+        </attachments>
+        <attachments>
+            <item name="M67Grenade" />
+        </attachments>
+            <cargo chance="1.00">
+    <item name="Mag_AK101_30Rnd" chance="0.10" />
+    <item name="Mag_AKM_30Rnd" chance="0.10" />
+    <item name="Mag_AKM_Drum75Rnd" chance="0.10" />
+    <item name="Mag_FAL_20Rnd" chance="0.10" />
+    <item name="Mag_VAL_20Rnd" chance="0.10" />
+    <item name="Mag_STANAGCoupled_30Rnd" chance="0.10" />
+    <item name="Mag_SVD_10Rnd" chance="0.10" />
+    <item name="Mag_Saiga_Drum20Rnd" chance="0.10" />
+    <item name="Mag_VSS_10Rnd" chance="0.10" />
+    <item name="Mag_AK74_30Rnd" chance="0.10" />            
+            </cargo>
+    </type>

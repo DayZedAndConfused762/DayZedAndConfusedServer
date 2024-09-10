@@ -1,0 +1,69 @@
+﻿<!-- events.xml -->
+
+<event name="StaticHeliCrash">
+        <nominal>12</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="20" lootmin="10" max="4" min="2" type="Wreck_Mi8"/>
+            <child lootmax="20" lootmin="10" max="4" min="2" type="Wreck_UH1Y"/>
+            <child lootmax="20" lootmin="10" max="4" min="2" type="Land_Wreck_C130J"/>
+        </children>
+    </event>
+
+<!-- mapgroupproto.xml -->
+
+<group name="Land_Wreck_C130J" lootmax="10">
+				<usage name="Military" />
+				<container name="lootFloor" lootmax="10">
+						<category name="tools" />
+						<category name="containers" />
+						<category name="clothes" />
+						<category name="weapons" />
+						<tag name="floor" />
+						<tag name="shelves" />
+						<point pos="-1.927728 -1.697937 -0.790661" range="0.134375" height="1.549751" />
+						<point pos="-1.416298 -1.697937 -0.339270" range="0.272949" height="1.520737" />
+						<point pos="0.771750 -1.697937 2.138307" range="0.319800" height="1.469231" />
+						<point pos="-0.713407 -1.697937 0.295482" range="0.330567" height="1.482864" />
+						<point pos="0.801303 -1.697937 1.487146" range="0.332032" height="1.431625" />
+						<point pos="1.546498 -1.697937 1.557528" range="0.340625" height="1.419449" />
+						<point pos="-5.426794 -1.686195 0.940635" range="0.340625" height="1.899956" />
+						<point pos="0.127841 -1.697937 -2.537111" range="0.450698" height="1.900002" />
+						<point pos="-0.761337 -1.697937 -2.720164" range="0.457128" height="1.900002" />
+						<point pos="0.708467 -1.697937 -1.836948" range="0.458892" height="1.900002" />
+						<point pos="-0.017129 -1.697937 1.021565" range="0.469727" height="1.458138" />
+						<point pos="-3.614693 -1.697937 -3.271325" range="0.506054" height="1.900002" />
+						<point pos="-1.585944 -1.697937 2.360873" range="0.510322" height="1.900002" />
+						<point pos="-4.474507 -1.697937 1.532356" range="0.558594" height="1.900002" />
+						<point pos="-5.474088 -1.697937 -2.190016" range="0.562416" height="1.900002" />
+						<point pos="-4.633357 -1.697937 -2.940941" range="0.564847" height="1.900002" />
+						<point pos="-2.941702 -1.697937 -2.424437" range="0.575674" height="1.629967" />
+						<point pos="2.348805 -1.697937 -0.224372" range="0.583300" height="1.900002" />
+						<point pos="-1.804979 -1.697937 -2.684125" range="0.587135" height="1.900002" />
+						<point pos="-0.329995 -1.697937 4.222433" range="0.589417" height="1.900002" />
+						<point pos="-4.072934 -1.697937 -1.919787" range="0.599984" height="1.900002" />
+						<point pos="-2.558625 -1.697937 -3.602155" range="0.600620" height="1.900002" />
+						<point pos="-2.966375 -1.697937 -1.205420" range="0.609667" height="1.675331" />
+						<point pos="-4.092347 -1.697937 -0.665942" range="0.638873" height="1.900002" />
+						<point pos="3.848593 -1.697937 4.011734" range="0.640112" height="1.900002" />
+						<point pos="1.283345 -1.697937 -0.872562" range="0.663839" height="1.900002" />
+						<point pos="-0.547763 -1.697937 2.962240" range="0.689453" height="1.900002" />
+						<point pos="0.862558 -1.697937 4.904042" range="0.766415" height="1.900002" />
+						<point pos="-2.629067 -1.697937 1.523908" range="0.827067" height="1.900002" />
+						<point pos="4.320639 -1.697937 2.597584" range="0.850743" height="1.900002" />
+						<point pos="-5.587495 -1.697937 -0.772088" range="0.860039" height="1.900002" />
+						<point pos="3.368212 -1.697937 0.870082" range="0.912368" height="1.900002" />
+						<point pos="2.554070 -1.697937 4.891639" range="0.925143" height="1.900002" />
+				</container>
+		</group>

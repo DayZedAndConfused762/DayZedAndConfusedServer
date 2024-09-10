@@ -1,0 +1,63 @@
+
+GG Car Lot Event Group NWAF Eaxample
+DabZ n DoritoZ test findings
+
+<!-- Events.xml insert from test -->
+	<event name="StaticCARTEST">
+        <nominal>1</nominal>
+        <min>3</min>
+        <max>0</max>
+        <lifetime>120</lifetime>
+        <restock>10</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>15</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+	
+<!-- Eventspawns.xml insert from test -->
+
+	<event name="StaticCARTEST">
+		<pos x="4700" z="10195" y="339" a="330"  group="StaticCARTEST"/>
+	</event>
+
+<!-- EventGroups.xml insert from Test -->
+
+	<group name="StaticCARTEST">
+       <child type="OffroadHatchback_Blue" deloot="0" lootmax="0" lootmin="0"     x="17" z="-12" a="90" y="0"/>
+       <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="13" z="-12" a="90" y="0"/>
+       <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="7" z="-12" a="90" y="0"/>
+       <child type="OffroadHatchback_Blue" deloot="0" lootmax="0" lootmin="0"     x="0" z="-12" a="90" y="0"/>
+       <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="17" z="-8" a="90" y="0"/>
+       <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="13" z="-8" a="90" y="0"/>
+       <child type="OffroadHatchback_Blue" deloot="0" lootmax="0" lootmin="0"     x="7" z="-8" a="90" y="0"/>
+       <child type="OffroadHatchback_Blue" deloot="0" lootmax="0" lootmin="0"     x="0" z="-8" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="17" z="-4" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="13" z="-4" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="7" z="-4" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="0" z="-4" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="0" z="0" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="7" z="0" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="13" z="0" a="90" y="0"/>
+       <child type="CivilianSedan" deloot="0" lootmax="0" lootmin="0"     x="17" z="0" a="90" y="0"/>
+        <child type="OffroadHatchback" deloot="0" lootmax="0" lootmin="0" x="0" z="4" a="90" y="0"/>
+        <child type="OffroadHatchback" deloot="0" lootmax="0" lootmin="0" x="7" z="4" a="90" y="0"/>
+        <child type="OffroadHatchback" deloot="0" lootmax="0" lootmin="0" x="13" z="4" a="90" y="0"/>
+        <child type="OffroadHatchback" deloot="0" lootmax="0" lootmin="0" x="17" z="4" a="90" y="0"/>
+        <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="0" z="8" a="90" y="0"/>
+        <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="7" z="8" a="90" y="0"/>
+        <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="13" z="8" a="90" y="0"/>
+        <child type="Hatchback_02" deloot="0" lootmax="0" lootmin="0"     x="17" z="8" a="90" y="0"/>
+        <child type="Sedan_02" deloot="0" lootmax="0" lootmin="0"         x="0" z="12" a="90" y="0"/>
+        <child type="Sedan_02" deloot="0" lootmax="0" lootmin="0"         x="7" z="12" a="90" y="0"/>
+        <child type="Sedan_02" deloot="0" lootmax="0" lootmin="0"         x="13" z="12" a="90" y="0"/>
+        <child type="Sedan_02" deloot="0" lootmax="0" lootmin="0"         x="17" z="12" a="90" y="0"/>
+        <child type="Offroad_02" deloot="0" lootmax="0" lootmin="0"       x="0" z="16" a="90" y="0"/>
+        <child type="Offroad_02" deloot="0" lootmax="0" lootmin="0"       x="7" z="16" a="90" y="0"/>
+        <child type="Offroad_02" deloot="0" lootmax="0" lootmin="0"       x="13" z="16" a="90" y="0"/>
+        <child type="Offroad_02" deloot="0" lootmax="0" lootmin="0"       x="17" z="16" a="90" y="0"/>
+    </group>

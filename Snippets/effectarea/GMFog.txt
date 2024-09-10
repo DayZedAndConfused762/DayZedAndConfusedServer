@@ -1,0 +1,29 @@
+Mystical Fog on Green Mountain
+add the below insert into your cfgEffectArea.json file
+All entries must have a comma separating each other except the last. If you're adding this to the bottom of your file then the last comma needs to be removed.
+https://www.youtube.com/watch?v=vGETwwtCKkk
+
+        {     "AreaName": "GMfog-Main", 
+            "Type": "SpookyArea", 
+            "TriggerType": "SpookyTrigger",
+            "Data": { 
+                "Pos": [ 3720, 0, 6000 ],
+                "Radius": 150,
+                "PosHeight": 15,
+                "NegHeight": 10,
+                "InnerRingCount": 2,
+                "InnerPartDist": 35,
+                "OuterRingToggle": 1, 
+                "OuterPartDist": 20, 
+                "OuterOffset": -5, 
+                "VerticalLayers": 0,
+                "VerticalOffset": 0,
+                "ParticleName": "graphics/particles/spooky_mist"
+                },
+            "PlayerData": {
+                "AroundPartName": "graphics/particles/spooky_mist",
+                "TinyPartName": "graphics/particles/",
+                "PPERequesterType": "PPERequester_GlassesSportGreen"
+            }
+        },
+

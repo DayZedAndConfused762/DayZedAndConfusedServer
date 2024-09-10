@@ -1,0 +1,201 @@
+****** install notes ******
+To install this mod, first stop your server 
+and then paste this code into the correct files.
+once you have done that you can then save/upload your files,
+if done correctly you will have these stashes spawning on your server.
+
+always validate your files after editing any code.
+
+Files used: events.xml, eventspawns.xml, cfgspawnabletypes.xml
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+Dynamic event spawning buried stashes around set military areas.
+
+****************************************
+<!-- events.xml New Entry -->
+
+    <event name="Static_Mil_Stash">
+        <nominal>21</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>2500</lifetime>
+        <restock>0</restock>
+        <saferadius>250</saferadius>
+        <distanceradius>250</distanceradius>
+        <cleanupradius>250</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="21" min="10" type="UndergroundStash"/>
+        </children>
+    </event>
+
+
+
+<!-- eventspawns.xml New Entry -->
+
+	<event name="Static_Mil_Stash">
+		<zone smin="0" smax="6" dmin="10" dmax="15" r="50" />
+        <!-- Gliniska AirField -->
+		<pos x="3855.43" z="10313.5" a="0"/>
+		<pos x="3971.23" z="10136.2" a="0"/>
+		<pos x="4033.1" z="10115.4" a="0"/>
+		<pos x="4065.96" z="10154.4" a="0"/>
+		<pos x="4258.86" z="10463.8" a="0"/>
+		<pos x="4327.95" z="10448.1" a="0"/>
+		<pos x="4368.22" z="10504.9" a="0"/>
+		<pos x="4282.15" z="10355.1" a="0"/>
+        <!-- Radunin -->
+		<pos x="7403.13" z="6204.05" a="0"/>
+		<pos x="7524.55" z="6104.44" a="0"/>
+		<pos x="7585.61" z="6094.78" a="0"/>
+		<pos x="7574.04" z="6004.61" a="0"/>
+		<pos x="7559.95" z="6008.47" a="0"/>
+		<pos x="7552.84" z="6183.7" a="0"/>
+		<pos x="7684.04" z="5954.06" a="0"/>
+        <!-- Wrzeszcz / Gieraltow -->
+		<pos x="9919.28" z="3771.38" a="0"/>
+		<pos x="9934.53" z="3770.59" a="0"/>
+		<pos x="9913.8" z="3952.67" a="0"/>
+		<pos x="9846.58" z="3812.24" a="0"/>
+		<pos x="9794.62" z="3775.39" a="0"/>
+		<pos x="9895.41" z="3916.04" a="0"/>
+	</event>
+
+<!-- spawnabletypes.xml New Entry -->
+
+<!-- Feel Free to change cargo. -->
+	<type name="UndergroundStash">
+	<!-- Weapon 1 -->
+		<cargo>
+			<item name="ASVAL" />
+		</cargo>
+		<cargo>
+			<item name="Mag_VAL_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="Mag_VAL_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="PSO11Optic" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_9x39AP_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_9x39AP_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_9x39AP_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_9x39AP_20Rnd" />
+		</cargo>
+	<!-- Weapon 2 -->
+		<cargo>
+			<item name="M16A2" />
+		</cargo>
+		<cargo>
+			<item name="Mag_STANAG_60Rnd" />
+		</cargo>
+		<cargo>
+			<item name="Mag_STANAG_60Rnd" />
+		</cargo>
+		<cargo>
+			<item name="M4_Suppressor" />
+		</cargo>
+		<cargo>
+			<item name="ACOGOptic_6x" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
+		</cargo>
+		<cargo>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
+		</cargo>
+	<!-- Extras -->
+		<cargo>
+			<item name="TripwireTrap" chance="0.5" />
+			<item name="LandMineTrap" chance="0.5" />
+			<item name="RGD5Grenade" chance="0.30" />
+			<item name="M67Grenade" chance="0.30" />
+			<item name="FlashGrenade" chance="0.30" />
+		</cargo>
+		<cargo>
+			<item name="M18SmokeGrenade_Green" chance="0.20" />
+			<item name="M18SmokeGrenade_Purple" chance="0.20" />
+			<item name="M18SmokeGrenade_Red" chance="0.20" />
+			<item name="M18SmokeGrenade_White" chance="0.20" />
+			<item name="M18SmokeGrenade_Yellow" chance="0.20" />
+		</cargo>
+		<cargo>
+			<item name="RDG2SmokeGrenade_Black" chance="0.25" />
+			<item name="RDG2SmokeGrenade_White" chance="0.25" />
+		</cargo>
+	<!-- Outfit -->
+		<cargo>
+			<item name="GorkaHelmet" />
+		</cargo>
+		<cargo>
+			<item name="GorkaHelmetVisor" />
+		</cargo>
+		<cargo>
+			<item name="Balaclava3Holes_Green" />
+		</cargo>
+		<cargo>
+			<item name="GorkaEJacket_Autumn" chance="0.50" />
+			<item name="BDUJacket" chance="0.50" />
+		</cargo>
+		<cargo>
+			<item name="TacticalGloves_Green" />
+		</cargo>
+		<cargo>
+			<item name="GorkaPants_Autumn" chance="0.50" />
+			<item name="BDUPants" chance="0.50" />
+		</cargo>
+		<cargo>
+			<item name="MilitaryBoots_Redpunk" />
+		</cargo>
+		<cargo>
+			<item name="AliceBag_Green" />
+		</cargo>
+	<!-- consumables -->
+		<cargo>
+			<item name="TacticalBaconCan_Opened" chance="0.50" />
+			<item name="Rice" chance="0.50" />
+		</cargo>
+		<cargo>
+			<item name="Vodka" />
+		</cargo>
+		<cargo>
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo>
+			<item name="SalineBagIV" />
+		</cargo>
+	</type>
+
+
+****************************************		
+Org File Created by Dayzdevil. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

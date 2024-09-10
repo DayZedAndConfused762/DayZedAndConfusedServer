@@ -1,0 +1,116 @@
+<event name="StaticMortars1">
+    <pos x="9655.40" z="8877.78" a="0.000000" />
+    <pos x="9645.88" z="8833.06" a="0.000000" />
+    <pos x="9749.37" z="8855.90" a="0.000000" />
+    <pos x="9687.23" z="8832.26" a="0.000000" />
+</event>
+<event name="StaticMortars2">
+    <pos x="9735.63" z="8851.12" a="0.000000" />
+    <pos x="9738.28" z="8909.96" a="0.000000" />
+    <pos x="9736.99" z="8838.03" a="0.000000" />
+    <pos x="9615.87" z="8811.70" a="0.000000" />
+</event>
+<event name="StaticMortars3">
+    <pos x="9724.59" z="8931.54" a="0.000000" />
+    <pos x="9623.98" z="8798.92" a="0.000000" />
+    <pos x="9686.08" z="8834.87" a="0.000000" />
+    <pos x="9688.12" z="8900.46" a="0.000000" />
+</event>
+<event name="StaticMortars4">
+    <pos x="9634.05" z="8869.30" a="0.000000" />
+    <pos x="9715.38" z="8859.05" a="0.000000" />
+    <pos x="9633.88" z="8784.35" a="0.000000" />
+    <pos x="9673.84" z="8824.32" a="0.000000" />
+</event>
+<event name="StaticMortars5">
+    <pos x="9667.33" z="8900.87" a="0.000000" />
+    <pos x="9681.28" z="8789.72" a="0.000000" />
+    <pos x="9708.14" z="8809.51" a="0.000000" />
+    <pos x="9737.65" z="8897.57" a="0.000000" />
+</event>
+Copy and Paste the Values Below to Events:
+<event name="StaticMortars1">
+    <nominal>3</nominal>
+    <min>3</min>
+    <max>4</max>
+    <lifetime>1</lifetime>
+    <restock>1</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1</cleanupradius>
+    <flags deletable="1" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="4" min="3" type="ExplosionTest"/>
+    </children>
+</event>
+<event name="StaticMortars2">
+    <nominal>3</nominal>
+    <min>3</min>
+    <max>4</max>
+    <lifetime>1</lifetime>
+    <restock>1</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1</cleanupradius>
+    <flags deletable="1" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="4" min="3" type="ExplosionTest"/>
+    </children>
+</event>
+<event name="StaticMortars3">
+    <nominal>3</nominal>
+    <min>3</min>
+    <max>4</max>
+    <lifetime>1</lifetime>
+    <restock>1</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1</cleanupradius>
+    <flags deletable="1" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="4" min="3" type="ExplosionTest"/>
+    </children>
+</event>
+<event name="StaticMortars4">
+    <nominal>3</nominal>
+    <min>3</min>
+    <max>4</max>
+    <lifetime>1</lifetime>
+    <restock>1</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1</cleanupradius>
+    <flags deletable="1" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="4" min="3" type="ExplosionTest"/>
+    </children>
+</event>
+<event name="StaticMortars5">
+    <nominal>3</nominal>
+    <min>3</min>
+    <max>4</max>
+    <lifetime>1</lifetime>
+    <restock>1</restock>
+    <saferadius>0</saferadius>
+    <distanceradius>1</distanceradius>
+    <cleanupradius>1</cleanupradius>
+    <flags deletable="1" init_random="0" remove_damaged="0"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>1</active>
+    <children>
+        <child lootmax="0" lootmin="0" max="4" min="3" type="ExplosionTest"/>
+    </children>
+</event>

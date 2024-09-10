@@ -1,0 +1,435 @@
+****************************************
+
+This will create a bombing effect followed by a strafing effect along the runway at NWAF
+
+****************************************
+<!-- 1st cfgeventspawns.xml New Entry -->
+<!-- Air Strike Runway -->
+<event name="StaticAirStrike1">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="3979.63" z="10222.18" a="0.000000" />
+</event>
+<event name="StaticAirStrike2">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="3954.63" z="10231.56" a="0.000000" />
+</event>
+<event name="StaticAirStrike3">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="3946.43" z="10252.27" a="0.000000" />
+</event>
+<event name="StaticAirStrike4">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="3956.97" z="10274.15" a="0.000000" />
+</event>
+<event name="StaticAirStrike5">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="3980.81" z="10284.70" a="0.000000" />
+</event>
+<event name="StaticAirStrike6">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="4004.64" z="10274.54" a="0.000000" />
+</event>
+<event name="StaticAirStrike7">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="4014.80" z="10251.88" a="0.000000" />
+</event>
+<event name="StaticAirStrike8">
+<zone smin="1" smax="1" dmin="1" dmax="1" r="10" />
+<pos x="4004.64" z="10229.22" a="0.000000" />
+</event>
+<event name="StaticAirStrikeCenter">
+<zone smin="3" smax="3" dmin="3" dmax="3" r="10" />
+<pos x="3980.81" z="10252.27" a="0.000000" />
+<pos x="3982.81" z="10254.27" a="0.000000" />
+<pos x="3978.81" z="10250.27" a="0.000000" />
+</event>
+
+<!-- Air Strafe Runway -->
+<event name="StaticAirStrikeRunway1">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3943.00" z="10298.00" a="0.000000" />
+<pos x="4017.00" z="10235.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway2">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3927.00" z="10282.00" a="0.000000" />
+<pos x="4001.00" z="10219.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway3">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3911.00" z="10266.00" a="0.000000" />
+<pos x="3985.00" z="10203.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway4">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3895.00" z="10250.00" a="0.000000" />
+<pos x="3969.00" z="10187.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway5">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3879.00" z="10234.00" a="0.000000" />
+<pos x="3953.00" z="10171.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway6">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3863.00" z="10218.00" a="0.000000" />
+<pos x="3937.00" z="10155.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway7">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3847.00" z="10202.00" a="0.000000" />
+<pos x="3921.00" z="10139.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway8">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3831.00" z="10186.00" a="0.000000" />
+<pos x="3905.00" z="10123.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway9">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3815.00" z="10170.00" a="0.000000" />
+<pos x="3889.00" z="10107.00" a="0.000000" />
+</event>
+<event name="StaticAirStrikeRunway10">
+<zone smin="2" smax="2" dmin="2" dmax="2" r="10" />
+<pos x="3799.00" z="10154.00" a="0.000000" />
+<pos x="3873.00" z="10091.00" a="0.000000" />
+</event>
+
+
+<!-- 2nd events.xml New Entry -->
+<!-- Air Strikes -->
+
+    <event name="StaticAirStrike1">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrike2">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrike3">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrike4">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrike5">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrike6">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrike7">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrike8">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>2</lifetime>
+        <restock>1.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>	
+    <event name="StaticAirStrikeCenter">
+        <nominal>3</nominal>
+        <min>3</min>
+        <max>3</max>
+        <lifetime>2</lifetime>
+        <restock>2.0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+        </children>
+    </event>
+
+	<!-- Air Strafe -->
+
+    <event name="StaticAirStrikeRunway1">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.1</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>	
+    <event name="StaticAirStrikeRunway2">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.2</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrikeRunway3">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.3</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrikeRunway4">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.4</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>
+    <event name="StaticAirStrikeRunway5">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.5</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>	
+    <event name="StaticAirStrikeRunway6">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.6</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>	
+    <event name="StaticAirStrikeRunway7">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.7</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>	
+    <event name="StaticAirStrikeRunway8">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.8</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>	
+    <event name="StaticAirStrikeRunway9">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>2.9</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>	
+    <event name="StaticAirStrikeRunway10">
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>2</lifetime>
+        <restock>3</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="ExplosionTest"/>
+        </children>
+    </event>
+
+
+
+****************************************	
+Org File Created by Bhaalshad. For more help files for DayZ come visit us at http://bhaalshad.com 
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	
