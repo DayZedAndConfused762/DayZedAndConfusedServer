@@ -1,0 +1,52 @@
+HOW TO SPAWN ITEMS WITH ATTACHMENTS IN CONTAINERS
+
+all you have to do is fill the iventory of the car,chest,bag,jacket,pants,vest etc evenly and completely 42/42 or 100/100 400/400 etc
+then add your attachments at the end and they will spawn on any item that they can attach to.
+there is one problem with this and its similar to the dysync with npc, all of the attachments that spawn attached to a gun/item spawn dysync/stuck on the gun/item and you have to sync them by logging out and in, or while standing at or on the car,chest,bag,jacket,pants,vest etc that you grabbed your fully equipped gun/item from you have to take off the attachments and then re equip them and you have to do that while at or on the car,chest,bag,jacket,pants,vest etc.                        
+if you do not sync your items they might despawn when the car,chest,bag,jacket,pants,vest etc that you got your fully equipped gun/item from despawns or a few seconds after that, if your attachments dont despawn they will be stuck.
+if your wearing the bag,vest,pants etc and dont plan on removing them then you dont have to worry about anything and all item will stay sync and you dont have to do nothing  
+you do not have to sync mags that i know of, ive been doing this for A year on my high pop community servers and have had no problems with mags          
+dysync attachments in containers disappear during restart "if a car with fully equiped items doesnt get touched and the server restarts the attachments despawn" 
+
+ MAKE SURE YOU READ EVERYTHING ABOVE BEFORE USING THIS CODE 
+<!-- +++++++++++++++++++ <({ GG })> ++++++++++++++++++++ -->
+
+<type name="M65Jacket_Olive">
+<attachments><item name="AK101" /></attachments>
+<attachments><item name="Mag_AK101_30Rnd" /></attachments>
+<attachments><item name="Mag_AK101_30Rnd" /></attachments>
+<attachments><item name="Lunchmeat_Opened" /></attachments>
+<attachments><item name="Lunchmeat_Opened" /></attachments>
+<attachments><item name="BandageDressing" /></attachments>
+<attachments><item name="BandageDressing" /></attachments>
+<attachments><item name="Mag_AK101_30Rnd" /></attachments>
+<attachments><item name="AK_Suppressor" /></attachments>
+<attachments><item name="AK_WoodHndgrd_Camo" /></attachments>
+<attachments><item name="AK_WoodBttstck_Camo" /></attachments>
+    </type>
+
+<type name="MountainBag_Blue">
+<attachments><item name="FAMAS" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="PlateCarrierVest" /></attachments>
+<attachments><item name="NVGHeadstrap" /></attachments>
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="VitaminBottle" /></attachments>
+<attachments><item name="TetracyclineAntibiotics" /></attachments>
+<attachments><item name="BandageDressing" /></attachments>
+<attachments><item name="BandageDressing" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="M67Grenade" /></attachments>
+<attachments><item name="M67Grenade" /></attachments>
+<attachments><item name="M67Grenade" /></attachments>
+<attachments><item name="M67Grenade" /></attachments>
+<attachments><item name="PlateCarrierPouches" /></attachments>
+    </type>

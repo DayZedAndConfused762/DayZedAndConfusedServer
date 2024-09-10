@@ -1,0 +1,35 @@
+
+****** install notes ******
+leave all files as they are to make sure you have no problems when installing!.
+
+****************************************
+Next to the  file name will be a comment,
+New Entry or Replace Entry.
+For New Entry - Place anywhere in the file (I prefer near the top).
+For Replace Entry - Remove old code then place mine in.
+****************************************
+
+spawn cooking pots full of water. by Dayzdevil#0666
+
+****************************************
+<!-- types.xml Replace Entry -->
+  
+    <type name="Pot">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+
+****************************************	
+Org File Created by Dayzdevil#0666. For more modded files contact Dayzdevil#0666 on discord.
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)	

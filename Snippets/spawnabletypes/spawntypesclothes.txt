@@ -1,0 +1,531 @@
+SpawnableTypes Examples of Clothing
+
+<type name="Mich2001Helmet">
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="UniversalLight" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+    </type>
+    <type name="NVGHeadstrap">
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+    </type>
+     <type name="GorkaHelmet">
+<attachments><item name="GorkaHelmetVisor" /></attachments>
+     </type>
+     <type name="GorkaHelmet_Green">
+<attachments><item name="GorkaHelmetVisor" /></attachments>
+     </type>
+     <type name="GorkaHelmet_Black">
+<attachments><item name="GorkaHelmetVisor" /></attachments>
+     </type>
+<type name="PlateCarrierVest">
+        <damage min="0.1" max="0.1" />
+        <attachments chance="1">
+            <item name="PlateCarrierHolster" chance="1.00" />
+        </attachments>
+        <attachments chance="1">
+            <item name="PlateCarrierPouches" chance="1.00" />
+        </attachments>
+                <attachments chance="1.00">
+            <item name="SodaCan_Pipsi" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BandageDressing" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SalineBagIV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="PlateCarrierVest_Camo">
+        <damage min="0.1" max="0.1" />
+        <attachments chance="1">
+            <item name="PlateCarrierHolster_Camo" chance="1.00" />
+        </attachments>
+        <attachments chance="1">
+            <item name="PlateCarrierPouches_Camo" chance="1.00" />
+        </attachments>
+
+  <attachments chance="1.00">
+            <item name="SodaCan_Pipsi" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BandageDressing" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SalineBagIV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="PlateCarrierVest_Green">
+        <damage min="0.1" max="0.1" />
+        <attachments chance="1">
+            <item name="PlateCarrierHolster_Green" chance="1.00" />
+        </attachments>
+        <attachments chance="1">
+            <item name="PlateCarrierPouches_Green" chance="1.00" />
+        </attachments>
+   <attachments chance="1.00">
+            <item name="SodaCan_Pipsi" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BandageDressing" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SalineBagIV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+    </type>
+ <type name="PlateCarrierVest_Black">
+        <damage min="0.1" max="0.1" />
+        <attachments chance="1">
+            <item name="PlateCarrierHolster_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="1">
+            <item name="PlateCarrierPouches_Black" chance="1.00" />
+        </attachments>
+                <attachments chance="1.00">
+            <item name="SodaCan_Pipsi" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="BandageDressing" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="SalineBagIV" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="TacticalBaconCan_Opened" chance="1.00" />
+        </attachments>
+    </type>
+<type name="NVGHeadstrap">
+        <attachments chance="1.00">
+            <item name="NVGoggles" chance="1.00" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Battery9V" chance="1.00" />
+        </attachments>
+    </type>
+
+Belts
+
+<type name="CivilianBelt">
+        <attachments chance="1">
+            <item name="NylonKnifeSheath" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="CombatKnife" chance="0.25" />
+            <item name="HuntingKnife" chance="0.25" />
+            <item name="FangeKnife" chance="0.25" />
+            <item name="KitchenKnife" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="PlateCarrierHolster" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Magnum" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Canteen" chance="1" />
+        </attachments>
+    </type>
+    <type name="MilitaryBelt">
+        <attachments chance="1">
+            <item name="NylonKnifeSheath" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="CombatKnife" chance="0.25" />
+            <item name="HuntingKnife" chance="0.25" />
+            <item name="FangeKnife" chance="0.25" />
+            <item name="KitchenKnife" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="PlateCarrierHolster" chance="1" />
+        </attachments>
+        <attachments chance="1">
+ <item name="Magnum" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Canteen" chance="1" />
+        </attachments>
+    </type>
+
+
+    <type name="AliceBag_Green">
+        <attachments chance="1">
+            <item name="Winchester70_Black" chance="0.33" />
+            <item name="Winchester70" chance="0.33" />
+            <item name="Winchester70_Green" chance="0.33" />
+        </attachments>
+        <attachments chance="0.5">
+            <item name="ImprovisedSuppressor" chance="1.00" />
+        </attachments>
+        <attachments chance="1">
+            <item name="HuntingOptic" chance="1.00" />
+        </attachments>
+        <attachments chance="1">
+            <item name="FAL" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Fal_FoldingBttstck" chance="0.5" />
+            <item name="Fal_OeBttstck" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="ACOGOptic" chance="0.5" />
+            <item name="ACOGOptic_6x" chance="0.5" />
+        </attachments>
+        <attachments chance="0.80">
+            <item name="Chemlight_Blue" chance="0.20" />
+            <item name="Chemlight_Green" chance="0.20" />
+            <item name="Chemlight_Red" chance="0.20" />
+            <item name="Chemlight_Yellow" chance="0.20" />
+            <item name="Chemlight_White" chance="0.20" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Mag_FAL_20Rnd" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Mag_FAL_20Rnd" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Mag_FAL_20Rnd" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Ammo_308Win" chance="0.5" />
+            <item name="Ammo_308WinTracer" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Ammo_308Win" chance="0.5" />
+            <item name="Ammo_308WinTracer" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Ammo_308Win" chance="0.5" />
+            <item name="Ammo_308WinTracer" chance="0.5" />
+        </attachments>
+        <attachments chance="0.80">
+            <item name="Chemlight_Blue" chance="0.20" />
+            <item name="Chemlight_Green" chance="0.20" />
+            <item name="Chemlight_Red" chance="0.20" />
+            <item name="Chemlight_Yellow" chance="0.20" />
+            <item name="Chemlight_White" chance="0.20" />
+        </attachments>
+    </type>
+
+    <type name="AliceBag_Camo">
+        <attachments chance="1">
+            <item name="SKS" chance="0.33" />
+            <item name="SKS_Green" chance="0.33" />
+            <item name="SKS_Black" chance="0.33" />
+        </attachments>
+        <attachments chance="1">
+            <item name="PUScopeOptic" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="AKM" chance="1" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="AK_PlasticBttstck_Green" chance="0.2" />
+            <item name="AK_WoodBttstck_Camo" chance="0.2" />
+            <item name="AK_FoldingBttstck_Green" chance="0.2" />
+            <item name="AK_WoodBttstck_Black" chance="0.2" />
+            <item name="AK_WoodBttstck" chance="0.2" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="AK_RailHndgrd_Green" chance="0.15" />
+            <item name="AK_WoodHndgrd_Camo" chance="0.15" />
+            <item name="AK_WoodHndgrd_Black" chance="0.20" />
+            <item name="AK_WoodHndgrd" chance="0.20" />
+            <item name="AK_RailHndgrd" chance="0.15" />
+            <item name="AK74_Hndgrd" chance="0.15" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="PSO1Optic" chance="0.30" />
+            <item name="KobraOptic" chance="0.40" />
+        </attachments>
+        <attachments chance="0.50">
+            <item name="AK_Suppressor" chance="0.60" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_AKM_Drum75Rnd_Green" chance="0.11" />
+            <item name="Mag_AKM_Drum75Rnd" chance="0.12" />
+            <item name="Mag_AKM_Palm30Rnd" chance="0.325" />
+            <item name="Mag_AKM_30Rnd" chance="0.325" />
+            <item name="Mag_AKM_Palm30Rnd_Green" chance="0.12" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_AKM_Drum75Rnd_Green" chance="0.11" />
+            <item name="Mag_AKM_Drum75Rnd" chance="0.12" />
+            <item name="Mag_AKM_Palm30Rnd" chance="0.325" />
+            <item name="Mag_AKM_30Rnd" chance="0.325" />
+            <item name="Mag_AKM_Palm30Rnd_Green" chance="0.12" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_AKM_Drum75Rnd_Green" chance="0.11" />
+            <item name="Mag_AKM_Drum75Rnd" chance="0.12" />
+            <item name="Mag_AKM_Palm30Rnd" chance="0.325" />
+            <item name="Mag_AKM_30Rnd" chance="0.325" />
+            <item name="Mag_AKM_Palm30Rnd_Green" chance="0.12" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Ammo_762x39" chance="0.5" />
+            <item name="Ammo_762x39Tracer" chance="0.5" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Ammo_762x39" chance="0.5" />
+            <item name="Ammo_762x39Tracer" chance="0.5" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Ammo_762x39" chance="0.5" />
+            <item name="Ammo_762x39Tracer" chance="0.5" />
+        </attachments>
+        <attachments chance="0.80">
+            <item name="Chemlight_Blue" chance="0.20" />
+            <item name="Chemlight_Green" chance="0.20" />
+            <item name="Chemlight_Red" chance="0.20" />
+            <item name="Chemlight_Yellow" chance="0.20" />
+            <item name="Chemlight_White" chance="0.20" />
+        </attachments>
+    </type>
+
+    <type name="AliceBag_Black">
+        <attachments chance="1">
+            <item name="Scout" chance="1" />
+        </attachments>
+        <attachments chance="0.5">
+            <item name="M4_Suppressor" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="ACOGOptic" chance="0.5" />
+            <item name="ACOGOptic_6x" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="M4A1_Green" chance="0.5" />
+            <item name="M4A1" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="M4_MPBttstck_Green" chance="0.25" />
+            <item name="M4_CQBBttstck_Green" chance="0.25" />
+            <item name="M4_MPBttstck" chance="0.25" />
+            <item name="M4_CQBBttstck" chance="0.25" />
+        </attachments>
+        <attachments chance="1">
+            <item name="M4_RISHndgrd" chance="0.5" />
+            <item name="M4_RISHndgrd_Green" chance="0.5" />
+        </attachments>
+        <attachments chance="0.6">
+            <item name="M4_T3NRDSOptic" chance="0.2" />
+            <item name="M68Optic" chance="0.2" />
+            <item name="ReflexOptic" chance="0.2" />
+            <item name="BUISOptic" chance="0.2" />
+            <item name="ACOGOptic" chance="0.2" />
+        </attachments>
+        <attachments chance="0.75">
+            <item name="M4_Suppressor" chance="0.5" />
+            <item name="M9A1_Bayonet" chance="0.5" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_CMAG_40Rnd" chance="0.25" />
+            <item name="Mag_STANAG_30Rnd" chance="0.3" />
+            <item name="Mag_CMAG_40Rnd_Green" chance="0.25" />
+            <item name="Mag_STANAGCoupled_30Rnd" chance="0.12" />
+            <item name="Mag_STANAG_60Rnd" chance="0.8" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_CMAG_40Rnd" chance="0.25" />
+            <item name="Mag_STANAG_30Rnd" chance="0.3" />
+            <item name="Mag_CMAG_40Rnd_Green" chance="0.25" />
+            <item name="Mag_STANAGCoupled_30Rnd" chance="0.12" />
+            <item name="Mag_STANAG_60Rnd" chance="0.8" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Mag_CMAG_40Rnd" chance="0.25" />
+            <item name="Mag_STANAG_30Rnd" chance="0.3" />
+            <item name="Mag_CMAG_40Rnd_Green" chance="0.25" />
+            <item name="Mag_STANAGCoupled_30Rnd" chance="0.12" />
+            <item name="Mag_STANAG_60Rnd" chance="0.8" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Mag_Scout_5Rnd" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Mag_Scout_5Rnd" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Mag_Scout_5Rnd" chance="1" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Ammo_556x45" chance="0.5" />
+            <item name="Ammo_556x45Tracer" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Ammo_556x45" chance="0.5" />
+            <item name="Ammo_556x45Tracer" chance="0.5" />
+        </attachments>
+        <attachments chance="1">
+            <item name="Ammo_556x45" chance="0.5" />
+            <item name="Ammo_556x45Tracer" chance="0.5" />
+        </attachments>
+        <attachments chance="0.80">
+            <item name="Chemlight_Blue" chance="0.20" />
+            <item name="Chemlight_Green" chance="0.20" />
+            <item name="Chemlight_Red" chance="0.20" />
+            <item name="Chemlight_Yellow" chance="0.20" />
+            <item name="Chemlight_White" chance="0.20" />
+        </attachments>
+    </type>
+
+<type name="MountainBag_Red">
+   <attachments><item name="AK74_Green" /></attachments>
+   <attachments><item name="AK74_Hndgrd_Black" /></attachments>
+   <attachments><item name="AK74_WoodBttstck_Black" /></attachments>
+   <attachments><item name="AK_Supressor" /></attachments>
+   <attachments><item name="Mag_AK74_45Rnd" /></attachments>
+   <attachments><item name="Mag_AK74_45Rnd" /></attachments>
+   <attachments><item name="Mag_AK74_45Rnd" /></attachments>
+   <attachments><item name="Mag_AK74_45Rnd" /></attachments>
+   <attachments><item name="PlateCarrierVest" /></attachments>
+   <attachments><item name="NVGHeadstrap" /></attachments>
+   <attachments><item name="NVGoggles" /></attachments>
+   <attachments><item name="Battery9V" /></attachments>
+   <attachments><item name="VitaminBottle" /></attachments>
+   <attachments><item name="SodaCan_Spite" /></attachments>
+   <attachments><item name="SodaCan_Spite" /></attachments>
+           </type>
+
+ <type name="MountainBag_Orange">
+<attachments><item name="Aug" /></attachments>
+<attachments><item name="M4_Suppressor" /></attachments>
+<attachments><item name="ACOGOptic" /></attachments>        
+<attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+<attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+<attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+<attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+<attachments><item name="PlateCarrierVest" /></attachments>
+<attachments><item name="NVGHeadstrap" /></attachments>
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="VitaminBottle" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+    </type>
+
+    <type name="MountainBag_Blue">
+<attachments><item name="FAMAS" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="Mag_FAMAS_25Rnd" /></attachments>
+<attachments><item name="PlateCarrierVest" /></attachments>
+<attachments><item name="NVGHeadstrap" /></attachments>
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="VitaminBottle" /></attachments>
+<attachments><item name="TetracyclineAntibiotics" /></attachments>
+<attachments><item name="BandageDressing" /></attachments>
+<attachments><item name="BandageDressing" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+    </type>
+
+   <type name="MountainBag_Green">
+<attachments><item name="AK74_Green" /></attachments>
+<attachments><item name="AK74_Hndgrd_Black" /></attachments>
+<attachments><item name="AK74_WoodBttstck_Black" /></attachments>
+<attachments><item name="Mag_AK74_45Rnd" /></attachments>
+<attachments><item name="Mag_AK74_45Rnd" /></attachments>
+<attachments><item name="Mag_AK74_45Rnd" /></attachments>
+<attachments><item name="Mag_AK74_45Rnd" /></attachments>
+<attachments><item name="PlateCarrierVest" /></attachments>
+<attachments><item name="NVGHeadstrap" /></attachments>
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="VitaminBottle" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+<attachments><item name="SodaCan_Spite" /></attachments>
+    </type>
+
+    <type name="DryBag_Red">
+<attachments><item name="FAL" /></attachments>
+<attachments><item name="ACOGOptic" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="Mich2001Helmet" /></attachments>
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Fal_FoldingBttstck" /></attachments>
+    </type>
+
+    <type name="DryBag_Black">
+<attachments><item name="FAL" /></attachments>
+<attachments><item name="ACOGOptic" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Mag_FAL_20Rnd" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="Mich2001Helmet" /></attachments>
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Fal_FoldingBttstck" /></attachments>
+    </type>
+
+   <type name="DryBag_Green">
+<attachments><item name="M4A1" /></attachments>
+<attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+<attachments><item name="ACOGOptic_6x" /></attachments>
+<attachments><item name="Battery9V" /></attachments>
+<attachments><item name="Mich2001Helmet" /></attachments>
+<attachments><item name="NVGoggles" /></attachments>
+<attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+    </type>
+
+<type name="SeaChest">
+        <attachments><item name="SodaCan_Spite" /></attachments>
+        <attachments><item name="SodaCan_Spite" /></attachments>
+        <attachments><item name="Rice" /></attachments>
+        <attachments><item name="Lockpick" /></attachments>
+        <attachments><item name="BandageDressing" /></attachments>
+        <attachments><item name="VitaminBottle" /></attachments>
+        <attachments><item name="NVGHeadstrap" /></attachments>
+        <attachments><item name="NVGoggles" /></attachments>
+        <attachments><item name="M4A1_Black" /></attachments>
+        <attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+        <attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+        <attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+        <attachments><item name="Battery9V" /></attachments>
+        <attachments><item name="Battery9V" /></attachments>
+        <attachments><item name="ACOGOptic" /></attachments>
+        <attachments><item name="PlateCarrierVest" /></attachments>
+        
+        <attachments><item name="M4_MPHndgrd_Black" /></attachments>
+        <attachments><item name="M4_MPBttstck_Black" /></attachments>
+        <attachments><item name="M4_Suppressor" /></attachments>
+        <attachments><item name="Mag_STANAG_60Rnd" /></attachments>
+        <attachments><item name="M67Grenade" /></attachments>
+        <attachments><item name="M67Grenade" /></attachments>
+        <attachments><item name="M67Grenade" /></attachments>
+        <attachments><item name="M67Grenade" /></attachments>
+        <attachments><item name="PlateCarrierPouches" /></attachments>
+    </type>
+
