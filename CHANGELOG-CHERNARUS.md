@@ -26,7 +26,7 @@
 <!-- ++++++++++++++++++++ 9/10/2024 Start ++++++++++++++++++++ -->
 
 - Removed @MuchStuffPack Grenade box
-- Adjusted @MMG Base Storage types
+- Adjusted @MMG Base Storage and @ModularVestSystem types
 
 <!-- ++++++++++++++++++++ 9/10/2024 End ++++++++++++++++++++ -->
 
