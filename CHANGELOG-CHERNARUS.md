@@ -25,6 +25,8 @@
 
 <!-- ++++++++++++++++++++ 9/10/2024 Start ++++++++++++++++++++ -->
 
+- Added magic mushroom spawns event
+- Added convoy officer with punch card to convoy event
 - Change "globals.xml" "IdleModeCountdown" "value" to "86400"
 - Adjusted spawn rates of some vanilla tools
 - Adjusted spawn rates of vanilla pouches

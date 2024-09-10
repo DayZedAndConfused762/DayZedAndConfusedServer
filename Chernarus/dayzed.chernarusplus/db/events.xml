@@ -233,6 +233,28 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
         </children>
     </event>
+<!-- Event for convoy punchcard -->
+	<event name="InfectedArmyConvoy">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PatrolNormal_Autumn"/>
+            <child lootmax="5" lootmin="0" max="5" min="10" type="ZmbM_usSoldier_Officer_Convoy"/>
+            <child lootmax="5" lootmin="0" max="0" min="15" type="ZmbM_SoldierNormal"/>
+            <child lootmax="5" lootmin="0" max="0" min="35" type="ZmbM_usSoldier_normal_Woodland"/>
+        </children>
+    </event>
+<!-- Event for convoy punchcard -->
     <event name="InfectedCity">
         <nominal>50</nominal>
         <min>25</min>
@@ -765,6 +787,25 @@
             <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
         </children>
     </event>
+<!-- Event for convoy punchcard -->
+	<event name="StaticMilitaryConvoy">
+        <nominal>5</nominal> <!-- default 3 -->
+        <min>0</min> <!-- default 3 -->
+        <max>0</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedArmyConvoy</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+<!-- Event for convoy punchcard -->
+<!--
     <event name="StaticMilitaryConvoy">
         <nominal>5</nominal>
         <min>0</min>
@@ -781,6 +822,7 @@
         <active>1</active>
         <children/>
     </event>
+-->
     <event name="StaticPoliceCar">
         <nominal>10</nominal>
         <min>0</min>
@@ -884,6 +926,28 @@
             <child lootmax="0" lootmin="0" max="0" min="0" type="CaninaBerry"/>
         </children>
     </event>
+<!-- Drugs Plus Mushrooms -->
+    <event name="TrajectoryConiferous">
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="BoletusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="MacrolepiotaMushroom"/>            
+		    <child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
+        </children>
+    </event>
+<!-- Drugs Plus Mushrooms -->
+<!--
     <event name="TrajectoryConiferous">
         <nominal>140</nominal>
         <min>2</min>
@@ -902,6 +966,28 @@
             <child lootmax="0" lootmin="0" max="0" min="0" type="MacrolepiotaMushroom"/>
         </children>
     </event>
+-->
+<!-- Drugs Plus Mushrooms -->
+    <event name="TrajectoryDeciduous">
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="LactariusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
+        </children>
+    </event>
+<!-- Drugs Plus Mushrooms -->
+<!--
     <event name="TrajectoryDeciduous">
         <nominal>140</nominal>
         <min>2</min>
@@ -919,6 +1005,29 @@
             <child lootmax="0" lootmin="0" max="0" min="0" type="LactariusMushroom"/>
         </children>
     </event>
+-->
+<!-- Drugs Plus Mushrooms -->
+    <event name="TrajectoryHumus">
+        <nominal>140</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>25</saferadius>
+        <distanceradius>100</distanceradius>
+        <cleanupradius>25</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
+        <position>player</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="AgaricusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="LactariusMushroom"/>
+            <child lootmax="0" lootmin="0" max="0" min="0" type="PsilocybeMushroom"/>
+        </children>
+    </event>
+<!-- Drugs Plus Mushrooms -->
+<!--
     <event name="TrajectoryHumus">
         <nominal>140</nominal>
         <min>2</min>
@@ -937,6 +1046,8 @@
             <child lootmax="0" lootmin="0" max="0" min="0" type="PleurotusMushroom"/>
         </children>
     </event>
+-->
+<!-- Drugs Plus Mushrooms -->
     <event name="TrajectoryPear">
         <nominal>140</nominal>
         <min>2</min>

@@ -2028,6 +2028,15 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
+	<type name="ZmbM_usSoldier_Officer_Convoy">
+		<attachments chance="1.00">
+			<item name="MedicalScrubsHat_Green" chance="1.0" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo chance="1.0">
+			<item name="PunchedCard" chance="0.4" />
+		</cargo>
+	</type>
 
 <!-- INFECTED_ARMY END -->
 
