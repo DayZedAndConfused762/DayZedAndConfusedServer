@@ -25,6 +25,16 @@
 
 <!-- ++++++++++++++++++++ 9/10/2024 Start ++++++++++++++++++++ -->
 
+- Adjusted spawn rates of some vanilla tools
+- Adjusted spawn rates of vanilla pouches
+- Lowered spawns of small protector cases and teddy bears
+- Lowered some vanilla canteen spawns to make room for mod items
+- Lowered some vanilla clothing spawns to make room for mod items
+- Added NorseHelm as a rare spawn
+- Added DarkMotoHelmet_YellowScarred as a rare spawn
+- Added black and green 40 round c-mags
+- Added 9x19 loose ammo to military/police
+- Adjusted min/max of loose ammo and magazine spawns
 - Removed @MuchStuffPack Grenade box
 - Adjusted @MMG Base Storage and @ModularVestSystem types
 

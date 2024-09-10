@@ -18,10 +18,9 @@
 
 ## To Do List
 
-
-- remove MSP Grenade box
+- set tiers for MVS items, adjust vanilla spawns as needed
+- add loot to teddy bears and protective cases
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
-- install building fortifications mod
 - dayzyourway.com
 - setup server messaging
 - setup server restarts
