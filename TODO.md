@@ -18,7 +18,7 @@
 
 ## To Do List
 
-- move gast strike from zenit radio to uppder zenit settlemetn
+
 - remove MSP Grenade box
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
 - install building fortifications mod

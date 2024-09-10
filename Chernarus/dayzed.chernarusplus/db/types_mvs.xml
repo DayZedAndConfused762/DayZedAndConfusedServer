@@ -4583,7 +4583,7 @@
 
 <!-- PACKS-ASSAULT END -->
 
-<!-- PACKS-COMPACT START -->
+<!-- PACKS-COMPACT 1 START -->
 
     <type name="MVS_Compact_1_OD">
         <nominal>1</nominal>
@@ -4645,6 +4645,48 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
+    <type name="MVS_Compact_1_Multicam">
+        <nominal>1</nominal>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
+    <type name="MVS_Compact_1_Multicam_Tropic">
+        <nominal>1</nominal>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
+    <type name="MVS_Compact_1_Multicam_Black">
+        <nominal>1</nominal>
+        <lifetime>21600</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
+
+
+<!-- PACKS_COMPACT 1 END -->
+
+<!-- PACKS-COMPACT 2 START -->
+
     <type name="MVS_Compact_2_OD">
         <nominal>1</nominal>
         <lifetime>21600</lifetime>
@@ -4705,42 +4747,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Compact_1_Multicam">
-        <nominal>1</nominal>
-        <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_Compact_1_Multicam_Tropic">
-        <nominal>1</nominal>
-        <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_Compact_1_Multicam_Black">
-        <nominal>1</nominal>
-        <lifetime>21600</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
     <type name="MVS_Compact_2_Multicam">
         <nominal>1</nominal>
         <lifetime>21600</lifetime>
@@ -4778,7 +4784,7 @@
         <usage name="Military"/>
     </type>
 
-<!-- PACKS_COMPACT END -->
+<!-- PACKS-COMPACT 2 END -->
 
 <!-- PACKS-PACK START -->
 
@@ -6293,7 +6299,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-
     <type name="MVS_Sheath_Multicam">
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
