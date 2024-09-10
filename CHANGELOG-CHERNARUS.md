@@ -29,6 +29,7 @@
 - Added mod @MunghardsItemPack
 - Removed mod @MunghardsItemPack due to items causing crashes
 - Adjust types files for @BaseFortifications and @Modular Vest System - Reworked
+- Moved gas strike from Zenit to Altar
 
 <!-- ++++++++++++++++++++ 9/9/2024 End ++++++++++++++++++++ -->
 
