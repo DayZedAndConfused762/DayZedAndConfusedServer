@@ -24,7 +24,6 @@
 - dayzyourway.com
 - setup server messaging
 - setup server restarts
-- add random colored vehicle parts
 - add spawn loadouts to chernarus
 - review mods for possible use:
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2896141950
