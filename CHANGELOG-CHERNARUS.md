@@ -25,6 +25,7 @@
 
 <!-- ++++++++++++++++++++ 9/10/2024 Start ++++++++++++++++++++ -->
 
+- Added random zombie spawn event
 - Vehicles now spawn with random colored doors/trunks/hoods
 - Added Vodka spawns
 - @BaseBuildingPlus
