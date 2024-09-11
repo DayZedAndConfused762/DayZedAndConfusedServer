@@ -28,6 +28,7 @@
 
 ## 9/11/2024
 
+- Added fog to Devil's castle
 - Adjusted spawnable types
 
 <!-- ++++++++++++++++++++ 9/11/2024 End ++++++++++++++++++++ -->

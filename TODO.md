@@ -18,7 +18,7 @@
 
 ## To Do List
 
-- Added fog to Devil's castle
+- https://www.youtube.com/watch?v=7_R_2HnDkzk
 - set tiers for MVS items, adjust vanilla spawns as needed
 - add loot to protective cases
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
