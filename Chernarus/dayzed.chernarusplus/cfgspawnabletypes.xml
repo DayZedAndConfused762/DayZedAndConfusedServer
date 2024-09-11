@@ -40,7 +40,7 @@
 <!-- SEASONAL -->
 <!-- -->
 <!-- TOOLS: -->
-<!--  TOOLS_COMMUNIATION  TOOLS_MATERIALS  TOOLS_NAVIGATION  -->
+<!--  TOOLS_COMMUNICATION  TOOLS_MATERIALS  TOOLS_NAVIGATION  -->
 <!-- -->
 <!-- VEHICLES: -->
 <!--  VEHICLES_ADA4X4_BASE  VEHICLES_ADA4X4_PARTS  VEHICLES_GUNTER2_BASE  VEHICLES_GUNTER2_PARTS  VEHICLES_M1025_BASE  VEHICLES_M1025_PARTS  
@@ -64,22 +64,72 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 
 <!-- ATTACHMENTS_OPTICS START -->
 
+	
+	<type name="ACOGOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+	<type name="ACOGOptic_6x">
+		<damage min="0.0" max="0.32" />
+	</type>
 	<type name="AugOptic">
 		<damage min="0.0" max="0.0" />
 	</type>
+    <type name="BUISOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="FNP45_MRDSOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="HuntingOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="KashtanOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
 	<type name="KazuarOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="KobraOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="M4_CarryHandleOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="M4_T3NRDSOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="M68Optic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="PSO11Optic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="PSO1Optic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="PUScopeOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="PistolOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="ReflexOptic">
 		<damage min="0.0" max="0.32" />
 	</type>
 	<type name="SSG82Optic">
 		<damage min="0.0" max="0.0" />
 	</type>
-	<type name="StarlightOptic">
+    <type name="StarlightOptic">
+		<damage min="0.0" max="0.32" />
+	</type>
+    <type name="KazuarOptic">
 		<damage min="0.0" max="0.32" />
 	</type>
 
+
 <!-- ATTACHMENTS_OPTICS END -->
 
-<!-- ATTACHMENTS_OPTICS START -->
+<!-- ATTACHMENTS_SUPPRESSORS START -->
 
 	<type name="M4_Suppressor">
 		<damage min="0.0" max="0.32" />
@@ -91,7 +141,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<damage min="0.0" max="0.32" />
 	</type>
 
-<!-- ATTACHMENTS_OPTICS END -->
+<!-- ATTACHMENTS_SUPPRESSORS END -->
 
 <!-- ++++++++++ ATTACHMENTS END ++++++++++ -->
 
@@ -420,7 +470,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 	</type>
 	<type name="PrisonUniformPants">
 		<cargo chance="0.10">
-			<item name="Rope" chance="0.14" />
+			<item name="Rope" chance="1.00" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Screwdriver" chance="1.00" />
 		</cargo>
 	</type>
 
@@ -725,64 +778,83 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 	</type>
 	<type name="PrisonUniformJacket">
 		<cargo chance="0.10">
-			<item name="Rope" chance="0.14" />
+			<item name="Rope" chance="1.00" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Screwdriver" chance="1.00" />
 		</cargo>
 	</type>
 	<type name="MiniDress_Pink">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="MiniDress_PinkChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="MiniDress_RedChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="MiniDress_WhiteChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="MiniDress_GreenChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="MiniDress_BrownChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="MiniDress_BlueChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="MiniDress_BlueWithDots">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="0.50" />
+			<item name="Ammo_380" chance="0.50" />
 		</cargo>
-		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
+		<cargo chance="0.01">
+			<item name="Derringer_Pink" />
+		</cargo>
 	</type>
 	<type name="QuiltedJacket_Black">
 		<cargo preset="mixVillage" />
@@ -877,15 +949,66 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- CLOTHING_VESTS START -->
 
 	<type name="PlateCarrierVest">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.25" />
+			<item name="PlateCarrierHolster_Black" chance="0.25" />
+			<item name="PlateCarrierHolster_Camo" chance="0.25" />
+			<item name="PlateCarrierHolster_Green" chance="0.25" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.25" />
+			<item name="PlateCarrierPouches_Black" chance="0.25" />
+			<item name="PlateCarrierPouches_Camo" chance="0.25" />
+			<item name="PlateCarrierPouches_Green" chance="0.25" />
+		</attachments>
+	</type>
+
+	<type name="PlateCarrierVest_Black">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.25" />
+			<item name="PlateCarrierHolster_Black" chance="0.25" />
+			<item name="PlateCarrierHolster_Camo" chance="0.25" />
+			<item name="PlateCarrierHolster_Green" chance="0.25" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.25" />
+			<item name="PlateCarrierPouches_Black" chance="0.25" />
+			<item name="PlateCarrierPouches_Camo" chance="0.25" />
+			<item name="PlateCarrierPouches_Green" chance="0.25" />
+		</attachments>
 	</type>
 
 	<type name="PlateCarrierVest_Camo">
 		<damage min="0.1" max="0.6" />
-		<attachments chance="0.85">
-			<item name="PlateCarrierHolster_Camo" chance="1.00" />
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.25" />
+			<item name="PlateCarrierHolster_Black" chance="0.25" />
+			<item name="PlateCarrierHolster_Camo" chance="0.25" />
+			<item name="PlateCarrierHolster_Green" chance="0.25" />
 		</attachments>
-		<attachments chance="0.85">
-			<item name="PlateCarrierPouches_Camo" chance="1.00" />
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.25" />
+			<item name="PlateCarrierPouches_Black" chance="0.25" />
+			<item name="PlateCarrierPouches_Camo" chance="0.25" />
+			<item name="PlateCarrierPouches_Green" chance="0.25" />
+		</attachments>
+	</type>
+
+	<type name="PlateCarrierVest_Green">
+		<damage min="0.1" max="0.6" />
+		<attachments chance="0.50">
+			<item name="PlateCarrierHolster" chance="0.25" />
+			<item name="PlateCarrierHolster_Black" chance="0.25" />
+			<item name="PlateCarrierHolster_Camo" chance="0.25" />
+			<item name="PlateCarrierHolster_Green" chance="0.25" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="PlateCarrierPouches" chance="0.25" />
+			<item name="PlateCarrierPouches_Black" chance="0.25" />
+			<item name="PlateCarrierPouches_Camo" chance="0.25" />
+			<item name="PlateCarrierPouches_Green" chance="0.25" />
 		</attachments>
 	</type>
 
@@ -898,27 +1021,59 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- CONTAINERS_CARRIED START -->
 
 	<type name="Bear_Beige">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="0.10">
+			<item name="M67Grenade" chance="0.50" />
+			<item name="RGD5Grenade" chance="0.50" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="DP_CocaBag" chance="0.10" />
+			<item name="CP_JointFuture" chance="0.45" />
+			<item name="CP_JointBlackFrost" chance="0.45" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="BandageDressing" chance="1.00" />
 		</cargo>
 	</type>
 	<type name="Bear_Dark">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="0.10">
+			<item name="M67Grenade" chance="0.50" />
+			<item name="RGD5Grenade" chance="0.50" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="DP_CocaBag" chance="0.10" />
+			<item name="CP_JointFuture" chance="0.45" />
+			<item name="CP_JointBlackFrost" chance="0.45" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="BandageDressing" chance="1.00" />
 		</cargo>
 	</type>
 	<type name="Bear_Pink">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="0.10">
+			<item name="M67Grenade" chance="0.50" />
+			<item name="RGD5Grenade" chance="0.50" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="DP_CocaBag" chance="0.10" />
+			<item name="CP_JointFuture" chance="0.45" />
+			<item name="CP_JointBlackFrost" chance="0.45" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="BandageDressing" chance="1.00" />
 		</cargo>
 	</type>
 	<type name="Bear_White">
-		<cargo chance="0.00">
-			<item name="Paper" chance="0.50" />
-			<item name="Rag" chance="0.50" />
+		<cargo chance="0.10">
+			<item name="M67Grenade" chance="0.50" />
+			<item name="RGD5Grenade" chance="0.50" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="DP_CocaBag" chance="0.10" />
+			<item name="CP_JointFuture" chance="0.45" />
+			<item name="CP_JointBlackFrost" chance="0.45" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="BandageDressing" chance="1.00" />
 		</cargo>
 	</type>
 	<type name="FirstAidKit">
@@ -1222,6 +1377,9 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo chance="0.02">
 			<item name="Derringer_Pink" />
 		</cargo>
+		<cargo chance="0.50">
+			<item name="DP_CocaBag" chance="1.00"
+		</cargo>
 	</type>
 	<type name="DuffelBagSmall_Camo">
 		<cargo preset="foodArmy" />
@@ -1254,7 +1412,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- FIREARMS_ASSAULT START -->
 
 	<type name="AKM">
-		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
@@ -1297,7 +1454,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="AK101">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="1.00">
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
@@ -1313,7 +1469,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="M4A1">
-		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="M4_OEBttstck" chance="1.00" />
 		</attachments>
@@ -1332,7 +1487,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="M16A2">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.30">
 			<item name="Mag_CMAG_40Rnd" chance="0.15" />
 			<item name="Mag_CMAG_10Rnd" chance="0.50" />
@@ -1341,7 +1495,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="FAMAS">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.75">
 			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
 		</attachments>
@@ -1361,13 +1514,11 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="AugShort">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.25">
 			<item name="Mag_Aug_30Rnd" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="FAL">
-		<damage min="0.45" max="0.85" />
 		<attachments chance="1.00">
 			<item name="Fal_FoldingBttstck" chance="0.50" />
 			<item name="Fal_OeBttstck" chance="1.00" />
@@ -1429,7 +1580,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<attachments chance="0.60">
 			<item name="Mag_IJ70_8Rnd" chance="1.00" />
 		</attachments>
-		<!-- MakarovPBSuppressor -->
 	</type>
 	<type name="MKII">
 		<attachments chance="0.60">
@@ -1536,13 +1686,11 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="Winchester70">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Mosin9130">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="Mosin_Compensator" chance="1.00" />
 		</attachments>
@@ -1551,13 +1699,11 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="SKS">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="PUScopeOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SVD">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
@@ -1567,7 +1713,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="B95">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
@@ -1619,7 +1764,6 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		</attachments>
 	</type>
 	<type name="CZ550">
-		<damage min="0.3" max="0.7" />
 		<attachments chance="0.10">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
@@ -2019,12 +2163,14 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
-		<cargo preset="foodArmy" />		
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />	
 		<attachments preset="headtorches" />
 		<attachments preset="OfficerHatArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
-		<cargo preset="foodArmy" />		
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
@@ -2036,6 +2182,8 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 		<cargo chance="1.0">
 			<item name="PunchedCard" chance="0.4" />
 		</cargo>
+		<attachments preset="HeavyArmorArmy" />
+		<attachments preset="HeavyHelmetArmy" />
 	</type>
 
 <!-- INFECTED_ARMY END -->
@@ -2760,7 +2908,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 
 	<type name="ZmbM_PrisonerSkinny">
 		<cargo chance="0.10">
-			<item name="Rope" chance="0.14" />
+			<item name="Rope" chance="1.00" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Screwdriver" chance="1.00" />
 		</cargo>
 		<attachments preset="glassesVillage" />
 		<attachments preset="hatsPrisoner" />
@@ -2772,8 +2923,14 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 
 	<type name="ZmbM_priestPopSkinny">
 		<cargo preset="foodHermit" />
+	<attachments chance="0.50">
+		<item name="WitchHood_Black" chance="0.40" />
+		<item name="WitchHood_Chainmail_Black" chance="0.10" />
+		<item name="WitchHood_Red" chance="0.40" />
+		<item name="WitchHood_Chainmail_Black" chance="0.10" />
+	</attachments>
 	</type>
-
+	
 <!-- INFECTED_RELIGIOUS END -->
 
 <!-- INFECTED_SOLITUDE START -->
@@ -3044,8 +3201,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!--  NUTRITION_DRINKS END -->
 
 	<type name="WaterBottle">
+		<damage min="0.30" max="0.66" />
 	</type>
 	<type name="Canteen">
+		<damage min="0.0" max="0.35" />
 	</type>
 
 <!--  NUTRITION_DRINKS START -->
@@ -3271,20 +3430,45 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 
 <!-- ++++++++++ TOOLS START ++++++++++ -->
 
-<!-- TOOLS_COMMUNIATION START -->
+<!-- TOOLS_COMMUNICATION START -->
 
 	<type name="PersonalRadio">
 		<attachments chance="0.30">
 			<item name="Battery9V" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="BaseRadio">
+		 <attachments chance="0.30">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+	</type>
 
-<!-- TOOLS_COMMUNIATION END -->
+<!-- TOOLS_COMMUNCIATION END -->
+
+<!-- TOOLS_ELECTRICAL START -->
+
+	<type name="PowerGenerator">
+        <attachments chance="0.30">
+            <item name="SparkPlug" chance="1.00"/>
+        </attachments>
+    </type>
+
+<!-- TOOLS_ELECTRICAL END -->
 
 <!-- TOOLS_LIGHTING START -->
 
+	<type name="PortableGasLamp">
+		<attachments chance="0.50">
+			<item name="SmallGasCanister" chance="0.60" />
+			<item name="MediumGasCanister" chance="0.30" />
+			<item name="LargeGasCanister" chance="0.10" />
+		</attachments>
+	</type>
 	<type name="NVGoggles">
 		<damage min="0.0" max="0.32" />
+		<attachments chance="0.20">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
 	</type>
 
 <!-- TOOLS_LIGHTING END -->

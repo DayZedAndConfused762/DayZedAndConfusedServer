@@ -19,7 +19,7 @@
 ## To Do List
 
 - set tiers for MVS items, adjust vanilla spawns as needed
-- add loot to teddy bears and protective cases
+- add loot to protective cases
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
 - dayzyourway.com
 - setup server messaging
