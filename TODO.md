@@ -59,7 +59,6 @@
 - add loot to protective cases
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
 - dayzyourway.com
-- setup server messaging
 - setup server restarts
 - add spawn loadouts to chernarus
 - review mods for possible use:
