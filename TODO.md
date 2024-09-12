@@ -16,7 +16,45 @@
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
-## To Do List
+## To Do  
+20:57:46.504 [CE][Links] found 78 total links between groups, of 154
+
+20:57:46.504 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE, lootmin: 4, lootmax: 8, wanted: 7, deloot: 2, containermaxsum: 4
+
+20:57:46.504 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
+
+20:57:46.504 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE :: !!! Wanting to spawn more loot than possible (7 > 4)
+:: !!! No group configured for 'ZmbM_CommercialPilotOld_Olive', failed to spawn lootList
+20:41:34.482 [CE][LootRespawner] (PRIDummy) :: Item [493] causing search overtime: "Mag_SSG82_5rnd"
+
+20:41:34.582 [CE][LootRespawner] (PRIDummy) :: Item [494] causing search overtime: "M79"
+
+20:41:34.883 [CE][LootRespawner] (PRIDummy) :: Item [495] causing search overtime: "NorseHelm"
+
+20:41:34.982 [CE][LootRespawner] (PRIDummy) :: Item [496] causing search overtime: "Msp_CoffinBox"
+
+20:41:35.82 [CE][LootRespawner] (PRIDummy) :: Item [497] causing search overtime: "Scout"
+
+20:42:01.382 [CE][LootRespawner] (PRIDummy) :: Item [498] causing search overtime: "Mag_SSG82_5rnd"
+
+20:42:01.481 [CE][LootRespawner] (PRIDummy) :: Item [499] causing search overtime: "M79"
+
+20:42:01.582 [CE][LootRespawner] (PRIDummy) :: Item [500] causing search overtime: "NorseHelm"
+
+20:42:01.683 [CE][LootRespawner] (PRIDummy) :: Item [501] causing search overtime: "Msp_CoffinBox"
+
+20:42:01.782 [CE][LootRespawner] (PRIDummy) :: Item [502] causing search overtime: "Scout"
+
+20:42:28.281 [CE][LootRespawner] (PRIDummy) :: Item [503] causing search overtime: "Mag_SSG82_5rnd"
+
+20:42:28.381 [CE][LootRespawner] (PRIDummy) :: Item [504] causing search overtime: "M79"
+
+20:42:28.582 [CE][LootRespawner] (PRIDummy) :: Item [505] causing search overtime: "NorseHelm"
+
+20:42:28.683 [CE][LootRespawner] (PRIDummy) :: Item [506] causing search overtime: "Msp_CoffinBox"
+
+20:42:28.783 [CE][LootRespawner] (PRIDummy) :: Item [507] causing search overtime: "Scout"
+
 
 - https://www.youtube.com/watch?v=PKh1DQOnbBQ
 - https://www.youtube.com/watch?v=8HBV6d0ryDs
