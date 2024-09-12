@@ -28,6 +28,7 @@
 
 ## 9/12/2024
 
+- Set loot tiers and categories for MVS items
 - Adjusted some loot spawns in vanilla and msp types
 - Adjusted some mapgroupprotos
 - Adjusted amount of heli crash events

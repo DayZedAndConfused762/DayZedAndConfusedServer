@@ -363,6 +363,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MVS_Belt_Tan">
         <nominal>1</nominal>
@@ -375,6 +378,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MVS_Belt_Black">
         <nominal>1</nominal>
@@ -387,6 +393,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MVS_Belt_Snow">
         <nominal>1</nominal>
@@ -399,6 +408,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="MVS_Belt_ERDL">
         <nominal>1</nominal>
@@ -411,6 +423,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MVS_Belt_Multicam">
         <nominal>1</nominal>
@@ -423,6 +437,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MVS_Belt_Multicam_Tropic">
         <nominal>1</nominal>
@@ -435,6 +451,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MVS_Belt_Multicam_Black">
         <nominal>1</nominal>
@@ -447,6 +465,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 <!-- CLOTHING-BELTS END -->
@@ -4493,7 +4513,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Assault_Pack_Tan">
@@ -4505,7 +4525,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Assault_Pack_Black">
@@ -4517,7 +4537,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Assault_Pack_Snow">
@@ -4529,7 +4549,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Assault_Pack_ERDL">
@@ -4541,7 +4561,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Assault_Pack_Multicam">
@@ -4553,7 +4573,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Assault_Pack_Multicam_Tropic">
@@ -4565,7 +4585,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Assault_Pack_Multicam_Black">
@@ -4577,7 +4597,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
 
@@ -4594,7 +4614,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_1_Tan">
@@ -4606,7 +4626,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_1_Black">
@@ -4618,7 +4638,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_1_ERDL">
@@ -4630,7 +4650,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_1_Snow">
@@ -4642,7 +4662,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_1_Multicam">
@@ -4654,7 +4674,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_1_Multicam_Tropic">
@@ -4666,7 +4686,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_1_Multicam_Black">
@@ -4678,7 +4698,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
 
@@ -4696,7 +4716,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_2_Tan">
@@ -4708,7 +4728,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_2_Black">
@@ -4720,7 +4740,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_2_ERDL">
@@ -4732,7 +4752,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_2_Snow">
@@ -4744,7 +4764,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_2_Multicam">
@@ -4756,7 +4776,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_2_Multicam_Tropic">
@@ -4768,7 +4788,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Compact_2_Multicam_Black">
@@ -4780,7 +4800,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
 
@@ -4797,7 +4817,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Pack_Tan">
@@ -4809,7 +4829,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Pack_Black">
@@ -4821,7 +4841,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Pack_Snow">
@@ -4833,7 +4853,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Pack_ERDL">
@@ -4845,7 +4865,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Pack_Multicam">
@@ -4857,7 +4877,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Pack_Multicam_Tropic">
@@ -4869,7 +4889,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Pack_Multicam_Black">
@@ -4881,7 +4901,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
 
@@ -4898,7 +4918,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Radio_Pack_Tan">
@@ -4910,7 +4930,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Radio_Pack_Black">
@@ -4922,7 +4942,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Radio_Pack_Snow">
@@ -4934,7 +4954,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Radio_Pack_ERDL">
@@ -4946,7 +4966,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Radio_Pack_Multicam">
@@ -4958,7 +4978,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Radio_Pack_Multicam_Tropic">
@@ -4970,7 +4990,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Radio_Pack_Multicam_Black">
@@ -4982,7 +5002,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
 
@@ -4999,7 +5019,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Rucksack_ERDL">
@@ -5011,7 +5031,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Rucksack_Tan">
@@ -5023,7 +5043,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Rucksack_Black">
@@ -5035,7 +5055,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Rucksack_Snow">
@@ -5047,7 +5067,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Rucksack_Multicam">
@@ -5059,7 +5079,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Rucksack_Multicam_Tropic">
@@ -5071,7 +5091,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_Rucksack_Multicam_Black">
@@ -5083,7 +5103,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
 
@@ -5100,7 +5120,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_SlingPack_Tan">
@@ -5112,7 +5132,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_SlingPack_Black">
@@ -5124,7 +5144,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_SlingPack_Multicam">
@@ -5136,7 +5156,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_SlingPack_Multicam_Black">
@@ -5148,7 +5168,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_SlingPack_Multicam_Tropic">
@@ -5160,7 +5180,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_SlingPack_ERDL">
@@ -5172,7 +5192,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
     <type name="MVS_SlingPack_Snow">
@@ -5184,7 +5204,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+        <category name="containers"/>
         <usage name="Military"/>
     </type>
 
@@ -6658,6 +6678,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="MVS_Combat_Vest_Tan">
         <nominal>1</nominal>
@@ -6670,6 +6692,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="MVS_Combat_Vest_Black">
         <nominal>1</nominal>
@@ -6682,6 +6706,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="MVS_Combat_Vest_Snow">
         <nominal>1</nominal>
@@ -6694,6 +6720,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="MVS_Combat_Vest_ERDL">
         <nominal>1</nominal>
@@ -6706,6 +6734,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="MVS_Combat_Vest_Multicam">
         <nominal>1</nominal>
@@ -6718,6 +6748,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="MVS_Combat_Vest_Multicam_Tropic">
         <nominal>1</nominal>
@@ -6730,6 +6762,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="MVS_Combat_Vest_Multicam_Black">
         <nominal>1</nominal>
@@ -6742,6 +6776,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
 
 <!-- VESTS-COMBAT END -->
@@ -6758,7 +6794,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Tan">
         <nominal>1</nominal>
@@ -6770,7 +6806,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Black">
         <nominal>1</nominal>
@@ -6782,7 +6818,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Snow">
         <nominal>1</nominal>
@@ -6794,7 +6830,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_ERDL">
         <nominal>1</nominal>
@@ -6806,7 +6842,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="MVS_Combat_Vest_Heavy_Multicam">
         <nominal>1</nominal>
@@ -6816,7 +6852,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
@@ -6828,7 +6864,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
@@ -6840,7 +6876,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="clothes"/>
         <usage name="Military"/>
     </type>

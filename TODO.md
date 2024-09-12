@@ -24,7 +24,6 @@
 - https://www.youtube.com/watch?v=bezRqYIYeh4
 - https://www.youtube.com/watch?v=UEpuAUm0fZ8
 - https://www.youtube.com/watch?v=7_R_2HnDkzk
-- set tiers for MVS items, adjust vanilla spawns as needed
 - add loot to protective cases
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
 - dayzyourway.com
