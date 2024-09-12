@@ -62,10 +62,8 @@
 - setup server restarts
 - add spawn loadouts to chernarus
 - review mods for possible use:
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2896141950
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2898868802
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2307022759 
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2310938672&searchtext=
+  - Survivor Animations: https://steamcommunity.com/workshop/filedetails/?id=2918418331
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2310938672
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2331035245
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2305428019
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2397654753
@@ -211,8 +209,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3009596923
 https://steamcommunity.com/sharedfiles/filedetails/?id=1668199233
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3015212770
-https://steamcommunity.com/workshop/filedetails/?id=2918418331
-https://steamcommunity.com/sharedfiles/filedetails/?id=2979638862
+
 
 
 
