@@ -19,14 +19,12 @@
 ## To Do  
 
 
-
+ 
 20:41:34.482 [CE][LootRespawner] (PRIDummy) :: Item [493] causing search overtime: "Mag_SSG82_5rnd"
 
 20:41:34.582 [CE][LootRespawner] (PRIDummy) :: Item [494] causing search overtime: "M79"
 
-20:41:34.883 [CE][LootRespawner] (PRIDummy) :: Item [495] causing search overtime: "NorseHelm"
 
-20:41:34.982 [CE][LootRespawner] (PRIDummy) :: Item [496] causing search overtime: "Msp_CoffinBox"
 
 20:41:35.82 [CE][LootRespawner] (PRIDummy) :: Item [497] causing search overtime: "Scout"
 
