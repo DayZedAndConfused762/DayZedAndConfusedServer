@@ -18,37 +18,6 @@
 
 ## To Do  
 
-
- 
-20:41:34.482 [CE][LootRespawner] (PRIDummy) :: Item [493] causing search overtime: "Mag_SSG82_5rnd"
-
-20:41:34.582 [CE][LootRespawner] (PRIDummy) :: Item [494] causing search overtime: "M79"
-
-
-
-20:41:35.82 [CE][LootRespawner] (PRIDummy) :: Item [497] causing search overtime: "Scout"
-
-20:42:01.382 [CE][LootRespawner] (PRIDummy) :: Item [498] causing search overtime: "Mag_SSG82_5rnd"
-
-20:42:01.481 [CE][LootRespawner] (PRIDummy) :: Item [499] causing search overtime: "M79"
-
-20:42:01.582 [CE][LootRespawner] (PRIDummy) :: Item [500] causing search overtime: "NorseHelm"
-
-20:42:01.683 [CE][LootRespawner] (PRIDummy) :: Item [501] causing search overtime: "Msp_CoffinBox"
-
-20:42:01.782 [CE][LootRespawner] (PRIDummy) :: Item [502] causing search overtime: "Scout"
-
-20:42:28.281 [CE][LootRespawner] (PRIDummy) :: Item [503] causing search overtime: "Mag_SSG82_5rnd"
-
-20:42:28.381 [CE][LootRespawner] (PRIDummy) :: Item [504] causing search overtime: "M79"
-
-20:42:28.582 [CE][LootRespawner] (PRIDummy) :: Item [505] causing search overtime: "NorseHelm"
-
-20:42:28.683 [CE][LootRespawner] (PRIDummy) :: Item [506] causing search overtime: "Msp_CoffinBox"
-
-20:42:28.783 [CE][LootRespawner] (PRIDummy) :: Item [507] causing search overtime: "Scout"
-
-
 - https://www.youtube.com/watch?v=PKh1DQOnbBQ
 - https://www.youtube.com/watch?v=8HBV6d0ryDs
 - https://www.youtube.com/watch?v=VboiOKEHTQs
@@ -63,11 +32,72 @@
 - add spawn loadouts to chernarus
 - review mods for possible use:
   - Survivor Animations: https://steamcommunity.com/workshop/filedetails/?id=2918418331
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2310938672
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2331035245
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2305428019
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2397654753
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2531955350 
+  - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
+  
+  
+  https://steamcommunity.com/sharedfiles/filedetails/?id=2943758286
+https://steamcommunity.com/sharedfiles/filedetails/?id=2997702833
+https://steamcommunity.com/sharedfiles/filedetails/?id=3008285153
+https://steamcommunity.com/sharedfiles/filedetails/?id=2782305923
+https://steamcommunity.com/sharedfiles/filedetails/?id=2967568339
+https://steamcommunity.com/sharedfiles/filedetails/?id=2850144753
+https://steamcommunity.com/sharedfiles/filedetails/?id=2782294622
+https://steamcommunity.com/sharedfiles/filedetails/?id=2620165863
+https://steamcommunity.com/sharedfiles/filedetails/?id=2657137876
+https://steamcommunity.com/sharedfiles/filedetails/?id=2677692624
+https://steamcommunity.com/sharedfiles/filedetails/?id=2677694007
+https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
+https://steamcommunity.com/sharedfiles/filedetails/?id=2677694464
+https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
+https://steamcommunity.com/workshop/filedetails/?id=2111275052
+https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
+https://steamcommunity.com/sharedfiles/filedetails/?id=1787431165
+https://steamcommunity.com/sharedfiles/filedetails/?id=2521460498
+https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
+https://steamcommunity.com/sharedfiles/filedetails/?id=2264162971
+https://steamcommunity.com/sharedfiles/filedetails/?id=1781132597
+https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
+https://steamcommunity.com/sharedfiles/filedetails/?id=2715301538
+https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
+https://steamcommunity.com/sharedfiles/filedetails/?id=1782718362
+https://steamcommunity.com/sharedfiles/filedetails/?id=2924719512
+https://steamcommunity.com/sharedfiles/filedetails/?id=1619476627
+https://steamcommunity.com/sharedfiles/filedetails/?id=2721984927
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2971190303
+https://steamcommunity.com/sharedfiles/filedetails/?id=2971993210
+https://steamcommunity.com/sharedfiles/filedetails/?id=2488157071
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2049002856
+https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
+https://steamcommunity.com/sharedfiles/filedetails/?id=2971910339
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=1793351435
+https://steamcommunity.com/sharedfiles/filedetails/?id=1945519331
+https://steamcommunity.com/sharedfiles/filedetails/?id=2692545267
+https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
+https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
+https://steamcommunity.com/sharedfiles/filedetails/?id=2545924198
+https://steamcommunity.com/sharedfiles/filedetails/?id=2443122116
+https://steamcommunity.com/sharedfiles/filedetails/?id=2059026492
+https://steamcommunity.com/sharedfiles/filedetails/?id=1945945241
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2202288946
+https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
+https://steamcommunity.com/sharedfiles/filedetails/?id=3009752602
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=1748044748
+https://steamcommunity.com/sharedfiles/filedetails/?id=2946247954
+https://steamcommunity.com/sharedfiles/filedetails/?id=2993816606
+
+  - 
+  -  
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2885089658
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2906835106
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2941470684
@@ -142,73 +172,13 @@
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2104981751
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2997539444
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2085234803
-https://steamcommunity.com/sharedfiles/filedetails/?id=2943758286
-https://steamcommunity.com/sharedfiles/filedetails/?id=2997702833
-https://steamcommunity.com/sharedfiles/filedetails/?id=3008285153
-https://steamcommunity.com/sharedfiles/filedetails/?id=2782305923
-https://steamcommunity.com/sharedfiles/filedetails/?id=2967568339
-https://steamcommunity.com/sharedfiles/filedetails/?id=2850144753
-https://steamcommunity.com/sharedfiles/filedetails/?id=2782294622
-https://steamcommunity.com/sharedfiles/filedetails/?id=2620165863
-https://steamcommunity.com/sharedfiles/filedetails/?id=2657137876
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677692624
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677694007
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677694464
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
-https://steamcommunity.com/workshop/filedetails/?id=2111275052
-https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
-https://steamcommunity.com/sharedfiles/filedetails/?id=1787431165
-https://steamcommunity.com/sharedfiles/filedetails/?id=2521460498
-https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
-https://steamcommunity.com/sharedfiles/filedetails/?id=2264162971
-https://steamcommunity.com/sharedfiles/filedetails/?id=1781132597
-https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
-https://steamcommunity.com/sharedfiles/filedetails/?id=2715301538
-https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
-https://steamcommunity.com/sharedfiles/filedetails/?id=1782718362
-https://steamcommunity.com/sharedfiles/filedetails/?id=2924719512
-https://steamcommunity.com/sharedfiles/filedetails/?id=1619476627
-https://steamcommunity.com/sharedfiles/filedetails/?id=2721984927
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2971190303
-https://steamcommunity.com/sharedfiles/filedetails/?id=2971993210
-https://steamcommunity.com/sharedfiles/filedetails/?id=2488157071
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2049002856
-https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
-https://steamcommunity.com/sharedfiles/filedetails/?id=2971910339
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1793351435
-https://steamcommunity.com/sharedfiles/filedetails/?id=1945519331
-https://steamcommunity.com/sharedfiles/filedetails/?id=2692545267
-https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
-https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
-https://steamcommunity.com/sharedfiles/filedetails/?id=2545924198
-https://steamcommunity.com/sharedfiles/filedetails/?id=2443122116
-https://steamcommunity.com/sharedfiles/filedetails/?id=2059026492
-https://steamcommunity.com/sharedfiles/filedetails/?id=1945945241
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2202288946
-https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
-https://steamcommunity.com/sharedfiles/filedetails/?id=3009752602
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1748044748
-https://steamcommunity.com/sharedfiles/filedetails/?id=2946247954
-https://steamcommunity.com/sharedfiles/filedetails/?id=2993816606
-https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=3009596923
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1668199233
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=3015212770
 
 
 
