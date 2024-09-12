@@ -17,14 +17,9 @@
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
 ## To Do  
-20:57:46.504 [CE][Links] found 78 total links between groups, of 154
 
-20:57:46.504 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE, lootmin: 4, lootmax: 8, wanted: 7, deloot: 2, containermaxsum: 4
 
-20:57:46.504 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
 
-20:57:46.504 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE :: !!! Wanting to spawn more loot than possible (7 > 4)
-:: !!! No group configured for 'ZmbM_CommercialPilotOld_Olive', failed to spawn lootList
 20:41:34.482 [CE][LootRespawner] (PRIDummy) :: Item [493] causing search overtime: "Mag_SSG82_5rnd"
 
 20:41:34.582 [CE][LootRespawner] (PRIDummy) :: Item [494] causing search overtime: "M79"
