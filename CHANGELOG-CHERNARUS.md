@@ -28,6 +28,7 @@
 
 ## 9/12/2024
 
+- Tweaks to random zombie spawn event
 - Set loot tiers and categories for MVS items
 - Adjusted some loot spawns in vanilla and msp types
 - Adjusted some mapgroupprotos
