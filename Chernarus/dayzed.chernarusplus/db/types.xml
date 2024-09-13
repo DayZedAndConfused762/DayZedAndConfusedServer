@@ -39,6 +39,9 @@
 <!-- MEDICALS: -->
 <!--  MEDICALS_MEDICINE  MEDICALS_SUPPLIES -->
 <!-- -->
+<!-- MISC: -->
+<!--  MISC_KEYS  -->
+<!-- -->
 <!-- NUTRITION: -->
 <!--  NUTRITION_DRINKS  NUTRITION_FISH  NUTRITION_GROWN  NUTRITION_MEAT  NUTRITION_PACKAGED  -->
 <!--  NUTRITION_SEEDS -->
@@ -14576,6 +14579,27 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- MEDICALS_SUPPLIES END -->
 
 <!-- ++++++++++ MEDICALS END ++++++++++ -->
+
+<!-- ++++++++++ MISC START ++++++++++ -->
+
+<!-- MISC_KEYS START -->
+
+	<type name="PunchedCard">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="special"/>
+        <usage name="ContaminatedArea"/>
+    </type>
+
+<!-- MISC_KEYS END -->
+
+<!-- ++++++++++ MISC END ++++++++++ -->
 
 <!-- ++++++++++ NUTRITION START ++++++++++ -->
 
