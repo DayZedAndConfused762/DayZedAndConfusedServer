@@ -29,14 +29,16 @@
 - https://www.youtube.com/watch?v=UEpuAUm0fZ8
 - https://www.youtube.com/watch?v=7_R_2HnDkzk
 - add loot to protective cases
-- spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton 
-- dayzyourway.com
+- spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton
 - setup server restarts
 - add spawn loadouts to chernarus
+  - dayzyourway.com
 - review mods for possible use:
+  - Airdrop-Upgraded" https://steamcommunity.com/sharedfiles/filedetails/?id=1870524790
   - Survivor Animations: https://steamcommunity.com/workshop/filedetails/?id=2918418331
   - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
-  - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856  
+  - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
+  - Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
   - InfectedHordesPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1733084281
   - ND Missions: https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
     - ND Missions Wiki: https://github.com/AlPepino/Next-Days/wiki/ND-Missions
@@ -51,54 +53,19 @@
   - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
   - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
   - FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
+  - CJ187-MoreWeapons: https://steamcommunity.com/sharedfiles/filedetails/?id=1945519331
+  - MassGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=2692545267
+  - MoreGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
+  - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
+  - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
+  - Advanced Weapon Scopes: https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
+  - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
   - 
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2049002856
-https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
-https://steamcommunity.com/sharedfiles/filedetails/?id=2971910339
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1793351435
-https://steamcommunity.com/sharedfiles/filedetails/?id=1945519331
-https://steamcommunity.com/sharedfiles/filedetails/?id=2692545267
-https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
-https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
-https://steamcommunity.com/sharedfiles/filedetails/?id=2545924198
-https://steamcommunity.com/sharedfiles/filedetails/?id=2443122116
-https://steamcommunity.com/sharedfiles/filedetails/?id=2059026492
-https://steamcommunity.com/sharedfiles/filedetails/?id=1945945241
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2202288946
-https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
-https://steamcommunity.com/sharedfiles/filedetails/?id=3009752602
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1748044748
-https://steamcommunity.com/sharedfiles/filedetails/?id=2946247954
-https://steamcommunity.com/sharedfiles/filedetails/?id=2993816606
-
   - 
-  -  
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2885089658
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2906835106
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2941470684
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2392955057
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=3087753796
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=3173340611
-  - https://steamcommunity.com/workshop/browse/?appid=221100&searchtext=namalsk&childpublishedfileid=0&browsesort=textsearch&section=
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2328254129&searchtext=namalsk
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2941804897&searchtext=namalsk
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2357023907&searchtext=namalsk
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2353424547&searchtext=namalsk\
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1759958567
   - 
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2444301292
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1870524790
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1866298408
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1709502410
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2065443797
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
+  - 
+  - 
+  - 
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2977598612
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2980264500
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2994462144
