@@ -33,6 +33,8 @@
 - Added Tisy map edit and Bunker
 - Added PunchedCard spawns to ContaminatedArea
 - Added Bennett's Bunker requirements
+- Added Tisy map edit and Bunker
+- Added NWAF Bunker
 
 <!-- ++++++++++++++++++++ 9/13/2024 End ++++++++++++++++++++ -->
 
