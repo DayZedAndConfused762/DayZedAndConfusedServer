@@ -32,6 +32,7 @@
 
 - Added Tisy map edit and Bunker
 - Added PunchedCard spawns to ContaminatedArea
+- Adjusted spawn chance of PunchedCard on Convoy officers
 - Added Bennett's Bunker requirements
 - Added NWAF Bunker
 - Added Police Station map edits
