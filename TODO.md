@@ -36,44 +36,22 @@
 - review mods for possible use:
   - Survivor Animations: https://steamcommunity.com/workshop/filedetails/?id=2918418331
   - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
-  
-
-  
-
-
-
-
-
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2620165863
-https://steamcommunity.com/sharedfiles/filedetails/?id=2657137876
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677692624
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677694007
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677694464
-https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
-https://steamcommunity.com/workshop/filedetails/?id=2111275052
-https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
-https://steamcommunity.com/sharedfiles/filedetails/?id=1787431165
-https://steamcommunity.com/sharedfiles/filedetails/?id=2521460498
-https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
-https://steamcommunity.com/sharedfiles/filedetails/?id=2264162971
-https://steamcommunity.com/sharedfiles/filedetails/?id=1781132597
-https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
-https://steamcommunity.com/sharedfiles/filedetails/?id=2715301538
-https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
-https://steamcommunity.com/sharedfiles/filedetails/?id=1782718362
-https://steamcommunity.com/sharedfiles/filedetails/?id=2924719512
-https://steamcommunity.com/sharedfiles/filedetails/?id=1619476627
-https://steamcommunity.com/sharedfiles/filedetails/?id=2721984927
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2971190303
-https://steamcommunity.com/sharedfiles/filedetails/?id=2971993210
-https://steamcommunity.com/sharedfiles/filedetails/?id=2488157071
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
-
-https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
+  - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856  
+  - InfectedHordesPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1733084281
+  - ND Missions: https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
+    - ND Missions Wiki: https://github.com/AlPepino/Next-Days/wiki/ND-Missions
+  - Next-Days: https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
+  - Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
+    - Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
+  - BleedTrail: https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
+  - ItemRarity: https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
+  - SimpleAutorun: https://steamcommunity.com/sharedfiles/filedetails/?id=2264162971
+  - SIX-DayZ-Auto-Run: https://steamcommunity.com/sharedfiles/filedetails/?id=1781132597
+  - ZenLeftovers: https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
+  - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
+  - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
+  - FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
+  - 
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2049002856
 https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
