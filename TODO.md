@@ -64,22 +64,13 @@
   - BBPItemPack: https://web.archive.org/web/20230315090023/https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
   - Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
   - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
+  - Basic_Territories_Updated: https://steamcommunity.com/sharedfiles/filedetails/?id=2999534116
+  - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
+  - MRTsMREs: https://steamcommunity.com/sharedfiles/filedetails/?id=2503394943
+  - 	
   - 
   - 
   - 
-  - 
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1617874376
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1669384419
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1682207097
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2999534116
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2398911445
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2111275052
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2878980498
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2387682738
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2345008197	
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1775478803	
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2954821639
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2503394943
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2967731829
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2953162523
