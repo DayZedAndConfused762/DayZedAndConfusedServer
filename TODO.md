@@ -35,7 +35,7 @@
 - add spawn loadouts to chernarus
   - dayzyourway.com
 - review mods for possible use:
-  - Airdrop-Upgraded" https://steamcommunity.com/sharedfiles/filedetails/?id=1870524790
+  - Airdrop-Upgraded: https://steamcommunity.com/sharedfiles/filedetails/?id=1870524790
   - Survivor Animations: https://steamcommunity.com/workshop/filedetails/?id=2918418331
   - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
   - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
@@ -61,26 +61,13 @@
   - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
   - Advanced Weapon Scopes: https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
   - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
+  - BBPItemPack: https://web.archive.org/web/20230315090023/https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
+  - Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
+  - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
   - 
   - 
   - 
   - 
-  - 
-  - 
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2977598612
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2980264500
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2994462144
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2973451057
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2957760073
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1750629601
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1847114006
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2768870407
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2741768401
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2885882352
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2957823412
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
   - https://steamcommunity.com/sharedfiles/filedetails/?id=1617874376
   - https://steamcommunity.com/sharedfiles/filedetails/?id=1669384419
   - https://steamcommunity.com/sharedfiles/filedetails/?id=1682207097
