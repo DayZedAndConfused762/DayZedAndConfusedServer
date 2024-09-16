@@ -35,6 +35,7 @@
 - Edit "cfggameplay.json"
   - Change  "lightingConfig" to "0"
 - Fixed typo in "types_basefortifications.xml"
+- Installed @CJ187-LootCrates
 
 <!-- ++++++++++++++++++++ 9/16/2024 End ++++++++++++++++++++ -->
 
