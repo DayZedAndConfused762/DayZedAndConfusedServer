@@ -18,6 +18,9 @@
 
 ## To Do  
 
+- Fix M79 and historical spawns
+- Setup airdrop loot
+- Setup lootcrate loot
 - Replace burlap wrife rap mod with craftable version
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
 - https://forums.dayz.com/topic/241019-zombie-hordes-to-my-server/
