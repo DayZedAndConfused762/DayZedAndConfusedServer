@@ -1,0 +1,121 @@
+{
+  "name": "Dealer3",
+  "spawnWeight": 1,
+  "characterTypes": [],
+  "attachmentSlotItemSets": [
+    {
+      "slotName": "shoulderL",
+      "discreteItemSets": [
+        {
+          "itemType": "Broom",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Body",
+      "discreteItemSets": [
+        {
+          "itemType": "ManSuit_Blue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "SodaCan_Cola"
+          ],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Legs",
+      "discreteItemSets": [
+        {
+          "itemType": "SlacksPants_Blue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Feet",
+      "discreteItemSets": [
+        {
+          "itemType": "LeatherShoes_Beige",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Eyewear",
+      "discreteItemSets": [
+        {
+          "itemType": "DesignerGlasses",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    }
+  ],
+  "discreteUnsortedItemSets": [
+    {
+      "name": "Cargo1",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 1,
+        "healthMax": 1,
+        "quantityMin": 1,
+        "quantityMax": 1
+      },
+      "simpleChildrenUseDefaultAttributes": false,
+      "simpleChildrenTypes": [
+        "BandageDressing"
+      ],
+      "complexChildrenTypes": []
+    }
+  ]
+}
