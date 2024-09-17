@@ -34,6 +34,7 @@
 ## 9/17/2024
 
 - Changed m79; removed unique tag, added deloot tag
+- Increased heli crash spawns from 4 to 6
 
 <!-- ++++++++++++++++++++ 9/17/2024 End ++++++++++++++++++++ -->
 
