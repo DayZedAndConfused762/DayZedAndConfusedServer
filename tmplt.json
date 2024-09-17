@@ -1,0 +1,47 @@
+{
+  "name": "tmplt",
+  "spawnWeight": 1,
+  "characterTypes": [],
+  "attachmentSlotItemSets": [
+    {
+      "slotName": "shoulderL",
+      "discreteItemSets": [
+        {
+          "itemType": "AKM",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 1,
+            "healthMax": 1,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [
+            "AK_PlasticBttstck",
+            "AK_RailHndgrd",
+            "AK_WoodBttstck_Black",
+            "Mag_AKM_Drum75Rnd"
+          ],
+          "complexChildrenTypes": [
+            {
+              "itemType": "KobraOptic",
+              "attributes": {
+                "healthMin": 1,
+                "healthMax": 1,
+                "quantityMin": 1,
+                "quantityMax": 1
+              },
+              "quickBarSlot": -1,
+              "simpleChildrenUseDefaultAttributes": true,
+              "simpleChildrenTypes": [
+                "Battery9V"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discreteUnsortedItemSets": []
+}
