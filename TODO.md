@@ -25,84 +25,87 @@
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
 - https://forums.dayz.com/topic/241019-zombie-hordes-to-my-server/
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
-
 - https://www.youtube.com/watch?v=PKh1DQOnbBQ
 - https://www.youtube.com/watch?v=8HBV6d0ryDs
 - https://www.youtube.com/watch?v=VboiOKEHTQs
 - https://www.youtube.com/watch?v=bezRqYIYeh4
 - https://www.youtube.com/watch?v=UEpuAUm0fZ8
 - https://www.youtube.com/watch?v=7_R_2HnDkzk
-- need to increase police and military loot due to new map edits
 - add loot to protective cases
 - spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton
-- setup server restarts
 - add spawn loadouts to chernarus
   - dayzyourway.com
 - review mods for possible use:
-  - Airdrop-Upgraded: https://steamcommunity.com/sharedfiles/filedetails/?id=1870524790
+
+  - Drunk: https://steamcommunity.com/sharedfiles/filedetails/?id=2842789742
+    - @pr3d3k - In your Profile Folder > Drunkenness > Settings.json, just remove "Vodka" from "Drinks", and leave it only under "Liquids".  It's not a bug, just wrong settings that were supplied with the mod and they will be fixed on next update. Thanks for reporting!
+  - Den Drinks: https://steamcommunity.com/sharedfiles/filedetails/?id=2953370689
+  - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
+  - MRTsMREs: https://steamcommunity.com/sharedfiles/filedetails/?id=2503394943
+  - Last Resort - Drunkeness: https://steamcommunity.com/sharedfiles/filedetails/?id=2892950955&searchtext=
+  - ZenLeftovers: https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
+
   - Survivor Animations: https://steamcommunity.com/workshop/filedetails/?id=2918418331
+
   - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
+
   - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
   - Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
+
   - InfectedHordesPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1733084281
+
+  - Next-Days: https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
   - ND Missions: https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
     - ND Missions Wiki: https://github.com/AlPepino/Next-Days/wiki/ND-Missions
-  - Next-Days: https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
+
   - Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
     - Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
+
   - BleedTrail: https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
+
   - ItemRarity: https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
+
   - SimpleAutorun: https://steamcommunity.com/sharedfiles/filedetails/?id=2264162971
   - SIX-DayZ-Auto-Run: https://steamcommunity.com/sharedfiles/filedetails/?id=1781132597
-  - ZenLeftovers: https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
+
   - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
+
   - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
   - FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
+
   - CJ187-MoreWeapons: https://steamcommunity.com/sharedfiles/filedetails/?id=1945519331
   - MassGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=2692545267
   - MoreGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
   - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
   - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
   - Advanced Weapon Scopes: https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
+
+  - TLH Item Pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3179673330
+  - Western NBC Gear: https://steamcommunity.com/sharedfiles/filedetails/?id=2973881389
+  - AR-10B: https://steamcommunity.com/sharedfiles/filedetails/?id=2980093560
+  - FAL Wood Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2976777866
+
   - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
+
   - BBPItemPack: https://web.archive.org/web/20230315090023/https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
   - Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
   - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
   - Basic_Territories_Updated: https://steamcommunity.com/sharedfiles/filedetails/?id=2999534116
-  - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
-  - MRTsMREs: https://steamcommunity.com/sharedfiles/filedetails/?id=2503394943
-  - 	
-  - 
-  - 
-  - 
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2503394943
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2967731829
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2953162523
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2980235854
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2720891274
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2954756500
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1982323784
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2299460322
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2489196158
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2536192196
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1797720064
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1670333902
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2124309453
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1566911166
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2551386601
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2933630645
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2920945894
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2973881389
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2579252958
 
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=1735691552
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2265389602
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2801702756
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2801702756
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2104981751
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2997539444
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2085234803
+  - Spurgles_BagZ: https://steamcommunity.com/sharedfiles/filedetails/?id=2489196158
+  - WindstridesClothingPack: https://steamcommunity.com/sharedfiles/filedetails/?id=1797720064
+  - CJ187-MoreItems: https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
+  - GearPDA: https://steamcommunity.com/sharedfiles/filedetails/?id=2124309453
+  - Mass'sManyItemOverhaul: https://steamcommunity.com/sharedfiles/filedetails/?id=1566911166
+  - AdditionalMedicSupplies: https://steamcommunity.com/sharedfiles/filedetails/?id=2579252958
+  - 
+  
+  - 
+  
+  
+
+
+
 
 
 
