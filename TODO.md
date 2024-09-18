@@ -18,6 +18,7 @@
 
 ## To Do  
 
+- Check TLH type for possible typo: type name="TLH_Melee_TLH_Melee_PoliceBaton"
 - Fix M79 and historical spawns
 - Setup airdrop loot
 - Setup lootcrate loot
