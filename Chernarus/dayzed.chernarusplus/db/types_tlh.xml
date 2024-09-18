@@ -212,6 +212,21 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>		
     </type>
+    <type name="TLH_Mag_SVD_10Rnd_Gold">
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>600</restock>
+        <min>0</min>
+        <quantmin>5</quantmin>
+        <quantmax>40</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>		
+    </type>
+
+ 
 
 <!-- AMMUNITION_MAGAZINES END -->
 
@@ -2282,6 +2297,18 @@
 		<value name="Tier3"/>
         <value name="Tier4"/>		
     </type>
+    <type name="TLH_Weapon_SVD_Gold">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>		
+    </type>
 
 <!-- FIREARMS_RIFLES END -->
 
@@ -2550,6 +2577,21 @@
 <!-- MISC_KEYS START -->
 
     <type name="TLH_Tool_BunkerAccessCodes">
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1800</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="tools"/>
+        <usage name="Farm"/>
+		<usage name="SeasonalEvent"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>		
+    </type>
+    <type name="TLH_Tool_PunchedCard_MajorDegtayrev">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
@@ -3017,6 +3059,21 @@
 <!-- TOOLS_COMMUNICATION START -->
 
     <type name="TLH_Tool_Radio_Black">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>200</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>	
+        <usage name="Firefighter"/>
+    </type>
+    <type name="TLH_Tool_Radio_White">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>200</restock>
