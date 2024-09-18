@@ -18,7 +18,9 @@
 
 ## To Do  
 
-- Check TLH type for possible typo: type name="TLH_Melee_TLH_Melee_PoliceBaton"
+- Check TLH types NBC Categorie for typos: items starting with NBC_ instead of TLH_
+- Check TLH types for possible typo: type name="TLH_Melee_TLH_Melee_PoliceBaton"
+- Check TLH types - may be some missing ALICE packs
 - Fix M79 and historical spawns
 - Setup airdrop loot
 - Setup lootcrate loot
