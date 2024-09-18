@@ -18,6 +18,7 @@
 
 ## To Do  
 
+- https://www.reddit.com/r/dayz/comments/142j5kd/pve_mod/
 - Check TLH types NBC Categorie for typos: items starting with NBC_ instead of TLH_
 - Check TLH types for possible typo: type name="TLH_Melee_TLH_Melee_PoliceBaton"
 - Check TLH types - may be some missing ALICE packs
