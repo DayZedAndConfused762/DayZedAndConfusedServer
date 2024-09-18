@@ -6,207 +6,495 @@ Get list of cj chests and add to type as needed
 Add cfgrandompresets.xml
 Add cfgspawnabletypes.xml
 
-Location			Key		Category		Chests
+Location			            Key		    Category		Chests
 
-Tisy Headquarters 1st Floor	CJ_Key1
-Tisy Headquarters 2nd Floor	CJ_Key2
-Tisy Headquarters Bunker	CJ_Key3
-
-
-
-    "LCPredefinedWeapons": [
-
-
-        {
-            "defname": "LC_predefined_AK74",
-            "weapon": "AK74",
-            "magazine": "Mag_AK74_30Rnd",
-            "attachments": [
-                "AK_Suppressor",
-                "AK74_Hndgrd",
-                "AK74_WoodBttstck"
-            ],
-            "optic": "KobraOptic",
-            "opticbattery": 1
-        },
-        {
-            "defname": "LC_predefined_AK101",
-            "weapon": "AK101",
-            "magazine": "Mag_AK101_30Rnd",
-            "attachments": [
-                "AK_Suppressor",
-                "AK_PlasticHndgrd",
-                "AK_PlasticBttstck"
-            ],
-            "optic": "KobraOptic",
-            "opticbattery": 1
-        },
-        {
-            "defname": "LC_predefined_AKM",
-            "weapon": "AKM",
-            "magazine": "Mag_AKM_30Rnd",
-            "attachments": [
-                "AK_Suppressor",
-                "AK_WoodHndgrd",
-                "AK_WoodBttstck"
-            ],
-            "optic": "KobraOptic",
-            "opticbattery": 1
-        },
-        {
-            "defname": "LC_predefined_Blaze",
-            "weapon": "B95",
-            "magazine": "",
-            "attachments": [
-                ""
-            ],
-            "optic": "HuntingOptic",
-            "opticbattery": 0
-        },
-        {
-            "defname": "LC_predefined_CZ527",
-            "weapon": "CZ527",
-            "magazine": "Mag_CZ527_5rnd",
-            "attachments": [
-                ""
-            ],
-            "optic": "HuntingOptic",
-            "opticbattery": 0
-        },
-        {
-            "defname": "LC_predefined_FAL",
-            "weapon": "FAL",
-            "magazine": "Mag_FAL_20Rnd",
-            "attachments": [
-                "Fal_OeBttstck"
-            ],
-            "optic": "ACOGOptic",
-            "opticbattery": 0
-        },
-        {
-            "defname": "LC_predefined_M4",
-            "weapon": "M4A1",
-            "magazine": "Mag_STANAG_30Rnd",
-            "attachments": [
-                "M4_Suppressor",
-                "M4_RISHndgrd_Black",
-                "M4_MPBttstck_Black"
-            ],
-            "optic": "ACOGOptic_6x",
-            "opticbattery": 0
-        },
-        {
-            "defname": "LC_predefined_MP5",
-            "weapon": "MP5k",
-            "magazine": "Mag_MP5_30Rnd",
-            "attachments": [
-                "MP5_Compensator",
-                "MP5k_StockBttstck",
-                "MP5_RailHndgrd"
-            ],
-            "optic": "ReflexOptic",
-            "opticbattery": 1
-        },
-        {
-            "defname": "LC_predefined_SKS",
-            "weapon": "SKS",
-            "magazine": "",
-            "attachments": [
-                ""
-            ],
-            "optic": "PUScopeOptic",
-            "opticbattery": 0
-        },
-        {
-            "defname": "LC_predefined_SVD",
-            "weapon": "SVD",
-            "magazine": "Mag_SVD_10Rnd",
-            "attachments": [
-                "AK_Suppressor"
-            ],
-            "optic": "PSO11Optic",
-            "opticbattery": 1
-        },
-        {
-            "defname": "LC_predefined_Tundra",
-            "weapon": "Winchester70",
-            "magazine": "",
-            "attachments": [
-                ""
-            ],
-            "optic": "HuntingOptic",
-            "opticbattery": 0
-        },
-        {
-            "defname": "LC_predefined_VSS",
-            "weapon": "VSS",
-            "magazine": "Mag_VSS_10Rnd",
-            "attachments": [
-                "AK_Suppressor"
-            ],
-            "optic": "KobraOptic",
-            "opticbattery": 1
-        }
-//  Don't forget to remove the last comma!!!!!!
-],
+Tisy Headquarters 1st Floor     CJ_Key1     Military
+Tisy Headquarters 2nd Floor	    CJ_Key2     Military
+Tisy Headquarters Bunker	    CJ_Key3     Military
 
 
 
-    "LootCategories": [
-        {
-            "name": "LC_Table_Weapons_1",
-            "Loot": [
-                "Glock19",
-                "Colt1911",
-                "MakarovIJ70"
-            ]
-        },
-        {
-            "name": "LC_Table_Weapons_2",
-            "Loot": [
-                "LC_predefined_M4",
-                "LC_predefined_AKM",
-                "LC_predefined_MP5",
-                "LC_predefined_SVD",
-                "LC_predefined_VSS",
-                "LC_predefined_Tundra",
-                "LC_predefined_Blaze",
-                "LC_predefined_SKS",
-                "LC_predefined_CZ527",
-                "LC_predefined_AK74",
-                "LC_predefined_AK101",
-                "LC_predefined_FAL"
-            ]
-        },
-        {
-            "name": "LC_Table_Magazines_1",
-            "Loot": [
-                "Mag_MP5_30Rnd",
+
+<!-- AMMUNITION START -->
+
+<!-- AMMUNITION_BOXED START -->
+
+                "AmmoBox",
+                "AmmoBox_9x19_25rnd",
+		        "AmmoBox_9x39_20Rnd",
+            	"AmmoBox_9x39AP_20Rnd",
+                "AmmoBox_22_50Rnd",
+                "AmmoBox_308Win_20Rnd",
+            	"AmmoBox_308WinTracer_20Rnd",
+            	"AmmoBox_308WinTracer_20Rnd",
+                "AmmoBox_357_20Rnd",
+                "AmmoBox_380_35rnd",
+                "AmmoBox_45ACP_25rnd",
+            	"AmmoBox_545x39_20Rnd",
+            	"AmmoBox_545x39Tracer_20Rnd",
+	            "AmmoBox_556x45_20Rnd",
+            	"AmmoBox_556x45Tracer_20Rnd",
+            	"AmmoBox_762x39_20Rnd",
+            	"AmmoBox_762x39Tracer_20Rnd",
+            	"AmmoBox_762x54_20Rnd",
+            	"AmmoBox_762x54Tracer_20Rnd",
+
+<!-- AMMUNITION_BOXED END -->
+
+<!-- AMMUNITION_EXPLOSIVE START -->
+
+                "Ammo_40mm_Chemgas",
+                "Ammo_40mm_Explosive",
+                "Ammo_40mm_Smoke_Black",
+                "Ammo_40mm_Smoke_Green",
+                "Ammo_40mm_Smoke_Red",
+                "Ammo_40mm_Smoke_White",
+
+<!-- AMMUNITION_EXPLOSIVE END -->
+
+<!-- AMMUNITION_MAGAZINES START -->
+
+                "Mag_1911_7Rnd",
+                "Mag_AK101_30Rnd",
+                "Mag_AK101_30Rnd_Black",
+                "Mag_AK101_30Rnd_Green",
                 "Mag_AK74_30Rnd",
-                "Mag_CZ527_5rnd"
-            ]
-        },
-        {
-            "name": "LC_Table_Magazines_2",
-            "Loot": [
-                "Mag_STANAG_30Rnd",
+                "Mag_AK74_45Rnd",
                 "Mag_AKM_30Rnd",
-                "Mag_FAL_20Rnd"
-            ]
-        },
-        {
-            "name": "LC_Table_Attachments",
-            "Loot": [
-                "AK_Suppressor",
-                "M4_Suppressor",
-                "ACOGOptic"
-            ]
-        },
-        {
-            "name": "LC_Table_Ammo",
-            "Loot": [
-                "AmmoBox_545x39_20Rnd"
-            ]
-        }
-    ]
-}
+                "Mag_AKM_Drum75Rnd",
+                "Mag_AKM_Drum75Rnd_Black",
+                "Mag_AKM_Drum75Rnd_Green",
+                "Mag_AKM_Palm30Rnd",
+                "Mag_AKM_Palm30Rnd_Black",
+                "Mag_AKM_Palm30Rnd_Green",
+                "Mag_Aug_30Rnd",
+                "Mag_CMAG_10Rnd",
+                "Mag_CMAG_10Rnd_Black",
+                "Mag_CMAG_10Rnd_Green",
+                "Mag_CMAG_20Rnd",
+                "Mag_CMAG_30Rnd",
+                "Mag_CMAG_30Rnd_Black",
+                "Mag_CMAG_30Rnd_Green",
+                "Mag_CMAG_40Rnd",
+                "Mag_CMAG_40Rnd_Black",
+                "Mag_CMAG_40Rnd_Green",
+                "Mag_CZ527_5rnd",
+                "Mag_CZ550_10Rnd",
+                "Mag_CZ61_20Rnd",
+                "Mag_CZ75_15Rnd",
+                "Mag_Deagle_9rnd",
+                "Mag_FAL_20Rnd",
+                "Mag_FAMAS_25Rnd",
+                "Mag_FNX45_15Rnd",
+                "Mag_Glock_15Rnd",
+                "Mag_IJ70_8Rnd",
+                "Mag_M14_10Rnd",
+                "Mag_M14_20Rnd",
+                "Mag_MKII_10Rnd",
+                "Mag_MP5_15Rnd",
+                "Mag_MP5_30Rnd",
+                "Mag_P1_8Rnd",
+                "Mag_PP19_64Rnd",
+                "Mag_Ruger1022_15Rnd",
+                "Mag_Ruger1022_30Rnd",
+                "Mag_SSG82_5rnd",
+                "Mag_STANAG_30Rnd",
+                "Mag_STANAG_60Rnd",
+                "Mag_SV98_10Rnd",
+                "Mag_SVD_10Rnd",
+                "Mag_Saiga_5Rnd",
+                "Mag_Saiga_8Rnd",
+                "Mag_Saiga_Drum20Rnd",
+                "Mag_Scout_5Rnd",
+                "Mag_UMP_25Rnd",
+                "Mag_VAL_20Rnd",
+                "Mag_VSS_10Rnd",
+                "Mag_Vikhr_30Rnd",
+
+<!-- AMMUNITION_MAGAZINES END -->
+
+<!-- AMMUNITION END -->
+
+<!-- CLOTHING START -->
+
+                "TTSKOPants",
+                "TTsKOJacket_Camo",
+
+                "HuntingJacket_Autumn",
+                "HunterPants_Autumn",
+
+                "HuntingJacket_Brown",
+                "HunterPants_Brown",
+
+                "HuntingJacket_Spring",
+                "HunterPants_Spring",
+
+                "HuntingJacket_Summer",
+                "HunterPants_Summer",
+
+                "HuntingJacket_Winter",
+                "HunterPants_Winter",
+
+                "GorkaPants_Summer",
+                "GorkaEJacket_Summer",
+	
+                "GorkaPants_Flat",
+                "GorkaEJacket_Flat",
+
+                "GorkaPants_Autumn",
+                "GorkaEJacket_Autumn",
+
+                "GorkaEJacket_PautRev",
+                "GorkaPants_PautRev",
+
+
+                "USMCPants_Desert",
+                "USMCPants_Woodland",
+
+                "TacticalShirt_Grey",
+                "TacticalShirt_Black",
+                "TacticalShirt_Olive",
+                "TacticalShirt_Tan",
+
+                "M65Jacket_Black",
+                "M65Jacket_Khaki",
+                "M65Jacket_Tan",
+                "M65Jacket_Olive",
+
+                "BDUPants",
+
+<!-- CLOTHING END -->
+
+<!-- EXPLOSIVES START -->
+
+<!-- EXPLOSIVES_SMOKE START -->
+
+    "M18SmokeGrenade_Green"
+    "M18SmokeGrenade_Purple"
+    "M18SmokeGrenade_Red"
+    "M18SmokeGrenade_White"
+    "M18SmokeGrenade_Yellow"
+    "RDG2SmokeGrenade_Black"
+    "RDG2SmokeGrenade_White"
+
+<!-- EXPLOSIVES_SMOKE END -->
+
+<!-- EXPLOSIVES_THROWN START -->
+
+    "FlashGrenade"
+    "Grenade_ChemGas"
+    "M67Grenade"
+    "RGD5Grenade"
+
+<!-- EXPLOSIVES_THROWN END -->
+
+<!-- EXPLOSIVES END -->
+
+<!-- FIREARMS START -->
+
+<!-- FIREARMS_ASSAULT START -->
+
+"AK101" "Mag_AK101_30Rnd"   "AK_PlasticHndgrd"  "KashtanOptic"
+                                                "PSO11Optic" 
+"AK101_Black"
+"AK101_Green"
+
+"AK74"  "Mag_AK74_30Rnd"    "AK74_WoodBttstck"  "AK74_Hndgrd"   "KashtanOptic"
+        "Mag_AK74_45Rnd"                                        "PSO11Optic" 
+"AK74_Black"
+"AK74_Green"
+
+"AKM"   "Mag_AKM_30Rnd" "AK_Suppressor" "AK_PlasticBttstck" "AK_PlasticHndgrd"  "KashtanOptic" 
+                                                                                "PSO11Optic"
+
+"ASVAL" "Mag_VAL_20Rnd" "TLRLight"  "BUISOptic" 
+                                    "M4_T3NRDSOptic" 
+                                    "ReflexOptic" 
+                                    "ACOGOptic" 
+
+"AKS74U"    "Mag_AK74_30Rnd"    "AKS74U_Bttstck"  
+
+"Aug"
+
+"AugShort"
+
+"M16A2"     "Mag_CMAG_10Rnd"
+            "Mag_CMAG_20Rnd"
+            "Mag_CMAG_30Rnd"
+            "Mag_CMAG_40Rnd" 
+
+"M4A1"      "Mag_CMAG_10Rnd"    "M4_Suppressor" "M4_OEBttstck"  "M4_PlasticHndgrd"  "BUISOptic"
+            "Mag_CMAG_20Rnd"                                                        "M4_CarryHandleOptic"
+            "Mag_CMAG_30Rnd"
+            "Mag_CMAG_40Rnd" 
+"M4A1_Black"
+"M4A1_Green"
+
+"FAL"   "Mag_FAL_20Rnd" "Fal_FoldingBttstck"    "BUISOptic"
+                        "Fal_OeBttstck"         "M68Optic"
+                                                "M4_T3NRDSOptic" 
+                                                "ReflexOptic" 
+                                                "ACOGOptic" 
+"FAMAS" "Mag_FAMAS_25Rnd"
+
+"VSS"   "Mag_VSS_10Rnd"     "KashtanOptic"
+                            "PSO1Optic"
+                            "PSO11Optic"
+
+<!-- FIREARMS_ASSAULT END -->
+
+<!-- FIREARMS_LAUNCHERS START -->
+
+"M79"
+
+<!-- FIREARMS_LAUNCHERS END -->
+
+<!-- FIREARMS_PISTOLS START -->
+
+"Pistols"
+"Colt1911"  "Mag_1911_7Rnd" "PistolSuppressor"
+"CZ75"  "Mag_CZ75_15Rnd"    "TLRLight"  "PistolSuppressor"  "PistolOptic"
+"Deagle"    "Mag_Deagle_9rnd"
+"Deagle_Gold"   "Mag_Deagle_9rnd"
+"Engraved1911"  "Mag_1911_7Rnd"     "PistolSuppressor"
+"FNX45" "Mag_FNX45_15Rnd" "TLRLight" "PistolSuppressor" "FNP45_MRDSOptic"
+"Glock19" "Mag_Glock_15Rnd" "TLRLight" "PistolSuppressor" "PistolOptic"
+"Longhorn"
+"MKII"              "Mag_MKII_10Rnd"
+"Magnum"
+"MakarovIJ70"       "Mag_IJ70_8Rnd"
+"P1"
+
+<!-- FIREARMS_PISTOLS END -->
+
+<!-- FIREARMS_RIFLES START -->
+
+"B95"   "HuntingOptic"
+"CZ527" "Mag_CZ527_5rnd"    "HuntingOptic"
+"CZ550"
+"Repeater"
+"Ruger1022"
+"M14"
+"Mosin9130"         "Mosin_Compensator"     "PUScopeOptic"
+"Mosin9130_Black"
+"Mosin9130_Camo"
+"Mosin9130_Green"
+"Ruger1022"         "Mag_Ruger1022_15Rnd"    "HuntingOptic"
+"Mag_Ruger1022_30Rnd" 
+"Scout"             "Mag_CMAG_10Rnd"    "M4_T3NRDSOptic" 
+                    "Mag_CMAG_20Rnd"    "M68Optic"
+                    "Mag_CMAG_30Rnd"    "ACOGOptic"
+                    "Mag_CMAG_40Rnd"    "ACOGOptic_6x"
+"Scout_Chernarus"
+"Scout_Livonia"
+"SKS"   "PUScopeOptic"
+"SSG82"
+"SVD"   "Mag_SVD_10Rnd" "KashtanOptic"
+"PSO11Optic" 
+"SV98"
+"Winchester70"  "HuntingOptic"
+
+<!-- FIREARMS_RIFLES END -->
+
+<!-- FIREARMS_SHOTGUNS START -->
+
+"Izh18Shotgun"
+"Izh43Shotgun"
+"Mp133Shotgun"
+"Saiga"     "Mag_Saiga_5Rnd"    "Saiga_Bttstck"
+            "Mag_Saiga_8Rnd"
+
+<!-- FIREARMS_SHOTGUNS END -->
+
+<!-- FIREARMS_SMG START -->
+
+"CZ61"  "Mag_CZ61_20Rnd"    "PistolSuppressor"
+"MP5K"  "Mag_MP5_15Rnd"     "PistolSuppressor"  "MP5k_StockBttstck"         "MP5_RailHndgrd"            "BUISOptic" 
+        "Mag_MP5_30Rnd"     "MP5_Compensator"                               "MP5_PlasticHndgrd"         "M68Optic"
+                                                                                                        "M4_T3NRDSOptic"
+                                                                                                        "ReflexOptic"
+                                                                                                        "ACOGOptic"
+"PP19"
+"UMP45" "Mag_UMP_25Rnd" "TLRLight"  "PistolSuppressor"  "BUISOptic" 
+                                                        "M68Optic"
+                                                        "M4_T3NRDSOptic"
+                                                        "ReflexOptic"
+                                                        "ACOGOptic"
+"Vikhr"
+
+<!-- FIREARMS_SMG END -->
+
+<!-- FIREARMS END -->
+
+<!-- MEDICALS START -->
+
+<!-- MEDICALS_MEDICINE START -->
+
+"AntiChemInjector"
+"CharcoalTablets"
+"Epinephrine"
+"Morphine"
+"PainkillerTablets"
+"PurificationTablets"
+"TetracyclineAntibiotics"
+"VitaminBottle"
+
+
+<!-- MEDICALS_MEDICINE END --> 
+
+<!-- MEDICALS_SUPPLIES START -->
+
+"BandageDressing"
+"BloodBagEmpty"
+"BloodBagFull"
+"BloodBagIV"
+"BloodTestKit"
+"Defibrillator"
+"DisinfectantAlcohol"
+"DisinfectantSpray"
+"Heatpack"
+"IodineTincture"
+"SalineBag"
+"SalineBagIV"
+"Splint"
+"Splint_Applied"
+"StartKitIV"
+"Thermometer"
+
+<!-- MEDICALS_SUPPLIES END -->
+
+<!-- MEDICALS START -->
+
+<!-- NUTRITION START -->
+
+<!-- BEVERAGES -->
+
+                "Canteen",
+                "SodaCan_Cola",
+                "SodaCan_Fronta",
+                "SodaCan_Kvass",
+                "SodaCan_Pipsi",
+                "SodaCan_Spite",
+                "Vodka",
+
+<!-- CANNED_GOODS -->
+
+                "BakedBeansCan",
+                "BoxCerealCrunchin",
+                "BrisketSpread",
+                "CatFoodCan",
+                "Chips",
+                "Crackers",
+                "DogFoodCan",
+                "Honey",
+                "Lunchmeat",
+                "Marmalade",
+                "Pajka",
+                "PeachesCan",
+                "Pate",
+                "PorkCan",
+                "PowderedMilk",
+                "Rice",
+                "Sardines",
+                "SaltySticks",
+                "SpaghettiCan",
+                "TacticalBaconCan",
+                "TunaCan",
+                "UnknownFoodCan"
+                "Zagorky",
+                "ZagorkyChocolate",
+                "ZagorkyPeanuts",
+
+<!-- NUTRITION END -->
+
+<!-- STORAGE START -->
+
+<!-- BACKPACKS -->
+
+                AliceBag_Black
+                AliceBag_Camo
+                AliceBag_Green
+                "AssaultBag_Black",
+                "AssaultBag_Green",
+                "AssaultBag_Ttsko",
+                CoyoteBag_Brown
+                CoyoteBag_Green
+                HuntingBag_Hannah
+                "SmershBag",
+                "TortillaBag",
+
+<!-- TENTS -->
+
+                "CarTent",
+                "LargeTent",
+                "MediumTent",
+                "MediumTent_Green",
+                "MediumTent_Orange",
+                "PartyTent",
+                "PartyTent_Blue",
+                "PartyTent_Brown",
+                "PartyTent_Lunapark",
+
+<!-- STORAGE END -->
+
+
+
+<!-- NBC START -->
+
+
+<!-- GAS_MASKS -->
+
+                "AirborneMask",
+                "GP5GasMask",
+                GasMask
+                "GasMask_Filter",
+
+<!-- NBC_Clothing -->
+
+                "NBCHoodGray",
+                "NBCJacketGray",
+                "NBCPantsGray",
+                "NBCGlovesGray",
+                "NBCBootsGray",
+
+                "NBCHoodYellow",
+                "NBCJacketYellow",
+                "NBCPantsYellow",
+                "NBCGlovesYellow",
+                "NBCBootsYellow",
+
+<!-- NBC END -->
+
+<!-- TOOLS START -->
+
+                "BarbedWire",
+                "Battery9V",
+                "Crowbar",
+                "DuctTape",
+                "Heatpack",
+                "FirefighterAxe",
+                "GardenLime",
+                "Hammer",
+                "HandSaw",
+                "Hatchet",
+                "LeatherSewingKit",
+                "Lockpick",
+                "Matchbox",
+                "NailBox",
+                "PetrolLighter",
+                "Pickaxe",
+                "Pliers",
+                "Roadflare",
+                "Rope",
+                "Screwdriver",
+                "SewingKit",
+                "Shovel",
+                "SledgeHammer",
+                "TerritoryFlagKit",
+                "WeaponCleaningKit",
+                "Whetstone",
+                "WoodAxe",
+                "Wrench",
+
+<!-- TOOLS START -->
+
