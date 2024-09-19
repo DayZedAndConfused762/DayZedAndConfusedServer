@@ -35,6 +35,7 @@
 
 ## 9/19/2024
 
+- Adjusted @MuchStuffPak types
 - Adjust @MuchStuffPack Msp_MedievalGibbetWithMount_Kit and Msp_MedievalGibbet_Kit to category tools
 - Added XML for @CJ187 Loot Chests
 - Fixed typo in @MVS spawnable types
