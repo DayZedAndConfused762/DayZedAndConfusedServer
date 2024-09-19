@@ -36,8 +36,7 @@
 ## 9/19/2024
 
 - Update base fortifications types and mapgrouproto(increase amount of loot locations to account for new mods)
-- Adjusted @Base Fortifications types
-- Adjusted @MuchStuffPak types
+- Various loot economy adjustments
 - Adjust @MuchStuffPack Msp_MedievalGibbetWithMount_Kit and Msp_MedievalGibbet_Kit to category tools
 - Added XML for @CJ187 Loot Chests
 - Fixed typo in @MVS spawnable types

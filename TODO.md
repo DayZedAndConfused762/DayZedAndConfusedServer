@@ -39,11 +39,13 @@
   - dayzyourway.com
 - review mods for possible use:
 
+  - Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
+    - Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
+
   - Drunk: https://steamcommunity.com/sharedfiles/filedetails/?id=2842789742
     - @pr3d3k - In your Profile Folder > Drunkenness > Settings.json, just remove "Vodka" from "Drinks", and leave it only under "Liquids".  It's not a bug, just wrong settings that were supplied with the mod and they will be fixed on next update. Thanks for reporting!
   - Den Drinks: https://steamcommunity.com/sharedfiles/filedetails/?id=2953370689
   - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
-  - MRTsMREs: https://steamcommunity.com/sharedfiles/filedetails/?id=2503394943
   - Last Resort - Drunkeness: https://steamcommunity.com/sharedfiles/filedetails/?id=2892950955&searchtext=
   - ZenLeftovers: https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
 
@@ -59,9 +61,6 @@
   - Next-Days: https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
   - ND Missions: https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
     - ND Missions Wiki: https://github.com/AlPepino/Next-Days/wiki/ND-Missions
-
-  - Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
-    - Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
 
   - BleedTrail: https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
 
