@@ -46,17 +46,15 @@
 <!--  AMMUNITION_BOXED START -->
 
 	<type name="TLH_AmmoBox_10x25mmAuto">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>19000</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-		<usage name="Farm"/>		
+        <category name="weapons"/>	
         <usage name="Police"/>
     </type>
     <type name="TLH_AmmoBox_762x51mmDUDS">
@@ -71,8 +69,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
 
 <!--  AMMUNITION_BOXED END -->
@@ -80,18 +77,16 @@
 <!-- AMMUNITION_LOOSE START -->
 
     <type name="TLH_Ammo_10x25mmAuto">
-        <nominal>70</nominal>
+        <nominal>20</nominal>
         <lifetime>30000</lifetime>
         <restock>100</restock>
-        <min>65</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>25</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Hunting"/>
-		<usage name="Farm"/>		
+        <tag name="shelves"/>		
         <usage name="Police"/>
     </type>
     <type name="TLH_Ammo_762x51mmDUDS">
@@ -152,7 +147,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-		<usage name="Prison"/>
         <usage name="Military"/>
     </type>
     <type name="TLH_Mag_DeltaElite_9Rnd">
@@ -194,13 +188,13 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-		<usage name="Prison"/>
         <usage name="Police"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>		
+        <value name="Tier3"/>
+        <value name="Tier4"/>	
     </type>
     <type name="TLH_Mag_STANAGCoupled_60Rnd">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -213,17 +207,16 @@
         <usage name="ContaminatedArea"/>		
     </type>
     <type name="TLH_Mag_SVD_10Rnd_Gold">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="ContaminatedArea"/>		
     </type>
 
  
@@ -237,10 +230,10 @@
 <!-- ATTACHMENTS_GRIPS START -->
 
     <type name="TLH_Attachment_AK_Handguard_Bakelite">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -249,10 +242,10 @@
         <usage name="Military"/>
     </type>
     <type name="TLH_Attachment_AK_Handguard_OD">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -264,7 +257,7 @@
         <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -273,7 +266,7 @@
         <usage name="Military"/>
     </type>	
     <type name="TLH_Attachment_M4_Handguard_Wood">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -292,7 +285,7 @@
 <!-- ATTACHMENTS_OPTICS START -->
 
     <type name="TLH_Optic_LRSNV">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>800</restock>
         <min>2</min>
@@ -302,8 +295,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="floor"/>
-        <usage name="Hunting"/>
-        <value name="Farm"/>
+        <usage name="Military"/>
     </type>
 
 <!-- ATTACHMENTS_OPTICS END -->
@@ -311,10 +303,10 @@
 <!-- ATTACHMENTS_STOCKS START -->
 
     <type name="TLH_Attachment_AK_Stock_Bakelite">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -323,10 +315,10 @@
         <usage name="Military"/>
     </type>
     <type name="TLH_Attachment_AK_Stock_OD">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -338,7 +330,7 @@
         <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -350,7 +342,7 @@
         <nominal>2</nominal>
         <lifetime>30000</lifetime>
         <restock>1000</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -360,10 +352,10 @@
         <usage name="Military"/>
     </type>
 	<type name="TLH_Attachment_FAL_WoodStock">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -375,7 +367,7 @@
         <usage name="Military"/>		
     </type>	
     <type name="TLH_Attachment_M4_Stock_Wood">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>1</min>
@@ -400,10 +392,10 @@
 <!-- BASEBUILDING_FLAGS START -->
 
     <type name="TLH_Flag_NATO">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -412,10 +404,10 @@
         <usage name="Military"/>
     </type>
     <type name="TLH_Flag_Portugal">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -427,10 +419,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_UK">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -440,10 +432,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_USA">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -453,10 +445,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_Ukraine">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -466,10 +458,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_France">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -479,10 +471,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_USSR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -491,10 +483,10 @@
         <usage name="Military"/>
     </type>
     <type name="TLH_Flag_China">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -503,10 +495,10 @@
         <usage name="Military"/>
     </type>
     <type name="TLH_Flag_Russia">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -516,10 +508,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_Belarus">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -529,10 +521,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_Rhodesia">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -541,10 +533,10 @@
         <usage name="Farm"/>
     </type>
     <type name="TLH_Flag_Yugoslavia">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -554,10 +546,10 @@
         <usage name="Office"/>
     </type>
     <type name="TLH_Flag_GDR">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -567,10 +559,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_OD">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -582,38 +574,38 @@
 		<usage name="Military"/>
     </type>
     <type name="TLH_Flag_Gadsden">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1776</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-		<value name="Village"/>
-		<value name="Town"/>	
-		<value name="Farm"/>
-		<value name="Military"/>			
+		<usage name="Village"/>
+		<usage name="Town"/>	
+		<usage name="Farm"/>
+		<usage name="Military"/>			
     </type>
     <type name="TLH_Flag_AnAppealToHeaven">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>50</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="tools"/>
-		<value name="Town"/>	
-		<value name="Farm"/>
+		<usage name="Town"/>	
+		<usage name="Farm"/>
     </type>
     <type name="TLH_Flag_Anarchy">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14000</lifetime>
         <restock>69</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -622,10 +614,10 @@
         <usage name="Town"/>
     </type>
     <type name="TLH_Flag_Germany">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -635,10 +627,10 @@
         <usage name="School"/>
     </type>
     <type name="TLH_Flag_RedCross">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -820,9 +812,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-		<value name="Town"/>	
-		<value name="Farm"/>
-		<value name="Military"/>	
+		<usage name="Town"/>	
+		<usage name="Farm"/>
+		<usage name="Military"/>	
     </type>	
     <type name="TLH_Armband_AnAppealToHeaven">
         <nominal>0</nominal>
@@ -852,10 +844,10 @@
 <!-- CLOTHING_BELTS START -->
 
     <type name="TLH_Belt_Civilian_Black">
-        <nominal>20</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -866,10 +858,10 @@
         <usage name="Coast"/>		
     </type>	
     <type name="TLH_Belt_Civilian_White">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -880,23 +872,23 @@
         <usage name="Coast"/>		
     </type>	
     <type name="TLH_Belt_Military_Black">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>20000</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
 		<usage name="Military"/>
-		<usage name="Tier4"/>
+		<value name="Tier4"/>
     </type>
     <type name="TLH_Belt_Military_Grey">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28000</lifetime>
         <restock>800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -907,10 +899,10 @@
 		<usage name="Military"/>
     </type>
     <type name="TLH_Belt_Military_OD">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28000</lifetime>
         <restock>1400</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -921,10 +913,10 @@
 		<usage name="Military"/>
     </type>
     <type name="TLH_Belt_Military_Tan">
-        <nominal>15</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>1400</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -933,10 +925,10 @@
         <usage name="Military"/>
     </type>
     <type name="TLH_Belt_Military_White">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>20000</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -956,7 +948,7 @@
         <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>500</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -967,10 +959,10 @@
         <usage name="Town"/>			
     </type>
 	<type name="TLH_Balaclava_Wendigo">
-        <nominal>8</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1000</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -982,10 +974,10 @@
         <usage name="ContaminatedArea"/>				
     </type>
     <type name="TLH_Bandana_UN">
-        <nominal>12</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -994,13 +986,13 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Military"/>		
-        <value name="Police"/>
+        <usage name="Police"/>
     </type>
     <type name="TLH_Beard_Black">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10000</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1012,10 +1004,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="TLH_Beard_Blonde">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10000</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1027,10 +1019,10 @@
         <usage name="SeasonalEvent"/>
     </type>	
     <type name="TLH_Beard_Brunette">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10000</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1042,10 +1034,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="TLH_Beard_Grey">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>9000</lifetime>
         <restock>350</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1057,10 +1049,10 @@
         <usage name="SeasonalEvent"/>
     </type>	
     <type name="TLH_Beard_White">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>8000</lifetime>
         <restock>500</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1072,10 +1064,10 @@
         <usage name="SeasonalEvent"/>
     </type>
     <type name="TLH_Mask_NeckGaiter_Black">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1087,10 +1079,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TLH_Mask_NeckGaiter_OD">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1102,10 +1094,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TLH_Mask_NeckGaiter_Tan">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1117,10 +1109,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TLH_Mask_NeckGaiter_White">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1137,10 +1129,10 @@
 <!-- CLOTHING_HANDS START -->
 
     <type name="TLH_Gloves_Alpinist">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1163,10 +1155,10 @@
 		<usage name="Firefighter"/>
     </type>
     <type name="TLH_Gloves_Tactical_White">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1180,10 +1172,10 @@
 <!-- CLOTHING_HEAD START -->
 
     <type name="TLH_Bandana_White">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>12000</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1195,10 +1187,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TLH_BaseballCap_Sneed">
-        <nominal>14</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1210,10 +1202,10 @@
 		<usage name="Farm"/>		
     </type>
     <type name="TLH_BaseballCap_Autism">
-        <nominal>30</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1226,10 +1218,10 @@
         <value name="Tier1"/>		
     </type>
     <type name="TLH_BaseballCap_Hunter">
-        <nominal>20</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1241,10 +1233,10 @@
 		<usage name="Farm"/>		
     </type>
 	<type name="TLH_Hat_Boonie_M81">
-        <nominal>8</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1256,10 +1248,10 @@
 		<usage name="Military"/>
     </type>
     <type name="TLH_Hat_Ushanka_RedArmy">
-        <nominal>9</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1270,10 +1262,10 @@
 		<usage name="Farm"/>		
     </type>
     <type name="TLH_Hat_Ushanka_White">
-        <nominal>16</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1285,10 +1277,10 @@
 		<usage name="Farm"/>	
     </type>
 	<type name="TLH_Hat_WinterCoif_White">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1300,10 +1292,10 @@
 		<usage name="Farm"/>	
     </type>
     <type name="TLH_Helmet_Gorka_White">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1316,10 +1308,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TLH_Helmet_MICH2000_Black">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1332,7 +1324,7 @@
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1345,7 +1337,7 @@
         <nominal>1</nominal>
         <lifetime>30000</lifetime>
         <restock>2000</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1358,7 +1350,7 @@
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1371,7 +1363,7 @@
         <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1397,7 +1389,7 @@
         <nominal>1</nominal>
         <lifetime>30000</lifetime>
         <restock>2000</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1410,7 +1402,7 @@
         <nominal>1</nominal>
         <lifetime>30000</lifetime>
         <restock>2000</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1434,10 +1426,10 @@
 		<usage name="SeasonalEvent"/>
     </type>
 <type name="TLH_Helmet_PASGT_OD">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1446,10 +1438,10 @@
         <usage name="Military"/>
     </type>	
     <type name="TLH_Helmet_PASGT_UN">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1459,10 +1451,10 @@
 		<usage name="Police"/>
     </type>
     <type name="TLH_Helmet_SovietTanker_Desert">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1479,10 +1471,10 @@
 <!-- CLOTHING_NBC START -->
 
 	<type name="TLH_NBC_Gloves_Black">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>100</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1505,10 +1497,10 @@
        <usage name="ContaminatedArea"/>	
     </type>
     <type name="NBC_Gloves_TLH_Blue">
-        <nominal>12</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1521,10 +1513,10 @@
 
 
 	<type name="TLH_NBC_Helmet_Gorka_Black">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1535,10 +1527,10 @@
 		<value name="Tier3"/>	
     </type>	
 	<type name="TLH_NBC_Helmet_MICH2000_ChocoChip">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1550,10 +1542,10 @@
 		<value name="Tier4"/>		
     </type>
 	<type name="TLH_NBC_Helmet_PASGT_ChocoChip">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1565,10 +1557,10 @@
     </type>
 
     <type name="TLH_NBC_Hood_M81">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1578,10 +1570,10 @@
         <usage name="ContaminatedArea"/>		
     </type>
     <type name="TLH_NBC_Hood_White">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1594,24 +1586,23 @@
     </type>
 
     <type name="TLH_NBC_Jacket_M81">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>500</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <usage name="ContaminatedArea"/>		
+        <usage name="Military"/>	
         <value name="Tier4"/>
     </type>
     <type name="NBC_Jacket_TLH_White">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1000</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1622,25 +1613,24 @@
         <usage name="Firefighter"/>
     </type>
     <type name="TLH_NBC_M65_USDN">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>30000</lifetime>
         <restock>650</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <usage name="ContaminatedArea"/>
         <value name="Tier4"/>
     </type>
 
     <type name="TLH_Mask_GP4u_Polish">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>5000</lifetime>
         <restock>400</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1650,10 +1640,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TLH_Mask_GP4u_Soviet">
-        <nominal>4</nominal>
+        <nominal>1</nominal>
         <lifetime>10000</lifetime>
         <restock>1000</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1664,10 +1654,10 @@
         <value name="Tier4"/>
     </type>	
 	<type name="TLH_Mask_M10M">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>18000</lifetime>
         <restock>500</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1679,17 +1669,16 @@
     </type>
 
     <type name="TLH_NBC_Pants_M81">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>500</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <usage name="ContaminatedArea"/>		
+        <usage name="Military"/>	
         <value name="Tier4"/>
     </type>
     <type name="NBC_Pants_TLH_White">
@@ -1709,10 +1698,10 @@
     </type>
 
 	<type name="TLH_NBC_Shoes_M81">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1723,10 +1712,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TLH_NBC_Shoes_Black">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1738,10 +1727,10 @@
         <value name="Tier3"/>
     </type>
     <type name="NBC_Shoes_TLH_Blue">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>150</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1752,10 +1741,10 @@
         <usage name="Firefighter"/>
     </type>
 	<type name="NBC_Shoes_TLH_White">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1766,18 +1755,17 @@
         <usage name="Firefighter"/>
     </type>
 	<type name="NBC_JungleBoots_TLH_Beige">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="floor"/>
-        <usage name="Military"/>
-		<usage name="ContaminatedArea"/>	
+        <usage name="Military"/>	
 		<value name="Tier4"/>
     </type>
 
@@ -1786,10 +1774,10 @@
 <!-- CLOTHING_PANTS START -->
 
     <type name="TLH_Pants_Gorka_EMR">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1800,10 +1788,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Pants_Gorka_Khaki">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1814,10 +1802,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Pants_Gorka_M05">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1829,10 +1817,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Pants_Gorka_Night">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1842,10 +1830,10 @@
         <value name="Tier4"/>		
     </type>
     <type name="TLH_Pants_Gorka_Sumrak">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1857,10 +1845,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Pants_M65_MonolithFighter">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1904,10 +1892,10 @@
 <!-- CLOTHING_TOPS START -->
 
     <type name="TLH_Jacket_Gorka_EMR">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1918,10 +1906,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Jacket_Gorka_Khaki">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1932,10 +1920,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Jacket_Gorka_M05">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1947,10 +1935,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Jacket_Gorka_Night">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1960,10 +1948,10 @@
         <value name="Tier4"/>		
     </type>
     <type name="TLH_Jacket_Gorka_Sumrak">
-        <nominal>6</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1975,10 +1963,10 @@
         <value name="Tier3"/>		
     </type>
     <type name="TLH_Jacket_M65_MonolithFighter">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1989,10 +1977,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TLH_Jacket_Wehrmacht_Feldgrau">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2035,7 +2023,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="TLH_Vest_PlateCarrier_White">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -2045,12 +2033,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <usage name="SeasonalEvent"/>
 		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="TLH_Vest_Reflex_Yellow">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>5000</lifetime>
         <restock>800</restock>
         <min>1</min>
@@ -2133,8 +2120,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="SeasonalEvent"/>		
+        <usage name="Military"/>		
     </type>
     <type name="TLH_Weapon_FAMAS_SawnOff_Tape">
         <nominal>1</nominal>
@@ -2146,14 +2132,13 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="SeasonalEvent"/>		
+        <usage name="Military"/>	
     </type>
     <type name="TLH_Weapon_OTS12">
-        <nominal>15</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2190,7 +2175,7 @@
         <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2202,10 +2187,10 @@
         <usage name="Farm"/>
     </type>
     <type name="TLH_Weapon_Glock18">
-        <nominal>24</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2213,16 +2198,15 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <tag name="floor"/>		
-        <usage name="Military"/>
-        <usage name="ContaminatedArea"/>		
-		<usage name="Tier3"/>
-		<usage name="Tier4"/>		
+        <usage name="Military"/>		
+		<value name="Tier3"/>
+		<value name="Tier4"/>		
     </type>
     <type name="TLH_Weapon_Glock19">
         <nominal>40</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2244,8 +2228,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Hunting"/>
-        <value name="Farm"/>
-        <value name="Police"/>
+        <usage name="Military"/>
+        <usage name="Farm"/>
+        <usage name="Police"/>
     </type>	
     <type name="TLH_Weapon_M1911_Gold">
         <nominal>1</nominal>
@@ -2265,10 +2250,10 @@
 <!-- FIREARMS_RIFLES START -->
 
     <type name="TLH_Weapon_Mosin9130_White">
-        <nominal>13</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2285,7 +2270,7 @@
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2301,7 +2286,7 @@
         <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2335,19 +2320,19 @@
 <!-- FIREARMS_SMG START -->
 
     <type name="TLH_Weapon_MP510">
-        <nominal>9</nominal>
+        <nominal>5</nominal>
         <lifetime>28000</lifetime>
         <restock>200</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-		<usage name="Prison"/>
         <usage name="Police"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>		
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>	
 
 <!-- FIREARMS_SMG END -->
@@ -2371,9 +2356,7 @@
         <tag name="shelves"/>
         <usage name="Medical"/>
         <usage name="Firefighter"/> 
-		<usage name="Military"/>
-		<value name="Tier2"/>	
-		<value name="Tier3"/>		
+		<usage name="Military"/>	
     </type>
 
 <!-- MEDICALS_MEDICINE END -->
@@ -2381,10 +2364,10 @@
 <!-- MEDICALS_SUPPLIES START -->
 
     <type name="TLH_Medical_AFAK">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2395,7 +2378,8 @@
         <usage name="Firefighter"/>	
         <usage name="Military"/>
 		<value name="Tier2"/>	
-		<value name="Tier3"/>		
+		<value name="Tier3"/>	
+        <value name="Tier4"/>	
     </type>
     <type name="TLH_Medical_Bandage_Pressure">
         <nominal>10</nominal>
@@ -2414,10 +2398,10 @@
 		<value name="Tier3"/>		
     </type>
     <type name="TLH_Medical_Bandage_STALKER">
-        <nominal>12</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>900</restock>
-        <min>7</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2428,10 +2412,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="TLH_Medical_ESK">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>7</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2455,11 +2439,9 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>		
     </type>
     <type name="TLH_Medical_InsecticideSpray">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>8</min>
@@ -2501,7 +2483,7 @@
         <nominal>1</nominal>
         <lifetime>44000</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2514,24 +2496,23 @@
         <value name="Tier3"/>
 	</type>	
     <type name="TLH_Collectable_Case_MilitaryIntel">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>44000</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="1"/>
         <category name="tools"/>
         <usage name="Military"/>
-        <usage name="Underground"/>
 		<value name="Tier4"/>
 	</type>
     <type name="TLH_Collectable_Cassette_Virgin">
-        <nominal>12</nominal>
+        <nominal>2</nominal>
         <lifetime>28000</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2541,7 +2522,7 @@
         <usage name="Town"/>
 	</type>
     <type name="TLH_Collectable_GoldOre">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>44000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2550,12 +2531,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Prison"/>
         <usage name="Farm"/>
-		<value name="Tier4"/>
 	</type>	
     <type name="TLH_Collectable_Note_StrangeNote">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>44000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2577,10 +2556,10 @@
 <!-- MISC_KEYS START -->
 
     <type name="TLH_Tool_BunkerAccessCodes">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2592,10 +2571,10 @@
         <value name="Tier4"/>		
     </type>
     <type name="TLH_Tool_PunchedCard_MajorDegtayrev">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2616,10 +2595,10 @@
 <!-- NUTRITION_DRINKS START -->
 
     <type name="TLH_Drink_Bottle_Vodka">
-        <nominal>130</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>85</min>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>70</quantmax>
         <cost>100</cost>
@@ -2632,36 +2611,36 @@
 		<usage name="Prison"/>
     </type>
 	<type name="TLH_Drink_Canteen_Black">
-        <nominal>4</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>400</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>6</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
         <usage name="Military"/>
-		<usage name="Tier4"/>			
+		<value name="Tier4"/>			
     </type>	
 	<type name="TLH_Drink_Canteen_Grey">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>400</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>6</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
         <usage name="Military"/>
-		<usage name="Tier3"/>			
+		<value name="Tier3"/>			
     </type>
 	<type name="TLH_Drink_Canteen_OD">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>25</quantmin>
         <quantmax>95</quantmax>
         <cost>100</cost>
@@ -2672,10 +2651,10 @@
 		<usage name="Military"/>
     </type>
 	<type name="TLH_Drink_Canteen_White">
-        <nominal>4</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>400</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>6</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2701,7 +2680,7 @@
         <value name="Tier3"/>
     </type>
     <type name="TLH_Drink_EmergencyDrinkingWater">
-        <nominal>15</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2710,9 +2689,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
-        <value name="Firefighter"/>
-        <value name="Military"/>
-        <value name="ContaminatedArea"/>
+        <usage name="Firefighter"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="TLH_Drink_SodaCan_DuffBeer">
         <nominal>15</nominal>
@@ -2734,10 +2714,10 @@
 <!-- NUTRITION_PACKAGED -->
 
     <type name="TLH_Food_Kommissbrot">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2751,7 +2731,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TLH_Food_MessTin">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>18800</lifetime>
         <restock>590</restock>
         <min>1</min>
@@ -2764,10 +2744,10 @@
         <usage name="Military"/>		
     </type>
     <type name="TLH_Food_MRECrackers">
-        <nominal>17</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2779,10 +2759,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TLH_Food_TouristsDelight">
-        <nominal>30</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1000</restock>
-        <min>15</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2802,10 +2782,10 @@
 <!-- STORAGE_CARRIED START -->
 
  <type name="TLH_Tool_PistolCase_Black">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2830,15 +2810,13 @@
         <usage name="Village"/>
         <usage name="Town"/>
         <usage name="School"/>
-        <usage name="Office"/>		
-        <value name="Tier1"/>
-        <value name="Tier2"/>		
+        <usage name="Office"/>				
     </type>
     <type name="TLH_Tool_ZipLockBag">
-        <nominal>80</nominal>
+        <nominal>30</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>50</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2856,10 +2834,10 @@
 <!-- STORAGE_POUCHES START -->
 
     <type name="TLH_Vest_PlateCarrierHolster_White">
-        <nominal>4</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2871,10 +2849,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TLH_Vest_PlateCarrierPouches_White">
-        <nominal>8</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2887,10 +2865,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TLH_Sheath_Military_Black">
-        <nominal>13</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2900,10 +2878,10 @@
         <usage name="Military"/>		
     </type>
     <type name="TLH_Sheath_Military_Grey">
-        <nominal>13</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2913,10 +2891,10 @@
         <usage name="Hunting"/>	
     </type>
     <type name="TLH_Sheath_Military_OD">
-        <nominal>13</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2927,10 +2905,10 @@
         <usage name="Military"/>		
     </type>
     <type name="TLH_Sheath_Military_White">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2945,10 +2923,10 @@
 <!-- STORAGE_WORN START -->
 
 	<type name="TLH_Backpack_ALICE_Medium_OD">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>20000</lifetime>
         <restock>3000</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2958,10 +2936,10 @@
 		<value name="Tier3"/>		
     </type>	
 	<type name="TLH_Backpack_Hunter_Camo1">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>12500</lifetime>
         <restock>2000</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2969,13 +2947,13 @@
         <category name="containers"/>
 		<usage name="Village"/>
 		<usage name="Hunting"/>
-		<value name="Farm"/>		
+		<usage name="Farm"/>		
     </type>
 	<type name="TLH_Backpack_Hunter_M81">
-        <nominal>7</nominal>
+        <nominal>2</nominal>
         <lifetime>12500</lifetime>
         <restock>2000</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2983,29 +2961,28 @@
         <category name="containers"/>
 		<usage name="Village"/>
 		<usage name="Hunting"/>
-		<value name="Farm"/>		
+		<usage name="Farm"/>		
     </type>
     <type name="TLH_Medical_NBCBag_USDN">
-        <nominal>12</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>6</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Military"/>
-        <usage name="ContaminatedArea"/>
 		<value name="Tier2"/>	
 		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>	
     <type name="TLH_Medical_NBCBag_White">
-        <nominal>14</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3013,31 +2990,29 @@
         <category name="containers"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
-        <usage name="ContaminatedArea"/>
 		<value name="Tier2"/>	
 		<value name="Tier3"/>		
     </type>
     <type name="TLH_Medical_NBCSack_USDN">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Military"/>
-        <usage name="ContaminatedArea"/>
 		<value name="Tier2"/>	
 		<value name="Tier3"/>
 		<value name="Tier4"/>		
     </type>
     <type name="TLH_Medical_NBCSack_White">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3045,7 +3020,6 @@
         <category name="containers"/>
         <usage name="Medic"/>
         <usage name="Firefighter"/>
-        <usage name="ContaminatedArea"/>
 		<value name="Tier2"/>	
 		<value name="Tier3"/>		
     </type>
@@ -3089,7 +3063,7 @@
         <usage name="Firefighter"/>
     </type>
     <type name="TLH_Tool_WalkieTalkie">
-        <nominal>35</nominal>
+        <nominal>20</nominal>
         <lifetime>20500</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -3103,6 +3077,7 @@
         <usage name="Village"/>
 		<usage name="Hunting"/>		
         <usage name="Medic"/>
+        <usage name="School"/>
         <usage name="Firefighter"/>
     </type>	
 
@@ -3111,10 +3086,10 @@
 <!-- TOOLS_ELECTRICAL START -->
 
     <type name="TLH_Tool_Battery9VHQ">
-        <nominal>50</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3131,10 +3106,10 @@
 <!-- TOOLS_HAND_BLADE START -->
 
     <type name="TLH_Melee_GoldCombatKnife">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3142,15 +3117,13 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Prison"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>			
+        <usage name="Military"/>			
     </type>
     <type name="TLH_Melee_Iceaxe">
-        <nominal>50</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3159,6 +3132,7 @@
         <usage name="Hunting"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 <!-- TOOLS_HAND_BLADE END -->
@@ -3166,10 +3140,10 @@
 <!-- TOOLS_HAND_BLUNT START -->
 
     <type name="TLH_Melee_CanoePaddle">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3178,10 +3152,10 @@
         <usage name="Coast"/>
     </type>
     <type name="TLH_Melee_OldHockeyStick">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3190,14 +3164,14 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="School"/>
-		<usage name="Tier1"/>
-		<usage name="Tier2"/>		
+		<value name="Tier1"/>
+		<value name="Tier2"/>		
     </type>	
     <type name="TLH_Melee_TelescopicBaton">
-        <nominal>13</nominal>
+        <nominal>5</nominal>
         <lifetime>9000</lifetime>
         <restock>250</restock>
-        <min>6</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3206,10 +3180,10 @@
         <usage name="Police"/>
     </type>
     <type name="TLH_Melee_TLH_Melee_PoliceBaton">
-        <nominal>18</nominal>
+        <nominal>5</nominal>
         <lifetime>9000</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
