@@ -4,7 +4,7 @@
 <!-- BASE FORTIFICATIONS INGREDIENTS -->
 
     <type name="Sandbag_Empty">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -32,7 +32,7 @@
     </type>
 	
     <type name="CementBag">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -89,17 +89,17 @@
 <!-- BASE FORTIFICATIONS KITS AND COMPLETE STRUCTURES -->
 
 	<type name="SandbagLong_Kit">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="Sandbag_Long">
         <lifetime>3888000</lifetime>
@@ -107,17 +107,17 @@
     </type>
 	
 	<type name="Razorwire_Kit">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="Razorwire">
         <lifetime>3888000</lifetime>
@@ -125,10 +125,10 @@
     </type>
 	
 	<type name="WindowBarrier_Kit">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -143,10 +143,10 @@
     </type>
 	
 	<type name="DoorBarricade_Kit">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -161,17 +161,17 @@
     </type>
 	
 	<type name="SandbagRound_Kit">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="Sandbag_Round">
         <lifetime>3888000</lifetime>
@@ -233,17 +233,17 @@
     </type>
 	
 	<type name="Dragon_Teeth_Kit">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="Dragon_Teeth">
         <lifetime>3888000</lifetime>
@@ -251,17 +251,17 @@
     </type>	
 	
 	<type name="Hedgehog_Kit">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="Hedgehog">
         <lifetime>3888000</lifetime>
@@ -269,10 +269,10 @@
     </type>	
 	
 	<type name="RoadBarrier_Kit">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -287,17 +287,17 @@
     </type>	
 	
 	<type name="WoodenTower_Kit">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="WoodenTower">
         <lifetime>3888000</lifetime>
@@ -305,7 +305,7 @@
     </type>	
 	
 	<type name="ConcreteBunker_Kit">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -315,7 +315,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="ConcreteBunker">
         <lifetime>3888000</lifetime>
@@ -323,7 +323,7 @@
     </type>	
 	
 	<type name="MilitaryNest_Kit">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -333,7 +333,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
+        <usage name="Military"/>
     </type>
 	<type name="MilitaryNest">
         <lifetime>3888000</lifetime>
