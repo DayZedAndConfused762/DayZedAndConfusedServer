@@ -22,10 +22,9 @@
 - Check TLH types NBC Categorie for typos: items starting with NBC_ instead of TLH_
 - Check TLH types for possible typo: type name="TLH_Melee_TLH_Melee_PoliceBaton"
 - Check TLH types - may be some missing ALICE packs
-- Fix M79 and historical spawns
+- Fix and historical spawns
 - Setup airdrop loot
 - Setup lootcrate loot
-- Replace burlap wrife rap mod with craftable version
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
 - https://forums.dayz.com/topic/241019-zombie-hordes-to-my-server/
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
@@ -83,11 +82,6 @@
   - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
   - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
   - Advanced Weapon Scopes: https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
-
-  - TLH Item Pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3179673330
-  - Western NBC Gear: https://steamcommunity.com/sharedfiles/filedetails/?id=2973881389
-  - AR-10B: https://steamcommunity.com/sharedfiles/filedetails/?id=2980093560
-  - FAL Wood Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2976777866
 
   - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
 
