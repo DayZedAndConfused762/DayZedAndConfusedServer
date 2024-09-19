@@ -174,6 +174,8 @@ Hospitals
             	"AmmoBox_762x39Tracer_20Rnd",
             	"AmmoBox_762x54_20Rnd",
             	"AmmoBox_762x54Tracer_20Rnd",
+                "TLH_AmmoBox_10x25mmAuto",
+                "TLH_AmmoBox_762x51mmDUDS",
 
 <!-- AMMUNITION_BOXED END -->
 
@@ -246,6 +248,18 @@ Hospitals
                 "Mag_VAL_20Rnd",
                 "Mag_VSS_10Rnd",
                 "Mag_Vikhr_30Rnd",
+                "TLH_Mag_9A91_20Rnd",
+                "TLH_Mag_1911_8Rnd",
+                "TLH_Mag_AKM_30Rnd_Gold",
+                "TLH_Mag_DeltaElite_9Rnd",
+                "TLH_Mag_Glock20_10Rnd",
+                "TLH_Mag_MP510_30Rnd",
+                "TLH_Mag_STANAGCoupled_60Rnd",
+                "TLH_Mag_SVD_10Rnd_Gold",
+
+
+
+
 
 <!-- AMMUNITION_MAGAZINES END -->
 
@@ -330,6 +344,8 @@ Hospitals
 
 <!-- FIREARMS_ASSAULT START -->
 
+"TLH_Weapon_AK9"    ***
+
 "AK101" "Mag_AK101_30Rnd"   "AK_PlasticHndgrd"  "KashtanOptic"
                                                 "PSO11Optic" 
 "AK101_Black"
@@ -343,6 +359,8 @@ Hospitals
 "AKM"   "Mag_AKM_30Rnd" "AK_Suppressor" "AK_PlasticBttstck" "AK_PlasticHndgrd"  "KashtanOptic" 
                                                                                 "PSO11Optic"
 
+"TLH_Weapon_AKM_Gold"   ***
+
 "ASVAL" "Mag_VAL_20Rnd" "TLRLight"  "BUISOptic" 
                                     "M4_T3NRDSOptic" 
                                     "ReflexOptic" 
@@ -350,9 +368,23 @@ Hospitals
 
 "AKS74U"    "Mag_AK74_30Rnd"    "AKS74U_Bttstck"  
 
+"TLH_Weapon_AR10B"  ***
+
 "Aug"
 
 "AugShort"
+
+
+"FAL"   "Mag_FAL_20Rnd" "Fal_FoldingBttstck"    "BUISOptic"
+                        "Fal_OeBttstck"         "M68Optic"
+                                                "M4_T3NRDSOptic" 
+                                                "ReflexOptic" 
+                                                "ACOGOptic" 
+                                                "FAMAS" "Mag_FAMAS_25Rnd"
+
+"TLH_Weapon_FAL5000"    ***
+
+"TLH_Weapon_FAMAS_Tape"     ***
 
 "M16A2"     "Mag_CMAG_10Rnd"
             "Mag_CMAG_20Rnd"
@@ -366,12 +398,7 @@ Hospitals
 "M4A1_Black"
 "M4A1_Green"
 
-"FAL"   "Mag_FAL_20Rnd" "Fal_FoldingBttstck"    "BUISOptic"
-                        "Fal_OeBttstck"         "M68Optic"
-                                                "M4_T3NRDSOptic" 
-                                                "ReflexOptic" 
-                                                "ACOGOptic" 
-"FAMAS" "Mag_FAMAS_25Rnd"
+"TLH_Weapon_OTS12"  ***
 
 "VSS"   "Mag_VSS_10Rnd"     "KashtanOptic"
                             "PSO1Optic"
@@ -390,12 +417,18 @@ Hospitals
 "Pistols"
 "Colt1911"  "Mag_1911_7Rnd" "PistolSuppressor"
 "CZ75"  "Mag_CZ75_15Rnd"    "TLRLight"  "PistolSuppressor"  "PistolOptic"
+"TLH_Weapon_DD192"  ***
+"TLH_Weapon_DeltaElite"     ***
 "Deagle"    "Mag_Deagle_9rnd"
 "Deagle_Gold"   "Mag_Deagle_9rnd"
 "Engraved1911"  "Mag_1911_7Rnd"     "PistolSuppressor"
 "FNX45" "Mag_FNX45_15Rnd" "TLRLight" "PistolSuppressor" "FNP45_MRDSOptic"
+"TLH_Weapon_Glock18"    ***
+"TLH_Weapon_Glock19"    ***
+"TLH_Weapon_Glock20_SF" ***
 "Glock19" "Mag_Glock_15Rnd" "TLRLight" "PistolSuppressor" "PistolOptic"
 "Longhorn"
+"TLH_Weapon_M1911_Gold" ***
 "MKII"              "Mag_MKII_10Rnd"
 "Magnum"
 "MakarovIJ70"       "Mag_IJ70_8Rnd"
@@ -415,6 +448,7 @@ Hospitals
 "Mosin9130_Black"
 "Mosin9130_Camo"
 "Mosin9130_Green"
+"TLH_Weapon_Mosin9130_White"    ***
 "Ruger1022"         "Mag_Ruger1022_15Rnd"    "HuntingOptic"
 "Mag_Ruger1022_30Rnd" 
 "Scout"             "Mag_CMAG_10Rnd"    "M4_T3NRDSOptic" 
@@ -423,11 +457,12 @@ Hospitals
                     "Mag_CMAG_40Rnd"    "ACOGOptic_6x"
 "Scout_Chernarus"
 "Scout_Livonia"
-"SKS"   "PUScopeOptic"
+"SKS"                   "PUScopeOptic"
 "SSG82"
 "SVD"   "Mag_SVD_10Rnd" "KashtanOptic"
-"PSO11Optic" 
+                        "PSO11Optic" 
 "SV98"
+"TLH_Weapon_SVD_Gold"   ****
 "Winchester70"  "HuntingOptic"
 
 <!-- FIREARMS_RIFLES END -->
@@ -439,12 +474,14 @@ Hospitals
 "Mp133Shotgun"
 "Saiga"     "Mag_Saiga_5Rnd"    "Saiga_Bttstck"
             "Mag_Saiga_8Rnd"
+"TLH_Weapon_MP133_Signal"
 
 <!-- FIREARMS_SHOTGUNS END -->
 
 <!-- FIREARMS_SMG START -->
 
 "CZ61"  "Mag_CZ61_20Rnd"    "PistolSuppressor"
+"TLH_Weapon_MP510"  ***
 "MP5K"  "Mag_MP5_15Rnd"     "PistolSuppressor"  "MP5k_StockBttstck"         "MP5_RailHndgrd"            "BUISOptic" 
         "Mag_MP5_30Rnd"     "MP5_Compensator"                               "MP5_PlasticHndgrd"         "M68Optic"
                                                                                                         "M4_T3NRDSOptic"
@@ -474,7 +511,7 @@ Hospitals
 "PurificationTablets"
 "TetracyclineAntibiotics"
 "VitaminBottle"
-
+"TLH_Medical_DexamfetamineTablets",
 
 <!-- MEDICALS_MEDICINE END --> 
 
@@ -482,8 +519,6 @@ Hospitals
 
 "BandageDressing"
 "BloodBagEmpty"
-"BloodBagFull"
-"BloodBagIV"
 "BloodTestKit"
 "Defibrillator"
 "DisinfectantAlcohol"
@@ -491,15 +526,31 @@ Hospitals
 "Heatpack"
 "IodineTincture"
 "SalineBag"
-"SalineBagIV"
-"Splint"
-"Splint_Applied"
 "StartKitIV"
 "Thermometer"
+"TLH_Medical_AFAK",
+"TLH_Medical_Bandage_Pressure",
+"TLH_Medical_Bandage_STALKER",
+"TLH_Medical_ESK",
+"TLH_Medical_EsmarchTourniquet",
+"TLH_Medical_InsecticideSpray",
+"TLH_Medical_SurgicalTape",
 
 <!-- MEDICALS_SUPPLIES END -->
 
-<!-- MEDICALS START -->
+<!-- MEDICALS END -->
+
+<!-- MISC COLLECTIBLES KEYS START -->
+
+"TLH_Collectable_Book_StrangeDiary",
+"TLH_Collectable_Case_MilitaryIntel",
+"TLH_Collectable_Cassette_Virgin",
+"TLH_Collectable_GoldOre",
+"TLH_Collectable_Note_StrangeNote",
+"TLH_Tool_BunkerAccessCodes",
+"TLH_Tool_PunchedCard_MajorDegtayrev",
+
+<!-- MISC COLLECTIBLES KEYS END -->
 
 <!-- NUTRITION START -->
 
@@ -512,6 +563,14 @@ Hospitals
                 "SodaCan_Pipsi",
                 "SodaCan_Spite",
                 "Vodka",
+                "TLH_Drink_Bottle_Vodka",
+                "TLH_Drink_Canteen_Black",
+                "TLH_Drink_Canteen_Grey",
+                "TLH_Drink_Canteen_OD",
+                "TLH_Drink_Canteen_White",
+                "TLH_Food_CoffeeInstantTypeII",
+                "TLH_Drink_EmergencyDrinkingWater",
+                "TLH_Drink_SodaCan_DuffBeer",
 
 <!-- CANNED_GOODS -->
 
@@ -540,6 +599,11 @@ Hospitals
                 "Zagorky",
                 "ZagorkyChocolate",
                 "ZagorkyPeanuts",
+                "TLH_Food_Kommissbrot",
+                "TLH_Food_MessTin",
+                "TLH_Food_MRECrackers",
+                "TLH_Food_TouristsDelight",
+                
 
 <!-- NUTRITION END -->
 
