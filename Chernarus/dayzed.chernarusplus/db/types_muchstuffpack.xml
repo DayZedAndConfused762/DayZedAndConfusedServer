@@ -2187,7 +2187,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SleepingBag_Green">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2201,7 +2201,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Blue">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2215,7 +2215,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_LimeGreen">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2224,12 +2224,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
+        <usage name="Military"/>
     </type>
     <type name="Msp_SleepingBag_Orange">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2243,7 +2241,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Purple">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2257,7 +2255,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Red">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2266,9 +2264,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
+        <usage name="Firefighter"/>
     </type>
     <type name="Msp_Mattress_Blue">
         <nominal>1</nominal>
