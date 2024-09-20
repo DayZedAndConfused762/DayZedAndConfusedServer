@@ -37,15 +37,15 @@
 ## 9/20/2024
 
 - Fixed typos in TLH types:
-  - "7:15:16.819 !!! [CE] :: Unknown usage: 'Medical'." should have been 'Medic'
-  - "7:15:16.819 !!! [CE][offlineDB] :: Type 'NBC_Gloves_TLH_White' will be ignored." should have been 'TLH_NBC_Gloves_White'
-  - "7:15:16.819 !!! [CE][offlineDB] :: Type 'NBC_Gloves_TLH_Blue' will be ignored." should have been 'TLH_NBC_Gloves_Blue'
-  - "7:15:16.819 !!! [CE][offlineDB] :: Type 'NBC_Jacket_TLH_White' will be ignored." should have been 'TLH_NBC_Jacket_White'
-  - "7:15:16.819 !!! [CE][offlineDB] :: Type 'NBC_Pants_TLH_White' will be ignored." should have been 'TLH_NBC_Pants_White'
-  - "7:15:16.819 !!! [CE][offlineDB] :: Type 'NBC_Shoes_TLH_Blue' will be ignored." should have been 'TLH_NBC_Shoes_BLue'
-  - "7:15:16.819 !!! [CE][offlineDB] :: Type 'NBC_Shoes_TLH_White' will be ignored." should have been 'TLH_NBC_Shoes_White'
-  - "7:15:16.819 !!! [CE][offlineDB] :: Type 'NBC_JungleBoots_TLH_Beige' will be ignored." should have been 'TLH_NBC_JungleBoots_Beige'
-  - " 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Melee_TLH_Melee_PoliceBaton' will be ignored." should have been 'TLH_Melee_PoliceBaton'
+  - "Unknown usage: 'Medical'." should have been 'Medic'
+  - "Type 'NBC_Gloves_TLH_White' will be ignored." should have been 'TLH_NBC_Gloves_White'
+  - "Type 'NBC_Gloves_TLH_Blue' will be ignored." should have been 'TLH_NBC_Gloves_Blue'
+  - "Type 'NBC_Jacket_TLH_White' will be ignored." should have been 'TLH_NBC_Jacket_White'
+  - "Type 'NBC_Pants_TLH_White' will be ignored." should have been 'TLH_NBC_Pants_White'
+  - "Type 'NBC_Shoes_TLH_Blue' will be ignored." should have been 'TLH_NBC_Shoes_BLue'
+  - "Type 'NBC_Shoes_TLH_White' will be ignored." should have been 'TLH_NBC_Shoes_White'
+  - "Type 'NBC_JungleBoots_TLH_Beige' will be ignored." should have been 'TLH_NBC_JungleBoots_Beige'
+  - "Type 'TLH_Melee_TLH_Melee_PoliceBaton' will be ignored." should have been 'TLH_Melee_PoliceBaton'
 <!-- ++++++++++++++++++++ 9/20/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 9/19/2024 Start ++++++++++++++++++++ -->
