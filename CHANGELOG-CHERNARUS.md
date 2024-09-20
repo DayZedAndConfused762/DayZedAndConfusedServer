@@ -39,6 +39,17 @@
 - Installed mods:
   - @Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
   - @Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
+  - @Drunkenness: 
+- Configure mods:
+  - @Bed-Respawning:
+    - Change "EnableOpBaseItemSupport" from "1" to "0"
+    - Change "EnergyPercentage" from "100" to "50"
+    - Change "WaterPercentage" from "100" to "50"
+    - Change "EnableMung" from "1" to "0"
+  - @Drunkenness: 
+    - Remove "Vodka" from "Drinks"
+    - Added "TLH_Drink_SodaCan_DuffBeer" to "Drinks"
+    - Added "TLH_Drink_Bottle_Vodka" to "Drinks"
 - Fixed typos in TLH types:
   - "Unknown usage: 'Medical'." should have been 'Medic'
   - "Type 'NBC_Gloves_TLH_White' will be ignored." should have been 'TLH_NBC_Gloves_White'
