@@ -23,6 +23,15 @@
 - Create list of mods used and post to discord
 - Post server feature list to discord
 
+- DayZ-Expansion-Core: https://steamcommunity.com/workshop/filedetails/?id=2291785308
+- DayZ-Expansion-Chat: https://steamcommunity.com/sharedfiles/filedetails/?id=2792982897
+
+- Add Bunker loot category
+- Add Bunker tags to bunker items in mapgroupprotos
+- Add bunker tags to items that will only spawn in bunker
+
+https://cmsminecraftshop.com/en/console/
+
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_AmmoBox_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Ammo_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Mag_1911_8Rnd' will be ignored. (Type does not exist. (Typo?))

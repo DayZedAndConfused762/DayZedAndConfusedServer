@@ -36,6 +36,11 @@
 
 ## 9/20/2024
 
+- Added map edits:
+  - Krasno air field
+  - NWAF
+  - Rify
+  - Zelenogorsk
 - Installed mods:
   - @Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
   - @Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
