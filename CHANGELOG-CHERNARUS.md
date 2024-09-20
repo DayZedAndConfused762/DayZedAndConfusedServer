@@ -37,8 +37,8 @@
 ## 9/20/2024
 
 - Installed mods:
-  - @Bed-Respawn
-  - @Bed-Respawn-MSP
+  - @Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
+  - @Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
 - Fixed typos in TLH types:
   - "Unknown usage: 'Medical'." should have been 'Medic'
   - "Type 'NBC_Gloves_TLH_White' will be ignored." should have been 'TLH_NBC_Gloves_White'

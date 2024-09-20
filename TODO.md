@@ -18,6 +18,11 @@
 
 ## To Do  
 
+- Add mod @MRTsMREs: https://steamcommunity.com/workshop/filedetails/?id=2503394943
+- CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
+- Create list of mods used and post to discord
+- Post server feature list to discord
+
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_AmmoBox_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Ammo_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Mag_1911_8Rnd' will be ignored. (Type does not exist. (Typo?))
@@ -46,8 +51,7 @@
   - dayzyourway.com
 - review mods for possible use:
 
-  - Bed-Respawning: https://steamcommunity.com/workshop/filedetails/?id=2111275052
-    - Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
+
 
   - Drunk: https://steamcommunity.com/sharedfiles/filedetails/?id=2842789742
     - @pr3d3k - In your Profile Folder > Drunkenness > Settings.json, just remove "Vodka" from "Drinks", and leave it only under "Liquids".  It's not a bug, just wrong settings that were supplied with the mod and they will be fixed on next update. Thanks for reporting!
@@ -65,18 +69,12 @@
 
   - InfectedHordesPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1733084281
 
-  - Next-Days: https://steamcommunity.com/sharedfiles/filedetails/?id=2677694924
-  - ND Missions: https://steamcommunity.com/sharedfiles/filedetails/?id=2677679929
-    - ND Missions Wiki: https://github.com/AlPepino/Next-Days/wiki/ND-Missions
-
   - BleedTrail: https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
 
   - ItemRarity: https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
 
   - SimpleAutorun: https://steamcommunity.com/sharedfiles/filedetails/?id=2264162971
   - SIX-DayZ-Auto-Run: https://steamcommunity.com/sharedfiles/filedetails/?id=1781132597
-
-  - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
 
   - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
   - FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
@@ -90,7 +88,7 @@
 
   - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
 
-  - BBPItemPack: https://web.archive.org/web/20230315090023/https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
+  - BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
   - Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
   - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
   - Basic_Territories_Updated: https://steamcommunity.com/sharedfiles/filedetails/?id=2999534116
@@ -101,24 +99,6 @@
   - GearPDA: https://steamcommunity.com/sharedfiles/filedetails/?id=2124309453
   - Mass'sManyItemOverhaul: https://steamcommunity.com/sharedfiles/filedetails/?id=1566911166
   - AdditionalMedicSupplies: https://steamcommunity.com/sharedfiles/filedetails/?id=2579252958
-  - 
-  
-  - 
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- ------------------------------ToDo End ------------------------------ -->
 
