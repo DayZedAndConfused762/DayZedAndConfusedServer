@@ -36,6 +36,9 @@
 
 ## 9/20/2024
 
+- Installed mods:
+  - @Bed-Respawn
+  - @Bed-Respawn-MSP
 - Fixed typos in TLH types:
   - "Unknown usage: 'Medical'." should have been 'Medic'
   - "Type 'NBC_Gloves_TLH_White' will be ignored." should have been 'TLH_NBC_Gloves_White'
@@ -46,6 +49,9 @@
   - "Type 'NBC_Shoes_TLH_White' will be ignored." should have been 'TLH_NBC_Shoes_White'
   - "Type 'NBC_JungleBoots_TLH_Beige' will be ignored." should have been 'TLH_NBC_JungleBoots_Beige'
   - "Type 'TLH_Melee_TLH_Melee_PoliceBaton' will be ignored." should have been 'TLH_Melee_PoliceBaton'
+- Added missing types to TLH types:
+  - TLH_Backpack_ALICE_Medium_White
+  - TLH_Backpack_ALICE_Medium_Black
 <!-- ++++++++++++++++++++ 9/20/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 9/19/2024 Start ++++++++++++++++++++ -->

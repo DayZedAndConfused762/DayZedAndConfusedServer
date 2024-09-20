@@ -38,10 +38,6 @@
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Note_StrangeNote' will be ignored. (Type does not exist. (Typo?))
 
 - https://www.reddit.com/r/dayz/comments/142j5kd/pve_mod/
-- 45.59.162.21:2492
-- Check TLH types NBC Categorie for typos: items starting with NBC_ instead of TLH_
-- Check TLH types for possible typo: type name="TLH_Melee_TLH_Melee_PoliceBaton"
-- Check TLH types - may be some missing ALICE packs
 - Setup airdrop loot
 - Setup lootcrate loot
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
