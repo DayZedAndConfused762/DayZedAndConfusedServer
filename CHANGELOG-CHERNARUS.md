@@ -52,6 +52,8 @@
 - Added missing types to TLH types:
   - TLH_Backpack_ALICE_Medium_White
   - TLH_Backpack_ALICE_Medium_Black
+- Adjusted Infected stats
+
 <!-- ++++++++++++++++++++ 9/20/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 9/19/2024 Start ++++++++++++++++++++ -->

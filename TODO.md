@@ -18,15 +18,6 @@
 
 ## To Do  
 
- 7:15:16.802 !!! [CE][offlineDB] :: Type 'NBCHoodGray' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.802 !!! [CE][offlineDB] :: Type 'NBCHoodYellow' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.803 !!! [CE][offlineDB] :: Type 'ChristmasTree' will be ignored. (Not spawnable. (Scope is not public?))
- 7:15:16.803 !!! [CE][offlineDB] :: Type 'WitchHood_Chainmail_Black' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.803 !!! [CE][offlineDB] :: Type 'WitchHood_Chainmail_Brown' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.804 !!! [CE][offlineDB] :: Type 'WitchHood_Chainmail_Red' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.809 !!! [CE][offlineDB] :: Type 'CigarettePack_Chernamorka' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.809 !!! [CE][offlineDB] :: Type 'CigarettePack_Merkur' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.809 !!! [CE][offlineDB] :: Type 'CigarettePack_Partyzanka' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_AmmoBox_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Ammo_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Mag_1911_8Rnd' will be ignored. (Type does not exist. (Typo?))
