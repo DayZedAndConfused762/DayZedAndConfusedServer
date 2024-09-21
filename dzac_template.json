@@ -7,11 +7,11 @@
       "slotName": "shoulderL",
       "discreteItemSets": [
         {
-          "itemType": "Broom",
+          "itemType": "SHOULDERL_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -26,11 +26,11 @@
       "slotName": "shoulderR",
       "discreteItemSets": [
         {
-          "itemType": "Broom",
+          "itemType": "SHOULDERR_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -45,11 +45,11 @@
       "slotName": "Vest",
       "discreteItemSets": [
         {
-          "itemType": "LeatherStorageVest_Black",
+          "itemType": "VEST_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -64,11 +64,11 @@
       "slotName": "Headgear",
       "discreteItemSets": [
         {
-          "itemType": "BaseballCap_Camo",
+          "itemType": "HEAD_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -83,11 +83,11 @@
       "slotName": "Armband",
       "discreteItemSets": [
         {
-          "itemType": "Armband_CDF",
+          "itemType": "ARMBAND_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -102,11 +102,11 @@
       "slotName": "Gloves",
       "discreteItemSets": [
         {
-          "itemType": "LeatherGloves_Natural",
+          "itemType": "GLOVES_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -121,18 +121,18 @@
       "slotName": "Body",
       "discreteItemSets": [
         {
-          "itemType": "ManSuit_Blue",
+          "itemType": "BODY__PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
           "quickBarSlot": -1,
           "simpleChildrenUseDefaultAttributes": false,
           "simpleChildrenTypes": [
-            "SodaCan_Cola"
+            "CARGOITEM_PLACEHOLDER"
           ],
           "complexChildrenTypes": []
         }
@@ -142,11 +142,11 @@
       "slotName": "Legs",
       "discreteItemSets": [
         {
-          "itemType": "SlacksPants_Blue",
+          "itemType": "PANTS_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -161,11 +161,11 @@
       "slotName": "Feet",
       "discreteItemSets": [
         {
-          "itemType": "LeatherShoes_Sunburst",
+          "itemType": "SHOES_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -180,11 +180,11 @@
       "slotName": "Eyewear",
       "discreteItemSets": [
         {
-          "itemType": "DesignerGlasses",
+          "itemType": "EYES_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -199,11 +199,11 @@
       "slotName": "Mask",
       "discreteItemSets": [
         {
-          "itemType": "BalaclavaMask_Blackskull",
+          "itemType": "MASK_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -218,11 +218,11 @@
       "slotName": "Back",
       "discreteItemSets": [
         {
-          "itemType": "AssaultBag_Black",
+          "itemType": "BACK_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -237,11 +237,11 @@
       "slotName": "Hips",
       "discreteItemSets": [
         {
-          "itemType": "LeatherBelt_Black",
+          "itemType": "BELT_PLACEHOLDER",
           "spawnWeight": 1,
           "attributes": {
-            "healthMin": 1,
-            "healthMax": 1,
+            "healthMin": 0.50,
+            "healthMax": 0.90,
             "quantityMin": 1,
             "quantityMax": 1
           },
@@ -258,15 +258,15 @@
       "name": "Cargo1",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1,
-        "healthMax": 1,
+        "healthMin": 0.50,
+        "healthMax": 0.90,
         "quantityMin": 1,
         "quantityMax": 1
       },
       "simpleChildrenUseDefaultAttributes": false,
       "simpleChildrenTypes": [
-        "BandageDressing",
-        "Bandana_Blackpattern"
+        "CARGOITEM_PLACEHOLDER",
+        "CARGOITEM_PLACEHOLDER"
       ],
       "complexChildrenTypes": []
     },
@@ -274,14 +274,14 @@
       "name": "Cargo2",
       "spawnWeight": 1,
       "attributes": {
-        "healthMin": 1,
-        "healthMax": 1,
+        "healthMin": 0.50,
+        "healthMax": 0.90,
         "quantityMin": 1,
         "quantityMax": 1
       },
       "simpleChildrenUseDefaultAttributes": false,
       "simpleChildrenTypes": [
-        "Mag_CZ550_10Rnd"
+        "CARGOITEM_PLACEHOLDER"
       ],
       "complexChildrenTypes": []
     }
