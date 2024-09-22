@@ -40,6 +40,7 @@
 - Added spawn loadout classes:
   - 4 Police Officers
   - 4 Construction Workers
+- Adjusted base building related materials and cannabis spawn rates
 
 <!-- ++++++++++++++++++++ 9/21/2024 End ++++++++++++++++++++ -->
 
