@@ -9,7 +9,7 @@
         "MinimumPlayers": 1,
         "MaxBackupDays": 5,
         "MaxLogDays": 2,
-        "SmokeTrails": 1
+        "SmokeTrails": 3
     },
     "Map": {
         "Width": 15360.0,
@@ -246,16 +246,6 @@
             "DropAccuracy": 100
         },
         {
-            "Title": "Balota",
-            "Location": "Military",
-            "DropType": "RANDOM",
-            "X": 5043.0,
-            "Z": 2505.0,
-            "Zombies": 5,
-            "Radius": 50,
-            "DropAccuracy": 100
-        },
-        {
             "Title": "Berezino",
             "Location": "City",
             "DropType": "RANDOM",
@@ -266,7 +256,7 @@
             "DropAccuracy": 100
         },
         {
-            "Title": "Chernogorks",
+            "Title": "Chernogorsk",
             "Location": "City",
             "DropType": "RANDOM",
             "X": 6128.0,
@@ -286,13 +276,12 @@
             "DropAccuracy": 100
         },
         {
-            "Title": "Krasnostav",
-            "Location": "Military",
-            "DropType": "RANDOM",
-            "X": 12159.0,
-            "Z": 12583.0,
-            "Zombies": 5,
-            "Radius": 50,
+            "Title": "Gvozdno",
+            "Location": "Random",
+            "DropType": "Random",
+            "X": 8686.88,
+            "Y": 11930.63,
+            "Zombies": 10,
             "DropAccuracy": 100
         },
         {
@@ -301,16 +290,6 @@
             "DropType": "RANDOM",
             "X": 2036.0,
             "Z": 7491.0,
-            "Zombies": 5,
-            "Radius": 50,
-            "DropAccuracy": 100
-        },
-        {
-            "Title": "Northwest Airfield",
-            "Location": "Military",
-            "DropType": "RANDOM",
-            "X": 4807.0,
-            "Z": 9812.0,
             "Zombies": 10,
             "Radius": 50,
             "DropAccuracy": 100
@@ -331,7 +310,7 @@
             "DropType": "RANDOM",
             "X": 7436.0,
             "Z": 7720.0,
-            "Zombies": 5,
+            "Zombies": 10,
             "Radius": 50,
             "DropAccuracy": 100
         },
@@ -341,7 +320,7 @@
             "DropType": "RANDOM",
             "X": 13452.0,
             "Z": 3112.0,
-            "Zombies": 5,
+            "Zombies": 10,
             "Radius": 50,
             "DropAccuracy": 100
         },
@@ -351,7 +330,7 @@
             "DropType": "RANDOM",
             "X": 2700.0,
             "Z": 6193.0,
-            "Zombies": 5,
+            "Zombies": 10,
             "Radius": 50,
             "DropAccuracy": 100
         },
@@ -361,12 +340,12 @@
             "DropType": "RANDOM",
             "X": 5823.0,
             "Z": 7764.0,
-            "Zombies": 5,
+            "Zombies": 10,
             "Radius": 50,
             "DropAccuracy": 100
         },
         {
-            "Title": "Zelenogorks",
+            "Title": "Zelenogorsk",
             "Location": "City",
             "DropType": "RANDOM",
             "X": 2351.0,
@@ -378,7 +357,7 @@
     ],
     "DropTypes": [
         {
-            "Title": "Military Weapons",
+            "Title": "Building Supplies",
             "Container": "AirdropContainer",
             "Quantity": 20,
             "AddFlare": 10.0,
@@ -387,20 +366,37 @@
             "SpawnOffset": 0.05000000074505806,
             "Lifespan": 60,
             "Items": [
-                "Izh18",
-                "Mossin9130",
-                "AmmoBox_762x54_20Rnd",
-                "AmmoBox_762x39_20Rnd",
-                "M4A1",
-                "BakedBeansCan",
-                "WaterBottle",
-                "FNX45",
-                "Mag_STANAG_30Rnd",
-                "AKM",
-                "Mag_AKM_30Rnd",
-                "Rice",
-                "PowderedMilk",
-                "Vodka"
+                "BarbedWire",
+                "BarbedWire",
+                "Camonet",
+                "Camonet",
+                "MetalPlate",
+                "MetalPlate",
+                "MetalWire",
+                "MetalWire",
+                "NailBox",
+                "NailBox",
+                "NailBox",
+                "NailBox",
+                "NailBox",
+                "WoodenPlank",
+                "WoodenPlank",
+                "WoodenPlank",
+                "BBP_Cement",
+                "BBP_Cement",
+                "BBP_Mortar_Mix",
+                "BBP_Mortar_Mix",
+                "BBP_Concrete_Brick_Pile",
+                "CementBag",
+                "Sandbag_Empty",
+                "Sandbag_Empty",
+                "Hacksaw",
+                "Hatchet",
+                "WoodAxe",
+                "FieldShovel",
+                "Hammer",
+                "Pickaxe",
+                "SledgeHammer"
             ]
         },
         {
