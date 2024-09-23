@@ -38,6 +38,8 @@
 <!-- ++++++++++++++++++++ 9/23/2024 Start ++++++++++++++++++++ -->
 
 ## 9/23/2024
+
+- Added hiker class
 - Added firefighter class
 - Added farmer class
 - Added drug dealer class
