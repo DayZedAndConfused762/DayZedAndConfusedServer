@@ -39,6 +39,7 @@
 
 ## 9/23/2024
 
+- Installed @6-DayZ-Autorun
 - Added hiker class
 - Added firefighter class
 - Added farmer class
