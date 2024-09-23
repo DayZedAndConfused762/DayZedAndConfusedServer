@@ -39,6 +39,7 @@
 
 ## 9/23/2024
 
+- Installed DayZ-Expansion-Core
 - Installed DayZ-Expansion-Chat
 - Uninstalled SchanaModGlobalChat
 - Installed @6-DayZ-Autorun
