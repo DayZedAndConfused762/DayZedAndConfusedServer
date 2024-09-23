@@ -1,0 +1,135 @@
+{
+    "name": "dzac_farmer3",
+    "spawnWeight": 1,
+    "characterTypes": [],
+    "attachmentSlotItemSets": [
+      {
+        "slotName": "Hands",
+        "discreteItemSets": [
+          {
+            "itemType": "Pitchfork",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Headgear",
+        "discreteItemSets": [
+          {
+            "itemType": "CowboyHat_Brown",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Body",
+        "discreteItemSets": [
+          {
+            "itemType": "Shirt_GreenCheck",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Legs",
+        "discreteItemSets": [
+          {
+            "itemType": "CanvasPants_Beige",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Feet",
+        "discreteItemSets": [
+          {
+            "itemType": "Wellies_Brown",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      }
+    ],
+    "discreteUnsortedItemSets": [
+      {
+        "name": "Cargo1",
+        "spawnWeight": 1,
+        "attributes": {
+          "healthMin": 0.50,
+          "healthMax": 0.90,
+          "quantityMin": 1,
+          "quantityMax": 1
+        },
+        "simpleChildrenUseDefaultAttributes": false,
+        "simpleChildrenTypes": [
+          "BandageDressing",
+          "Chemlight_Green"
+        ],
+        "complexChildrenTypes": []
+      },
+      {
+        "name": "Cargo2",
+        "spawnWeight": 1,
+        "attributes": {
+          "healthMin": 0.50,
+          "healthMax": 0.90,
+          "quantityMin": 1,
+          "quantityMax": 1
+        },
+        "simpleChildrenUseDefaultAttributes": false,
+        "simpleChildrenTypes": [
+          "Apple"
+        ],
+        "complexChildrenTypes": []
+      }
+    ]
+  }

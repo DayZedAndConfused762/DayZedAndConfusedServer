@@ -39,6 +39,7 @@
 
 ## 9/23/2024
 
+- Added farmer class
 - Added drug dealer class
 
 <!-- ++++++++++++++++++++ 9/23/2024 End ++++++++++++++++++++ -->
