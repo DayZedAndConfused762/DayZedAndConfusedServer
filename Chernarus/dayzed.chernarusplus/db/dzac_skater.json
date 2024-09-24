@@ -1,5 +1,5 @@
 {
-    "name": "dzac_template",
+    "name": "dzac_skater",
     "spawnWeight": 1,
     "characterTypes": [],
     "attachmentSlotItemSets": [
@@ -7,64 +7,7 @@
         "slotName": "Hands",
         "discreteItemSets": [
           {
-            "itemType": "HANDS_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-          {
-        "slotName": "shoulderL",
-        "discreteItemSets": [
-          {
-            "itemType": "SHOULDERL_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "shoulderR",
-        "discreteItemSets": [
-          {
-            "itemType": "SHOULDERR_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Vest",
-        "discreteItemSets": [
-          {
-            "itemType": "VEST_PLACEHOLDER",
+            "itemType": "BaseballBat",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -83,7 +26,7 @@
         "slotName": "Headgear",
         "discreteItemSets": [
           {
-            "itemType": "HEAD_PLACEHOLDER",
+            "itemType": "SkateHelmet_Blue",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -95,14 +38,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Armband",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "ARMBAND_PLACEHOLDER",
+            "itemType": "SkateHelmet_Black",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -114,14 +52,51 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Gloves",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "GLOVES_PLACEHOLDER",
+            "itemType": "SkateHelmet_Red",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "SkateHelmet_Green",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "SkateHelmet_Gray",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "SkateHelmet_Red",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -140,7 +115,77 @@
         "slotName": "Body",
         "discreteItemSets": [
           {
-            "itemType": "BODY__PLACEHOLDER",
+            "itemType": "Hoodie_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Hoodie_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Hoodie_Brown",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Hoodie_Green",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Hoodie_Grey",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Hoodie_Red",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -159,7 +204,77 @@
         "slotName": "Legs",
         "discreteItemSets": [
           {
-            "itemType": "PANTS_PLACEHOLDER",
+            "itemType": "Jeans_Grey",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Jeans_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Jeans_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Jeans_BlueDark",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Jeans_Brown",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Jeans_Green",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -178,7 +293,7 @@
         "slotName": "Feet",
         "discreteItemSets": [
           {
-            "itemType": "SHOES_PLACEHOLDER",
+            "itemType": "Sneakers_Gray",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -190,14 +305,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Eyewear",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "EYES_PLACEHOLDER",
+            "itemType": "Sneakers_Black",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -209,14 +319,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Mask",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "MASK_PLACEHOLDER",
+            "itemType": "Sneakers_Black",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -228,14 +333,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Back",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "BACK_PLACEHOLDER",
+            "itemType": "Sneakers_Green",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -247,14 +347,23 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Hips",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "BELT_PLACEHOLDER",
+            "itemType": "Sneakers_Gray",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Sneakers_Red",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -282,9 +391,9 @@
         },
         "simpleChildrenUseDefaultAttributes": false,
         "simpleChildrenTypes": [
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER"
+          "BandageDressing",
+          "Chemlight_White",
+          "SaltySticks"
         ],
         "complexChildrenTypes": []
       },
@@ -299,9 +408,9 @@
         },
         "simpleChildrenUseDefaultAttributes": false,
         "simpleChildrenTypes": [
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER"
+          "BandageDressing",
+          "Chemlight_White",
+          "Chips"
         ],
         "complexChildrenTypes": []
       }

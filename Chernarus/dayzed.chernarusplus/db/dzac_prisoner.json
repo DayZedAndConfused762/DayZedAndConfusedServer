@@ -1,0 +1,185 @@
+{
+    "name": "dzac_prisoner",
+    "spawnWeight": 1,
+    "characterTypes": [],
+    "attachmentSlotItemSets": [
+      {
+        "slotName": "Hands",
+        "discreteItemSets": [
+          {
+            "itemType": "Screwdriver",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Pipe",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Body",
+        "discreteItemSets": [
+          {
+            "itemType": "PrisonUniformJacket",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "CARGOITEM_PLACEHOLDER"
+            ],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Legs",
+        "discreteItemSets": [
+          {
+            "itemType": "PrisonUniformPants",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Feet",
+        "discreteItemSets": [
+          {
+            "itemType": "Sneakers_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Sneakers_Gray",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Eyewear",
+        "discreteItemSets": [
+          {
+            "itemType": "ThickFramesGlasses",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      }
+    ],
+    "discreteUnsortedItemSets": [
+      {
+        "name": "Cargo1",
+        "spawnWeight": 1,
+        "attributes": {
+          "healthMin": 0.50,
+          "healthMax": 0.90,
+          "quantityMin": 1,
+          "quantityMax": 1
+        },
+        "simpleChildrenUseDefaultAttributes": false,
+        "simpleChildrenTypes": [
+          "BandageDressing",
+          "Roadflare",
+          "DogFoodCan"
+        ],
+        "complexChildrenTypes": []
+      },
+      {
+        "name": "Cargo2",
+        "spawnWeight": 1,
+        "attributes": {
+          "healthMin": 0.50,
+          "healthMax": 0.90,
+          "quantityMin": 1,
+          "quantityMax": 1
+        },
+        "simpleChildrenUseDefaultAttributes": false,
+        "simpleChildrenTypes": [
+          "BandageDressing",
+          "Roadflare",
+          "CatFoodCan"
+        ],
+        "complexChildrenTypes": []
+      },
+      {
+        "name": "Cargo3",
+        "spawnWeight": 1,
+        "attributes": {
+          "healthMin": 0.50,
+          "healthMax": 0.90,
+          "quantityMin": 1,
+          "quantityMax": 1
+        },
+        "simpleChildrenUseDefaultAttributes": false,
+        "simpleChildrenTypes": [
+          "BandageDressing",
+          "Roadflare",
+          "UnknownFoodCan"
+        ],
+        "complexChildrenTypes": []
+      }
+    ]
+  }

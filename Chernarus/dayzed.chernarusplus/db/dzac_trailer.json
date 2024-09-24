@@ -1,5 +1,5 @@
 {
-    "name": "dzac_template",
+    "name": "dzac_trailer",
     "spawnWeight": 1,
     "characterTypes": [],
     "attachmentSlotItemSets": [
@@ -7,121 +7,7 @@
         "slotName": "Hands",
         "discreteItemSets": [
           {
-            "itemType": "HANDS_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-          {
-        "slotName": "shoulderL",
-        "discreteItemSets": [
-          {
-            "itemType": "SHOULDERL_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "shoulderR",
-        "discreteItemSets": [
-          {
-            "itemType": "SHOULDERR_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Vest",
-        "discreteItemSets": [
-          {
-            "itemType": "VEST_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Headgear",
-        "discreteItemSets": [
-          {
-            "itemType": "HEAD_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Armband",
-        "discreteItemSets": [
-          {
-            "itemType": "ARMBAND_PLACEHOLDER",
-            "spawnWeight": 1,
-            "attributes": {
-              "healthMin": 0.50,
-              "healthMax": 0.90,
-              "quantityMin": 1,
-              "quantityMax": 1
-            },
-            "quickBarSlot": -1,
-            "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [],
-            "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Gloves",
-        "discreteItemSets": [
-          {
-            "itemType": "GLOVES_PLACEHOLDER",
+            "itemType": "TLH_Melee_OldHockeyStick",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -140,7 +26,63 @@
         "slotName": "Body",
         "discreteItemSets": [
           {
-            "itemType": "BODY__PLACEHOLDER",
+            "itemType": "TrackSuitJacket_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitJacket_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitJacket_Green",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitJacket_LightBlue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitJacket_Red",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -159,7 +101,63 @@
         "slotName": "Legs",
         "discreteItemSets": [
           {
-            "itemType": "PANTS_PLACEHOLDER",
+            "itemType": "TrackSuitPants_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitPants_Red",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitPants_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitPants_Green",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TrackSuitPants_LightBlue",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -178,7 +176,7 @@
         "slotName": "Feet",
         "discreteItemSets": [
           {
-            "itemType": "SHOES_PLACEHOLDER",
+            "itemType": "AthleticShoes_Black",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -190,14 +188,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Eyewear",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "EYES_PLACEHOLDER",
+            "itemType": "AthleticShoes_Blue",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -209,14 +202,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Mask",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "MASK_PLACEHOLDER",
+            "itemType": "AthleticShoes_Green",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -228,14 +216,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Back",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "BACK_PLACEHOLDER",
+            "itemType": "AthleticShoes_Brown",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -247,14 +230,9 @@
             "simpleChildrenUseDefaultAttributes": false,
             "simpleChildrenTypes": [],
             "complexChildrenTypes": []
-          }
-        ]
-      },
-      {
-        "slotName": "Hips",
-        "discreteItemSets": [
+          },
           {
-            "itemType": "BELT_PLACEHOLDER",
+            "itemType": "AthleticShoes_Grey",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -282,9 +260,9 @@
         },
         "simpleChildrenUseDefaultAttributes": false,
         "simpleChildrenTypes": [
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER"
+          "BandageDressing",
+          "Chemlight_Yellow",
+          "SodaCan_Kvass"
         ],
         "complexChildrenTypes": []
       },
@@ -299,9 +277,9 @@
         },
         "simpleChildrenUseDefaultAttributes": false,
         "simpleChildrenTypes": [
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER",
-          "CARGOITEM_PLACEHOLDER"
+          "BandageDressing",
+          "Chemlight_Yellow",
+          "SodaCan_Kvass"
         ],
         "complexChildrenTypes": []
       }
