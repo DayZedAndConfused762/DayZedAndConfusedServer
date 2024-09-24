@@ -1,0 +1,222 @@
+{
+    "name": "dzac_paramedic",
+    "spawnWeight": 1,
+    "characterTypes": [],
+    "attachmentSlotItemSets": [
+      {
+        "slotName": "Hands",
+        "discreteItemSets": [
+          {
+            "itemType": "MeatTenderizer",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Body",
+        "discreteItemSets": [
+          {
+            "itemType": "ParamedicJacket_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "ParamedicJacket_Crimson",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "ParamedicJacket_Green",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Legs",
+        "discreteItemSets": [
+          {
+            "itemType": "ParamedicPants_Blue",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "ParamedicPants_Crimson",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "ParamedicPants_Green",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Feet",
+        "discreteItemSets": [
+          {
+            "itemType": "Sneakers_Gray",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Sneakers_Red",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "Sneakers_Green",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Mask",
+        "discreteItemSets": [
+          {
+            "itemType": "SurgicalMask",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      }
+    ],
+    "discreteUnsortedItemSets": [
+      {
+        "name": "Cargo1",
+        "spawnWeight": 1,
+        "attributes": {
+          "healthMin": 0.50,
+          "healthMax": 0.90,
+          "quantityMin": 1,
+          "quantityMax": 1
+        },
+        "simpleChildrenUseDefaultAttributes": false,
+        "simpleChildrenTypes": [
+          "BandageDressing",
+          "Chemlight_Red",
+          "Pajka"
+        ],
+        "complexChildrenTypes": []
+      },
+      {
+        "name": "Cargo2",
+        "spawnWeight": 1,
+        "attributes": {
+          "healthMin": 0.50,
+          "healthMax": 0.90,
+          "quantityMin": 1,
+          "quantityMax": 1
+        },
+        "simpleChildrenUseDefaultAttributes": false,
+        "simpleChildrenTypes": [
+          "BandageDressing",
+          "Chemlight_Red",
+          "Pate"
+        ],
+        "complexChildrenTypes": []
+      }
+    ]
+  }

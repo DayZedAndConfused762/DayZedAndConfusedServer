@@ -40,7 +40,13 @@
 
 ## 9/10/2024
 
-- Added Mechanic, Trailer Park Boy, Prisoner, and Skater spawn loadouts
+- Added spawn loadouts: 
+  - Mechanic
+  - Medic
+  - Paramedic
+  - Prisoner
+  - Skater
+  - Trailer Park Boy
 
 <!-- ++++++++++++++++++++ 9/24/2024 End ++++++++++++++++++++ -->
 
