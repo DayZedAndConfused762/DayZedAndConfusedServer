@@ -48,6 +48,7 @@
   - Prisoner
   - Skater
   - Trailer Park Boy
+- Adjusted existing loadouts to a single file per class, to spawn gear options randomly
 
 <!-- ++++++++++++++++++++ 9/24/2024 End ++++++++++++++++++++ -->
 
