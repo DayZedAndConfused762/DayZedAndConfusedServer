@@ -89,7 +89,6 @@ https://cmsminecraftshop.com/en/console/
   - FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
 
   - CJ187-MoreWeapons: https://steamcommunity.com/sharedfiles/filedetails/?id=1945519331
-  - MassGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=2692545267
   - MoreGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
   - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
   - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143

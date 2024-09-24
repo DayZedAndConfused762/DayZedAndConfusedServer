@@ -19162,26 +19162,30 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Firefighter"/>
     </type>
     <type name="FirefighterAxe_Black">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Firefighter"/>
     </type>
     <type name="FirefighterAxe_Green">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Firefighter"/>
     </type>
     <type name="Hacksaw">
         <nominal>70</nominal>
@@ -19592,6 +19596,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Farm"/>
         <usage name="Lunapark"/>
     </type>
+<!--
     <type name="PoliceBaton">
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
@@ -19604,7 +19609,8 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Police"/>
-    </type>
+    </type> 
+-->
     <type name="Shovel">
         <nominal>70</nominal>
         <lifetime>14400</lifetime>
@@ -19637,7 +19643,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="StunBaton">
+   <type name="StunBaton">
         <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>

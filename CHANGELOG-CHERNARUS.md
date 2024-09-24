@@ -50,6 +50,8 @@
   - Skater
   - Trailer Park Boy
 - Adjusted existing loadouts to a single file per class, to spawn gear options randomly
+- Removed "containers" tag from "Msp_CoffinBox"
+- Added black and green variants of the FireFighter axe
 
 <!-- ++++++++++++++++++++ 9/24/2024 End ++++++++++++++++++++ -->
 
