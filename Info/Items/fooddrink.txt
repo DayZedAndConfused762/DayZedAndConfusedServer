@@ -1,0 +1,349 @@
+<!-- ++++++++++ NUTRITION START ++++++++++ -->
+
+<!-- NUTRITION_DRINKS START -->
+
+    <type name="Canteen">
+    <type name="SodaCan_Cola">
+    <type name="SodaCan_Fronta">
+    <type name="SodaCan_Kvass">
+    <type name="SodaCan_Pipsi">
+    <type name="SodaCan_Spite">
+    <type name="Vodka">
+    <type name="WaterBottle">
+
+<!-- NUTRITION_DRINKS END -->
+
+<!-- NUTRITION_FISH START -->
+
+    <type name="Bitterlings">
+    <type name="Carp">
+    <type name="CarpFilletMeat">
+    <type name="Sardines">
+
+<!-- NUTRITION_FISH END -->
+
+<!-- NUTRITION_GROWN START -->
+
+    <type name="AgaricusMushroom">
+    <type name="Apple">
+    <type name="AuriculariaMushroom">
+    <type name="BoletusMushroom">
+    <type name="CaninaBerry">
+    <type name="GreenBellPepper">
+    <type name="LactariusMushroom">
+    <type name="MacrolepiotaMushroom">
+    <type name="Pear">
+    <type name="PleurotusMushroom">
+    <type name="Plum">
+    <type name="Potato">
+    <type name="Pumpkin">
+    <type name="SambucusBerry">
+    <type name="SlicedPumpkin">
+    <type name="Tomato">
+    <type name="Zucchini">
+
+<!-- NUTRITION_GROWN END -->
+
+<!-- NUTRITION_MEAT START -->
+
+    <type name="BearSteakMeat">
+    <type name="BoarSteakMeat">
+    <type name="ChickenBreastMeat">
+    <type name="CowSteakMeat">
+    <type name="DeadChicken_Brown">
+    <type name="DeadChicken_Spotted">
+    <type name="DeadChicken_White">
+    <type name="DeadRabbit">
+    <type name="DeadRooster">
+    <type name="DeerSteakMeat">
+    <type name="GoatSteakMeat">
+    <type name="HumanSteakMeat">
+    <type name="Lard">
+    <type name="Mackerel">
+    <type name="MackerelFilletMeat">
+    <type name="PigSteakMeat">
+    <type name="RabbitLegMeat">
+    <type name="SheepSteakMeat">
+    <type name="WolfSteakMeat">
+
+<!-- NUTRITION_MEAT END -->
+
+<!-- NUTRITION_PACKAGED START -->
+
+    <type name="BakedBeansCan">
+    <type name="BakedBeansCan_Opened">
+    <type name="BoxCerealCrunchin">
+    <type name="BrisketSpread">
+    <type name="BrisketSpread_Opened">
+    <type name="CatFoodCan">
+    <type name="CatFoodCan_Opened">
+    <type name="Chips">
+    <type name="Crackers">
+    <type name="DogFoodCan">
+    <type name="DogFoodCan_Opened">
+    <type name="Honey">
+    <type name="Lunchmeat">
+    <type name="Lunchmeat_Opened">
+    <type name="Marmalade">
+    <type name="Pajka">
+    <type name="Pajka_Opened">
+    <type name="Pate">
+    <type name="Pate_Opened">
+    <type name="PeachesCan">
+    <type name="PeachesCan_Opened">
+    <type name="PorkCan">
+    <type name="PorkCan_Opened">
+    <type name="PowderedMilk">
+    <type name="Rice">
+    <type name="SaltySticks">
+    <type name="SardinesCan">
+    <type name="SardinesCan_Opened">
+    <type name="SpaghettiCan">
+    <type name="SpaghettiCan_Opened">
+    <type name="TacticalBaconCan">
+    <type name="TacticalBaconCan_Opened">
+    <type name="TunaCan">
+    <type name="TunaCan_Opened">
+    <type name="UnknownFoodCan">
+    <type name="UnknownFoodCan_Opened">
+    <type name="Zagorky">
+    <type name="ZagorkyChocolate">
+    <type name="ZagorkyPeanuts">
+
+<!-- MRTsMREs Start -->
+
+	<type name="MRTsMRE_Menu1">
+	<type name="MRTsMRE_Menu2">
+
+	<type name="MRTsMRE_Menu3">
+
+	<type name="MRTsMRE_Menu4">
+
+	<type name="MRTsMRE_Menu5">
+
+	<type name="MRTsMRE_Menu6">
+
+	<type name="MRTsMRE_Menu7">
+
+	<type name="MRTsMRE_Menu8">
+
+	<type name="MRTsMRE_Menu9">
+
+	<type name="MRTsMRE_Menu10">
+
+	<type name="MRTsMRE_Menu11">
+
+	<type name="MRTsMRE_Menu12">
+
+	<type name="MRTsMRE_Menu13">
+
+	<type name="MRTsMRE_Menu14">
+
+	<type name="MRTsMRE_Menu15">
+
+	<type name="MRTsMRE_Menu16">
+
+	<type name="MRTsMRE_Menu17">
+
+	<type name="MRTsMRE_Menu18">
+
+	<type name="MRTsMRE_Menu19">
+
+	<type name="MRTsMRE_Menu20">
+
+	<type name="MRTsMRE_Menu21">
+
+	<type name="MRTsMRE_Menu22">
+
+	<type name="MRTsMRE_Menu23">
+
+	<type name="MRTsMRE_Menu24">
+
+	<type name="MRTsMRE_CRE">
+
+<!-- MRTsMREs End -->
+
+<!-- NUTRITION_DRINKS START -->
+
+    <type name="TLH_Drink_Bottle_Vodka">
+        <nominal>30</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>20</quantmin>
+        <quantmax>70</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/> 
+		<tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>	
+		<usage name="Farm"/>
+		<usage name="Prison"/>
+    </type>
+	<type name="TLH_Drink_Canteen_Black">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>400</restock>
+        <min>0</min>
+        <quantmin>6</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Military"/>
+		<value name="Tier4"/>			
+    </type>	
+	<type name="TLH_Drink_Canteen_Grey">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>400</restock>
+        <min>0</min>
+        <quantmin>6</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Military"/>
+		<value name="Tier3"/>			
+    </type>
+	<type name="TLH_Drink_Canteen_OD">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>800</restock>
+        <min>0</min>
+        <quantmin>25</quantmin>
+        <quantmax>95</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+		<usage name="Farm"/>
+		<usage name="Hunting"/>
+		<usage name="Military"/>
+    </type>
+	<type name="TLH_Drink_Canteen_White">
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
+        <restock>400</restock>
+        <min>0</min>
+        <quantmin>6</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+        <usage name="Military"/>	
+    </type>	
+    <type name="TLH_Food_CoffeeInstantTypeII">
+        <nominal>12</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>7</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="TLH_Drink_EmergencyDrinkingWater">
+        <nominal>25</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Firefighter"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+    </type>
+    <type name="TLH_Drink_SodaCan_DuffBeer">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+
+<!-- NUTRITION_DRINKS END -->
+
+<!-- NUTRITION_PACKAGED -->
+
+    <type name="TLH_Food_Kommissbrot">
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Village"/>
+		<usage name="Farm"/>
+        <value name="Tier2"/> 
+		<value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="TLH_Food_MessTin">
+        <nominal>10</nominal>
+        <lifetime>18800</lifetime>
+        <restock>590</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <category name="tools"/>
+		<usage name="Hunting"/>	
+        <usage name="Military"/>		
+    </type>
+    <type name="TLH_Food_MRECrackers">
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="TLH_Food_TouristsDelight">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1000</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <tag name="shelves"/>
+        <usage name="Hunting"/>
+        <usage name="Military"/>
+    </type>
+
+<!-- NUTRITION_PACKAGED -->
+
+<!-- ++++++++++ NUTRITION END ++++++++++ -->
