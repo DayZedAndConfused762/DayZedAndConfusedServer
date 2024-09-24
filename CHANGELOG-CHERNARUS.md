@@ -40,7 +40,8 @@
 
 ## 9/10/2024
 
-- Added spawn loadouts: 
+- Added spawn loadouts:
+  - Biker
   - Housewife
   - Mechanic
   - Medic
