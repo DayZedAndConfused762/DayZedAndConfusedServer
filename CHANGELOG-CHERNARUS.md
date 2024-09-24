@@ -41,6 +41,7 @@
 ## 9/10/2024
 
 - Added spawn loadouts: 
+  - Housewife
   - Mechanic
   - Medic
   - Paramedic
