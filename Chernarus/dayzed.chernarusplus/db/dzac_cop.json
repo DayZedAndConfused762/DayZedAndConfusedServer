@@ -1,5 +1,5 @@
 {
-  "name": "dzac_hiker1",
+  "name": "dzac_cop",
   "spawnWeight": 1,
   "characterTypes": [],
   "attachmentSlotItemSets": [
@@ -7,7 +7,7 @@
       "slotName": "Hands",
       "discreteItemSets": [
         {
-          "itemType": "HuntingKnife",
+          "itemType": "TLH_Melee_PoliceBaton",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 0.5,
@@ -26,7 +26,26 @@
       "slotName": "Eyewear",
       "discreteItemSets": [
         {
-          "itemType": "SportGlasses_Orange",
+          "itemType": "AviatorGlasses",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Headgear",
+      "discreteItemSets": [
+        {
+          "itemType": "PoliceCap",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 0.5,
@@ -45,7 +64,21 @@
       "slotName": "Body",
       "discreteItemSets": [
         {
-          "itemType": "HuntingJacket_Autumn",
+          "itemType": "PoliceJacket",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "PoliceJacketOrel",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 0.5,
@@ -64,7 +97,21 @@
       "slotName": "Legs",
       "discreteItemSets": [
         {
-          "itemType": "CargoPants_Blue",
+          "itemType": "PolicePants",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "PolicePantsOrel",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 0.5,
@@ -83,7 +130,21 @@
       "slotName": "Feet",
       "discreteItemSets": [
         {
-          "itemType": "JoggingShoes_Red",
+          "itemType": "AthleticShoes_Blue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "AthleticShoes_Green",
           "spawnWeight": 1,
           "attributes": {
             "healthMin": 0.5,
@@ -112,8 +173,8 @@
       "simpleChildrenUseDefaultAttributes": false,
       "simpleChildrenTypes": [
         "BandageDressing",
-        "Chemlight_Green",
-        "ZagorkyPeanuts"
+        "Roadflare",
+        "PorkCan"
       ],
       "complexChildrenTypes": []
     }

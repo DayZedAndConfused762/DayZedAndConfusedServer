@@ -1,5 +1,5 @@
 {
-    "name": "dzac_firefighter2",
+    "name": "dzac_firefighter",
     "spawnWeight": 1,
     "characterTypes": [],
     "attachmentSlotItemSets": [
@@ -26,7 +26,35 @@
         "slotName": "Headgear",
         "discreteItemSets": [
           {
+            "itemType": "FirefightersHelmet_Yellow",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
             "itemType": "FirefightersHelmet_White",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "FirefightersHelmet_Red",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -45,7 +73,35 @@
         "slotName": "Body",
         "discreteItemSets": [
           {
+            "itemType": "TShirt_Beige",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
             "itemType": "TShirt_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
+          {
+            "itemType": "TShirt_Red",
             "spawnWeight": 1,
             "attributes": {
               "healthMin": 0.50,
@@ -63,6 +119,20 @@
       {
         "slotName": "Legs",
         "discreteItemSets": [
+          {
+            "itemType": "FirefightersPants_Beige",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
           {
             "itemType": "FirefightersPants_Black",
             "spawnWeight": 1,
@@ -82,6 +152,20 @@
       {
         "slotName": "Feet",
         "discreteItemSets": [
+          {
+            "itemType": "WorkingBoots_Grey",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 0.50,
+              "healthMax": 0.90,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          },
           {
             "itemType": "WorkingBoots_Brown",
             "spawnWeight": 1,

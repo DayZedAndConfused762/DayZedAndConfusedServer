@@ -1,0 +1,236 @@
+{
+  "name": "dzac_hiker",
+  "spawnWeight": 1,
+  "characterTypes": [],
+  "attachmentSlotItemSets": [
+    {
+      "slotName": "Hands",
+      "discreteItemSets": [
+        {
+          "itemType": "HuntingKnife",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Eyewear",
+      "discreteItemSets": [
+        {
+          "itemType": "SportGlasses_Orange",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "SportGlasses_Blue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "SportGlasses_Green",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Body",
+      "discreteItemSets": [
+        {
+          "itemType": "HuntingJacket_Autumn",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "HuntingJacket_Spring",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "HuntingJacket_Summer",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Legs",
+      "discreteItemSets": [
+        {
+          "itemType": "CargoPants_Blue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "CargoPants_Green",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    },
+    {
+      "slotName": "Feet",
+      "discreteItemSets": [
+        {
+          "itemType": "HikingBootsLow_Black",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "HikingBootsLow_Grey",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        },
+        {
+          "itemType": "HikingBootsLow_Blue",
+          "spawnWeight": 1,
+          "attributes": {
+            "healthMin": 0.5,
+            "healthMax": 0.9,
+            "quantityMin": 1,
+            "quantityMax": 1
+          },
+          "quickBarSlot": -1,
+          "simpleChildrenUseDefaultAttributes": false,
+          "simpleChildrenTypes": [],
+          "complexChildrenTypes": []
+        }
+      ]
+    }
+  ],
+  "discreteUnsortedItemSets": [
+    {
+      "name": "Cargo1",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 0.5,
+        "healthMax": 0.9,
+        "quantityMin": 1,
+        "quantityMax": 1
+      },
+      "simpleChildrenUseDefaultAttributes": false,
+      "simpleChildrenTypes": [
+        "BandageDressing",
+        "Chemlight_Green",
+        "ZagorkyPeanuts"
+      ],
+      "complexChildrenTypes": []
+    },
+    {
+      "name": "Cargo1",
+      "spawnWeight": 1,
+      "attributes": {
+        "healthMin": 0.5,
+        "healthMax": 0.9,
+        "quantityMin": 1,
+        "quantityMax": 1
+      },
+      "simpleChildrenUseDefaultAttributes": false,
+      "simpleChildrenTypes": [
+        "BandageDressing",
+        "Chemlight_Green",
+        "ZagorkyChocolate"
+      ],
+      "complexChildrenTypes": []
+    }
+  ]
+}
