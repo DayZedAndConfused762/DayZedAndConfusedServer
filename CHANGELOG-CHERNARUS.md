@@ -12,6 +12,7 @@
 
 ## Contents:
 
+- [9/25/2024](#9/25/2024)
 - [9/24/2024](#9/24/2024)
 - [9/23/2024](#9/23/2024)
 - [9/22/2024](#9/22/2024)
@@ -46,6 +47,7 @@
 - Installed mod: @CJ187 More Weapons
 - Fixed typo in cfgspawnabletypes.xml
 - Adjusted TLH loot spawns
+- Adjusted MMG and MSP spawn rates
 
 <!-- ++++++++++++++++++++ 9/25/2024 End ++++++++++++++++++++ -->
 
@@ -63,7 +65,6 @@
   - Skater
   - Trailer Park Boy
 - Adjusted existing loadouts to a single file per class, to spawn gear options randomly
-- Removed "containers" tag from "Msp_CoffinBox"
 - Added black and green variants of the FireFighter axe
 
 <!-- ++++++++++++++++++++ 9/24/2024 End ++++++++++++++++++++ -->
