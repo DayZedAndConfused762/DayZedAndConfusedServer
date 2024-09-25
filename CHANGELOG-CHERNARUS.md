@@ -48,6 +48,7 @@
 - Fixed typo in cfgspawnabletypes.xml
 - Adjusted TLH loot spawns
 - Adjusted MMG and MSP spawn rates
+- Added low chance to find Punch cards from military zombies
 
 <!-- ++++++++++++++++++++ 9/25/2024 End ++++++++++++++++++++ -->
 
