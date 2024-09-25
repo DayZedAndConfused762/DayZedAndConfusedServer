@@ -41,11 +41,14 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
+        <usage name="Drugcar">
+        <!-- 
         <usage name="Farm"/>
         <usage name="Hunting"/>
+        -->
     </type>
     <type name="DP_CocaBag">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -57,6 +60,7 @@
         <category name="tools"/>
         <usage name="Industrial"/>
         <usage name="School"/>
+        <usage name="Drugcar">
     </type>
     <type name="DP_CocaBrick">
         <nominal>2</nominal>
