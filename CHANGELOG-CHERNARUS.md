@@ -44,8 +44,8 @@
 - Added drug car event
 - Temporarily removed spawn loadouts due to a bug with bed respawns
 - Installed mod: @CJ187 More Weapons
-  - Added @CJ187 More Weapons spawns
 - Fixed typo in cfgspawnabletypes.xml
+- Adjusted TLH loot spawns
 
 <!-- ++++++++++++++++++++ 9/25/2024 End ++++++++++++++++++++ -->
 

@@ -2593,7 +2593,7 @@
 <!-- NUTRITION_DRINKS START -->
 
     <type name="TLH_Drink_Bottle_Vodka">
-        <nominal>30</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -2742,7 +2742,7 @@
         <usage name="Military"/>		
     </type>
     <type name="TLH_Food_MRECrackers">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -2753,8 +2753,6 @@
         <category name="food"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="TLH_Food_TouristsDelight">
         <nominal>10</nominal>
@@ -3163,7 +3161,7 @@
 <!-- TOOLS_HAND_BLUNT START -->
 
     <type name="TLH_Melee_CanoePaddle">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -3175,7 +3173,7 @@
         <usage name="Coast"/>
     </type>
     <type name="TLH_Melee_OldHockeyStick">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -3203,7 +3201,7 @@
         <usage name="Police"/>
     </type>
     <type name="TLH_Melee_PoliceBaton"> <!-- TLH_Melee_TLH_Melee_PoliceBaton -->
-        <nominal>5</nominal>
+        <nominal>20</nominal>
         <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>1</min>
