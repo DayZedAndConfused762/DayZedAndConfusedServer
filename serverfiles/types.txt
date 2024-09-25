@@ -1,0 +1,952 @@
+
+    <type name="Mag_Glock_30Rnd">
+        <nominal>20</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>7</min>
+        <max>20</max>
+        <quantmin>5</quantmin>
+        <quantmax>80</quantmax>
+        <cost>75</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="Mag_Glock_50Rnd">
+        <nominal>10</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>10</max>
+        <quantmin>5</quantmin>
+        <quantmax>80</quantmax>
+        <cost>35</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="AR15">
+        <nominal>8</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>8</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="AR15_9mm_Black">
+        <nominal>8</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>8</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="AR15_9mm_TAN">
+        <nominal>8</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>8</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="AR15_9mm_Green">
+        <nominal>8</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>8</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="AR15_9mm_White">
+        <nominal>8</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>8</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+    </type>
+    <type name="AR15_9mm_Atacs_AU">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>4</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="AR15_9mm_Atacs_FG">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>4</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="AR15_9mm_Atacs_IX">
+        <nominal>4</nominal>
+        <lifetime>10800</lifetime>
+        <restock>18000</restock>
+        <min>0</min>
+        <max>4</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_CQBBttstck_Wood">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_MPHndgrd_Wood">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Buttstock_Black">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Buttstock_Tan">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Buttstock_Green">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Buttstock_White">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Buttstock_Atacs_AU">
+        <nominal>7</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>7</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Buttstock_Atacs_FG">
+        <nominal>7</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>7</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Buttstock_Atacs_IX">
+        <nominal>7</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>7</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ar15_Handguard">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_OEBttstck_Tan">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_OEBttstck_White">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_MPBttstck_Tan">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_MPBttstck_White">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_CQBBttstck_Tan">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_CQBBttstck_White">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_PlasticHndgrd_Tan">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_PlasticHndgrd_White">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RISHndgrd_Tan">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RISHndgrd_White">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_MPHndgrd_Tan">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_MPHndgrd_White">
+        <nominal>12</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>12</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="MLOK_Buttstock_Black">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="MLOK_Buttstock_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="MLOK_Buttstock_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="MLOK_Buttstock_White">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>3</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_Suppressor_Green">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>3</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_Suppressor_Tan">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>3</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_Suppressor_White">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>3</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_Suppressor_ATACS_AU">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>3</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_Suppressor_ATACS_FG">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>3</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_Suppressor_ATACS_IX">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>3</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_UniversalLasersight_Black">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_UniversalLasersight_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_UniversalLasersight_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_UniversalLasersight_White">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_UniversalLasersight_Atacs_AU">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_UniversalLasersight_Atacs_FG">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_UniversalLasersight_Atacs_IX">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RIS_Cover_Black">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RIS_Cover_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RIS_Cover_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RIS_Cover_White">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RIS_Cover_Atacs_AU">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RIS_Cover_Atacs_FG">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_RIS_Cover_Atacs_IX">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_T3NRDSOptic_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_T3NRDSOptic_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_T3NRDSOptic_White">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_T3NRDSOptic_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M4_T3NRDSOptic_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="EotechOptic_Black">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="EotechOptic_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="EotechOptic_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="EotechOptic_White">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M68Optic_Black">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M68Optic_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M68Optic_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="M68Optic_White">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="ACOGOptic_Green">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="ACOGOptic_Tan">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>18000</restock>
+        <min>1</min>
+        <max>5</max>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>50</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
