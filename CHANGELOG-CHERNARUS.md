@@ -39,7 +39,15 @@
 
 ## 9/25/2024
 
+<!-- ++++++++++++++++++++ 9/25/2024 Start ++++++++++++++++++++ -->
+
 - Added drug car event
+- Temporarily removed spawn loadouts due to a bug with bed respawns
+- Installed mod: @CJ187 More Weapons
+  - Added @CJ187 More Weapons spawns
+- Fixed typo in cfgspawnabletypes.xml
+
+<!-- ++++++++++++++++++++ 9/25/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 9/24/2024 Start ++++++++++++++++++++ -->
 
