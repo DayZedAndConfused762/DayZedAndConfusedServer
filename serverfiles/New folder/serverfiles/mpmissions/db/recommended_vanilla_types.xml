@@ -1,0 +1,74 @@
+<!--  ================================================================================================== 
+	||																								  	||	
+	||	I recommend to lower the chance to find these items or made them spawn almost empty! 		  	||
+	||	The following Items are meant to be rare, because these are the best choise to repair items...	||
+	||																								  	||
+      ==================================================================================================-->
+    <type name="WeaponCleaningKit">
+        <nominal>10</nominal>				<!-- Let them spawn less 			-->
+        <lifetime>28800</lifetime>
+        <restock>14400</restock>			<!-- Let them respawn delayed 		-->
+        <min>0</min>
+        <quantmin>1</quantmin>				<!-- Let them spawn almost empty 	-->
+        <quantmax>50</quantmax>				<!-- Let them not spawn full 		-->
+        <cost>10</cost>						<!-- Let them be rare (chance in %) -->
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <usage name="Hunting"/>
+    </type>
+    <type name="ElectronicRepairKit">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>1</quantmin>
+        <quantmax>50</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+    </type>
+    <type name="LeatherSewingKit">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>1</quantmin>
+        <quantmax>50</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+        <usage name="Village"/>
+    </type>
+    <type name="SewingKit">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>1</quantmin>
+        <quantmax>50</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+    <type name="TireRepairKit">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>14400</restock>
+        <min>0</min>
+        <quantmin>1</quantmin>
+        <quantmax>50</quantmax>
+        <cost>10</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+    </type>
