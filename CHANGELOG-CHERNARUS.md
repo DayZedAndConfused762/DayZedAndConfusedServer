@@ -37,10 +37,9 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+<!-- ++++++++++++++++++++ 9/25/2024 Start ++++++++++++++++++++ -->
 
 ## 9/25/2024
-
-<!-- ++++++++++++++++++++ 9/25/2024 Start ++++++++++++++++++++ -->
 
 - Added drug car event
 - Temporarily removed spawn loadouts due to a bug with bed respawns
