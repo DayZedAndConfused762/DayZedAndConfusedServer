@@ -10,6 +10,14 @@
 "SodaCan_Spite"
 "Vodka"
 "WaterBottle"
+"TLH_Drink_Bottle_Vodka"
+"TLH_Drink_Canteen_Black"
+"TLH_Drink_Canteen_Grey"
+"TLH_Drink_Canteen_OD"
+"TLH_Drink_Canteen_White"
+"TLH_Food_CoffeeInstantTypeII"
+"TLH_Drink_EmergencyDrinkingWater"
+"TLH_Drink_SodaCan_DuffBeer"
 
 <!-- NUTRITION_DRINKS END -->
 
@@ -109,241 +117,34 @@
 "Zagorky"
 "ZagorkyChocolate"
 "ZagorkyPeanuts"
-
-<!-- MRTsMREs Start -->
-
-	<type name="MRTsMRE_Menu1"
-	<type name="MRTsMRE_Menu2"
-
-	<type name="MRTsMRE_Menu3"
-
-	<type name="MRTsMRE_Menu4"
-
-	<type name="MRTsMRE_Menu5"
-
-	<type name="MRTsMRE_Menu6"
-
-	<type name="MRTsMRE_Menu7"
-
-	<type name="MRTsMRE_Menu8"
-
-	<type name="MRTsMRE_Menu9"
-
-	<type name="MRTsMRE_Menu10"
-
-	<type name="MRTsMRE_Menu11"
-
-	<type name="MRTsMRE_Menu12"
-
-	<type name="MRTsMRE_Menu13"
-
-	<type name="MRTsMRE_Menu14"
-
-	<type name="MRTsMRE_Menu15"
-
-	<type name="MRTsMRE_Menu16"
-
-	<type name="MRTsMRE_Menu17"
-
-	<type name="MRTsMRE_Menu18"
-
-	<type name="MRTsMRE_Menu19"
-
-	<type name="MRTsMRE_Menu20"
-
-	<type name="MRTsMRE_Menu21"
-
-	<type name="MRTsMRE_Menu22"
-
-	<type name="MRTsMRE_Menu23"
-
-	<type name="MRTsMRE_Menu24"
-
-	<type name="MRTsMRE_CRE"
-
-<!-- MRTsMREs End -->
-
-<!-- NUTRITION_DRINKS START -->
-
-"TLH_Drink_Bottle_Vodka"
-        <nominal>30</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>20</quantmin>
-        <quantmax>70</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/> 
-		<tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>	
-		<usage name="Farm"/>
-		<usage name="Prison"/>
-    </type>
-	<type name="TLH_Drink_Canteen_Black"
-        <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>400</restock>
-        <min>0</min>
-        <quantmin>6</quantmin>
-        <quantmax>80</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <usage name="Military"/>
-		<value name="Tier4"/>			
-    </type>	
-	<type name="TLH_Drink_Canteen_Grey"
-        <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>400</restock>
-        <min>0</min>
-        <quantmin>6</quantmin>
-        <quantmax>80</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <usage name="Military"/>
-		<value name="Tier3"/>			
-    </type>
-	<type name="TLH_Drink_Canteen_OD"
-        <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>800</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>95</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-		<usage name="Farm"/>
-		<usage name="Hunting"/>
-		<usage name="Military"/>
-    </type>
-	<type name="TLH_Drink_Canteen_White"
-        <nominal>1</nominal>
-        <lifetime>14400</lifetime>
-        <restock>400</restock>
-        <min>0</min>
-        <quantmin>6</quantmin>
-        <quantmax>80</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <usage name="Farm"/>
-        <usage name="Hunting"/>
-        <usage name="Military"/>	
-    </type>	
-"TLH_Food_CoffeeInstantTypeII"
-        <nominal>12</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>7</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-"TLH_Drink_EmergencyDrinkingWater"
-        <nominal>25</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <usage name="Firefighter"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-    </type>
-"TLH_Drink_SodaCan_DuffBeer"
-        <nominal>15</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-
-<!-- NUTRITION_DRINKS END -->
-
-<!-- NUTRITION_PACKAGED -->
-
+"MRTsMRE_Menu1"
+"MRTsMRE_Menu2"
+"MRTsMRE_Menu3"
+"MRTsMRE_Menu4"
+"MRTsMRE_Menu5"
+"MRTsMRE_Menu6"
+"MRTsMRE_Menu7"
+"MRTsMRE_Menu8"
+"MRTsMRE_Menu9"
+"MRTsMRE_Menu10"
+"MRTsMRE_Menu11"
+"MRTsMRE_Menu12"
+"MRTsMRE_Menu13"
+"MRTsMRE_Menu14"
+"MRTsMRE_Menu15"
+"MRTsMRE_Menu16"
+"MRTsMRE_Menu17"
+"MRTsMRE_Menu18"
+"MRTsMRE_Menu19"
+"MRTsMRE_Menu20"
+"MRTsMRE_Menu21"
+"MRTsMRE_Menu22"
+"MRTsMRE_Menu23"
+"MRTsMRE_Menu24"
+"MRTsMRE_CRE"
 "TLH_Food_Kommissbrot"
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <tag name="shelves"/>
-        <usage name="Village"/>
-		<usage name="Farm"/>
-        <value name="Tier2"/> 
-		<value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
 "TLH_Food_MessTin"
-        <nominal>10</nominal>
-        <lifetime>18800</lifetime>
-        <restock>590</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="tools"/>
-		<usage name="Hunting"/>	
-        <usage name="Military"/>		
-    </type>
 "TLH_Food_MRECrackers"
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
 "TLH_Food_TouristsDelight"
-        <nominal>10</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1000</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="food"/>
-        <tag name="shelves"/>
-        <usage name="Hunting"/>
-        <usage name="Military"/>
-    </type>
-
-<!-- NUTRITION_PACKAGED -->
 
 <!-- ++++++++++ NUTRITION END ++++++++++ -->
