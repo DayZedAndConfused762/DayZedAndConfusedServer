@@ -1,75 +1,9 @@
 <!-- TLH COLLECTIBLES START -->
 
     <type name="TLH_Collectable_Book_StrangeDiary">
-        <nominal>1</nominal>
-        <lifetime>44000</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>	
-		<value name="Tier2"/>
-        <value name="Tier3"/>
-	</type>	
     <type name="TLH_Collectable_Case_MilitaryIntel">
-        <nominal>3</nominal>
-        <lifetime>44000</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="tools"/>
-        <usage name="Military"/>
-		<value name="Tier4"/>
-	</type>
     <type name="TLH_Collectable_Cassette_Virgin">
-        <nominal>2</nominal>
-        <lifetime>28000</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-	</type>
     <type name="TLH_Collectable_GoldOre">
-        <nominal>2</nominal>
-        <lifetime>44000</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Farm"/>
-	</type>	
     <type name="TLH_Collectable_Note_StrangeNote">
-        <nominal>2</nominal>
-        <lifetime>44000</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>	
-		<value name="Tier2"/>
-        <value name="Tier3"/>
-	</type>
-
 
 <!-- TLH COLLECTIBLES END-->
