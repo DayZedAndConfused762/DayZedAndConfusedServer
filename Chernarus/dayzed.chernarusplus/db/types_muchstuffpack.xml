@@ -4,7 +4,7 @@
     <!-- MuchStuffPack -->
     <!-- Melee -->
     <type name="Msp_VorpalKnife">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>43200</restock>
         <min>1</min>
@@ -17,7 +17,7 @@
         <usage name="Hunting" />
     </type>
     <type name="Msp_BeanBasher">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>43200</restock>
         <min>1</min>
@@ -30,7 +30,7 @@
         <usage name="Military" />
     </type>
     <type name="Msp_BlunderBat">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>43200</restock>
         <min>1</min>
@@ -44,7 +44,7 @@
         <value name="Tier3" />
     </type>
     <type name="Msp_BassAxe">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>43200</restock>
         <min>1</min>
@@ -58,7 +58,7 @@
         <value name="Tier3" />
     </type>
     <type name="Msp_PipeAxe">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>43200</restock>
         <min>1</min>
@@ -68,6 +68,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="shelves" />
+        <usage name="Industrial" />
     </type>
     <type name="Msp_GoodNightBat">
         <nominal>1</nominal>
@@ -80,6 +81,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="shelves" />
+        <usage name="School" />
     </type>
     <type name="Msp_PlainBat">
         <nominal>1</nominal>
@@ -351,7 +353,7 @@
         <usage name="Industrial" />
         <usage name="Farm" />
     </type>
-    <type name="Msp_GrenadeBox">
+    <type name="Msp_GrenadeBox"> <!-- removed this, was unable to attach grenades -->
         <nominal>0</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
@@ -422,7 +424,7 @@
     </type>
     <type name="Msp_Mailbox">
         <nominal>3</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -436,7 +438,7 @@
     </type>
     <type name="Msp_TrashCan">
         <nominal>3</nominal>
-        <lifetime>7200</lifetime>
+        <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -527,7 +529,7 @@
     </type>
     <type name="Msp_ParamedicBag_Red">
         <nominal>1</nominal>
-        <lifetime>3888000</lifetime>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -539,7 +541,7 @@
     </type>
     <type name="Msp_ParamedicBag_Green">
         <nominal>1</nominal>
-        <lifetime>3888000</lifetime>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -551,7 +553,7 @@
     </type>
     <type name="Msp_ParamedicBag_Blue">
         <nominal>1</nominal>
-        <lifetime>3888000</lifetime>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -563,7 +565,7 @@
     </type>
     <type name="Msp_ParamedicBag_NBC">
         <nominal>1</nominal>
-        <lifetime>3888000</lifetime>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -634,7 +636,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="floor" />
-        <usage name="Industrial" />
+        <usage name="Lunapark" />
         <usage name="Farm" />
     </type>
     <type name="Msp_Gazebo">
@@ -652,7 +654,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="floor" />
-        <usage name="Industrial" />
+        <usage name="Village" />
         <usage name="Farm" />
     </type>
     <type name="Msp_StoneFireplace">
@@ -708,7 +710,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="floor" />
-        <usage name="Town"/>
+        <usage name="Industrial" />
         <usage name="Village"/>
     </type>
     <type name="Msp_MoskvaFridge_Cream">
@@ -726,8 +728,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="floor" />
+        <usage name="Industrial" />
         <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="Msp_MoskvaFridge_Red">
         <lifetime>3888000</lifetime>
@@ -831,7 +833,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_GunCabinet_Kit">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -866,7 +868,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_GunRack_Kit">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -917,7 +919,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_StorageBox_Kit">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -1340,7 +1342,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Wardrobe_Brown_Kit">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -1376,7 +1378,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Wardrobe_White_Kit">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -1423,6 +1425,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Hunting"/>
         <usage name="Historical"/>
     </type>
     <type name="WG_CampingTent_Blue">
@@ -1441,6 +1444,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Hunting"/>
         <usage name="Historical"/>
     </type>
     <type name="WG_CampingTent_Gray">
@@ -1602,7 +1606,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <tag name="floor" />
-        <usage name="Medic" />
+        <usage name="Firefighter" />
     </type>
     <type name="Msp_MedicBag_Blue">
         <nominal>2</nominal>
@@ -1615,7 +1619,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <tag name="floor" />
-        <usage name="Medic" />
+        <usage name="Police" />
     </type>
     <type name="Msp_MedicBag_Green">
         <nominal>2</nominal>
@@ -1628,7 +1632,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <tag name="floor" />
-        <usage name="Medic" />
+        <usage name="Military" />
     </type>
     <type name="Msp_MedicBag_Black">
         <nominal>2</nominal>
@@ -2035,7 +2039,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
-        <usage name="Town" />
         <usage namne="School" />
         <usage name="Village" />
         <value name="Tier1" />
@@ -2053,7 +2056,6 @@
         <category name="containers" />
         <usage name="Town" />
         <usage namne="School" />
-        <usage name="Village" />
         <value name="Tier1" />
         <value name="Tier2" />
     </type>
@@ -2196,8 +2198,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
-        <usage name="Town"/>
-        <usage name="Village"/>
+        <usage name="Military"/>
         <usage name="Hunting"/>
     </type>
     <type name="Msp_SleepingBag_Blue">
@@ -2576,6 +2577,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <!-- <category name="containers" /> -->
+        <tag name="floor" />
         <usage name="Lunapark" />
     </type>
     <type name="Msp_WitchHat">
@@ -2824,9 +2826,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
         <tag name="shelves" />
-        <usage name="Town" />
         <usage name="Village" />
         <usage name="Coast" />
+        <value name="Tier1" />
     </type>
     <type name="Msp_Water_Gun_Mag">
         <nominal>10</nominal>
@@ -2839,9 +2841,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
         <tag name="shelves" />
-        <usage name="Town" />
         <usage name="Village" />
         <usage name="Coast" />
+        <value name="Tier1" />
     </type>
 	<type name="Msp_FlipFlops_Black">
 		<nominal>3</nominal>
