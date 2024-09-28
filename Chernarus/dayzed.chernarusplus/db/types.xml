@@ -1073,9 +1073,11 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/> 
-        <value name="Tier1"/>
+		<usage name="Village"/>
+		<usage name="Farm"/>		
+		<usage name="Hunting"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_CMAG_10Rnd_Black">
         <nominal>9</nominal>
@@ -1087,9 +1089,11 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
+		<usage name="Village"/>
+		<usage name="Farm"/>		
+		<usage name="Hunting"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_CMAG_10Rnd_Green">
         <nominal>9</nominal>
@@ -1171,7 +1175,8 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="Mag_CMAG_40Rnd_Black">
         <nominal>1</nominal>
@@ -1183,7 +1188,9 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_CMAG_40Rnd_Green">
         <nominal>1</nominal>
@@ -14401,7 +14408,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- MEDICALS_SUPPLIES START -->
 
     <type name="BandageDressing">
-        <nominal>50</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -17447,7 +17454,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier3"/>
     </type>
     <type name="FirstAidKit">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -18741,7 +18748,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="PersonalRadio">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -18762,10 +18769,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- TOOLS_ELECTRICAL START -->
 
     <type name="Battery9V">
-        <nominal>80</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>75</min>
+        <min>35</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -18841,10 +18848,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="GardenLime">
-        <nominal>50</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19690,7 +19697,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Farm"/>
     </type>
     <type name="Pliers">
-        <nominal>70</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>50</min>
@@ -19793,10 +19800,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Flashlight">
-        <nominal>80</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>70</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20519,10 +20526,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Screwdriver">
-        <nominal>50</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20693,10 +20700,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="SewingKit">
-        <nominal>100</nominal>
+        <nominal>80</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>80</min>
+        <min>70</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20707,7 +20714,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="TireRepairKit">
-        <nominal>50</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -20720,10 +20727,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Industrial"/>
     </type>
     <type name="WeaponCleaningKit">
-        <nominal>60</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>50</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -22788,10 +22795,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Industrial"/>
     </type>
     <type name="SparkPlug">
-        <nominal>60</nominal>
+        <nominal>35</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

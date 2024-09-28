@@ -42,6 +42,16 @@
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
 https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
+
+<!-- ++++++++++++++++++++ 9/28/2024 Start ++++++++++++++++++++ -->
+
+## 9/28/2024
+
+- Adjusted loot spawns to account for new mods
+- Slightly reduced loot spawns in bunkers, removed police tags from bunkers
+
+<!-- ++++++++++++++++++++ 9/28/2024 End ++++++++++++++++++++ -->
+
 <!-- ++++++++++++++++++++ 9/26/2024 Start ++++++++++++++++++++ -->
 
 ## 9/26/2024

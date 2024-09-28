@@ -110,7 +110,7 @@
 <!-- AMMUNITION_MAGAZINES START -->
 
     <type name="TLH_Mag_9A91_20Rnd">
-        <nominal>4</nominal>
+        <nominal>9</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -120,6 +120,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
 	<type name="TLH_Mag_1911_8Rnd">
@@ -150,10 +151,10 @@
         <usage name="Military"/>
     </type>
     <type name="TLH_Mag_DeltaElite_9Rnd">
-        <nominal>16</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>10</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -161,7 +162,9 @@
         <category name="weapons"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <usage name="Farm"/>		
+        <usage name="Farm"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="TLH_Mag_Glock20_10Rnd">
         <nominal>13</nominal>
@@ -191,7 +194,6 @@
         <usage name="Police"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>	
     </type>
     <type name="TLH_Mag_STANAGCoupled_60Rnd">
         <nominal>3</nominal>
@@ -984,8 +986,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Military"/>		
+        <usage name="Village"/>		
         <usage name="Police"/>
     </type>
     <type name="TLH_Beard_Black">
@@ -1212,10 +1213,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
         <usage name="School"/>
-        <value name="Tier1"/>		
     </type>
     <type name="TLH_BaseballCap_Hunter">
         <nominal>3</nominal>
@@ -1227,10 +1225,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-		<usage name="Farm"/>		
     </type>
 	<type name="TLH_Hat_Boonie_M81">
         <nominal>2</nominal>
@@ -1242,8 +1238,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
         <usage name="Hunting"/>		
 		<usage name="Military"/>
     </type>
@@ -1493,8 +1487,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-       <usage name="ContaminatedArea"/>	
+        <usage name="Medic"/>
+        <usage name="Firefighter"/>	
     </type>
     <type name="TLH_NBC_Gloves_Blue"> <!-- NBC_Gloves_TLH_Blue -->
         <nominal>6</nominal>
@@ -1523,7 +1517,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <usage name="ContaminatedArea"/>
 		<value name="Tier3"/>	
     </type>	
 	<type name="TLH_NBC_Helmet_MICH2000_ChocoChip">
@@ -1538,7 +1531,6 @@
         <category name="clothes"/>
 		<usage name="Medic"/>
         <usage name="Military"/>
-        <usage name="ContaminatedArea"/>
 		<value name="Tier4"/>		
     </type>
 	<type name="TLH_NBC_Helmet_PASGT_ChocoChip">
@@ -1552,7 +1544,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <usage name="ContaminatedArea"/>
 		<value name="Tier3"/>	
     </type>
 
@@ -1581,8 +1572,7 @@
         <category name="clothes"/>
         <tag name="floor"/>
         <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="ContaminatedArea"/>		
+        <usage name="Firefighter"/>	
     </type>
     <type name="TLH_NBC_Jacket_M81">
         <nominal>2</nominal>
@@ -1692,8 +1682,7 @@
         <category name="clothes"/>
         <tag name="floor"/>
         <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="ContaminatedArea"/>			
+        <usage name="Firefighter"/>			
     </type>
 
 	<type name="TLH_NBC_Shoes_M81">
@@ -1721,8 +1710,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <tag name="floor"/>
-        <usage name="Military"/>
-		<usage name="ContaminatedArea"/>			
+        <usage name="Military"/>		
         <value name="Tier3"/>
     </type>
     <type name="TLH_NBC_Shoes_Blue"> <!-- NBC_Shoes_TLH_Blue -->
@@ -2052,7 +2040,7 @@
 
 <!-- ++++++++++ CLOTHING END ++++++++++ -->
 
-<!-- ++++++++++ FIREARMS END ++++++++++ -->
+<!-- ++++++++++ FIREARMS START ++++++++++ -->
 
 <!-- FIREARMS_ASSAULT START -->
 
@@ -2067,6 +2055,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
     <type name="TLH_Weapon_AKM_Gold">
@@ -2082,7 +2071,7 @@
 		<usage name="Military"/>
     </type>
 	<type name="TLH_Weapon_AR10B">
-        <nominal>8</nominal>
+        <nominal>15</nominal>
         <lifetime>20000</lifetime>
         <restock>200</restock>
         <min>7</min>
@@ -2094,6 +2083,8 @@
 		<usage name="Village"/>
 		<usage name="Farm"/>		
 		<usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>	
 	<type name="TLH_Weapon_FAL5000">
         <nominal>10</nominal>
@@ -2152,7 +2143,7 @@
 <!-- FIREARMS_PISTOLS START -->
 
     <type name="TLH_Weapon_DD192">
-        <nominal>15</nominal>
+        <nominal>25</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
         <min>10</min>
@@ -2183,6 +2174,8 @@
         <usage name="Village"/>
 	    <usage name="Hunting"/>
         <usage name="Farm"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="TLH_Weapon_Glock18">
         <nominal>10</nominal>
@@ -2227,7 +2220,6 @@
         <tag name="shelves"/>
         <usage name="Hunting"/>
         <usage name="Military"/>
-        <usage name="Farm"/>
         <usage name="Police"/>
     </type>	
     <type name="TLH_Weapon_M1911_Gold">
@@ -2335,7 +2327,7 @@
 
 <!-- FIREARMS_SMG END -->
 
-<!-- ++++++++++ FIREARMS START ++++++++++ -->
+<!-- ++++++++++ FIREARMS END ++++++++++ -->
 
 <!-- ++++++++++ MEDICALS START ++++++++++ -->
 
@@ -2802,7 +2794,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
-        <usage name="Coast"/>
         <usage name="Village"/>
         <usage name="Town"/>
         <usage name="School"/>
@@ -2966,7 +2957,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
-		<usage name="Village"/>
 		<usage name="Hunting"/>
 		<usage name="Farm"/>		
     </type>
@@ -2980,9 +2970,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
-		<usage name="Village"/>
-		<usage name="Hunting"/>
-		<usage name="Farm"/>		
+		<usage name="Military"/>
+		<usage name="Hunting"/>		
     </type>
     <type name="TLH_Medical_NBCBag_USDN">
         <nominal>3</nominal>
@@ -3084,10 +3073,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="TLH_Tool_WalkieTalkie">
-        <nominal>20</nominal>
+        <nominal>5</nominal>
         <lifetime>20500</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3095,11 +3084,9 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Town"/>
-        <usage name="Village"/>
-		<usage name="Hunting"/>		
+        <usage name="Village"/>	
         <usage name="Medic"/>
         <usage name="School"/>
-        <usage name="Firefighter"/>
     </type>	
 
 <!-- TOOLS_COMMUNICATION END -->
@@ -3153,7 +3140,6 @@
         <usage name="Hunting"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 
 <!-- TOOLS_HAND_BLADE END -->
@@ -3199,6 +3185,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Police"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TLH_Melee_PoliceBaton"> <!-- TLH_Melee_TLH_Melee_PoliceBaton -->
         <nominal>20</nominal>
@@ -3249,10 +3237,10 @@
 <!-- TOOLS_MISC START -->
 
     <type name="TLH_Tool_CharcoalBag">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

@@ -1,5 +1,5 @@
- <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<types>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 
 <!-- ================================================================================================================== -->
 <!--   Chernarus types.xml organized by item type.  Sorted by DayZedAndConfsued762, DayZed and Confused DayZ Servers.   -->
@@ -24,7 +24,7 @@
 <!-- -->
 
 
-
+<types>
 
 
 <!-- MEDICALS START -->
@@ -73,7 +73,7 @@
         <usage name="Medic"/>
     </type>
     <type name="CJ_FirstAidKit_Car">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -84,7 +84,6 @@
         <category name="containers"/>
         <category name="tools"/>
         <tag name="shelves"/>
-        <usage name="Medic"/>
         <usage name="Industrial"/>
     </type>
     <type name="CJ_FirstAidKit_Grizzly">
@@ -98,7 +97,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <tag name="shelves"/>
-        <usage name="Medic"/>
+        <usage name="Hunting"/>
     </type>
     <type name="CJ_SamSplint">
         <nominal>20</nominal>
@@ -121,10 +120,10 @@
 <!-- MISC START -->
 
     <type name="CJ_Cigarettes_1">
-        <nominal>50</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -135,10 +134,10 @@
         <usage name="Town"/>
     </type>
     <type name="CJ_Cigarettes_2">
-        <nominal>50</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -149,10 +148,10 @@
         <usage name="Town"/>
     </type>
     <type name="CJ_Cigarettes_3">
-        <nominal>50</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -163,10 +162,10 @@
         <usage name="Town"/>
     </type>
     <type name="CJ_Cigarettes_4">
-        <nominal>50</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -177,10 +176,10 @@
         <usage name="Town"/>
     </type>
     <type name="CJ_Cigarettes_5">
-        <nominal>50</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -208,7 +207,7 @@
     </type>
 
     <type name="CJ_Toiletpaper">
-        <nominal>25</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -261,24 +260,25 @@
 <!-- TOOLS_COMMUNICATION START -->
 
     <type name="CJ_WalkieTalkie">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
+        <usage name="School"/>
         <usage name="Village"/>
         <usage name="Town"/>
     </type>
     <type name="CJ_Motorola_T80_Yellow">
-        <nominal>15</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -289,21 +289,20 @@
         <usage name="Town"/>
     </type>
     <type name="CJ_Motorola_T80_Red">
-        <nominal>15</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
+        <usage name="Firefighter"/>
     </type>
     <type name="CJ_Motorola_T80_Blue">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -313,28 +312,26 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
+        <usage name="Police"/>
     </type>
     <type name="CJ_Motorola_T80_Green">
-        <nominal>15</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="shelves"/>
-        <usage name="Village"/>
-        <usage name="Town"/>
+        <usage name="Military"/>
     </type>
     <type name="CJ_Motorola_T80_Lime">
-        <nominal>15</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -345,7 +342,7 @@
         <usage name="Town"/>
     </type>
     <type name="CJ_Motorola_T80_Grey">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -356,13 +353,14 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Village"/>
+        <usage name="School"/>
         <usage name="Town"/>
     </type>
     <type name="CJ_Falcon3_Radio">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -372,10 +370,10 @@
         <usage name="Military"/>
     </type>
     <type name="CJ_TacSatRadio_Black">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -385,10 +383,10 @@
         <usage name="Military"/>
     </type>
     <type name="CJ_TacSatRadio_Green">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -398,10 +396,10 @@
         <usage name="Military"/>
     </type>
     <type name="CJ_TacSatRadio_Tan">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -416,7 +414,7 @@
 <!-- TOOLS_ELECTRICAL START -->
 
     <type name="CJ_Battery9V_1">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -430,7 +428,7 @@
         <usage name="Village"/>
     </type>
     <type name="CJ_Battery9V_2">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -444,7 +442,7 @@
         <usage name="Village"/>
     </type>
     <type name="CJ_Battery9V_3">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -458,7 +456,7 @@
         <usage name="Village"/>
     </type>
     <type name="CJ_Battery9V_4">
-        <nominal>20</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -516,10 +514,10 @@
 <!-- TOOLS_FARMING START -->
 
     <type name="CJ_AntiPestsSpray_1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
@@ -530,10 +528,10 @@
         <usage name="Village"/>
     </type>
     <type name="CJ_AntiPestsSpray_2">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
@@ -544,10 +542,10 @@
         <usage name="Village"/>
     </type>
     <type name="CJ_AntiPestsSpray_3">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
@@ -644,7 +642,7 @@
 <!-- TOOLS_HAND_MISC START -->
 
     <type name="CJ_Pliers_Yellow">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -656,8 +654,9 @@
         <usage name="Industrial"/>
         <usage name="Farm"/>
         <usage name="Village"/>
+    </type>
     <type name="CJ_Pliers_Red">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -690,10 +689,10 @@
 <!-- TOOLS_LIGHTING START -->
 
     <type name="CJ_Flashlight_Yellow">
-        <nominal>50</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -722,7 +721,7 @@
         <usage name="Village"/>
     </type>
     <type name="CJ_WD40_Small">
-        <nominal>40</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -739,7 +738,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="CJ_WD40_Large">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -768,8 +767,6 @@
         <tag name="shelves"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
     </type>
     <type name="CJ_Sewingspool_Red">
         <nominal>20</nominal>
@@ -832,7 +829,6 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
     </type>
-</types>
 
 <!-- TOOLS_REPAIR END -->
 
@@ -875,3 +871,4 @@
 
 <!-- VEHICLES END -->
 
+</types>
