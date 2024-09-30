@@ -46,6 +46,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
 ## 9/30/2024
 
 - Added UAZ31514 vehicle spawns
+- Added Hanah Hunting Bag
 
 <!-- ++++++++++++++++++++ 9/28/2024 Start ++++++++++++++++++++ -->
 
