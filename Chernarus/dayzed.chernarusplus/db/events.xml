@@ -1464,4 +1464,63 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
         </children>
     </event>
+    <event name="VehicleUaz3">
+        <nominal>6</nominal>
+        <min>4</min>
+        <max>6</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_blue"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_yellow"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_tdc"/>
+        </children>
+    </event>
+        <event name="VehicleUaz3Cargo">
+        <nominal>5</nominal>
+        <min>4</min>
+        <max>6</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_cargo2"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_cargo2_blue"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_cargo2_yellow"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_cargo2_tdc"/>
+        </children>
+    </event>
+        <event name="VehicleUaz3Hunter">
+        <nominal>3</nominal>
+        <min>2</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_hunter"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_hunter"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="UAZ_31514_hunter_camow"/>
+        </children>
+    </event>
 </events>

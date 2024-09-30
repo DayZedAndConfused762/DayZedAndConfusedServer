@@ -43,6 +43,10 @@
 https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
 https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
 
+## 9/30/2024
+
+- Added UAZ31514 vehicle spawns
+
 <!-- ++++++++++++++++++++ 9/28/2024 Start ++++++++++++++++++++ -->
 
 ## 9/28/2024
