@@ -19,6 +19,11 @@
 ## To Do 
 
 - Figure out which UAZ needs a glow plug instead of a spark plug
+- Find spawn points for Kamaz trucks
+- Find spawn points for Kamaz Typhoon
+- Find spawn points for Gunnertruck
+- Find spawn points for Scorpion bike
+- Find spawn points for scvehicles
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
 https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131

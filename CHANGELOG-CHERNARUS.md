@@ -47,8 +47,10 @@
   - @BeautifulPotato_BagZ https://steamcommunity.com/sharedfiles/filedetails/?id=3250360572
   - @Blackouts Scorpion https://steamcommunity.com/sharedfiles/filedetails/?id=2909935986
   - @[CnG]UAZ_31514 https://steamcommunity.com/sharedfiles/filedetails/?id=3160244059
+    - Added UAZ31514 vehicle spawns
   - @GunnerTruckOshkosh https://steamcommunity.com/sharedfiles/filedetails/?id=2512575701
   - @Kamaz_Truck https://steamcommunity.com/sharedfiles/filedetails/?id=1895398348
+    - Added Kamaz Truck spawns
   - @KamazTyphoon-K-63968 (FREE TO USE) https://steamcommunity.com/sharedfiles/filedetails/?id=3324214914
   - @Sauwercrauds RolePlay Vehicles https://steamcommunity.com/sharedfiles/filedetails/?id=3307126962
 
@@ -58,9 +60,9 @@
 
 ## 9/30/2024
 
-- Added UAZ31514 vehicle spawns
+
 - Added Hanah Hunting Bag
-- Added Kamaz Truck spawns
+
 
 <!-- ++++++++++++++++++++ 9/30/2024 End ++++++++++++++++++++ -->
 
