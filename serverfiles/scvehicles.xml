@@ -1,3 +1,214 @@
+
+<!-- EVENTS.XML -->
+
+<!-- paste following lines under <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Wine"/> and between </children> -->
+    <child lootmax="0" lootmin="0" max="5" min="3" type="civiliansedan_taxi"/>
+	<child lootmax="0" lootmin="0" max="5" min="3" type="sc_van"/>
+	<child lootmax="0" lootmin="0" max="5" min="3" type="sc_van_ambulance"/>
+ 
+<!-- paste following line under <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Blue"/> and between </children> -->
+	<child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Policepack"/>
+	
+<!-- paste following line under <child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_White"/> and between </children> -->	
+	<child lootmax="0" lootmin="0" max="5" min="3" type="OffroadHatchback_policepack"/>
+
+<!-- CFGSPAWNABLETYPES.XML -->
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--Change "chance" to lower than 0.99 to not have the vehicles spawn complete! -->
+<spawnabletypes>
+	<!--Police Vehicles --> 
+	<type name="Hatchback_02_Policepack">
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="z_PoliceLights" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_1_Policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_1_2_Policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_1_Policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Door_2_2_Policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Hood_Policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Hatchback_02_Trunk_Policepack" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="OffroadHatchback_policepack">
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackWheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_Driver_policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackDoors_CoDriver_policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackHood_policepack" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HatchbackTrunk_policepack" chance="1.00" />
+		</attachments>
+	</type>
+<!-- VW Bus -->
+	<type name="sc_van">
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_cargo1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_cargo2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_cargo3" chance="1.00" />
+		</attachments>
+	</type>	
+	<!-- VW Bus Ambulance-->
+	<type name="sc_van_ambulance">
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_ambulance_1_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_ambulance_2_1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_ambulance_cargo1" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_ambulance_cargo2" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="sc_van_door_ambulance_cargo3" chance="1.00" />
+		</attachments>
+	</type>	
+</spawnabletypes>
+
+<!-- TYPES.XML -->
+
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <types>
 <!--taxi-->
@@ -386,3 +597,14 @@
         <usage name="Industrial"/>
     </type>
 </types>
+
+
+
+<!-- place the Folder sc_types in mpmissions/mapname (for ex. chernarus/enoch) and copy paste following code between </defaults> and </economycore> in your cfgeconomycore.xml -->
+	
+	<ce folder="sc_types">
+		<file name="SC_types_cars.xml" type="types" />
+		<file name="SC_cars_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
+<!-- CFGECONOMYCORE.XML -->

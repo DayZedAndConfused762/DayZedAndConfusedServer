@@ -1,0 +1,1250 @@
+<!-- CFGEVENTSPAWNS.XML
+
+    <event name="VehicleKamaz_Spawn" >
+		<pos x="4836.8378919" z="10305.982422" a="275.906708" />
+		<pos x="4872.1596688" z="10167.662109" a="55.468719" />
+		<pos x="4839.3369145" z="10020.331055" a="119.360489" />
+		<pos x="5072.4643555" z="9822.7382810" a="322.267578" />
+		<pos x="5131.4111336" z="9749.6669920" a="0" />
+		<pos x="4625.8061528" z="9591.4492190" a="91.284721" />
+		<pos x="3647.578369"  z="8993.3066410" a="270.976105" />
+		<pos x="4562.398438" z="8227.261719" a="89.640213" />
+		<pos x="6259.103516" z="7847.455566" a="270.770691" />
+		<pos x="8260.600586" z="3081.730225" a="0" />
+		<pos x="13584.66503" z="11743.936523" a="0" />
+		<pos x="13594.86425" z="13795.438477" a="0" />
+		<pos x="7314.816895" z="3079.352051" a="0" />
+		<pos x="7315.635254" z="3098.711914" a="0" />
+	</event>
+
+<!-- CFGSPAWNABLETYPES.XML -->
+
+	<type name="Kamaz">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Kamaz_Tent" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+	</type>
+	<type name="KamazCovered">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="KamazCovered_Winter">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Winter" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Winter" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Winter" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk_Winter" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="KamazCovered_Civ_Orange_Blue">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Civ_Orange" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Civ_Orange" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Civ_Orange" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk_Civ_Orange_Blue" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="KamazCovered_Civ_Red">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Civ_Red" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Civ_Red" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Civ_Red" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk_Civ_Green" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="KamazCovered_Civ_Blue">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Civ_Blue" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Civ_Blue" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Civ_Blue" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk_Civ_Green" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="KamazCovered_Civ_Yellow">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Civ_Yellow" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Civ_Yellow" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Civ_Yellow" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk_Civ_Green" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="KamazFuel">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Kamaz_fuelPump" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="KamazFuel_Shell">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Shell" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Shell" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Shell" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Kamaz_fuelPump" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="KamazFuel_White">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Fuel_White" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Fuel_White" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Fuel_White" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Kamaz_fuelPump" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="KamazFuel_Civ_Orange">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver_Fuel_Orange" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver_Fuel_Orange" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood_Fuel_Orange" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Kamaz_fuelPump" chance="0.30" />
+		</attachments>
+	</type>
+	<type name="KamazCargo">
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazWheel" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="FirstAidKit" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_Driver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazDoors_CoDriver" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazHood" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="KamazTrunk" chance="0.20" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Kamaz_Tent" chance="0.30" />
+		</attachments>
+	</type>
+
+<!-- EVENTS.XML -->
+
+    <event name="VehicleKamaz_Spawn">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="Kamaz"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazFuel"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazFuel_Shell"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazFuel_White"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazFuel_Civ_Orange"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCovered"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCovered_Winter"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCovered_Civ_Orange_Blue"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCovered_Civ_Red"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCovered_Civ_Blue"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCovered_Civ_Yellow"/>
+			<child lootmax="0" lootmin="0" max="4" min="1" type="KamazCargo"/>
+        </children>
+	</event>
+
+<!-- ---------------------------------------------------------------------- -->
+
+<!-- TYPES.XML-->
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+<type name="Kamaz">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazCovered">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazCovered_Winter">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazCovered_Civ_Orange_Blue">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazCovered_Civ_Red">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazCovered_Civ_Blue">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazCovered_Civ_Yellow">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazFuel">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazFuel_Shell">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazFuel_White">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazFuel_Civ_Orange">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazCargo">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="Kamaz_fuelPump">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="Kamaz_Tent">
+    <nominal>0</nominal>
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+</type>
+<type name="KamazDoors_Driver">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Shell">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Fuel_White">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Fuel_Orange">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Civ_Orange">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Civ_Red">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Civ_Blue">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_Driver_Civ_Yellow">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Shell">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Fuel_White">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Fuel_Orange">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Civ_Orange">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Civ_Red">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Civ_Blue">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazDoors_CoDriver_Civ_Yellow">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Shell">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Fuel_White">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Civ_Orange">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Fuel_Orange">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Civ_Red">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Civ_Blue">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazHood_Civ_Yellow">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazTrunk">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazTrunk_Winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazTrunk_Civ_Orange_Blue">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazTrunk_Civ_Green">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazWheel">
+    <nominal>30</nominal>
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="tools"/>
+    <tag name="floor"/>
+    <usage name="Industrial"/>
+</type>
+<type name="KamazWheel_Ruined">
+    <lifetime>1800</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+</type>
+</types>

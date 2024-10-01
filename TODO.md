@@ -18,6 +18,8 @@
 
 ## To Do 
 
+- Figure out which UAZ needs a glow plug instead of a spark plug
+
 15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
 
 15:14:07.751 [CE][LootRespawner] (PRIDummy) :: Item [648] causing search overtime: "DP_CocaSeedsPack"
