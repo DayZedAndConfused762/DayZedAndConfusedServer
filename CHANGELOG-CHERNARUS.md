@@ -12,6 +12,9 @@
 
 ## Contents:
 
+- [10/1/2024](#10/1/2024)
+- [9/28/2024](#9/28/2024)
+- [9/26/2024](#9/26/2024)
 - [9/26/2024](#9/26/2024)
 - [9/25/2024](#9/25/2024)
 - [9/24/2024](#9/24/2024)
@@ -38,15 +41,28 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
-?? possible https://steamcommunity.com/sharedfiles/filedetails/?id=3337907109&searchtext=craft-nails ??
+<!-- ++++++++++++++++++++ 10/1/2024 Start ++++++++++++++++++++ -->
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
-https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
+- Installed Mods:
+  - @BeautifulPotato_BagZ https://steamcommunity.com/sharedfiles/filedetails/?id=3250360572
+  - @Blackouts Scorpion https://steamcommunity.com/sharedfiles/filedetails/?id=2909935986
+  - @[CnG]UAZ_31514 https://steamcommunity.com/sharedfiles/filedetails/?id=3160244059
+  - @GunnerTruckOshkosh https://steamcommunity.com/sharedfiles/filedetails/?id=2512575701
+  - @Kamaz_Truck https://steamcommunity.com/sharedfiles/filedetails/?id=1895398348
+  - @KamazTyphoon-K-63968 (FREE TO USE) https://steamcommunity.com/sharedfiles/filedetails/?id=3324214914
+  - @Sauwercrauds RolePlay Vehicles https://steamcommunity.com/sharedfiles/filedetails/?id=3307126962
+
+<!-- ++++++++++++++++++++ 10/1/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 9/30/2024 Start ++++++++++++++++++++ -->
 
 ## 9/30/2024
 
 - Added UAZ31514 vehicle spawns
 - Added Hanah Hunting Bag
+- Added Kamaz Truck spawns
+
+<!-- ++++++++++++++++++++ 9/30/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 9/28/2024 Start ++++++++++++++++++++ -->
 
