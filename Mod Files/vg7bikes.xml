@@ -1,11 +1,58 @@
+<!-- EVENTS.XML -->
+
+    <event name="VehicleVG7">
+        <nominal>6</nominal>
+        <min>4</min>
+        <max>6</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="vg7_scorpion"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="vg7_scorpion_easyrider"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="vg7_scorpion_scorcher"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="vg7_scorpion_mermaid"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="vg7_scorpion_butterfly"/>
+        </children>
+    </event>
+
+<!--  CFGEVENTSPAWNS.XML -->
+
+	<event name="VehicleVG7" >
+		<pos x="X_Coords" z="Z_Coods" a="Rotation" />	 <!-- Location Name -->
+	</event>
+
+
+<!-- CFGSPAWNABLETYPES.XML -->
+
+vg7_scorpion
+vg7_scorpion_easyrider
+vg7_scorpion_scorcher
+vg7_scorpion_mermaid
+vg7_scorpion_butterfly
+
+	<type name="vg7_scorpion">
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_front" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_wheel_rear" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="vg7_scorpion_radiator" chance="0.60" />
+		</attachments>
+	</type>
 
 
 
 <!-- TYPES.XML -->
-<!--
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<types>
--->
+
     <type name="vg7_scorpion">
         <nominal>0</nominal>
         <lifetime>3888000</lifetime>
@@ -422,7 +469,3 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
-
-<!--
-</types>
--->

@@ -23,59 +23,28 @@
 - Find spawn points for Kamaz Typhoon
 - Find spawn points for Gunnertruck
 - Find spawn points for Scorpion bike
+  - Figure out spawnable types for bike
 - Find spawn points for scvehicles
+  - Figure out hood, trunk, and wheels for taxi
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
 https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
 
 15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
-
 15:14:07.751 [CE][LootRespawner] (PRIDummy) :: Item [648] causing search overtime: "DP_CocaSeedsPack"
-
 15:14:08.251 [CE][LootRespawner] (PRIDummy) :: Item [649] causing search overtime: "Msp_BlunderBat"
-
 15:14:08.351 [CE][LootRespawner] (PRIDummy) :: Item [650] causing search overtime: "Msp_BassAxe"
 
-15:14:08.651 [CE][LootRespawner] (PRIDummy) :: Item [651] causing search overtime: "Msp_CoffinBox"
-
-15:14:34.751 [CE][LootRespawner] (PRIDummy) :: Item [652] causing search overtime: "DP_CocaSeedsPack"
-
-15:14:34.951 [CE][LootRespawner] (PRIDummy) :: Item [653] causing search overtime: "Msp_BlunderBat"
-
-15:14:35.151 [CE][LootRespawner] (PRIDummy) :: Item [654] causing search overtime: "Msp_BassAxe"
-
-15:14:35.452 [CE][LootRespawner] (PRIDummy) :: Item [655] causing search overtime: "Msp_CoffinBox"
-
-15:14:39.452 [CE][Links] found 92 total links between groups, of 174
-
 15:14:39.452 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE, lootmin: 4, lootmax: 8, wanted: 4, deloot: 2, containermaxsum: 4
-
 15:14:39.452 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
 
-15:14:39.455 [CE][Links] found 94 total links between groups, of 175
-
 15:14:39.455 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox3_DE, lootmin: 4, lootmax: 8, wanted: 5, deloot: 2, containermaxsum: 4
-
 15:14:39.455 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox3_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
-
 15:14:39.455 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox3_DE :: !!! Wanting to spawn more loot than possible (5 > 4)
 
-15:14:39.457 [CE][Links] found 94 total links between groups, of 176
-
 15:14:39.457 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox2_DE, lootmin: 4, lootmax: 8, wanted: 7, deloot: 2, containermaxsum: 4
-
 15:14:39.457 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox2_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
-
 15:14:39.457 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox2_DE :: !!! Wanting to spawn more loot than possible (7 > 4)
-
-15:15:01.651 [CE][LootRespawner] (PRIDummy) :: Item [656] causing search overtime: "DP_CocaSeedsPack"
-
-15:15:01.753 !!! [CE][Point] Removing 1115.936646, 14562.958984 from Wreck_SantasSleigh
-
-15:15:01.851 [CE][LootRespawner] (PRIDummy) :: Item [657] causing search overtime: "Msp_BlunderBat"
-
-15:15:02.52 [CE][LootRespawner] (PRIDummy) :: Item [658] causing search overtime: "Msp_BassAxe"
-
 
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
@@ -83,10 +52,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
 - Create list of mods used and post to discord
 - Post server feature list to discord
 
-- DayZ-Expansion-Core: https://steamcommunity.com/workshop/filedetails/?id=2291785308
-- DayZ-Expansion-Chat: https://steamcommunity.com/sharedfiles/filedetails/?id=2792982897
-
-- Add Bunker loot category
 - Add Bunker tags to bunker items in mapgroupprotos
 - Add bunker tags to items that will only spawn in bunker
 
