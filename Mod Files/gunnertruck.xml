@@ -2,12 +2,34 @@
 
 
 
+<!-- EVENTS.XML -->
+
+    <event name="VehicleGunner">
+        <nominal>6</nominal>
+        <min>4</min>
+        <max>6</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruck"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckWhite"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckTan"/>
+        </children>
+    </event>
 
 
+<!--  CFGEVENTSPAWNS.XML -->
 
-
-
-
+	<event name="VehicleGunner" >
+		<pos x="X_Coords" z="Z_Coods" a="Rotation" />	 <!-- Location Name -->
+	</event>
 
 <!-- CFGSPAWNABLETYPES.XML -->
 
