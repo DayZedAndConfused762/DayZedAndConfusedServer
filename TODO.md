@@ -21,6 +21,7 @@
 - Figure out which UAZ needs a glow plug instead of a spark plug
 - Find spawn points for Kamaz trucks
 - Find spawn points for Kamaz Typhoon
+  - Add types.xml, event, cfgspawnable types and cfgeventspawns
 - Find spawn points for Gunnertruck
 - Find spawn points for Scorpion bike
   - Figure out spawnable types for bike
