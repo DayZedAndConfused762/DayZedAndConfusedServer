@@ -26,6 +26,7 @@
   - Figure out spawnable types for bike
 - Find spawn points for scvehicles
   - Figure out hood, trunk, and wheels for taxi
+- Make Spawnable typs for TLH
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
 https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
@@ -49,7 +50,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
 - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
-- Create list of mods used and post to discord
 - Post server feature list to discord
 
 - Add Bunker tags to bunker items in mapgroupprotos
