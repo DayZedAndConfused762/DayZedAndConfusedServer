@@ -49,6 +49,9 @@
 - Added Bunker usage tag
 - Added vehicleparts category tag
 - Removed Police usage tag from Bunker buildings
+- Added vehicle spawns for @Sauwercraugs Roleplay Vehicles:
+  - Taxi
+  - VW Bus
 
 <!-- ++++++++++++++++++++ 10/1/2024 End ++++++++++++++++++++ -->
 
