@@ -53,6 +53,9 @@
     - Added Kamaz Truck spawns
   - @KamazTyphoon-K-63968 (FREE TO USE) https://steamcommunity.com/sharedfiles/filedetails/?id=3324214914
   - @Sauwercrauds RolePlay Vehicles https://steamcommunity.com/sharedfiles/filedetails/?id=3307126962
+- Added Bunker usage tag
+- Added vehicleparts category tag
+- Removed Police usage tag from Bunker buildings
 
 <!-- ++++++++++++++++++++ 10/1/2024 End ++++++++++++++++++++ -->
 
