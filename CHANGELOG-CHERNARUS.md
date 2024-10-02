@@ -44,6 +44,8 @@
 <!-- ++++++++++++++++++++ 10/2/2024 Start ++++++++++++++++++++ -->
 
 - Remove "SandbagRound_Kit" and "Sandbag_Round" due to crash
+- Setup vehicle types and spawnable types for vg7 bikes and gunner truck
+- Added vehiclesparts tags to some industrial and military buildings for vehicle parts spawns
 
 <!-- ++++++++++++++++++++ 10/2/2024 End ++++++++++++++++++++ -->
 
