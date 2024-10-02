@@ -20,8 +20,7 @@
 
 - xam login boogaloos Ballsack
 
-- Setup airdrop loot
-- Setup lootcrate loot
+
 - Fix UAZ31514 spawn: 		    <!-- Pond N of Novy Lug Military -->
 - Figure out which UAZ needs a glow plug instead of a spark plug
 - Find spawn points for Kamaz trucks
@@ -29,10 +28,12 @@
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 - Find spawn points for Gunnertruck
 - Find spawn points for Scorpion bike
-  - Figure out spawnable types for bike
 - Find spawn points for scvehicles
   - Figure out hood, trunk, and wheels for taxi
 - Make Spawnable typs for TLH
+- - Setup airdrop loot
+- Setup airdrop loot
+- Setup lootcrate loot
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
 https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
