@@ -18,7 +18,11 @@
 
 ## To Do 
 
-- Fix UAZ31514 spawn: 		<pos x="10942.977539" "13376.874023" a="-0.224688" />    <!-- Pond N of Novy Lug Military -->
+- xam login boogaloos Ballsack
+
+- Setup airdrop loot
+- Setup lootcrate loot
+- Fix UAZ31514 spawn: 		    <!-- Pond N of Novy Lug Military -->
 - Figure out which UAZ needs a glow plug instead of a spark plug
 - Find spawn points for Kamaz trucks
 - Find spawn points for Kamaz Typhoon
@@ -38,20 +42,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
 15:14:08.251 [CE][LootRespawner] (PRIDummy) :: Item [649] causing search overtime: "Msp_BlunderBat"
 15:14:08.351 [CE][LootRespawner] (PRIDummy) :: Item [650] causing search overtime: "Msp_BassAxe"
 
-15:14:39.452 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE, lootmin: 4, lootmax: 8, wanted: 4, deloot: 2, containermaxsum: 4
-15:14:39.452 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox1_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
 
-15:14:39.455 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox3_DE, lootmin: 4, lootmax: 8, wanted: 5, deloot: 2, containermaxsum: 4
-15:14:39.455 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox3_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
-15:14:39.455 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox3_DE :: !!! Wanting to spawn more loot than possible (5 > 4)
-
-15:14:39.457 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox2_DE, lootmin: 4, lootmax: 8, wanted: 7, deloot: 2, containermaxsum: 4
-15:14:39.457 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox2_DE :: !!! Sum of container LootMax is lower than event child LootMax (4 < 8)
-15:14:39.457 [CE][SpawnRandomLoot] (StaticAirplaneCrate) :: Type: StaticObj_Misc_SupplyBox2_DE :: !!! Wanting to spawn more loot than possible (7 > 4)
-
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
-- CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
 - Post server feature list to discord
 
 - Add Bunker tags to bunker items in mapgroupprotos
@@ -70,8 +61,6 @@ https://cmsminecraftshop.com/en/console/
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Note_StrangeNote' will be ignored. (Type does not exist. (Typo?))
 
 - https://www.reddit.com/r/dayz/comments/142j5kd/pve_mod/
-- Setup airdrop loot
-- Setup lootcrate loot
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
 - https://forums.dayz.com/topic/241019-zombie-hordes-to-my-server/
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
@@ -82,15 +71,12 @@ https://cmsminecraftshop.com/en/console/
 - https://www.youtube.com/watch?v=UEpuAUm0fZ8
 - https://www.youtube.com/watch?v=7_R_2HnDkzk
 - add loot to protective cases
-- spawn and test, remove from types if non functional PoliceBaton CattleProd StunBaton
-- add spawn loadouts to chernarus
+- spawn and test, remove from types if non functional CattleProd StunBaton
   - dayzyourway.com
 - review mods for possible use:
-
-
-
-  - Drunk: https://steamcommunity.com/sharedfiles/filedetails/?id=2842789742
-    - @pr3d3k - In your Profile Folder > Drunkenness > Settings.json, just remove "Vodka" from "Drinks", and leave it only under "Liquids".  It's not a bug, just wrong settings that were supplied with the mod and they will be fixed on next update. Thanks for reporting!
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
+  - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
   - Den Drinks: https://steamcommunity.com/sharedfiles/filedetails/?id=2953370689
   - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
   - Last Resort - Drunkeness: https://steamcommunity.com/sharedfiles/filedetails/?id=2892950955&searchtext=
@@ -109,13 +95,9 @@ https://cmsminecraftshop.com/en/console/
 
   - ItemRarity: https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
 
-  - SimpleAutorun: https://steamcommunity.com/sharedfiles/filedetails/?id=2264162971
-  - SIX-DayZ-Auto-Run: https://steamcommunity.com/sharedfiles/filedetails/?id=1781132597
-
   - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
   - FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
 
-  - CJ187-MoreWeapons: https://steamcommunity.com/sharedfiles/filedetails/?id=1945519331
   - MoreGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
   - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
   - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
@@ -128,9 +110,8 @@ https://cmsminecraftshop.com/en/console/
   - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
   - Basic_Territories_Updated: https://steamcommunity.com/sharedfiles/filedetails/?id=2999534116
 
-  - Spurgles_BagZ: https://steamcommunity.com/sharedfiles/filedetails/?id=2489196158
   - WindstridesClothingPack: https://steamcommunity.com/sharedfiles/filedetails/?id=1797720064
-  - CJ187-MoreItems: https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
+
   - GearPDA: https://steamcommunity.com/sharedfiles/filedetails/?id=2124309453
   - Mass'sManyItemOverhaul: https://steamcommunity.com/sharedfiles/filedetails/?id=1566911166
   - AdditionalMedicSupplies: https://steamcommunity.com/sharedfiles/filedetails/?id=2579252958

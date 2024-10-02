@@ -3944,6 +3944,7 @@
 		<group name="Land_Workshop1" lootmax="5">
 				<usage name="Village" />
 				<usage name="Industrial" />
+				<category name="vehiclesparts" />
 				<container name="lootFloor" lootmax="3">
 						<category name="tools" />
 						<category name="containers" />
@@ -3958,6 +3959,7 @@
 						<point pos="-3.485352 -1.293541 1.622313" range="0.293945" height="0.734863" />
 				</container>
 				<container name="lootshelves" lootmax="3">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -3981,6 +3983,7 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="lootFloor">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -3996,6 +3999,7 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="3">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4008,6 +4012,7 @@
 						<point pos="-1.763177 -1.215591 0.847011" range="1.199951" height="0.284590" />
 				</container>
 				<container name="lootshelves" lootmax="6">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4046,6 +4051,7 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="3">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4083,6 +4089,7 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="3">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4095,6 +4102,7 @@
 						<point pos="-4.086721 -1.224568 -2.859306" range="1.199951" height="1.999999" />
 				</container>
 				<container name="lootshelves" lootmax="3">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4193,6 +4201,7 @@
 		<group name="Land_Garage_Small" lootmax="3">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="3">
+						<category name="vehiclesparts"/>
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4223,6 +4232,7 @@
 		<group name="Land_Garage_Big">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="8">
+						<category name="vehiclesparts"/>
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4251,6 +4261,7 @@
 		<group name="Land_Garage_Row_Small">
 				<usage name="Industrial" />
 				<container name="lootFloor">
+						<category name="vehiclesparts"/>
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4336,6 +4347,7 @@
 		<group name="Land_Garage_Row_Big">
 				<usage name="Industrial" />
 				<container name="lootFloor">
+						<category name="vehiclesparts"/>
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4412,6 +4424,7 @@
 				<usage name="Town" />
 				<usage name="Village" />
 				<container name="lootFloor">
+						<category name="vehiclesparts"/>
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -4657,6 +4670,7 @@
 		<group name="Land_Sawmill_Building">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="10">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -5408,6 +5422,7 @@
 		<group name="Land_Repair_Center" lootmax="4">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="3">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -5418,6 +5433,7 @@
 						<point pos="3.214174 -1.567656 -0.204371" range="0.581250" height="1.452019" />
 				</container>
 				<container name="lootshelves">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -5873,6 +5889,7 @@
 		<group name="Land_Construction_Building" lootmax="24">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="15">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -7702,6 +7719,7 @@
 		<group name="Land_Tisy_Garages" lootmax="8">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="8">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -7754,6 +7772,7 @@
 		<group name="Land_Tisy_Garages2">
 				<usage name="Military" />
 				<container name="lootFloor">
+						<category name="vehiclesparts" />
 						<category name="clothes" />
 						<tag name="floor" />
 						<tag name="ground" />
@@ -7959,6 +7978,7 @@
 		<group name="Land_Tisy_RadarPlatform_Top" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="5">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8289,6 +8309,7 @@
 		<group name="Land_Mil_ATC_Small">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="3">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<tag name="floor" />
@@ -8304,6 +8325,7 @@
 						<point pos="1.608788 -1.081186 -5.027884" range="1.199951" height="2.000000" />
 				</container>
 				<container name="lootshelves" lootmax="2">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8327,6 +8349,7 @@
 		<group name="Land_Mil_ATC_Big" lootmax="20">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="15">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<tag name="floor" />
@@ -8382,6 +8405,7 @@
 						<point pos="-10.883057 -14.839828 3.969238" range="1.199951" height="2.000000" />
 				</container>
 				<container name="lootshelves" lootmax="15">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8510,6 +8534,7 @@
 		<group name="Land_Mil_Airfield_HQ" lootmax="20">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="10">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -9129,6 +9154,7 @@
 				<usage name="Village" />
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="10">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -9184,6 +9210,7 @@
 		<group name="Land_Airfield_Hangar_Green">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="6">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -9223,6 +9250,7 @@
 		<group name="Land_Airfield_ServiceHangar_L">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="6">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -9376,6 +9404,7 @@
 		<group name="Land_Airfield_ServiceHangar_R">
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="6">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -10232,6 +10261,7 @@
 				<usage name="Military" />
 				<usage name="Firefighter" />
 				<container name="lootFloor" lootmax="10">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -10273,6 +10303,7 @@
 						<point pos="4.818360 0.037231 -6.767090" range="1.199951" height="2.000000" />
 				</container>
 				<container name="lootshelves" lootmax="12">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -12261,6 +12292,7 @@
 		<group name="Land_Container_1Mo" lootmax="1">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="1">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -12277,6 +12309,7 @@
 		<group name="Land_Container_1Moh" lootmax="1">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="1">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13394,6 +13427,7 @@
 		<group name="Land_Bunker1_Double"  lootmax="3">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13428,6 +13462,7 @@
 		<group name="Land_Bunker1_Left" lootmax="3">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="1">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13455,6 +13490,7 @@
 		<group name="Land_Bunker1_Right" lootmax="3">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13486,6 +13522,7 @@
 		<group name="Land_Bunker2_Double" lootmax="3">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13520,6 +13557,7 @@
 		<group name="Land_Bunker2_Left" lootmax="3">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13550,6 +13588,7 @@
 		<group name="Land_Bunker2_Right" lootmax="3">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="2">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13558,6 +13597,7 @@
 						<point pos="0.010865 -0.975271 0.943604" range="0.526624" height="1.978497" />
 				</container>
 				<container name="lootshelves" lootmax="2">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -13988,6 +14028,7 @@
 		<group name="Land_Barn_Metal_Big_Grey" >
 				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="6">
+						<category name="vehiclesparts" />
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -14121,6 +14162,7 @@
 		<group name="Land_Garage_Tall" lootmax="3">
 				<usage name="Industrial" />
 				<container name="lootFloor" >
+						<category name="vehiclesparts"/>
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
