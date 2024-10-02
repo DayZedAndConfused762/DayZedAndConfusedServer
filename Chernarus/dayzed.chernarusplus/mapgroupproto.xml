@@ -16544,7 +16544,7 @@
 		</group>
 		<group name="Land_wreck_truck01_aban1_firetruck_DE">
 				<usage name="Firefighter" />
-				<container name="loot" lootmax="2">
+				<container name="loot" lootmax="4">
 						<category name="tools" />
 						<category name="clothes" />
 						<category name="weapons" />
@@ -18143,7 +18143,7 @@
 				<usage name="Military" />
 				<usage name="Village" />
 				<usage name="Town" />
-				<container name="lootFloor">
+				<container name="lootFloor" lootmax="8">
 						<category name="food" />
 						<tag name="floor" />
 						<tag name="ground" />
@@ -18162,7 +18162,7 @@
 		</group>
 		<group name="StaticObj_Misc_SupplyBox2_DE" lootmax="8">
 				<usage name="Military" />
-				<container name="lootFloor">
+				<container name="lootFloor" lootmax="8">
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="ground" />
@@ -18181,7 +18181,7 @@
 		</group>
 		<group name="StaticObj_Misc_SupplyBox3_DE" lootmax="8">
 				<usage name="Medic" />
-				<container name="lootFloor">
+				<container name="lootFloor" lootmax="8">
 						<category name="clothes" />
 						<category name="tools" />
 						<tag name="floor" />
@@ -18677,9 +18677,9 @@
 
 <!-- C130J Crash Start -->
 
-    <group name="Land_TRD_Wreck_C130J" lootmax="10">
+    <group name="Land_TRD_Wreck_C130J" lootmax="9">
         <usage name="Military" />
-        <container name="lootFloor">
+        <container name="lootFloor" lootmax="4">
                 <category name="clothes" />
                 <tag name="floor" />
                 <tag name="ground" />
@@ -18690,7 +18690,7 @@
                 <point pos="-0.895264 -4.513454 -0.673584" range="0.768188" height="1.920471" />
                 <point pos="2.066528 -4.492989 -0.310181" range="0.925000" height="2.000000" />
         </container>
-        <container name="loot">
+        <container name="loot" lootmax="5">
                 <category name="weapons" />
                 <tag name="floor" />
                 <tag name="ground" />
@@ -18712,9 +18712,9 @@
 
 <!-- Drug Car Start -->
 
-	<group name="Land_Wreck_S1023_Beige" lootmax="9">
+	<group name="Land_Wreck_S1023_Beige" lootmax="8">
                 <usage name="Drugcar"/>	
-				<container name="lootshelves">
+				<container name="loot" lootmax="8">  <!-- <container name="lootshelves"> -->
 						<point pos="-1.350670 -0.165202 -0.306449" range="0.203125" height="0.507332" />
 						<point pos="0.544436 -0.529111 -0.225987" range="0.280310" height="0.700775" />
 						<point pos="0.659984 -0.542758 0.366683" range="0.321777" height="0.804442" />
