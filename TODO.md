@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- Fix UAZ31514 spawn: 		<pos x="10942.977539" "13376.874023" a="-0.224688" />    <!-- Pond N of Novy Lug Military -->
 - Figure out which UAZ needs a glow plug instead of a spark plug
 - Find spawn points for Kamaz trucks
 - Find spawn points for Kamaz Typhoon
