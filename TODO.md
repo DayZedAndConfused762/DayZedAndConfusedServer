@@ -20,7 +20,7 @@
 
 - xam login boogaloos Ballsack
 
-
+- Create types file for air drop upgraded airdrop flares
 - Fix UAZ31514 spawn: 		    <!-- Pond N of Novy Lug Military -->
 - Figure out which UAZ needs a glow plug instead of a spark plug
 - Find spawn points for Kamaz trucks
