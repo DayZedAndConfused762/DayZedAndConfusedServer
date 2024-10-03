@@ -189,7 +189,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Greenhouse_Kit">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -207,7 +207,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Greenhouse_Vanilla_Kit">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -225,7 +225,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Greenhouse_White_Kit">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -325,7 +325,7 @@
         <usage name="Military"/>
     </type>
     <type name="Msp_MedievalChest">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -338,7 +338,7 @@
         <usage name="Historical"/>
     </type>
     <type name="Msp_PlasticCrate">
-        <nominal>5</nominal>
+        <nominal>7</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -365,7 +365,7 @@
         <usage name="Military"/>
     </type>
     <type name="Msp_TreasureChest">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -421,7 +421,7 @@
         <usage name="Village"/>
     </type>
     <type name="Msp_Mailbox">
-        <nominal>3</nominal>
+        <nominal>7</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -642,7 +642,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_StoneFireplace_Kit">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -660,7 +660,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Stove_Kit">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -771,7 +771,7 @@
     </type>
     <!-- Kits Storage -->
     <type name="Msp_Mannequin_Kit">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -900,10 +900,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_MilitaryLocker_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -917,10 +917,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_StorageBox_Kit">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -989,10 +989,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_Locker_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1007,10 +1007,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1025,10 +1025,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_Black_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1042,10 +1042,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_White_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1060,10 +1060,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_Green_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1077,10 +1077,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_Red_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1094,10 +1094,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_RedRusty_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1112,10 +1112,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_Yellow_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1130,10 +1130,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_SoloLocker_YellowRusty_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1183,10 +1183,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_FourDoor_MilitaryLocker_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1200,10 +1200,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_FourDoor_MilitaryLocker_Green_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1220,24 +1220,25 @@
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="tools" />
         <tag name="floor" />
-        <usage name="Military"/>
+        <usage name="Town" />
+        <usage name="Village" />
     </type>
     <type name="Msp_WoodenGunRack">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_RifleSafe_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1252,10 +1253,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_RifleSafe_Grey_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1270,10 +1271,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_RifleSafe_Green_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1287,10 +1288,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_RifleSafe_Purple_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1305,10 +1306,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="Msp_RifleSafe_Tan_Kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1394,7 +1395,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
     <type name="WG_AdventurerTent_Kit">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -1469,7 +1470,7 @@
         <usage name="Farm" />
     </type>
     <type name="Msp_WaterBarrel_Plastic_Yellow">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -1497,7 +1498,7 @@
         <usage name="Farm" />
     </type>
     <type name="Msp_WaterBarrel_Plastic_Red">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -1511,10 +1512,10 @@
         <usage name="Farm" />
     </type>
     <type name="Msp_WaterBarrel_Plastic_Black">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1525,7 +1526,7 @@
         <usage name="Farm" />
     </type>
     <type name="Msp_WaterBarrel_Plastic_White">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -1780,6 +1781,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military" />
+        <value name="Tier2" />
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
@@ -1808,6 +1810,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military" />
+        <value name="Tier2" />
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
@@ -1822,6 +1825,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military" />
+        <value name="Tier2" />
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
@@ -2137,7 +2141,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     </type>
     <type name="Msp_Shelf_Kit">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -2419,7 +2423,6 @@
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
     </type>
-
     <type name="Msp_PolarBear">
         <nominal>3</nominal>
         <lifetime>14400</lifetime>

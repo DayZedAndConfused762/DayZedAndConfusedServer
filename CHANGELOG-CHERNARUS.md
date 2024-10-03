@@ -48,6 +48,9 @@
 ## 10/3/2024
 
 - Update air drop settings
+- Lower spawns for MSP and MMG lockers
+- Increased spawns for some MSP and MMG containers
+- Lowered spawns of MREs
 
 <!-- ++++++++++++++++++++ 10/3/2024 End ++++++++++++++++++++ -->
 

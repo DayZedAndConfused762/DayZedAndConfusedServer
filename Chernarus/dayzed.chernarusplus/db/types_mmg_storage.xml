@@ -103,7 +103,7 @@
         <usage name="Military"/>
     </type>
     <type name="mmg_supply_crate_wood">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -117,7 +117,7 @@
         <usage name="Farm"/>
     </type>
     <type name="mmg_supply_crate_grey">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -131,10 +131,10 @@
         <usage name="Farm"/>
     </type>
 	<type name="mmg_equipment_locker_green_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -149,10 +149,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_equipment_locker_black_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -167,10 +167,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_equipment_locker_grey_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -185,10 +185,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="mmg_armored_cabinet_grey">
-        <nominal>2</nominal>
-        <lifetime>864000</lifetime>
+        <nominal>1</nominal>
+        <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -200,7 +200,7 @@
     </type>
     <type name="mmg_armored_cabinet_green">
         <nominal>2</nominal>
-        <lifetime>864000</lifetime>
+        <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -213,8 +213,8 @@
         <usage name="Military"/>
     </type>
     <type name="mmg_armored_cabinet_rusty">
-        <nominal>2</nominal>
-        <lifetime>864000</lifetime>
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
@@ -227,10 +227,10 @@
         <usage name="Military"/>
     </type>
 	<type name="mmg_locker02_blue_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -244,10 +244,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_locker02_green_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -261,10 +261,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_locker02_tan_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -278,7 +278,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="mmg_old_safe_green">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -294,7 +294,7 @@
         <usage name="Village"/>
     </type>
     <type name="mmg_old_safe_grey">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -460,6 +460,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
+        <usage name="Military"/>
         <usage name="Medic"/>
     </type>
     <type name="mmg_army_box_medic_grey">
@@ -473,10 +474,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <tag name="floor"/>
+        <usage name="Military"/>
         <usage name="Medic"/>
     </type>
     <type name="mmg_military_case_green">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -489,7 +491,7 @@
         <usage name="Military"/>
     </type>
     <type name="mmg_weapon_crate_wood">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -504,7 +506,7 @@
 		<usage name="Farm"/>
     </type>
 	<type name="mmg_palette_storage_kit">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -518,10 +520,10 @@
         <usage name="Farm"/>
     </type>
     <type name="mmg_palette_storage">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -615,10 +617,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="mmg_gear_stand">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>864000</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -663,7 +665,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_old_table">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -678,7 +680,7 @@
         <usage name="Farm"/>
     </type>
 	<type name="mmg_wall_shelf_wood">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>864000</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -692,10 +694,10 @@
         <usage name="Farm"/>
     </type>
 	<type name="mmg_solo_locker_yellow_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -710,10 +712,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_craftable_tent_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -730,10 +732,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_solo_locker_blue_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -747,10 +749,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_solo_locker_red_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -764,10 +766,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_solo_locker_grey_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -782,10 +784,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_solo_locker_purple_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -800,10 +802,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_solo_locker_green_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -817,10 +819,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="mmg_solo_locker_medic_kit">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
