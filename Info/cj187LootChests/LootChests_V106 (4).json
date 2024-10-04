@@ -1,4 +1,4 @@
-{
+﻿{
   "EnableDebug": 0,
   "DeleteLogs": 1,
   "MaxSpareMags": 1,
@@ -486,8 +486,8 @@
       "light": 0,
       "loot": [
         "LC_Table_Weapons_tier4",
-        "LC_Table_Ammo_have",
-        "LC_Table_Magazines_have",
+        "LC_Table_Ammo_high",
+        "LC_Table_Magazines_high",
         "LC_Table_Attachments",
         "LC_Table_tools",
         "LC_Table_foodandmedical",
@@ -499,7 +499,7 @@
         "LC_Table_helmet",
         "LC_Table_NBC",
         "LC_Table_raid_low",
-        "LC_Table_raid_have"
+        "LC_Table_raid_high"
       ]
     },
     {
@@ -526,7 +526,7 @@
         "LC_Table_helmet",
         "LC_Table_NBC",
         "LC_Table_raid_low",
-        "LC_Table_raid_have"
+        "LC_Table_raid_high"
       ]
     },
     {
@@ -553,7 +553,7 @@
         "LC_Table_helmet",
         "LC_Table_NBC",
         "LC_Table_raid_low",
-        "LC_Table_raid_have"
+        "LC_Table_raid_high"
       ]
     },
     {
@@ -580,7 +580,7 @@
         "LC_Table_helmet",
         "LC_Table_NBC",
         "LC_Table_raid_low",
-        "LC_Table_raid_have"
+        "LC_Table_raid_high"
       ]
     },
     {
@@ -786,80 +786,172 @@
   "LCPredefinedWeapons": [
     {
       "defname": "LC_predefined_AK101",
+      "weapon": "AK101",
+      "magazine": "Mag_AK101_30Rnd",
+      "attachments": ["AK_FoldingBttstck", "AK_RailHndgrd", "UniversalLight"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK101_Green",
       "weapon": "AK101_Green",
       "magazine": "Mag_AK101_30Rnd_Green",
       "attachments": [
-        "AK_FoldingBttstck_Green",
-        "AK_RailHndgrd_Green",
-        "UniversalLight",
-        "AK_Suppressor"
-      ],
-      "optic": "PSO1Optic",
-      "opticbattery": 1
+        "AK_FoldingBttstck_Green", "AK_RailHndgrd_Green", "UniversalLight"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK101_Black",
+      "weapon": "AK101_Black",
+      "magazine": "Mag_AK101_30Rnd_Black",
+      "attachments": [
+        "AK_FoldingBttstck_Green", "AK_RailHndgrd_Green", "UniversalLight"],
+      "optic": "",
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_AK74",
-      "weapon": "AK74_Black",
+      "weapon": "AK74",
       "magazine": "Mag_AK74_30Rnd",
-      "attachments": ["AK74_WoodBttstck", "AK74_Hndgrd", "AK_Bayonet"],
-      "optic": "KobraOptic",
-      "opticbattery": 1
+      "attachments": ["AK_FoldingBttstck", "AK74_Hndgrd"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK74_Green",
+      "weapon": "AK74_Green",
+      "magazine": "Mag_AK74_30Rnd_Green",
+      "attachments": ["AK_FoldingBttstck_Green", "AK74_Hndgrd_Camo"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK74_Black",
+      "weapon": "AK74_Black",
+      "magazine": "Mag_AK74_30Rnd_Black",
+      "attachments": ["AK_FoldingBttstck_Black", "AK74_Hndgrd_Black"],
+      "optic": "",
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_AKM",
-      "weapon": "AKM_Black",
-      "magazine": "Mag_AKM_Drum75Rnd_Black",
+      "weapon": "AKM",
+      "magazine": "Mag_AKM_Palm30Rnd",
       "attachments": [
         "AK_PlasticBttstck_Black",
         "AK_PlasticHndgrd",
-        "AK_Suppressor"
       ],
-      "optic": "PSO1Optic",
-      "opticbattery": 1
+      "optic": "",
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_AKS74U",
       "weapon": "AKS74U",
       "magazine": "Mag_AK74_30Rnd",
-      "attachments": ["AK_WoodBttstck", "AK_Suppressor"],
+      "attachments": ["AK_PlasticBttstck"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AKS74U_Black",
+      "weapon": "AKS74U_Black",
+      "magazine": "Mag_AK74_30Rnd_Black",
+      "attachments": ["AK_PlasticBttstck_Black"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AKS74U_Green",
+      "weapon": "AKS74U_Green",
+      "magazine": "Mag_AK74_30Rnd_Gren",
+      "attachments": ["AK_PlasticBttstck_Green"],
       "optic": "",
       "opticbattery": 0
     },
     {
       "defname": "LC_predefined_CZ527",
+      "weapon": "CZ527",
+      "magazine": "Mag_CZ527_5rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ527_Black",
       "weapon": "CZ527_Black",
       "magazine": "Mag_CZ527_5rnd",
       "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ527_Camo",
+      "weapon": "CZ527_Camo",
+      "magazine": "Mag_CZ527_5rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ527_Green",
+      "weapon": "CZ527_Green",
+      "magazine": "Mag_CZ527_5rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_M4A1",
+      "weapon": "M4A1",
+      "magazine": "Mag_CMAG_30Rnd",
+      "attachments": [
+        "M4_MPHndgrd",
+        "M4_OEBttstck"
+      ],
+      "optic": "M4_CarryHandleOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_M4A1_Black",
+      "weapon": "M4A1_Black",
+      "magazine": "Mag_CMAG_30Rnd_Black",
+      "attachments": [
+        "M4_MPHndgrd_Black",
+        "M4_OEBttstck_Black"
+      ],
+      "optic": "M4_CarryHandleOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_M4A1_Green",
+      "weapon": "M4A1_Green",
+      "magazine": "Mag_CMAG_30Rnd_Green",
+      "attachments": [
+        "M4_MPHndgrd_Green",
+        "M4_OEBttstck_Green"
+      ],
+      "optic": "M4_CarryHandleOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_WINCHESTER70",
+      "weapon": "Winchester70",
+      "magazine": "",
+      "attachments": ["ImprovisedSuppressor"],
       "optic": "HuntingOptic",
       "opticbattery": 0
     },
     {
-      "defname": "LC_predefined_M4A1_GREEN",
-      "weapon": "M4A1_Green",
-      "magazine": "Mag_STANAG_30Rnd",
-      "attachments": [
-        "M4_Suppressor",
-        "M4_MPHndgrd_Green",
-        "M4_OEBttstck_Green"
-      ],
-      "optic": "M68Optic",
-      "opticbattery": 1
+      "defname": "LC_predefined_WINCHESTER70_Black",
+      "weapon": "Winchester70",
+      "magazine": "",
+      "attachments": ["ImprovisedSuppressor"],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
     },
     {
-      "defname": "LC_predefined_M4A1_BLACK",
-      "weapon": "M4A1_Black",
-      "magazine": "Mag_STANAG_30Rnd",
-      "attachments": [
-        "M4_Suppressor",
-        "M4_RISHndgrd_Black",
-        "M4_MPBttstck_Black",
-        "UniversalLight"
-      ],
-      "optic": "M4_T3NRDSOptic",
-      "opticbattery": 1
-    },
-    {
-      "defname": "LC_predefined_WINCHESTER70",
+      "defname": "LC_predefined_WINCHESTER70_Green",
       "weapon": "Winchester70",
       "magazine": "",
       "attachments": ["ImprovisedSuppressor"],
@@ -872,21 +964,21 @@
       "magazine": "Mag_SVD_10Rnd",
       "attachments": [""],
       "optic": "KashtanOptic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_UMP",
       "weapon": "UMP45",
       "magazine": "Mag_UMP_25Rnd",
-      "attachments": ["PistolSuppressor"],
+      "attachments": [""],
       "optic": "ReflexOptic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_CZ61",
       "weapon": "CZ61",
       "magazine": "Mag_CZ61_20Rnd",
-      "attachments": ["PistolSuppressor"],
+      "attachments": [""],
       "optic": "",
       "opticbattery": 0
     },
@@ -894,7 +986,31 @@
       "defname": "LC_predefined_MOSIN",
       "weapon": "Mosin9130",
       "magazine": "",
-      "attachments": ["ImprovisedSuppressor"],
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MOSIN_Black",
+      "weapon": "Mosin9130_Black",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MOSIN_Camo",
+      "weapon": "Mosin9130_Camo",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MOSIN_Green",
+      "weapon": "Mosin9130_Green",
+      "magazine": "",
+      "attachments": [""],
       "optic": "PUScopeOptic",
       "opticbattery": 0
     },
@@ -907,12 +1023,28 @@
       "opticbattery": 0
     },
     {
+      "defname": "LC_predefined_SKS_Black",
+      "weapon": "SKS_Black",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_SKS_Green",
+      "weapon": "SKS_Green",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
       "defname": "LC_predefined_Saiga",
       "weapon": "Saiga",
       "magazine": "Mag_Saiga_Drum20Rnd",
       "attachments": ["Saiga_Bttstck"],
       "optic": "KobraOptic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_VSS",
@@ -920,27 +1052,27 @@
       "magazine": "Mag_VSS_10Rnd",
       "attachments": [""],
       "optic": "PSO11Optic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_GLOCK19",
       "weapon": "Glock19",
       "magazine": "Mag_Glock_15Rnd",
-      "attachments": ["TLRLight", "PistolSuppressor"],
+      "attachments": ["TLRLight"],
       "optic": "FNP45_MRDSOptic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_CZ75",
       "weapon": "CZ75",
       "magazine": "Mag_CZ75_15Rnd",
-      "attachments": ["TLRLight", "PistolSuppressor"],
+      "attachments": ["TLRLight"],
       "optic": "FNP45_MRDSOptic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_Deagle",
-      "weapon": "Deagle_Gold",
+      "weapon": "Deagle",
       "magazine": "Mag_Deagle_9rnd",
       "attachments": [""],
       "optic": "PistolOptic",
@@ -960,7 +1092,7 @@
       "magazine": "Mag_FNX45_15Rnd",
       "attachments": ["PistolSuppressor"],
       "optic": "FNP45_MRDSOptic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_FAL",
@@ -968,7 +1100,7 @@
       "magazine": "Mag_FAL_20Rnd",
       "attachments": ["Fal_OeBttstck"],
       "optic": "ACOGOptic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_MP5",
@@ -977,14 +1109,30 @@
       "attachments": [
         "MP5k_StockBttstck",
         "MP5_PlasticHndgrd",
-        "PistolSuppressor"
+        "MP5_Compensator"
       ],
       "optic": "M68Optic",
-      "opticbattery": 1
+      "opticbattery": 0
     },
     {
       "defname": "LC_predefined_B95",
       "weapon": "B95",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_B95_Black",
+      "weapon": "B95_Black",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_B95_Green",
+      "weapon": "B95_Green",
       "magazine": "",
       "attachments": [""],
       "optic": "HuntingOptic",
@@ -1004,14 +1152,6 @@
       "magazine": "Mag_VAL_20Rnd",
       "attachments": [""],
       "optic": "ReflexOptic",
-      "opticbattery": 1
-    },
-    {
-      "defname": "LC_predefined_TTCR700",
-      "weapon": "TTC_R700",
-      "magazine": "",
-      "attachments": [""],
-      "optic": "HuntingOptic",
       "opticbattery": 0
     },
     {
@@ -1019,15 +1159,39 @@
       "weapon": "M14",
       "magazine": "Mag_M14_10Rnd",
       "attachments": [""],
-      "optic": "VTR_bravo4",
-      "opticbattery": 1
+      "optic": "ACOGOptic",
+      "opticbattery": 0
     },
     {
-      "defname": "LC_predefined_clothing01",
-      "weapon": "TacticalShirt_Olive",
-      "magazine": "Balaclava_Olive",
-      "attachments": ["CargoPants_Green"],
-      "optic": "WoodGloves_Green",
+      "defname": "LC_predefined_AR15",
+      "weapon": "AR15",
+      "magazine": "Mag_CMAG_30Rnd_Black",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Black"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AR15_9mm_Atacs_AU",
+      "weapon": "AR15_9mm_Black",
+      "magazine": "Mag_Glock_30Rnd",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Atacs_AU"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AR15_9mm_Atacs_FG",
+      "weapon": "",
+      "magazine": "Mag_Glock_30Rnd",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Atacs_FG"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AR15_9mm_Atacs_IX",
+      "weapon": "",
+      "magazine": "Mag_Glock_30Rnd",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Atacs_IX"],
+      "optic": "",
       "opticbattery": 0
     }
   ],
@@ -1042,42 +1206,63 @@
         "LC_predefined_FNX45",
         "LC_predefined_UMP",
         "LC_predefined_CZ61",
-        "LC_predefined_MP5"
+        "LC_predefined_MP5",
+	"LC_predefined_AR15"
       ]
     },
     {
       "name": "LC_Table_Weapons_tier2",
       "Loot": [
         "LC_predefined_SKS",
+        "LC_predefined_SKS_Black",
+        "LC_predefined_SKS_Green",
         "LC_predefined_CZ527",
         "LC_predefined_AKS74U",
+        "LC_predefined_AKS74U_Black",
+        "LC_predefined_AKS74U_Green",
         "LC_predefined_UMP",
-        "LC_predefined_MP5"
+        "LC_predefined_MP5",
+	"LC_predefined_AR15",
+	"LC_predefined_AR15_9mm_Atacs_AU",
+	"LC_predefined_AR15_9mm_Atacs_FG",
+	"LC_predefined_AR15_9mm_Atacs_IX"
       ]
     },
     {
       "name": "LC_Table_Weapons_tier3",
       "Loot": [
         "LC_predefined_SKS",
-        "LC_predefined_AKS74U",
+        "LC_predefined_SKS_Black",
+        "LC_predefined_SKS_Green",
+        "LC_predefined_AK74",
+        "LC_predefined_AK74_Black",
+        "LC_predefined_AK74_Green",
         "LC_predefined_VSS",
         "LC_predefined_Saiga",
         "LC_predefined_MOSIN",
-        "LC_predefined_AK74",
+        "LC_predefined_MOSIN_Black",
+        "LC_predefined_MOSIN_Camo",
+        "LC_predefined_MOSIN_Green",
         "LC_predefined_B95",
+        "LC_predefined_B95_Black",
+        "LC_predefined_B95_Green",
         "LC_predefined_CZ550",
-        "LC_predefined_TTCR700",
         "LC_predefined_ASVAL",
-        "LC_predefined_WINCHESTER70"
+        "LC_predefined_WINCHESTER70",
+        "LC_predefined_WINCHESTER70_Black",
+        "LC_predefined_WINCHESTER70_Green"
       ]
     },
     {
       "name": "LC_Table_Weapons_tier4",
       "Loot": [
-        "LC_predefined_M4A1_BLACK",
-        "LC_predefined_M4A1_GREEN",
+        "LC_predefined_M4A1",
+        "LC_predefined_M4A1_Black",
+        "LC_predefined_M4A1_Green",
         "LC_predefined_AKM",
         "LC_predefined_AK101",
+        "LC_predefined_AK101_Black",
+        "LC_predefined_AK101_Green",
         "LC_predefined_SVD",
         "LC_predefined_M14",
         "LC_predefined_FAL"
@@ -1122,10 +1307,11 @@
         "M18SmokeGrenade_White",
         "FlashGrenade",
         "AmmoBox_545x39_20Rnd",
+        "AmmoBox_545x39Tracer_20Rnd",
         "AmmoBox_556x45_20Rnd",
+        "AmmoBox_556x45Tracer_20Rnd",
         "AmmoBox_762x39_20Rnd",
         "AmmoBox_762x39Tracer_20Rnd",
-        "AmmoBox_556x45Tracer_20Rnd",
         "AmmoBox_9x39_20Rnd",
         "M18SmokeGrenade_Red",
         "M18SmokeGrenade_Green",
@@ -1134,7 +1320,7 @@
       ]
     },
     {
-      "name": "LC_Table_Ammo_have",
+      "name": "LC_Table_Ammo_high",
       "Loot": [
         "AmmoBox_556x45_20Rnd",
         "AmmoBox_556x45Tracer_20Rnd",
@@ -1155,8 +1341,7 @@
         "M67Grenade",
         "Ammo_40mm_Explosive",
         "Ammo_40mm_Chemgas",
-        "LandMineTrap",
-        "TTC_AmmoBox_338mm_10Rdn"
+        "LandMineTrap"
       ]
     },
     {
@@ -1173,7 +1358,10 @@
         "Mag_Deagle_9rnd",
         "Mag_UMP_25Rnd",
         "Mag_MP5_15Rnd",
-        "Mag_MP5_30Rnd"
+        "Mag_MP5_30Rnd",
+        "Mag_CMAG_10Rnd",
+        "Mag_CMAG_10Rnd_Green",
+        "Mag_CMAG_10Rnd_Black"
       ]
     },
     {
@@ -1182,16 +1370,16 @@
         "Mag_Saiga_5Rnd",
         "Mag_Saiga_8Rnd",
         "Mag_AK74_30Rnd",
-        "Mag_AK74_30Rnd_black",
-        "Mag_AK74_30Rnd_green",
+        "Mag_AK74_30Rnd_Black",
+        "Mag_AK74_30Rnd_Green",
         "Mag_CZ527_5rnd",
         "Mag_STANAG_30Rnd",
         "Mag_VSS_10Rnd",
         "Mag_VAL_20Rnd",
         "Mag_Vikhr_30Rnd",
         "Mag_AK101_30Rnd",
-        "Mag_AK101_30Rnd_black",
-        "Mag_AK101_30Rnd_green",
+        "Mag_AK101_30Rnd_Black",
+        "Mag_AK101_30Rnd_Green",
         "Mag_AKM_Palm30Rnd_Green",
         "Mag_AKM_Palm30Rnd_Black",
         "Mag_AKM_Palm30Rnd",
@@ -1200,20 +1388,21 @@
         "Mag_CZ550_10rnd",
         "Mag_M14_10Rnd",
         "Mag_CMAG_30Rnd",
-        "Mag_CMAG_40Rnd"
+        "Mag_CMAG_30Rnd_Black",
+        "Mag_CMAG_30Rnd_Green",
+        "Mag_CMAG_40Rnd",
+        "Mag_CMAG_40Rnd_Black",
+        "Mag_CMAG_40Rnd_Green"
       ]
     },
     {
-      "name": "LC_Table_Magazines_have",
+      "name": "LC_Table_Magazines_high",
       "Loot": [
-        "Mag_STANAGCoupled_30Rnd",
         "Mag_FAL_20Rnd",
         "Mag_SVD_10Rnd",
         "Mag_AKM_Drum75Rnd_Black",
         "Mag_AKM_Drum75Rnd_Green",
         "Mag_STANAG_60Rnd",
-        "TTC_M24mag_5Rdn",
-        "TTC_AWM_Magazine_5rdn",
         "Mag_M14_20Rnd"
       ]
     },
@@ -1271,11 +1460,6 @@
         "KashtanOptic",
         "ACOGOptic",
         "Mosin_Compensator",
-        "VTR_Leupold_mark4_scope",
-        "VTR_fx2_scope",
-        "VTR_Barska",
-        "VTR_bravo4",
-        "VTR_accupoint_Trijicon"
       ]
     },
     {
@@ -1284,17 +1468,12 @@
     },
     {
       "name": "LC_Table_raid_low",
-      "Loot": ["HDSN_Detonator", "HDSN_Sulfur", "HDSN_Charcoal"]
+      "Loot": ["Sledgehammer", "Hacksaw", "FirefighterAxe", "WoodAxe", "Crowbar", "Hammer", "Hatchet"]
     },
     {
-      "name": "LC_Table_raid_have",
+      "name": "LC_Table_raid_high",
       "Loot": [
         "mmg_raidsaw",
-        "HDSN_C4Stick",
-        "HDSN_Detonator",
-        "HDSN_Sulfur",
-        "HDSN_Charcoal",
-        "PersonalRadio",
         "mmg_raid_driver"
       ]
     },
@@ -1395,24 +1574,20 @@
         "CJ_Key11",
         "CJ_Key102",
         "CJ_Key101",
-        "CJ_Key12",
-        "Primos_CardT1",
-        "Primos_CardT3",
-        "Primos_CardT3",
-        "Primos_CardT4"
+        "CJ_Key12"
       ]
     },
     {
       "name": "LC_Table_mmgstorage",
       "Loot": [
-        "mmg_equipment_locker_green_kit",
-        "mmg_equipment_locker_black_kit",
+        "mmg_equipment_locker_Green_kit",
+        "mmg_equipment_locker_Black_kit",
         "mmg_equipment_locker_grey_kit",
         "mmg_locker02_blue_kit",
-        "mmg_locker02_green_kit",
+        "mmg_locker02_Green_kit",
         "mmg_locker02_tan_kit",
         "mmg_gun_rack_kit_blue",
-        "mmg_gun_rack_kit_green",
+        "mmg_gun_rack_kit_Green",
         "mmg_gun_rack_kit_tan",
         "mmg_lockable_gun_rack_kit_grey",
         "mmg_gun_wall_kit_wooden",
@@ -1423,7 +1598,7 @@
         "mmg_solo_locker_red_kit",
         "mmg_solo_locker_grey_kit",
         "mmg_solo_locker_purple_kit",
-        "mmg_solo_locker_green_kit",
+        "mmg_solo_locker_Green_kit",
         "mmg_solo_locker_medic_kit"
       ]
     },
@@ -1439,9 +1614,10 @@
     {
       "name": "LC_Table_vest_low",
       "Loot": [
-        "Defender_Vest_Classic",
-        "Defender_Vest_Green",
-        "Defender_Vest_Black"
+        "PlateCarrierVest",
+        "PlateCarrierVest_Black",
+        "PlateCarrierVest_Green",
+        "PlateCarrierVest_Camo"
       ]
     },
     {
