@@ -1,58 +1,460 @@
-    "LootCategories": [
-        {
-            "name": "LC_Table_Weapons_1",
-            "Loot": [
-                "Glock19",
-                "Colt1911",
-                "MakarovIJ70"
-            ]
-        },
-        {
-            "name": "LC_Table_Weapons_2",
-            "Loot": [
-                "LC_predefined_M4",
-                "LC_predefined_AKM",
-                "LC_predefined_MP5",
-                "LC_predefined_SVD",
-                "LC_predefined_VSS",
-                "LC_predefined_Tundra",
-                "LC_predefined_Blaze",
-                "LC_predefined_SKS",
-                "LC_predefined_CZ527",
-                "LC_predefined_AK74",
-                "LC_predefined_AK101",
-                "LC_predefined_FAL"
-            ]
-        },
-        {
-            "name": "LC_Table_Magazines_1",
-            "Loot": [
-                "Mag_MP5_30Rnd",
-                "Mag_AK74_30Rnd",
-                "Mag_CZ527_5rnd"
-            ]
-        },
-        {
-            "name": "LC_Table_Magazines_2",
-            "Loot": [
-                "Mag_STANAG_30Rnd",
-                "Mag_AKM_30Rnd",
-                "Mag_FAL_20Rnd"
-            ]
-        },
-        {
-            "name": "LC_Table_Attachments",
-            "Loot": [
-                "AK_Suppressor",
-                "M4_Suppressor",
-                "ACOGOptic"
-            ]
-        },
-        {
-            "name": "LC_Table_Ammo",
-            "Loot": [
-                "AmmoBox_545x39_20Rnd"
-            ]
-        }
-    ]
+  "LootCategories": [
+    {
+      "name": "LC_Table_Weapons_tier1",
+      "Loot": [
+        "LC_predefined_GLOCK19",
+        "LC_predefined_CZ75",
+        "LC_predefined_Deagle",
+        "LC_predefined_MAGNUM",
+        "LC_predefined_FNX45",
+        "LC_predefined_UMP",
+        "LC_predefined_CZ61",
+        "LC_predefined_MP5",
+	    "LC_predefined_AR15"
+      ]
+    },
+    {
+      "name": "LC_Table_Weapons_tier2",
+      "Loot": [
+        "LC_predefined_SKS",
+        "LC_predefined_SKS_Black",
+        "LC_predefined_SKS_Green",
+        "LC_predefined_CZ527",
+        "LC_predefined_AKS74U",
+        "LC_predefined_AKS74U_Black",
+        "LC_predefined_AKS74U_Green",
+        "LC_predefined_UMP",
+        "LC_predefined_MP5",
+	    "LC_predefined_AR15",
+	    "LC_predefined_AR15_9mm_Atacs_AU",
+	    "LC_predefined_AR15_9mm_Atacs_FG",
+	    "LC_predefined_AR15_9mm_Atacs_IX"
+      ]
+    },
+    {
+      "name": "LC_Table_Weapons_tier3",
+      "Loot": [
+        "LC_predefined_SKS",
+        "LC_predefined_SKS_Black",
+        "LC_predefined_SKS_Green",
+        "LC_predefined_AK74",
+        "LC_predefined_AK74_Black",
+        "LC_predefined_AK74_Green",
+        "LC_predefined_VSS",
+        "LC_predefined_Saiga",
+        "LC_predefined_MOSIN",
+        "LC_predefined_MOSIN_Black",
+        "LC_predefined_MOSIN_Camo",
+        "LC_predefined_MOSIN_Green",
+        "LC_predefined_B95",
+        "LC_predefined_B95_Black",
+        "LC_predefined_B95_Green",
+        "LC_predefined_CZ550",
+        "LC_predefined_ASVAL",
+        "LC_predefined_WINCHESTER70",
+        "LC_predefined_WINCHESTER70_Black",
+        "LC_predefined_WINCHESTER70_Green"
+      ]
+    },
+    {
+      "name": "LC_Table_Weapons_tier4",
+      "Loot": [
+        "LC_predefined_M4A1",
+        "LC_predefined_M4A1_Black",
+        "LC_predefined_M4A1_Green",
+        "LC_predefined_AKM",
+        "LC_predefined_AK101",
+        "LC_predefined_AK101_Black",
+        "LC_predefined_AK101_Green",
+        "LC_predefined_SVD",
+        "LC_predefined_M14",
+        "LC_predefined_FAL"
+      ]
+    },
+    {
+      "name": "LC_Table_Ammo_low",
+      "Loot": [
+        "AmmoBox_380_35rnd",
+        "AmmoBox_380_35rnd",
+        "AmmoBox_9x19_25rnd",
+        "AmmoBox_9x19_25rnd",
+        "AmmoBox_45ACP_25rnd",
+        "AmmoBox_45ACP_25rnd",
+        "AmmoBox_357_20Rnd",
+        "AmmoBox_357_20Rnd",
+        "AmmoBox_00buck_10rnd",
+        "AmmoBox_00buck_10rnd",
+        "AmmoBox_12gaSlug_10Rnd",
+        "AmmoBox_12gaSlug_10Rnd",
+        "RDG2SmokeGrenade_White",
+        "M18SmokeGrenade_White",
+        "FlashGrenade"
+      ]
+    },
+    {
+      "name": "LC_Table_Ammo_medium",
+      "Loot": [
+        "AmmoBox_380_35rnd",
+        "AmmoBox_380_35rnd",
+        "AmmoBox_9x19_25rnd",
+        "AmmoBox_9x19_25rnd",
+        "AmmoBox_45ACP_25rnd",
+        "AmmoBox_45ACP_25rnd",
+        "AmmoBox_357_20Rnd",
+        "AmmoBox_357_20Rnd",
+        "AmmoBox_00buck_10rnd",
+        "AmmoBox_00buck_10rnd",
+        "AmmoBox_12gaSlug_10Rnd",
+        "AmmoBox_12gaSlug_10Rnd",
+        "RDG2SmokeGrenade_White",
+        "M18SmokeGrenade_White",
+        "FlashGrenade",
+        "AmmoBox_545x39_20Rnd",
+        "AmmoBox_545x39Tracer_20Rnd",
+        "AmmoBox_556x45_20Rnd",
+        "AmmoBox_556x45Tracer_20Rnd",
+        "AmmoBox_762x39_20Rnd",
+        "AmmoBox_762x39Tracer_20Rnd",
+        "AmmoBox_9x39_20Rnd",
+        "M18SmokeGrenade_Red",
+        "M18SmokeGrenade_Green",
+        "M18SmokeGrenade_Yellow",
+        "RGD5Grenade"
+      ]
+    },
+    {
+      "name": "LC_Table_Ammo_high",
+      "Loot": [
+        "AmmoBox_556x45_20Rnd",
+        "AmmoBox_556x45Tracer_20Rnd",
+        "AmmoBox_545x39_20Rnd",
+        "AmmoBox_545x39Tracer_20Rnd",
+        "AmmoBox_762x39_20Rnd",
+        "AmmoBox_762x39Tracer_20Rnd",
+        "AmmoBox_762x54_20Rnd",
+        "AmmoBox_762x54Tracer_20Rnd",
+        "AmmoBox_9x39_20Rnd",
+        "AmmoBox_9x39AP_20Rnd",
+        "AmmoBox_308Win_20Rnd",
+        "AmmoBox_308WinTracer_20Rnd",
+        "M18SmokeGrenade_Red",
+        "M18SmokeGrenade_Green",
+        "M18SmokeGrenade_Yellow",
+        "RGD5Grenade",
+        "M67Grenade",
+        "Ammo_40mm_Explosive",
+        "Ammo_40mm_Chemgas",
+        "LandMineTrap"
+      ]
+    },
+    {
+      "name": "LC_Table_Magazines_low",
+      "Loot": [
+        "Mag_CZ75_15Rnd",
+        "Mag_FNX45_15Rnd",
+        "Mag_MKII_10Rnd",
+        "Mag_Ruger1022_10Rnd",
+        "Mag_Ruger1022_15Rnd",
+        "Mag_Ruger1022_30Rnd",
+        "Mag_CZ61_20Rnd",
+        "Mag_Glock_15Rnd",
+        "Mag_Deagle_9rnd",
+        "Mag_UMP_25Rnd",
+        "Mag_MP5_15Rnd",
+        "Mag_MP5_30Rnd",
+        "Mag_CMAG_10Rnd",
+        "Mag_CMAG_10Rnd_Green",
+        "Mag_CMAG_10Rnd_Black"
+      ]
+    },
+    {
+      "name": "LC_Table_Magazines_medium",
+      "Loot": [
+        "Mag_Saiga_5Rnd",
+        "Mag_Saiga_8Rnd",
+        "Mag_AK74_30Rnd",
+        "Mag_AK74_30Rnd_Black",
+        "Mag_AK74_30Rnd_Green",
+        "Mag_CZ527_5rnd",
+        "Mag_STANAG_30Rnd",
+        "Mag_VSS_10Rnd",
+        "Mag_VAL_20Rnd",
+        "Mag_Vikhr_30Rnd",
+        "Mag_AK101_30Rnd",
+        "Mag_AK101_30Rnd_Black",
+        "Mag_AK101_30Rnd_Green",
+        "Mag_AKM_Palm30Rnd_Green",
+        "Mag_AKM_Palm30Rnd_Black",
+        "Mag_AKM_Palm30Rnd",
+        "Mag_AKM_30Rnd",
+        "Mag_AK74_45Rnd",
+        "Mag_CZ550_10rnd",
+        "Mag_M14_10Rnd",
+        "Mag_CMAG_30Rnd",
+        "Mag_CMAG_30Rnd_Black",
+        "Mag_CMAG_30Rnd_Green",
+        "Mag_CMAG_40Rnd",
+        "Mag_CMAG_40Rnd_Black",
+        "Mag_CMAG_40Rnd_Green"
+      ]
+    },
+    {
+      "name": "LC_Table_Magazines_high",
+      "Loot": [
+        "Mag_FAL_20Rnd",
+        "Mag_SVD_10Rnd",
+        "Mag_AKM_Drum75Rnd_Black",
+        "Mag_AKM_Drum75Rnd_Green",
+        "Mag_STANAG_60Rnd",
+        "Mag_M14_20Rnd"
+      ]
+    },
+    {
+      "name": "LC_Table_Attachments",
+      "Loot": [
+        "MP5_PlasticHndgrd",
+        "MP5_RailHndgrd",
+        "M4_PlasticHndgrd_Black",
+        "M4_MPHndgrd_Black",
+        "M4_RISHndgrd_Black",
+        "Saiga_Bttstck",
+        "AK_PlasticBttstck_Black",
+        "AK_Steel_Buttstock",
+        "AK_FoldingBttstck_Black",
+        "MP5k_StockBttstck",
+        "M4_CQBBttstck_Black",
+        "M4_OEBttstck_Black",
+        "M4_MPBttstck_Black",
+        "M4_CarryHandleOptic",
+        "BUISOptic",
+        "FNP45_MRDSOptic",
+        "ReflexOptic",
+        "MP5_Compensator",
+        "PistolSuppressor",
+        "TLRLight",
+        "Universallight",
+        "M4_RIS_Cover_Black",
+        "M4_RIS_Cover_Green",
+        "AK74_Hndgrd",
+        "AK_WoodHndgrd",
+        "AK_RailHndgrd_Black",
+        "AK_RailHndgrd_Green",
+        "M4_PlasticHndgrd_Green",
+        "M4_PlasticHndgrd_Tan",
+        "M4_PlasticHndgrd_White",
+        "M4_MPHndgrd_Green",
+        "M4_RISHndgrd_Green",
+        "AK_PlasticBttstck_Green",
+        "AK_WoodBttstck",
+        "AK74_WoodBttstck",
+        "AK_FoldingBttstck_Green",
+        "Fal_OeBttstck",
+        "Fal_FoldingBttstck",
+        "M4_CQBBttstck_Green",
+        "M4_OEBttstck_Green",
+        "M4_MPBttstck_Green",
+        "M68Optic",
+        "M4_T3NRDSOptic",
+        "KobraOptic",
+        "PUScopeOptic",
+        "HuntingOptic",
+        "PSO1Optic",
+        "PSO11Optic",
+        "KashtanOptic",
+        "ACOGOptic",
+        "Mosin_Compensator"
+      ]
+    },
+    {
+      "name": "LC_Table_Attachments_supressor",
+      "Loot": ["AK_Suppressor", "M4_Suppressor"]
+    },
+    {
+      "name": "LC_Table_raid_low",
+      "Loot": ["Sledgehammer", "Hacksaw", "FirefighterAxe", "WoodAxe", "Crowbar", "Hammer", "Hatchet"]
+    },
+    {
+      "name": "LC_Table_raid_high",
+      "Loot": [
+        "mmg_raidsaw",
+        "mmg_raid_driver"
+      ]
+    },
+    {
+      "name": "LC_Table_tools",
+      "Loot": [
+        "Battery9V",
+        "Whetstone",
+        "CanOpener",
+        "DuctTape",
+        "Rangefinder",
+        "SewingKit",
+        "MetalWire",
+        "Hammer",
+        "HandSaw",
+        "Nailbox",
+        "Lockpick",
+        "Pliers",
+        "Hatchet",
+        "CodeLock",
+        "LeatherSewingKit",
+        "WeaponCleaningKit"
+      ]
+    },
+    {
+      "name": "LC_Table_helmet",
+      "Loot": [
+        "BallisticHelmet_Green",
+        "BallisticHelmet_Black",
+        "BallisticHelmet_UN",
+        "BallisticHelmet_BDU",
+        "BallisticHelmet_Desert",
+        "BallisticHelmet_Woodland",
+        "GorkaHelmet_Green",
+        "GorkaHelmet_Black",
+        "NVGHeadstrap",
+        "GorkaHelmetVisor",
+        "Mich2001Helmet",
+        "Ssh68Helmet",
+        "ZSh3PilotHelmet",
+        "ZSh3PilotHelmet_Green",
+        "ZSh3PilotHelmet_Black"
+      ]
+    },
+    {
+      "name": "LC_Table_foodandmedical",
+      "Loot": [
+        "Zagorky",
+        "ZagorkyChocolate",
+        "ZagorkyPeanuts",
+        "Pajka",
+        "Pate",
+        "CatFoodCan",
+        "DogFoodCan",
+        "PorkCan",
+        "Honey",
+        "Chips",
+        "PowderedMilk",
+        "BoxCerealCrunchin",
+        "Rice",
+        "Marmalade",
+        "PeachesCan",
+        "SardinesCan",
+        "TunaCan",
+        "SpaghettiCan",
+        "BakedBeansCan",
+        "TacticalBaconCan",
+        "UnknownFoodCan",
+        "SodaCan_Cola",
+        "SodaCan_Kvass",
+        "SodaCan_Pipsi",
+        "SodaCan_Spite",
+        "Vodka",
+        "WaterBottle",
+        "Canteen",
+        "BandageDressing",
+        "CharcoalTablets",
+        "DisinfectantAlcohol",
+        "VitaminBottle",
+        "TetracyclineAntibiotics",
+        "Epinephrine",
+        "Morphine"
+      ]
+    },
+    {
+      "name": "LC_Table_keyandcard",
+      "Loot": [
+        "CJ_Key1",
+        "CJ_Key2",
+        "CJ_Key3",
+        "CJ_Key4",
+        "CJ_Key5",
+        "CJ_Key6",
+        "CJ_Key7",
+        "CJ_Key8",
+        "CJ_Key9",
+        "CJ_Key10",
+        "CJ_Key11",
+        "CJ_Key102",
+        "CJ_Key101",
+        "CJ_Key12"
+      ]
+    },
+    {
+      "name": "LC_Table_mmgstorage",
+      "Loot": [
+        "mmg_equipment_locker_Green_kit",
+        "mmg_equipment_locker_Black_kit",
+        "mmg_equipment_locker_grey_kit",
+        "mmg_locker02_blue_kit",
+        "mmg_locker02_Green_kit",
+        "mmg_locker02_tan_kit",
+        "mmg_gun_rack_kit_blue",
+        "mmg_gun_rack_kit_Green",
+        "mmg_gun_rack_kit_tan",
+        "mmg_lockable_gun_rack_kit_grey",
+        "mmg_gun_wall_kit_wooden",
+        "mmg_gun_wall_kit_metal",
+        "mmg_gear_stand_kit",
+        "mmg_solo_locker_yellow_kit",
+        "mmg_solo_locker_blue_kit",
+        "mmg_solo_locker_red_kit",
+        "mmg_solo_locker_grey_kit",
+        "mmg_solo_locker_purple_kit",
+        "mmg_solo_locker_Green_kit",
+        "mmg_solo_locker_medic_kit"
+      ]
+    },
+    {
+      "name": "LC_Table_vest_High",
+      "Loot": [
+        "PlateCarrierVest",
+        "PlateCarrierVest_Black",
+        "PlateCarrierVest_Green",
+        "PlateCarrierVest_Camo"
+      ]
+    },
+    {
+      "name": "LC_Table_vest_low",
+      "Loot": [
+        "PlateCarrierVest",
+        "PlateCarrierVest_Black",
+        "PlateCarrierVest_Green",
+        "PlateCarrierVest_Camo"
+      ]
+    },
+    {
+      "name": "LC_Table_vest_civil",
+      "Loot": [
+        "PressVest_Blue",
+        "PressVest_LightBlue",
+        "PoliceVest",
+        "UKAssVest_Black",
+        "UKAssVest_Camo",
+        "UKAssVest_Khaki",
+        "UKAssVest_Olive",
+        "HuntingVest"
+      ]
+    },
+    {
+      "name": "LC_Table_NBC",
+      "Loot": [
+        "NBCGlovesGray",
+        "NBCGlovesYellow",
+        "NBCHoodYellow",
+        "NBCHoodGray",
+        "NBCPantsYellow",
+        "NBCPantsGray",
+        "NBCBootsYellow",
+        "NBCBootsGray",
+        "NBCJacketYellow",
+        "NBCJacketGray",
+        "GasMask_Filter_Improvised",
+        "GasMask_Filter",
+        "GasMask",
+        "GP5GasMask",
+        "AirborneMask"
+      ]
+    }
+  ]
 }
