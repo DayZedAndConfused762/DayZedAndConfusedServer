@@ -1556,4 +1556,63 @@
     </event>
 <!-- RANDOM ZOMBIE EVENT -->
 
+<!-- Gunner Truck Start -->
+
+    <event name="VehicleGunner">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruck"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruck_Auto"/>
+        </children>
+    </event>
+    <event name="VehicleGunnerTan">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckTan"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckTan_Auto"/>
+        </children>
+    </event>
+    <event name="VehicleGunnerWhite">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckWhite"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckWhite_Auto"/>
+        </children>
+    </event>
+
+<!-- Gunner Truck End -->
+
 </events>

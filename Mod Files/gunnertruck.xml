@@ -5,9 +5,9 @@
 <!-- EVENTS.XML -->
 
     <event name="VehicleGunner">
-        <nominal>6</nominal>
-        <min>4</min>
-        <max>6</max>
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -19,8 +19,43 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruck"/>
-			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckWhite"/>
-			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckTan"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruck_Auto"/>
+        </children>
+    </event>
+    <event name="VehicleGunnerTan">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckTan"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckTan_Auto"/>
+        </children>
+    </event>
+    <event name="VehicleGunnerWhite">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckWhite"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruckWhite_Auto"/>
         </children>
     </event>
 
@@ -28,7 +63,21 @@
 <!--  CFGEVENTSPAWNS.XML -->
 
 	<event name="VehicleGunner" >
-		<pos x="X_Coords" z="Z_Coods" a="Rotation" />	 <!-- Location Name -->
+		<pos x="5368.050293" z="9923.710938" a="83.773880" />		<!-- NWAF -->
+ 		<pos x="3970.166748" z="11420.040039" a="-0.224688" />		<!-- NWAF -->
+ 		<pos x="4051.421143" z="11574.770508" a="-83.113014" />		<!-- NWAF -->
+ 		<pos x="2155.196045" z="3353.465820" a="-58.838551" />		<!-- Pavlovo Contaminated Zone -->
+ 		<pos x="3682.933594" z="5966.188965" a="161.302292" />		<!-- Green Mountain -->
+ 		<pos x="7971.375977" z="14691.407227" a="-12.877541" />		<!-- MB N of Severograd -->
+	</event>
+	<event name="VehicleGunnerTan" >
+		<pos x="588.312927" z="13674.239258" a="-0.224688" />		<!-- Tisy -->
+ 		<pos x="3631.720459" z="14803.532227" a="-0.941767" />		<!-- Pobeda -->
+ 		<pos x="7049.273926" z="14637.461914" a="-144.285614" />	<!-- Kamensk Military -->
+	</event>
+	<event name="VehicleGunnerWhite" >
+		<pos x="8675.393555" z="13623.034180" a="164.477798" />		<!-- Karer Krasnay Zarya -->
+ 		<pos x="12088.340820" z="12680.735352" a="164.929871" />	<!-- NEAF -->
 	</event>
 
 <!-- CFGSPAWNABLETYPES.XML -->
@@ -125,19 +174,19 @@
 			<item name="JLTVRearGuardWhite" chance="1.00" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.30" />
 		</attachments>
 	</type>
 	
@@ -179,19 +228,19 @@
 			<item name="JLTVRearGuardTan" chance="1.00" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.30" />
 		</attachments>
 	</type>
 	
@@ -233,19 +282,19 @@
 			<item name="JLTVRearGuard" chance="1.00" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.30" />
 		</attachments>
 	</type>
 	
@@ -287,19 +336,19 @@
 			<item name="JLTVRearGuardWhite" chance="1.00" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.30" />
 		</attachments>
 	</type>
 	
@@ -341,19 +390,19 @@
 			<item name="JLTVRearGuardTan" chance="1.00" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.80" />
 			</attachments>
 			<attachments chance="1.00">
-			<item name="JLTVWheel" chance="1.00" />
+			<item name="JLTVWheel" chance="0.30" />
 		</attachments>
 	</type>
 
