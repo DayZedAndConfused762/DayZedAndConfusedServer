@@ -20,6 +20,7 @@
 
 - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
 
+
 - Create types file for air drop upgraded airdrop flares
 - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
 - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
@@ -27,17 +28,15 @@
 - Find spawn points for Kamaz trucks
 - Find spawn points for Kamaz Typhoon
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
-- Find spawn points for Gunnertruck
+- Find more spawn points for Gunnertruck
 - Find spawn points for Scorpion bike
 - Find spawn points for scvehicles
   - Figure out hood, trunk, and wheels for taxi
 - Make Spawnable typs for TLH
-- - Setup airdrop loot
-- Setup airdrop loot
 - Setup lootcrate loot
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2040039995
-https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
+
+
 
 15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
 15:14:07.751 [CE][LootRespawner] (PRIDummy) :: Item [648] causing search overtime: "DP_CocaSeedsPack"
@@ -83,8 +82,6 @@ https://cmsminecraftshop.com/en/console/
   - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
   - Last Resort - Drunkeness: https://steamcommunity.com/sharedfiles/filedetails/?id=2892950955&searchtext=
   - ZenLeftovers: https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
-
-  - Survivor Animations: https://steamcommunity.com/workshop/filedetails/?id=2918418331
 
   - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
 

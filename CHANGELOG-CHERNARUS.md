@@ -43,13 +43,25 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+<!-- ++++++++++++++++++++ 10/5/2024 Start ++++++++++++++++++++ -->
+
+## 10/5/2024
+
+- Added drug spawns to some zombies
+- Added seed spawns to some zombies
+- Organized custom files to individual folders
+- Adjustments to loot spawn rates
+- Adjustments to spawnabletypes
+- Adjustments to random presets.
+
+<!-- ++++++++++++++++++++ 10/5/2024 End ++++++++++++++++++++ -->
+
 <!-- ++++++++++++++++++++ 10/4/2024 Start ++++++++++++++++++++ -->
 
 ## 10/4/2024
 
 - Set BBP settings to raid only doors
 - Add GunnerTruck spawns
-- 
 
 <!-- ++++++++++++++++++++ 10/4/2024 End ++++++++++++++++++++ -->
 

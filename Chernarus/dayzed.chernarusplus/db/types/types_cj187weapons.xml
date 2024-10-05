@@ -858,10 +858,10 @@
 <!-- FIREARMS_ASSAULT START -->
 
     <type name="AR15">
-        <nominal>8</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>18000</restock>
-        <min>2</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>50</cost>
@@ -872,7 +872,6 @@
         <usage name="Village"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="AR15_9mm_Black">
         <nominal>8</nominal>

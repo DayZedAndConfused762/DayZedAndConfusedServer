@@ -1,0 +1,124 @@
+
+ 
+
+
+<!-- EVENTS.XML -->
+
+    <event name="VehicleKamazTyphoon">
+        <nominal>2</nominal>
+        <min>1</min>
+        <max>3</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruck"/>
+			<child lootmax="0" lootmin="0" max="2" min="1" type="GunnerTruck_Auto"/>
+        </children>
+    </event>
+
+
+
+<!--  CFGEVENTSPAWNS.XML -->
+
+	<event name="VehicleKamazTyphoon" >
+		<pos x="5368.050293" z="9923.710938" a="83.773880" />		<!-- NWAF -->
+	</event>
+
+
+
+<!-- CFGSPAWNABLETYPES.XML -->
+
+	<type name="GunnerTruck">
+		<attachments chance="0.20">
+			<item name="CarBattery" chance="1.00" />
+			</attachments>
+			<attachments chance="0.10">
+			<item name="SparkPlug" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CarRadiator" chance="1.00" />
+			</attachments>
+			<attachments chance="0.30">
+			<item name="CanisterGasoline" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVDoorDriver" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVDoorCoDriver" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVDoorBackLeft" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVDoorBackRight" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVHood" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVRearGuard" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVWheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVWheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVWheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVWheel" chance="1.00" />
+			</attachments>
+			<attachments chance="1.00">
+			<item name="JLTVWheel" chance="1.00" />
+		</attachments>
+	</type>
+
+
+
+<!-- TYPES.XML -->
+
+	<type name="GunnerTruck">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="JLTVWheel">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="JLTVDoorDriver">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <usage name="Industrial"/>
+    </type>
+
