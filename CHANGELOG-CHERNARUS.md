@@ -48,6 +48,7 @@
 ## 10/5/2024
 
 - Installed mod: @ZensTireRack
+- Uninstalled mod: @BaseFortifications due to crashes
 - Added vg7 bikes Blackout Scorpion spawns
 - Added drug spawns to some zombies
 - Added seed spawns to some zombies
