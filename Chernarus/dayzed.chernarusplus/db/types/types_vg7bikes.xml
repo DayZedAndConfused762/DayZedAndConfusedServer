@@ -51,7 +51,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>    
     <type name="vg7_scorpion_windjammer">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -64,7 +64,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="vg7_scorpion_saddlebag">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -116,7 +116,7 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="vg7_scorpion_L_Door">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -129,7 +129,7 @@
         <usage name="Industrial"/>
     </type>   
     <type name="vg7_scorpion_drybag">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -142,7 +142,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="vg7_scorpion_pink_drybag">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -155,7 +155,7 @@
         <usage name="Industrial"/>
     </type>
     <type name="vg7_scorpion_radiator">
-        <nominal>2</nominal>
+        <nominal>7</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -168,10 +168,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="vg7_scorpion_wheel_front">
-        <nominal>2</nominal>
+        <nominal>15</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -181,10 +181,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="vg7_scorpion_wheel_rear">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>2700</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
