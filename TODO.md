@@ -18,12 +18,11 @@
 
 ## To Do 
 
-https://steamcommunity.com/workshop/filedetails/?id=2878980498
-
-- xam login boogaloos Ballsack
+- @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
 
 - Create types file for air drop upgraded airdrop flares
-- Fix UAZ31514 spawn: 		    <!-- Pond N of Novy Lug Military -->
+- Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
+- Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
 - Figure out which UAZ needs a glow plug instead of a spark plug
 - Find spawn points for Kamaz trucks
 - Find spawn points for Kamaz Typhoon
