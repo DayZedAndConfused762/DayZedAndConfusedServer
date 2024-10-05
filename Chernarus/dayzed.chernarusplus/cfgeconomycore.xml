@@ -34,7 +34,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
-	<ce folder="db">
+	<ce folder="db/types">
 		<file name="types_basefortifications.xml" type="types" />
 		<file name="types_bbp.xml" type="types" />
 		<file name="types_beautifulpotatobags.xml" type="types" />
@@ -56,6 +56,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="types_tlh.xml" type="types" />
 		<file name="types_uaz31514.xml" type="types" />
 		<file name="types_vg7bikes.xml" type="types" />
+	</ce>
+	<ce folder="db/spawnabletypes">
 		<file name="cfgspawnabletypes_cj187.xml" type="spawnabletypes" />
 		<file name="cfgspawnabletypes_gunnertruck.xml" type="spawnabletypes" />
 		<file name="cfgspawnabletypes_kamaz.xml" type="spawnabletypes" />
