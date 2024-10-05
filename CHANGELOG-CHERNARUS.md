@@ -47,6 +47,7 @@
 
 ## 10/5/2024
 
+- Added vg7 bikes Blackout Scorpion spawns
 - Added drug spawns to some zombies
 - Added seed spawns to some zombies
 - Organized custom files to individual folders
