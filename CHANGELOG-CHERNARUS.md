@@ -52,6 +52,7 @@
 
 - Fixed a typo in vg7 bikes spawnabletypes file
 - Added tlh spawnabletypes file
+- Added TLH FAL5000 to village, farm, hunting tier 2, 3, 4
 
 <!-- ++++++++++++++++++++ 10/6/2024 End ++++++++++++++++++++ -->
 

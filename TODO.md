@@ -29,10 +29,8 @@
 - Find spawn points for Kamaz Typhoon
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 - Find more spawn points for Gunnertruck
-- Find spawn points for Scorpion bike
 - Find spawn points for scvehicles
   - Figure out hood, trunk, and wheels for taxi
-- Make Spawnable typs for TLH
 - Setup lootcrate loot
 
 
