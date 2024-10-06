@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+
+<!-- FIREARMS_ASSAULT START -->
+
+	<type name="TLH_Weapon_AK9">
+		<attachments chance="0.6">
+			<item name="TLH_Attachment_AK_Handguard_Bakelite" chance="0.3" />
+			<item name="TLH_Attachment_AK_Handguard_OD" chance="0.2" />
+			<item name="TLH_Attachment_AK_Handguard_White" chance="0.5" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="TLH_Attachment_AK_Stock_Bakelite" chance="0.2" />
+			<item name="TLH_Attachment_AK_Stock_OD" chance="0.2" />
+			<item name="TLH_Attachment_AK_Stock_White" chance="0.5" />
+		</attachments>
+		<attachments chance="0.5">
+			<item name="TLH_Mag_9A91_20Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="AK_Suppressor" chance="0.25" />
+			<item name="AK_Bayonet" chance="0.75" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="KashtabOptic" chance="0.30" />
+			<item name="PSO1Optic" chance="0.10" />
+			<item name="KobraOptic" chance="0.60" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_AR10B">
+		<attachments chance="0.90">
+			<item name="Mag_M14_10Rnd" chance="0.90" />
+			<item name="Mag_M14_20Rnd" chance="0.10" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M4_Suppressor" chance="0.25" />
+			<item name="M9A1_Bayonet_White" chance="0.75" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_FAL5000">
+		<attachments chance="1.0">
+			<item name="Fal_OeBttstck" chance="0.25" />
+			<item name="Fal_FoldingBttstck" chance="0.25" />
+			<item name="TLH_Attachment_FAL_WoodStock" chance="0.50" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="Mag_FAL_20Rnd" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_FAMAS_Tape">
+		<attachments chance="0.45">
+			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_FAMAS_SawnOff_Tape">
+		<attachments chance="0.45">
+			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_OTS12">
+		<attachments chance="0.40">
+			<item name="Mag_VSS_10Rnd" chance="0.50" />
+			<item name="Mag_VAL_20Rnd" chance="0.30" />
+			<item name="Mag_Vikhr_30Rnd" chance="0.20" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="TLH_Attachment_AK_Stock_Bakelite" chance="0.50" />
+			<item name="TLH_Attachment_AK_Stock_OD" chance="0.30" />
+			<item name="TLH_Attachment_AK_Stock_White" chance="0.20" />
+		</attachments>
+	</type>
+
+<!-- FIREARMS_ASSAULT END -->
+
+<!-- FIREARMS_PISTOLS START -->
+
+	<type name="TLH_Weapon_DD192">
+		<attachments chance="0.95">
+			<item name="Mag_Glock_15Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="TLRLight" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_DeltaElite">
+		<attachments chance="0.35">
+			<item name="TLH_Mag_DeltaElite_9Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="TLRLight" chance="1.0" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_Glock18">
+		<attachments chance="0.45">
+			<item name="Mag_Glock_15Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="TLRLight" chance="1.0" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.0" />
+		</attachments>
+		<attachments chance="0.45">
+			<item name="FNP45_MRDSOptic" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_Glock19">
+		<attachments chance="0.45">
+			<item name="Mag_Glock_15Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="TLRLight" chance="1.0" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.0" />
+		</attachments>
+		<attachments chance="0.45">
+			<item name="FNP45_MRDSOptic" chance="1.0" />
+		</attachments>
+	</type>
+	<type name="TLH_Weapon_Glock20_SF">
+		<attachments chance="0.40">
+			<item name="TLH_Mag_Glock20_10Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.35">
+			<item name="TLRLight" chance="1.0" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="PistolSuppressor" chance="1.0" />
+		</attachments>
+		<attachments chance="0.45">
+			<item name="FNP45_MRDSOptic" chance="1.0" />
+		</attachments>
+	</type>
+
+<!-- FIREARMS_PISTOLS END -->
+
+<!-- FIREARMS_RIFLES START -->
+
+	<type name="TLH_Weapon_Mosin9130_White">
+		<attachments chance="0.30">
+			<item name="Mosin_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+
+<!-- FIREARMS_RIFLES END -->
+
+<!-- FIREARMS_SMG START -->
+
+	<type name="TLH_Weapon_MP510">
+		<attachments chance="0.35">
+			<item name="TLH_Mag_MP510_30Rnd" chance="1.0" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="MP5k_StockBttstck" chance="1.0" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="MP5_PlasticHndgrd" chance="1.0" />
+			<item name="MP5_RailHndgrd" chance="1.0" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="PistolSuppressor" chance="0.35" />
+			<item name="MP5_Compensator" chance="0.65" />
+		</attachments>
+		<attachments chance="0.40">
+			<item name="M68Optic" chance="0.40" />
+			<item name="ACOGOptic" chance="0.25" />
+			<item name="M4_T3NRDSOptic" chance="0.35" />
+		</attachments>
+	</type>
+
+<!-- FIREARMS_SMG END -->
+
+</spawnabletypes>
