@@ -12,6 +12,7 @@
 
 ## Contents:
 
+- [10/7/2024](#10/7/2024)
 - [10/6/2024](#10/6/2024)
 - [10/5/2024](#10/5/2024)
 - [10/4/2024](#10/4/2024)
@@ -51,7 +52,8 @@
 ## 10/7/2024
 
 - Installed mods:
-  -@Basic_Territories_Upgraded
+  - @Basic_Territories_Upgraded
+    - Territory range is 100m.  Prevents others from building most items in this range from the flag.  (traps, explosives, and tents can still be placed)
 
 <!-- ++++++++++++++++++++ 10/7/2024 End ++++++++++++++++++++ -->
 
