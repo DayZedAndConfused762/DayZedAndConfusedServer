@@ -1,3 +1,416 @@
+﻿
+  "LCPredefinedWeapons": [
+    {
+      "defname": "LC_predefined_AK101",
+      "weapon": "AK101",
+      "magazine": "Mag_AK101_30Rnd",
+      "attachments": ["AK_FoldingBttstck", "AK_RailHndgrd", "UniversalLight"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK101_Green",
+      "weapon": "AK101_Green",
+      "magazine": "Mag_AK101_30Rnd_Green",
+      "attachments": [
+        "AK_FoldingBttstck_Green", "AK_RailHndgrd_Green", "UniversalLight"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK101_Black",
+      "weapon": "AK101_Black",
+      "magazine": "Mag_AK101_30Rnd_Black",
+      "attachments": [
+        "AK_FoldingBttstck_Green", "AK_RailHndgrd_Green", "UniversalLight"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK74",
+      "weapon": "AK74",
+      "magazine": "Mag_AK74_30Rnd",
+      "attachments": ["AK_FoldingBttstck", "AK74_Hndgrd"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK74_Green",
+      "weapon": "AK74_Green",
+      "magazine": "Mag_AK74_30Rnd_Green",
+      "attachments": ["AK_FoldingBttstck_Green", "AK74_Hndgrd_Camo"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AK74_Black",
+      "weapon": "AK74_Black",
+      "magazine": "Mag_AK74_30Rnd_Black",
+      "attachments": ["AK_FoldingBttstck_Black", "AK74_Hndgrd_Black"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AKM",
+      "weapon": "AKM",
+      "magazine": "Mag_AKM_Palm30Rnd",
+      "attachments": [
+        "AK_PlasticBttstck_Black",
+        "AK_PlasticHndgrd",
+      ],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AKS74U",
+      "weapon": "AKS74U",
+      "magazine": "Mag_AK74_30Rnd",
+      "attachments": ["AK_PlasticBttstck"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AKS74U_Black",
+      "weapon": "AKS74U_Black",
+      "magazine": "Mag_AK74_30Rnd_Black",
+      "attachments": ["AK_PlasticBttstck_Black"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AKS74U_Green",
+      "weapon": "AKS74U_Green",
+      "magazine": "Mag_AK74_30Rnd_Gren",
+      "attachments": ["AK_PlasticBttstck_Green"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ527",
+      "weapon": "CZ527",
+      "magazine": "Mag_CZ527_5rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ527_Black",
+      "weapon": "CZ527_Black",
+      "magazine": "Mag_CZ527_5rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ527_Camo",
+      "weapon": "CZ527_Camo",
+      "magazine": "Mag_CZ527_5rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ527_Green",
+      "weapon": "CZ527_Green",
+      "magazine": "Mag_CZ527_5rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_M4A1",
+      "weapon": "M4A1",
+      "magazine": "Mag_CMAG_30Rnd",
+      "attachments": [
+        "M4_MPHndgrd",
+        "M4_OEBttstck"
+      ],
+      "optic": "M4_CarryHandleOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_M4A1_Black",
+      "weapon": "M4A1_Black",
+      "magazine": "Mag_CMAG_30Rnd_Black",
+      "attachments": [
+        "M4_MPHndgrd_Black",
+        "M4_OEBttstck_Black"
+      ],
+      "optic": "M4_CarryHandleOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_M4A1_Green",
+      "weapon": "M4A1_Green",
+      "magazine": "Mag_CMAG_30Rnd_Green",
+      "attachments": [
+        "M4_MPHndgrd_Green",
+        "M4_OEBttstck_Green"
+      ],
+      "optic": "M4_CarryHandleOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_WINCHESTER70",
+      "weapon": "Winchester70",
+      "magazine": "",
+      "attachments": ["ImprovisedSuppressor"],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_WINCHESTER70_Black",
+      "weapon": "Winchester70",
+      "magazine": "",
+      "attachments": ["ImprovisedSuppressor"],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_WINCHESTER70_Green",
+      "weapon": "Winchester70",
+      "magazine": "",
+      "attachments": ["ImprovisedSuppressor"],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_SVD",
+      "weapon": "SVD",
+      "magazine": "Mag_SVD_10Rnd",
+      "attachments": [""],
+      "optic": "KashtanOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_UMP",
+      "weapon": "UMP45",
+      "magazine": "Mag_UMP_25Rnd",
+      "attachments": [""],
+      "optic": "ReflexOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ61",
+      "weapon": "CZ61",
+      "magazine": "Mag_CZ61_20Rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MOSIN",
+      "weapon": "Mosin9130",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MOSIN_Black",
+      "weapon": "Mosin9130_Black",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MOSIN_Camo",
+      "weapon": "Mosin9130_Camo",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MOSIN_Green",
+      "weapon": "Mosin9130_Green",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_SKS",
+      "weapon": "SKS",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_SKS_Black",
+      "weapon": "SKS_Black",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_SKS_Green",
+      "weapon": "SKS_Green",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "PUScopeOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_Saiga",
+      "weapon": "Saiga",
+      "magazine": "Mag_Saiga_Drum20Rnd",
+      "attachments": ["Saiga_Bttstck"],
+      "optic": "KobraOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_VSS",
+      "weapon": "VSS",
+      "magazine": "Mag_VSS_10Rnd",
+      "attachments": [""],
+      "optic": "PSO11Optic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_GLOCK19",
+      "weapon": "Glock19",
+      "magazine": "Mag_Glock_15Rnd",
+      "attachments": ["TLRLight"],
+      "optic": "FNP45_MRDSOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ75",
+      "weapon": "CZ75",
+      "magazine": "Mag_CZ75_15Rnd",
+      "attachments": ["TLRLight"],
+      "optic": "FNP45_MRDSOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_Deagle",
+      "weapon": "Deagle",
+      "magazine": "Mag_Deagle_9rnd",
+      "attachments": [""],
+      "optic": "PistolOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MAGNUM",
+      "weapon": "Magnum",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_FNX45",
+      "weapon": "FNX45",
+      "magazine": "Mag_FNX45_15Rnd",
+      "attachments": ["PistolSuppressor"],
+      "optic": "FNP45_MRDSOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_FAL",
+      "weapon": "FAL",
+      "magazine": "Mag_FAL_20Rnd",
+      "attachments": ["Fal_OeBttstck"],
+      "optic": "ACOGOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_MP5",
+      "weapon": "MP5K",
+      "magazine": "Mag_MP5_30Rnd",
+      "attachments": [
+        "MP5k_StockBttstck",
+        "MP5_PlasticHndgrd",
+        "MP5_Compensator"
+      ],
+      "optic": "M68Optic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_B95",
+      "weapon": "B95",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_B95_Black",
+      "weapon": "B95_Black",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_B95_Green",
+      "weapon": "B95_Green",
+      "magazine": "",
+      "attachments": [""],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_CZ550",
+      "weapon": "CZ550",
+      "magazine": "Mag_CZ550_10rnd",
+      "attachments": [""],
+      "optic": "HuntingOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_ASVAL",
+      "weapon": "ASVAL",
+      "magazine": "Mag_VAL_20Rnd",
+      "attachments": [""],
+      "optic": "ReflexOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_M14",
+      "weapon": "M14",
+      "magazine": "Mag_M14_10Rnd",
+      "attachments": [""],
+      "optic": "ACOGOptic",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AR15",
+      "weapon": "AR15",
+      "magazine": "Mag_CMAG_30Rnd_Black",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Black"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AR15_9mm_Atacs_AU",
+      "weapon": "AR15_9mm_Black",
+      "magazine": "Mag_Glock_30Rnd",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Atacs_AU"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AR15_9mm_Atacs_FG",
+      "weapon": "",
+      "magazine": "Mag_Glock_30Rnd",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Atacs_FG"],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
+      "defname": "LC_predefined_AR15_9mm_Atacs_IX",
+      "weapon": "",
+      "magazine": "Mag_Glock_30Rnd",
+      "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Atacs_IX"],
+      "optic": "",
+      "opticbattery": 0
+    }
+  ],
   "LootCategories": [
     {
       "name": "LC_Table_Weapons_tier1",
@@ -10,7 +423,7 @@
         "LC_predefined_UMP",
         "LC_predefined_CZ61",
         "LC_predefined_MP5",
-	    "LC_predefined_AR15"
+	"LC_predefined_AR15"
       ]
     },
     {
@@ -25,10 +438,10 @@
         "LC_predefined_AKS74U_Green",
         "LC_predefined_UMP",
         "LC_predefined_MP5",
-	    "LC_predefined_AR15",
-	    "LC_predefined_AR15_9mm_Atacs_AU",
-	    "LC_predefined_AR15_9mm_Atacs_FG",
-	    "LC_predefined_AR15_9mm_Atacs_IX"
+	"LC_predefined_AR15",
+	"LC_predefined_AR15_9mm_Atacs_AU",
+	"LC_predefined_AR15_9mm_Atacs_FG",
+	"LC_predefined_AR15_9mm_Atacs_IX"
       ]
     },
     {
@@ -262,7 +675,7 @@
         "PSO11Optic",
         "KashtanOptic",
         "ACOGOptic",
-        "Mosin_Compensator"
+        "Mosin_Compensator",
       ]
     },
     {
