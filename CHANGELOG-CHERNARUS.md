@@ -50,12 +50,15 @@
 
 <!-- ++++++++++++++++++++ 10/8/2024 Start ++++++++++++++++++++ -->
 
-## 19/8/2024
+## 10/8/2024
 
+- Adjusted priest zombies, will be tougher but have a higher chance of dropping good loot
+- Adjusted zombie loot: civilian zombies can drop joints, zombies wearing green have an extra chance to drop drugs
 - AR15 Will now spawn in schools & hunting areas
 - AR10B Will now spawn in towns & villages
 - Remove @BaseFortifications types files
 - Create types file for @Airdrop-Upgraded airdrop flares
+- 
 
 <!-- ++++++++++++++++++++ 10/8/2024 End ++++++++++++++++++++ -->
 
