@@ -53,6 +53,7 @@
 ## 19/8/2024
 
 - Remove @BaseFortifications types files
+- Create types file for @Airdrop-Upgraded airdrop flares
 
 <!-- ++++++++++++++++++++ 10/8/2024 End ++++++++++++++++++++ -->
 
