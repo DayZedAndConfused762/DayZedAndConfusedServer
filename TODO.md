@@ -18,9 +18,11 @@
 
 ## To Do 
 
+- fuel storage mod?
+- limited fuel mod
+- car key mod
+- Dog Tags: https://steamcommunity.com/sharedfiles/filedetails/?id=2303554682
 - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
-
-
 - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
 - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
 - Figure out which UAZ needs a glow plug instead of a spark plug
