@@ -37,8 +37,6 @@
 
 15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
 15:14:07.751 [CE][LootRespawner] (PRIDummy) :: Item [648] causing search overtime: "DP_CocaSeedsPack"
-15:14:08.251 [CE][LootRespawner] (PRIDummy) :: Item [649] causing search overtime: "Msp_BlunderBat"
-15:14:08.351 [CE][LootRespawner] (PRIDummy) :: Item [650] causing search overtime: "Msp_BassAxe"
 
 
 - Post server feature list to discord

@@ -52,6 +52,8 @@
 
 ## 19/8/2024
 
+- AR15 Will now spawn in schools & hunting areas
+- AR10B Will now spawn in towns & villages
 - Remove @BaseFortifications types files
 - Create types file for @Airdrop-Upgraded airdrop flares
 
