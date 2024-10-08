@@ -2125,6 +2125,7 @@
 	<type name="ZmbM_PatrolNormal_Autumn">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixKeysLow" />
 		<attachments preset="headtorches" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
@@ -2136,6 +2137,7 @@
 	<type name="ZmbM_PatrolNormal_Flat">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixKeysLow" />
 		<attachments preset="headtorches" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
@@ -2147,6 +2149,7 @@
 	<type name="ZmbM_PatrolNormal_PautRev">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixKeysLow" />
 		<attachments preset="headtorches" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
@@ -2158,6 +2161,7 @@
 	<type name="ZmbM_PatrolNormal_Summer">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixKeysLow" />
 		<attachments preset="headtorches" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
@@ -2169,6 +2173,7 @@
 	<type name="ZmbM_SoldierNormal">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
+		<cargo preset="mixKeysLow" />
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="headtorches" />
 		<attachments preset="hatsArmy" />
@@ -2182,6 +2187,7 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />	
 		<cargo preset="ammoArmy" />	
+		<cargo preset="mixKeysLow" />
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="OfficerHatArmy" />
 		<cargo chance="0.05">
@@ -2192,6 +2198,7 @@
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />	
+		<cargo preset="mixKeysLow" />
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 		<cargo chance="0.05">
@@ -2207,6 +2214,7 @@
 		<cargo chance="0.40">
 			<item name="PunchedCard" chance="1.00" />
 		</cargo>
+		<cargo preset="mixKeysLow" />
 		<attachments preset="HeavyArmorArmy" />
 		<attachments preset="HeavyHelmetArmy" />
 	</type>
@@ -3111,7 +3119,8 @@
 	<cargo preset="mixKeysHigh" />
 	<cargo preset="mixKeysLow" />
 	<cargo preset="mixDrugs" />
-	<cargo preset="mixJoints" />
+	<cargo preset="mixJoints" /> 
+	<cargo preset="grenades" />
 	</type>
 	
 <!-- INFECTED_RELIGIOUS END -->

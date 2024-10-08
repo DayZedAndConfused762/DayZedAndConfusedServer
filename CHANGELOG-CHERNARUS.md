@@ -52,6 +52,7 @@
 
 ## 10/8/2024
 
+- Military and Police zombies have a low % chance to spawn keys
 - Adjusted priest zombies, will be tougher but have a higher chance of dropping good loot
 - Adjusted zombie loot: civilian zombies can drop joints, zombies wearing green have an extra chance to drop drugs
 - AR15 Will now spawn in schools & hunting areas
