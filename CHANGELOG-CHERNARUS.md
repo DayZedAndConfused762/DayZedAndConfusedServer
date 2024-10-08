@@ -58,7 +58,8 @@
 - AR10B Will now spawn in towns & villages
 - Remove @BaseFortifications types files
 - Create types file for @Airdrop-Upgraded airdrop flares
-- 
+- Adjusted 9mm ammo spawns.  Loose 9mm ammo in village and police, boxed 9mm ammo in military and police
+- Adjusted military air drop loot pool
 
 <!-- ++++++++++++++++++++ 10/8/2024 End ++++++++++++++++++++ -->
 
