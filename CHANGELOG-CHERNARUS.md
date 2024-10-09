@@ -58,6 +58,7 @@
 - Added types file for cj187 NVGs
 - Added cfg spawn types file for cj187 NVGs
 - Changed server lighting config for darker nights
+- Added air drop flares to the loot pool
 
 ## 10/9/2024.1
 
