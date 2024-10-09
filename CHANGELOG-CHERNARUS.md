@@ -54,6 +54,7 @@
 
 ## 10/9/2024.2
 
+- Added zombie spawns near NWAF Bunker - need to test
 - Removed vanilla NVG spawns
 - Added types file for cj187 NVGs
 - Added cfg spawn types file for cj187 NVGs
