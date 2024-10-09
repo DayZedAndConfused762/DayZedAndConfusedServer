@@ -706,7 +706,7 @@
 <!-- TOOLS_REPAIR START -->
 
     <type name="CJ_ToolsRepairKit">
-        <nominal>20</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -735,7 +735,6 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <usage name="Hunting"/>
     </type>
     <type name="CJ_WD40_Large">
         <nominal>15</nominal>
@@ -752,13 +751,12 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <usage name="Hunting"/>
     </type>
     <type name="CJ_Tireglue">
-        <nominal>20</nominal>
+        <nominal>60</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>20</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
@@ -814,10 +812,10 @@
         <usage name="Village"/>
     </type>
     <type name="CJ_Weaponoil">
-        <nominal>20</nominal>
+        <nominal>45</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>25</min>
         <quantmin>25</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
