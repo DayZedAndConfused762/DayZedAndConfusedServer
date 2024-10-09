@@ -54,6 +54,11 @@
 
 ## 10/9/2024.2
 
+- Removed vanilla NVG spawns
+- Added types file for cj187 NVGs
+- Added cfg spawn types file for cj187 NVGs
+- Changed server lighting config for darker nights
+
 ## 10/9/2024.1
 
 - Installed mods:
