@@ -54,9 +54,10 @@
 ## 10/9/2024
 
 - Installed mods:
-  - CJ187 fuel pumps
-  - immersive nvg
-  - simplespawner
+  - @CJ187-SimpleSpawner: https://steamcommunity.com/sharedfiles/filedetails/?id=2868802243
+  - @CJ187-RandomFuelPumps: https://steamcommunity.com/sharedfiles/filedetails/?id=2868862030
+  - @CH187-ImmersiveNVG: https://steamcommunity.com/sharedfiles/filedetails/?id=2852243529
+* *** Cement mixer bug persisted, added the cement mixer to the ignore list, it's now deleted every restart before the new one spawns
 
 <!-- ++++++++++++++++++++ 10/9/2024 End ++++++++++++++++++++ -->
 
