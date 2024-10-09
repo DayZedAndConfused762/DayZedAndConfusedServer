@@ -60,6 +60,7 @@
 - Changed server lighting config for darker nights
 - Added air drop flares to the loot pool
 - Adjusted drop rates of repair items
+- Adjust contents of first aid kits
 
 ## 10/9/2024.1
 
