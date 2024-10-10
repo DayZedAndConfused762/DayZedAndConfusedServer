@@ -1,178 +1,27 @@
-<!-- VESTS START -->
-
-<!-- VESTS-CHESTRIG START -->
-
-    <type name="MVS_ChestRig_OD"> 
-
-
-    <type name="MVS_ChestRig_ERDL">
-
-
-    <type name="MVS_ChestRig_Tan">
-
-
-    <type name="MVS_ChestRig_Black">
-
-
-    <type name="MVS_ChestRig_Snow">
-
-
-    <type name="MVS_ChestRig_Multicam">
-
-
-    <type name="MVS_ChestRig_Multicam_Tropic">
-
-
-    <type name="MVS_ChestRig_Multicam_Black">
-
-
-
-<!-- VESTS-CHESTRIG END -->
-
-<!-- VESTS-COMBAT START -->
-
-    <type name="MVS_Combat_Vest_OD">
-
-
-
-    <type name="MVS_Combat_Vest_Tan">
-
-
-
-    <type name="MVS_Combat_Vest_Black">
-
-
-
-    <type name="MVS_Combat_Vest_Snow">
-
-
-
-    <type name="MVS_Combat_Vest_ERDL">
-
-
-
-    <type name="MVS_Combat_Vest_Multicam">
-
-
-
-    <type name="MVS_Combat_Vest_Multicam_Tropic">
-
-
-
-    <type name="MVS_Combat_Vest_Multicam_Black">
-
-
-
-
-<!-- VESTS-COMBAT END -->
-
-<!-- VESTS-HEAVY START -->
-
-   <type name="MVS_Combat_Vest_Heavy_OD">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="ContaminatedArea"/>
-
-    <type name="MVS_Combat_Vest_Heavy_Tan">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="ContaminatedArea"/>
-
-    <type name="MVS_Combat_Vest_Heavy_Black">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="ContaminatedArea"/>
-
-    <type name="MVS_Combat_Vest_Heavy_Snow">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="ContaminatedArea"/>
-
-    <type name="MVS_Combat_Vest_Heavy_ERDL">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="ContaminatedArea"/>
-
-    <type name="MVS_Combat_Vest_Heavy_Multicam">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-
-    <type name="MVS_Combat_Vest_Heavy_Multicam_Tropic">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-
-    <type name="MVS_Combat_Vest_Heavy_Multicam_Black">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-
-
-<!-- VESTS-HEAVY END -->
-
-
-
-
-
-
-
+"MVS_ChestRig_OD"
+"MVS_ChestRig_ERDL"
+"MVS_ChestRig_Tan"
+"MVS_ChestRig_Black"
+"MVS_ChestRig_Snow"
+"MVS_ChestRig_Multicam"
+"MVS_ChestRig_Multicam_Tropic"
+"MVS_ChestRig_Multicam_Black"
+"MVS_Combat_Vest_OD"
+"MVS_Combat_Vest_Tan"
+"MVS_Combat_Vest_Black"
+"MVS_Combat_Vest_Snow"
+"MVS_Combat_Vest_ERDL"
+"MVS_Combat_Vest_Multicam"
+"MVS_Combat_Vest_Multicam_Tropic"
+"MVS_Combat_Vest_Multicam_Black"
+"MVS_Combat_Vest_Heavy_OD"
+"MVS_Combat_Vest_Heavy_Tan"
+"MVS_Combat_Vest_Heavy_Black"
+"MVS_Combat_Vest_Heavy_Snow"
+"MVS_Combat_Vest_Heavy_ERDL"
+"MVS_Combat_Vest_Heavy_Multicam"
+"MVS_Combat_Vest_Heavy_Multicam_Tropic"
+"MVS_Combat_Vest_Heavy_Multicam_Black"
 "PlateCarrierVest"
 "PlateCarrierVest_Black"
 "PlateCarrierVest_Camo"
