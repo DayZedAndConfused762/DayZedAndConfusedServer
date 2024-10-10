@@ -1,435 +1,72 @@
 
-
-
-
-
-<!-- CLOTHING_NBC START -->
-
-    <type name="AirborneMask">
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>8</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-    </type>
-    <type name="GP5GasMask">
-        <nominal>10</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>8</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="GasMask">
-        <nominal>10</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>8</min>
-        <quantmin>20</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-    <type name="GasMask_Filter">
-        <nominal>20</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>15</min>
-        <quantmin>20</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="shelves"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-    </type>
-    <type name="GasMask_Filter_Improvised">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="clothes"/>
-    </type>
-    <type name="NBCBootsGray">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="floor"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="NBCBootsYellow">
-        <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="floor"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-    </type>
-    <type name="NBCGlovesGray">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="NBCGlovesYellow">
-        <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="floor"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-    </type>
-    <type name="NBCHoodGray">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="NBCHoodYellow">
-        <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="floor"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-    </type>
-    <type name="NBCJacketGray">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="NBCJacketYellow">
-        <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="floor"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-    </type>
-    <type name="NBCPantsGray">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="NBCPantsYellow">
-        <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <tag name="floor"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-    </type>
-
-<!-- CLOTHING_NBC END -->
-
-<!-- MASKS START -->
-
-<!-- MASKS-GAS START -->
-
-    <type name="MVS_S10Respirator_OD">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_S10Respirator_Tan">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_S10Respirator_Black">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_S10Respirator_FS">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_S10Respirator_Snow">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_M50Respirator_OD">
-        <nominal>0</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_M50Respirator_Tan">
-        <nominal>0</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_M50Respirator_Black">
-        <nominal>0</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_M50Respirator_Snow">
-        <nominal>0</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_PMK2Respirator_Black">
-        <nominal>1</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_PMK2Respirator_Tan">
-        <nominal>1</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_PMK2Respirator_OD">
-        <nominal>1</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MVS_PMK2Respirator_Snow">
-        <nominal>1</nominal>
-        <lifetime>3600</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-
-<!-- MASKS-GAS END -->
-
-<!-- MASKS END -->
-
-
 <!-- Gas Masks -->
 
-    <type name="AirborneMask">
-    <type name="GP5GasMask">
-    <type name="GasMask">
-    <type name="GasMask_Filter">
-    <type name="GasMask_Filter_Improvised">
-    <type name="TLH_Mask_GP4u_Polish">
-    <type name="TLH_Mask_GP4u_Soviet">
-	<type name="TLH_Mask_M10M">
+"AirborneMask"
+"GP5GasMask"
+"GasMask"
+"GasMask_Filter"
+"GasMask_Filter_Improvised"
+"TLH_Mask_GP4u_Polish"
+"TLH_Mask_GP4u_Soviet"
+"TLH_Mask_M10M"
+"MVS_S10Respirator_OD"
+"MVS_S10Respirator_Tan"
+"MVS_S10Respirator_Black"
+"MVS_S10Respirator_FS"
+"MVS_S10Respirator_Snow"
+<!-- test these -->
+"MVS_M50Respirator_OD"
+"MVS_M50Respirator_Tan"
+"MVS_M50Respirator_Black"
+"MVS_M50Respirator_Snow"
+<!-- test these -->
+"MVS_PMK2Respirator_Black"
+"MVS_PMK2Respirator_Tan"
+"MVS_PMK2Respirator_OD"
+"MVS_PMK2Respirator_Snow"
 
 <!-- Boots -->
 
-    <type name="NBCBootsGray">
-    <type name="NBCBootsYellow">
-	<type name="TLH_NBC_Shoes_M81">
-	<type name="TLH_NBC_Shoes_Black">
-    <type name="TLH_NBC_Shoes_Blue"> <!-- NBC_Shoes_TLH_Blue -->
-	<type name="TLH_NBC_Shoes_White"> <!-- NBC_Shoes_TLH_White -->
-	<type name="TLH_NBC_JungleBoots_Beige"> <!-- NBC_JungleBoots_TLH_Beige -->
+"NBCBootsGray"
+"NBCBootsYellow"
+"TLH_NBC_Shoes_M81"
+"TLH_NBC_Shoes_Black"
+"TLH_NBC_Shoes_Blue" <!-- NBC_Shoes_TLH_Blue -->
+"TLH_NBC_Shoes_White" <!-- NBC_Shoes_TLH_White -->
+"TLH_NBC_JungleBoots_Beige" <!-- NBC_JungleBoots_TLH_Beige -->
 
 <!-- Gloves -->
 
-    <type name="NBCGlovesGray">
-    <type name="NBCGlovesYellow">
-	<type name="TLH_NBC_Gloves_Black">
-	<type name="TLH_NBC_Gloves_White"> <!-- NBC_Gloves_TLH_White -->
-    <type name="TLH_NBC_Gloves_Blue"> <!-- NBC_Gloves_TLH_Blue -->
+"NBCGlovesGray"
+"NBCGlovesYellow"
+"TLH_NBC_Gloves_Black"
+"TLH_NBC_Gloves_White" <!-- NBC_Gloves_TLH_White -->
+"TLH_NBC_Gloves_Blue" <!-- NBC_Gloves_TLH_Blue -->
 
 <!-- Helmet -->
 
-	<type name="TLH_NBC_Helmet_Gorka_Black">	
-	<type name="TLH_NBC_Helmet_MICH2000_ChocoChip">
-	<type name="TLH_NBC_Helmet_PASGT_ChocoChip">
+"TLH_NBC_Helmet_Gorka_Black"	
+"TLH_NBC_Helmet_MICH2000_ChocoChip"
+"TLH_NBC_Helmet_PASGT_ChocoChip"
 
 <!-- Hood -->
 
-    <type name="NBCHoodGray">
-    <type name="NBCHoodYellow">
-    <type name="TLH_NBC_Hood_M81">
-    <type name="TLH_NBC_Hood_White">
+"NBCHoodGray"
+"NBCHoodYellow"
+"TLH_NBC_Hood_M81"
+"TLH_NBC_Hood_White"
 
 <!-- Pants -->
 
-    <type name="NBCPantsGray">
-    <type name="NBCPantsYellow">
-    <type name="TLH_NBC_Pants_M81">
-    <type name="TLH_NBC_Pants_White"> <!-- NBC_Pants_TLH_White -->	
+"NBCPantsGray"
+"NBCPantsYellow"
+"TLH_NBC_Pants_M81"
+"TLH_NBC_Pants_White" <!-- NBC_Pants_TLH_White -->	
 
 <!-- Tops -->
 
-    <type name="NBCJacketGray">
-    <type name="NBCJacketYellow">
-    <type name="TLH_NBC_Jacket_M81">
-    <type name="TLH_NBC_Jacket_White"> <!-- NBC_Jacket_TLH_White -->
-    <type name="TLH_NBC_M65_USDN">
+"NBCJacketGray"
+"NBCJacketYellow"
+"TLH_NBC_Jacket_M81"
+"TLH_NBC_Jacket_White" <!-- NBC_Jacket_TLH_White -->
+"TLH_NBC_M65_USDN"
