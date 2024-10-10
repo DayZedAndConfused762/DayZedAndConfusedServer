@@ -811,3 +811,117 @@
 		<usage name="Military"/>
     </type>
 </types>
+
+
+
+<!-- ++++++++++ TOOLS START ++++++++++ -->
+
+<!-- TOOLS_COMMUNICATION START -->
+
+    <type name="TLH_Tool_Radio_Black">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>200</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>	
+        <usage name="Firefighter"/>
+    </type>
+    <type name="TLH_Tool_Radio_White">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>200</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>	
+        <usage name="Firefighter"/>
+    </type>
+    <type name="TLH_Tool_WalkieTalkie">
+        <nominal>5</nominal>
+        <lifetime>20500</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>	
+        <usage name="Medic"/>
+        <usage name="School"/>
+    </type>	
+
+<!-- TOOLS_COMMUNICATION END -->
+
+<!-- TOOLS_ELECTRICAL START -->
+
+    <type name="TLH_Tool_Battery9VHQ">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+        <usage name="Village"/>
+        <usage name="Military"/>		
+    </type>
+
+<!-- TOOLS_ELECTRICAL END -->
+
+
+
+<!-- TOOLS_MISC START -->
+
+    <type name="TLH_Tool_CharcoalBag">
+        <nominal>20</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Village"/> 
+		<usage name="Farm"/>
+        <usage name="Hunting"/>	
+        <usage name="Industrial"/>		
+    </type>
+    <type name="TLH_Book_BBP">
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+        <usage name="Farm"/>		
+    </type>
+
+<!-- TOOLS_MISC END -->
+
+<!-- ++++++++++ TOOLS END ++++++++++ -->
+
