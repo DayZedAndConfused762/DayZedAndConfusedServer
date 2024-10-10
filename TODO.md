@@ -38,18 +38,18 @@
 - Find spawn points for scvehicles
   - Figure out hood, trunk, and wheels for taxi
 - Setup lootcrate loot
-
-
-
-
-15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
-15:14:07.751 [CE][LootRespawner] (PRIDummy) :: Item [648] causing search overtime: "DP_CocaSeedsPack"
-
-
+- add loot to protective cases
+- spawn and test, remove from types if non functional CattleProd StunBaton
+  - dayzyourway.com
 - Post server feature list to discord
-
 - Add Bunker tags to bunker items in mapgroupprotos
 - Add bunker tags to items that will only spawn in bunker
+
+
+
+
+
+
 
 https://cmsminecraftshop.com/en/console/
 
@@ -62,6 +62,8 @@ https://cmsminecraftshop.com/en/console/
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Pants_M65_MonolithFighter' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Book_StrangeDiary' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Note_StrangeNote' will be ignored. (Type does not exist. (Typo?))
+ 15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
+15:14:07.751 [CE][LootRespawner] (PRIDummy) :: Item [648] causing search overtime: "DP_CocaSeedsPack"
 
 - https://www.reddit.com/r/dayz/comments/142j5kd/pve_mod/
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
@@ -73,9 +75,7 @@ https://cmsminecraftshop.com/en/console/
 - https://www.youtube.com/watch?v=bezRqYIYeh4
 - https://www.youtube.com/watch?v=UEpuAUm0fZ8
 - https://www.youtube.com/watch?v=7_R_2HnDkzk
-- add loot to protective cases
-- spawn and test, remove from types if non functional CattleProd StunBaton
-  - dayzyourway.com
+
 - review mods for possible use:
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
@@ -87,8 +87,6 @@ https://cmsminecraftshop.com/en/console/
 
   - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
 
-
-
   - InfectedHordesPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1733084281
 
   - BleedTrail: https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
@@ -96,7 +94,6 @@ https://cmsminecraftshop.com/en/console/
   - ItemRarity: https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
 
   - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
-
 
   - MoreGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
   - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
