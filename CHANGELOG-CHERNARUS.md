@@ -58,6 +58,7 @@
 
 - Fixed a typo in @BeautifulBagz preventing Smersh bags from spawning
 - Fixed a typo in @MuchStuffPack preventing Msp_RifleSafe_Green_Kit from spawning
+- Removed air drops from Devil's Castle and the Prison, moved the Gvodzno air drop slightly
 
 ## 10/10/2024.1
 
