@@ -56,7 +56,8 @@
 
 ## 10/10/2024.2 *************************
 
-- ???
+- Fixed a typo in @BeautifulBagz preventing Smersh bags from spawning
+- Fixed a typo in @MuchStuffPack preventing Msp_RifleSafe_Green_Kit from spawning
 
 ## 10/10/2024.1
 

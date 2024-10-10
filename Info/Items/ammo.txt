@@ -1,19 +1,5 @@
 
-    <type name="Msp_Water_Gun_Mag">
-        <nominal>10</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="weapons" />
-        <tag name="shelves" />
-        <usage name="Village" />
-        <usage name="Coast" />
-        <value name="Tier1" />
-    </type>
+
 
 <!-- ++++++++++ AMMUNITION START ++++++++++ -->
 
@@ -58,6 +44,7 @@
 "AmmoBox_357_20Rnd"
 "Ammo_357"
 "Mag_Deagle_9rnd"
+"Msp_Water_Gun_Mag"
 
 
 <!-- .380 -->
