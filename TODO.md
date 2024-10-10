@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- Paragon Storage
 - Spawn cj187 NVGs to test and see where they should spawn
 - Double check cement mixers
 - Figure out gas pumps from map edits
@@ -25,8 +26,6 @@
 - Find a trader mod, and a no build zone mod
 - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
 - Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
-- fuel storage mod?
-- car key mod
 - Dog Tags: https://steamcommunity.com/sharedfiles/filedetails/?id=2303554682
 - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
 - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
