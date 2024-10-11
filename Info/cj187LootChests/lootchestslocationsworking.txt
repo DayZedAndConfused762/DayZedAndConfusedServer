@@ -72,7 +72,9 @@
                 "LC_Table_Magazines_low",
                 "LC_Table_Attachments",
                 "LC_Table_foodandmedical",
-                "LC_Table_foodandmedical"
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low"
             ]
         },
         {
@@ -154,6 +156,9 @@
                 "LC_Table_Attachments",
                 "LC_Table_foodandmedical",
                 "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low"
             ]
         },
         {
@@ -177,7 +182,8 @@
                 "LC_Table_Magazines_medium",
                 "LC_Table_Attachments",
                 "LC_Table_foodandmedical",
-                "LC_Table_foodandmedical"
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low"
             ]
         },
         {
@@ -204,7 +210,8 @@
                 "LC_Table_Attachments",
                 "LC_Table_Attachments",
                 "LC_Table_foodandmedical",
-                "LC_Table_foodandmedical"
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low"
             ]
         },
 
@@ -235,6 +242,9 @@
                 "LC_Table_Attachments",
                 "LC_Table_foodandmedical",
                 "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low"
             ]
         },
         {
@@ -258,7 +268,8 @@
                 "LC_Table_Magazines_high",
                 "LC_Table_Attachments",
                 "LC_Table_foodandmedical",
-                "LC_Table_foodandmedical"
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low"
             ]
         },
         {
@@ -285,10 +296,99 @@
                 "LC_Table_Attachments",
                 "LC_Table_Attachments",
                 "LC_Table_foodandmedical",
-                "LC_Table_foodandmedical"
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low"
             ]
         },
 
+
+
+        {
+            "name": "Military t4 Small",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key7",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Camo_Small"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Ammo_high",
+                "LC_Table_Ammo_high",
+                "LC_Table_Ammo_high",
+                "LC_Table_Ammo_high",
+                "LC_Table_Ammo_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low"
+            ]
+        },
+        {
+            "name": "Military t4 Medium",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key7",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Camo_Medium"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_tier4",
+                "LC_Table_Ammo_high",
+                "LC_Table_Ammo_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low"
+            ]
+        },
+        {
+            "name": "Military t4 Large",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key7",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Camo_Large"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_tier4",
+                "LC_Table_Weapons_tier4",
+                "LC_Table_Ammo_high",
+                "LC_Table_Ammo_high",
+                "LC_Table_Ammo_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Magazines_high",
+                "LC_Table_Attachments",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical",
+                "LC_Table_Explosives_low",
+                "LC_Table_Explosives_low"
+            ]
+        },
 
 
 
