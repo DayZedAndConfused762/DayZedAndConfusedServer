@@ -1,4 +1,251 @@
-﻿
+﻿    "LootChestsLocations": [
+        {
+            "name": "Base Supplies Green",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key2",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Wood_Green_Tools_Large"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_tools",
+                "LC_Table_tools",
+                "LC_Table_tools",
+                "LC_Table_supplies_small",
+                "LC_Table_supplies_small",
+                "LC_Table_supplies_small",
+                "LC_Table_supplies_small",
+                "LC_Table_supplies_small",
+                "LC_Table_supplies_large",
+                "LC_Table_storage"
+            ]
+        },
+        {
+            "name": "Base Supplies Brown",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key2",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Wood_Brown_Tools_Large"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_tools",
+                "LC_Table_supplies_small",
+                "LC_Table_supplies_large",
+                "LC_Table_storage",
+                "LC_Table_storage",
+                "LC_Table_storage"
+            ]
+        },
+        {
+            "name": "Military t1 Small",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key6",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Tan_Small"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Ammo_low",
+                "LC_Table_Ammo_low",
+                "LC_Table_Ammo_low",
+                "LC_Table_Ammo_low",
+                "LC_Table_Ammo_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical"
+            ]
+        },
+        {
+            "name": "Military t1 Medium",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key6",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Tan_Medium"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_tier1",
+                "LC_Table_Ammo_low",
+                "LC_Table_Ammo_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical"
+            ]
+        },
+        {
+            "name": "Military t1 Large",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key6",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Tan_Large"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_tier1",
+                "LC_Table_Weapons_tier1",
+                "LC_Table_Ammo_low",
+                "LC_Table_Ammo_low",
+                "LC_Table_Ammo_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Magazines_low",
+                "LC_Table_Attachments",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical"
+            ]
+        },
+
+
+        {
+            "name": "Military t2 Small",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key4",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Green_Small"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Ammo_medium",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical",
+            ]
+        },
+        {
+            "name": "Military t2 Medium",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key4",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Green_Medium"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_tier2",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical"
+            ]
+        },
+        {
+            "name": "Military t2 Large",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "CJ_Key4",
+            "openable": 0,
+            "chest": [
+                "CJ_LootChest_Green_Large"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_Weapons_tier2",
+                "LC_Table_Weapons_tier2",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Ammo_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Magazines_medium",
+                "LC_Table_Attachments",
+                "LC_Table_Attachments",
+                "LC_Table_foodandmedical",
+                "LC_Table_foodandmedical"
+            ]
+        },
+
+
+
+
+
+
+        {
+            "name": "CHESTNAME",
+            "number": 1,
+            "pos": [
+                <!-- COORDS GO HERE --> "1682.076172 452.607544 14221.965820|-17 0 0", <!-- COORDS GO HERE --> 
+            ],
+            "keyclass": "KEYNAME",
+            "openable": 0,
+            "chest": [
+                "CHESTNAME"
+            ],
+            "lootrandomize": 0.0,
+            "light": 1,
+            "loot": [
+                "LC_Table_LOOTLISTNAME"
+            ]
+        }
+
+
+
+
+
+
+
+
+    ],
+
+
+
+
+
+
+
 Military
 
       "name": "Caixa VMC",

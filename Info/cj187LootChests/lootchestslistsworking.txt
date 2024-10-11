@@ -503,7 +503,7 @@
     {
       "name": "LC_Table_Weapons_tier1",
       "Loot": [
-        "LC_predefined_GLOCK19",
+        "LC_predefined_TLH_Weapon_Glock19",
         "LC_predefined_CZ75",
         "LC_predefined_Deagle",
         "LC_predefined_MAGNUM",
@@ -533,7 +533,7 @@
 	      "LC_predefined_AR15_9mm_Atacs_FG",
 	      "LC_predefined_AR15_9mm_Atacs_IX",
         "LC_predefined_TLH_Weapon_AK9",
-        "LC_predefined_TLH_Weapon_Glock19",
+        "LC_predefined_GLOCK19",
         "LC_predefined_TLH_Weapon_Mosin9130_White",
         "LC_predefined_TLH_Weapon_FAMAS_Tape"
       ]
@@ -693,16 +693,12 @@
         "Mag_Saiga_8Rnd",
         "Mag_AK74_30Rnd",
         "Mag_AK74_30Rnd_Black",
-        "Mag_AK74_30Rnd_Green",
         "Mag_CZ527_5rnd",
         "Mag_STANAG_30Rnd",
         "Mag_VSS_10Rnd",
         "Mag_VAL_20Rnd",
         "Mag_Vikhr_30Rnd",
         "Mag_AK101_30Rnd",
-        "Mag_AK101_30Rnd_Black",
-        "Mag_AK101_30Rnd_Green",
-        "Mag_AKM_Palm30Rnd_Green",
         "Mag_AKM_Palm30Rnd_Black",
         "Mag_AKM_Palm30Rnd",
         "Mag_AKM_30Rnd",
@@ -710,25 +706,25 @@
         "Mag_CZ550_10rnd",
         "Mag_M14_10Rnd",
         "Mag_CMAG_30Rnd",
-        "Mag_CMAG_30Rnd_Black",
-        "Mag_CMAG_30Rnd_Green",
         "Mag_CMAG_40Rnd",
-        "Mag_CMAG_40Rnd_Black",
-        "Mag_CMAG_40Rnd_Green",
         "TLH_Mag_9A91_20Rnd",
-        "Mag_Glock_30Rnd"
+        "Mag_Glock_30Rnd",
       ]
     },
     {
       "name": "LC_Table_Magazines_high",
       "Loot": [
         "Mag_FAL_20Rnd",
+        "Mag_FAL_20Rnd",
+        "Mag_SVD_10Rnd",
         "Mag_SVD_10Rnd",
         "Mag_AKM_Drum75Rnd_Black",
         "Mag_AKM_Drum75Rnd_Green",
-        "Mag_STANAG_60Rnd",
+        "Mag_M14_20Rnd",
         "Mag_M14_20Rnd",
         "TLH_Mag_MP510_30Rnd",
+        "TLH_Mag_MP510_30Rnd",
+        "TLH_Mag_Glock20_10Rnd",
         "TLH_Mag_Glock20_10Rnd",
         "Mag_CMAG_40Rnd_Black",
         "Mag_CMAG_40Rnd_Green",
@@ -825,6 +821,36 @@
         "LeatherSewingKit",
         "SewingKit",
         "WeaponCleaningKit"
+      ]
+    },
+    {
+      "name": "LC_Table_supplies_small",
+      "Loot": [
+        "BarbedWire",
+        "BarbedWire",
+        "MetalWire",
+        "MetalWire",
+        "NailBox",
+        "NailBox",
+        "NailBox",
+        "Netting",
+        "Netting",
+        "Rope",
+        "Rope",
+        "BearTrap",
+        "CodeLock"
+      ]
+    },
+    {
+      "name": "LC_Table_supplies_large",
+      "Loot": [
+        "MetalPlate",
+        "MetalPlate",
+        "BBP_Cement",
+        "BBP_Cement",
+        "BBP_Mortar_Mix",
+        "BBP_Mortar_Mix",
+        "BBP_Concrete_Brick_Pile",
       ]
     },
     {
@@ -926,6 +952,13 @@
         "mmg_solo_locker_purple_kit",
         "mmg_solo_locker_Green_kit",
         "mmg_solo_locker_medic_kit"
+        "Msp_MilitaryCrate_Brown",
+        "Msp_MilitaryCrate_Green",
+        "Msp_MilitaryCrate_Grey",
+        "Msp_MilitaryCrate_Olive",
+        "Msp_MilitaryCrate_Tan",
+        "Msp_AmmoCrate", 
+        "Msp_LargeAmmoBox"
       ]
     },
     {
