@@ -363,6 +363,14 @@
       "opticbattery": 0
     },
     {
+      "defname": "LC_predefined_M16A2",
+      "weapon": "M16A2",
+      "magazine": "Mag_STANAG_30Rnd",
+      "attachments": [""],
+      "optic": "",
+      "opticbattery": 0
+    },
+    {
       "defname": "LC_predefined_AR15",
       "weapon": "AR15",
       "magazine": "Mag_CMAG_30Rnd_Black",
@@ -541,6 +549,7 @@
     {
       "name": "LC_Table_Weapons_tier3",
       "Loot": [
+        "LC_predefined_M16A2",
         "LC_predefined_SKS",
         "LC_predefined_SKS_Black",
         "LC_predefined_SKS_Green",
