@@ -55,9 +55,12 @@
 
 <!-- ++++++++++++++++++++ 10/11/2024 Start ++++++++++++++++++++ -->
 
-## 10/11/2024
+## 10/11/2024.2
 
-- Fixed a bug causing MMG Armored Cabinets to despawn, due to incorrect lifetime (was 4 hours)
+* ***HOTFIX*** Fixed a bug causing MMG Armored Cabinets to despawn, due to incorrect lifetime (was 4 hours)
+
+## 10/11/2024.1*************
+
 - Removed the ability to attach camo nets to walls (to help prevent server lag)
 
 <!-- ++++++++++++++++++++ 10/11/2024 End ++++++++++++++++++++ -->
