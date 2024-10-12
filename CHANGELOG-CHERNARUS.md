@@ -58,6 +58,7 @@
 
 ## 10/12/2024
 
+- Fixed bug with Gvodzno air drop
 - Adjusted Airdrop loot
 - Airdrops will now spawn more zombies
 - Pilot zombies now have a chance to spawn an Airdrop flare
