@@ -14,10 +14,6 @@ Server files for the DayZedAndConfused DayZ servers
 
 # Contents:
 
-- [Bitterroot Files](Bitterroot/README.md)
-- [Namalsk Files](Namalsk/README.md)
-- [Code Snippets](Snippets/README.md)
-
 <!-- ------------------------------ Overview End ------------------------------ -->
 
 
