@@ -150,7 +150,7 @@
 <!-- CLOTHING_HEAD START -->
 
 	<type name="DirtBikeHelmet_Black">
-		<attachments chance="0.20">
+		<a chance="0.20">
 			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
@@ -2569,30 +2569,50 @@
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
+		<cargo chance="0.05">
+			<item name="AirdropFlare" />
+		</cargo>
 		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.0">
+		</attachments>
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
+		<cargo chance="0.05">
+			<item name="AirdropFlare" />
+		</cargo>
 		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.0">
+		</attachments>
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Grey">
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
 		<cargo preset="mixJoints" />
-		<attachments preset="hatsCommon_T1" />
+		<cargo chance="0.01">
+			<item name="AirdropFlare" />
+		</cargo>
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.0">
+		</attachments>
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Olive">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
+		<cargo chance="0.05">
+			<item name="AirdropFlare" />
+		</cargo>
 		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+		<attachments chance="0.50">
+			<item name="ZSh3PilotHelmet" chance="1.0">
+		</attachments>
 	</type>
 	<type name="ZmbM_Jacket_beige">
 		<cargo preset="foodCity" />

@@ -18,6 +18,8 @@
 
 ## To Do 
 
+- Make sure stuff will spawn in crates
+- Test helmets
 - Paragon Storage
 - Spawn cj187 NVGs to test and see where they should spawn
 - Double check cement mixers

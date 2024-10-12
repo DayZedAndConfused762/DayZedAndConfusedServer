@@ -12,6 +12,7 @@
 
 ## Contents:
 
+- [10/12/2024](#10/12/2024)
 - [10/11/2024](#10/11/2024)
 - [10/10/2024.2](#10/10/2024.2)
 - [10/10/2024.1](#10/10/2024.1)
@@ -52,6 +53,17 @@
 - [9/1/2024](#9/1/2024)
 
 <!-- ------------------------------ Overview End ------------------------------ -->
+
+<!-- ++++++++++++++++++++ 10/12/2024 Start ++++++++++++++++++++ -->
+
+## 10/12/2024
+
+- Adjusted Airdrop loot
+- Airdrops will now spawn more zombies
+- Pilot zombies now have a chance to spawn an Airdrop flare
+- Adjusted spawn locations and rates of some @Modular Vest System items
+
+<!-- ++++++++++++++++++++ 10/12/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/11/2024 Start ++++++++++++++++++++ -->
 

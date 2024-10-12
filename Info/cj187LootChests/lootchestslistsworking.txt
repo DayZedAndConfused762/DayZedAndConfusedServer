@@ -405,15 +405,15 @@
     {
       "defname": "LC_predefined_TLH_Weapon_AR10B",
       "weapon": "TLH_Weapon_AR10B",
-      "magazine": "TLH_Mag_9A91_20Rnd",
+      "magazine": "Mag_M14_20Rnd",
       "attachments": ["TLH_Attachment_AK_Handguard_Bakelite", "TLH_Attachment_AK_Stock_Bakelite"],
       "optic": "KobraOptic",
       "opticbattery": 0
     },
     {
-      "defname": "LC_predefined_TLH_Weapon_AK9",
+      "defname": "LC_predefined_TLH_Weapon_AK9",  
       "weapon": "TLH_Weapon_AK9",
-      "magazine": "Mag_M14_20Rnd",
+      "magazine": "TLH_Mag_9A91_20Rnd",
       "attachments": ["M9A1_Bayonet_White"],
       "optic": "KobraOptic",
       "opticbattery": 0
@@ -421,7 +421,7 @@
     {
       "defname": "LC_predefined_TLH_Weapon_FAL5000",
       "weapon": "TLH_Weapon_FAL5000",
-      "magazine": "Mag_M14_20Rnd",
+      "magazine": "Mag_FAL_20Rnd",
       "attachments": ["TLH_Attachment_FAL_WoodStock"],
       "optic": "",
       "opticbattery": 0
@@ -689,9 +689,8 @@
         "Mag_UMP_25Rnd",
         "Mag_MP5_15Rnd",
         "Mag_MP5_30Rnd",
-        "Mag_CMAG_10Rnd",
         "Mag_CMAG_10Rnd_Green",
-        "Mag_CMAG_10Rnd_Black",
+        "Mag_CMAG_20Rnd_Black",
         "TLH_Mag_9A91_20Rnd"
       ]
     },
@@ -708,7 +707,6 @@
         "Mag_VAL_20Rnd",
         "Mag_Vikhr_30Rnd",
         "Mag_AK101_30Rnd",
-        "Mag_AKM_Palm30Rnd_Black",
         "Mag_AKM_Palm30Rnd",
         "Mag_AKM_30Rnd",
         "Mag_AK74_45Rnd",
@@ -902,6 +900,21 @@
         "GorkaHelmetVisor",
         "Mich2001Helmet",
         "Ssh68Helmet",
+        "MVS_Helmet_01_Multicam",
+        "MVS_Helmet_01_Multicam_Tropic",
+        "MVS_Helmet_01_Multicam_Black",
+        "MVS_Helmet_02_Multicam",
+        "MVS_Helmet_02_Multicam_Tropic",
+        "MVS_Helmet_02_Multicam_Black",
+        "MVS_ArmoredHelmet_Multicam",
+        "MVS_ArmoredHelmet_Multicam_Tropic",
+        "MVS_ArmoredHelmet_Multicam_Black",
+        "MVS_OpsCore_Multicam",
+        "MVS_OpsCore_Multicam_Tropic",
+        "MVS_OpsCore_Multicam_Black",
+        "MVS_WarriorHelmet_Multicam",
+        "MVS_WarriorHelmet_Multicam_Tropic",
+        "MVS_WarriorHelmet_Multicam_Black"
       ]
     },
     {
@@ -958,40 +971,38 @@
         "CJ_Key9",
         "CJ_Key10",
         "CJ_Key11",
-        "CJ_Key102",
+        "CJ_Key12",
         "CJ_Key101",
-        "CJ_Key12"
+        "CJ_Key102",
+        "CJ_Key103",
+        "CJ_Key201",
+        "CJ_Key202",
+        "CJ_Key203",
+        "CJ_Key204"
       ]
     },
     {
       "name": "LC_Table_storage",
       "Loot": [
-        "mmg_equipment_locker_Green_kit",
-        "mmg_equipment_locker_Black_kit",
-        "mmg_equipment_locker_grey_kit",
-        "mmg_locker02_blue_kit",
-        "mmg_locker02_Green_kit",
-        "mmg_locker02_tan_kit",
         "mmg_gun_rack_kit_blue",
         "mmg_gun_rack_kit_Green",
         "mmg_gun_rack_kit_tan",
         "mmg_lockable_gun_rack_kit_grey",
         "mmg_gun_wall_kit_wooden",
         "mmg_gun_wall_kit_metal",
-        "mmg_solo_locker_yellow_kit",
-        "mmg_solo_locker_blue_kit",
-        "mmg_solo_locker_red_kit",
-        "mmg_solo_locker_grey_kit",
-        "mmg_solo_locker_purple_kit",
-        "mmg_solo_locker_Green_kit",
-        "mmg_solo_locker_medic_kit"
+        "mmg_crate04_olive",
+        "mmg_crate04_black",
+        "mmg_crate04_blue",
+        "mmg_crate04_yellow",
+        "mmg_crate04_red",
         "Msp_MilitaryCrate_Brown",
         "Msp_MilitaryCrate_Green",
         "Msp_MilitaryCrate_Grey",
         "Msp_MilitaryCrate_Olive",
         "Msp_MilitaryCrate_Tan",
         "Msp_AmmoCrate", 
-        "Msp_LargeAmmoBox"
+        "Msp_LargeAmmoBox",
+        "mmg_grenade_case_green"
       ]
     },
     {
@@ -1000,7 +1011,13 @@
         "PlateCarrierVest",
         "PlateCarrierVest_Black",
         "PlateCarrierVest_Green",
-        "PlateCarrierVest_Camo"
+        "PlateCarrierVest_Camo",
+        "MVS_Combat_Vest_Heavy_Multicam",
+        "MVS_Combat_Vest_Heavy_Multicam_Tropic",
+        "MVS_Combat_Vest_Heavy_Multicam_Black",
+        "MVS_Combat_Vest_Multicam",
+        "MVS_Combat_Vest_Multicam_Tropic",
+        "MVS_Combat_Vest_Multicam_Black"
       ]
     },
     {
@@ -1009,7 +1026,13 @@
         "PlateCarrierVest",
         "PlateCarrierVest_Black",
         "PlateCarrierVest_Green",
-        "PlateCarrierVest_Camo"
+        "PlateCarrierVest_Camo",
+        "MVS_Combat_Vest_Multicam",
+        "MVS_Combat_Vest_Multicam_Tropic",
+        "MVS_Combat_Vest_Multicam_Black",
+        "MVS_ChestRig_Multicam",
+        "MVS_ChestRig_Multicam_Tropic",
+        "MVS_ChestRig_Multicam_Black"
       ]
     },
     {
