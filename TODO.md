@@ -18,6 +18,9 @@
 
 ## To Do 
 
+- Add types file for paragon storage
+- Edit paragon storage settings, codelock to raid tents true
+- add paragon storage to basic territories
 - Setup lootcrate loot
 - BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
 - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
