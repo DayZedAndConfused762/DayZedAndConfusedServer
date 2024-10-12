@@ -86,7 +86,7 @@
       "defname": "LC_predefined_CZ527",
       "weapon": "CZ527",
       "magazine": "Mag_CZ527_5rnd",
-      "attachments": [""],
+      "attachments": ["HuntingOptic"],
       "optic": "",
       "opticbattery": 0
     },
@@ -94,7 +94,7 @@
       "defname": "LC_predefined_CZ527_Black",
       "weapon": "CZ527_Black",
       "magazine": "Mag_CZ527_5rnd",
-      "attachments": [""],
+      "attachments": ["HuntingOptic"],
       "optic": "",
       "opticbattery": 0
     },
@@ -102,7 +102,7 @@
       "defname": "LC_predefined_CZ527_Camo",
       "weapon": "CZ527_Camo",
       "magazine": "Mag_CZ527_5rnd",
-      "attachments": [""],
+      "attachments": ["HuntingOptic"],
       "optic": "",
       "opticbattery": 0
     },
@@ -110,7 +110,7 @@
       "defname": "LC_predefined_CZ527_Green",
       "weapon": "CZ527_Green",
       "magazine": "Mag_CZ527_5rnd",
-      "attachments": [""],
+      "attachments": ["HuntingOptic"],
       "optic": "",
       "opticbattery": 0
     },
@@ -198,7 +198,7 @@
       "defname": "LC_predefined_MOSIN_Black",
       "weapon": "Mosin9130_Black",
       "magazine": "",
-      "attachments": [""],
+      "attachments": ["Mosin_Compensator"],
       "optic": "PUScopeOptic",
       "opticbattery": 0
     },
@@ -206,7 +206,7 @@
       "defname": "LC_predefined_MOSIN_Camo",
       "weapon": "Mosin9130_Camo",
       "magazine": "",
-      "attachments": [""],
+      "attachments": ["Mosin_Compensator"],
       "optic": "PUScopeOptic",
       "opticbattery": 0
     },
@@ -214,7 +214,7 @@
       "defname": "LC_predefined_MOSIN_Green",
       "weapon": "Mosin9130_Green",
       "magazine": "",
-      "attachments": [""],
+      "attachments": ["Mosin_Compensator"],
       "optic": "PUScopeOptic",
       "opticbattery": 0
     },
@@ -271,7 +271,7 @@
       "weapon": "CZ75",
       "magazine": "Mag_CZ75_15Rnd",
       "attachments": ["TLRLight"],
-      "optic": "FNP45_MRDSOptic",
+      "optic": "",
       "opticbattery": 0
     },
     {
@@ -279,7 +279,7 @@
       "weapon": "Deagle",
       "magazine": "Mag_Deagle_9rnd",
       "attachments": [""],
-      "optic": "PistolOptic",
+      "optic": "",
       "opticbattery": 0
     },
     {
@@ -528,11 +528,7 @@
       "name": "LC_Table_Weapons_tier2",
       "Loot": [
         "LC_predefined_SKS",
-        "LC_predefined_SKS_Black",
-        "LC_predefined_SKS_Green",
         "LC_predefined_CZ527",
-        "LC_predefined_AKS74U",
-        "LC_predefined_AKS74U_Black",
         "LC_predefined_AKS74U_Green",
         "LC_predefined_UMP",
         "LC_predefined_MP5",
@@ -549,18 +545,16 @@
     {
       "name": "LC_Table_Weapons_tier3",
       "Loot": [
+        "LC_predefined_AK101",
+        "LC_predefined_M4A1",
         "LC_predefined_M16A2",
-        "LC_predefined_SKS",
         "LC_predefined_SKS_Black",
         "LC_predefined_SKS_Green",
-        "LC_predefined_AK74",
-        "LC_predefined_AK74_Black",
         "LC_predefined_AK74_Green",
         "LC_predefined_VSS",
         "LC_predefined_Saiga",
         "LC_predefined_MOSIN",
         "LC_predefined_MOSIN_Black",
-        "LC_predefined_MOSIN_Camo",
         "LC_predefined_MOSIN_Green",
         "LC_predefined_B95",
         "LC_predefined_B95_Black",
@@ -579,15 +573,15 @@
     {
       "name": "LC_Table_Weapons_tier4",
       "Loot": [
-        "LC_predefined_M4A1",
+
         "LC_predefined_M4A1_Black",
         "LC_predefined_M4A1_Green",
         "LC_predefined_AKM",
-        "LC_predefined_AK101",
         "LC_predefined_AK101_Black",
         "LC_predefined_AK101_Green",
         "LC_predefined_SVD",
         "LC_predefined_M14",
+        "LC_predefined_MOSIN_Camo",
         "LC_predefined_FAL",
         "LC_predefined_TLH_Weapon_MP510",
         "LC_predefined_TLH_Weapon_Glock18",
@@ -625,8 +619,6 @@
         "AmmoBox_45ACP_25rnd",
         "AmmoBox_357_20Rnd",
         "AmmoBox_357_20Rnd",
-        "AmmoBox_00buck_10rnd",
-        "AmmoBox_00buck_10rnd",
         "AmmoBox_12gaSlug_10Rnd",
         "AmmoBox_12gaSlug_10Rnd",
         "RDG2SmokeGrenade_White",
@@ -1003,10 +995,10 @@
         "Msp_AmmoCrate", 
         "Msp_LargeAmmoBox",
         "mmg_grenade_case_green",
-	"mmg_army_box_green",
-	"mmg_army_box_medic",
-	"mmg_army_box_medic_grey",
-	"mmg_military_case_green",
+	      "mmg_army_box_green",
+	      "mmg_army_box_medic",
+	      "mmg_army_box_medic_grey",
+        "mmg_military_case_green"
       ]
     },
     {
