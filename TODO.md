@@ -18,17 +18,16 @@
 
 ## To Do 
 
-- Make sure stuff will spawn in crates
+- Setup lootcrate loot
+- BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
+- MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
+- Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
+- Make sure stuff will fit in cj187 crates in crates
 - Test helmets
 - Paragon Storage
 - Spawn cj187 NVGs to test and see where they should spawn
-- Double check cement mixers
-- Figure out gas pumps from map edits
 - FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
 - Find a trader mod, and a no build zone mod
-- MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
-- Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
-- Dog Tags: https://steamcommunity.com/sharedfiles/filedetails/?id=2303554682
 - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
 - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
 - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
@@ -39,7 +38,7 @@
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 - Find spawn points for scvehicles
   - Figure out hood, trunk, and wheels for taxi
-- Setup lootcrate loot
+  - Add event and cfgeventspawns
 - add loot to protective cases
 - spawn and test, remove from types if non functional CattleProd StunBaton
 - Post server feature list to discord
@@ -103,7 +102,6 @@ https://cmsminecraftshop.com/en/console/
 
   - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
 
-  - BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
   - Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
   - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
   - Basic_Territories_Updated: https://steamcommunity.com/sharedfiles/filedetails/?id=2999534116
