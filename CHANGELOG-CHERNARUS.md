@@ -59,12 +59,13 @@
  
 ## 10/14/2024
 
+- Installed mod update: @MuchFrameWork
 - Installed mods:
   - @FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
     - add types and configure @FlipTransport
 - Added spawns for @ParagonStorage items
 - Adjusted spawns of other storage items to make room for @ParagoneStorage
-- Installed mod update: @MuchFrameWork
+- Added high tier loot crate to the prison, uses the blue key
 
 <!-- ++++++++++++++++++++ 10/14/2024 End ++++++++++++++++++++ -->
 
