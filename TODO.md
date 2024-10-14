@@ -18,7 +18,7 @@
 
 ## To Do 
 
-- Edit paragon storage settings, codelock to raid tents true
+- Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery
 - add paragon storage to basic territories
 - Setup lootcrate loot
 - BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
