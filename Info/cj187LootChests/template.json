@@ -4,62 +4,106 @@
     "MaxSpareMags": 2,
     "RandomQuantity": 0,
     "LootChestsLocations": [
-        {
-            "name": "LOCATION NAME",
-            "number": 1,
-            "pos": [
-                "1682.076172 452.607544 14221.965820|-17 0 0",
-                "1676.587280 452.601898 14216.867188|-107 0 0"
-            ],
-            "keyclass": "CJ_Key1",
-            "openable": 0,
-            "chest": [
-                "CJ_LootChest_Brown_Small",
-                "CJ_LootChest_Brown_Medium",
-                "CJ_LootChest_Brown_Large"
-            ],
-            "lootrandomize": 0.0,
-            "light": 1,
-            "loot": [
-                "LC_Table_Weapons_1",
-                "LC_Table_Weapons_2",
-                "NailBox",
-                "NailBox",
-                "NailBox",
-                "CombatKnife",
-                "Rag",
-                "HandSaw",
-                "Hammer"
-            ]
-        },
-        {
-          "name": "LOCATION NAME",
-          "number": 1,
-          "pos": [
-              "1682.076172 452.607544 14221.965820|-17 0 0",
-              "1676.587280 452.601898 14216.867188|-107 0 0"
-          ],
-          "keyclass": "CJ_Key1",
-          "openable": 0,
-          "chest": [
-              "CJ_LootChest_Brown_Small",
-              "CJ_LootChest_Brown_Medium",
-              "CJ_LootChest_Brown_Large"
-          ],
-          "lootrandomize": 0.0,
-          "light": 1,
-          "loot": [
-              "LC_Table_Weapons_1",
-              "LC_Table_Weapons_2",
-              "NailBox",
-              "NailBox",
-              "NailBox",
-              "CombatKnife",
-              "Rag",
-              "HandSaw",
-              "Hammer"
-          ]
-      }
+      {
+        "name": "Prison t4 Small",
+        "number": 1,
+        "pos": [
+          "2782.156006 29.940620 1233.913696|-3.506238, 0.003497, 0.052358",
+          "2787.695068 26.379278 1255.028320|-179.587326, 0.000000, -0.059448",
+          "2756.379883 26.427578 1296.247681|-156.175858, 0.017485, -0.041588",
+          "2802.210205 30.696804 1250.045410|43.432549 -0.041965 0.043172",
+          "2596.246582 21.681053 1312.843140|-124.131042 17.768734 16.001558",
+          "2720.362549 23.444878 1315.631592|-123.918297 0.017485 -0.011708"
+        ],
+        "keyclass": "CJ_Key8",
+        "openable": 0,
+        "chest": [
+            "CJ_LootChest_Camo_Small"
+        ],
+        "lootrandomize": 0.0,
+        "light": 1,
+        "loot": [
+            "LC_Table_Ammo_high",
+            "LC_Table_Ammo_high",
+            "LC_Table_Ammo_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Attachments",
+            "LC_Table_foodandmedical",
+            "LC_Table_foodandmedical",
+            "LC_Table_Explosives_low",
+            "LC_Table_Explosives_low",
+            "LC_Table_Explosives_low",
+            "LC_Table_Explosives_low",
+            "LC_Table_Explosives_high"
+        ]
+    },
+    {
+        "name": "Prison t4 Medium",
+        "number": 1,
+        "pos": [
+          "2768.764648 25.964140 1223.220947|-31.497490 -0.066444 -0.000000",
+          "2810.385010 27.061716 1244.795776|65.316811 -0.052456 0.024826",
+          "2794.898926 27.078505 1264.090576|-108.874664 0.055953 -0.019232",
+          "2745.196289 27.665581 1280.209106|-26.345745 0.055953 0.100282",
+          "2630.612549 23.722643 1307.854248|170.259293 0.000000 -0.000000",
+          "2775.082764 25.610180 1293.462280|87.058891 -2.140697 4.591702"
+        ],
+        "keyclass": "CJ_Key8",
+        "openable": 0,
+        "chest": [
+            "CJ_LootChest_Camo_Medium"
+        ],
+        "lootrandomize": 0.0,
+        "light": 1,
+        "loot": [
+            "LC_Table_Weapons_tier4",
+            "LC_Table_Ammo_high",
+            "LC_Table_Ammo_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Attachments",
+            "LC_Table_foodandmedical",
+            "LC_Table_foodandmedical",
+            "LC_Table_Explosives_low"
+        ]
+    },
+    {
+        "name": "Prison t4 Large",
+        "number": 1,
+        "pos": [
+          "2778.370850 29.944902 1230.760376|-145.155548 0.031474 -0.043051",
+          "2747.780029 27.339296 1293.096924|-9.272655 0.006994 0.044868",
+          "2794.882813 29.647867 1271.532593|-137.147369 0.031474 -0.035892",
+          "2791.394531 30.764322 1251.596558|132.961502 -0.041965 -0.040516",
+          "2584.626953 21.647116 1321.415283|-117.964317 0.000000 -0.000000",
+          "2660.829102 23.630367 1325.346191|-110.404266 0.031474 -0.012192"
+        ],
+        "keyclass": "CJ_Key8",
+        "openable": 0,
+        "chest": [
+            "CJ_LootChest_Camo_Large"
+        ],
+        "lootrandomize": 0.0,
+        "light": 1,
+        "loot": [
+            "LC_Table_Weapons_tier4",
+            "LC_Table_Weapons_tier4",
+            "LC_Table_Ammo_high",
+            "LC_Table_Ammo_high",
+            "LC_Table_Ammo_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Magazines_high",
+            "LC_Table_Attachments",
+            "LC_Table_Attachments",
+            "LC_Table_foodandmedical",
+            "LC_Table_foodandmedical",
+            "LC_Table_Explosives_low",
+            "LC_Table_Explosives_low"
+        ]
+    }
     ],
 
     "LCPredefinedWeapons": [
