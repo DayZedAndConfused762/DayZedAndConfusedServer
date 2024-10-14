@@ -61,6 +61,7 @@
 
 - Installed mods:
   - @FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
+    - add types and configure @FlipTransport
 - Added spawns for @ParagonStorage items
 - Adjusted spawns of other storage items to make room for @ParagoneStorage
 - Installed mod update: @MuchFrameWork
