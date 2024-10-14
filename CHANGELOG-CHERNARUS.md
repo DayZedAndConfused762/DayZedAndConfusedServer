@@ -66,7 +66,7 @@
 - Added spawns for @ParagonStorage items
 - Adjusted spawns of other storage items to make room for @ParagoneStorage
 - Added high tier loot crate to the prison, uses the blue key
-- Added three tiers of loot crates to military areas, using 
+- Added three tiers of loot crates to military areas, using green, dark green, and red keys
 
 <!-- ++++++++++++++++++++ 10/14/2024 End ++++++++++++++++++++ -->
 
