@@ -18,7 +18,6 @@
 
 ## To Do 
 
-- Add types file for paragon storage
 - Edit paragon storage settings, codelock to raid tents true
 - add paragon storage to basic territories
 - Setup lootcrate loot
@@ -27,10 +26,8 @@
 - Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
 - Make sure stuff will fit in cj187 crates in crates
 - Test helmets
-- Paragon Storage
 - Spawn cj187 NVGs to test and see where they should spawn
-- FlipTransport: https://steamcommunity.com/sharedfiles/filedetails/?id=1832448183
-- Find a trader mod, and a no build zone mod
+- Find a trader mod
 - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
 - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
 - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
