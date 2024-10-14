@@ -18,9 +18,9 @@
 
 ## To Do 
 
-- Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery
+- Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
 - add paragon storage to basic territories
-- Setup lootcrate loot
+- Setup more lootcrate loot
 - BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
 - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
 - Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
