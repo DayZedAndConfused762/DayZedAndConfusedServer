@@ -56,9 +56,11 @@
 <!-- ------------------------------ Overview End ------------------------------ -->
 
 <!-- ++++++++++++++++++++ 10/14/2024 Start ++++++++++++++++++++ -->
-
+ 
 ## 10/14/2024
 
+- Added spawns for @ParagonStorage items
+- Adjusted spawns of other storage items to make room for @ParagoneStorage
 - Installed mod update: @MuchFrameWork
 
 <!-- ++++++++++++++++++++ 10/14/2024 End ++++++++++++++++++++ -->
