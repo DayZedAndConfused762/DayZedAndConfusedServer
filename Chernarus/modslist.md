@@ -16,7 +16,6 @@ A ist of mods for the DayZedAndConfused DayZ Chernarus server.
 
 - @Airdrop-Upgraded: https://steamcommunity.com/sharedfiles/filedetails/?id=1870524790
 - @BaseBuildingPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1710977250
-- @Base Fortifications: https://steamcommunity.com/sharedfiles/filedetails/?id=1849039435
 - @BeautifulPotato_BagZ: https://steamcommunity.com/sharedfiles/filedetails/?id=3250360572
 - @Bed-Respawning: https://steamcommunity.com/sharedfiles/filedetails/?id=2111275052
 - @Bed-Respawning-MSP: https://steamcommunity.com/sharedfiles/filedetails/?id=2947905159
