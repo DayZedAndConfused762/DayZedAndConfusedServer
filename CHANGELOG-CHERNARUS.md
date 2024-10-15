@@ -65,7 +65,10 @@
 
 * POSTED *
 - Updated the server to 1.26.  New game content added in 1.26 will come soon!
-- Removed mods
+- Updated mods:
+ - @Expansion-Core
+ - @PvZmoD_CustomisableZombies
+- Removed mods:
  - @Sauwercrauds RolePlay Vehicles
  - @CJ187-RandomFuelpumps
  - @CJ187-SimpleSpawner
