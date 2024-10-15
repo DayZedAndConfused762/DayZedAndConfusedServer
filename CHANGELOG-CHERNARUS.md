@@ -61,6 +61,7 @@
 ## 10/15/2024 ******************************
 
 - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
+- Adjusted the fuel pumps
 
 <!-- ++++++++++++++++++++ 10/15/2024 End ++++++++++++++++++++ -->
 
