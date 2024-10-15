@@ -58,10 +58,18 @@
 
 <!-- ++++++++++++++++++++ 10/15/2024 Start ++++++++++++++++++++ -->
 
-## 10/15/2024 ******************************
+## 10/15/2024
 
 - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
 - Adjusted the fuel pumps
+
+* POSTED *
+- Updated the server to 1.26.  New game content added in 1.26 will come soon!
+- Removed mods
+ - @Sauwercrauds RolePlay Vehicles
+ - @CJ187-RandomFuelpumps
+ - @CJ187-SimpleSpawner
+* POSTED *
 
 <!-- ++++++++++++++++++++ 10/15/2024 End ++++++++++++++++++++ -->
 
