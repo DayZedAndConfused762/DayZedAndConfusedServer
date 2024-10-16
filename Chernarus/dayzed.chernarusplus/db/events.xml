@@ -1144,10 +1144,9 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="civiliansedan_taxi"/>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="CivilianSedan"/>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="CivilianSedan_Black"/>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="CivilianSedan_Wine"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Black"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="CivilianSedan_Wine"/>
         </children>
     </event>
     <event name="VehicleHatchback02">
@@ -1219,10 +1218,9 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="Sedan_02"/>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="Sedan_02_Grey"/>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="Sedan_02_Red"/>
-            <child lootmax="0" lootmin="0" max="5" min="2" type="sc_van"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Grey"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Red"/>
         </children>
     </event>
     <event name="VehicleTruck01">
