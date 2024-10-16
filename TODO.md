@@ -39,7 +39,6 @@
 - add snowy weather https://github.com/scalespeeder/DayZ-WASTELANDERs-Snow-Storm-Weather-File-For-PC-and-Console-Servers
 - Adjust pvz mod settings
 - Adjust expansion settings
-- Adjust food from respawning on sleeping bags
 - Check MMG armored cabinets to make sure they are working properly
 - Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
 - add paragon storage to basic territories
