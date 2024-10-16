@@ -59,13 +59,16 @@
 
 ## 10/16/2024
 
+- Fixed some typos in economy files
 - Added 1.26 cfgweather file
 - Added boat spots and ambient hen/fox spawns
 - Added spawnable types for new 1.26 items
 - Adjusted spawn rate of MREs
+- Added spawns for new 1.26 items
+- Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
 
 *POSTED*
-- Updates mod: BeautifulPotato_BagZ
+- Updates mod: BeautifulPotato_BagZ  (these bags have had their slots reduced)
 *POSTED*
 
 <!-- ++++++++++++++++++++ 10/15/2024 Start ++++++++++++++++++++ -->

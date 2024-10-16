@@ -18,6 +18,23 @@
 
 ## To Do 
 
+
+
+- add zombies:
+  - <type name="ZmbF_NurseFat_Winter">
+  - <type name="ZmbF_PatientOld_Winter">
+  - <type name="ZmbM_DoctorFat_Winter">
+  - <type name="ZmbM_Gamedev_Black">
+  - <type name="ZmbM_Gamedev_Blue">
+  - <type name="ZmbM_Gamedev_Gray">
+  - <type name="ZmbM_NBC_White">
+  - <type name="ZmbM_PatientSkinny_Winter">
+  - <type name="ZmbM_PatrolNormal_Winter">
+  - <type name="ZmbM_eastSoldier_Heavy_Navy">
+  - <type name="ZmbM_eastSoldier_normal_Navy">
+- Add to zombie loot:
+  - ScientificBriefcase
+  - ScientificBriefcaseKeys
 - remove bbp for dummies book from @tlh
 - add snowy weather https://github.com/scalespeeder/DayZ-WASTELANDERs-Snow-Storm-Weather-File-For-PC-and-Console-Servers
 - Adjust pvz mod settings
