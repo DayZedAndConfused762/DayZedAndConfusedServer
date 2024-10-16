@@ -21,17 +21,17 @@
 - Setup test server
 - Adjust pvz mod settings - download on test server to get the new config file
 - add zombies:
-  - <type name="ZmbF_NurseFat_Winter">
-  - <type name="ZmbF_PatientOld_Winter">
-  - <type name="ZmbM_DoctorFat_Winter">
-  - <type name="ZmbM_Gamedev_Black">
-  - <type name="ZmbM_Gamedev_Blue">
-  - <type name="ZmbM_Gamedev_Gray">
-  - <type name="ZmbM_NBC_White">
-  - <type name="ZmbM_PatientSkinny_Winter">
-  - <type name="ZmbM_PatrolNormal_Winter">
-  - <type name="ZmbM_eastSoldier_Heavy_Navy">
-  - <type name="ZmbM_eastSoldier_normal_Navy">
+  - type name="ZmbF_NurseFat_Winter"
+  - type name="ZmbF_PatientOld_Winter"
+  - type name="ZmbM_DoctorFat_Winter"
+  - type name="ZmbM_Gamedev_Black"
+  - type name="ZmbM_Gamedev_Blue"
+  - type name="ZmbM_Gamedev_Gray"
+  - type name="ZmbM_NBC_White"
+  - type name="ZmbM_PatientSkinny_Winter"
+  - type name="ZmbM_PatrolNormal_Winter"
+  - type name="ZmbM_eastSoldier_Heavy_Navy"
+  - type name="ZmbM_eastSoldier_normal_Navy"
 - Add to zombie loot:
   - ScientificBriefcase
   - ScientificBriefcaseKeys
