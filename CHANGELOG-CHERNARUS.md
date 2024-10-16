@@ -59,6 +59,8 @@
 
 ## 10/16/2024
 
+
+- Added spawnable types for new 1.26 items
 - Adjusted spawn rate of MREs
 
 *POSTED*
