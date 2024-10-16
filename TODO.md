@@ -19,7 +19,8 @@
 ## To Do 
 
 
-
+- Setup test server
+- Adjust pvz mod settings - download on test server to get the new config file
 - add zombies:
   - <type name="ZmbF_NurseFat_Winter">
   - <type name="ZmbF_PatientOld_Winter">
@@ -37,7 +38,6 @@
   - ScientificBriefcaseKeys
 - remove bbp for dummies book from @tlh
 - add snowy weather https://github.com/scalespeeder/DayZ-WASTELANDERs-Snow-Storm-Weather-File-For-PC-and-Console-Servers
-- Adjust pvz mod settings
 - Adjust expansion settings
 - Check MMG armored cabinets to make sure they are working properly
 - Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
