@@ -68,7 +68,7 @@
 - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
 
 *POSTED*
-- Updates mod: BeautifulPotato_BagZ  (these bags have had their slots reduced)
+- Updated mod: BeautifulPotato_BagZ  (these bags have had their slots reduced)
 *POSTED*
 
 <!-- ++++++++++++++++++++ 10/15/2024 Start ++++++++++++++++++++ -->
@@ -76,9 +76,7 @@
 ## 10/15/2024
 
 - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
-- Adjusted the fuel pumps
 - Update server messaging
-- Add 1.26 types to types file (not gone through yet)
 
 ==== below is all done ====
 
