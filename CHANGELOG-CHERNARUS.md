@@ -61,22 +61,25 @@
 
 ## 10/16/2024
 
-- Fixed some typos in economy files
-- Added 1.26 cfgweather file
-- Added boat spots and ambient hen/fox spawns
-- Added spawnable types for new 1.26 items
-- Adjusted spawn rate of MREs
-- Added spawns for new 1.26 items
-- Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
-- Removed spawns for the Base Building for Dummies book from @TLHItemPack, as it is not currently functioning
-- Adjust energy from respawning on sleeping bags, was incorrectly set at 50%, should now be closer to vanilla spawn values
+- Added in new 1.26 content:
+  - Fixed some typos in economy files
+  - Added 1.26 cfgweather file
+  - Added boat spots and ambient hen/fox spawns
+  - Added spawnable types for new 1.26 items
+  - Added spawns for new 1.26 items
+  - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
+- Adjusted spawn rates of some items:
+  - Lowered spawn rates of MREs
+  - Removed spawns for the Base Building for Dummies book from @TLHItemPack, as it is not currently functioning
+- Minor adjustments to loot crate loot
+- Adjust energy granted when  respawning on sleeping bags, was incorrectly set at 50%, should now be closer to vanilla spawn values
 - Adjust cfgignorelist.xml, various bandanas should now spawn
 - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
 - Update server messaging
 - Adjusted vehicle spawns to remove references to removed mod (taxi's and VW bus)
 - Increased lifetime of placed explosives and traps to 15 days
 - Added new dynamic event: Terrorist Aftermath
-- Minor adjustments to loot crate loot
+
 
 **************POSTED**************
 - Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
