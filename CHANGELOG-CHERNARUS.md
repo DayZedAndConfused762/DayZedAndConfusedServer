@@ -12,6 +12,7 @@
 
 ## Contents:
 
+- [10/16/2024](#10/16/2024)
 - [10/15/2024](#10//15/2024)
 - [10/14/2024](#10/14/2024)
 - [10/12/2024](#10/12/2024)
@@ -58,7 +59,7 @@
 
 ## 10/16/2024
 
-
+- Adjusted spawn rate of MREs
 
 *POSTED*
 - Updates mod: BeautifulPotato_BagZ
@@ -72,6 +73,8 @@
 - Adjusted the fuel pumps
 - Update server messaging
 - Add 1.26 types to types file (not gone through yet)
+
+==== below is all done ====
 
 * POSTED *
 - Updated the server to 1.26.  New game content added in 1.26 will come soon!
