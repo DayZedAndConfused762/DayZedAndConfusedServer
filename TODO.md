@@ -66,6 +66,7 @@
 - Post server feature list to discord
 - Add Bunker tags to bunker items in mapgroupprotos
 - Add bunker tags to items that will only spawn in bunker
+- Add darkness to bunker
 
 
 
