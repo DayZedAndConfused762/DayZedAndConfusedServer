@@ -67,6 +67,8 @@
 - Added spawns for new 1.26 items
 - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
 - Removed spawns for the Base Building for Dummies book from @TLHItemPack, as it is not currently functioning
+- Adjust food from respawning on sleeping bags
+- Adjust cfgignorelist.xml, various bandanas should now spawn
 
 *POSTED*
 - Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
