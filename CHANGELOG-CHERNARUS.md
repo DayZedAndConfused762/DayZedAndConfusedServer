@@ -73,6 +73,7 @@
 - Update server messaging
 - Adjusted vehicle spawns to remove references to removed mod (taxi's and VW bus)
 - Increased lifetime of placed explosives and traps to 15 days
+- Added new dynamic event: Terrorist Aftermath
 
 *POSTED*
 - Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
