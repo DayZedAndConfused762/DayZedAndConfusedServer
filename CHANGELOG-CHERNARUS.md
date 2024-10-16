@@ -59,7 +59,8 @@
 
 ## 10/16/2024
 
-
+- Added 1.26 cfgweather file
+- Added boat spots and ambient hen/fox spawns
 - Added spawnable types for new 1.26 items
 - Adjusted spawn rate of MREs
 
