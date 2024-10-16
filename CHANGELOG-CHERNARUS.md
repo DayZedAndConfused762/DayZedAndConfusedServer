@@ -72,6 +72,7 @@
 - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
 - Update server messaging
 - Adjusted vehicle spawns to remove references to removed mod (taxi's and VW bus)
+- Increased lifetime of placed explosives and traps to 15 days
 
 *POSTED*
 - Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
