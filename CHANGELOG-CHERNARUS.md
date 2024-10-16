@@ -69,6 +69,8 @@
 - Removed spawns for the Base Building for Dummies book from @TLHItemPack, as it is not currently functioning
 - Adjust energy from respawning on sleeping bags, was incorrectly set at 50%, should now be closer to vanilla spawn values
 - Adjust cfgignorelist.xml, various bandanas should now spawn
+- Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
+- Update server messaging
 
 *POSTED*
 - Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
@@ -78,12 +80,6 @@
 
 ## 10/15/2024
 
-- Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
-- Update server messaging
-
-==== below is all done ====
-
-* POSTED *
 - Updated the server to 1.26.  New game content added in 1.26 will come soon!
 - Updated mods:
  - @Expansion-Core
@@ -92,7 +88,6 @@
  - @Sauwercrauds RolePlay Vehicles
  - @CJ187-RandomFuelpumps
  - @CJ187-SimpleSpawner
-* POSTED *
 
 <!-- ++++++++++++++++++++ 10/15/2024 End ++++++++++++++++++++ -->
 
