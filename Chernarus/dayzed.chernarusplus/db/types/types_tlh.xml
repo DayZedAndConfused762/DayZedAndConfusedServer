@@ -176,9 +176,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Hunting"/>
-		<usage name="Farm"/>
-		<usage name="Prison"/>
+	<usage name="Prison"/>
         <usage name="Police"/>
     </type>
     <type name="TLH_Mag_MP510_30Rnd">
@@ -2211,7 +2209,7 @@
 		<usage name="Police"/>
     </type>	
     <type name="TLH_Weapon_Glock20_SF">
-        <nominal>18</nominal>
+        <nominal>6</nominal>
         <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2221,9 +2219,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="Hunting"/>
-        <usage name="Military"/>
         <usage name="Police"/>
+	<usage name="Prison"/>
     </type>	
     <type name="TLH_Weapon_M1911_Gold">
         <nominal>1</nominal>
@@ -2235,7 +2232,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-		<usage name="Prison"/>
+	<usage name="Prison"/>
     </type>	
 
 <!-- FIREARMS_PISTOLS END -->
