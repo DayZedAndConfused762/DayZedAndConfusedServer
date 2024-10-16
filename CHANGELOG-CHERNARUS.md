@@ -66,9 +66,10 @@
 - Adjusted spawn rate of MREs
 - Added spawns for new 1.26 items
 - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
+- Removed spawns for the Base Building for Dummies book from @TLHItemPack, as it is not currently functioning
 
 *POSTED*
-- Updated mod: BeautifulPotato_BagZ  (these bags have had their slots reduced)
+- Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
 *POSTED*
 
 <!-- ++++++++++++++++++++ 10/15/2024 Start ++++++++++++++++++++ -->
