@@ -62,6 +62,8 @@
 
 - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
 - Adjusted the fuel pumps
+- Update server messaging
+- Add 1.26 types to types file (not gone through yet)
 
 * POSTED *
 - Updated the server to 1.26.  New game content added in 1.26 will come soon!

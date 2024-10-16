@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- add snowy weather https://github.com/scalespeeder/DayZ-WASTELANDERs-Snow-Storm-Weather-File-For-PC-and-Console-Servers
 - Adjust pvz mod settings
 - Adjust expansion settings
 - Add 1.26 info to files see /info/1.26.txt
