@@ -57,6 +57,8 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+<!-- ++++++++++++++++++++ 10/16/2024 Start ++++++++++++++++++++ -->
+
 ## 10/16/2024
 
 - Fixed some typos in economy files
@@ -76,9 +78,11 @@
 - Added new dynamic event: Terrorist Aftermath
 - Minor adjustments to loot crate loot
 
-*POSTED*
+**************POSTED**************
 - Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
-*POSTED*
+**************POSTED**************
+
+<!-- ++++++++++++++++++++ 10/16/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/15/2024 Start ++++++++++++++++++++ -->
 
