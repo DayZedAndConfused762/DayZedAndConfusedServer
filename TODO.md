@@ -18,6 +18,10 @@
 
 ## To Do 
 
+- Adjust pvz mod settings
+- Adjust expansion settings
+- Add 1.26 info to files see /info/1.26.txt
+- Check my vanilla typs vs new typs for posslbe CE adjustments
 - Adjust food from respawning on sleeping bags
 - Check MMG armored cabinets to make sure they are working properly
 - Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
