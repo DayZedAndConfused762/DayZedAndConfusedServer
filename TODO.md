@@ -18,7 +18,7 @@
 
 ## To Do 
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
+
 - Setup test server
 - Adjust pvz mod settings - download on test server to get the new config file
 - add zombies:
@@ -43,6 +43,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
 - Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
 - add paragon storage to basic territories
 - Setup more lootcrate loot
+- https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
 - BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
 - MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
 - Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
