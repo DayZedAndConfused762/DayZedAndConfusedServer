@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- remove bbp for dummies book from @tlh
 - add snowy weather https://github.com/scalespeeder/DayZ-WASTELANDERs-Snow-Storm-Weather-File-For-PC-and-Console-Servers
 - Adjust pvz mod settings
 - Adjust expansion settings
