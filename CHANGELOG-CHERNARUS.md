@@ -62,6 +62,9 @@
 - Adjustments to CJ187 Loot Chests:
   - Changed one of the military crates from Green to Tan, and the key from Green to Yellow
   - Changed the color of the prison crates go Grey
+  - Added random hidden stashes
+- Update Config.cfg:
+  - serverNightTimeAcceleration = 4
 
 <!-- ++++++++++++++++++++ 10/17/2024 End ++++++++++++++++++++ -->
 
