@@ -57,22 +57,9 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
-<!-- ++++++++++++++++++++ 10/17/2024 Start ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ 10/17/Working Start ++++++++++++++++++++ -->
 
-- Adjustments to CJ187 Loot Chests:
-  - Changed one of the military crates from Green to Tan, and the key from Green to Yellow
-  - Changed the color of the prison crates go Grey
-  - Added random hidden stashes
-- Update Config.cfg:
-  - serverNightTimeAcceleration = 4
-- Add vehiclesparts tag to mapgroupprotos for Land_Repair_Center, Land_FuelStation_Build and Land_Workshop_FuelStation
-- Fixed an error relating to the drug car event and coca seeds
-
-<!-- ++++++++++++++++++++ 10/17/2024 End ++++++++++++++++++++ -->
-
-<!-- ++++++++++++++++++++ 10/16/2024 Start ++++++++++++++++++++ -->
-
-## 10/16/2024
+- Added new dynamic event: Terrorist Aftermath
 
 - Added in new 1.26 content:
   - Fixed some typos in economy files
@@ -81,22 +68,38 @@
   - Added spawnable types for new 1.26 items
   - Added spawns for new 1.26 items
   - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
-- Adjusted spawn rates of some items:
+
+- Adjustments to CJ187 Loot Chests:
+  - Changed one of the military crates from Green to Tan, and the key from Green to Yellow
+  - Changed the color of the prison crates go Grey
+  - Added random hidden stashes
+  - Minor adjustments to loot crate loot
+
+- Economy updates:
+  - Add vehiclesparts tag to mapgroupprotos for Land_Repair_Center, Land_FuelStation_Build and Land_Workshop_FuelStation
   - Lowered spawn rates of MREs
   - Removed spawns for the Base Building for Dummies book from @TLHItemPack, as it is not currently functioning
-- Minor adjustments to loot crate loot
-- Adjust energy granted when  respawning on sleeping bags, was incorrectly set at 50%, should now be closer to vanilla spawn values
-- Adjust cfgignorelist.xml, various bandanas should now spawn
-- Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
-- Update server messaging
-- Adjusted vehicle spawns to remove references to removed mod (taxi's and VW bus)
-- Increased lifetime of placed explosives and traps to 15 days
-- Added new dynamic event: Terrorist Aftermath
+  - Adjust cfgignorelist.xml, various bandanas should now spawn
+  - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
+  - Adjusted vehicle spawns to remove references to removed mod (taxi's and VW bus)
+
+- Bug fixes:
+  - Fixed an error relating to the drug car event and coca seeds
+  - Adjust energy granted when  respawning on sleeping bags, was incorrectly set at 50%, should now be closer to vanilla spawn values
+  - Increased lifetime of placed explosives and traps to 15 days
+
+- Update server configs:
+  - Config.cfg: serverNightTimeAcceleration = 4
+  - Update server messaging
 
 
-**************POSTED**************
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 10/16/2024 Start ++++++++++++++++++++ -->
+
+## 10/16/2024
+
 - Updated mod: @BeautifulPotato_BagZ  (these bags have had their slots reduced)
-**************POSTED**************
 
 <!-- ++++++++++++++++++++ 10/16/2024 End ++++++++++++++++++++ -->
 
