@@ -1283,10 +1283,6 @@
           ]
         },
         {
-          "name": "LC_Table_raid_low",
-          "Loot": ["Sledgehammer", "Hacksaw", "FirefighterAxe", "WoodAxe", "Crowbar", "Hammer", "Hatchet"]
-        },
-        {
           "name": "LC_Table_raid_high",
           "Loot": ["mmg_raidsaw", "mmg_raid_driver"]
         },
@@ -1294,22 +1290,46 @@
           "name": "LC_Table_tools",
           "Loot": [
             "Battery9V",
-            "Whetstone",
             "CanOpener",
-            "DuctTape",
-            "Rangefinder",
-            "SewingKit",
-            "MetalWire",
+            "Crowbar",
+            "FieldShovel",
+            "FirefighterAxe",
+            "Hacksaw",
             "Hammer",
             "HandSaw",
-            "Nailbox",
-            "Lockpick",
-            "Pliers",
             "Hatchet",
-            "CodeLock",
+            "Lockpick",
+            "LugWrench",
+            "MetalWire",
+            "Pickaxe",
+            "Pliers",
+            "Rangefinder",
+            "Screwdriver",
+            "Sledgehammer",
+            "WoodAxe",
+            "Wrench"
+          ]
+        },
+        {
+          "name": "LC_Table_repair",
+          "Loot": [
+		        "Blowtorch",
+            "DuctTape",
+		        "ElectronicRepairKit",
+            "EpoxyPutty",
             "LeatherSewingKit",
             "SewingKit",
-            "WeaponCleaningKit"
+		        "TireRepairKit",
+            "WeaponCleaningKit",
+            "Whetstone",
+            "CJ_ToolsRepairKit",
+            "CJ_WD40_Small",
+            "CJ_WD40_Large",
+            "CJ_Tireglue",
+            "CJ_Sewingspool_Red",
+            "CJ_Weaponoil",
+            "CJ_IsoTape",
+            "CJ_Isospray"
           ]
         },
         {
@@ -1331,6 +1351,16 @@
           ]
         },
         {
+          "name": "LC_Table_supplies_medium",
+          "Loot": [
+            "BBP_Cement",
+            "BBP_Cement",
+            "BBP_Mortar_Mix",
+            "BBP_Mortar_Mix",
+            "BBP_Concrete_Brick_Pile"
+          ]
+        },
+        {
           "name": "LC_Table_supplies_large",
           "Loot": [
             "MetalPlate",
@@ -1340,6 +1370,34 @@
             "BBP_Mortar_Mix",
             "BBP_Mortar_Mix",
             "BBP_Concrete_Brick_Pile"
+          ]
+        },
+        {
+          "name": "LC_Table_storage",
+          "Loot": [
+            "mmg_gun_rack_kit_blue",
+            "mmg_gun_rack_kit_Green",
+            "mmg_gun_rack_kit_tan",
+            "mmg_lockable_gun_rack_kit_grey",
+            "mmg_gun_wall_kit_wooden",
+            "mmg_gun_wall_kit_metal",
+            "mmg_crate04_olive",
+            "mmg_crate04_black",
+            "mmg_crate04_blue",
+            "mmg_crate04_yellow",
+            "mmg_crate04_red",
+            "Msp_MilitaryCrate_Brown",
+            "Msp_MilitaryCrate_Green",
+            "Msp_MilitaryCrate_Grey",
+            "Msp_MilitaryCrate_Olive",
+            "Msp_MilitaryCrate_Tan",
+            "Msp_AmmoCrate", 
+            "Msp_LargeAmmoBox",
+            "mmg_grenade_case_green",
+            "mmg_army_box_green",
+            "mmg_army_box_medic",
+            "mmg_army_box_medic_grey",
+            "mmg_military_case_green"
           ]
         },
         {
@@ -1436,34 +1494,6 @@
             "CJ_Key202",
             "CJ_Key203",
             "CJ_Key204"
-          ]
-        },
-        {
-          "name": "LC_Table_storage",
-          "Loot": [
-            "mmg_gun_rack_kit_blue",
-            "mmg_gun_rack_kit_Green",
-            "mmg_gun_rack_kit_tan",
-            "mmg_lockable_gun_rack_kit_grey",
-            "mmg_gun_wall_kit_wooden",
-            "mmg_gun_wall_kit_metal",
-            "mmg_crate04_olive",
-            "mmg_crate04_black",
-            "mmg_crate04_blue",
-            "mmg_crate04_yellow",
-            "mmg_crate04_red",
-            "Msp_MilitaryCrate_Brown",
-            "Msp_MilitaryCrate_Green",
-            "Msp_MilitaryCrate_Grey",
-            "Msp_MilitaryCrate_Olive",
-            "Msp_MilitaryCrate_Tan",
-            "Msp_AmmoCrate", 
-            "Msp_LargeAmmoBox",
-            "mmg_grenade_case_green",
-              "mmg_army_box_green",
-              "mmg_army_box_medic",
-              "mmg_army_box_medic_grey",
-            "mmg_military_case_green"
           ]
         },
         {
