@@ -20,7 +20,6 @@
 
 - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
 - More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- Add vehiclesparts tag to Land_Repair_Center, Land_FuelStation_Build
 - Setup test server
 - Adjust pvz mod settings - download on test server to get the new config file
 - add zombies:

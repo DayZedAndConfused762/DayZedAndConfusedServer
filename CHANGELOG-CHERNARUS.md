@@ -66,6 +66,7 @@
   - Added spawnable types for new 1.26 items
   - Added spawns for new 1.26 items
   - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
+  - Added snowy weather
 
 - Adjustments to CJ187 Loot Chests:
   - Added random hidden stashes
