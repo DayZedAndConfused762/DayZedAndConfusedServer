@@ -18,7 +18,7 @@
 
 ## To Do 
 
-
+- Add vehiclesparts tagg to Land_Repair_Center, Land_FuelStation_Build
 - Setup test server
 - Adjust pvz mod settings - download on test server to get the new config file
 - add zombies:
