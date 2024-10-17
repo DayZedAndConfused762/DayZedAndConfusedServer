@@ -57,6 +57,14 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+<!-- ++++++++++++++++++++ 10/17/2024 Start ++++++++++++++++++++ -->
+
+- Adjustments to CJ187 Loot Chests:
+  - Changed one of the military crates from Green to Tan, and the key from Green to Yellow
+  - Changed the color of the prison crates go Grey
+
+<!-- ++++++++++++++++++++ 10/17/2024 End ++++++++++++++++++++ -->
+
 <!-- ++++++++++++++++++++ 10/16/2024 Start ++++++++++++++++++++ -->
 
 ## 10/16/2024
