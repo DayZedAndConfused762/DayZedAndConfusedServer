@@ -12,6 +12,7 @@
 
 ## Contents:
 
+- [Working](#Working)
 - [10/16/2024](#10/16/2024)
 - [10/15/2024](#10//15/2024)
 - [10/14/2024](#10/14/2024)
@@ -57,10 +58,11 @@
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+## Working
+
 - Added new dynamic event: Terrorist Aftermath
 
 - Added in new 1.26 content:
-  - Fixed some typos in economy files
   - Added 1.26 cfgweather file
   - Added boat spanws
   - Added ambient hen/fox spawns
@@ -86,6 +88,7 @@
   - Lowered spawn rate of @TLH ZipLockBag
 
 - Bug fixes:
+  - Fixed some typos in economy files
   - Fixed an error relating to the drug car event and coca seeds
   - Adjust energy granted when  respawning on sleeping bags, was incorrectly set at 50%, should now be closer to vanilla spawn values
   - Increased lifetime of placed explosives and traps to 15 days
