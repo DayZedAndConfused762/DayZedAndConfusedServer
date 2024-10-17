@@ -62,8 +62,9 @@
 - Added in new 1.26 content:
   - Fixed some typos in economy files
   - Added 1.26 cfgweather file
-  - Added boat spots and ambient hen/fox spawns
-  - Added spawnable types for new 1.26 items
+  - Added boat spanws
+  - Added ambient hen/fox spawns
+  - Added spawnabletypes for new 1.26 items
   - Added spawns for new 1.26 items
   - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
   - Added snowy weather
@@ -81,6 +82,8 @@
   - Adjust cfgignorelist.xml, various bandanas should now spawn
   - Adjusted the amount of damage items can spawn with from "0.82" to "0.7"
   - Adjusted vehicle spawns to remove references to removed mod (taxi's and VW bus)
+  - Lowered spawn rate of @CJ187 cigarette packs
+  - Lowered spawn rate of @TLH ZipLockBag
 
 - Bug fixes:
   - Fixed an error relating to the drug car event and coca seeds
