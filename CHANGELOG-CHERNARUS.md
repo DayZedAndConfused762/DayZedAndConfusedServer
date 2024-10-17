@@ -17,10 +17,8 @@
 - [10/14/2024](#10/14/2024)
 - [10/12/2024](#10/12/2024)
 - [10/11/2024](#10/11/2024)
-- [10/10/2024.2](#10/10/2024.2)
-- [10/10/2024.1](#10/10/2024.1)
-- [10/9/2024.2](#10/9/2024.2)
-- [10/9/2024.1](#10/9/2024.1)
+- [10/10/2024](#10/10/2024)
+- [10/9/2024](#10/9/2024)
 - [10/8/2024](#10/8/2024)
 - [10/7/2024](#10/7/2024)
 - [10/6/2024](#10/6/2024)
@@ -57,7 +55,7 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
-<!-- ++++++++++++++++++++ 10/17/Working Start ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
 - Added new dynamic event: Terrorist Aftermath
 
@@ -70,9 +68,9 @@
   - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
 
 - Adjustments to CJ187 Loot Chests:
-  - Changed one of the military crates from Green to Tan, and the key from Green to Yellow
-  - Changed the color of the prison crates go Grey
   - Added random hidden stashes
+  - Changed one of the military crates from Green to Tan, and the key from Green to Yellow
+  - Changed the color of the prison crates to Grey
   - Minor adjustments to loot crate loot
 
 - Economy updates:
@@ -147,27 +145,21 @@
 
 <!-- ++++++++++++++++++++ 10/11/2024 Start ++++++++++++++++++++ -->
 
-## 10/11/2024.2
+## 10/11/2024
 
 * ***HOTFIX*** Fixed a bug causing MMG Armored Cabinets to despawn, due to incorrect lifetime (was 4 hours)
-
-## 10/11/2024.1*************
-
 - Removed the ability to attach camo nets to walls (to help prevent server lag)
 
 <!-- ++++++++++++++++++++ 10/11/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/10/2024 Start ++++++++++++++++++++ -->
 
-## 10/10/2024.2
+## 10/10/2024
 
 - Fixed a typo in @BeautifulBagz preventing Smersh bags from spawning
 - Fixed a typo in @MuchStuffPack preventing Msp_RifleSafe_Green_Kit from spawning
 - Removed air drops from Devil's Castle and the Prison, moved the Gvodzno air drop slightly
 - Lower drop rate of vg7bikes scorption jacket
-
-## 10/10/2024.1
-
 - Installed mods:
   - @Dogtags
 - Fixed typos in economy files: vg7 bikes spawnable types, cfgeconomycore, and cfgrandompresets
@@ -178,7 +170,7 @@
 
 <!-- ++++++++++++++++++++ 10/9/2024 Start ++++++++++++++++++++ -->
 
-## 10/9/2024.2
+## 10/9/2024
 
 - Added zombie spawns near NWAF Bunker - need to test
 - Removed vanilla NVG spawns
@@ -188,9 +180,6 @@
 - Added air drop flares to the loot pool
 - Adjusted drop rates of repair items
 - Adjust contents of first aid kits
-
-## 10/9/2024.1
-
 - Installed mods:
   - @CJ187-SimpleSpawner: https://steamcommunity.com/sharedfiles/filedetails/?id=2868802243
   - @CJ187-RandomFuelPumps: https://steamcommunity.com/sharedfiles/filedetails/?id=2868862030
