@@ -65,6 +65,7 @@
   - Added random hidden stashes
 - Update Config.cfg:
   - serverNightTimeAcceleration = 4
+- Add vehiclesparts tag to mapgroupprotos for Land_Repair_Center, Land_FuelStation_Build and Land_Workshop_FuelStation
 
 <!-- ++++++++++++++++++++ 10/17/2024 End ++++++++++++++++++++ -->
 
