@@ -66,6 +66,7 @@
 - Update Config.cfg:
   - serverNightTimeAcceleration = 4
 - Add vehiclesparts tag to mapgroupprotos for Land_Repair_Center, Land_FuelStation_Build and Land_Workshop_FuelStation
+- Fixed an error relating to the drug car event and coca seeds
 
 <!-- ++++++++++++++++++++ 10/17/2024 End ++++++++++++++++++++ -->
 
