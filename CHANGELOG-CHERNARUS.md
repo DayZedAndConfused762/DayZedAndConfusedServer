@@ -98,6 +98,7 @@
   - Lowered spawn rate of @CJ187 cigarette packs
   - Lowered spawn rate of @TLH ZipLockBag
   - Added types file for Dogtags, dog tag case will now spawn in military areas
+  - Added bunker usage tags to bunker buildings
 
 - Bug fixes:
   - Fixed some typos in economy files
