@@ -98,6 +98,7 @@
 - Bug fixes:
   - Fixed some typos in economy files
   - Fixed an error relating to the drug car event and coca seeds
+  - Fixed an error in cfgeconomycore file relating to boats
   - Adjust energy granted when  respawning on sleeping bags, was incorrectly set at 50%, should now be closer to vanilla spawn values
   - Increased lifetime of placed explosives and traps to 15 days
 
