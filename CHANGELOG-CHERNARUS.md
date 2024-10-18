@@ -67,8 +67,11 @@
 
 ## Working
 
-- Added new dynamic event: Terrorist Aftermath
-  - Twelve possible locations, one active at a time
+- Added new dynamic events:
+  - Terrorist Aftermath:
+    - 12 possible locations, one active at a time
+  - Military Roadblocks:
+    - 41 possible locations, two active at a time
 
 - Added in new 1.26 content:
   - Added 1.26 cfgweather file

@@ -2863,7 +2863,54 @@
 	<pos x="2723.932373046875" z="5375.19775390625" a="0" y="207.65438842773438" group="Event_Terrorist_Zelenogorsk"/>
 </event>
 
+<!-- Military Road Blocks Start -->
 
+	<event name="Static_Event_Military">
+		<zone smin="0" smax="0" dmin="4" dmax="8" r="20" />
+		<pos x="3196.157470703125" z="2189.46630859375" a="0" y="11.452454566955566" group="Event_Military_Balota"/>
+		<pos x="13388.900390625" z="10838.7998046875" a="0" y="8.812009811401367" group="Event_Military_Berenzino"/>
+		<pos x="12470.140625" z="13555.6708984375" a="0" y="99.10319519042969" group="Event_Military_Cernaya"/>
+		<pos x="7231.63427734375" z="3026.18603515625" a="0" y="30.351728439331055" group="Event_Military_Cherno"/>
+		<pos x="6793.16748046875" z="11242.9326171875" a="0" y="379.126953125" group="Event_Military_DevilsCastle"/>
+		<pos x="4943.00830078125" z="7865.521484375" a="0" y="335.0010986328125" group="Event_Military_Dichina"/>
+		<pos x="11456.33203125" z="6606.298828125" a="0" y="68.98654174804688" group="Event_Military_Dolina"/>
+		<pos x="3665.9580078125" z="4915.55517578125" a="0" y="249.06402587890625" group="Event_Military_Drozhino"/>
+		<pos x="10732.484375" z="10788.962890625" a="0" y="146.89450073242188" group="Event_Military_Dubrovka"/>
+		<pos x="2793.79248046875" z="4069.840576171875" a="0" y="274.7477722167969" group="Event_Military_Erbenka"/>
+		<pos x="8285.341796875" z="2408.85009765625" a="0" y="3.5001707077026367" group="Event_Military_Golova"/>
+		<pos x="10495.7197265625" z="9133.0732421875" a="0" y="178.6046142578125" group="Event_Military_Gorka"/>
+		<pos x="6846.66650390625" z="10108.72265625" a="0" y="341.5664367675781" group="Event_Military_Grishino"/>
+		<pos x="13568.59765625" z="11744.7001953125" a="0" y="34.04860305786133" group="Event_Military_Grubyeskaly"/>
+		<pos x="8181.52197265625" z="6781.3896484375" a="0" y="364.1651916503906" group="Event_Military_Guglovo"/>
+		<pos x="12930.4306640625" z="3780.17626953125" a="0" y="10.775886535644531" group="Event_Military_Kamyshovo"/>
+		<pos x="12153.681640625" z="11913.1962890625" a="0" y="116.12693786621094" group="Event_Military_Krasnostav"/>
+		<pos x="7647.8916015625" z="4930.0830078125" a="0" y="192.6104278564453" group="Event_Military_Mogilevka"/>
+		<pos x="11046.3681640625" z="5343.8720703125" a="0" y="276.7424011230469" group="Event_Military_Msta"/>
+		<pos x="5859.7255859375" z="4666.8583984375" a="0" y="139.57423400878906" group="Event_Military_Nadezhino"/>
+		<pos x="9538.0751953125" z="11795.0673828125" a="0" y="242.46978759765625" group="Event_Military_NovyLug"/>
+		<pos x="9191.1318359375" z="11097.9453125" a="0" y="265.62420654296875" group="Event_Military_NovyLug2"/>
+		<pos x="9942.94140625" z="5990.5947265625" a="0" y="285.1192932128906" group="Event_Military_PassOreshka"/>
+		<pos x="11359.7705078125" z="8334.0439453125" a="0" y="269.9561767578125" group="Event_Military_Polana"/>
+		<pos x="4937.50390625" z="5670.927734375" a="0" y="320.8413391113281" group="Event_Military_Pulkovo"/>
+		<pos x="9429.1123046875" z="3355.931640625" a="0" y="183.9447784423828" group="Event_Military_Pusta"/>
+		<pos x="3313.786865234375" z="7865.5458984375" a="0" y="307.5413513183594" group="Event_Military_Pustoshka"/>
+		<pos x="5596.9296875" z="12594.615234375" a="0" y="159.87229919433594" group="Event_Military_Ratnoe"/>
+		<pos x="11116.564453125" z="4093.708984375" a="0" y="304.60687255859375" group="Event_Military_Rog"/>
+		<pos x="7074.59326171875" z="12690.31640625" a="0" y="132.42311096191406" group="Event_Military_Severograd"/>
+		<pos x="9603.6357421875" z="7313.841796875" a="0" y="253.6671600341797" group="Event_Military_Shakhovka"/>
+		<pos x="2022.459228515625" z="11626.814453125" a="0" y="256.57891845703125" group="Event_Military_Sinystock"/>
+		<pos x="13395.2529296875" z="6606.31689453125" a="0" y="5.850717544555664" group="Event_Military_Solnichniy"/>
+		<pos x="4982.86474609375" z="14965.9931640625" a="0" y="476.0897521972656" group="Event_Military_StaryYar"/>
+		<pos x="9178.8720703125" z="13440.5048828125" a="0" y="85.13642120361328" group="Event_Military_Svergino"/>
+		<pos x="2980.140869140625" z="12654.7431640625" a="0" y="210.884521484375" group="Event_Military_Topolniki"/>
+		<pos x="13677.1708984375" z="13746.4560546875" a="0" y="5.933911323547363" group="Event_Military_Turovo"/>
+		<pos x="2117.728271484375" z="10776.53515625" a="0" y="266.8843994140625" group="Event_Military_Vavilovo"/>
+		<pos x="10058.234375" z="10362.044921875" a="0" y="152.6437225341797" group="Event_Military_VyshnayaDubrovka"/>
+		<pos x="6495.72412109375" z="6149.90087890625" a="0" y="322.6795959472656" group="Event_Military_Vyshnoye"/>
+		<pos x="2230.214599609375" z="4843.66748046875" a="0" y="210.73370361328125" group="Event_Military_Zelenogorsk"/>
+	</event>
+
+<!-- Military Road Blocks End -->
 
     <event name="VehicleTransitBus" />
     <event name="InfectedVillage" />
