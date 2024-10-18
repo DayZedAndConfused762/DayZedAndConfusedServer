@@ -18,9 +18,9 @@
 
 ## To Do 
 
+- Test connecx boxes for despawn issues
 - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
 - More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- Setup test server
 - Adjust pvz mod settings - download on test server to get the new config file
 - add zombies:
   - type name="ZmbF_NurseFat_Winter"
