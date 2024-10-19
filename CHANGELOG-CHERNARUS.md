@@ -66,7 +66,7 @@
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
 ## Working
-
+ 
 - Added new dynamic events:
   - Terrorist Aftermath:
     - 12 possible locations, one active at a time
@@ -81,6 +81,7 @@
   - Added spawns for new 1.26 items
   - Lowered spawns for some pre 1.26 items so the new stuff has room to spawn
   - Added snowy weather
+  - Added new zombies to spawnabletypes file
 
 - Adjustments to CJ187 Loot Chests:
   - Added random hidden stashes

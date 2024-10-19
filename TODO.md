@@ -18,10 +18,10 @@
 
 ## To Do 
 
-- Test connecx boxes for despawn issues
+- On the test server: 
+  - Adjust pvz mod settings - delete profiles folder then restart to get the new config file, edit github file and reupload
 - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
 - More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- Adjust pvz mod settings - download on test server to get the new config file
 - add zombies:
   - type name="ZmbF_NurseFat_Winter"
   - type name="ZmbF_PatientOld_Winter"

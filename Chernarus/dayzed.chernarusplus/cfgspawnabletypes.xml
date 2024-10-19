@@ -3582,21 +3582,73 @@
 
 <!-- INFECTED_SPECIAL START -->
 
-	<type name="ZmbM_Santa">
-		<attachments preset="SantaHat" />
+
+	<type name="ZmbF_NurseFat_Winter">
+		<cargo preset="toolsMedic" />
+		<cargo preset="mixJoints" />
+	</type>
+	<type name="ZmbF_PatientOld_Winter">
+		<cargo preset="toolsMedic" />
+		<cargo preset="mixJoints" />
+	</type>
+	<type name="ZmbM_DoctorFat_Winter">
+		<cargo preset="toolsMedic" />
+		<cargo preset="mixJoints" />
+		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbM_Gamedev_Black">
-        <cargo preset="foodCity" />
-        <cargo preset="toolsCity" />
-    </type>
-    <type name="ZmbM_Gamedev_Blue">
-        <cargo preset="foodCity" />
-        <cargo preset="toolsCity" />
-    </type>
-    <type name="ZmbM_Gamedev_Gray">
-        <cargo preset="foodCity" />
-        <cargo preset="toolsCity" />
-    </type>
+	</type>
+	<type name="ZmbM_Gamedev_Blue">
+	</type>
+	<type name="ZmbM_Gamedev_Gray">
+	</type>
+	<type name="ZmbM_NBC_White">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.01">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+		<cargo preset="mixKeysLow" />
+	</type>
+	<type name="ZmbM_PatientSkinny_Winter">
+		<cargo preset="toolsMedic" />
+		<cargo preset="mixJoints" />
+	</type>
+	<type name="ZmbM_PatrolNormal_Winter">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="mixKeysLow" />
+		<attachments preset="headtorches" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+		<cargo chance="0.01">
+			<item name="PunchedCard" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ZmbM_eastSoldier_Heavy_Navy">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="ammoArmy" />	
+		<cargo preset="mixKeysLow" />
+		<attachments preset="HeavyArmorArmy" />
+		<attachments preset="HeavyHelmetArmy" />
+		<cargo chance="0.05">
+			<item name="PunchedCard" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="ZmbM_eastSoldier_normal_Navy">
+		<cargo preset="foodArmy" />
+		<cargo preset="ammoArmy" />
+		<cargo preset="mixKeysLow" />
+		<attachments preset="HeavyArmorArmy" />
+		<attachments preset="headtorches" />
+		<attachments preset="hatsArmy" />
+		<attachments preset="bagsArmy" />
+		<attachments preset="vestsArmy" />
+		<cargo chance="0.01">
+			<item name="PunchedCard" chance="1.00" />
+		</cargo>
+	</type>
 
 <!-- INFECTED_SPECIAL END -->
 
