@@ -18,6 +18,8 @@
 
 ## To Do 
 
+- Fix cj187 crates:
+  - Position: <4131.550781, 372.866211, 10600.761719>
 - On the test server: 
   - Adjust pvz mod settings - delete profiles folder then restart to get the new config file, edit github file and reupload
 - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
