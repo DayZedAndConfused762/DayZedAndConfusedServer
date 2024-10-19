@@ -52,7 +52,6 @@
 - add loot to protective cases
 - spawn and test, remove from types if non functional CattleProd StunBaton
 - Post server feature list to discord
-- Add Bunker tags to bunker items in mapgroupprotos
 - Add bunker tags to items that will only spawn in bunker
 - Add darkness to bunker
 
