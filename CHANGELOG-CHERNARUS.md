@@ -69,6 +69,10 @@
   - Military Roadblocks:
     - 41 possible locations, two active at a time
 
+- Installed mods:
+ - @Dingo_Truck: 
+ - @MassManyItemPack:
+
 - Added in new 1.26 content:
   - Added 1.26 cfgweather file
   - Added boat spanws
