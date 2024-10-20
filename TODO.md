@@ -19,6 +19,7 @@
 ## To Do 
 
 - Create types and cfg spawnable files for MassManyItems and Dingo_TRuck
+- Find spawn points for dingo trucks.
 - Reinstall cj187 fuel pump mod to test if it works after msp update
 - Fix cj187 crates:
   - Position: <4131.550781, 372.866211, 10600.761719>
