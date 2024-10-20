@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- Reinstall cj187 fuel pump mod to test if it works after msp update
 - Fix cj187 crates:
   - Position: <4131.550781, 372.866211, 10600.761719>
   - One at NEAF  (12k/12k)
