@@ -88,7 +88,7 @@
   - Changed one of the military crates from Green to Tan, and the key from Green to Yellow
   - Changed the color of the prison crates to Grey
   - Minor adjustments to loot crate loot
-  - Removed ASK74U from chests as it was still causing a crash when adding attachments
+  - Removed ASK74U attachment from chests as it was still causing a crash when adding attachments
 
 - Economy updates:
   - Add vehiclesparts tag to mapgroupprotos for Land_Repair_Center, Land_FuelStation_Build and Land_Workshop_FuelStation
