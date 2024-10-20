@@ -22,7 +22,6 @@
 - Find spawn points for dingo trucks.
 - Reinstall cj187 fuel pump mod to test if it works after msp update
 - Fix cj187 crates:
-  - Position: <4131.550781, 372.866211, 10600.761719>
   - One at NEAF  (12k/12k)
 - On the test server: 
   - Adjust pvz mod settings - delete profiles folder then restart to get the new config file, edit github file and reupload

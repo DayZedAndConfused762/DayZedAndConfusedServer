@@ -89,6 +89,7 @@
   - Changed the color of the prison crates to Grey
   - Minor adjustments to loot crate loot
   - Removed ASK74U attachment from chests as it was still causing a crash when adding attachments
+  - Remove a chest location that was floating in the air "4131.550781 372.860565 10600.76171|0.000000 0.000000 0.000000"
 
 - Economy updates:
   - Add vehiclesparts tag to mapgroupprotos for Land_Repair_Center, Land_FuelStation_Build and Land_Workshop_FuelStation
