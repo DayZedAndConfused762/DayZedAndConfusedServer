@@ -68,6 +68,7 @@
     - 12 possible locations, one active at a time
   - Military Roadblocks:
     - 41 possible locations, two active at a time
+  - New terrorist zombie, this one is tough but worth it
 
 - Installed mods:
  - @Dingo_Truck: 
@@ -123,6 +124,7 @@
 - Updated mods:
  - @MuchStuffPack
  - @Much Framework
+ - @MRTsMREs - There is an issue with this mod which causes the texture of the items to not appear
 
 <!-- ++++++++++++++++++++ 10/20/2024 End ++++++++++++++++++++ -->
 

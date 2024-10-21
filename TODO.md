@@ -18,13 +18,17 @@
 
 ## To Do 
 
+
+- $$$$$$$$$$$$$$$$$$$$$$$$$$$ On the test server: $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+  - Adjust pvz mod settings - delete profiles folder then restart to get the new config file, edit github file and reupload
+- Aadd gamedev zombies to other infected events (police + ??)
+- Check for updates with MRTsMREs regarding missing textures  
+- Adjust loot in ScientificBriefcase
 - Create types and cfg spawnable files for MassManyItems and Dingo_TRuck
 - Find spawn points for dingo trucks.
 - Reinstall cj187 fuel pump mod to test if it works after msp update
 - Fix cj187 crates:
   - One at NEAF  (12k/12k)
-- On the test server: 
-  - Adjust pvz mod settings - delete profiles folder then restart to get the new config file, edit github file and reupload
 - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
 - More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
 - Add to zombie loot:

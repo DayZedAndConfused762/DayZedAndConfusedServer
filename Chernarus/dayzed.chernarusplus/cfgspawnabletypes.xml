@@ -1199,6 +1199,30 @@
 			<item name="TetracyclineAntibiotics" />
 		</cargo>
 	</type>
+	<type name="ScientificBriefcase">
+		<damage min="0.0" max="0.0" />
+		<cargo chance="1.0">
+			<item name="FilteringBottle" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="TetracyclineAntibiotics" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="ChelatingTablets" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="GPSReceiver" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Battery9V" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="AntiCheminjector" chance="1.0" />
+		</cargo>
+	</type>
 
 <!-- CONTAINERS_CARRIED END -->
 
@@ -3597,27 +3621,105 @@
 		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbM_Gamedev_Black">
+		<attachments chance="1.0">
+			<item name="MVS_Combat_Vest_ERDL" chance="0.3" />
+			<item name="MVS_Combat_Vest_Black" chance="0.3" />
+			<item name="MVS_Combat_Vest_Multicam_Black" chance="0.3" />
+			<item name="MVS_Combat_Vest_Heavy_Tan" chance="0.1" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="MVS_Helmet_01_Tan" chance="0.3" />
+			<item name="MVS_Helmet_02_Black" chance="0.3" />
+			<item name="MVS_ArmoredHelmet_Multicam_Black" chance="0.1" />
+			<item name="MVS_6B47_Helmet_Black" chance="0.3" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="CJ_NVG_ANVPVS7" chance="0.4" />
+			<item name="CJ_NVG_BCNVG21" chance="0.3" />
+			<item name="CJ_NVG_GPNVG18_Black" chance="0.1" />
+			<item name="CJ_NVG_GPNVG18_Tan" chance="0.2" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="CJ_MilBattery_Tan" chance="0.6" />
+			<item name="CJ_MilBattery_Black" chance="0.1" />
+			<item name="CJ_MilBattery_Green" chance="0.3" />
+		</attachments>
 		<cargo chance="0.2">
-			<item name="ScientificBriefcaseKeys" />
+			<item name="ScientificBriefcase" />
 		</cargo>
 		<cargo chance="0.2">
 			<item name="ScientificBriefcaseKeys" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
+		<attachments chance="1.0">
+			<item name="MVS_Combat_Vest_ERDL" chance="0.3" />
+			<item name="MVS_Combat_Vest_Black" chance="0.3" />
+			<item name="MVS_Combat_Vest_Multicam_Black" chance="0.3" />
+			<item name="MVS_Combat_Vest_Heavy_Tan" chance="0.1" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="MVS_Helmet_01_Tan" chance="0.3" />
+			<item name="MVS_Helmet_02_Black" chance="0.3" />
+			<item name="MVS_ArmoredHelmet_Multicam_Black" chance="0.1" />
+			<item name="MVS_6B47_Helmet_Black" chance="0.3" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="CJ_NVG_ANVPVS7" chance="0.4" />
+			<item name="CJ_NVG_BCNVG21" chance="0.3" />
+			<item name="CJ_NVG_GPNVG18_Black" chance="0.1" />
+			<item name="CJ_NVG_GPNVG18_Tan" chance="0.2" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="CJ_MilBattery_Tan" chance="0.6" />
+			<item name="CJ_MilBattery_Black" chance="0.1" />
+			<item name="CJ_MilBattery_Green" chance="0.3" />
+		</attachments>
 		<cargo chance="0.2">
-			<item name="ScientificBriefcaseKeys" />
+			<item name="ScientificBriefcase" />
 		</cargo>
 		<cargo chance="0.2">
 			<item name="ScientificBriefcaseKeys" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
+		<attachments chance="1.0">
+			<item name="MVS_Combat_Vest_ERDL" chance="0.3" />
+			<item name="MVS_Combat_Vest_Black" chance="0.3" />
+			<item name="MVS_Combat_Vest_Multicam_Black" chance="0.3" />
+			<item name="MVS_Combat_Vest_Heavy_Tan" chance="0.1" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="MVS_Helmet_01_Tan" chance="0.3" />
+			<item name="MVS_Helmet_02_Black" chance="0.3" />
+			<item name="MVS_ArmoredHelmet_Multicam_Black" chance="0.1" />
+			<item name="MVS_6B47_Helmet_Black" chance="0.3" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="CJ_NVG_ANVPVS7" chance="0.4" />
+			<item name="CJ_NVG_BCNVG21" chance="0.3" />
+			<item name="CJ_NVG_GPNVG18_Black" chance="0.1" />
+			<item name="CJ_NVG_GPNVG18_Tan" chance="0.2" />
+		</attachments>
+		<attachments chance="0.25">
+			<item name="CJ_MilBattery_Tan" chance="0.6" />
+			<item name="CJ_MilBattery_Black" chance="0.1" />
+			<item name="CJ_MilBattery_Green" chance="0.3" />
+		</attachments>
 		<cargo chance="0.2">
-			<item name="ScientificBriefcaseKeys" />
+			<item name="ScientificBriefcase" />
 		</cargo>
 		<cargo chance="0.2">
 			<item name="ScientificBriefcaseKeys" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_White">
