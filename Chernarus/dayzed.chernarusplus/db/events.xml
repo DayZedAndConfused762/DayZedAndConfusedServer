@@ -490,8 +490,9 @@
         <children>
             <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbF_PoliceWomanNormal"/>
             <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_PolicemanFat"/>
-            <child lootmax="5" lootmin="0" max="20" min="0" type="ZmbM_PolicemanSpecForce"/>
-            <child lootmax="5" lootmin="0" max="20" min="0" type="ZmbM_PolicemanSpecForce_Heavy"/>
+            <child lootmax="5" lootmin="0" max="10" min="0" type="ZmbM_Gamedev_Black"/>
+            <child lootmax="5" lootmin="0" max="15" min="0" type="ZmbM_PolicemanSpecForce"/>
+            <child lootmax="5" lootmin="0" max="15" min="0" type="ZmbM_PolicemanSpecForce_Heavy"/>
         </children>
     </event>
     <event name="InfectedPoliceHard">
@@ -508,8 +509,9 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="100" min="90" type="ZmbM_PolicemanSpecForce_Heavy"/>
+            <child lootmax="5" lootmin="0" max="100" min="80" type="ZmbM_PolicemanSpecForce_Heavy"/>
             <child lootmax="5" lootmin="0" max="10" min="0" type="ZmbM_PrisonerSkinny"/>
+            <child lootmax="5" lootmin="0" max="10" min="0" type="ZmbM_Gamedev_Black"/>
         </children>
     </event>
     <event name="InfectedPrisoner">
@@ -1717,7 +1719,7 @@
 </event>
 
 <event name="Static_Event_Terrorist">
-	<nominal>1</nominal>
+	<nominal>2</nominal>
 	<min>0</min>
 	<max>0</max>
 	<lifetime>1800</lifetime>
@@ -1738,7 +1740,7 @@
 <!-- Military Road Block Event Start -->
 
     <event name="Static_Event_Military">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>1800</lifetime>

@@ -19,9 +19,7 @@
 ## To Do 
 
 
-- $$$$$$$$$$$$$$$$$$$$$$$$$$$ On the test server: $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-  - Adjust pvz mod settings - delete profiles folder then restart to get the new config file, edit github file and reupload
-- Aadd gamedev zombies to other infected events (police + ??)
+
 - Check CE files for references to Medical and Hunter tags
 - Check for updates with MRTsMREs regarding missing textures  
 - Adjust loot in ScientificBriefcase

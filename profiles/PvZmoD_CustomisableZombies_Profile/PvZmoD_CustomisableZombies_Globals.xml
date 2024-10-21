@@ -85,8 +85,8 @@
  		<Attack_Stopped_Vehicles	Activated	 			= "1"/>	<!-- Integer [0 or 1] -->
 		<Attack_Stopped_Vehicles	Vehicle_Type_Resistance	= "DefaultCars:100,ExpansionVodnik:200,ExpansionBus:200"/>	<!-- (no spaces, look carefully at the line structure if you want to add vehicles) -->
 		<Attack_Stopped_Vehicles	Moving_Vehicles_Too		= "1"/>	<!-- Integer [0 or 1] -->
-		<Attack_Stopped_Vehicles	Damage_On_Structure		= "0.1"	/>	<!-- decimal [0.0 to infinite] -->
-		<Attack_Stopped_Vehicles	Damage_On_Attachments	= "0.1"	/>	<!-- decimal [0.0 to infinite] -->
+		<Attack_Stopped_Vehicles	Damage_On_Structure		= "0.01"	/>	<!-- decimal [0.0 to infinite] -->
+		<Attack_Stopped_Vehicles	Damage_On_Attachments	= "0.01"	/>	<!-- decimal [0.0 to infinite] -->
 		<Attack_Stopped_Vehicles	Attack_Speed_Factor		= "1.0"	/>	<!-- decimal [0.01 to 3.0] more than 3 will make no difference -->
 		<Attack_Stopped_Vehicles	Activate_Sounds	 		= "1"	/>	<!-- Integer [0 or 1] (deactivate if desync problems) -->
 		<Attack_Stopped_Vehicles	Player_Inside_Can_Be_Hit= "1"	/>	<!-- Integer [0 or 1] -->

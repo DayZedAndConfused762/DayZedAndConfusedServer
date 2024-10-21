@@ -65,9 +65,9 @@
  
 - Added new dynamic events:
   - Terrorist Aftermath:
-    - 12 possible locations, one active at a time
+    - 12 possible locations, 2 active at a time
   - Military Roadblocks:
-    - 41 possible locations, two active at a time
+    - 41 possible locations, 4 active at a time
   - New terrorist zombie, this one is tough but worth it
 
 - Installed mods:
