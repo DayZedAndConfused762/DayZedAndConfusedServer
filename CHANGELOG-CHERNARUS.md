@@ -63,6 +63,12 @@
 
 ## Working
  
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 10/21/2024 Start ++++++++++++++++++++ -->
+
+## 10/21/2024
+
 - Added new dynamic events:
   - Terrorist Aftermath:
     - 12 possible locations, 2 active at a time
@@ -73,6 +79,8 @@
 - Installed mods:
  - @Dingo_Truck: 
  - @MassManyItemPack:
+- Uninstalled mods:
+ - @MRTsMREs: mod looks like it was taken down
 
 - Added in new 1.26 content:
   - Added 1.26 cfgweather file
@@ -115,7 +123,7 @@
   - Config.cfg: serverNightTimeAcceleration = 4
   - Update server messaging
 
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ 10/21/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/20/2024 Start ++++++++++++++++++++ -->
 
