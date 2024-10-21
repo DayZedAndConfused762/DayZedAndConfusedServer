@@ -3654,7 +3654,7 @@
 		<cargo chance="0.2">
 			<item name="ScientificBriefcaseKeys" />
 		</cargo>
-		<cargo chance="0.30">
+		<cargo chance="1">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
 		<attachments chance="0.25">
@@ -3694,15 +3694,15 @@
 		<cargo chance="0.2">
 			<item name="ScientificBriefcaseKeys" />
 		</cargo>
-		<cargo chance="0.30">
+		<cargo chance="1">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
-		<cargo chance="0.25">
+		<attachments chance="0.25">
 			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
-		<cargo chance="0.25">
+		</attachments>
+		<attachments chance="0.25">
 			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
 		<attachments chance="1.0">
@@ -3734,15 +3734,15 @@
 		<cargo chance="0.2">
 			<item name="ScientificBriefcaseKeys" />
 		</cargo>
-		<cargo chance="0.30">
+		<cargo chance="1">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
-		<cargo chance="0.25">
+		<attachments chance="0.25">
 			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
-		<cargo chance="0.25">
+		</attachments>
+		<attachments chance="0.25">
 			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="ZmbM_NBC_White">
 		<cargo preset="ContaminatedCargo" />
