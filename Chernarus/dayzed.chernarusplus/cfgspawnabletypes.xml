@@ -49,6 +49,10 @@
 <!-- -->
 <!-- -->
 
+<type name="Grenade_ChemGas">
+		<damage min="0.60" max="0.99" />
+	</type>
+	
 <!-- ++++++++++ AMMUNITION START ++++++++++ -->
 
 	<type name="Ammo_40mm_Explosive">
@@ -1202,19 +1206,19 @@
 	<type name="ScientificBriefcase">
 		<damage min="0.0" max="0.0" />
 		<cargo chance="1.0">
-			<item name="FilteringBottle" />
+			<item name="FilteringBottle" chance="1.0"/>
 		</cargo>
 		<cargo chance="1.0">
-			<item name="TetracyclineAntibiotics" />
+			<item name="TetracyclineAntibiotics" chance="1.0" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="ChelatingTablets" />
+			<item name="ChelatingTablets" chance="1.0" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="GPSReceiver" />
+			<item name="GPSReceiver" chance="1.0" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Battery9V" />
+			<item name="Battery9V" chance="1.0" />
 		</cargo>
 		<cargo chance="0.25">
 			<item name="Grenade_ChemGas" chance="1.0" />
@@ -3653,6 +3657,12 @@
 		<cargo chance="0.30">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
+		<cargo chance="0.25">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
 		<attachments chance="1.0">
@@ -3687,6 +3697,12 @@
 		<cargo chance="0.30">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
+		<cargo chance="0.25">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
 		<attachments chance="1.0">
@@ -3720,6 +3736,12 @@
 		</cargo>
 		<cargo chance="0.30">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
+		<cargo chance="0.25">
+			<item name="Grenade_ChemGas" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_White">
