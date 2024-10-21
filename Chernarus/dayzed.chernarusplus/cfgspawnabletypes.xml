@@ -50,7 +50,7 @@
 <!-- -->
 
 <type name="Grenade_ChemGas">
-		<damage min="0.60" max="0.99" />
+		<damage min="0.77" max="0.99" />
 	</type>
 	
 <!-- ++++++++++ AMMUNITION START ++++++++++ -->
@@ -3657,12 +3657,12 @@
 		<cargo chance="0.30">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
-		<cargo chance="0.25">
+		<attachments chance="0.25">
 			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
-		<cargo chance="0.25">
+		</attachments>
+		<attachments chance="0.25">
 			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
+		</attachments>
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
 		<attachments chance="1.0">
