@@ -18,11 +18,6 @@
 
 ## To Do 
 
-
-
-- Check CE files for references to Medical and Hunter tags
-- Check for updates with MRTsMREs regarding missing textures  
-- Adjust loot in ScientificBriefcase
 - Create types and cfg spawnable files for MassManyItems and Dingo_TRuck
 - Find spawn points for dingo trucks.
 - Reinstall cj187 fuel pump mod to test if it works after msp update
@@ -30,10 +25,6 @@
   - One at NEAF  (12k/12k)
 - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
 - More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- Add to zombie loot:
-  - ScientificBriefcase
-  - ScientificBriefcaseKeys
-  - Add special loot to gamedev zombie
 - Check MMG armored cabinets to make sure they are working properly
 - Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
 - add paragon storage to basic territories

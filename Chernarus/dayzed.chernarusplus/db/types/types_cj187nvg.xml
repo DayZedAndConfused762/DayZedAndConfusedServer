@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-    <type name="CJ_MilBattery_Black">
+    <!--<type name="CJ_MilBattery_Black">
         <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -35,7 +35,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-    </type>
+    </type>-->
 
     <type name="CJ_NVG_TIG7">
         <nominal>1</nominal>
@@ -47,7 +47,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Hunting" />
+        <value name="Tier1" />
+        <value name="Tier2" />
     </type>
     <type name="CJ_NVG_ANPVS7">
         <nominal>1</nominal>
@@ -84,6 +86,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="CJ_NVG_ANPVS23">
         <nominal>1</nominal>
