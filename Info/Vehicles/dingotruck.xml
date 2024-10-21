@@ -1,1 +1,517 @@
-.
+<!-- EVENTS.XML -->
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="VehicleDingo_Spawn">
+        <nominal>8</nominal>
+        <min>5</min>
+        <max>11</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>0</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Dingo" />
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Dingo_CZ" />
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Dingo_CZ_Desert" />
+        </children>
+    </event>
+</events>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- CFGEVENTSPAWNS.XML -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eventposdef>  
+  <event name="VehicleKamaz_Spawn" >
+        <pos x="4836.8378919" z="10305.982422" a="275.906708" />
+        <pos x="4872.1596688" z="10167.662109" a="55.468719" />
+        <pos x="4839.3369145" z="10020.331055" a="119.360489" />
+        <pos x="5072.4643555" z="9822.7382810" a="322.267578" />
+        <pos x="5131.4111336" z="9749.6669920" a="0" />
+        <pos x="4625.8061528" z="9591.4492190" a="91.284721" />
+        <pos x="3647.578369"  z="8993.3066410" a="270.976105" />
+        <pos x="4562.398438" z="8227.261719" a="89.640213" />
+        <pos x="6259.103516" z="7847.455566" a="270.770691" />
+        <pos x="8260.600586" z="3081.730225" a="0" />
+        <pos x="13584.66503" z="11743.936523" a="0" />
+        <pos x="13594.86425" z="13795.438477" a="0" />
+        <pos x="7314.816895" z="3079.352051" a="0" />
+        <pos x="7315.635254" z="3098.711914" a="0" />
+    </event>
+</eventposdef>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- CFGSPAWNABLETYPES.XML -->
+
+	<type name="Dingo">
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1" chance="0.30" />
+		</attachments>
+    <attachments chance="1.00">
+			<item name="DingoDoors_Cargo2" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood" chance="0.50" />
+		</attachments>
+    <attachments chance="1.00">
+			<item name="DingoTrunk" chance="0.50" />
+		</attachments>
+	</type>
+	
+	<type name="Dingo_CZ">
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_CZ" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_CZ" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_CZ" chance="0.30" />
+		</attachments>
+    <attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_CZ" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_CZ" chance="0.50" />
+		</attachments>
+    <attachments chance="1.00">
+			<item name="DingoTrunk_CZ" chance="0.50" />
+		</attachments>
+	</type>
+
+	<type name="Dingo_CZ_Desert">
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoWheel_CZ_Desert" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Driver_CZ_Desert" chance="0.50" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_CoDriver_CZ_Desert" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoDoors_Cargo1_CZ_Desert" chance="0.30" />
+		</attachments>
+    <attachments chance="1.00">
+			<item name="DingoDoors_Cargo2_CZ_Desert" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="DingoHood_CZ_Desert" chance="0.50" />
+		</attachments>
+    <attachments chance="1.00">
+			<item name="DingoTrunk_CZ_Desert" chance="0.50" />
+		</attachments>
+	</type>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- TYPES.XML-->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <type name="Dingo">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_CZ">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="Dingo_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>3888000</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+</types>
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <type name="DingoDoors_Cargo1">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Cargo1_CZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Cargo1_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Cargo2">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Cargo2_CZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Cargo2_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_CoDriver">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_CoDriver_CZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_CoDriver_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Driver">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Driver_CZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoDoors_Driver_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoHood">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoHood_CZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoHood_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoTrunk">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoTrunk_CZ">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoTrunk_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoWheel">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+      <category name="vehiclesparts"/>
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoWheel_CZ_Desert">
+        <nominal>0</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="lootdispatch" />
+      <category name="vehiclesparts"/>
+        <usage name="Industrial" />
+        <tag name="floor" />
+    </type>
+    <type name="DingoWheel_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+    <type name="DingoWheel_CZ_Desert_Ruined">
+        <lifetime>1800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
+    </type>
+</types>
