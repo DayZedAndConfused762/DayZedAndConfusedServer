@@ -717,30 +717,6 @@
           "opticbattery": 0
         },
         {
-          "defname": "LC_predefined_AKS74U",
-          "weapon": "AKS74U",
-          "magazine": "Mag_AK74_30Rnd",
-          "attachments": [""],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_AKS74U_Black",
-          "weapon": "AKS74U_Black",
-          "magazine": "Mag_AK74_30Rnd_Black",
-          "attachments": [""],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_AKS74U_Green",
-          "weapon": "AKS74U_Green",
-          "magazine": "Mag_AK74_30Rnd_Gren",
-          "attachments": [""],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
           "defname": "LC_predefined_CZ527",
           "weapon": "CZ527",
           "magazine": "Mag_CZ527_5rnd",
@@ -1185,9 +1161,9 @@
         {
           "name": "LC_Table_Weapons_tier2",
           "Loot": [
+	    "LC_predefined_AK74_Black",
             "LC_predefined_SKS",
             "LC_predefined_CZ527",
-            "LC_predefined_AKS74U_Green",
             "LC_predefined_UMP",
             "LC_predefined_MP5",
               "LC_predefined_AR15",
