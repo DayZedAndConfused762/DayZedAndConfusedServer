@@ -49,7 +49,7 @@
 <!-- -->
 <!-- -->
 
-<type name="Grenade_ChemGas">
+	<type name="Grenade_ChemGas">
 		<damage min="0.77" max="0.99" />
 	</type>
 	
@@ -59,7 +59,10 @@
 		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="Ammo_40mm_POX">
-		<damage min="0.0" max="0.35" />
+		<damage min="0.70" max="0.99" />
+	</type>
+	<type name="Ammo_40mm_Chemgas">
+		<damage min="0.70" max="0.99" />
 	</type>
 
 <!-- ++++++++++ AMMUNITION END ++++++++++ -->
@@ -3637,32 +3640,53 @@
 			<item name="MVS_ArmoredHelmet_Multicam_Black" chance="0.1" />
 			<item name="MVS_6B47_Helmet_Black" chance="0.3" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.15">
 			<item name="CJ_NVG_ANVPVS7" chance="0.4" />
 			<item name="CJ_NVG_BCNVG21" chance="0.3" />
 			<item name="CJ_NVG_GPNVG18_Black" chance="0.1" />
 			<item name="CJ_NVG_GPNVG18_Tan" chance="0.2" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.15">
 			<item name="CJ_MilBattery_Tan" chance="0.6" />
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-		<cargo chance="0.2">
-			<item name="ScientificBriefcase" />
-		</cargo>
-		<cargo chance="0.2">
-			<item name="ScientificBriefcaseKeys" />
+		<cargo chance="0.10">
+			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<cargo chance="1">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
-		<attachments chance="0.25">
+		<attachments chance="0.1">
 			<item name="Grenade_ChemGas" chance="1.0" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.1">
 			<item name="Grenade_ChemGas" chance="1.0" />
 		</attachments>
+		<cargo chance="0.1">
+			<item name="FilteringBottle" chance="1.0"/>
+		</cargo>
+		<cargo chance="0.1">
+			<item name="TetracyclineAntibiotics" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="ChelatingTablets" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="GPSReceiver" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Battery9V" chance="1.0" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="AntiCheminjector" chance="1.0" />
+		</cargo>
+		<cargo chance="0.30">
+			<item name="M67Grenade" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
 		<attachments chance="1.0">
@@ -3688,21 +3712,42 @@
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-		<cargo chance="0.2">
-			<item name="ScientificBriefcase" />
-		</cargo>
-		<cargo chance="0.2">
-			<item name="ScientificBriefcaseKeys" />
+		<cargo chance="0.10">
+			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<cargo chance="1">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
-		<attachments chance="0.25">
+		<attachments chance="0.1">
 			<item name="Grenade_ChemGas" chance="1.0" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.1">
 			<item name="Grenade_ChemGas" chance="1.0" />
 		</attachments>
+		<cargo chance="0.1">
+			<item name="FilteringBottle" chance="1.0"/>
+		</cargo>
+		<cargo chance="0.1">
+			<item name="TetracyclineAntibiotics" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="ChelatingTablets" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="GPSReceiver" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Battery9V" chance="1.0" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="AntiCheminjector" chance="1.0" />
+		</cargo>
+		<cargo chance="0.11">
+			<item name="Plastic_Explosive" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
 		<attachments chance="1.0">
@@ -3728,21 +3773,42 @@
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-		<cargo chance="0.2">
-			<item name="ScientificBriefcase" />
-		</cargo>
-		<cargo chance="0.2">
-			<item name="ScientificBriefcaseKeys" />
+	<cargo chance="0.10">
+			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<cargo chance="1">
 			<item name="TLH_Collectable_Note_StrangeNote" chance="1.0" />
 		</cargo>
-		<attachments chance="0.25">
+		<attachments chance="0.1">
 			<item name="Grenade_ChemGas" chance="1.0" />
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="0.1">
 			<item name="Grenade_ChemGas" chance="1.0" />
 		</attachments>
+		<cargo chance="0.1">
+			<item name="FilteringBottle" chance="1.0"/>
+		</cargo>
+		<cargo chance="0.1">
+			<item name="TetracyclineAntibiotics" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="ChelatingTablets" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="GPSReceiver" chance="1.0" />
+		</cargo>
+		<cargo chance="0.1">
+			<item name="Battery9V" chance="1.0" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="Grenade_ChemGas" chance="1.0" />
+		</cargo>
+		<cargo chance="0.10">
+			<item name="AntiCheminjector" chance="1.0" />
+		</cargo>
+		<cargo chance="0.14">
+			<item name="LandMineTrap" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ZmbM_NBC_White">
 		<cargo preset="ContaminatedCargo" />
