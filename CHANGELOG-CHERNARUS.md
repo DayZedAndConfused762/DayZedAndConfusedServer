@@ -85,9 +85,10 @@
 
 - Installed mods:
   - @Dingo_Truck: 
-  - @MassManyItemPack:
+  - @MassManyItemOverhaul:
 - Uninstalled mods:
   - @MRTsMREs: mod looks like it was taken down
+  - @MassManyItemOverhaul as it was not working properly
 
 - Added in new 1.26 content:
   - Added 1.26 cfgweather file
