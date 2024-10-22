@@ -17,41 +17,39 @@
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
 ## To Do 
-  
-- Find spawn points for dingo trucks.
-- Reinstall cj187 fuel pump mod to test if it works after msp update
-- Fix cj187 crates:
-  - One at NEAF  (12k/12k)
-- RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
-- More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- Check MMG armored cabinets to make sure they are working properly
-- Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
-- add paragon storage to basic territories
-- Setup more lootcrate loot
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
-- MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
-- Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
-- Make sure stuff will fit in cj187 crates in crates
-- Test helmets
-- Spawn cj187 NVGs to test and see where they should spawn
-- Find a trader mod
-- @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
-- Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
-- Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
-- Figure out which UAZ needs a glow plug instead of a spark plug
-- Find more spawn points for Gunnertruck
-- Find spawn points for Kamaz trucks
-- Find spawn points for Kamaz Typhoon
-  - Add types.xml, event, cfgspawnable types and cfgeventspawns
-- Find spawn points for scvehicles
-  - Figure out hood, trunk, and wheels for taxi
-  - Add event and cfgeventspawns
-- add loot to protective cases
-- spawn and test, remove from types if non functional CattleProd StunBaton
+
 - Post server feature list to discord
-- Add bunker tags to items that will only spawn in bunker
-- Add darkness to bunker
+
+- Vehicles: 
+  - Find spawn points for dingo trucks.
+  - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
+  - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
+  - Figure out which UAZ needs a glow plug instead of a spark plug
+  - Find more spawn points for Gunnertruck
+  - Find spawn points for Kamaz trucks
+  - Find spawn points for Kamaz Typhoon
+  - Add types.xml, event, cfgspawnable types and cfgeventspawns
+
+- CJ187 crates:
+  - One at NEAF  (12k/12k)
+  - Setup more lootcrate loot
+  - Make sure stuff will fit in cj187 crates in crates
+
+- Storage:
+ - Check MMG armored cabinets to make sure they are working properly
+ - Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
+ - add paragon storage to basic territories
+
+- Items:
+  - Test helmets
+  - Spawn cj187 NVGs to test and see where they should spawn
+  - Find a trader mod
+  - add loot to protective cases
+  - spawn and test, remove from types if non functional CattleProd StunBaton
+  - Add bunker tags to items that will only spawn in bunker
+
+Bunker: 
+  - Add darkness to bunker
 
 
 
@@ -71,7 +69,6 @@ https://cmsminecraftshop.com/en/console/
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Book_StrangeDiary' will be ignored. (Type does not exist. (Typo?))
  7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Note_StrangeNote' will be ignored. (Type does not exist. (Typo?))
  15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
- 15:14:07.751 [CE][LootRespawner] (PRIDummy) :: Item [648] causing search overtime: "DP_CocaSeedsPack"
 
 - https://www.reddit.com/r/dayz/comments/142j5kd/pve_mod/
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
@@ -85,6 +82,14 @@ https://cmsminecraftshop.com/en/console/
 - dayzyourway.com
 
 - review mods for possible use:
+- - Reinstall cj187 fuel pump mod to test if it works after msp update
+- - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
+  - - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
+- More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
+- https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
+- BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
+- MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
+- Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
   - https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
   - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
