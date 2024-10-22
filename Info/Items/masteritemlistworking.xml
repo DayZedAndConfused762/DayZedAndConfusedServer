@@ -346,139 +346,41 @@ Item				                    Nominal		Category	Usage		Value		Mod                 
 "Msp_BaseballBat_Nailed"                Crafted                                         @MuchStuffPack
 "Msp_BaseballBat_BarbedWire"            Crafted                                         @MuchStuffPack
 "Msp_Sawblade"                          5           tools       Fa/I                    @MuchStuffPack
-"Msp_Greenhouse_Kit"                    1           tools       Fa/I
-"Msp_Greenhouse_Vanilla_Kit"            1           tools       Fa/I
-"Msp_Greenhouse_White_Kit"              1           tools       Fa/I
-"Msp_LargeAmmoBox"                      Crafted
-"Msp_AmericanAppleCrate"                Crafted
-"Msp_AppleCrate"                        Crafted
-"Msp_TackleBox"                         3           tools       C/V
-"Msp_TackleBox_Black"                   3           tools       C/V
-"Msp_CoolerBox"                         3           tools       C/V
-"Msp_CoolerBox_Black"                   3           tools       C/V
-"Msp_AmmoCrate"                         3           tools       Mi
-"Msp_MedievalChest"                     2           tools       Hi
-"Msp_PlasticCrate"                      7           tools       Fa/I
-"Msp_GrenadeBox"                        <!-- removed this, was unable to attach grenades -->
-"Msp_TreasureChest"                     2           tools       Hi
-"Msp_Basket_Rectangular"                3           tools       T/V
-"Msp_Basket_Wicker"                     3           tools       T/V
-"Msp_Safe"                              1           tools       I/T/V
-"Msp_Mailbox"                           7           tools       T/V
-"Msp_TrashCan"                          2           tools       Fa/I
 
-"Msp_MilitaryCrate_Brown"               1           tools       Mi
-"Msp_MilitaryCrate_Green"               1           tools       Mi
-"Msp_MilitaryCrate_Grey"                1           tools       Mi
-"Msp_MilitaryCrate_Olive"               1           tools       Mi
+Item				                    Nominal		Category	Usage		Value		Mod                             DE Loot
+"Msp_Greenhouse_Kit"                    1           tools       Fa/I                    @MuchStuffPack
+"Msp_Greenhouse_Vanilla_Kit"            1           tools       Fa/I                    @MuchStuffPack
+"Msp_Greenhouse_White_Kit"              1           tools       Fa/I                    @MuchStuffPack
+"Msp_LargeAmmoBox"                      Crafted                                         @MuchStuffPack
+"Msp_AmericanAppleCrate"                Crafted                                         @MuchStuffPack
+"Msp_AppleCrate"                        Crafted                                         @MuchStuffPack
+"Msp_TackleBox"                         3           tools       C/V                     @MuchStuffPack
+"Msp_TackleBox_Black"                   3           tools       C/V                     @MuchStuffPack
+"Msp_CoolerBox"                         3           tools       C/V                     @MuchStuffPack
+"Msp_CoolerBox_Black"                   3           tools       C/V                     @MuchStuffPack
+"Msp_AmmoCrate"                         3           tools       Mi                      @MuchStuffPack
+"Msp_MedievalChest"                     2           tools       Hi                      @MuchStuffPack
+"Msp_PlasticCrate"                      7           tools       Fa/I                    @MuchStuffPack
+"Msp_GrenadeBox"                  <!-- removed this, was unable to attach grenades -->  @MuchStuffPack
 
-"Msp_MilitaryCrate_Tan"
-1
-tools
-floor
-Military
+Item				                    Nominal		Category	Usage		Value		Mod                             DE Loot
+"Msp_TreasureChest"                     2           tools       Hi                      @MuchStuffPack
+"Msp_Basket_Rectangular"                3           tools       T/V                     @MuchStuffPack
+"Msp_Basket_Wicker"                     3           tools       T/V                     @MuchStuffPack
+"Msp_Safe"                              1           tools       I/T/V                   @MuchStuffPack
+"Msp_Mailbox"                           7           tools       T/V                     @MuchStuffPack
+"Msp_TrashCan"                          2           tools       Fa/I                    @MuchStuffPack
+"Msp_MilitaryCrate_Brown"               1           tools       Mi                      @MuchStuffPack
+"Msp_MilitaryCrate_Green"               1           tools       Mi                      @MuchStuffPack
+"Msp_MilitaryCrate_Grey"                1           tools       Mi                      @MuchStuffPack
+"Msp_MilitaryCrate_Olive"               1           tools       Mi                      @MuchStuffPack
+"Msp_MilitaryCrate_Tan"                 1           tools       Mi                      @MuchStuffPack
+"Msp_MedCase"                           4           containers  Me                      @MuchStuffPack
+"Msp_ParamedicBag_Red"                  1           containers  Me                      @MuchStuffPack
+"Msp_ParamedicBag_Green"                1           containers  Me                      @MuchStuffPack
+"Msp_ParamedicBag_Blue"                 1           containers  Me                      @MuchStuffPack
+"Msp_ParamedicBag_NBC"                  1           containers  Me                      @MuchStuffPack
 
-"Msp_MedCase"
-4
-containers"/>
-Medic"/>
-
-"Msp_ParamedicBag_Red"
-1
-
-
-
-
-
-
-
-containers"/>
-Medic"/>
-
-"Msp_ParamedicBag_Green"
-1
-
-
-
-
-
-
-
-containers"/>
-Medic"/>
-
-"Msp_ParamedicBag_Blue"
-1
-
-
-
-
-
-
-
-containers"/>
-Medic"/>
-
-"Msp_ParamedicBag_NBC"
-1
-
-
-
-
-
-
-
-containers"/>
-Medic"/>
-
-    <!-- Donation Barrels -->
-"Msp_Barrel_Donation"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Barrel_Donation_Ammo"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Barrel_Donation_Guns"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Barrel_Donation_Food"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Barrel_Donation_Medical"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Barrel_Donation_BloodONegative"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Static_Barrel_Donation"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Static_Barrel_Donation_Ammo"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Static_Barrel_Donation_Guns"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Static_Barrel_Donation_Food"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Static_Barrel_Donation_Medical"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Static_Barrel_Donation_BloodONegative"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
     <!-- Kits Buildings -->
 "Msp_Gazebo_Kit"
