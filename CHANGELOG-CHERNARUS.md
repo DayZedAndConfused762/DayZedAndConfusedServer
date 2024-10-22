@@ -66,6 +66,7 @@
 ## Working
 
 - Made some adjustments to the new terrorist zombie
+- Removed Mod: @TLH Item Pack
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 

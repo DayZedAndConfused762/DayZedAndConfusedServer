@@ -1035,117 +1035,12 @@
           "attachments": ["Ar15_Handguard", "Ar15_Buttstock_Atacs_IX"],
           "optic": "",
           "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_AR10B",
-          "weapon": "TLH_Weapon_AR10B",
-          "magazine": "Mag_M14_20Rnd",
-          "attachments": ["TLH_Attachment_AK_Handguard_Bakelite", "TLH_Attachment_AK_Stock_Bakelite"],
-          "optic": "KobraOptic",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_AK9",  
-          "weapon": "TLH_Weapon_AK9",
-          "magazine": "TLH_Mag_9A91_20Rnd",
-          "attachments": ["M9A1_Bayonet_White"],
-          "optic": "KobraOptic",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_FAL5000",
-          "weapon": "TLH_Weapon_FAL5000",
-          "magazine": "Mag_FAL_20Rnd",
-          "attachments": ["TLH_Attachment_FAL_WoodStock"],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_FAMAS_Tape",
-          "weapon": "TLH_Weapon_FAMAS_Tape",
-          "magazine": "Mag_FAMAS_25Rnd",
-          "attachments": [""],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_FAMAS_SawnOff_Tape",
-          "weapon": "TLH_Weapon_FAMAS_SawnOff_Tape",
-          "magazine": "Mag_FAMAS_25Rnd",
-          "attachments": [""],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_OTS12",
-          "weapon": "TLH_Weapon_OTS12",
-          "magazine": "Mag_Vikhr_30Rnd",
-          "attachments": ["TLH_Attachment_AK_Stock_OD"],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_DD192",
-          "weapon": "TLH_Weapon_DD192",
-          "magazine": "Mag_Glock_15Rnd",
-          "attachments": ["TLRLight"],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_DeltaElite",
-          "weapon": "TLH_Weapon_DeltaElite",
-          "magazine": "TLH_Mag_DeltaElite_9Rnd",
-          "attachments": ["TLRLight"],
-          "optic": "",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_Glock18",
-          "weapon": "TLH_Weapon_Glock18",
-          "magazine": "Mag_Glock_15Rnd",
-          "attachments": ["TLRLight"],
-          "optic": "FNP45_MRDSOptic",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_Glock19",
-          "weapon": "TLH_Weapon_Glock19",
-          "magazine": "Mag_Glock_15Rnd",
-          "attachments": ["TLRLight"],
-          "optic": "FNP45_MRDSOptic",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_Glock20_SF",
-          "weapon": "TLH_Weapon_Glock20_SF",
-          "magazine": "TLH_Mag_Glock20_10Rnd",
-          "attachments": ["TLRLight"],
-          "optic": "FNP45_MRDSOptic",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_Mosin9130_White",
-          "weapon": "TLH_Weapon_Mosin9130_White",
-          "magazine": "",
-          "attachments": ["Mosin_Compensator"],
-          "optic": "PUScopeOptic",
-          "opticbattery": 0
-        },
-        {
-          "defname": "LC_predefined_TLH_Weapon_MP510",
-          "weapon": "TLH_Weapon_MP510",
-          "magazine": "",
-          "attachments": ["MP5k_StockBttstck", "MP5_RailHndgrd", "MP5_Compensator"],
-          "optic": "M68Optic",
-          "opticbattery": 0
         }
       ],
       "LootCategories": [
         {
           "name": "LC_Table_Weapons_tier1",
           "Loot": [
-            "LC_predefined_TLH_Weapon_Glock19",
             "LC_predefined_CZ75",
             "LC_predefined_Deagle",
             "LC_predefined_MAGNUM",
@@ -1153,27 +1048,22 @@
             "LC_predefined_UMP",
             "LC_predefined_CZ61",
             "LC_predefined_MP5",
-              "LC_predefined_AR15",
-            "LC_predefined_TLH_Weapon_DD192",
-            "LC_predefined_TLH_Weapon_OTS12"
+              "LC_predefined_AR15"
           ]
         },
         {
           "name": "LC_Table_Weapons_tier2",
           "Loot": [
-	    "LC_predefined_AK74_Black",
+	          "LC_predefined_AK74_Black",
             "LC_predefined_SKS",
             "LC_predefined_CZ527",
             "LC_predefined_UMP",
             "LC_predefined_MP5",
-              "LC_predefined_AR15",
-              "LC_predefined_AR15_9mm_Atacs_AU",
-              "LC_predefined_AR15_9mm_Atacs_FG",
-              "LC_predefined_AR15_9mm_Atacs_IX",
-            "LC_predefined_TLH_Weapon_AK9",
-            "LC_predefined_GLOCK19",
-            "LC_predefined_TLH_Weapon_Mosin9130_White",
-            "LC_predefined_TLH_Weapon_FAMAS_Tape"
+            "LC_predefined_AR15",
+            "LC_predefined_AR15_9mm_Atacs_AU",
+            "LC_predefined_AR15_9mm_Atacs_FG",
+            "LC_predefined_AR15_9mm_Atacs_IX",
+            "LC_predefined_GLOCK19"
           ]
         },
         {
@@ -1197,11 +1087,7 @@
             "LC_predefined_ASVAL",
             "LC_predefined_WINCHESTER70",
             "LC_predefined_WINCHESTER70_Black",
-            "LC_predefined_WINCHESTER70_Green",
-            "LC_predefined_TLH_Weapon_FAL5000",
-            "LC_predefined_TLH_Weapon_AR10B",
-            "LC_predefined_TLH_Weapon_Glock20_SF",
-            "LC_predefined_TLH_Weapon_FAMAS_SawnOff_Tape"
+            "LC_predefined_WINCHESTER70_Green"
           ]
         },
         {
@@ -1216,10 +1102,7 @@
             "LC_predefined_SVD",
             "LC_predefined_M14",
             "LC_predefined_MOSIN_Camo",
-            "LC_predefined_FAL",
-            "LC_predefined_TLH_Weapon_MP510",
-            "LC_predefined_TLH_Weapon_Glock18",
-            "LC_predefined_TLH_Weapon_DeltaElite"
+            "LC_predefined_FAL"
           ]
         },
         {
@@ -1286,10 +1169,6 @@
             "AmmoBox_9x39AP_20Rnd",
             "AmmoBox_308Win_20Rnd",
             "AmmoBox_308WinTracer_20Rnd",
-            "TLH_AmmoBox_10x25mmAuto",
-            "TLH_Ammo_10x25mmAuto",
-            "TLH_AmmoBox_762x51mmDUDS",
-            "TLH_Ammo_762x51mmDUDS",
             "M18SmokeGrenade_Red",
             "M18SmokeGrenade_Green",
             "M18SmokeGrenade_Yellow",
@@ -1316,8 +1195,7 @@
             "Mag_MP5_15Rnd",
             "Mag_MP5_30Rnd",
             "Mag_CMAG_10Rnd_Green",
-            "Mag_CMAG_20Rnd_Black",
-            "TLH_Mag_9A91_20Rnd"
+            "Mag_CMAG_20Rnd_Black"
           ]
         },
         {
@@ -1340,7 +1218,6 @@
             "Mag_M14_10Rnd",
             "Mag_CMAG_30Rnd",
             "Mag_CMAG_40Rnd",
-            "TLH_Mag_9A91_20Rnd",
             "Mag_Glock_30Rnd"
           ]
         },
@@ -1355,14 +1232,8 @@
             "Mag_AKM_Drum75Rnd_Green",
             "Mag_M14_20Rnd",
             "Mag_M14_20Rnd",
-            "TLH_Mag_MP510_30Rnd",
-            "TLH_Mag_MP510_30Rnd",
-            "TLH_Mag_Glock20_10Rnd",
-            "TLH_Mag_Glock20_10Rnd",
             "Mag_CMAG_40Rnd_Black",
             "Mag_CMAG_40Rnd_Green",
-            "TLH_Mag_DeltaElite_9Rnd",
-            "TLH_Mag_STANAGCoupled_60Rnd",
             "Mag_Glock_50Rnd"
           ]
         },
