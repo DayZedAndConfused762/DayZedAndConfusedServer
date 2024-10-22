@@ -46,14 +46,9 @@
 				<item name="Chips" chance="0.05" />
 		</cargo>
 		<cargo chance="0.1" name="foodArmy">
-				<item name="SodaCan_Spite" chance="0.10" />
-				<item name="TacticalBaconCan" chance="0.10" />
-				<item name="Canteen" chance="0.10" />
-				<item name="MRTsMRE_Menu1" chance="0.05" />
-				<item name="MRTsMRE_Menu2" chance="0.05" />
-				<item name="MRTsMRE_Menu3" chance="0.05" />
-				<item name="TLH_Food_MRECrackers" chance="0.25" />
-				<item name="TLH_Drink_EmergencyDrinkingWater" chance="0.25" />
+				<item name="SodaCan_Spite" chance="0.30" />
+				<item name="TacticalBaconCan" chance="0.50" />
+				<item name="Canteen" chance="0.20" />
 		</cargo>
 		<cargo chance="0.15" name="toolsHermit">
 				<item name="WeaponCleaningKit" chance="0.10" />
@@ -269,12 +264,10 @@
 				<item name="CJ_Key101" chance="0.05" />
 				<item name="CJ_Key102" chance="0.05" />
 				<item name="CJ_Key103" chance="0.05" />
-				<item name="CJ_Key201" chance="0.04" />
-				<item name="CJ_Key202" chance="0.04" />
-				<item name="CJ_Key203" chance="0.04" />
-				<item name="CJ_Key204" chance="0.04" />
-				<item name="TLH_Tool_BunkerAccessCodes" chance="0.03" />
-				<item name="TLH_Tool_PunchedCard_MajorDegtayrev" chance="0.03" />
+				<item name="CJ_Key201" chance="0.05" />
+				<item name="CJ_Key202" chance="0.05" />
+				<item name="CJ_Key203" chance="0.05" />
+				<item name="CJ_Key204" chance="0.05" />
 		</cargo>
 		<cargo chance="0.01" name="mixKeysLow">
 				<item name="PunchedCard" chance="0.03" />
@@ -293,12 +286,10 @@
 				<item name="CJ_Key101" chance="0.05" />
 				<item name="CJ_Key102" chance="0.05" />
 				<item name="CJ_Key103" chance="0.05" />
-				<item name="CJ_Key201" chance="0.04" />
-				<item name="CJ_Key202" chance="0.04" />
-				<item name="CJ_Key203" chance="0.04" />
-				<item name="CJ_Key204" chance="0.04" />
-				<item name="TLH_Tool_BunkerAccessCodes" chance="0.03" />
-				<item name="TLH_Tool_PunchedCard_MajorDegtayrev" chance="0.03" />
+				<item name="CJ_Key201" chance="0.05" />
+				<item name="CJ_Key202" chance="0.05" />
+				<item name="CJ_Key203" chance="0.05" />
+				<item name="CJ_Key204" chance="0.05" />
 		</cargo>
 		<cargo chance="0.02" name="mixSeeds">
 				<item name="CP_CannabisSeedsPackSkunk" chance="0.10" />
@@ -503,7 +494,6 @@
 			<item name="MilitaryBeret_CDF" chance="0.07" />
 			<item name="ZSh3PilotHelmet" chance="0.10" />
 			<item name="BallisticHelmet_Green" chance="0.05" />
-			<item name="TLH_Helmet_MICH2000_Black" chance="0.05" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 			<item name="TacticalGoggles" chance="0.10" />
@@ -536,8 +526,7 @@
 		<attachments chance="1.00" name="HeavyHelmetArmy">
 			<item name="Ssh68Helmet" chance="0.35" />
 			<item name="BallisticHelmet_Black" chance="0.15" />
-			<item name="BallisticHelmet_UN" chance="0.30" />
-			<item name="TLH_Helmet_Gorka_White" chance="0.20" />
+			<item name="BallisticHelmet_UN" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
 			<item name="OfficerHat" chance="1.00" />
