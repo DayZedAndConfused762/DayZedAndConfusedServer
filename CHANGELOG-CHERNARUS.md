@@ -69,6 +69,8 @@
 
 ## 10/21/2024
 
+**** - HOTFIX: Put in a fix for the vanilla launcher requiring DLC to join ****
+
 - Added new dynamic events:
   - Terrorist Aftermath:
     - 12 possible locations, 2 active at a time
@@ -77,10 +79,10 @@
   - New terrorist zombie, this one is tough but worth it
 
 - Installed mods:
- - @Dingo_Truck: 
- - @MassManyItemPack:
+  - @Dingo_Truck: 
+  - @MassManyItemPack:
 - Uninstalled mods:
- - @MRTsMREs: mod looks like it was taken down
+  - @MRTsMREs: mod looks like it was taken down
 
 - Added in new 1.26 content:
   - Added 1.26 cfgweather file
