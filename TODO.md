@@ -20,6 +20,9 @@
 
 - Post server feature list to discord
 
+- Mods:
+  - Need to remove TLH Item pack, and remove references to it throughout the files (cfg spawnable types, economy core, random presets, cj187 loot crates)
+
 - Vehicles: 
   - Find spawn points for dingo trucks.
   - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
