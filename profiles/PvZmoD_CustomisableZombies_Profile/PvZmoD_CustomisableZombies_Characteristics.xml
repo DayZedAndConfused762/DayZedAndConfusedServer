@@ -1252,26 +1252,26 @@
 		<type name="ZmbM_Gamedev_Base">			<!-- Dean Hall -->						
         <Health_Points				Day="1500" 	Night="1500"/>	<!-- Strong Lvl 1500 -->
         <Resistance_to_Bullets		Day="1.0" 	Night="1.0"/> 	
-        <Resistance_to_Melees		Day="1.0" 	Night="1.0"/>
+        <Resistance_to_Melees		Day="0.25" 	Night="0.25"/>
         <Resistance_to_HeavyAttack	Day="0.5" 	Night="0.5"/> 	
         <Resistance_to_Vehicles		Day="1.0" 	Night="1.0"/> 	
         <Resistance_to_Explosions	Day="0.01" 	Night="0.01"/>	
 		<Resistance_to_Stun_Bullets	Day="0.6" 	Night="0.6"/>
-        <Resistance_to_HeadShots	Day="1.0" 	Night="1.0"/>
-		<Resist_to_Melee_HeadShots	Day="0.6" 	Night="0.6"/>
+        <Resistance_to_HeadShots	Day="0.5" 	Night="0.5"/>
+		<Resist_to_Melee_HeadShots	Day="0.25" 	Night="0.25"/>
 		<Special_HeadShot_Weapons	Day="1"		Night="1"/>
         <Move_Speed_Min				Day="0.0" 	Night="0.0"/>
 		<Move_Speed_Max				Day="2.5" 	Night="2.5"/>	<!-- Don't sprint -->
 		<Move_Speed_Adjust_Max		Day="0.2" 	Night="0.2"/>
 		<Animation_Type				Day="-9" 	Night="-9"/>
-        <Chance_To_Spawn_Crawling	Day="0.0" 	Night="0.0"/>
+        <Chance_To_Spawn_Crawling	Day="-1.0" 	Night="-1.0"/>	<!-- Never crawl -->
 		<Can_Dodge					Day="0" 	Night="0"/>
  		<Hit_Players_On_Obstacles 	Day="1"		Night="1"/>
  		<Immune_To_MultiHit 		Day="0"		Night="0"/>
  		<Attack_Speed 				Day="1.0"	Night="1.0"/>
 		<Ratio_Damage_Health		LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
 		<Ratio_Damage_Shock			LightAttack_NotBlocked="1.0" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="1.0" HeavyAttack_Blocked="0.5" NightRatio="1.0"/>
-		<Bleeding_Chance			LightAttack_NotBlocked="0.25" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.25" HeavyAttack_Blocked="0.1" NightRatio="1.5"/> <!-- More Bleeding chance -->
+		<Bleeding_Chance			LightAttack_NotBlocked="0.25" LightAttack_Blocked="0.0" HeavyAttack_NotBlocked="0.25" HeavyAttack_Blocked="0.1" NightRatio="1.0"/> <!-- More Bleeding chance -->
 		<Damage_Blood				LightAttack_NotBlocked="0" LightAttack_Blocked="0" HeavyAttack_NotBlocked="0" HeavyAttack_Blocked="0" NightRatio="1.0"/>
 		<Damage_Stamina				LightAttack_NotBlocked="50" LightAttack_Blocked="25" HeavyAttack_NotBlocked="50" HeavyAttack_Blocked="25" NightRatio="2.0"/> <!-- Drain Stamina -->
 		<Vision_Distance_Ratio		Day="1.0" Night="0.8" WithBloodyHands="0.5" WithSpecialMask="0.25" MinimumRatioDistance="0.1"/>
