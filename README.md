@@ -14,6 +14,12 @@ Server files for the DayZedAndConfused DayZ servers
 
 # Contents:
 
+## DayZed and Confused
+
+- Custom dynamic events
+- Custom bunkers
+- 
+
 <!-- ------------------------------ Overview End ------------------------------ -->
 
 
