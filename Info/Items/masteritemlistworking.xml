@@ -383,23 +383,8 @@ Item				                    Nominal		Category	Usage		Value		Mod                 
 
 
     <!-- Kits Buildings -->
-"Msp_Gazebo_Kit"
-2
+"Msp_Gazebo_Kit"                        2           tools       Fa/L
 
-
-
-
-
-
-
-tools
-floor
-Lunapark
-Farm
-
-"Msp_Gazebo"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_StoneFireplace_Kit"
 4
@@ -415,9 +400,7 @@ floor
 Village
 Farm
 
-"Msp_StoneFireplace"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_Stove_Kit"
 4
@@ -434,11 +417,7 @@ Industrial
 Town"/>
 Village"/>
 
-"Msp_Stove"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-    <!-- Fridges -->
 "Msp_MoskvaFridge_Blue_Kit"
 1
 
@@ -448,9 +427,7 @@ floor
 Town"/>
 Village"/>
 
-"Msp_MoskvaFridge_Blue"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_MoskvaFridge_Cream_Kit"
 1
@@ -461,9 +438,7 @@ floor
 Industrial
 Village"/>
 
-"Msp_MoskvaFridge_Cream"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_MoskvaFridge_Red_Kit"
 1
@@ -474,9 +449,7 @@ floor
 Industrial
 Town"/>
 
-"Msp_MoskvaFridge_Red"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_SovietOkaFridge_Kit"
 1
@@ -487,9 +460,7 @@ floor
 Town"/>
 Village"/>
 
-"Msp_SovietOkaFridge"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_SnowballFridge_Kit"
 1
@@ -499,9 +470,7 @@ tools
 floor
 Lunapark"/>
 
-"Msp_SnowballFridge"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
     <!-- Kits Storage -->
 "Msp_Mannequin_Kit"
@@ -520,13 +489,7 @@ Farm
 Town"/>
 Village"/>
 
-"Msp_Mannequin_Male"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Mannequin_Female"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_FishingRodsRack_Kit"
 2
@@ -542,9 +505,7 @@ floor
 Coast
 Farm
 
-"Msp_FishingRodsRack"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_Bookcase_Kit"
 2
@@ -560,9 +521,7 @@ floor
 Town"/>
 Village"/>
 
-"Msp_Bookcase"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_GunCabinet_Kit"
 2
@@ -578,9 +537,6 @@ floor
 Town"/>
 Village"/>
 
-"Msp_GunCabinet"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_DoubleGunRack_Kit"
 1
@@ -590,9 +546,6 @@ tools
 floor
 Military"/>
 
-"Msp_DoubleGunRack"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_GunRack_Kit"
 1
@@ -602,9 +555,6 @@ tools
 floor
 Military"/>
 
-"Msp_GunRack"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_Gunwall_Kit"
 1
@@ -614,9 +564,6 @@ tools
 floor
 Military"/>
 
-"Msp_Gunwall"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_MilitaryLocker_Kit"
 1
@@ -626,15 +573,13 @@ tools
 floor
 Military"/>
 
-"Msp_MilitaryLocker"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_StorageBox_Kit"
 2
 
 
-        <min>2</min>
+
 
 
 
@@ -644,9 +589,7 @@ floor
 Industrial
 Farm
 
-"Msp_StorageBox"
 
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "Msp_ToolsBench_Blue_Kit"
 1
