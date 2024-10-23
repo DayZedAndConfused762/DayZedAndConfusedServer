@@ -525,255 +525,44 @@ Item				        Nominal Category        Usage           Value		Mod              
 "Msp_Floatie_Unicorn_GreenRainbow"      0       clothes         C/I
 "Msp_Floatie_Unicorn_PurpleRainbow"     0       clothes         C/I
 "Msp_Floatie_Flamingo"                  0       clothes         C/I
-
-"Msp_Volleyball"
-3
-
-
-
-
-
-
-
-clothes
-Industrial
-Coast
-
-"Msp_KiddiePool_Kit"
-0
-clothes
-Industrial
-Coast
-
-"Msp_KiddiePool"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_KiddiePool_Pink_Kit"
-0
-clothes
-Industrial
-Coast
-
-"Msp_KiddiePool_Pink"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_KiddiePool_Yellow_Kit"
-0
-clothes
-Industrial
-Coast
-
-"Msp_KiddiePool_Yellow"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_VolleyballNet_Kit"
-2
-
-
-
-
-
-
-
-clothes
-Coast
-
-"Msp_VolleyballNet"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"Msp_Water_Gun"
-4
-
-
-        <min>2</min>
-
-
-
-
-weapons
-shelves
-Village
-Coast
-Tier1
-
-"Msp_Water_Gun_Mag"
-10
-
-
-        <min>2</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-
-
-weapons
-shelves
-Village
-Coast
-Tier1
-
-"Msp_FlipFlops_Black"
-3
-
-
-
-clothes
-Town
-Coast
-	</type> 
-"Msp_FlipFlops_White"
-3
-
-
-
-clothes
-Town
-Coast
-	</type>
-"Msp_FlipFlops_Blue"
-3
-
-
-
-clothes
-Town
-Coast
-	</type>
-"Msp_FlipFlops_Red"
-3
-
-
-
-clothes
-Town
-Coast
-	</type>
-"Msp_FlipFlops_Pink"
-3
-
-
-
-clothes
-Town
-Coast
-	</type>
-"Msp_FlipFlops_Purple"
-3
-
-
-
-clothes
-Town
-Coast
-	</type>
-"Msp_FlipFlops_Yellow"
-3
-
-
-
-clothes
-Town
-Coast
-
-
-
-
-
-    
-
-<!-- BEARDS START -->
-
-"MVS_Beard_01_Brown"
-0
-clothes
-Military
-
-"MVS_Beard_01_LightBrown"
-0
-clothes
-Military
-
-"MVS_Beard_01_Black"
-0
-clothes
-Military
-
-"MVS_Beard_01_Blonde"
-0
-clothes
-Military
-
-"MVS_Beard_01_White"
-0
-clothes
-Military
-
-"MVS_Beard_02_Brown"
-0
-clothes
-Military
-
-"MVS_Beard_02_LightBrown"
-0
-clothes
-Military
-
-"MVS_Beard_02_Black"
-0
-clothes
-Military
-
-"MVS_Beard_02_Blonde"
-0
-clothes
-Military
-
-"MVS_Beard_02_White"
-0
-clothes
-Military
-
-"MVS_Beard_03_Brown"
-0
-clothes
-Military
-
-"MVS_Beard_03_LightBrown"
-0
-clothes
-Military
-
-"MVS_Beard_03_Black"
-0
-clothes
-Military
-
-"MVS_Beard_03_Blonde"
-0
-clothes
-Military
-
-"MVS_Beard_03_White"
-0
-clothes
-Military
-
+"Msp_Volleyball"                        3       clothes         C/I
+"Msp_KiddiePool_Kit"                    0       clothes         C/I
+"Msp_KiddiePool_Pink_Kit"               0       clothes         C/I
+"Msp_KiddiePool_Yellow_Kit"             0       clothes         C/I
+"Msp_VolleyballNet_Kit"                 2       clothes         C
+"Msp_Water_Gun"                         4       weapons         C/V     1
+"Msp_Water_Gun_Mag"                     10      weapons         C/V     1
+"Msp_FlipFlops_Black"                   3       clothes         C/T
+"Msp_FlipFlops_White"                   3       clothes         C/T
+"Msp_FlipFlops_Blue"                    3       clothes         C/T
+"Msp_FlipFlops_Red"                     3       clothes         C/T
+"Msp_FlipFlops_Pink"                    3       clothes         C/T
+"Msp_FlipFlops_Purple"                  3       clothes         C/T
+"Msp_FlipFlops_Yellow"                  3       clothes         C/T
+
+
+"MVS_Beard_01_Brown"                    0       clothes
+"MVS_Beard_01_LightBrown"               0       clothes
+"MVS_Beard_01_Black"                    0       clothes
+"MVS_Beard_01_Blonde"                   0       clothes
+"MVS_Beard_01_White"                   0       clothes
+"MVS_Beard_02_Brown"                   0       clothes
+"MVS_Beard_02_LightBrown"                   0       clothes
+"MVS_Beard_02_Black"                   0       clothes
+"MVS_Beard_02_Blonde"                   0       clothes
+"MVS_Beard_02_White"                   0       clothes
+"MVS_Beard_03_Brown"                   0       clothes
+"MVS_Beard_03_LightBrown"                   0       clothes
+"MVS_Beard_03_Black"                   0       clothes
+"MVS_Beard_03_Blonde"                   0       clothes
+"MVS_Beard_03_White"                   0       clothes
 
 <!-- BEARDS END -->
 
 <!-- CANTEENS START -->
 
-"MVS_Canteen_OD"
+"MVS_Canteen_OD"                        1       food            Hu/Mi
 1
-
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
 
 food
 Military
@@ -782,24 +571,12 @@ Hunting
 "MVS_Canteen_Tan"
 1
 
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
-
 food
 Military
 Hunting
 
 "MVS_Canteen_Black"
 1
-
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
 
 food
 Military
@@ -808,24 +585,12 @@ Hunting
 "MVS_Canteen_Snow"
 1
 
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
-
 food
 Military
 Hunting
 
 "MVS_Canteen_ERDL"
 1
-
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
 
 food
 Military
@@ -834,12 +599,6 @@ Hunting
 "MVS_Canteen_Multicam"
 1
 
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
-
 food
 Military
 Hunting
@@ -847,24 +606,12 @@ Hunting
 "MVS_Canteen_Multicam_Tropic"
 1
 
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
-
 food
 Military
 Hunting
 
 "MVS_Canteen_Multicam_Black"
 1
-
-
-
-        <quantmin>10</quantmin>
-        <quantmax>90</quantmax>
-
 
 food
 Military
@@ -4194,7 +3941,7 @@ Military
 "Paragon_BigSafe_Grey"
 
 
-	</type>
+
 "Paragon_BigSafe_Rainbow"
 
 
@@ -4218,7 +3965,7 @@ Military
 "Paragon_Container_Blue"
 
 
-	</type>
+
 "Paragon_Container_Red"
 
 
@@ -4394,7 +4141,7 @@ Military
 "Paragon_MiliCrate_Green"
 
 
-		</type>
+	
 "Paragon_MiliCrate_Blue"
 
 
@@ -4550,119 +4297,119 @@ Military
 "Paragon_Wood_Crate"
 
 
-	</type>
+
 "Paragon_PlanterBox"
 
 
-	</type>
+
 "Paragon_GreenHouse"
 
 
-	</type>
+
 "Paragon_LargeGreenHouse"
 
 
-	</type>
+
 "Paragon_Adoor_Black"
 
 
-	</type>
+
 "Paragon_Adoor_Gold"
 
 
-	</type>
+
 "Paragon_Adoor_Green"
 
 
-	</type>
+
 "Paragon_Adoor_Blue"
 
 
-	</type>
+
 "Paragon_Adoor_Rainbow"
 
 
-	</type>
+
 "Paragon_Rdoor_Black"
 
 
-	</type>
+
 "Paragon_Rdoor_Green"
 
 
-	</type>
+
 "Paragon_GearStandC_B"
 
 
-	</type>
+
 "Paragon_GearStandC_G"
 
 
-	</type>
+
 "Paragon_GearStandC_C"
 
 
-	</type>
+
 "Paragon_Compound_Gate"
 
 
-	</type>
+
 "Paragon_Compound_Wall"
 
 
-	</type>
+
 "Paragon_BigTent_Black"
 
 
-	</type>
+
 "Paragon_BigTent_Green"
 
 
-	</type>
+
 "Paragon_BigTent_White"
 
 
-	</type>
+
 "Paragon_Bdoor"
 
 
-	</type>
+
 "Paragon_WaterBarrel_Blue"
 
 
-	</type>
+
 "Paragon_WaterBarrel_Black"
 
 
-	</type>
+
 "Paragon_WaterBarrel_Yellow"
 
 
-	</type>
+
 "Paragon_WaterBarrel_Red"
 
 
-	</type>
+
 "Paragon_Dumpster"
 
 
-	</type>
+
 "Paragon_Dumpster_Static"
 
 
-	</type>
+
 "Paragon_GraffitiCan"
 
 
-	</type>
+
 "Paragon_GraffitiCan_Static"
 
 
-	</type>
+
 "Paragon_TrashCan"
 
 
-	</type>
+
 "Paragon_TrashCan_Static"
 
 
@@ -5020,7 +4767,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_GunCase_Cherry"
 0
 
@@ -5065,7 +4812,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_DGunCase_Cherry"
 0
 
@@ -5107,7 +4854,7 @@ tools
 
 
 Military
-	</type>
+
 "StorageBox_GunWall_Green"
 1
 
@@ -5151,7 +4898,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Locker_Green"
 0
 
@@ -5196,7 +4943,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Locker_Red"
 0
 
@@ -5241,7 +4988,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_MetalRack_Black"
 2
 
@@ -5286,7 +5033,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_HotDog_Cart"
 2
 
@@ -5328,7 +5075,7 @@ tools
 
 
 Military
-	</type>
+
 "StorageBox_Mcabinet_Green"
 1
 
@@ -5370,7 +5117,7 @@ tools
 
 
 Industrial
-	</type>
+
 "StorageBox_Mlocker_Tan"
 1
 
@@ -5412,7 +5159,7 @@ tools
 
 
 Police
-	</type>
+
 "StorageBox_Safe_Black"
 0
 
@@ -5457,7 +5204,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Safe_Blue"
 0
 
@@ -5502,7 +5249,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Safe_Rainbow"
 0
 
@@ -5517,7 +5264,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_SmallSafe_Black"
 0
 
@@ -5562,7 +5309,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_SmallSafe_Blue"
 0
 
@@ -5607,7 +5354,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_SmallSafe_Rainbow"
 0
 
@@ -5652,7 +5399,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_BigSafe_Rainbow"
 0
 
@@ -5667,7 +5414,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_ToolB_Black"
 1
 
@@ -5712,7 +5459,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_ToolB_Blue"
 1
 
@@ -5757,7 +5504,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Pallet_Black"
 2
 
@@ -5802,7 +5549,7 @@ tools
 
 Industrial
 Military
-	</type>
+
 "StorageBox_HeliPad"
 0
 
@@ -5847,7 +5594,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_MiliCrate_Tan"
 0
 
@@ -5892,7 +5639,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Fridge_Black"
 1
 
@@ -5939,7 +5686,7 @@ tools
 
 Industrial
 Coast
-	</type>
+
 "StorageBox_Container_Grey"
 1
 
@@ -5984,7 +5731,7 @@ tools
 
 Industrial
 Military
-	</type>
+
 "StorageBox_Container_Blue"
 1
 
@@ -5999,7 +5746,7 @@ tools
 
 Industrial
 Police
-	</type>
+
 "StorageBox_Container_Red"
 1
 
@@ -6028,7 +5775,7 @@ tools
 
 
 Lunapark
-	</type>
+
 "StorageBox_P_GreenHouse"
 1
 
@@ -6043,7 +5790,7 @@ tools
 
 Town
 Farm
-	</type>
+
 "StorageBox_LargeGreenHouse"
 1
 
@@ -6058,7 +5805,7 @@ tools
 
 Town
 Farm
-	</type>
+
 "StorageBox_Adoor_Black"
 0
 
@@ -6073,7 +5820,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Adoor_Gold"
 0
 
@@ -6088,7 +5835,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Adoor_Green"
 0
 
@@ -6103,7 +5850,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Adoor_Blue"
 0
 
@@ -6118,7 +5865,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Adoor_Rainbow"
 0
 
@@ -6133,7 +5880,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Rdoor_Black"
 0
 
@@ -6148,7 +5895,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Rdoor_Green"
 0
 
@@ -6163,7 +5910,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_GearStandC_B"
 1
 
@@ -6178,7 +5925,7 @@ tools
 
 Village
 Town
-	</type>
+
 "StorageBox_GearStandC_G"
 1
 
@@ -6193,7 +5940,7 @@ tools
 
 Village
 Town
-	</type>
+
 "StorageBox_GearStandC_C"
 1
 
@@ -6208,7 +5955,7 @@ tools
 
 Village
 Town
-	</type>
+
 "StorageBox_Compound_Gate"
 0
 
@@ -6223,7 +5970,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Compound_Wall"
 0
 
@@ -6238,7 +5985,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_BigTent_Black"
 1
 
@@ -6252,7 +5999,7 @@ tools
 
 
 Industrial
-	</type>
+
 "StorageBox_BigTent_Green"
 1
 
@@ -6266,7 +6013,7 @@ tools
 
 
 Military
-	</type>
+
 "StorageBox_BigTent_White"
 1
 
@@ -6280,7 +6027,7 @@ tools
 
 
 Medic
-	</type>
+
 "StorageBox_Bdoor"
 0
 
@@ -6295,7 +6042,7 @@ tools
 
 Industrial
 Farm
-	</type>
+
 "StorageBox_Dumpster"
 3
 
@@ -6311,7 +6058,7 @@ tools
 Industrial
 Town
 Village
-	</type>
+
 "StorageBox_GraffitiCan"
 2
 
@@ -6327,7 +6074,7 @@ tools
 Industrial
 Town
 Village
-	</type>
+
 "StorageBox_TrashCan"
 2
 
@@ -6343,31 +6090,31 @@ tools
 Industrial
 Town
 Village
-	</type>
+
 "Paragon_Weapons_Rack_Black"
 
 
-	</type>
+
 "Paragon_Weapons_Rack_Green"
 
 
-	</type>
+
 "Paragon_Weapons_Rack_Tan"
 
 
-	</type>
+
 "Paragon_WallRack_Black"
 
 
-	</type>
+
 "Paragon_WallRack_Green"
 
 
-	</type>
+
 "Paragon_WallRack_Tan"
 
 
-	</type>
+
 "StorageBox_WallRack_Black"
 0
 
@@ -6384,7 +6131,7 @@ Industrial
 Farm
 Town
 Village
-	</type>
+
 "StorageBox_WallRack_Green"
 0
 
@@ -6401,7 +6148,7 @@ Industrial
 Farm
 Town
 Village
-	</type>
+
 "StorageBox_WallRack_Tan"
 0
 
@@ -6418,7 +6165,7 @@ Industrial
 Farm
 Town
 Village
-	</type>
+
 "StorageBox_Weapons_Rack_Black"
 0
 
@@ -6432,7 +6179,7 @@ tools
 
 
 Military
-	</type>
+
 "StorageBox_Weapons_Rack_Green"
 0
 
@@ -6446,7 +6193,7 @@ tools
 
 
 Military
-	</type>
+
 "StorageBox_Weapons_Rack_Tan"
 0
 
@@ -6460,7 +6207,7 @@ tools
 
 
 Military
-	</type>
+
 
 
 
@@ -6475,7 +6222,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "SC_taxilights"
 0
 
@@ -6495,7 +6242,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "CivSedanDoors_BackRight_taxi"
 0
 		<lifetime>14400</lifetime>
@@ -6505,7 +6252,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "CivSedanDoors_CoDriver_taxi"
 0
 		<lifetime>14400</lifetime>
@@ -6515,7 +6262,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "CivSedanDoors_Driver_taxi"
 0
 		<lifetime>14400</lifetime>
@@ -6525,7 +6272,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 <!--VWBus-->
 "sc_van"
 0
@@ -6536,7 +6283,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_ambulance"
 0
 		<lifetime>3</lifetime><!--change lifetime to 3888000 when using Trader-->
@@ -6546,7 +6293,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_1_1"
 0
 		<lifetime>14400</lifetime>
@@ -6556,7 +6303,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_ambulance_1_1"
 0
 		<lifetime>14400</lifetime>
@@ -6566,7 +6313,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_2_1"
 0
 		<lifetime>14400</lifetime>
@@ -6576,7 +6323,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_ambulance_2_1"
 0
 		<lifetime>14400</lifetime>
@@ -6586,7 +6333,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_cargo1"
 0
 		<lifetime>14400</lifetime>
@@ -6596,7 +6343,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_ambulance_cargo1"
 0
 		<lifetime>14400</lifetime>
@@ -6606,7 +6353,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_cargo2"
 0
 		<lifetime>14400</lifetime>
@@ -6616,7 +6363,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_ambulance_cargo2"
 0
 		<lifetime>14400</lifetime>
@@ -6626,7 +6373,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_cargo3"
 0
 		<lifetime>14400</lifetime>
@@ -6636,7 +6383,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_door_ambulance_cargo3"
 0
 		<lifetime>14400</lifetime>
@@ -6646,7 +6393,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_wheel"
 18
 		<lifetime>14400</lifetime>
@@ -6656,7 +6403,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "sc_van_wheel_destroyed"
 0
 		<lifetime>720</lifetime>
@@ -6666,7 +6413,7 @@ Military
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 <!--Police Pack Cars-->	
 "SC_PoliceLights_Base"
 0
@@ -7392,7 +7139,7 @@ Coast
 
 
         <min>75</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7409,7 +7156,7 @@ Hunting
 
 
         <min>35</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7423,7 +7170,7 @@ Farm
 
 
         <min>65</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7440,7 +7187,7 @@ Hunting
 
 
         <min>70</min>
-        <quantmin>10</quantmin>
+
         <quantmax>40</quantmax>
 
 
@@ -7454,7 +7201,7 @@ Village
 
         <restock>180</restock>
         <min>30</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7468,7 +7215,7 @@ Hunting
 
 
         <min>20</min>
-        <quantmin>10</quantmin>
+
         <quantmax>25</quantmax>
 
 
@@ -7484,7 +7231,7 @@ Tier4
 
 
         <min>65</min>
-        <quantmin>10</quantmin>
+
         <quantmax>25</quantmax>
 
 
@@ -7498,7 +7245,7 @@ Village
 
 
         <min>85</min>
-        <quantmin>10</quantmin>
+
         <quantmax>40</quantmax>
 
 
@@ -7512,7 +7259,7 @@ Village
 
         <restock>180</restock>
         <min>50</min>
-        <quantmin>10</quantmin>
+
         <quantmax>25</quantmax>
 
 
@@ -7525,7 +7272,7 @@ Military
 
 
         <min>50</min>
-        <quantmin>10</quantmin>
+
         <quantmax>25</quantmax>
 
 
@@ -7538,7 +7285,7 @@ Military
 
         <restock>180</restock>
         <min>10</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7551,7 +7298,7 @@ Military
 
 
         <min>30</min>
-        <quantmin>10</quantmin>
+
         <quantmax>40</quantmax>
 
 
@@ -7567,7 +7314,7 @@ Tier4
 
         <restock>180</restock>
         <min>15</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7583,7 +7330,7 @@ Tier4
 
 
         <min>70</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7601,7 +7348,7 @@ Tier3
 
 
         <min>30</min>
-        <quantmin>10</quantmin>
+
         <quantmax>25</quantmax>
 
 
@@ -7617,7 +7364,7 @@ Tier4
 
 
         <min>45</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7636,7 +7383,7 @@ Tier4
 
 
         <min>15</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7652,7 +7399,7 @@ Tier4
 
 
         <min>75</min>
-        <quantmin>10</quantmin>
+
         <quantmax>25</quantmax>
 
 
@@ -7666,7 +7413,7 @@ Village
 
 
         <min>14</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7679,7 +7426,7 @@ Military
 
 
         <min>10</min>
-        <quantmin>10</quantmin>
+
         <quantmax>30</quantmax>
 
 
@@ -7742,7 +7489,7 @@ Tier4
 
 
 
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -7794,7 +7541,7 @@ Tier4
 
 
         <min>3</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -7808,7 +7555,7 @@ Tier4
 
 
         <min>10</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -7879,7 +7626,7 @@ Tier4
 
 
         <min>5</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -7905,7 +7652,7 @@ Police
 
 
         <min>40</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -7946,7 +7693,7 @@ Tier4
 
 
         <min>3</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -7960,7 +7707,7 @@ Tier4
 
 
         <min>15</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -7974,7 +7721,7 @@ Tier3
 
 
         <min>15</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -7986,7 +7733,7 @@ Police
 
 
         <min>50</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -8043,7 +7790,7 @@ Tier2
 
 
         <min>7</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -8082,7 +7829,7 @@ Tier3
 
         <restock>3600</restock>
         <min>9</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -8094,7 +7841,7 @@ Military
 
 
         <min>20</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -8179,7 +7926,7 @@ Tier4
 
         <restock>3600</restock>
         <min>2</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
         <cost>1000</cost>
 
@@ -8260,7 +8007,7 @@ Military
 
         <restock>3600</restock>
         <min>4</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -8274,7 +8021,7 @@ Tier4
 
         <restock>3600</restock>
         <min>5</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -8287,7 +8034,7 @@ Tier3
 
 
         <min>2</min>
-        <quantmin>10</quantmin>
+
         <quantmax>80</quantmax>
 
 
@@ -19923,7 +19670,7 @@ ContaminatedArea
 
 
         <min>12</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -19962,7 +19709,7 @@ Medic
 
 
         <min>12</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -19975,7 +19722,7 @@ Medic
 
 
         <min>30</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -19989,7 +19736,7 @@ Hunting
 
 
         <min>12</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -20082,7 +19829,7 @@ Medic
 
 
         <min>60</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -20096,7 +19843,7 @@ Village
 
 
         <min>20</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -20124,7 +19871,7 @@ Hunting
 
 
         <min>30</min>
-        <quantmin>10</quantmin>
+
         <quantmax>50</quantmax>
 
 
@@ -20214,7 +19961,7 @@ Village
 
 
         <min>10</min>
-        <quantmin>10</quantmin>
+
         <quantmax>90</quantmax>
 
 
@@ -20869,7 +20616,7 @@ food
 
 
         <min>18</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -21182,7 +20929,7 @@ food
 
 
         <min>12</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -21199,7 +20946,7 @@ Tier3
 
 
         <min>15</min>
-        <quantmin>10</quantmin>
+
         <quantmax>100</quantmax>
 
 
@@ -24341,7 +24088,7 @@ Hunting
 
 
         <min>40</min>
-        <quantmin>10</quantmin>
+
         <quantmax>90</quantmax>
 
 
@@ -25473,7 +25220,7 @@ tools
 
 
         <min>40</min>
-        <quantmin>10</quantmin>
+
         <quantmax>60</quantmax>
 
 
@@ -28674,7 +28421,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_codriverdoor"
 0
 		<lifetime>3888000</lifetime>
@@ -28684,7 +28431,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_door_cargo1"
 0
 		<lifetime>3888000</lifetime>
@@ -28694,7 +28441,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_door_cargo2"
 0
 		<lifetime>3888000</lifetime>
@@ -28704,7 +28451,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_door_cargo3"
 0
 		<lifetime>3888000</lifetime>
@@ -28714,7 +28461,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_door_hood"
 0
 		<lifetime>3888000</lifetime>
@@ -28724,7 +28471,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_blackout_front"
 0
 		<lifetime>3888000</lifetime>
@@ -28734,7 +28481,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_blackout_roof"
 0
 		<lifetime>3888000</lifetime>
@@ -28744,7 +28491,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_blackout_fog"
 0
 		<lifetime>3888000</lifetime>
@@ -28754,7 +28501,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_door_trunk"
 0
 		<lifetime>3888000</lifetime>
@@ -28764,7 +28511,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_DriverDoor_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -28774,7 +28521,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_CoDriverDoor_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -28784,7 +28531,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo1_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -28794,7 +28541,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo2_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -28804,7 +28551,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo3_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -28814,7 +28561,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Hood_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -28824,7 +28571,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Trunk_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -28834,7 +28581,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_DriverDoor_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -28844,7 +28591,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_CoDriverDoor_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -28854,7 +28601,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo1_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -28864,7 +28611,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo2_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -28874,7 +28621,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo3_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -28884,7 +28631,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Hood_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -28894,7 +28641,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Trunk_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -28904,7 +28651,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_DriverDoor_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -28914,7 +28661,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_CoDriverDoor_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -28924,7 +28671,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo1_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -28934,7 +28681,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo2_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -28944,7 +28691,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo3_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -28954,7 +28701,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Trunk_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -28964,7 +28711,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_DriverDoor_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -28974,7 +28721,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_CoDriverDoor_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -28984,7 +28731,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo1_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -28994,7 +28741,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo2_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -29004,7 +28751,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Cargo3_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -29014,7 +28761,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Door_Trunk_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -29024,7 +28771,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514"
 0
 		<lifetime>3888000</lifetime>
@@ -29034,7 +28781,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -29044,7 +28791,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -29054,7 +28801,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_tdc"
 0
 		<lifetime>3888000</lifetime>
@@ -29064,7 +28811,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_cargo2"
 0
 		<lifetime>3888000</lifetime>
@@ -29074,7 +28821,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_cargo2_blue"
 0
 		<lifetime>3888000</lifetime>
@@ -29084,7 +28831,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_cargo2_yellow"
 0
 		<lifetime>3888000</lifetime>
@@ -29094,7 +28841,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_cargo2_tdc"
 0
 		<lifetime>3888000</lifetime>
@@ -29104,7 +28851,7 @@ lootdispatch
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_Hunter_Wheel"
 20
 		<lifetime>28800</lifetime>
@@ -29118,7 +28865,7 @@ tools
 vehiclesparts
 Industrial
 Farm
-	</type>
+
 "UAZ_31514_door_hood_hunter"
 0
 		<lifetime>3888000</lifetime>
@@ -29128,7 +28875,7 @@ Farm
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_door_hood_hunter_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -29138,7 +28885,7 @@ Farm
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_door_hood_hunter_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -29148,7 +28895,7 @@ Farm
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_hunter"
 0
 		<lifetime>3888000</lifetime>
@@ -29158,7 +28905,7 @@ Farm
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_hunter_camos"
 0
 		<lifetime>3888000</lifetime>
@@ -29168,7 +28915,7 @@ Farm
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 "UAZ_31514_hunter_camow"
 0
 		<lifetime>3888000</lifetime>
@@ -29178,7 +28925,7 @@ Farm
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 
-	</type>
+
 
 
 
