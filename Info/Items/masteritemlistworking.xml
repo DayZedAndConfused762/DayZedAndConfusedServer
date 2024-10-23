@@ -487,242 +487,67 @@ Item				        Nominal Category        Usage           Value		Mod              
 "Msp_SleepingBag_Green"                 2       clothes         Hu/Mi
 "Msp_SleepingBag_Blue"                  2       clothes         Hu/T/V
 "Msp_SleepingBag_LimeGreen"             2       clothes         Mi
-"Msp_SleepingBag_Orange"
-2
-clothes
-Town
-Village
-Hunting
+"Msp_SleepingBag_Orange"                2       clothes         Hu/T/V
+"Msp_SleepingBag_Purple"                2       clothes         Hu/T/V
+"Msp_SleepingBag_Red"                   2       clothes         Fi
+"Msp_Mattress_Blue"                     2       clothes         T/V
+"Msp_Mattress_Green"                    2       clothes         T/V
+"Msp_Mattress_Pink"                     2       clothes         T/V
+"Msp_Mattress_Yellow"                   2       clothes         T/V
 
-"Msp_SleepingBag_Purple"
-2
-clothes
-Town
-Village
-Hunting
-
-"Msp_SleepingBag_Red"
-2
-clothes
-Firefighter
-
-"Msp_Mattress_Blue"
-2
-clothes
-Town
-Village
-
-"Msp_Mattress_Green"
-2
-clothes
-Town
-Village
-
-"Msp_Mattress_Pink"
-2
-clothes
-Town
-Village
-
-"Msp_Mattress_Yellow"
-2
-clothes
-Town
-Village
-
-"Msp_WoodenTable_Kit"
-2
-tools
-floor
-Town
-Village
-Industrial
-Farm
-
+"Msp_WoodenTable_Kit"                   2       tools           Fa/I/T/V
 "Msp_DeskClock"
-
-"Msp_RoomDivider_Kit"
-4
-tools
-floor
-Town
-Village
-
-"Msp_RoomDivider"
-
-
-
-"Msp_RoomDivider_Flat"
-
-
-
-"Msp_HousePlant_Philodendron"
-
-
-
-"Msp_HousePlant_FicusTree"
-
-
-
-"Msp_HousePlant_RubberFig"
-
-
-
-"Msp_HousePlant_Succulent"
-
-
-
-"Msp_Lamp_Standing_Wood_Kit"
-4
-tools
-floor
-Village
-Town
-
-
-
-"Msp_Lamp_Ceiling_Mosaic_Kit"
-3
-tools
-floor
-Village
-Town
-
-
-"Msp_PolarBear"
-3
-containers
-
-Town
-Village
-
-    <!-- Seasonal -->
-"Msp_SantaPants"
-0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
-clothes
-Town
-Village
-
-"Msp_SantaJacket"
-0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
-clothes
-Town
-Village
+"Msp_RoomDivider_Kit"                   4       tools           T/V
+"Msp_Lamp_Standing_Wood_Kit"            4       tools           T/V
+"Msp_Lamp_Ceiling_Mosaic_Kit"           3       tools           T/V
+"Msp_PolarBear"                         3       containers      T/V
+"Msp_SantaPants"                        0       clothes         T/V
+"Msp_SantaJacket"                       0       clothes         T/V
 
 "Msp_Bunny"
 1
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Town
 Village
 
 "Msp_Rabbit"
 1
-        <lifetime>1800</lifetime>
-
-
-
-
-
-
 clothes
 shelves
 Village
 
 "Msp_Egg_Blue"
 0
-        <lifetime>1800</lifetime>
-
-
-
-
-
-
 clothes
 shelves
 Village
 
 "Msp_Egg_Pink"
 0
-        <lifetime>1800</lifetime>
-
-
-
-
-
-
 clothes
 shelves
 Village
 
 "Msp_Egg_Red"
 0
-        <lifetime>1800</lifetime>
-
-
-
-
-
-
 clothes
 shelves
 Village
 
 "Msp_Egg_Green"
 0
-        <lifetime>1800</lifetime>
-
-
-
-
-
-
 clothes
 shelves
 Village
 
 "Msp_Egg_Purple"
 0
-        <lifetime>1800</lifetime>
-
-
-
-
-
-
 clothes
 shelves
 Village
 
 "Msp_Egg_Yellow"
 0
-        <lifetime>1800</lifetime>
-
-
-
-
-
-
 clothes
 shelves
 Village
@@ -782,7 +607,7 @@ Coast
 
 "Msp_BeachBall"
 5
-        <lifetime>5600</lifetime>
+
 
         <min>2</min>
 
@@ -806,98 +631,49 @@ Coast
 
 "Msp_Floatie_Wheel"
 0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Industrial
 Coast
 
 "Msp_Floatie_Unicorn"
 0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Industrial
 Coast
 
 "Msp_Floatie_Unicorn_Rainbow"
 0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Industrial
 Coast
 
 "Msp_Floatie_Unicorn_BlueRainbow"
 0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Industrial
 Coast
 
 "Msp_Floatie_Unicorn_GreenRainbow"
 0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Industrial
 Coast
 
 "Msp_Floatie_Unicorn_PurpleRainbow"
 0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Industrial
 Coast
 
 "Msp_Floatie_Flamingo"
 0
-        <lifetime>5600</lifetime>
-
-
-
-
-
-
 clothes
 Industrial
 Coast
 
 "Msp_Volleyball"
 3
-        <lifetime>5600</lifetime>
+
 
 
 
@@ -910,13 +686,6 @@ Coast
 
 "Msp_KiddiePool_Kit"
 0
-
-
-
-
-
-
-
 clothes
 Industrial
 Coast
@@ -927,13 +696,6 @@ Coast
 
 "Msp_KiddiePool_Pink_Kit"
 0
-
-
-
-
-
-
-
 clothes
 Industrial
 Coast
@@ -944,13 +706,6 @@ Coast
 
 "Msp_KiddiePool_Yellow_Kit"
 0
-
-
-
-
-
-
-
 clothes
 Industrial
 Coast
@@ -1006,97 +761,69 @@ Coast
 Tier1
 
 "Msp_FlipFlops_Black"
-		<nominal>3
-		<lifetime>7200</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="clothes
-		<usage name="Town
-		<usage name="Coast
+3
+
+
+
+clothes
+Town
+Coast
 	</type> 
 "Msp_FlipFlops_White"
-		<nominal>3
-		<lifetime>7200</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="clothes
-		<usage name="Town
-		<usage name="Coast
+3
+
+
+
+clothes
+Town
+Coast
 	</type>
 "Msp_FlipFlops_Blue"
-		<nominal>3
-		<lifetime>7200</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="clothes
-		<usage name="Town
-		<usage name="Coast
+3
+
+
+
+clothes
+Town
+Coast
 	</type>
 "Msp_FlipFlops_Red"
-		<nominal>3
-		<lifetime>7200</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="clothes
-		<usage name="Town
-		<usage name="Coast
+3
+
+
+
+clothes
+Town
+Coast
 	</type>
 "Msp_FlipFlops_Pink"
-		<nominal>3
-		<lifetime>7200</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="clothes
-		<usage name="Town
-		<usage name="Coast
+3
+
+
+
+clothes
+Town
+Coast
 	</type>
 "Msp_FlipFlops_Purple"
-		<nominal>3
-		<lifetime>7200</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="clothes
-		<usage name="Town
-		<usage name="Coast
+3
+
+
+
+clothes
+Town
+Coast
 	</type>
 "Msp_FlipFlops_Yellow"
-		<nominal>3
-		<lifetime>7200</lifetime>
-		<restock>1800</restock>
-		<min>1</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="clothes
-		<usage name="Town
-		<usage name="Coast
-	</type>   
-</types>
+3
+
+
+
+clothes
+Town
+Coast
+
+
 
 
 
@@ -1106,181 +833,76 @@ Tier1
 
 "MVS_Beard_01_Brown"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_01_LightBrown"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_01_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_01_Blonde"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_01_White"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_02_Brown"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_02_LightBrown"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_02_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_02_Blonde"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_02_White"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_03_Brown"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_03_LightBrown"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_03_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_03_Blonde"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Beard_03_White"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -1402,49 +1024,21 @@ Hunting
 
 "MVS_Balaclava_Wraith"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Balaclava_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_Balaclava_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_Balaclava_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -1455,13 +1049,6 @@ Military
 
 "MVS_Belt_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier2
@@ -1470,13 +1057,6 @@ Tier4
 
 "MVS_Belt_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier2
@@ -1485,13 +1065,6 @@ Tier4
 
 "MVS_Belt_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier2
@@ -1500,13 +1073,6 @@ Tier4
 
 "MVS_Belt_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier1
@@ -1515,13 +1081,6 @@ Tier3
 
 "MVS_Belt_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -1529,13 +1088,6 @@ Tier4
 
 "MVS_Belt_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -1543,13 +1095,6 @@ Tier4
 
 "MVS_Belt_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -1557,13 +1102,6 @@ Tier4
 
 "MVS_Belt_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -1576,49 +1114,21 @@ Tier4
 
 "MVS_Facemask_OD"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Facemask_Tan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Facemask_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Facemask_Snow"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -1629,216 +1139,90 @@ Military
 
 "MVS_BoonieHat"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_FlatCap"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_BoonieHat_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_FlatCap_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_FlatCap_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_FlatCap_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_FlatCap_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_BoonieHat_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_BoonieHat_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_BoonieHat_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes         Mi
 
 "MVS_Cap_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Cap_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Cap_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Cap_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Cap_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Cap_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Cap_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Cap_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -1849,181 +1233,76 @@ Military
 
 "MVS_Pants_BDU"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaPants"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaPants_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Pants_BDU_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaPants_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_GorkaPants_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_GorkaPants_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatPants_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatPants_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatPants_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatPants_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatPants_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatPants_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_CombatPants_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatPants_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -2034,217 +1313,91 @@ Military
 
 "MVS_Shirt_BDU"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaJacket"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaJacket_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Shirt_BDU_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Shirt_BDU_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Shirt_BDU_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Shirt_BDU_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaJacket_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaJacket_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_GorkaJacket_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CombatShirt_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -2255,37 +1408,16 @@ Military
 
 "MVS_Shroud_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Shroud_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Shroud_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -2298,2461 +1430,1026 @@ Military
 
 "MVS_CountryFlag_Afghanistan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Albania"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Algeria"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_AmericanSamoa"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Andorra"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Angola"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Antigua"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Argentina"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Armenia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Aruba"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Australia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Austria"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Azerbaijan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Azores"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bahamas"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bahrain"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bangladesh"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Barbados"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Belarus"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Belgium"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Belize"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Benin"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bermuda"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bhutan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bolivia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bosnia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Botswana"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Brazil"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_BritishVirginIslands"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_BruneiDarussalam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Bulgaria"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_BurkinaFaso"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Burma"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Burundi"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Cambodia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Cameroon"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Canada"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_CapeVerde"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_CaymanIslands"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Chad"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Chile"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_China"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Colombia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Comoros"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_CookIslands"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_CostaRica"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Croatia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Cuba"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Curacao"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Cyprus"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Czech"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Denmark"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Djibouti"
 0
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_CountryFlag_DominicanRepublic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_EastTimor"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Ecuador"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Egypt"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_ElSalvador"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Eritrea"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Estonia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Ethiopia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_FalklandIslands"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Fiji"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Finland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_France"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Gabon"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Gambia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Germany"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Ghana"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Gibraltar"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Greece"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Greenland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Grenada"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Guam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Guatemala"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Guinea"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Guyana"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_GypsyRomani"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Haiti"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Honduras"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Hungary"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Iceland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_India"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Indonesia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Iran"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Iraq"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Ireland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Israel"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Italy"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Jamaica"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Japan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Jordan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Kazakhstan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Kenya"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Kiribati"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Kosovo"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Kuwait"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Kyrgyzstan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Laos"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Latvia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Lebanon"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Lesotho"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Liberia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Libya"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Lithuania"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Macau"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Macedonia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Madagascar"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Malawi"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Malaysia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Maldives"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Mali"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Malta"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_MarshallIslands"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Mauritius"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Mexico"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Micronesia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Moldova"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Monaco"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Mongolia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Montenegro"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Morocco"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Mozambique"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Namibia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Nauru"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Netherlands"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_NewZealand"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Nicaragua"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Niger"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Nigeria"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_NorthernIreland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Norway"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Oman"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Pakistan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Palau"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Palestine"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Panama"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_PapuaNewGuinea"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Paraguay"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Peru"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Philippines"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Poland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Portugal"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_PuertoRico"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Qatar"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Romania"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Russia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Rwanda"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Samoa"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SanMarino"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SaudiArabia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Scotland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Senegal"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Serbia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Seychelles"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Sicily"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SierraLeone"
 0
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_CountryFlag_Singapore"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Slovakia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Slovenia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SolomonIslands"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Somalia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SouthAfrica"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SouthKorea"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SouthVietnam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Spain"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_SriLanka"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_StLucia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_StMaarten"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Sudan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Suriname"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Swaziland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Sweden"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Switzerland"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Syria"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Taiwan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Tajikistan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Tanzania"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Thailand"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Tibet"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Togo"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Tonga"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Trinidad"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Tunisia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Turkey"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Turkmenistan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_TurksCaicos"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Tuvalu"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_UAE"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Uganda"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Ukraine"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_UnitedKingdom"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_UnitedNations"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_UnitedStates"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Uruguay"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_USSR"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Uzbekistan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Vanuatu"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Venezuela"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Vietnam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Wales"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Yemen"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Yugoslavia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Zambia"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_CountryFlag_Zimbabwe"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -4765,109 +2462,46 @@ Military
 
 "MVS_Helmet_01_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_Tan_Worn"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_01_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -4878,97 +2512,41 @@ Military
 
 "MVS_Helmet_02_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_02_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_02_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_02_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_02_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_02_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_02_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Helmet_02_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -4979,37 +2557,16 @@ Military
 
 "MVS_6B47_Helmet_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_6B47_Helmet_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_6B47_Helmet_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -5020,37 +2577,16 @@ Military
 
 "MVS_Altyn_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Altyn_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Altyn_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -5059,73 +2595,31 @@ Military
 
 "MVS_Altyn_Visor_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Altyn_Visor_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Altyn_Visor_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Altyn_Visor_Lifted_OD"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Altyn_Visor_Lifted_Tan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Altyn_Visor_Lifted_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -5134,97 +2628,41 @@ Military
 
 "MVS_ArmoredHelmet_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ArmoredHelmet_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ArmoredHelmet_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ArmoredHelmet_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ArmoredHelmet_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ArmoredHelmet_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ArmoredHelmet_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ArmoredHelmet_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -5235,97 +2673,41 @@ Military
 
 "MVS_OpsCore_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_OpsCore_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_OpsCore_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
    <type name="MVS_OpsCore_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_OpsCore_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_OpsCore_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_OpsCore_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_OpsCore_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -5336,97 +2718,41 @@ Military
 
 "MVS_WarriorHelmet_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_WarriorHelmet_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_WarriorHelmet_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_WarriorHelmet_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_WarriorHelmet_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_WarriorHelmet_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_WarriorHelmet_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_WarriorHelmet_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -5441,157 +2767,66 @@ Military
 
 "MVS_S10Respirator_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_S10Respirator_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_S10Respirator_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_S10Respirator_FS"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_S10Respirator_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_M50Respirator_OD"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_M50Respirator_Tan"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_M50Respirator_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_M50Respirator_Snow"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_PMK2Respirator_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_PMK2Respirator_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_PMK2Respirator_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_PMK2Respirator_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -6316,433 +3551,181 @@ Military
 
 "MVS_Patch_01"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_02"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_03"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_04"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_05"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_06"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_07"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_08"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_09"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_10"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_11"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_12"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_13"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_14"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_15"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_16"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_17"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_18"
 0
-
-
-
-
-
-
-
 clothes
 Military
 	
 "MVS_Patch_19"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_20"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_21"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_22"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_23"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_24"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_25"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_26"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_27"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_28"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_29"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_30"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_31"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_32"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_33"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_34"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_35"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Patch_36"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -6755,97 +3738,41 @@ Military
 
 "MVS_Admin_Pouch_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Admin_Pouch_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Admin_Pouch_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Admin_Pouch_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Admin_Pouch_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Admin_Pouch_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Admin_Pouch_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Admin_Pouch_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -6856,97 +3783,41 @@ Military
 
 "MVS_Heavy_Pouch_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Heavy_Pouch_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Heavy_Pouch_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Heavy_Pouch_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Heavy_Pouch_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Heavy_Pouch_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Heavy_Pouch_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Heavy_Pouch_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -6957,97 +3828,41 @@ Military
 
 "MVS_Holster_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Holster_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Holster_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Holster_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Holster_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Holster_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Holster_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Holster_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7058,97 +3873,41 @@ Military
 
 "MVS_Magazine_Pouch_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Magazine_Pouch_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Magazine_Pouch_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Magazine_Pouch_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Magazine_Pouch_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Magazine_Pouch_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Magazine_Pouch_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Magazine_Pouch_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7159,97 +3918,41 @@ Military
 
 "MVS_Medical_Pouch_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Medical_Pouch_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Medical_Pouch_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Medical_Pouch_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Medical_Pouch_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Medical_Pouch_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Medical_Pouch_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Medical_Pouch_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7260,97 +3963,41 @@ Military
 
 "MVS_Molle_Panel_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Molle_Panel_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Molle_Panel_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Molle_Panel_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Molle_Panel_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Molle_Panel_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Molle_Panel_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Molle_Panel_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7361,97 +4008,41 @@ Military
 
 "MVS_Sheath_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Sheath_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Sheath_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Sheath_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Sheath_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Sheath_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Sheath_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Sheath_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7462,97 +4053,41 @@ Military
 
 "MVS_Taco_Pouch_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Taco_Pouch_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Taco_Pouch_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Taco_Pouch_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Taco_Pouch_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Taco_Pouch_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Taco_Pouch_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Taco_Pouch_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7563,97 +4098,41 @@ Military
 
 "MVS_Utility_Pouch_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Utility_Pouch_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Utility_Pouch_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Utility_Pouch_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Utility_Pouch_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Utility_Pouch_Multicam"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Utility_Pouch_Multicam_Tropic"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Utility_Pouch_Multicam_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7668,13 +4147,6 @@ Military
 
 "MVS_ChestRig_OD" 
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7682,26 +4154,12 @@ Tier4
 
 "MVS_ChestRig_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier4
 
 "MVS_ChestRig_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier2
@@ -7709,13 +4167,6 @@ Tier3
 
 "MVS_ChestRig_Black"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7723,13 +4174,6 @@ Tier4
 
 "MVS_ChestRig_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier1
@@ -7737,37 +4181,16 @@ Tier2
 
 "MVS_ChestRig_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ChestRig_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_ChestRig_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7778,13 +4201,6 @@ Military
 
 "MVS_Combat_Vest_OD"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7792,13 +4208,6 @@ Tier4
 
 "MVS_Combat_Vest_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7818,13 +4227,6 @@ Military
 
 "MVS_Combat_Vest_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier2
@@ -7832,26 +4234,12 @@ Tier3
 
 "MVS_Combat_Vest_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier4
 
 "MVS_Combat_Vest_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7859,13 +4247,6 @@ Tier4
 
 "MVS_Combat_Vest_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7873,13 +4254,6 @@ Tier4
 
 "MVS_Combat_Vest_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7904,13 +4278,6 @@ Military
 
 "MVS_Combat_Vest_Heavy_Tan"
 1
-
-
-
-
-
-
-
 clothes
 Tier4
 
@@ -7928,13 +4295,6 @@ Military
 
 "MVS_Combat_Vest_Heavy_Snow"
 1
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -7942,50 +4302,22 @@ Tier4
 
 "MVS_Combat_Vest_Heavy_ERDL"
 1
-
-
-
-
-
-
-
 clothes
 Military
 ContaminatedArea
 
 "MVS_Combat_Vest_Heavy_Multicam"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Combat_Vest_Heavy_Multicam_Tropic"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
 "MVS_Combat_Vest_Heavy_Multicam_Black"
 0
-
-
-
-
-
-
-
 clothes
 Military
 
@@ -7996,7 +4328,7 @@ Military
 
 
 
-</types>
+
 
 
 
@@ -10274,20 +6606,20 @@ tools
 
 Military
 	</type>
-</types>
+
 
 
 
 <!--taxi-->
 "civiliansedan_taxi"
-		<nominal>0
+0
 		<lifetime>3</lifetime> <!--change lifetime to 3888000 when using Trader-->
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "SC_taxilights"
 0
@@ -10300,185 +6632,185 @@ Military
 
 
 "CivSedanDoors_BackLeft_taxi"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "CivSedanDoors_BackRight_taxi"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "CivSedanDoors_CoDriver_taxi"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "CivSedanDoors_Driver_taxi"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 <!--VWBus-->
 "sc_van"
-		<nominal>0
+0
 		<lifetime>3</lifetime><!--change lifetime to 3888000 when using Trader-->
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_ambulance"
-		<nominal>0
+0
 		<lifetime>3</lifetime><!--change lifetime to 3888000 when using Trader-->
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_1_1"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_ambulance_1_1"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_2_1"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_ambulance_2_1"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_cargo1"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_ambulance_cargo1"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_cargo2"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_ambulance_cargo2"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_cargo3"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_door_ambulance_cargo3"
-		<nominal>0
+0
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_wheel"
-		<nominal>18
+18
 		<lifetime>14400</lifetime>
 		<restock>0</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "sc_van_wheel_destroyed"
-		<nominal>0
+0
 		<lifetime>720</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 <!--Police Pack Cars-->	
 "SC_PoliceLights_Base"
@@ -10663,7 +6995,7 @@ lootdispatch
 
 Industrial
 
-</types>
+
 
 
 
@@ -12936,24 +9268,10 @@ Military
 
 "GhillieAtt_Tan"
 0
-
-
-
-
-
-
-
 clothes
 
 "GhillieAtt_Woodland"
 0
-
-
-
-
-
-
-
 clothes
 
 
@@ -13510,442 +9828,162 @@ tools
 
 "Armband_APA"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Altis"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_BabyDeer"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Bear"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Blue"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Bohemia"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_BrainZ"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_CDF"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_CHEL"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_CMC"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Cannibals"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Chedaki"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Chernarus"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Crook"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_DayZ"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Green"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_HunterZ"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Livonia"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_LivoniaArmy"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_LivoniaPolice"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_NAPA"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_NSahrani"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Orange"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Pink"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Pirates"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_RSTA"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Red"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Refuge"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Rex"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Rooster"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_SSahrani"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Snake"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_TEC"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_UEC"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_White"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Wolf"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Yellow"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Zagorky"
 0
-
-
-
-
-
-
-
 clothes
 
 "Armband_Zenit"
 0
-
-
-
-
-
-
-
 clothes
 
 
@@ -13968,46 +10006,18 @@ Village
 
 "LeatherBelt_Beige"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherBelt_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherBelt_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherBelt_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "MilitaryBelt"
@@ -14024,13 +10034,6 @@ Military
 
 "RopeBelt"
 0
-
-
-
-
-
-
-
 clothes
 
 
@@ -14117,13 +10120,6 @@ SeasonalEvent
 
 "EyePatch_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "SportGlasses_Black"
@@ -14498,13 +10494,6 @@ Village
 
 "FaceCover_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "HockeyMask"
@@ -14787,13 +10776,6 @@ Town
 
 "FeetCover_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "HikingBootsLow_Beige"
@@ -15017,46 +10999,18 @@ Military
 
 "LeatherShoes_Beige"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherShoes_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherShoes_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherShoes_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "MedievalBoots"
@@ -15364,24 +11318,10 @@ Military
 
 "GhillieBushrag_Tan"
 0
-
-
-
-
-
-
-
 clothes
 
 "GhillieBushrag_Woodland"
 0
-
-
-
-
-
-
-
 clothes
 
 "GhillieHood_Mossy"
@@ -15398,24 +11338,10 @@ Military
 
 "GhillieHood_Tan"
 0
-
-
-
-
-
-
-
 clothes
 
 "GhillieHood_Woodland"
 0
-
-
-
-
-
-
-
 clothes
 
 "GhillieSuit_Mossy"
@@ -15443,13 +11369,6 @@ tools
 
 "GhillieSuit_Woodland"
 0
-
-
-
-
-
-
-
 clothes
 
 "GhillieTop_Mossy"
@@ -15466,24 +11385,10 @@ Military
 
 "GhillieTop_Tan"
 0
-
-
-
-
-
-
-
 clothes
 
 "GhillieTop_Woodland"
 0
-
-
-
-
-
-
-
 clothes
 
 
@@ -15493,57 +11398,22 @@ clothes
 
 "HandsCover_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherGloves_Beige"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherGloves_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherGloves_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherGloves_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "OMNOGloves_Brown"
@@ -16505,13 +12375,6 @@ Tier1
 
 "DarkMotoHelmet_YellowScarred"
 0
-
-
-
-
-
-
-
 clothes
 
 "DirtBikeHelmet_Black"
@@ -16865,13 +12728,6 @@ Military
 
 "HeadCover_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "HockeyHelmet_Black"
@@ -16928,46 +12784,18 @@ Village
 
 "LeatherHat_Beige"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherHat_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherHat_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherHat_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "MedicalScrubsHat_Blue"
@@ -17090,13 +12918,6 @@ Military
 
 "MorozkoHat"
 0
-
-
-
-
-
-
-
 clothes
 SeasonalEvent
 
@@ -17236,13 +13057,6 @@ Tier1
 
 "NorseHelm"
 0
-
-
-
-
-
-
-
 clothes
 
 "OKZKCap_Beige"
@@ -17360,13 +13174,6 @@ Prison
 
 "PumpkinHelmet"
 0
-
-
-
-
-
-
-
 clothes
 Farm
 Tier2
@@ -17788,13 +13595,6 @@ Firefighter
 
 "GasMask_Filter_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "NBCBootsGray"
@@ -18510,57 +14310,22 @@ Farm
 
 "LeatherPants_Beige"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherPants_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherPants_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherPants_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "LegsCover_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "MedicalScrubsPants_Blue"
@@ -19011,49 +14776,21 @@ Military
 
 "Blouse_Blue"
 0
-
-
-
-
-
-
-
 clothes
 Town
 
 "Blouse_Green"
 0
-
-
-
-
-
-
-
 clothes
 Town
 
 "Blouse_Violet"
 0
-
-
-
-
-
-
-
 clothes
 Town
 
 "Blouse_White"
 0
-
-
-
-
-
-
-
 clothes
 Town
 
@@ -19563,57 +15300,22 @@ Medic
 
 "LeatherJacket_Beige"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherJacket_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherJacket_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherJacket_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherShirt_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "M65Jacket_Black"
@@ -20552,13 +16254,6 @@ Military
 
 "TorsoCover_Improvised"
 0
-
-
-
-
-
-
-
 clothes
 
 "TrackSuitJacket_Black"
@@ -20973,57 +16668,22 @@ Hunting
 
 "LeatherStorageVest_Beige"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherStorageVest_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherStorageVest_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "LeatherStorageVest_Natural"
 0
-
-
-
-
-
-
-
 clothes
 
 "PlateCarrierVest"
 0
-
-
-
-
-
-
-
 clothes
 Military
 Tier3
@@ -21031,13 +16691,6 @@ Tier4
 
 "PlateCarrierVest_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "PlateCarrierVest_Camo"
@@ -21056,13 +16709,6 @@ Tier4
 
 "PlateCarrierVest_Green"
 0
-
-
-
-
-
-
-
 clothes
 
 "PoliceVest"
@@ -21109,13 +16755,6 @@ Tier4
 
 "ReflexVest"
 0
-
-
-
-
-
-
-
 clothes
 Industrial
 
@@ -21193,7 +16832,7 @@ Military
 
 "Animal_BosTaurusF_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21203,7 +16842,7 @@ Military
 
 "Animal_BosTaurusF_Spotted"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21213,7 +16852,7 @@ Military
 
 "Animal_BosTaurusF_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21223,7 +16862,7 @@ Military
 
 "Animal_BosTaurus_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21233,7 +16872,7 @@ Military
 
 "Animal_BosTaurus_Spotted"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21243,7 +16882,7 @@ Military
 
 "Animal_BosTaurus_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21253,7 +16892,7 @@ Military
 
 "Animal_CanisLupus_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21263,7 +16902,7 @@ Military
 
 "Animal_CanisLupus_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21273,7 +16912,7 @@ Military
 
 "Animal_CapraHircusF"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21283,7 +16922,7 @@ Military
 
 "Animal_CapraHircus_Black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21293,7 +16932,7 @@ Military
 
 "Animal_CapraHircus_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21303,7 +16942,7 @@ Military
 
 "Animal_CapraHircus_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21313,7 +16952,7 @@ Military
 
 "Animal_CapreolusCapreolus"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21323,7 +16962,7 @@ Military
 
 "Animal_CapreolusCapreolusF"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21333,7 +16972,7 @@ Military
 
 "Animal_CervusElaphus"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21343,7 +16982,7 @@ Military
 
 "Animal_CervusElaphusF"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21353,7 +16992,7 @@ Military
 
 "Animal_GallusGallusDomesticus"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21363,7 +17002,7 @@ Military
 
 "Animal_GallusGallusDomesticusF_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21373,7 +17012,7 @@ Military
 
 "Animal_GallusGallusDomesticusF_Spotted"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21383,7 +17022,7 @@ Military
 
 "Animal_GallusGallusDomesticusF_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21393,7 +17032,7 @@ Military
 
 "Animal_OvisAries"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21403,7 +17042,7 @@ Military
 
 "Animal_OvisAriesF"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21413,7 +17052,7 @@ Military
 
 "Animal_SusDomesticus"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21423,7 +17062,7 @@ Military
 
 "Animal_SusScrofa"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21433,7 +17072,7 @@ Military
 
 "Animal_UrsusArctos"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21448,7 +17087,7 @@ Military
 
 "ZmbF_BlueCollarFat_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21458,7 +17097,7 @@ Military
 
 "ZmbF_BlueCollarFat_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21468,7 +17107,7 @@ Military
 
 "ZmbF_BlueCollarFat_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21478,7 +17117,7 @@ Military
 
 "ZmbF_BlueCollarFat_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21488,7 +17127,7 @@ Military
 
 "ZmbF_CitizenANormal_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21498,7 +17137,7 @@ Military
 
 "ZmbF_CitizenANormal_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21508,7 +17147,7 @@ Military
 
 "ZmbF_CitizenANormal_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21518,7 +17157,7 @@ Military
 
 "ZmbF_CitizenBSkinny"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21528,7 +17167,7 @@ Military
 
 "ZmbF_Clerk_Normal_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21538,7 +17177,7 @@ Military
 
 "ZmbF_Clerk_Normal_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21548,7 +17187,7 @@ Military
 
 "ZmbF_Clerk_Normal_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21558,7 +17197,7 @@ Military
 
 "ZmbF_Clerk_Normal_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21568,7 +17207,7 @@ Military
 
 "ZmbF_DoctorSkinny"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21578,7 +17217,7 @@ Military
 
 "ZmbF_HikerSkinny_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21588,7 +17227,7 @@ Military
 
 "ZmbF_HikerSkinny_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21598,7 +17237,7 @@ Military
 
 "ZmbF_HikerSkinny_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21608,7 +17247,7 @@ Military
 
 "ZmbF_HikerSkinny_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21618,7 +17257,7 @@ Military
 
 "ZmbF_JoggerSkinny_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21628,7 +17267,7 @@ Military
 
 "ZmbF_JoggerSkinny_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21638,7 +17277,7 @@ Military
 
 "ZmbF_JoggerSkinny_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21648,7 +17287,7 @@ Military
 
 "ZmbF_JoggerSkinny_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21658,7 +17297,7 @@ Military
 
 "ZmbF_JournalistNormal_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21668,7 +17307,7 @@ Military
 
 "ZmbF_JournalistNormal_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21678,7 +17317,7 @@ Military
 
 "ZmbF_JournalistNormal_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21688,7 +17327,7 @@ Military
 
 "ZmbF_JournalistNormal_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21698,7 +17337,7 @@ Military
 
 "ZmbF_MechanicNormal_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21708,7 +17347,7 @@ Military
 
 "ZmbF_MechanicNormal_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21718,7 +17357,7 @@ Military
 
 "ZmbF_MechanicNormal_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21728,7 +17367,7 @@ Military
 
 "ZmbF_MechanicNormal_Orange"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21738,7 +17377,7 @@ Military
 
 "ZmbF_MilkMaidOld_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21748,7 +17387,7 @@ Military
 
 "ZmbF_MilkMaidOld_Black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21758,7 +17397,7 @@ Military
 
 "ZmbF_MilkMaidOld_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21768,7 +17407,7 @@ Military
 
 "ZmbF_MilkMaidOld_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21778,7 +17417,7 @@ Military
 
 "ZmbF_NurseFat"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21788,7 +17427,7 @@ Military
 
 "ZmbF_ParamedicNormal_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21798,7 +17437,7 @@ Military
 
 "ZmbF_ParamedicNormal_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21808,7 +17447,7 @@ Military
 
 "ZmbF_ParamedicNormal_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21818,7 +17457,7 @@ Military
 
 "ZmbF_PatientOld"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21828,7 +17467,7 @@ Military
 
 "ZmbF_PoliceWomanNormal"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21838,7 +17477,7 @@ Military
 
 "ZmbF_ShortSkirt_beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21848,7 +17487,7 @@ Military
 
 "ZmbF_ShortSkirt_black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21858,7 +17497,7 @@ Military
 
 "ZmbF_ShortSkirt_brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21868,7 +17507,7 @@ Military
 
 "ZmbF_ShortSkirt_checks"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21878,7 +17517,7 @@ Military
 
 "ZmbF_ShortSkirt_green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21888,7 +17527,7 @@ Military
 
 "ZmbF_ShortSkirt_grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21898,7 +17537,7 @@ Military
 
 "ZmbF_ShortSkirt_red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21908,7 +17547,7 @@ Military
 
 "ZmbF_ShortSkirt_stripes"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21918,7 +17557,7 @@ Military
 
 "ZmbF_ShortSkirt_white"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21928,7 +17567,7 @@ Military
 
 "ZmbF_ShortSkirt_yellow"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21938,7 +17577,7 @@ Military
 
 "ZmbF_SkaterYoung_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21948,7 +17587,7 @@ Military
 
 "ZmbF_SkaterYoung_Striped"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21958,7 +17597,7 @@ Military
 
 "ZmbF_SkaterYoung_Violet"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21968,7 +17607,7 @@ Military
 
 "ZmbF_SurvivorNormal_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21978,7 +17617,7 @@ Military
 
 "ZmbF_SurvivorNormal_Orange"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21988,7 +17627,7 @@ Military
 
 "ZmbF_SurvivorNormal_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -21998,7 +17637,7 @@ Military
 
 "ZmbF_SurvivorNormal_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22008,7 +17647,7 @@ Military
 
 "ZmbF_VillagerOld_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22018,7 +17657,7 @@ Military
 
 "ZmbF_VillagerOld_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22028,7 +17667,7 @@ Military
 
 "ZmbF_VillagerOld_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22038,7 +17677,7 @@ Military
 
 "ZmbF_VillagerOld_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22048,7 +17687,7 @@ Military
 
 "ZmbM_CitizenASkinny_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22058,7 +17697,7 @@ Military
 
 "ZmbM_CitizenASkinny_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22068,7 +17707,7 @@ Military
 
 "ZmbM_CitizenASkinny_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22078,7 +17717,7 @@ Military
 
 "ZmbM_CitizenASkinny_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22088,7 +17727,7 @@ Military
 
 "ZmbM_CitizenBFat_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22098,7 +17737,7 @@ Military
 
 "ZmbM_CitizenBFat_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22108,7 +17747,7 @@ Military
 
 "ZmbM_CitizenBFat_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22118,7 +17757,7 @@ Military
 
 "ZmbM_ClerkFat_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22128,7 +17767,7 @@ Military
 
 "ZmbM_ClerkFat_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22138,7 +17777,7 @@ Military
 
 "ZmbM_ClerkFat_Khaki"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22148,7 +17787,7 @@ Military
 
 "ZmbM_ClerkFat_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22158,7 +17797,7 @@ Military
 
 "ZmbM_CommercialPilotOld_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22168,7 +17807,7 @@ Military
 
 "ZmbM_CommercialPilotOld_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22178,7 +17817,7 @@ Military
 
 "ZmbM_CommercialPilotOld_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22188,7 +17827,7 @@ Military
 
 "ZmbM_CommercialPilotOld_Olive"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22198,7 +17837,7 @@ Military
 
 "ZmbM_ConstrWorkerNormal_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22208,7 +17847,7 @@ Military
 
 "ZmbM_ConstrWorkerNormal_Black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22218,7 +17857,7 @@ Military
 
 "ZmbM_ConstrWorkerNormal_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22228,7 +17867,7 @@ Military
 
 "ZmbM_ConstrWorkerNormal_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22238,7 +17877,7 @@ Military
 
 "ZmbM_DoctorFat"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22248,7 +17887,7 @@ Military
 
 "ZmbM_FarmerFat_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22258,7 +17897,7 @@ Military
 
 "ZmbM_FarmerFat_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22268,7 +17907,7 @@ Military
 
 "ZmbM_FarmerFat_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22278,7 +17917,7 @@ Military
 
 "ZmbM_FarmerFat_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22288,7 +17927,7 @@ Military
 
 "ZmbM_FirefighterNormal"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22298,7 +17937,7 @@ Military
 
 "ZmbM_FishermanOld_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22308,7 +17947,7 @@ Military
 
 "ZmbM_FishermanOld_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22318,7 +17957,7 @@ Military
 
 "ZmbM_FishermanOld_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22328,7 +17967,7 @@ Military
 
 "ZmbM_FishermanOld_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22338,7 +17977,7 @@ Military
 
 "ZmbM_HandymanNormal_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22348,7 +17987,7 @@ Military
 
 "ZmbM_HandymanNormal_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22358,7 +17997,7 @@ Military
 
 "ZmbM_HandymanNormal_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22368,7 +18007,7 @@ Military
 
 "ZmbM_HandymanNormal_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22378,7 +18017,7 @@ Military
 
 "ZmbM_HandymanNormal_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22388,7 +18027,7 @@ Military
 
 "ZmbM_HeavyIndustryWorker"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22398,7 +18037,7 @@ Military
 
 "ZmbM_HermitSkinny_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22408,7 +18047,7 @@ Military
 
 "ZmbM_HermitSkinny_Black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22418,7 +18057,7 @@ Military
 
 "ZmbM_HermitSkinny_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22428,7 +18067,7 @@ Military
 
 "ZmbM_HermitSkinny_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22438,7 +18077,7 @@ Military
 
 "ZmbM_HikerSkinny_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22448,7 +18087,7 @@ Military
 
 "ZmbM_HikerSkinny_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22458,7 +18097,7 @@ Military
 
 "ZmbM_HikerSkinny_Yellow"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22468,7 +18107,7 @@ Military
 
 "ZmbM_HunterOld_Autumn"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22478,7 +18117,7 @@ Military
 
 "ZmbM_HunterOld_Spring"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22488,7 +18127,7 @@ Military
 
 "ZmbM_HunterOld_Summer"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22498,7 +18137,7 @@ Military
 
 "ZmbM_HunterOld_Winter"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22508,7 +18147,7 @@ Military
 
 "ZmbM_Jacket_beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22518,7 +18157,7 @@ Military
 
 "ZmbM_Jacket_black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22528,7 +18167,7 @@ Military
 
 "ZmbM_Jacket_blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22538,7 +18177,7 @@ Military
 
 "ZmbM_Jacket_bluechecks"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22548,7 +18187,7 @@ Military
 
 "ZmbM_Jacket_brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22558,7 +18197,7 @@ Military
 
 "ZmbM_Jacket_greenchecks"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22568,7 +18207,7 @@ Military
 
 "ZmbM_Jacket_grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22578,7 +18217,7 @@ Military
 
 "ZmbM_Jacket_khaki"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22588,7 +18227,7 @@ Military
 
 "ZmbM_Jacket_magenta"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22598,7 +18237,7 @@ Military
 
 "ZmbM_Jacket_stripes"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22608,7 +18247,7 @@ Military
 
 "ZmbM_JoggerSkinny_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22618,7 +18257,7 @@ Military
 
 "ZmbM_JoggerSkinny_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22628,7 +18267,7 @@ Military
 
 "ZmbM_JoggerSkinny_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22638,7 +18277,7 @@ Military
 
 "ZmbM_JournalistSkinny"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22648,7 +18287,7 @@ Military
 
 "ZmbM_MechanicSkinny_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22658,7 +18297,7 @@ Military
 
 "ZmbM_MechanicSkinny_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22668,7 +18307,7 @@ Military
 
 "ZmbM_MechanicSkinny_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22678,7 +18317,7 @@ Military
 
 "ZmbM_MechanicSkinny_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22688,7 +18327,7 @@ Military
 
 "ZmbM_MotobikerFat_Beige"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22698,7 +18337,7 @@ Military
 
 "ZmbM_MotobikerFat_Black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22708,7 +18347,7 @@ Military
 
 "ZmbM_MotobikerFat_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22718,7 +18357,7 @@ Military
 
 "ZmbM_NBC_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22728,7 +18367,7 @@ Military
 
 "ZmbM_NBC_Yellow"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22738,7 +18377,7 @@ Military
 
 "ZmbM_OffshoreWorker_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22748,7 +18387,7 @@ Military
 
 "ZmbM_OffshoreWorker_Orange"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22758,7 +18397,7 @@ Military
 
 "ZmbM_OffshoreWorker_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22768,7 +18407,7 @@ Military
 
 "ZmbM_OffshoreWorker_Yellow"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22778,7 +18417,7 @@ Military
 
 "ZmbM_ParamedicNormal_Black"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22788,7 +18427,7 @@ Military
 
 "ZmbM_ParamedicNormal_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22798,7 +18437,7 @@ Military
 
 "ZmbM_ParamedicNormal_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22808,7 +18447,7 @@ Military
 
 "ZmbM_ParamedicNormal_Red"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22818,7 +18457,7 @@ Military
 
 "ZmbM_PatientSkinny"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22828,7 +18467,7 @@ Military
 
 "ZmbM_PatrolNormal_Autumn"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22838,7 +18477,7 @@ Military
 
 "ZmbM_PatrolNormal_Flat"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22848,7 +18487,7 @@ Military
 
 "ZmbM_PatrolNormal_PautRev"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22858,7 +18497,7 @@ Military
 
 "ZmbM_PatrolNormal_Summer"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22868,7 +18507,7 @@ Military
 
 "ZmbM_PolicemanFat"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22878,7 +18517,7 @@ Military
 
 "ZmbM_PolicemanSpecForce"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22888,7 +18527,7 @@ Military
 
 "ZmbM_PolicemanSpecForce_Heavy"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22898,7 +18537,7 @@ Military
 
 "ZmbM_PrisonerSkinny"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22908,7 +18547,7 @@ Military
 
 "ZmbM_Santa"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22918,7 +18557,7 @@ Military
 
 "ZmbM_SkaterYoung_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22928,7 +18567,7 @@ Military
 
 "ZmbM_SkaterYoung_Brown"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22938,7 +18577,7 @@ Military
 
 "ZmbM_SkaterYoung_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22948,7 +18587,7 @@ Military
 
 "ZmbM_SkaterYoung_Grey"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22958,7 +18597,7 @@ Military
 
 "ZmbM_SoldierNormal"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22968,7 +18607,7 @@ Military
 
 "ZmbM_VillagerOld_Blue"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22978,7 +18617,7 @@ Military
 
 "ZmbM_VillagerOld_Green"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22988,7 +18627,7 @@ Military
 
 "ZmbM_VillagerOld_White"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -22998,7 +18637,7 @@ Military
 
 "ZmbM_priestPopSkinny"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -23008,7 +18647,7 @@ Military
 
 "ZmbM_usSoldier_Heavy_Woodland"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -23018,7 +18657,7 @@ Military
 
 "ZmbM_usSoldier_Officer_Desert"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -23028,7 +18667,7 @@ Military
 
 "ZmbM_usSoldier_normal_Desert"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -23038,7 +18677,7 @@ Military
 
 "ZmbM_usSoldier_normal_Woodland"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -24666,13 +20305,6 @@ tools
 
 "Splint"
 0
-
-
-
-
-
-
-
 clothes
 
 "Splint_Applied"
@@ -26135,37 +21767,16 @@ SeasonalEvent
 
 "ChristmasHeadband_Antlers"
 0
-
-
-
-
-
-
-
 clothes
 SeasonalEvent
 
 "ChristmasHeadband_Gingerbread"
 0
-
-
-
-
-
-
-
 clothes
 SeasonalEvent
 
 "ChristmasHeadband_Trees"
 0
-
-
-
-
-
-
-
 clothes
 SeasonalEvent
 
@@ -26214,49 +21825,21 @@ Farm
 
 	"EyeMask_Christmas"
 0
-
-
-
-
-
-
-
 clothes
 SeasonalEvent
 
 "EyeMask_Dead"
 0
-
-
-
-
-
-
-
 clothes
 SeasonalEvent
 
 "EyeMask_NewYears"
 0
-
-
-
-
-
-
-
 clothes
 Lunapark
 
 "EyeMask_Valentines"
 0
-
-
-
-
-
-
-
 clothes
 Lunapark
 
@@ -26465,13 +22048,6 @@ tools
 
 "SantasBeard"
 0
-
-
-
-
-
-
-
 clothes
 
 Town
@@ -26480,13 +22056,6 @@ SeasonalEvent
 
 "SantasHat"
 0
-
-
-
-
-
-
-
 clothes
 
 Town
@@ -26496,13 +22065,6 @@ Tier4
 
 	"Tshirt_10thAnniversary"
 0
-
-
-
-
-
-
-
 clothes
 SeasonalEvent
 
@@ -26541,35 +22103,14 @@ SeasonalEvent
 
 "WitchHood_Chainmail_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "WitchHood_Chainmail_Brown"
 0
-
-
-
-
-
-
-
 clothes
 
 "WitchHood_Chainmail_Red"
 0
-
-
-
-
-
-
-
 clothes
 
 "WitchHood_Red"
@@ -26622,7 +22163,7 @@ Village
 
 "ContaminatedArea_Dynamic"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -27851,13 +23392,6 @@ Tier3
 
 "LeatherKnifeSheath"
 0
-
-
-
-
-
-
-
 clothes
 
 "NylonKnifeSheath"
@@ -27888,13 +23422,6 @@ Military
 
 "PlateCarrierHolster_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "PlateCarrierHolster_Camo"
@@ -27913,13 +23440,6 @@ Tier4
 
 "PlateCarrierHolster_Green"
 0
-
-
-
-
-
-
-
 clothes
 
 "PlateCarrierPouches"
@@ -27937,13 +23457,6 @@ Military
 
 "PlateCarrierPouches_Black"
 0
-
-
-
-
-
-
-
 clothes
 
 "PlateCarrierPouches_Camo"
@@ -27962,13 +23475,6 @@ Tier4
 
 "PlateCarrierPouches_Green"
 0
-
-
-
-
-
-
-
 clothes
 
 
@@ -31715,7 +27221,7 @@ lootdispatch
 
 "Offroad_02"
 0
-        <lifetime>1800</lifetime>
+
 
 
 
@@ -33294,7 +28800,7 @@ lootdispatch
 
 <!-- ++++++++++ VEHICLES END ++++++++++ -->
 
-</types>
+
 
 
 
@@ -33305,520 +28811,520 @@ lootdispatch
 
 
 "UAZ_31514_driverdoor"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_codriverdoor"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_door_cargo1"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_door_cargo2"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_door_cargo3"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_door_hood"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_blackout_front"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_blackout_roof"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_blackout_fog"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_door_trunk"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_DriverDoor_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_CoDriverDoor_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo1_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo2_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo3_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Hood_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Trunk_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_DriverDoor_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_CoDriverDoor_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo1_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo2_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo3_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Hood_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Trunk_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_DriverDoor_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_CoDriverDoor_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo1_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo2_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo3_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Trunk_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_DriverDoor_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_CoDriverDoor_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo1_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo2_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Cargo3_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Door_Trunk_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_tdc"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_cargo2"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_cargo2_blue"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_cargo2_yellow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_cargo2_tdc"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_Hunter_Wheel"
-		<nominal>20
+20
 		<lifetime>28800</lifetime>
 		<restock>0</restock>
 		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-		<category name="tools
-		<category name="vehiclesparts
+
+tools
+vehiclesparts
 Industrial
 Farm
 	</type>
 "UAZ_31514_door_hood_hunter"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_door_hood_hunter_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_door_hood_hunter_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_hunter"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_hunter_camos"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
 "UAZ_31514_hunter_camow"
-		<nominal>0
+0
 		<lifetime>3888000</lifetime>
 		<restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+
 	</type>
-</types>
+
 
 
 
@@ -34186,13 +29692,6 @@ Industrial
 
 "vg7_scorpion_jacket"
 1
-
-
-
-
-
-
-
 clothes
 Town
    
@@ -34213,13 +29712,6 @@ Tier3
 
 "vg7_scorpion_jacket_pink"
 1
-
-
-
-
-
-
-
 clothes
 Town
    
@@ -34238,13 +29730,13 @@ Village
 Tier2
 Tier3
 
-</types>
+
 
 
 
 
 "Zen_TireRack"
-		<nominal>0
+0
         <lifetime>2419200</lifetime>
 
 
@@ -34254,9 +29746,9 @@ Tier3
 
 tools
 		<tag name="floor
-		<usage name="Industrial
+Industrial
 
-</types>
+
 
 
 
@@ -35583,7 +31075,7 @@ Village
 School
 Drugcar
 
-</types>
+
 
 
 
@@ -36063,7 +31555,7 @@ School
 Prison
 Lunapark
 
-</types>
+
 
 
 
@@ -36325,14 +31817,14 @@ Industrial
 floor
 
 "DingoWheel_Ruined"
-        <lifetime>1800</lifetime>
+
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
 "DingoWheel_CZ_Desert_Ruined"
-        <lifetime>1800</lifetime>
+
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 
-</types>
+
 
 
 "HydraulicJack"                         2
@@ -36359,7 +31851,7 @@ floor
 	<category name="vehiclesparts
 	<tag name="floor
 </type>
-</types>
+
 
 
 
@@ -36632,16 +32124,9 @@ School
 
 "Armband_TTPT"
 0
-
-
-
-
-
-
-
 clothes
 
-</types>
+
 
 
 
@@ -37205,4 +32690,4 @@ clothes
     <lifetime>1800</lifetime>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
 </type>
-</types>
+
