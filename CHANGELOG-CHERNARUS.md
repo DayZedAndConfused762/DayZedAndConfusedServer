@@ -79,6 +79,9 @@
 - Bug Fixes:
   - Attempted to fix a bug preventing the Dingo Trucks from spawning, need to test
 
+- Vehicles:
+  - Removed Dingo Truck event and spawn points, need to find new spawn points as they were using the spawn points as the Kamaz Truck
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/22/2024 Start ++++++++++++++++++++ -->

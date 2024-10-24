@@ -26,7 +26,6 @@
   - Configure @CJ187RandomFuelPumps
 
 - Vehicles:
-  - Test spawning of Dingo Trucks
   - Find spawn points for Dingo Trucks
   - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
   - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
