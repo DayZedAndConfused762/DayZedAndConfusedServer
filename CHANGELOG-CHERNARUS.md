@@ -69,6 +69,7 @@ Updated mods:
 
 - Made some adjustments to the new terrorist zombie
 - Removed Mod: @TLH Item Pack
+- Attempted to fix a bug preventing the Dingo Trucks from spawning, need to test
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
