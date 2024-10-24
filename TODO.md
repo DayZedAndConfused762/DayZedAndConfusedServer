@@ -18,29 +18,31 @@
 
 ## To Do 
 
-- Post server feature list to discord
+- Server Info:
+  - Create a server description/feature list to post on discord and use as a a server advertisement
 
 - Mods:
-  - Test and install DayZ Expansion Mods
+  - Test and install @DayZ-Expansion Mods
+  - Configure @CJ187RandomFuelPumps
 
-- Vehicles: 
-  - Find spawn points for dingo trucks.
+- Vehicles:
+  - Test spawning of Dingo Trucks
+  - Find spawn points for Dingo Trucks
   - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
   - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
   - Figure out which UAZ needs a glow plug instead of a spark plug
   - Find more spawn points for Gunnertruck
-  - Find spawn points for Kamaz trucks
+  - Find spawn points for Kamaz Trucks
   - Find spawn points for Kamaz Typhoon
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 
 - CJ187 crates:
-  - One at NEAF  (12k/12k)
+  - Fix floating crates: one at NEAF  (12k/12k)
   - Setup more lootcrate loot
   - Make sure stuff will fit in cj187 crates in crates
 
 - Storage:
- - Check MMG armored cabinets to make sure they are working properly
- - Edit paragon storage settings, codelock to raid tents true, add hacking tablet and battery, add msp and mmg items to config
+ - Edit paragon storage settings,  add hacking tablet and battery, add msp and mmg items to config
  - add paragon storage to basic territories
 
 - Items:
@@ -48,12 +50,40 @@
   - Spawn cj187 NVGs to test and see where they should spawn
   - Find a trader mod
   - add loot to protective cases
-  - spawn and test, remove from types if non functional CattleProd StunBaton
+  - spawn and test, remove from types if non functional CattleProd StunBaton PoliceBaton
   - Add bunker tags to items that will only spawn in bunker
 
-Bunker: 
+- Bunker: 
   - Add darkness to bunker
 
+- Review mods for possible use:
+  - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
+  - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
+  - More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
+  - BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
+  - https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
+  - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
+  - Den Drinks: https://steamcommunity.com/sharedfiles/filedetails/?id=2953370689
+  - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
+  - Last Resort - Drunkeness: https://steamcommunity.com/sharedfiles/filedetails/?id=2892950955&searchtext=
+  - ZenLeftovers: https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
+  - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
+  - InfectedHordesPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1733084281
+  - BleedTrail: https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
+  - ItemRarity: https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
+  - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
+  - MoreGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
+  - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
+  - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
+  - Advanced Weapon Scopes: https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
+  - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
+  - Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
+  - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
+  - WindstridesClothingPack: https://steamcommunity.com/sharedfiles/filedetails/?id=1797720064
+  - GearPDA: https://steamcommunity.com/sharedfiles/filedetails/?id=2124309453
+  - AdditionalMedicSupplies: https://steamcommunity.com/sharedfiles/filedetails/?id=2579252958
 
 
 
@@ -83,50 +113,6 @@ https://cmsminecraftshop.com/en/console/
 - https://www.youtube.com/watch?v=UEpuAUm0fZ8
 - https://www.youtube.com/watch?v=7_R_2HnDkzk
 - dayzyourway.com
-
-- review mods for possible use:
-- - Reinstall cj187 fuel pump mod to test if it works after msp update
-- - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
-  - - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
-- More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
-- BBPItemPack: https://steamcommunity.com/sharedfiles/filedetails/?id=2794690371
-- MuchCarKey: https://steamcommunity.com/workshop/filedetails/?id=2049002856
-- Lockpick Cars: https://steamcommunity.com/sharedfiles/filedetails/?id=2682453405
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2969381819&searchtext=molotov
-  - https://steamcommunity.com/sharedfiles/filedetails/?id=2982907131
-  - CJ187-MoreCrashsites: https://steamcommunity.com/sharedfiles/filedetails/?id=2192420336
-  - Den Drinks: https://steamcommunity.com/sharedfiles/filedetails/?id=2953370689
-  - MassFood: https://steamcommunity.com/sharedfiles/filedetails/?id=2693816184
-  - Last Resort - Drunkeness: https://steamcommunity.com/sharedfiles/filedetails/?id=2892950955&searchtext=
-  - ZenLeftovers: https://steamcommunity.com/sharedfiles/filedetails/?id=2793619401
-
-  - Zen's Artillery Strike Grenades: https://steamcommunity.com/sharedfiles/filedetails/?id=2899350583
-
-  - InfectedHordesPlus: https://steamcommunity.com/sharedfiles/filedetails/?id=1733084281
-
-  - BleedTrail: https://steamcommunity.com/sharedfiles/filedetails/?id=1640091454
-
-  - ItemRarity: https://steamcommunity.com/sharedfiles/filedetails/?id=2932515312
-
-  - CarCover: https://steamcommunity.com/sharedfiles/filedetails/?id=2303483532
-
-  - MoreGuns: https://steamcommunity.com/sharedfiles/filedetails/?id=1665663702
-  - Mortys Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2155726353
-  - Katana: https://steamcommunity.com/sharedfiles/filedetails/?id=2199693143
-  - Advanced Weapon Scopes: https://steamcommunity.com/sharedfiles/filedetails/?id=2143128974
-
-  - Treasure: https://steamcommunity.com/sharedfiles/filedetails/?id=1982919196
-
-  - Furniture: https://steamcommunity.com/sharedfiles/filedetails/?id=2909153895
-  - Furniture Kits [1.0]: https://steamcommunity.com/sharedfiles/filedetails/?id=2519713465
-  - Basic_Territories_Updated: https://steamcommunity.com/sharedfiles/filedetails/?id=2999534116
-
-  - WindstridesClothingPack: https://steamcommunity.com/sharedfiles/filedetails/?id=1797720064
-
-  - GearPDA: https://steamcommunity.com/sharedfiles/filedetails/?id=2124309453
-  - Mass'sManyItemOverhaul: https://steamcommunity.com/sharedfiles/filedetails/?id=1566911166
-  - AdditionalMedicSupplies: https://steamcommunity.com/sharedfiles/filedetails/?id=2579252958
 
 <!-- ------------------------------ToDo End ------------------------------ -->
 

@@ -13,11 +13,12 @@
 ## Contents:
 
 - [Working](#Working)
-- [10/21/2024](#10/21/204)
+- [10/22/2024](#10/22/2024)
+- [10/21/2024](#10/21/2024)
 - [10/20/2024](#10/20/2024)
 - [10/17/2024](#10/17/2024)
 - [10/16/2024](#10/16/2024)
-- [10/15/2024](#10//15/2024)
+- [10/15/2024](#10/15/2024)
 - [10/14/2024](#10/14/2024)
 - [10/12/2024](#10/12/2024)
 - [10/11/2024](#10/11/2024)
@@ -72,17 +73,18 @@
   - @TLH Item Pack
   - remove references to it throughout the files (cfg spawnable types, economy core, random presets, cj187 loot crates)
 
-- Made some adjustments to the new terrorist zombie
+- Infected:
+  - Made some adjustments to the Terrorist zombie stats
 
-
-  - Need to remove TLH Item pack, and 
-- Attempted to fix a bug preventing the Dingo Trucks from spawning, need to test
+- Bug Fixes:
+  - Attempted to fix a bug preventing the Dingo Trucks from spawning, need to test
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/22/2024 Start ++++++++++++++++++++ -->
 
 ## 10/22/2024
+
 - Updated mods:
   - @Expansion-Core
 
