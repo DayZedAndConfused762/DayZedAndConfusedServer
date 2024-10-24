@@ -17,6 +17,12 @@ Town                T
 Village             V
 
 
+
+vehiclesparts       vp
+
+
+
+
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "AirdropFlare"			        5		weapons		CIMP		1/2		@Airdrop-Upgraded
 
@@ -1033,1057 +1039,1918 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 "HackingBattery"                        0               tools           Fa/I                            @ParagonStorage
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"StorageBox_Tcrate_Black"               1               tools           Mi
-"StorageBox_Tcrate_Grey"                1               tools           I
-"StorageBox_Tcrate_Tan"                 1               tools           Mi
-"StorageBox_Tcrate_Green"               1               tools           Mi
-"StorageBox_Tcrate_Blue"                1               tools           Po
-"StorageBox_Scrate_Black"               1               tools           Mi
-"StorageBox_Scrate_Grey"                1               tools           I
-"StorageBox_Scrate_Tan"                 1               tools           Mi
-"StorageBox_Scrate_Green"               1               tools           Mi
-"StorageBox_Scrate_Blue"                1               tools           Po
-"StorageBox_Mcrate_Black"               1               tools           Mi
-"StorageBox_Mcrate_Grey"                1               tools           I
-"StorageBox_Mcrate_Tan"                 1               tools           Mi
-"StorageBox_Mcrate_Green"               1               tools           Mi
-"StorageBox_Mcrate_Blue"                1               tools           Po
-"StorageBox_GunRack_Black"              1               tools           Mi
-"StorageBox_GunRack_Tan"                1               tools           Mi
-"StorageBox_GunRack_Green"
-1
-tools
+"StorageBox_Tcrate_Black"               1               tools           Mi                              @ParagonStorage
+"StorageBox_Tcrate_Grey"                1               tools           I                               @ParagonStorage
+"StorageBox_Tcrate_Tan"                 1               tools           Mi                              @ParagonStorage
+"StorageBox_Tcrate_Green"               1               tools           Mi                              @ParagonStorage
+"StorageBox_Tcrate_Blue"                1               tools           Po                              @ParagonStorage
+"StorageBox_Scrate_Black"               1               tools           Mi                              @ParagonStorage
+"StorageBox_Scrate_Grey"                1               tools           I                               @ParagonStorage
+"StorageBox_Scrate_Tan"                 1               tools           Mi                              @ParagonStorage
+"StorageBox_Scrate_Green"               1               tools           Mi                              @ParagonStorage
+"StorageBox_Scrate_Blue"                1               tools           Po                              @ParagonStorage
+"StorageBox_Mcrate_Black"               1               tools           Mi                              @ParagonStorage
+"StorageBox_Mcrate_Grey"                1               tools           I                               @ParagonStorage
+"StorageBox_Mcrate_Tan"                 1               tools           Mi                              @ParagonStorage
+"StorageBox_Mcrate_Green"               1               tools           Mi                              @ParagonStorage
+"StorageBox_Mcrate_Blue"                1               tools           Po                              @ParagonStorage
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"StorageBox_GunRack_Black"              1               tools           Mi                              @ParagonStorage
+"StorageBox_GunRack_Tan"                1               tools           Mi                              @ParagonStorage
+"StorageBox_GunRack_Green"              1               tools           Mi                              @ParagonStorage
+"StorageBox_DGunRack_Black"             1               tools           Mi                              @ParagonStorage
+"StorageBox_DGunRack_Tan"               1               tools           Mi                              @ParagonStorage
+"StorageBox_DGunRack_Green"             1               tools           Mi                              @ParagonStorage
+"StorageBox_GunCase_Brown"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_GunCase_Grey"               0               tools           Fa/I                            @ParagonStorage
+"StorageBox_GunCase_Cherry"             0               tools           Fa/I                            @ParagonStorage
+"StorageBox_DGunCase_Brown"             0               tools           Fa/I                            @ParagonStorage
+"StorageBox_DGunCase_Grey"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_DGunCase_Cherry"            0               tools           Mi                              @ParagonStorage
+"StorageBox_GunWall_Black"              1               tools           Mi                              @ParagonStorage
+"StorageBox_GunWall_Tan"                1               tools           Mi                              @ParagonStorage
+"StorageBox_GunWall_Green"              1               tools           Mi                              @ParagonStorage
+"StorageBox_IceBox"                     2               tools           I/L                             @ParagonStorage
+"StorageBox_Locker_Black"               0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Locker_Green"               0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Locker_Purple"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Locker_Blue"                0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Locker_Red"                 0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Locker_White"               0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Locker_Yellow"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_MetalRack_Black"            2               tools           Fa/I                            @ParagonStorage
+"StorageBox_MetalRack_Tan"              2               tools           Fa/I                            @ParagonStorage
+"StorageBox_MetalRack_Green"            2               tools           Fa/I                            @ParagonStorage
+"StorageBox_HotDog_Cart"                2               tools           L                               @ParagonStorage
+"StorageBox_Mcabinet_Black"             1               tools           Mi                              @ParagonStorage
+"StorageBox_Mcabinet_Tan"               1               tools           Mi                              @ParagonStorage
+"StorageBox_Mcabinet_Green"             1               tools           Mi                              @ParagonStorage
+"StorageBox_Mlocker_Black"              1               tools           Mi                              @ParagonStorage
+"StorageBox_Mlocker_Grey"               1               tools           I                               @ParagonStorage
+"StorageBox_Mlocker_Tan"                1               tools           Mi                              @ParagonStorage
+"StorageBox_Mlocker_Green"              1               tools           Mi                              @ParagonStorage
+"StorageBox_Mlocker_Blue"               1               tools           Po                              @ParagonStorage
+"StorageBox_Safe_Black"                 0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Safe_Green"                 0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Safe_Grey"                  0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Safe_Blue"                  0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Safe_Gold"                  0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Safe_White"                 0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Safe_Rainbow"               0               tools           Fa/I                            @ParagonStorage
+"StorageBox_SmallSafe_Black"            0               tools           Fa/I                            @ParagonStorage
+"StorageBox_SmallSafe_Green"            0               tools           Fa/I                            @ParagonStorage
+"StorageBox_SmallSafe_Grey"             0               tools           Fa/I                            @ParagonStorage
+"StorageBox_SmallSafe_Blue"             0               tools           Fa/I                            @ParagonStorage
+"StorageBox_SmallSafe_Gold"             0               tools           Fa/I                            @ParagonStorage
+"StorageBox_SmallSafe_White"            0               tools           Fa/I                            @ParagonStorage
+"StorageBox_SmallSafe_Rainbow"          0               tools           Fa/I                            @ParagonStorage
+"StorageBox_BigSafe_Black"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_BigSafe_Grey"               0               tools           Fa/I                            @ParagonStorage
+"StorageBox_BigSafe_Rainbow"            0               tools           Fa/I                            @ParagonStorage
+"StorageBox_ToolB_Black"                1               tools           Fa/I                            @ParagonStorage
+"StorageBox_ToolB_Red"                  1               tools           Fa/I                            @ParagonStorage
+"StorageBox_ToolB_White"                1               tools           Fa/I                            @ParagonStorage
+"StorageBox_ToolB_Blue"                 1               tools           Fa/I                            @ParagonStorage
+"StorageBox_ToolB_Yellow"               1               tools           Fa/I                            @ParagonStorage
+"StorageBox_Wood_Crate"                 4               tools           Fa/I                            @ParagonStorage
+"StorageBox_Pallet_Black"               2               tools           Fa/I                            @ParagonStorage
+"StorageBox_Pallet_Tan"                 2               tools           Fa/I                            @ParagonStorage
+"StorageBox_Pallet_Green"               2               tools           I/Mi                            @ParagonStorage
+"StorageBox_HeliPad"                    0               tools           Fa/I                            @ParagonStorage
+"StorageBox_MiliCrate_Black"            0               tools           Fa/I                            @ParagonStorage
+"StorageBox_MiliCrate_Grey"             0               tools           Fa/I                            @ParagonStorage
+"StorageBox_MiliCrate_Tan"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_MiliCrate_Green"            0               tools           Fa/I                            @ParagonStorage
+"StorageBox_MiliCrate_Blue"             0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Fridge_Black"               1               tools           I/T/V                           @ParagonStorage
+"StorageBox_Fridge_White"               1               tools           I/T/V                           @ParagonStorage
+"StorageBox_Container_Black"            1               tools           C/I                             @ParagonStorage
+"StorageBox_Container_Grey"             1               tools           C/I                             @ParagonStorage
+"StorageBox_Container_Tan"              1               tools           C/I                             @ParagonStorage
+"StorageBox_Container_Green"            1               tools           I/Mi                            @ParagonStorage
+"StorageBox_Container_Blue"             1               tools           I/Po                            @ParagonStorage
+"StorageBox_Container_Red"              1               tools           Fi/I                            @ParagonStorage
+"StorageBox_IC_Freezer"                 1               tools           L                               @ParagonStorage
+"StorageBox_P_GreenHouse"               1               tools           Fa/T                            @ParagonStorage
+"StorageBox_LargeGreenHouse"            1               tools           Fa/T                            @ParagonStorage
+"StorageBox_Adoor_Black"                0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Adoor_Gold"                 0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Adoor_Green"                0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Adoor_Blue"                 0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Adoor_Rainbow"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Rdoor_Black"                0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Rdoor_Green"                0               tools           Fa/I                            @ParagonStorage
+"StorageBox_GearStandC_B"               1               tools           T/V                             @ParagonStorage
+"StorageBox_GearStandC_G"               1               tools           T/V                             @ParagonStorage
+"StorageBox_GearStandC_C"               1               tools           T/V                             @ParagonStorage
+"StorageBox_Compound_Gate"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Compound_Wall"              0               tools           Fa/I                            @ParagonStorage
+"StorageBox_BigTent_Black"              1               tools           I                               @ParagonStorage
+"StorageBox_BigTent_Green"              1               tools           Mi                              @ParagonStorage
+"StorageBox_BigTent_White"              1               tools           Me                              @ParagonStorage
+"StorageBox_Bdoor"                      0               tools           Fa/I                            @ParagonStorage
+"StorageBox_Dumpster"                   3               tools           I/T/V                           @ParagonStorage
+"StorageBox_GraffitiCan"                2               tools           I/T/V                           @ParagonStorage
+"StorageBox_TrashCan"                   2               tools           I/T/V                           @ParagonStorage
+"StorageBox_WallRack_Black"             0               tools           Fa/I/T/V                        @ParagonStorage
+"StorageBox_WallRack_Green"             0               tools           Fa/I/T/V                        @ParagonStorage
+"StorageBox_WallRack_Tan"               0               tools           Fa/I/T/V                        @ParagonStorage
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"StorageBox_Weapons_Rack_Black"         0               tools           Mi                              @ParagonStorage
+"StorageBox_Weapons_Rack_Green"         0               tools           Mi                              @ParagonStorage
+"StorageBox_Weapons_Rack_Tan"           0               tools           Mi                              @ParagonStorage
 
 
-Military
-
-"StorageBox_DGunRack_Black"
-1
-tools
 
 
-Military
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"UAZ_31514_driverdoor"                  0                                                               @[CnG]UAZ_31514
+"UAZ_31514_codriverdoor"                0                                                               @[CnG]UAZ_31514
+"UAZ_31514_door_cargo1"                 0                                                               @[CnG]UAZ_31514
+"UAZ_31514_door_cargo2"                 0                                                               @[CnG]UAZ_31514
+"UAZ_31514_door_cargo3"                 0                                                               @[CnG]UAZ_31514
+"UAZ_31514_door_hood"                   0                                                               @[CnG]UAZ_31514
+"UAZ_31514_blackout_front"              0                                                               @[CnG]UAZ_31514
+"UAZ_31514_blackout_roof"               0                                                               @[CnG]UAZ_31514
+"UAZ_31514_blackout_fog"                0                                                               @[CnG]UAZ_31514
+"UAZ_31514_door_trunk"                  0                                                               @[CnG]UAZ_31514
+"UAZ_31514_DriverDoor_blue"             0                                                               @[CnG]UAZ_31514
+"UAZ_31514_CoDriverDoor_blue"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo1_blue"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo2_blue"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo3_blue"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Hood_blue"              0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Trunk_blue"             0                                                               @[CnG]UAZ_31514
+"UAZ_31514_DriverDoor_yellow"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_CoDriverDoor_yellow"         0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo1_yellow"          0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo2_yellow"          0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo3_yellow"          0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Hood_yellow"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Trunk_yellow"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_DriverDoor_camos"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_CoDriverDoor_camos"          0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo1_camos"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo2_camos"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo3_camos"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Trunk_camos"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_DriverDoor_camow"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_CoDriverDoor_camow"          0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo1_camow"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo2_camow"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Cargo3_camow"           0                                                               @[CnG]UAZ_31514
+"UAZ_31514_Door_Trunk_camow"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514"                             0                                                               @[CnG]UAZ_31514
+"UAZ_31514_blue"                        0                                                               @[CnG]UAZ_31514
+"UAZ_31514_yellow"                      0                                                               @[CnG]UAZ_31514
+"UAZ_31514_tdc"                         0                                                               @[CnG]UAZ_31514
+"UAZ_31514_cargo2"                      0                                                               @[CnG]UAZ_31514
+"UAZ_31514_cargo2_blue"                 0                                                               @[CnG]UAZ_31514
+"UAZ_31514_cargo2_yellow"               0                                                               @[CnG]UAZ_31514
+"UAZ_31514_cargo2_tdc"                  0                                                               @[CnG]UAZ_31514
 
-"StorageBox_DGunRack_Tan"
-1
-tools
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"UAZ_31514_Hunter_Wheel"                20              tools/vp        Fa/I                            @[CnG]UAZ_31514
+"UAZ_31514_door_hood_hunter"            0                                                               @[CnG]UAZ_31514
+"UAZ_31514_door_hood_hunter_camos"      0                                                               @[CnG]UAZ_31514
+"UAZ_31514_door_hood_hunter_camow"      0                                                               @[CnG]UAZ_31514
+"UAZ_31514_hunter"                      0                                                               @[CnG]UAZ_31514
+"UAZ_31514_hunter_camos"                0                                                               @[CnG]UAZ_31514
+"UAZ_31514_hunter_camow"                0                                                               @[CnG]UAZ_31514
 
 
-Military
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"vg7_scorpion"                          0                                                               @[CnG]UAZ_31514
+"vg7_scorpion_easyrider"                0                                                               @[CnG]UAZ_31514
+"vg7_scorpion_scorcher"                 0                                                               @[CnG]UAZ_31514
+"vg7_scorpion_mermaid"                  0                                                               @[CnG]UAZ_31514
+"vg7_scorpion_butterfly"                0                                                               @[CnG]UAZ_31514
+"vg7_scorpion_windjammer"               4               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_saddlebag"                4               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_smg"                      1               weapons         CA                              @[CnG]UAZ_31514
+"vg7_scorpion_magazine"                 5               weapons         Mi              3/4             @[CnG]UAZ_31514
+"vg7_scorpion_suppressor"               2               weapons         CA                              @[CnG]UAZ_31514
+"vg7_scorpion_L_Door"                   3               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_drybag"                   3               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_pink_drybag"              4               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_radiator"                 7               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_wheel_front"              15              vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_wheel_rear"               15              vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_blackouts"          2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_mexico"             2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_india"              2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_usa"                2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_canada"             2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_british"            2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_china"              2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_russia"             2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_skull"              2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_mermaid"            2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_butterfly"          2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_australia"          2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_plate_czechoslovakia"     2               vp              I                               @[CnG]UAZ_31514
+"vg7_scorpion_jacket"                   1               clothes         T                               @[CnG]UAZ_31514
+"vg7_scorpion_helmet"                   5               clothes         I/V             2/3             @[CnG]UAZ_31514
+"vg7_scorpion_jacket_pink"              1               clothes         T                               @[CnG]UAZ_31514
+"vg7_scorpion_helmet_pink"              5               clothes         I/V             2/3             @[CnG]UAZ_31514
 
-"StorageBox_DGunRack_Green"
-1
-tools
 
-
-Military
-
-"StorageBox_GunCase_Brown"
-0
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Zen_TireRack"                          crafted         tools           I                               @ZensTireRack
 
 
 
+Item				                    Nominal		Category	Usage		Value		Mod
+"CP_CannabisSeedsPackSkunk"             5           food        F/H         .           @CannabisPlus
+"CP_CannabisBagSkunk"                   3           food        D           .           @CannabisPlus
+"CP_CigarettePack_CannabisSkunk"
+        7
 
 
 
-tools
+        <quantmin>1</quantmin>
 
 
-Industrial
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
 Farm
-
-"StorageBox_GunCase_Grey"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_GunCase_Cherry"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_DGunCase_Brown"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_DGunCase_Grey"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_DGunCase_Cherry"
-0
-
-
-
-
-
-
-tools
-
-
-Military
-
-"StorageBox_GunWall_Black"
-1
-tools
-
-
-Military
-
-"StorageBox_GunWall_Tan"
-1
-tools
-
-
-Military
-
-"StorageBox_GunWall_Green"
-1
-tools
-
-
-Military
-
-"StorageBox_IceBox"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
+Town
+Village
+Hunting
+Office
+School
 Lunapark
 
-"StorageBox_Locker_Black"
-0
+"CP_JointSkunk"
+        10
 
 
 
 
 
 
-tools
 
+	    <category name="food
+	    <category name="tools
+floor
 
-Industrial
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
 Farm
-
-"StorageBox_Locker_Green"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Locker_Purple"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Locker_Blue"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Locker_Red"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Locker_White"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Locker_Yellow"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MetalRack_Black"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MetalRack_Tan"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MetalRack_Green"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_HotDog_Cart"
-2
-
-
-
-
-
-
-tools
-
-
+Town
+Village
+Hunting
+Office
+School
 Lunapark
 
-"StorageBox_Mcabinet_Black"
-1
-tools
-
-
-Military
-
-"StorageBox_Mcabinet_Tan"
-1
-tools
-
-
-Military
-
-"StorageBox_Mcabinet_Green"
-1
-tools
-
-
-Military
-
-"StorageBox_Mlocker_Black"
-1
-tools
-
-
-Military
-
-"StorageBox_Mlocker_Grey"
-1
-tools
-
-
-Industrial
-
-"StorageBox_Mlocker_Tan"
-1
-tools
-
-
-Military
-
-"StorageBox_Mlocker_Green"
-1
-tools
-
-
-Military
-
-"StorageBox_Mlocker_Blue"
-1
-tools
-
-
-Police
-
-"StorageBox_Safe_Black"
-0
+ "CP_Plant_CannabisBlue"
 
 
 
+"CP_CannabisBlue"
+        0
 
 
 
-tools
+food
 
-
-Industrial
 Farm
-
-"StorageBox_Safe_Green"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Safe_Grey"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Safe_Blue"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Safe_Gold"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Safe_White"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Safe_Rainbow"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_SmallSafe_Black"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_SmallSafe_Green"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_SmallSafe_Grey"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_SmallSafe_Blue"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_SmallSafe_Gold"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_SmallSafe_White"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_SmallSafe_Rainbow"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_BigSafe_Black"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_BigSafe_Grey"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_BigSafe_Rainbow"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_ToolB_Black"
-1
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_ToolB_Red"
-1
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_ToolB_White"
-1
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_ToolB_Blue"
-1
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_ToolB_Yellow"
-1
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Wood_Crate"
-4
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Pallet_Black"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Pallet_Tan"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Pallet_Green"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
-Military
-
-"StorageBox_HeliPad"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MiliCrate_Black"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MiliCrate_Grey"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MiliCrate_Tan"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MiliCrate_Green"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_MiliCrate_Blue"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Fridge_Black"
-1
-tools
-
-
-Industrial
 Town
 Village
 
-"StorageBox_Fridge_White"
-1
-tools
+"CP_CannabisSeedsBlue"
+        0
+        <lifetime>86400</lifetime>
 
 
-Industrial
+
+
+
+
+food
+
+"CP_CannabisSeedsPackBlue"
+        5
+
+
+
+
+
+
+
+food
+Farm
+Hunting
+
+"CP_CannabisBagBlue"
+        5
+
+
+
+
+
+
+
+food
+Drugcar
+
+"CP_CannabisBrickBlue"
+        0
+
+
+
+
+
+
+
+food
+
+"CP_CigarettePack_CannabisBlue"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
 Town
 Village
-
-"StorageBox_Container_Black"
-1
-tools
-
-
-Industrial
-Coast
-
-"StorageBox_Container_Grey"
-1
-tools
-
-
-Industrial
-Coast
-
-"StorageBox_Container_Tan"
-1
-tools
-
-
-Industrial
-Coast
-
-"StorageBox_Container_Green"
-1
-tools
-
-
-Industrial
-Military
-
-"StorageBox_Container_Blue"
-1
-tools
-
-
-Industrial
-Police
-
-"StorageBox_Container_Red"
-1
-tools
-
-
-Industrial
-Firefighter
-
-"StorageBox_IC_Freezer"
-1
-tools
-
-
+Hunting
+Office
+School
 Lunapark
 
-"StorageBox_P_GreenHouse"
-1
-tools
+"CP_JointBlue"
+10
 
 
+
+
+
+
+
+	    <category name="food
+	    <category name="tools
+floor
+
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
+Farm
 Town
-Farm
-
-"StorageBox_LargeGreenHouse"
-1
-tools
-
-
-Town
-Farm
-
-"StorageBox_Adoor_Black"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Adoor_Gold"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Adoor_Green"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Adoor_Blue"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Adoor_Rainbow"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Rdoor_Black"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_Rdoor_Green"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-
-"StorageBox_GearStandC_B"
-1
-tools
-
-
 Village
-Town
+Hunting
+Office
+School
+Lunapark
 
-"StorageBox_GearStandC_G"
-1
-tools
-
-
-Village
-Town
-
-"StorageBox_GearStandC_C"
-1
-tools
-
-
-Village
-Town
-
-"StorageBox_Compound_Gate"
-0
+ "CP_Plant_CannabisKush"
 
 
 
+"CP_CannabisKush"
+        0
 
 
 
-tools
+food
 
-
-Industrial
 Farm
+Town
+Village
 
-"StorageBox_Compound_Wall"
-0
-
-
-
-
-
-
-tools
+"CP_CannabisSeedsKush"
+        0
+        <lifetime>86400</lifetime>
 
 
-Industrial
+
+
+
+
+food
+
+"CP_CannabisSeedsPackKush"
+        5
+
+
+
+
+
+
+
+food
 Farm
+Hunting
 
-"StorageBox_BigTent_Black"
-1
-tools
-
-
-Industrial
-
-"StorageBox_BigTent_Green"
-1
-tools
+"CP_CannabisBagKush"
+        5
 
 
-Military
 
-"StorageBox_BigTent_White"
-1
-tools
+
+
+
+
+food
+Drugcar
+
+"CP_CannabisBrickKush"
+        0
+
+
+
+
+
+
+
+food
+
+"CP_CigarettePack_CannabisKush"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_JointKush"
+        10
+
+
+
+
+
+
+
+	    <category name="food
+	    <category name="tools
+floor
+
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+ "CP_Plant_CannabisStardawg"
+
+
+
+"CP_CannabisStardawg"
+        0
+
+
+
+food
+
+Farm
+Town
+Village
+
+"CP_CannabisSeedsStardawg"
+        0
+        <lifetime>86400</lifetime>
+
+
+
+
+
+
+food
+
+"CP_CannabisSeedsPackStardawg"
+        5
+
+
+
+
+
+
+
+food
+Farm
+Hunting
+
+"CP_CannabisBagStardawg"
+        5
+
+
+
+
+
+
+
+food
+Drugcar
+
+"CP_CannabisBrickStardawg"
+        0
+
+
+
+
+
+
+
+food
+
+"CP_CigarettePack_CannabisStardawg"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_JointStardawg"
+10
+
+
+
+
+
+
+
+	    <category name="food
+	    <category name="tools
+floor
+
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+ "CP_Plant_Tobacco"
+
+
+
+"CP_Tobacco"
+        0
+
+
+
+food
+
+Farm
+Town
+Village
+
+"CP_TobaccoSeeds"
+        0
+        <lifetime>86400</lifetime>
+
+
+
+
+
+
+food
+
+ "CP_TobaccoSeedsPack"
+        10
+
+
+
+
+
+
+
+food
+Farm
+Hunting
+
+"CP_CigarettePack_Empty"
+        25
+
+
+        <min>10</min>
+
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CigarettePack_Chernamorka"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CigarettePack_Merkur"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CigarettePack_Partyzanka"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_Cigarette"
+        10
+
+
+
+
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_RollingPapers"
+        20
+
+
+        <min>10</min>
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+
+<!-- V2.1 - 13 Oct 2020 -->
+ "CP_Plant_CannabisFuture"
+
+
+
+"CP_CannabisFuture"
+        0
+
+
+
+food
+
+Farm
+Town
+Village
+
+"CP_CannabisSeedsFuture"
+        0
+        <lifetime>86400</lifetime>
+
+
+
+
+
+
+food
+
+"CP_CannabisSeedsPackFuture"
+        5
+
+
+
+
+
+
+
+food
+Farm
+Hunting
+
+"CP_CannabisBagFuture"
+        5
+
+
+
+
+
+
+
+food
+Drugcar
+
+"CP_CannabisBrickFuture"
+        0
+
+
+
+
+
+
+
+food
+
+"CP_CigarettePack_CannabisFuture"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_JointFuture"
+10
+
+
+
+
+
+
+
+	    <category name="food
+	    <category name="tools
+floor
+
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+ "CP_Plant_CannabisS1"
+
+
+
+"CP_CannabisS1"
+        0
+
+
+
+food
+
+Farm
+Town
+Village
+
+"CP_CannabisSeedsS1"
+        0
+        <lifetime>86400</lifetime>
+
+
+
+
+
+
+food
+
+"CP_CannabisSeedsPackS1"
+        5
+
+
+
+
+
+
+
+food
+Farm
+Hunting
+
+"CP_CannabisBagS1"
+        5
+
+
+
+
+
+
+
+food
+Drugcar
+
+"CP_CannabisBrickS1"
+        0
+
+
+
+
+
+
+
+food
+
+"CP_CigarettePack_CannabisS1"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_JointS1"
+10
+
+
+
+
+
+
+
+	    <category name="food
+	    <category name="tools
+floor
+
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+     "CP_Plant_CannabisNomad"
+
+
+
+"CP_CannabisNomad"
+        0
+
+
+
+food
+
+Farm
+Town
+Village
+
+"CP_CannabisSeedsNomad"
+        0
+        <lifetime>86400</lifetime>
+
+
+
+
+
+
+food
+
+"CP_CannabisSeedsPackNomad"
+        5
+
+
+
+
+
+
+
+food
+Farm
+Hunting
+
+"CP_CannabisBagNomad"
+        5
+
+
+
+
+
+
+
+food
+Drugcar
+
+"CP_CannabisBrickNomad"
+        0
+
+
+
+
+
+
+
+food
+
+"CP_CigarettePack_CannabisNomad"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_JointNomad"
+10
+
+
+
+
+
+
+
+	    <category name="food
+	    <category name="tools
+floor
+
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+  "CP_Plant_CannabisBlackFrost"
+
+
+
+"CP_CannabisBlackFrost"
+        0
+
+
+
+food
+
+Farm
+Town
+Village
+
+"CP_CannabisSeedsBlackFrost"
+        0
+        <lifetime>86400</lifetime>
+
+
+
+
+
+
+food
+
+"CP_CannabisSeedsPackBlackFrost"
+        5
+
+
+
+
+
+
+
+food
+Farm
+Hunting
+
+"CP_CannabisBagBlackFrost"
+        5
+
+
+
+
+
+
+
+food
+Drugcar
+
+"CP_CannabisBrickBlackFrost"
+        0
+
+
+
+
+
+
+
+food
+
+"CP_CigarettePack_CannabisBlackFrost"
+        4
+
+
+
+        <quantmin>1</quantmin>
+
+
+
+    	<category name="food
+    	<category name="tools
+floor
+
+ground
+    	<usage name="Medic
+    	<usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+"CP_JointBlackFrost"
+10
+
+
+
+
+
+
+
+	    <category name="food
+	    <category name="tools
+floor
+
+ground
+	    <usage name="Medic
+	    <usage name="Industrial
+Farm
+Town
+Village
+Hunting
+Office
+School
+Lunapark
+
+
+<!-- V2.5 - 23 Nov 2020 -->
+"CP_Relief_Balm"
+        10
+
+
+
+
+
 
 
 Medic
 
-"StorageBox_Bdoor"
+Tier2
+Tier3
+Tier4
+
+
+<!-- V3.0 - 2022 -->
+"CP_Pouch"
+        10
+
+
+        <min>3</min>
+
+
+
+
+tools
+floor
+
+ground
+Industrial
+Farm
+Office
+School
+Town
+Village
+Hunting
+
+"CP_DryPost_Kit"
+10
+
+
+
+
+
+
+
+	    <category name="tools
+floor
+
+ground
+Industrial
+Farm
+Town
+Village
+
+"CP_DryPost"
+
+
+
+"CP_DriedCannabisPlant"
+
+
+
+"CP_RawSkunkCannabisPlant"
+
+
+    
+"CP_RawBlueCannabisPlant"
+
+
+    
+"CP_RawKushCannabisPlant"
+
+
+    
+"CP_RawStardawgCannabisPlant"
+
+
+    
+"CP_RawFutureCannabisPlant"
+
+
+    
+"CP_RawNomadCannabisPlant"
+
+
+    
+"CP_RawS1CannabisPlant"
+
+
+    
+"CP_RawBlackFrostCannabisPlant"
+
+
+    
+"CP_Workbench_Kit"
+10
+
+
+
+
+
+
+
+	    <category name="tools
+floor
+
+ground
+Industrial
+Farm
+Town
+Village
+
+"CP_Workbench"
+
+
+
+"CP_Bagger"
+10
+
+
+
+
+
+
+
+	    <category name="tools
+floor
+
+ground
+Industrial
+Farm
+Town
+Village
+
+"CP_PlasticWrapper"
+        10
+
+
+
+
+
+
+
+	    <category name="tools
+floor
+
+ground
+Industrial
+Farm
+Town
+Village
+    
+"CP_EmptyBag"
+        50
+
+
+        <min>10</min>
+        <quantmin>20</quantmin>
+
+
+
+tools
+
+Town
+Village
+School
+Drugcar
+
+"CP_PlasticRoll"
+        20
+
+
+
+        <quantmin>20</quantmin>
+
+
+
+tools
+Tier3
+Tier4
+Industrial
+Town
+Village
+School
+Drugcar
+
+
+
+
+
+
+"CJ_Key1"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key2"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key3"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key4"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key5"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key6"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key7"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key8"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key9"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key10"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key11"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key12"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key101"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key102"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key103"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key201"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key202"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key203"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+"CJ_Key204"
+        1
+
+
+
+
+
+
+
+ tools
+Military
+Police
+Medic
+Firefighter
+Industrial
+Farm
+Coast
+Town
+Village
+Hunting
+Office
+School
+Prison
+Lunapark
+
+
+
+
+
+"Dingo"                                 0                                               @Dingo_Truck
+"Dingo_CZ"                              0                                               @Dingo_Truck
+"Dingo_CZ_Desert"                       0                                               @Dingo_Truck
+"DingoDoors_Cargo1"                     0                                               @Dingo_Truck
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_Cargo1_CZ"
 0
 
 
@@ -2091,28 +2958,541 @@ Medic
 
 
 
-tools
 
-
+lootdispatch
 Industrial
-Farm
+floor
 
-"StorageBox_Dumpster"
-3
-
-
+"DingoDoors_Cargo1_CZ_Desert"
+0
 
 
 
 
-tools
 
 
+
+lootdispatch
 Industrial
-Town
-Village
+floor
 
-"StorageBox_GraffitiCan"
+"DingoDoors_Cargo2"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_Cargo2_CZ"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_Cargo2_CZ_Desert"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_CoDriver"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_CoDriver_CZ"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_CoDriver_CZ_Desert"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_Driver"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_Driver_CZ"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoDoors_Driver_CZ_Desert"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoHood"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoHood_CZ"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoHood_CZ_Desert"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoTrunk"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoTrunk_CZ"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoTrunk_CZ_Desert"
+0
+
+
+
+
+
+
+
+lootdispatch
+Industrial
+floor
+
+"DingoWheel"
+0
+
+
+
+
+
+
+
+lootdispatch
+      <category name="vehiclesparts
+Industrial
+floor
+
+"DingoWheel_CZ_Desert"
+0
+
+
+
+
+
+
+
+lootdispatch
+      <category name="vehiclesparts
+Industrial
+floor
+
+"DingoWheel_Ruined"
+
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
+
+"DingoWheel_CZ_Desert_Ruined"
+
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
+
+
+
+
+"HydraulicJack"                         2
+	    <lifetime>28800</lifetime>
+	    <restock>0</restock>
+	    <min>1</min>
+	    <quantmin>-1</quantmin>
+	    <quantmax>-1</quantmax>
+	    <cost>100</cost>
+	    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+	    <category name="vehiclesparts
+	    <tag name="floor
+
+
+<type name="TrafficCone"
+	<nominal>0
+	<lifetime>28800</lifetime>
+	<restock>0</restock>
+	<min>0</min>
+	<quantmin>-1</quantmin>
+	<quantmax>-1</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+	<category name="vehiclesparts
+	<tag name="floor
+</type>
+
+
+
+
+
+"GunnerTruck"
+
+
+
+"GunnerTruckWhite"
+
+
+
+"GunnerTruckTan"
+
+
+
+"GunnerTruck_Auto"
+
+
+
+"GunnerTruckWhite_Auto"
+
+
+
+"GunnerTruckTan_Auto"
+
+
+
+"JLTVWheel"
+10
+
+
+        <min>2</min>
+
+
+
+
+vehiclesparts
+Military
+
+"JLTVDoorDriver"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorCoDriver"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorBackLeft"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorBackRight"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVHood"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVRearGuard"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorDriverWhite"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorCoDriverWhite"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorBackLeftWhite"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorBackRightWhite"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVHoodWhite"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVRearGuardWhite"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorDriverTan"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorCoDriverTan"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorBackLeftTan"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVDoorBackRightTan"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVHoodTan"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+"JLTVRearGuardTan"
+0
+
+
+
+
+
+
+
+vehiclesparts
+Industrial
+
+	<!-- 	TwoTitsPlayTat Flag and Armband	 -->
+"Flag_TTPT"
 2
 
 
@@ -2120,507 +3500,1791 @@ Village
 
 
 
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0
 tools
+Office
+School
 
-
-Industrial
-Town
-Village
-
-"StorageBox_TrashCan"
-2
-
-
-
-
-
-
-tools
-
-
-Industrial
-Town
-Village
-
-
-
-
-
-"StorageBox_WallRack_Black"
+"Armband_TTPT"
 0
+clothes
 
 
 
 
 
+<type name="Kamaz"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazCovered"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazCovered_Winter"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazCovered_Civ_Orange_Blue"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazCovered_Civ_Red"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazCovered_Civ_Blue"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazCovered_Civ_Yellow"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazFuel"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazFuel_Shell"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazFuel_White"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazFuel_Civ_Orange"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazCargo"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="Kamaz_fuelPump"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="Kamaz_Tent"
+    <nominal>0
+    <lifetime>3888000</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+</type>
+<type name="KamazDoors_Driver"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Shell"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Fuel_White"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Fuel_Orange"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Winter"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Civ_Orange"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Civ_Red"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Civ_Blue"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_Driver_Civ_Yellow"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Shell"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Fuel_White"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Fuel_Orange"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Winter"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Civ_Orange"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Civ_Red"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Civ_Blue"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazDoors_CoDriver_Civ_Yellow"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Shell"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Fuel_White"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Winter"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Civ_Orange"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Fuel_Orange"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Civ_Red"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Civ_Blue"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazHood_Civ_Yellow"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazTrunk"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazTrunk_Winter"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazTrunk_Civ_Orange_Blue"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazTrunk_Civ_Green"
+    <nominal>0
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazWheel"
+    <nominal>30
+    <lifetime>2700</lifetime>
+    <restock>0</restock>
+    <min>15</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
+    <category name="vehiclesparts
+    <tag name="floor
+    <usage name="Industrial
+</type>
+<type name="KamazWheel_Ruined"
+    <lifetime>1800</lifetime>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
+</type>
 
-tools
 
 
-Industrial
-Farm
-Town
-Village
+<!-- FLAGS START -->
 
-"StorageBox_WallRack_Green"
+"MVS_CountryFlag_Afghanistan"
 0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-Town
-Village
-
-"StorageBox_WallRack_Tan"
-0
-
-
-
-
-
-
-tools
-
-
-Industrial
-Farm
-Town
-Village
-
-"StorageBox_Weapons_Rack_Black"
-0
-
-
-
-
-
-
-tools
-
-
+clothes
 Military
 
-"StorageBox_Weapons_Rack_Green"
+"MVS_CountryFlag_Albania"
 0
-
-
-
-
-
-
-tools
-
-
+clothes
 Military
 
-"StorageBox_Weapons_Rack_Tan"
+"MVS_CountryFlag_Algeria"
 0
+clothes
+Military
 
+"MVS_CountryFlag_AmericanSamoa"
+0
+clothes
+Military
 
+"MVS_CountryFlag_Andorra"
+0
+clothes
+Military
 
+"MVS_CountryFlag_Angola"
+0
+clothes
+Military
 
+"MVS_CountryFlag_Antigua"
+0
+clothes
+Military
 
+"MVS_CountryFlag_Argentina"
+0
+clothes
+Military
 
-tools
+"MVS_CountryFlag_Armenia"
+0
+clothes
+Military
 
+"MVS_CountryFlag_Aruba"
+0
+clothes
+Military
 
+"MVS_CountryFlag_Australia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Austria"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Azerbaijan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Azores"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bahamas"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bahrain"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bangladesh"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Barbados"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Belarus"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Belgium"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Belize"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Benin"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bermuda"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bhutan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bolivia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bosnia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Botswana"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Brazil"
+0
+clothes
+Military
+
+"MVS_CountryFlag_BritishVirginIslands"
+0
+clothes
+Military
+
+"MVS_CountryFlag_BruneiDarussalam"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Bulgaria"
+0
+clothes
+Military
+
+"MVS_CountryFlag_BurkinaFaso"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Burma"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Burundi"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Cambodia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Cameroon"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Canada"
+0
+clothes
+Military
+
+"MVS_CountryFlag_CapeVerde"
+0
+clothes
+Military
+
+"MVS_CountryFlag_CaymanIslands"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Chad"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Chile"
+0
+clothes
+Military
+
+"MVS_CountryFlag_China"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Colombia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Comoros"
+0
+clothes
+Military
+
+"MVS_CountryFlag_CookIslands"
+0
+clothes
+Military
+
+"MVS_CountryFlag_CostaRica"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Croatia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Cuba"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Curacao"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Cyprus"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Czech"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Denmark"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Djibouti"
+0
+clothes
+Military
+	
+"MVS_CountryFlag_DominicanRepublic"
+0
+clothes
+Military
+
+"MVS_CountryFlag_EastTimor"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Ecuador"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Egypt"
+0
+clothes
+Military
+
+"MVS_CountryFlag_ElSalvador"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Eritrea"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Estonia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Ethiopia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_FalklandIslands"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Fiji"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Finland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_France"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Gabon"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Gambia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Germany"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Ghana"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Gibraltar"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Greece"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Greenland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Grenada"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Guam"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Guatemala"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Guinea"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Guyana"
+0
+clothes
+Military
+
+"MVS_CountryFlag_GypsyRomani"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Haiti"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Honduras"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Hungary"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Iceland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_India"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Indonesia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Iran"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Iraq"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Ireland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Israel"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Italy"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Jamaica"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Japan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Jordan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Kazakhstan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Kenya"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Kiribati"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Kosovo"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Kuwait"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Kyrgyzstan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Laos"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Latvia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Lebanon"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Lesotho"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Liberia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Libya"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Lithuania"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Macau"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Macedonia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Madagascar"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Malawi"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Malaysia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Maldives"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Mali"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Malta"
+0
+clothes
+Military
+
+"MVS_CountryFlag_MarshallIslands"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Mauritius"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Mexico"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Micronesia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Moldova"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Monaco"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Mongolia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Montenegro"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Morocco"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Mozambique"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Namibia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Nauru"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Netherlands"
+0
+clothes
+Military
+
+"MVS_CountryFlag_NewZealand"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Nicaragua"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Niger"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Nigeria"
+0
+clothes
+Military
+
+"MVS_CountryFlag_NorthernIreland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Norway"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Oman"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Pakistan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Palau"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Palestine"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Panama"
+0
+clothes
+Military
+
+"MVS_CountryFlag_PapuaNewGuinea"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Paraguay"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Peru"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Philippines"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Poland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Portugal"
+0
+clothes
+Military
+
+"MVS_CountryFlag_PuertoRico"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Qatar"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Romania"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Russia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Rwanda"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Samoa"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SanMarino"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SaudiArabia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Scotland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Senegal"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Serbia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Seychelles"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Sicily"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SierraLeone"
+0
+clothes
+Military
+	
+"MVS_CountryFlag_Singapore"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Slovakia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Slovenia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SolomonIslands"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Somalia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SouthAfrica"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SouthKorea"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SouthVietnam"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Spain"
+0
+clothes
+Military
+
+"MVS_CountryFlag_SriLanka"
+0
+clothes
+Military
+
+"MVS_CountryFlag_StLucia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_StMaarten"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Sudan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Suriname"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Swaziland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Sweden"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Switzerland"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Syria"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Taiwan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Tajikistan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Tanzania"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Thailand"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Tibet"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Togo"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Tonga"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Trinidad"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Tunisia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Turkey"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Turkmenistan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_TurksCaicos"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Tuvalu"
+0
+clothes
+Military
+
+"MVS_CountryFlag_UAE"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Uganda"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Ukraine"
+0
+clothes
+Military
+
+"MVS_CountryFlag_UnitedKingdom"
+0
+clothes
+Military
+
+"MVS_CountryFlag_UnitedNations"
+0
+clothes
+Military
+
+"MVS_CountryFlag_UnitedStates"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Uruguay"
+0
+clothes
+Military
+
+"MVS_CountryFlag_USSR"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Uzbekistan"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Vanuatu"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Venezuela"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Vietnam"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Wales"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Yemen"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Yugoslavia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Zambia"
+0
+clothes
+Military
+
+"MVS_CountryFlag_Zimbabwe"
+0
+clothes
 Military
 
 
-
-
-
-<!--taxi-->
-"civiliansedan_taxi"
+"MVS_Patch_01"
 0
-		<lifetime>3</lifetime> <!--change lifetime to 3888000 when using Trader-->
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"SC_taxilights"
+"MVS_Patch_02"
 0
+clothes
+Military
 
-
-
-
-
-
-
-
-"CivSedanDoors_BackLeft_taxi"
+"MVS_Patch_03"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"CivSedanDoors_BackRight_taxi"
+"MVS_Patch_04"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"CivSedanDoors_CoDriver_taxi"
+"MVS_Patch_05"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"CivSedanDoors_Driver_taxi"
+"MVS_Patch_06"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-<!--VWBus-->
-"sc_van"
+"MVS_Patch_07"
 0
-		<lifetime>3</lifetime><!--change lifetime to 3888000 when using Trader-->
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_ambulance"
+"MVS_Patch_08"
 0
-		<lifetime>3</lifetime><!--change lifetime to 3888000 when using Trader-->
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_1_1"
+"MVS_Patch_09"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_ambulance_1_1"
+"MVS_Patch_10"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_2_1"
+"MVS_Patch_11"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_ambulance_2_1"
+"MVS_Patch_12"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_cargo1"
+"MVS_Patch_13"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_ambulance_cargo1"
+"MVS_Patch_14"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_cargo2"
+"MVS_Patch_15"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_ambulance_cargo2"
+"MVS_Patch_16"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_cargo3"
+"MVS_Patch_17"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-"sc_van_door_ambulance_cargo3"
+"MVS_Patch_18"
 0
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"sc_van_wheel"
-18
-		<lifetime>14400</lifetime>
-		<restock>0</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"sc_van_wheel_destroyed"
+clothes
+Military
+	
+"MVS_Patch_19"
 0
-		<lifetime>720</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
+clothes
+Military
 
-
-<!--Police Pack Cars-->	
-"SC_PoliceLights_Base"
+"MVS_Patch_20"
 0
+clothes
+Military
 
-
-
-
-
-
-
-
-"SC_PoliceLights_Duo"
+"MVS_Patch_21"
 0
+clothes
+Military
 
-
-
-
-
-
-
-
-"SC_PoliceLights_Single"
+"MVS_Patch_22"
 0
+clothes
+Military
 
-
-
-
-
-
-
-
-<!--Policepack Gunter-->	
-"Hatchback_02_Policepack"
+"MVS_Patch_23"
 0
-        <lifetime>3</lifetime><!--change lifetime to 3888000 when using Trader-->
+clothes
+Military
 
-
-
-
-
-
-
-"Hatchback_02_Door_1_1_Policepack"
+"MVS_Patch_24"
 0
+clothes
+Military
 
-
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"Hatchback_02_Door_2_1_Policepack"
+"MVS_Patch_25"
 0
+clothes
+Military
 
-        <restock>1</restock>
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"Hatchback_02_Door_1_2_Policepack"
+"MVS_Patch_26"
 0
+clothes
+Military
 
-        <restock>1</restock>
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"Hatchback_02_Door_2_2_Policepack"
+"MVS_Patch_27"
 0
+clothes
+Military
 
-
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"Hatchback_02_Hood_Policepack"
+"MVS_Patch_28"
 0
+clothes
+Military
 
-
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"Hatchback_02_Trunk_Policepack"
+"MVS_Patch_29"
 0
+clothes
+Military
 
-
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-<!--Policepack ADA-->	
-"OffroadHatchback_policepack"
+"MVS_Patch_30"
 0
-        <lifetime>3</lifetime><!--change lifetime to 3888000 when using Trader-->
+clothes
+Military
 
-
-
-
-
-
-
-"HatchbackDoors_Driver_policepack"
+"MVS_Patch_31"
 0
+clothes
+Military
 
-
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"HatchbackDoors_CoDriver_policepack"
+"MVS_Patch_32"
 0
+clothes
+Military
 
-
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"HatchbackHood_policepack"
+"MVS_Patch_33"
 0
+clothes
+Military
 
-
-
-
-
-
-
-lootdispatch
-
-Industrial
-
-"HatchbackTrunk_policepack"
+"MVS_Patch_34"
 0
+clothes
+Military
+
+"MVS_Patch_35"
+0
+clothes
+Military
+
+"MVS_Patch_36"
+0
+clothes
+Military
 
 
-
-
-
-
-
-lootdispatch
-
-Industrial
 
 
 
@@ -24428,5102 +27092,3 @@ lootdispatch
 <!-- ++++++++++ VEHICLES END ++++++++++ -->
 
 
-
-
-
-
-
-
-
-
-
-"UAZ_31514_driverdoor"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_codriverdoor"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_door_cargo1"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_door_cargo2"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_door_cargo3"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_door_hood"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_blackout_front"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_blackout_roof"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_blackout_fog"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_door_trunk"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_DriverDoor_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_CoDriverDoor_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo1_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo2_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo3_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Hood_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Trunk_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_DriverDoor_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_CoDriverDoor_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo1_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo2_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo3_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Hood_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Trunk_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_DriverDoor_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_CoDriverDoor_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo1_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo2_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo3_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Trunk_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_DriverDoor_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_CoDriverDoor_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo1_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo2_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Cargo3_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Door_Trunk_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_tdc"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_cargo2"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_cargo2_blue"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_cargo2_yellow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_cargo2_tdc"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_Hunter_Wheel"
-20
-		<lifetime>28800</lifetime>
-		<restock>0</restock>
-		<min>10</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-tools
-vehiclesparts
-Industrial
-Farm
-
-"UAZ_31514_door_hood_hunter"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_door_hood_hunter_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_door_hood_hunter_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_hunter"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_hunter_camos"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-"UAZ_31514_hunter_camow"
-0
-		<lifetime>3888000</lifetime>
-		<restock>0</restock>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-
-
-
-
-
-
-"vg7_scorpion"
-0
-
-
-
-
-
-
-
-
-"vg7_scorpion_easyrider"
-0
-
-
-
-
-
-
-
-
-"vg7_scorpion_scorcher"
-0
-
-
-
-
-
-
-
-  
-"vg7_scorpion_mermaid"
-0
-
-
-
-
-
-
-
-  
-"vg7_scorpion_butterfly"
-0
-
-
-
-
-
-
-
-    
-"vg7_scorpion_windjammer"
-4
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_saddlebag"
-4
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_smg"
-1
-
-        <restock>3600</restock>
-
-
-
-
-
-weapons
-ContaminatedArea
-
- "vg7_scorpion_magazine"
-5
-
-
-        <min>2</min>
-        <quantmin>5</quantmin>
-        <quantmax>50</quantmax>
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"vg7_scorpion_suppressor"
-2
-
-        <restock>3600</restock>
-
-
-
-
-
-weapons
-
-ContaminatedArea
-
-"vg7_scorpion_L_Door"
-3
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-   
-"vg7_scorpion_drybag"
-3
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_pink_drybag"
-4
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_radiator"
-7
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_wheel_front"
-15
-
-
-        <min>5</min>
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_wheel_rear"
-15
-
-
-        <min>5</min>
-
-
-
-
-tools
-
-Industrial
-
-"vg7_scorpion_plate_blackouts"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_mexico"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_india"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_usa"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_canada"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_british"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_china"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_russia"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_skull"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_mermaid"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_butterfly"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_australia"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_plate_czechoslovakia"
-2
-
-
-
-
-
-
-
-vehiclesparts
-
-Industrial
-
-"vg7_scorpion_jacket"
-1
-clothes
-Town
-   
-"vg7_scorpion_helmet"
-5
-
-
-        <min>2</min>
-
-
-
-
-clothes
-Industrial
-Village
-Tier2
-Tier3
-
-"vg7_scorpion_jacket_pink"
-1
-clothes
-Town
-   
-"vg7_scorpion_helmet_pink"
-5
-
-
-        <min>2</min>
-
-
-
-
-clothes
-Industrial
-Village
-Tier2
-Tier3
-
-
-
-
-
-
-"Zen_TireRack"
-0
-        <lifetime>2419200</lifetime>
-
-
-
-
-
-
-tools
-		<tag name="floor
-Industrial
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Item				                    Nominal		Category	Usage		Value		Mod
-"CP_CannabisSeedsPackSkunk"             5           food        F/H         .           @CannabisPlus
-"CP_CannabisBagSkunk"                   3           food        D           .           @CannabisPlus
-"CP_CigarettePack_CannabisSkunk"
-        7
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointSkunk"
-        10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
- "CP_Plant_CannabisBlue"
-
-
-
-"CP_CannabisBlue"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_CannabisSeedsBlue"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
-"CP_CannabisSeedsPackBlue"
-        5
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CannabisBagBlue"
-        5
-
-
-
-
-
-
-
-food
-Drugcar
-
-"CP_CannabisBrickBlue"
-        0
-
-
-
-
-
-
-
-food
-
-"CP_CigarettePack_CannabisBlue"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointBlue"
-10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
- "CP_Plant_CannabisKush"
-
-
-
-"CP_CannabisKush"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_CannabisSeedsKush"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
-"CP_CannabisSeedsPackKush"
-        5
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CannabisBagKush"
-        5
-
-
-
-
-
-
-
-food
-Drugcar
-
-"CP_CannabisBrickKush"
-        0
-
-
-
-
-
-
-
-food
-
-"CP_CigarettePack_CannabisKush"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointKush"
-        10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
- "CP_Plant_CannabisStardawg"
-
-
-
-"CP_CannabisStardawg"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_CannabisSeedsStardawg"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
-"CP_CannabisSeedsPackStardawg"
-        5
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CannabisBagStardawg"
-        5
-
-
-
-
-
-
-
-food
-Drugcar
-
-"CP_CannabisBrickStardawg"
-        0
-
-
-
-
-
-
-
-food
-
-"CP_CigarettePack_CannabisStardawg"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointStardawg"
-10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
- "CP_Plant_Tobacco"
-
-
-
-"CP_Tobacco"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_TobaccoSeeds"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
- "CP_TobaccoSeedsPack"
-        10
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CigarettePack_Empty"
-        25
-
-
-        <min>10</min>
-
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CigarettePack_Chernamorka"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CigarettePack_Merkur"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CigarettePack_Partyzanka"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_Cigarette"
-        10
-
-
-
-
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_RollingPapers"
-        20
-
-
-        <min>10</min>
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-
-<!-- V2.1 - 13 Oct 2020 -->
- "CP_Plant_CannabisFuture"
-
-
-
-"CP_CannabisFuture"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_CannabisSeedsFuture"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
-"CP_CannabisSeedsPackFuture"
-        5
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CannabisBagFuture"
-        5
-
-
-
-
-
-
-
-food
-Drugcar
-
-"CP_CannabisBrickFuture"
-        0
-
-
-
-
-
-
-
-food
-
-"CP_CigarettePack_CannabisFuture"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointFuture"
-10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
- "CP_Plant_CannabisS1"
-
-
-
-"CP_CannabisS1"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_CannabisSeedsS1"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
-"CP_CannabisSeedsPackS1"
-        5
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CannabisBagS1"
-        5
-
-
-
-
-
-
-
-food
-Drugcar
-
-"CP_CannabisBrickS1"
-        0
-
-
-
-
-
-
-
-food
-
-"CP_CigarettePack_CannabisS1"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointS1"
-10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-     "CP_Plant_CannabisNomad"
-
-
-
-"CP_CannabisNomad"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_CannabisSeedsNomad"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
-"CP_CannabisSeedsPackNomad"
-        5
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CannabisBagNomad"
-        5
-
-
-
-
-
-
-
-food
-Drugcar
-
-"CP_CannabisBrickNomad"
-        0
-
-
-
-
-
-
-
-food
-
-"CP_CigarettePack_CannabisNomad"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointNomad"
-10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-  "CP_Plant_CannabisBlackFrost"
-
-
-
-"CP_CannabisBlackFrost"
-        0
-
-
-
-food
-
-Farm
-Town
-Village
-
-"CP_CannabisSeedsBlackFrost"
-        0
-        <lifetime>86400</lifetime>
-
-
-
-
-
-
-food
-
-"CP_CannabisSeedsPackBlackFrost"
-        5
-
-
-
-
-
-
-
-food
-Farm
-Hunting
-
-"CP_CannabisBagBlackFrost"
-        5
-
-
-
-
-
-
-
-food
-Drugcar
-
-"CP_CannabisBrickBlackFrost"
-        0
-
-
-
-
-
-
-
-food
-
-"CP_CigarettePack_CannabisBlackFrost"
-        4
-
-
-
-        <quantmin>1</quantmin>
-
-
-
-    	<category name="food
-    	<category name="tools
-floor
-
-ground
-    	<usage name="Medic
-    	<usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-"CP_JointBlackFrost"
-10
-
-
-
-
-
-
-
-	    <category name="food
-	    <category name="tools
-floor
-
-ground
-	    <usage name="Medic
-	    <usage name="Industrial
-Farm
-Town
-Village
-Hunting
-Office
-School
-Lunapark
-
-
-<!-- V2.5 - 23 Nov 2020 -->
-"CP_Relief_Balm"
-        10
-
-
-
-
-
-
-
-Medic
-
-Tier2
-Tier3
-Tier4
-
-
-<!-- V3.0 - 2022 -->
-"CP_Pouch"
-        10
-
-
-        <min>3</min>
-
-
-
-
-tools
-floor
-
-ground
-Industrial
-Farm
-Office
-School
-Town
-Village
-Hunting
-
-"CP_DryPost_Kit"
-10
-
-
-
-
-
-
-
-	    <category name="tools
-floor
-
-ground
-Industrial
-Farm
-Town
-Village
-
-"CP_DryPost"
-
-
-
-"CP_DriedCannabisPlant"
-
-
-
-"CP_RawSkunkCannabisPlant"
-
-
-    
-"CP_RawBlueCannabisPlant"
-
-
-    
-"CP_RawKushCannabisPlant"
-
-
-    
-"CP_RawStardawgCannabisPlant"
-
-
-    
-"CP_RawFutureCannabisPlant"
-
-
-    
-"CP_RawNomadCannabisPlant"
-
-
-    
-"CP_RawS1CannabisPlant"
-
-
-    
-"CP_RawBlackFrostCannabisPlant"
-
-
-    
-"CP_Workbench_Kit"
-10
-
-
-
-
-
-
-
-	    <category name="tools
-floor
-
-ground
-Industrial
-Farm
-Town
-Village
-
-"CP_Workbench"
-
-
-
-"CP_Bagger"
-10
-
-
-
-
-
-
-
-	    <category name="tools
-floor
-
-ground
-Industrial
-Farm
-Town
-Village
-
-"CP_PlasticWrapper"
-        10
-
-
-
-
-
-
-
-	    <category name="tools
-floor
-
-ground
-Industrial
-Farm
-Town
-Village
-    
-"CP_EmptyBag"
-        50
-
-
-        <min>10</min>
-        <quantmin>20</quantmin>
-
-
-
-tools
-
-Town
-Village
-School
-Drugcar
-
-"CP_PlasticRoll"
-        20
-
-
-
-        <quantmin>20</quantmin>
-
-
-
-tools
-Tier3
-Tier4
-Industrial
-Town
-Village
-School
-Drugcar
-
-
-
-
-
-
-"CJ_Key1"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key2"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key3"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key4"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key5"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key6"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key7"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key8"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key9"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key10"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key11"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key12"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key101"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key102"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key103"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key201"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key202"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key203"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-"CJ_Key204"
-        1
-
-
-
-
-
-
-
- tools
-Military
-Police
-Medic
-Firefighter
-Industrial
-Farm
-Coast
-Town
-Village
-Hunting
-Office
-School
-Prison
-Lunapark
-
-
-
-
-
-"Dingo"                                 0                                               @Dingo_Truck
-"Dingo_CZ"                              0                                               @Dingo_Truck
-"Dingo_CZ_Desert"                       0                                               @Dingo_Truck
-"DingoDoors_Cargo1"                     0                                               @Dingo_Truck
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Cargo1_CZ"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Cargo1_CZ_Desert"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Cargo2"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Cargo2_CZ"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Cargo2_CZ_Desert"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_CoDriver"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_CoDriver_CZ"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_CoDriver_CZ_Desert"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Driver"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Driver_CZ"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoDoors_Driver_CZ_Desert"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoHood"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoHood_CZ"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoHood_CZ_Desert"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoTrunk"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoTrunk_CZ"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoTrunk_CZ_Desert"
-0
-
-
-
-
-
-
-
-lootdispatch
-Industrial
-floor
-
-"DingoWheel"
-0
-
-
-
-
-
-
-
-lootdispatch
-      <category name="vehiclesparts
-Industrial
-floor
-
-"DingoWheel_CZ_Desert"
-0
-
-
-
-
-
-
-
-lootdispatch
-      <category name="vehiclesparts
-Industrial
-floor
-
-"DingoWheel_Ruined"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-"DingoWheel_CZ_Desert_Ruined"
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-
-
-
-
-"HydraulicJack"                         2
-	    <lifetime>28800</lifetime>
-	    <restock>0</restock>
-	    <min>1</min>
-	    <quantmin>-1</quantmin>
-	    <quantmax>-1</quantmax>
-	    <cost>100</cost>
-	    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-	    <category name="vehiclesparts
-	    <tag name="floor
-
-
-<type name="TrafficCone"
-	<nominal>0
-	<lifetime>28800</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-	<category name="vehiclesparts
-	<tag name="floor
-</type>
-
-
-
-
-
-"GunnerTruck"
-
-
-
-"GunnerTruckWhite"
-
-
-
-"GunnerTruckTan"
-
-
-
-"GunnerTruck_Auto"
-
-
-
-"GunnerTruckWhite_Auto"
-
-
-
-"GunnerTruckTan_Auto"
-
-
-
-"JLTVWheel"
-10
-
-
-        <min>2</min>
-
-
-
-
-vehiclesparts
-Military
-
-"JLTVDoorDriver"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorCoDriver"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackLeft"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackRight"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVHood"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVRearGuard"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorDriverWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorCoDriverWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackLeftWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackRightWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVHoodWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVRearGuardWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorDriverTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorCoDriverTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackLeftTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackRightTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVHoodTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVRearGuardTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-	<!-- 	TwoTitsPlayTat Flag and Armband	 -->
-"Flag_TTPT"
-2
-
-
-
-
-
-
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0
-tools
-Office
-School
-
-"Armband_TTPT"
-0
-clothes
-
-
-
-
-
-<type name="Kamaz"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Winter"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Orange_Blue"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Red"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Blue"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Yellow"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel_Shell"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel_White"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel_Civ_Orange"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCargo"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="Kamaz_fuelPump"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="Kamaz_Tent"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazDoors_Driver"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Shell"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Fuel_White"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Fuel_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Red"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Yellow"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Shell"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Fuel_White"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Fuel_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Red"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Yellow"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Shell"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Fuel_White"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Fuel_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Red"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Yellow"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk_Civ_Orange_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk_Civ_Green"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazWheel"
-    <nominal>30
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>15</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    <category name="vehiclesparts
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazWheel_Ruined"
-    <lifetime>1800</lifetime>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-</type>
-
-
-
-<!-- FLAGS START -->
-
-"MVS_CountryFlag_Afghanistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Albania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Algeria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_AmericanSamoa"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Andorra"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Angola"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Antigua"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Argentina"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Armenia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Aruba"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Australia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Austria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Azerbaijan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Azores"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bahamas"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bahrain"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bangladesh"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Barbados"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Belarus"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Belgium"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Belize"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Benin"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bermuda"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bhutan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bolivia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bosnia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Botswana"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Brazil"
-0
-clothes
-Military
-
-"MVS_CountryFlag_BritishVirginIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_BruneiDarussalam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bulgaria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_BurkinaFaso"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Burma"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Burundi"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cambodia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cameroon"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Canada"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CapeVerde"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CaymanIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Chad"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Chile"
-0
-clothes
-Military
-
-"MVS_CountryFlag_China"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Colombia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Comoros"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CookIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CostaRica"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Croatia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cuba"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Curacao"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cyprus"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Czech"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Denmark"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Djibouti"
-0
-clothes
-Military
-	
-"MVS_CountryFlag_DominicanRepublic"
-0
-clothes
-Military
-
-"MVS_CountryFlag_EastTimor"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ecuador"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Egypt"
-0
-clothes
-Military
-
-"MVS_CountryFlag_ElSalvador"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Eritrea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Estonia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ethiopia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_FalklandIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Fiji"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Finland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_France"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Gabon"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Gambia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Germany"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ghana"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Gibraltar"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Greece"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Greenland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Grenada"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guatemala"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guinea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guyana"
-0
-clothes
-Military
-
-"MVS_CountryFlag_GypsyRomani"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Haiti"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Honduras"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Hungary"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Iceland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_India"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Indonesia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Iran"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Iraq"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ireland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Israel"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Italy"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Jamaica"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Japan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Jordan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kazakhstan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kenya"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kiribati"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kosovo"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kuwait"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kyrgyzstan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Laos"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Latvia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Lebanon"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Lesotho"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Liberia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Libya"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Lithuania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Macau"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Macedonia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Madagascar"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Malawi"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Malaysia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Maldives"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mali"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Malta"
-0
-clothes
-Military
-
-"MVS_CountryFlag_MarshallIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mauritius"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mexico"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Micronesia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Moldova"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Monaco"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mongolia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Montenegro"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Morocco"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mozambique"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Namibia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Nauru"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Netherlands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_NewZealand"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Nicaragua"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Niger"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Nigeria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_NorthernIreland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Norway"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Oman"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Pakistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Palau"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Palestine"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Panama"
-0
-clothes
-Military
-
-"MVS_CountryFlag_PapuaNewGuinea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Paraguay"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Peru"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Philippines"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Poland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Portugal"
-0
-clothes
-Military
-
-"MVS_CountryFlag_PuertoRico"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Qatar"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Romania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Russia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Rwanda"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Samoa"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SanMarino"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SaudiArabia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Scotland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Senegal"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Serbia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Seychelles"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Sicily"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SierraLeone"
-0
-clothes
-Military
-	
-"MVS_CountryFlag_Singapore"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Slovakia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Slovenia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SolomonIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Somalia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SouthAfrica"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SouthKorea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SouthVietnam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Spain"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SriLanka"
-0
-clothes
-Military
-
-"MVS_CountryFlag_StLucia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_StMaarten"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Sudan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Suriname"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Swaziland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Sweden"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Switzerland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Syria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Taiwan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tajikistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tanzania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Thailand"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tibet"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Togo"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tonga"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Trinidad"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tunisia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Turkey"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Turkmenistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_TurksCaicos"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tuvalu"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UAE"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Uganda"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ukraine"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UnitedKingdom"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UnitedNations"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UnitedStates"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Uruguay"
-0
-clothes
-Military
-
-"MVS_CountryFlag_USSR"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Uzbekistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Vanuatu"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Venezuela"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Vietnam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Wales"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Yemen"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Yugoslavia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Zambia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Zimbabwe"
-0
-clothes
-Military
-
-
-"MVS_Patch_01"
-0
-clothes
-Military
-
-"MVS_Patch_02"
-0
-clothes
-Military
-
-"MVS_Patch_03"
-0
-clothes
-Military
-
-"MVS_Patch_04"
-0
-clothes
-Military
-
-"MVS_Patch_05"
-0
-clothes
-Military
-
-"MVS_Patch_06"
-0
-clothes
-Military
-
-"MVS_Patch_07"
-0
-clothes
-Military
-
-"MVS_Patch_08"
-0
-clothes
-Military
-
-"MVS_Patch_09"
-0
-clothes
-Military
-
-"MVS_Patch_10"
-0
-clothes
-Military
-
-"MVS_Patch_11"
-0
-clothes
-Military
-
-"MVS_Patch_12"
-0
-clothes
-Military
-
-"MVS_Patch_13"
-0
-clothes
-Military
-
-"MVS_Patch_14"
-0
-clothes
-Military
-
-"MVS_Patch_15"
-0
-clothes
-Military
-
-"MVS_Patch_16"
-0
-clothes
-Military
-
-"MVS_Patch_17"
-0
-clothes
-Military
-
-"MVS_Patch_18"
-0
-clothes
-Military
-	
-"MVS_Patch_19"
-0
-clothes
-Military
-
-"MVS_Patch_20"
-0
-clothes
-Military
-
-"MVS_Patch_21"
-0
-clothes
-Military
-
-"MVS_Patch_22"
-0
-clothes
-Military
-
-"MVS_Patch_23"
-0
-clothes
-Military
-
-"MVS_Patch_24"
-0
-clothes
-Military
-
-"MVS_Patch_25"
-0
-clothes
-Military
-
-"MVS_Patch_26"
-0
-clothes
-Military
-
-"MVS_Patch_27"
-0
-clothes
-Military
-
-"MVS_Patch_28"
-0
-clothes
-Military
-
-"MVS_Patch_29"
-0
-clothes
-Military
-
-"MVS_Patch_30"
-0
-clothes
-Military
-
-"MVS_Patch_31"
-0
-clothes
-Military
-
-"MVS_Patch_32"
-0
-clothes
-Military
-
-"MVS_Patch_33"
-0
-clothes
-Military
-
-"MVS_Patch_34"
-0
-clothes
-Military
-
-"MVS_Patch_35"
-0
-clothes
-Military
-
-"MVS_Patch_36"
-0
-clothes
-Military
