@@ -1297,829 +1297,97 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"GunnerTruck"
-"GunnerTruckWhite"
-"GunnerTruckTan"
-"GunnerTruck_Auto"
-"GunnerTruckWhite_Auto"
-"GunnerTruckTan_Auto"
+"GunnerTruck"                                                                                           @GunnerTruck
+"GunnerTruckWhite"                                                                                      @GunnerTruck
+"GunnerTruckTan"                                                                                        @GunnerTruck
+"GunnerTruck_Auto"                                                                                      @GunnerTruck
+"GunnerTruckWhite_Auto"                                                                                 @GunnerTruck
+"GunnerTruckTan_Auto"                                                                                   @GunnerTruck
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"JLTVWheel"
-10
+"JLTVWheel"                             10              vp              Mi
+"JLTVDoorDriver"                        0               
+"JLTVDoorCoDriver"                                                                                      @GunnerTruck
+"JLTVDoorBackLeft"                                                                                      @GunnerTruck
+"JLTVDoorBackRight"                                                                                     @GunnerTruck
+"JLTVHood"                                                                                              @GunnerTruck
+"JLTVRearGuard"                                                                                         @GunnerTruck
+"JLTVDoorDriverWhite"                                                                                   @GunnerTruck
+"JLTVDoorCoDriverWhite"                                                                                 @GunnerTruck
+"JLTVDoorBackLeftWhite"                                                                                 @GunnerTruck
+"JLTVDoorBackRightWhite"                                                                                @GunnerTruck
+"JLTVHoodWhite"                                                                                         @GunnerTruck
+"JLTVRearGuardWhite"                                                                                    @GunnerTruck
+"JLTVDoorDriverTan"                                                                                     @GunnerTruck
+"JLTVDoorCoDriverTan"                                                                                   @GunnerTruck
+"JLTVDoorBackLeftTan"                                                                                   @GunnerTruck
+"JLTVDoorBackRightTan"                                                                                  @GunnerTruck
+"JLTVHoodTan"                                                                                           @GunnerTruck
+"JLTVRearGuardTan"                                                                                      @GunnerTruck
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+
+"Flag_TTPT"                             2               tools           O/S                             @GunnerTruck
+"Armband_TTPT"                          0                                                               @GunnerTruck
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+
+"Kamaz"                                                                                                 @Kamaz_Truck
+"KamazCovered"Kamaz"                                                                                    @Kamaz_Truck
+"KamazCovered_Winter"Kamaz"                                                                             @Kamaz_Truck
+"KamazCovered_Civ_Orange_Blue"Kamaz"                                                                    @Kamaz_Truck
+"KamazCovered_Civ_Red"Kamaz"                                                                            @Kamaz_Truck
+"KamazCovered_Civ_Blue"Kamaz"                                                                           @Kamaz_Truck
+"KamazCovered_Civ_Yellow"Kamaz"                                                                         @Kamaz_Truck
+"KamazFuel"Kamaz"                                                                                       @Kamaz_Truck
+"KamazFuel_Shell"Kamaz"                                                                                 @Kamaz_Truck
+"KamazFuel_White"Kamaz"                                                                                 @Kamaz_Truck
+"KamazFuel_Civ_Orange"Kamaz"                                                                            @Kamaz_Truck
+"KamazCargo"Kamaz"                                                                                      @Kamaz_Truck
+"Kamaz_fuelPump"Kamaz"                                                                                  @Kamaz_Truck
+"Kamaz_Tent"Kamaz"                                                                                      @Kamaz_Truck
+"KamazDoors_Driver"                                                                                     @Kamaz_Truck
+"KamazDoors_Driver_Shell"                                                                               @Kamaz_Truck
+"KamazDoors_Driver_Fuel_White"                                                                          @Kamaz_Truck
+"KamazDoors_Driver_Fuel_Orange"                                                                         @Kamaz_Truck
+"KamazDoors_Driver_Winter"                                                                              @Kamaz_Truck
+"KamazDoors_Driver_Civ_Orange"                                                                          @Kamaz_Truck
+"KamazDoors_Driver_Civ_Red"                                                                             @Kamaz_Truck
+"KamazDoors_Driver_Civ_Blue"                                                                            @Kamaz_Truck
+"KamazDoors_Driver_Civ_Yellow"                                                                          @Kamaz_Truck
+"KamazDoors_CoDriver"                                                                                   @Kamaz_Truck
+"KamazDoors_CoDriver_Shell"                                                                             @Kamaz_Truck
+"KamazDoors_CoDriver_Fuel_White"                                                                        @Kamaz_Truck
+"KamazDoors_CoDriver_Fuel_Orange"                                                                       @Kamaz_Truck
+"KamazDoors_CoDriver_Winter"                                                                            @Kamaz_Truck
+"KamazDoors_CoDriver_Civ_Orange"                                                                        @Kamaz_Truck
+"KamazDoors_CoDriver_Civ_Red"                                                                           @Kamaz_Truck
+"KamazDoors_CoDriver_Civ_Blue"                                                                          @Kamaz_Truck
+"KamazDoors_CoDriver_Civ_Yellow"                                                                        @Kamaz_Truck
+"KamazHood"                                                                                             @Kamaz_Truck
+"KamazHood_Shell"                                                                                       @Kamaz_Truck
+"KamazHood_Fuel_White"                                                                                  @Kamaz_Truck
+"KamazHood_Winter"                                                                                      @Kamaz_Truck
+"KamazHood_Civ_Orange"                                                                                  @Kamaz_Truck
+"KamazHood_Fuel_Orange"                                                                                 @Kamaz_Truck
+"KamazHood_Civ_Red"                                                                                     @Kamaz_Truck
+"KamazHood_Civ_Blue"                                                                                    @Kamaz_Truck
+"KamazHood_Civ_Yellow"                                                                                  @Kamaz_Truck
+"KamazTrunk"                                                                                            @Kamaz_Truck
+"KamazTrunk_Winter"                                                                                     @Kamaz_Truck
+"KamazTrunk_Civ_Orange_Blue"                                                                            @Kamaz_Truck
+"KamazTrunk_Civ_Green"                                                                                  @Kamaz_Truck
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"KamazWheel"                            30              "vp"            I                               @Kamaz_Truck
+"KamazWheel_Ruined"                                                                                     @Kamaz_Truck
 
-
-        <min>2</min>
-
-
-
-
-vehiclesparts
-Military
-
-"JLTVDoorDriver"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorCoDriver"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackLeft"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackRight"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVHood"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVRearGuard"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorDriverWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorCoDriverWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackLeftWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackRightWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVHoodWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVRearGuardWhite"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorDriverTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorCoDriverTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackLeftTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVDoorBackRightTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVHoodTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-"JLTVRearGuardTan"
-0
-
-
-
-
-
-
-
-vehiclesparts
-Industrial
-
-	<!-- 	TwoTitsPlayTat Flag and Armband	 -->
-"Flag_TTPT"
-2
-
-
-
-
-
-
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0
-tools
-Office
-School
-
-"Armband_TTPT"
-0
-clothes
-
-
-
-
-
-<type name="Kamaz"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Winter"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Orange_Blue"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Red"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Blue"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCovered_Civ_Yellow"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel_Shell"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel_White"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazFuel_Civ_Orange"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazCargo"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="Kamaz_fuelPump"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="Kamaz_Tent"
-    <nominal>0
-    <lifetime>3888000</lifetime>
-    <restock>1800</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-</type>
-<type name="KamazDoors_Driver"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Shell"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Fuel_White"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Fuel_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Red"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_Driver_Civ_Yellow"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Shell"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Fuel_White"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Fuel_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Red"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazDoors_CoDriver_Civ_Yellow"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Shell"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Fuel_White"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Fuel_Orange"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Red"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazHood_Civ_Yellow"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk_Winter"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk_Civ_Orange_Blue"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazTrunk_Civ_Green"
-    <nominal>0
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazWheel"
-    <nominal>30
-    <lifetime>2700</lifetime>
-    <restock>0</restock>
-    <min>15</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0
-    <category name="vehiclesparts
-    <tag name="floor
-    <usage name="Industrial
-</type>
-<type name="KamazWheel_Ruined"
-    <lifetime>1800</lifetime>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0
-</type>
 
 
 
 <!-- FLAGS START -->
 
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "MVS_CountryFlag_Afghanistan"
 0
 clothes
@@ -3397,7 +2665,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 
 <!-- AMMUNITION_BOXED START -->
 
-   <type name="AmmoBox_00buck_10rnd"
+   "AmmoBox_00buck_10rnd"
 20
 
 
@@ -3413,7 +2681,7 @@ Tier2
 Tier3
 Tier4
 
-   <type name="AmmoBox_12gaRubberSlug_10Rnd"
+   "AmmoBox_12gaRubberSlug_10Rnd"
 16
 
 
@@ -18176,7 +17444,7 @@ Lunapark
 clothes
 Lunapark
 
-	   <type name="GiftBox_Large_1"
+	   "GiftBox_Large_1"
 0
 
 
@@ -22742,7 +22010,7 @@ tools
 
 <!-- VEHICLES_ADA4X4_PARTS START -->
 
-   <type name="HatchbackDoors_CoDriver"
+   "HatchbackDoors_CoDriver"
 0
 
 
@@ -23092,7 +22360,7 @@ lootdispatch
 
 <!-- VEHICLES_GUNTER2_PARTS START -->
 
-   <type name="Hatchback_02_Door_1_1"
+   "Hatchback_02_Door_1_1"
 0
 
 
@@ -24673,7 +23941,7 @@ Industrial
 
 <!-- VEHICLES_SARKA120_PARTS START  -->
 
-   <type name="Sedan_02_Door_1_1"
+   "Sedan_02_Door_1_1"
 0
 
 
@@ -24961,7 +24229,7 @@ Industrial
 lootdispatch
 Industrial
 
-   <type name="Sedan_02_Hood"
+   "Sedan_02_Hood"
 0
 
 
@@ -25033,7 +24301,7 @@ Industrial
 lootdispatch
 Industrial
 
-   <type name="Sedan_02_Trunk"
+   "Sedan_02_Trunk"
 0
 
 
