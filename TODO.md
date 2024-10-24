@@ -56,6 +56,7 @@
   - Add darkness to bunker
 
 - Review mods for possible use:
+  - https://discord.com/channels/951966833731313695/954277213010800690/1297964190820077662
   - RemoteDoors: https://steamcommunity.com/sharedfiles/filedetails/?id=2946892641
   - @RaG_BaseItems https://steamcommunity.com/workshop/filedetails/?id=2878980498
   - More Crafting: https://steamcommunity.com/sharedfiles/filedetails/?id=2820643064
