@@ -1260,10 +1260,10 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "Zen_TireRack"                          crafted         tools           I                               @ZensTireRack
 
-============== ABOVE SORTED ===================
-
-
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Dingo"                                 0                                                               @Dingo_Truck
+"Dingo_CZ"                              0                                                               @Dingo_Truck
+"Dingo_CZ_Desert"                       0                                                               @Dingo_Truck
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "DingoDoors_Cargo1"                     0                                                               @Dingo_Truck
@@ -1333,19 +1333,21 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 
 "Kamaz"                                                                                                 @Kamaz_Truck
-"KamazCovered"Kamaz"                                                                                    @Kamaz_Truck
-"KamazCovered_Winter"Kamaz"                                                                             @Kamaz_Truck
-"KamazCovered_Civ_Orange_Blue"Kamaz"                                                                    @Kamaz_Truck
-"KamazCovered_Civ_Red"Kamaz"                                                                            @Kamaz_Truck
-"KamazCovered_Civ_Blue"Kamaz"                                                                           @Kamaz_Truck
-"KamazCovered_Civ_Yellow"Kamaz"                                                                         @Kamaz_Truck
+"KamazCovered"                                                                                          @Kamaz_Truck
+"KamazCovered_Winter"                                                                                   @Kamaz_Truck
+"KamazCovered_Civ_Orange_Blue"                                                                          @Kamaz_Truck
+"KamazCovered_Civ_Red"                                                                                  @Kamaz_Truck
+"KamazCovered_Civ_Blue"                                                                                 @Kamaz_Truck
+"KamazCovered_Civ_Yellow"                                                                               @Kamaz_Truck
 "KamazFuel"Kamaz"                                                                                       @Kamaz_Truck
-"KamazFuel_Shell"Kamaz"                                                                                 @Kamaz_Truck
-"KamazFuel_White"Kamaz"                                                                                 @Kamaz_Truck
-"KamazFuel_Civ_Orange"Kamaz"                                                                            @Kamaz_Truck
-"KamazCargo"Kamaz"                                                                                      @Kamaz_Truck
-"Kamaz_fuelPump"Kamaz"                                                                                  @Kamaz_Truck
-"Kamaz_Tent"Kamaz"                                                                                      @Kamaz_Truck
+"KamazFuel_Shell"                                                                                       @Kamaz_Truck
+"KamazFuel_White"                                                                                       @Kamaz_Truck
+"KamazFuel_Civ_Orange                                                                                   @Kamaz_Truck
+"KamazCargo"                                                                                            @Kamaz_Truck
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Kamaz_fuelPump                                                                                         @Kamaz_Truck
+"Kamaz_Tent                                                                                             @Kamaz_Truck
 "KamazDoors_Driver"                                                                                     @Kamaz_Truck
 "KamazDoors_Driver_Shell"                                                                               @Kamaz_Truck
 "KamazDoors_Driver_Fuel_White"                                                                          @Kamaz_Truck
@@ -1382,1568 +1384,33 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 "KamazWheel"                            30              "vp"            I                               @Kamaz_Truck
 "KamazWheel_Ruined"                                                                                     @Kamaz_Truck
 
+=================================== ABOVE SORTED ===================================
 
-
-
-<!-- FLAGS START -->
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"MVS_CountryFlag_Afghanistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Albania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Algeria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_AmericanSamoa"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Andorra"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Angola"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Antigua"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Argentina"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Armenia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Aruba"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Australia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Austria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Azerbaijan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Azores"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bahamas"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bahrain"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bangladesh"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Barbados"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Belarus"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Belgium"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Belize"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Benin"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bermuda"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bhutan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bolivia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bosnia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Botswana"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Brazil"
-0
-clothes
-Military
-
-"MVS_CountryFlag_BritishVirginIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_BruneiDarussalam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Bulgaria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_BurkinaFaso"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Burma"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Burundi"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cambodia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cameroon"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Canada"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CapeVerde"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CaymanIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Chad"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Chile"
-0
-clothes
-Military
-
-"MVS_CountryFlag_China"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Colombia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Comoros"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CookIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_CostaRica"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Croatia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cuba"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Curacao"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Cyprus"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Czech"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Denmark"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Djibouti"
-0
-clothes
-Military
-	
-"MVS_CountryFlag_DominicanRepublic"
-0
-clothes
-Military
-
-"MVS_CountryFlag_EastTimor"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ecuador"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Egypt"
-0
-clothes
-Military
-
-"MVS_CountryFlag_ElSalvador"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Eritrea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Estonia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ethiopia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_FalklandIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Fiji"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Finland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_France"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Gabon"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Gambia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Germany"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ghana"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Gibraltar"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Greece"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Greenland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Grenada"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guatemala"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guinea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Guyana"
-0
-clothes
-Military
-
-"MVS_CountryFlag_GypsyRomani"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Haiti"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Honduras"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Hungary"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Iceland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_India"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Indonesia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Iran"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Iraq"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ireland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Israel"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Italy"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Jamaica"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Japan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Jordan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kazakhstan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kenya"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kiribati"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kosovo"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kuwait"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Kyrgyzstan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Laos"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Latvia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Lebanon"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Lesotho"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Liberia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Libya"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Lithuania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Macau"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Macedonia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Madagascar"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Malawi"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Malaysia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Maldives"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mali"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Malta"
-0
-clothes
-Military
-
-"MVS_CountryFlag_MarshallIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mauritius"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mexico"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Micronesia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Moldova"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Monaco"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mongolia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Montenegro"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Morocco"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Mozambique"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Namibia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Nauru"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Netherlands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_NewZealand"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Nicaragua"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Niger"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Nigeria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_NorthernIreland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Norway"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Oman"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Pakistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Palau"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Palestine"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Panama"
-0
-clothes
-Military
-
-"MVS_CountryFlag_PapuaNewGuinea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Paraguay"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Peru"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Philippines"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Poland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Portugal"
-0
-clothes
-Military
-
-"MVS_CountryFlag_PuertoRico"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Qatar"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Romania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Russia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Rwanda"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Samoa"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SanMarino"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SaudiArabia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Scotland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Senegal"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Serbia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Seychelles"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Sicily"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SierraLeone"
-0
-clothes
-Military
-	
-"MVS_CountryFlag_Singapore"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Slovakia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Slovenia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SolomonIslands"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Somalia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SouthAfrica"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SouthKorea"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SouthVietnam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Spain"
-0
-clothes
-Military
-
-"MVS_CountryFlag_SriLanka"
-0
-clothes
-Military
-
-"MVS_CountryFlag_StLucia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_StMaarten"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Sudan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Suriname"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Swaziland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Sweden"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Switzerland"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Syria"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Taiwan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tajikistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tanzania"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Thailand"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tibet"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Togo"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tonga"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Trinidad"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tunisia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Turkey"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Turkmenistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_TurksCaicos"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Tuvalu"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UAE"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Uganda"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Ukraine"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UnitedKingdom"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UnitedNations"
-0
-clothes
-Military
-
-"MVS_CountryFlag_UnitedStates"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Uruguay"
-0
-clothes
-Military
-
-"MVS_CountryFlag_USSR"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Uzbekistan"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Vanuatu"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Venezuela"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Vietnam"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Wales"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Yemen"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Yugoslavia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Zambia"
-0
-clothes
-Military
-
-"MVS_CountryFlag_Zimbabwe"
-0
-clothes
-Military
-
-
-"MVS_Patch_01"
-0
-clothes
-Military
-
-"MVS_Patch_02"
-0
-clothes
-Military
-
-"MVS_Patch_03"
-0
-clothes
-Military
-
-"MVS_Patch_04"
-0
-clothes
-Military
-
-"MVS_Patch_05"
-0
-clothes
-Military
-
-"MVS_Patch_06"
-0
-clothes
-Military
-
-"MVS_Patch_07"
-0
-clothes
-Military
-
-"MVS_Patch_08"
-0
-clothes
-Military
-
-"MVS_Patch_09"
-0
-clothes
-Military
-
-"MVS_Patch_10"
-0
-clothes
-Military
-
-"MVS_Patch_11"
-0
-clothes
-Military
-
-"MVS_Patch_12"
-0
-clothes
-Military
-
-"MVS_Patch_13"
-0
-clothes
-Military
-
-"MVS_Patch_14"
-0
-clothes
-Military
-
-"MVS_Patch_15"
-0
-clothes
-Military
-
-"MVS_Patch_16"
-0
-clothes
-Military
-
-"MVS_Patch_17"
-0
-clothes
-Military
-
-"MVS_Patch_18"
-0
-clothes
-Military
-	
-"MVS_Patch_19"
-0
-clothes
-Military
-
-"MVS_Patch_20"
-0
-clothes
-Military
-
-"MVS_Patch_21"
-0
-clothes
-Military
-
-"MVS_Patch_22"
-0
-clothes
-Military
-
-"MVS_Patch_23"
-0
-clothes
-Military
-
-"MVS_Patch_24"
-0
-clothes
-Military
-
-"MVS_Patch_25"
-0
-clothes
-Military
-
-"MVS_Patch_26"
-0
-clothes
-Military
-
-"MVS_Patch_27"
-0
-clothes
-Military
-
-"MVS_Patch_28"
-0
-clothes
-Military
-
-"MVS_Patch_29"
-0
-clothes
-Military
-
-"MVS_Patch_30"
-0
-clothes
-Military
-
-"MVS_Patch_31"
-0
-clothes
-Military
-
-"MVS_Patch_32"
-0
-clothes
-Military
-
-"MVS_Patch_33"
-0
-clothes
-Military
-
-"MVS_Patch_34"
-0
-clothes
-Military
-
-"MVS_Patch_35"
-0
-clothes
-Military
-
-"MVS_Patch_36"
-0
-clothes
-Military
-
-
-
-
-
-
-
-
-
-<!-- ================================================================================================================== -->
-<!--   Chernarus types.xml organized by item type.  Sorted by DayZedAndConfsued762, DayZed and Confused DayZ Servers.   -->
-<!--                                            https://discord.gg/UkHvV7j6kf                                           -->
-<!-- ================================================================================================================== -->
-<!-- -->
-<!-- -->
-<!-- -->
-<!-- Categories: -->
-<!-- -->
-<!-- AMMUNITION: -->
-<!--  AMMUNITION_BOXED  AMMUNITION_BOW  AMMUNITION_EXPLOSIVE AMMUNITION_FLARE AMMUNITION_LOOSE  AMMUNITION_MAGAZINES  -->
-<!-- -->
-<!-- ATTACHMENTS: -->
-<!--  ATTACHMENTS_BAYONETS  ATTACHMENTS_COMPENSATORS  ATTACHMENTS_GRIPS  ATTACHMENTS_LIGHTS  -->
-<!--  ATTACHMENTS_OPTICS  ATTACHMENTS_STOCKS  ATTACHMENTS_SUPPRESSORS  ATTACHMENTS_WRAPS -->
-<!-- -->
-<!-- -->
-<!-- BASEBUILDING: -->
-<!--  BASEBUILDING_FLAGS  BASEBUILDING_KITS  BASEBUILDING_STATIC  -->
-<!-- -->
-<!-- CLOTHING: -->
-<!--  CLOTHING_ARMBANDS  CLOTHING_BELTS  CLOTHING_EYES  CLOTHING_FACE  CLOTHING_FEET  CLOTHING_GHILLIE  -->
-<!--  CLOTHING_HANDS  CLOTHING_HEAD  CLOTHING_NBC  CLOTHING_PANTS  CLOTHING_TOPS  -->
-<!--  CLOTHING_VESTS  -->
-<!-- -->
-<!-- ENTITIES: -->
-<!--  ENTITIES_ANIMALS  ENTITIES_INFECTED  -->
-<!-- -->
-<!-- EXPLOSIVES:-->
-<!--  EXPLOSIVES_PLACED  EXPLOSIVES_SMOKE  EXPLOSIVES_THROWN  -->
-<!-- -->
-<!-- FIREARMS: -->
-<!--  FIREARMS_ASSAULT  FIREARMS_BOWS  FIREARMS_LAUNCHERS  FIREARMS_PISTOLS  FIREARMS_RIFLES  -->
-<!--  FIREARMS_SHOTGUNS FIREARMS_SMG  -->
-<!-- -->
-<!-- MEDICALS: -->
-<!--  MEDICALS_MEDICINE  MEDICALS_SUPPLIES -->
-<!-- -->
-<!-- NUTRITION: -->
-<!--  NUTRITION_DRINKS  NUTRITION_FISH  NUTRITION_GROWN  NUTRITION_MEAT  NUTRITION_PACKAGED  -->
-<!--  NUTRITION_SEEDS -->
-<!-- -->
-<!-- SEASONAL: -->
-<!-- -->
-<!-- STATIC: -->
-<!-- -->
-<!-- STORAGE: -->
-<!--  STORAGE_CARRIED  STORAGE_PLACED  STORAGE_POUCHES  STORAGE_WORN  -->
-<!-- -->
-<!-- TOOLS: -->
-<!--  TOOLS_COOKING  TOOLS_COMMUNICATION  TOOLS_ELECTRICAL  TOOLS_FARMING  TOOLS_FIRE  -->
-<!--  TOOLS_FISHING  TOOLS_FLAGS  TOOLS_HAND_BLADE   TOOLS_HAND_BLUNT  TOOLS_HAND_MISC  TOOLS_LIGHTING  TOOLS_MATERIALS  TOOLS_MISC  -->
-<!--  TOOLS_NAVIGATION  TOOLS_REPAIR  TOOLS_SECURITY  TOOLS_TRAPS  -->
-<!-- -->
-<!-- VEHICLES: -->
-<!--  VEHICLES_ADA4X4_BASE  VEHICLES_ADA4X4_PARTS  VEHICLES_GUNTER2_BASE  VEHICLES_GUNTER2_PARTS  VEHICLES_M1025_BASE  VEHICLES_M1025_PARTS  
-VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PARTS  -->
-<!--  VEHICLES_PARTS  VEHICLES_SARKA120_BASE  VEHICLES_SARKA120_PARTS    -->
-<!-- -->
-<!-- ++++++++++ AMMUNITION START ++++++++++ -->
-
-<!-- AMMUNITION_BOXED START -->
-
-   "AmmoBox_00buck_10rnd"
-20
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Police
-Hunting
-Tier2
-Tier3
-Tier4
-
-   "AmmoBox_12gaRubberSlug_10Rnd"
-16
-
-
-        <min>10</min>
-
-
-
-
-weapons
-Police
-
-"AmmoBox_12gaSlug_10Rnd"
-20
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Police
-Hunting
-Tier2
-Tier3
-Tier4
-
-"AmmoBox_22_50Rnd"
-55
-
-
-        <min>40</min>
-
-
-
-
-weapons
-Town
-Village
-
-"AmmoBox_308WinTracer_20Rnd"
-7
-
-
-        <min>3</min>
-
-
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"AmmoBox_308Win_20Rnd"
-20
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Hunting
-Tier2
-Tier3
-Tier4
-
-"AmmoBox_357_20Rnd"
-30
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Town
-
-"AmmoBox_380_35rnd"
-20
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Police
-
-"AmmoBox_45ACP_25rnd"
-20
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Military
-
-"AmmoBox_545x39Tracer_20Rnd"
-9
-
-
-        <min>5</min>
-
-
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"AmmoBox_545x39_20Rnd"
-17
-
-
-        <min>12</min>
-
-
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"AmmoBox_556x45Tracer_20Rnd"
-7
-
-
-        <min>3</min>
-
-
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"AmmoBox_556x45_20Rnd"
-20
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"AmmoBox_762x39Tracer_20Rnd"
-7
-
-
-        <min>3</min>
-
-
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"AmmoBox_762x39_20Rnd"
-18
-
-
-        <min>15</min>
-
-
-
-
-weapons
-Military
-Hunting
-Tier3
-Tier4
-
-"AmmoBox_762x54Tracer_20Rnd"
-7
-
-
-        <min>3</min>
-
-
-
-
-weapons
-Military
-Tier3
-Tier4
-
-"AmmoBox_762x54_20Rnd"
-15
-
-
-        <min>12</min>
-
-
-
-
-weapons
-Military
-Hunting
-Tier2
-Tier3
-Tier4
-
-"AmmoBox_9x19_25rnd"
-30
-
-
-        <min>20</min>
-
-
-
-
-weapons
-Military
-Police
-
-"AmmoBox_9x39AP_20Rnd"
-5
-
-
-        <min>2</min>
-
-
-
-
-weapons
-Military
-Tier4
-
-"AmmoBox_9x39_20Rnd"
-7
-
-
-        <min>3</min>
-
-
-
-
-weapons
-Military
-
-
-<!-- AMMUNITION_BOXED END -->
-
-<!-- AMMUNITION_BOW START -->
+"AmmoBox_00buck_10rnd"                  20              weapons         Hu/Po           2/3/4
+"AmmoBox_12gaRubberSlug_10Rnd"          16              weapons         Po
+"AmmoBox_12gaSlug_10Rnd"                20              weapons         Hu/Po           2/3/4
+"AmmoBox_22_50Rnd"                      55              weapons         T/V
+"AmmoBox_308WinTracer_20Rnd"            7               weapons         Mi              3/4
+"AmmoBox_308Win_20Rnd"                  20              weapons         Hu              2/3/4
+"AmmoBox_357_20Rnd"                     30              weapons         T
+"AmmoBox_380_35rnd"                     20              weapons         Po
+"AmmoBox_45ACP_25rnd"                   20              weapons         Mi
+"AmmoBox_545x39Tracer_20Rnd"            9               weapons         Mi              3/4
+"AmmoBox_545x39_20Rnd"                  17              weapons         Mi              3/4
+"AmmoBox_556x45Tracer_20Rnd"            7               weapons         Mi              3/4
+"AmmoBox_556x45_20Rnd"                  20              weapons         Mi              3/4
+"AmmoBox_762x39Tracer_20Rnd"            7               weapons         Mi              3/4
+"AmmoBox_762x39_20Rnd"                  18              weapons         Hu/Mi           3/4
+"AmmoBox_762x54Tracer_20Rnd"            7               weapons         Mi              3/4
+"AmmoBox_762x54_20Rnd"                  15              weapons         Hu/Mi           2/3/4
+"AmmoBox_9x19_25rnd"                    30              weapons         Mi/Po
+"AmmoBox_9x39AP_20Rnd"                  5               weapons         Mi              4
+"AmmoBox_9x39_20Rnd"                    7               weapons         Mi
+
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 
 "Ammo_HuntingBolt"
 25
@@ -2983,7 +1450,7 @@ weapons
 <!-- AMMUNITION_BOW END -->
 
 <!-- AMMUNITION_EXPLOSIVE START -->
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "Ammo_40mm_Chemgas"
 5
 
@@ -3059,7 +1526,7 @@ Military
 weapons
 Military
 
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 <!-- AMMUNITION_EXPLOSIVE END -->
 
 <!-- AMMUNITION_FLARE START -->
@@ -3132,6 +1599,7 @@ Coast
 <!-- AMMUNITION_FLARE END -->
 
 <!-- AMMUNITION_LOOSE START -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 
 "Ammo_12gaPellets"
 100
@@ -3221,9 +1689,7 @@ Hunting
 weapons
 
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ammo_357"
 90
@@ -3304,9 +1770,7 @@ Military
 weapons
 
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ammo_556x45Tracer"
 25
@@ -3320,9 +1784,7 @@ Tier4
 weapons
 
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ammo_762x39"
 100
@@ -3354,9 +1816,7 @@ Tier3
 weapons
 
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ammo_762x54"
 60
@@ -3373,9 +1833,7 @@ Farm
 Town
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ammo_762x54Tracer"
 25
@@ -3389,9 +1847,7 @@ Tier4
 weapons
 
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ammo_9x19"
 100
@@ -3479,9 +1935,7 @@ Tier4
 
 weapons
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Mag_AK74_45Rnd"
 1
@@ -3616,9 +2070,7 @@ weapons
 Farm
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Mag_CZ550_10Rnd"
 8
@@ -3876,9 +2328,7 @@ Tier3
 
 weapons
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Mag_STANAG_30Rnd"
 5
@@ -3944,9 +2394,7 @@ Tier4
 
 weapons
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Mag_Saiga_8Rnd"
 5
@@ -3985,9 +2433,7 @@ Military
 
 weapons
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Mag_UMP_25Rnd"
 14
@@ -4334,9 +2780,7 @@ weapons
 
 Military
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "UniversalLight"
 30
@@ -4351,9 +2795,7 @@ weapons
 
 Military
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 
 <!-- ATTACHMENTS_LIGHTS END -->
@@ -4398,9 +2840,7 @@ Tier4
 
 weapons
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "FNP45_MRDSOptic"
 10
@@ -4428,9 +2868,7 @@ Tier4
 weapons
 
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "KashtanOptic"
 15
@@ -4543,8 +2981,7 @@ Military
 
 
 weapons
-Military
-Hunting
+Hu/Mi
 
 "PistolOptic"
 10
@@ -5802,9 +4239,7 @@ School
 
 clothes
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "ThickFramesGlasses"
 30
@@ -5866,9 +4301,7 @@ Military
 Police
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Balaclava3Holes_Blue"
 10
@@ -5982,9 +4415,7 @@ Military
 Industrial
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BalaclavaMask_Pink"
 10
@@ -6031,9 +4462,7 @@ Tier2
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Bandana_Camopattern"
 12
@@ -6047,9 +4476,7 @@ Tier4
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Bandana_Greenpattern"
 12
@@ -6063,9 +4490,7 @@ Tier4
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Bandana_Polkapattern"
 12
@@ -7029,9 +5454,7 @@ clothes
 clothes
 Military
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "OMNOGloves_Gray"
 7
@@ -7045,9 +5468,7 @@ Tier4
 clothes
 Military
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "PaddedGloves_Beige"
 16
@@ -7426,9 +5847,7 @@ Town
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BeanieHat_Black"
 15
@@ -7441,9 +5860,7 @@ Tier4
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BeanieHat_Blue"
 15
@@ -7468,9 +5885,7 @@ Village
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BeanieHat_Green"
 15
@@ -7483,9 +5898,7 @@ Tier4
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BeanieHat_Grey"
 15
@@ -7498,9 +5911,7 @@ Tier4
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BeanieHat_Pink"
 15
@@ -7513,9 +5924,7 @@ Tier4
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BeanieHat_Red"
 15
@@ -7528,9 +5937,7 @@ Tier4
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BoonieHat_Black"
 20
@@ -7573,8 +5980,7 @@ Tier2
 
 clothes
 
-Military
-Hunting
+Hu/Mi
 
 "BoonieHat_Dubok"
 12
@@ -7587,8 +5993,7 @@ Hunting
 
 clothes
 
-Military
-Hunting
+Hu/Mi
 
 "BoonieHat_Flecktran"
 12
@@ -7601,8 +6006,7 @@ Hunting
 
 clothes
 
-Military
-Hunting
+Hu/Mi
 
 "BoonieHat_NavyBlue"
 12
@@ -7793,9 +6197,7 @@ clothes
 Farm
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "CowboyHat_black"
 20
@@ -7810,9 +6212,7 @@ clothes
 Farm
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "CowboyHat_darkBrown"
 20
@@ -7827,9 +6227,7 @@ clothes
 Farm
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "CowboyHat_green"
 20
@@ -7844,9 +6242,7 @@ clothes
 Farm
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DarkMotoHelmet_Black"
 8
@@ -7861,9 +6257,7 @@ clothes
 Industrial
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DarkMotoHelmet_Blue"
 8
@@ -7910,9 +6304,7 @@ clothes
 Industrial
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DarkMotoHelmet_Lime"
 8
@@ -8247,9 +6639,7 @@ Town
 clothes
 
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "GorkaHelmetVisor"
 8
@@ -8263,9 +6653,7 @@ Tier4
 clothes
 
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "GreatHelm"
 4
@@ -8459,9 +6847,7 @@ Tier4
 
 clothes
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MilitaryBeret_ChDKZ"
 5
@@ -8474,9 +6860,7 @@ Tier4
 
 clothes
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MilitaryBeret_NZ"
 4
@@ -8501,9 +6885,7 @@ Military
 
 clothes
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MilitaryBeret_UN"
 4
@@ -8536,9 +6918,7 @@ clothes
 Industrial
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MotoHelmet_Blue"
 15
@@ -8588,9 +6968,7 @@ clothes
 Industrial
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MotoHelmet_Lime"
 15
@@ -8744,9 +7122,7 @@ Town
 
 clothes
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "PoliceCap"
 10
@@ -8959,9 +7335,7 @@ Tier4
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ushanka_Blue"
 20
@@ -8974,9 +7348,7 @@ Tier4
 
 clothes
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ushanka_Green"
 20
@@ -9065,9 +7437,7 @@ Tier4
 clothes
 
 Industrial
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "ZmijovkaCap_Blue"
 20
@@ -9081,9 +7451,7 @@ Tier4
 clothes
 
 Town
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "ZmijovkaCap_Brown"
 20
@@ -9097,9 +7465,7 @@ Tier4
 clothes
 
 Farm
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "ZmijovkaCap_Green"
 20
@@ -9113,9 +7479,7 @@ Tier4
 clothes
 
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "ZmijovkaCap_Red"
 20
@@ -9129,9 +7493,7 @@ Tier4
 clothes
 
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 
 <!-- CLOTHING_HEAD END -->
@@ -9613,9 +7975,7 @@ Village
 clothes
 Industrial
 Farm
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "CargoPants_Black"
 20
@@ -9766,9 +8126,7 @@ Tier4
 
 clothes
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "HunterPants_Winter"
 15
@@ -9781,9 +8139,7 @@ Tier4
 
 clothes
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Jeans_Black"
 20
@@ -10621,9 +8977,7 @@ Military
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "HikingJacket_Blue"
 25
@@ -10682,9 +9036,7 @@ Tier2
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Hoodie_Blue"
 35
@@ -10713,9 +9065,7 @@ Tier2
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Hoodie_Green"
 30
@@ -10729,9 +9079,7 @@ Tier4
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Hoodie_Grey"
 35
@@ -10816,9 +9164,7 @@ Tier4
 
 clothes
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "HuntingJacket_Winter"
 25
@@ -10831,9 +9177,7 @@ Tier4
 
 clothes
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "JumpsuitJacket_Blue"
 20
@@ -11341,9 +9685,7 @@ Tier4
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "QuiltedJacket_Green"
 10
@@ -11633,9 +9975,7 @@ Village
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Sweater_Gray"
 30
@@ -11662,11 +10002,8 @@ Tier2
 
 
 clothes
-Military
-Hunting
-Tier2
-Tier3
-Tier4
+Hu/Mi
+2/3/4
 
 "Sweater_Red"
 30
@@ -12054,9 +10391,7 @@ Town
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "WoolCoat_Black"
 8
@@ -12070,9 +10405,7 @@ Tier4
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "WoolCoat_BlackCheck"
 10
@@ -12086,9 +10419,7 @@ Tier4
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "WoolCoat_Blue"
 14
@@ -12132,9 +10463,7 @@ Tier3
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "WoolCoat_Green"
 8
@@ -12148,9 +10477,7 @@ Tier4
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "WoolCoat_GreyCheck"
 12
@@ -12212,9 +10539,7 @@ Tier1
 clothes
 Town
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Chestplate"
 3
@@ -12283,11 +10608,7 @@ clothes
 0
 clothes
 
-"PlateCarrierVest"
-0
-clothes
-Military
-Tier3
+"PlateCarrierVest"           0               clothes         Mi                              @ModularVestSystemTier3
 Tier4
 
 "PlateCarrierVest_Black"
@@ -12370,9 +10691,7 @@ Industrial
 
 clothes
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "UKAssVest_Black"
 10
@@ -14681,9 +13000,7 @@ ContaminatedArea
 
 weapons
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "AKS74U_Black"
 0
@@ -15100,9 +13417,7 @@ Police
 
 weapons
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MKII"
 30
@@ -15189,9 +13504,7 @@ weapons
 
 weapons
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "CZ527"
 45
@@ -15312,9 +13625,7 @@ weapons
 weapons
 Farm
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Ruger1022"
 35
@@ -15355,9 +13666,7 @@ Tier3
 
 weapons
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "SV98"
 3
@@ -15965,8 +14274,7 @@ Village
 
 
 food
-Military
-Hunting
+Hu/Mi
 
 "SodaCan_Cola"
 20
@@ -19130,9 +17438,7 @@ Military
 
 containers
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "AssaultBag_Green"
 4
@@ -19145,9 +17451,7 @@ Tier4
 
 containers
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "AssaultBag_Ttsko"
 4
@@ -19160,9 +17464,7 @@ Tier4
 
 containers
 Military
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "CanvasBag_Medical"
 8
@@ -19290,9 +17592,7 @@ Tier4
 
 containers
 Coast
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DryBag_Blue"
 7
@@ -19305,9 +17605,7 @@ Tier4
 
 containers
 Coast
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DryBag_Green"
 4
@@ -19320,9 +17618,7 @@ Tier4
 
 containers
 Coast
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DryBag_Orange"
 7
@@ -19335,9 +17631,7 @@ Tier4
 
 containers
 Coast
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DryBag_Red"
 7
@@ -19350,9 +17644,7 @@ Tier4
 
 containers
 Coast
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "DryBag_Yellow"
 7
@@ -19365,9 +17657,7 @@ Tier4
 
 containers
 Coast
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "FurCourierBag"
 0
@@ -19450,9 +17740,7 @@ Lunapark
 
 containers
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "HuntingBag_Hannah"
 0
@@ -19531,9 +17819,7 @@ containers
 
 containers
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MountainBag_Green"
 5
@@ -19546,9 +17832,7 @@ Tier4
 
 containers
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MountainBag_Orange"
 10
@@ -19561,9 +17845,7 @@ Tier4
 
 containers
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "MountainBag_Red"
 10
@@ -19576,9 +17858,7 @@ Tier4
 
 containers
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Slingbag_Black"
 7
@@ -20267,9 +18547,7 @@ Military
 
 tools
 Industrial
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "FangeKnife"
 5
@@ -20396,9 +18674,7 @@ Town
 
 tools
 Farm
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "OrientalMachete"
 3
@@ -20500,9 +18776,7 @@ tools
 Industrial
 Farm
 Village
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "BoneKnife"
 0
@@ -20685,9 +18959,7 @@ tools
 tools
 Industrial
 Farm
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Pipe"
 80
@@ -20729,9 +19001,7 @@ tools
 
 Industrial
 Farm
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "SledgeHammer"
 20
@@ -20909,9 +19179,7 @@ Farm
 Town
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Headtorch_Grey"
 120
@@ -20928,9 +19196,7 @@ Farm
 Town
 Village
 Hunting
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "LongTorch"
 0
@@ -20994,9 +19260,7 @@ Hunting
 tools
 Military
 Police
-Tier2
-Tier3
-Tier4
+2/3/4
 
 "Spotlight"
 60
@@ -21678,8 +19942,7 @@ tools
 
 tools
 
-Military
-Hunting
+Hu/Mi
 
 "GPSReceiver"
 25
@@ -22978,9 +21241,7 @@ Military
 lootdispatch
 Military
 Industrial
-Tier2
-Tier3
-Tier4
+2/3/4
 
 
 <!-- VEHICLES_M1025_PARTS END -->
