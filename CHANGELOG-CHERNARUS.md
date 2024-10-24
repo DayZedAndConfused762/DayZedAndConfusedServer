@@ -78,6 +78,7 @@
 
 - Bug Fixes:
   - Attempted to fix a bug preventing the Dingo Trucks from spawning, need to test
+  - Corrected the amount of 12 Gauge Pellets the game was trying to spawn.  Was set to 10,900, should be 100.
 
 - Vehicles:
   - Removed Dingo Truck event and spawn points, need to find new spawn points as they were using the spawn points as the Kamaz Truck
