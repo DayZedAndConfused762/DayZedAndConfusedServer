@@ -59,19 +59,34 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
-10/22/2024
-Updated mods:
-@Expansion-Core
+
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
 ## Working
 
+- Installed mods:
+  - @CJ187-RandomFuelpumps: https://steamcommunity.com/sharedfiles/filedetails/?id=2868862030
+
+- Removed Mods: 
+  - @TLH Item Pack
+  - remove references to it throughout the files (cfg spawnable types, economy core, random presets, cj187 loot crates)
+
 - Made some adjustments to the new terrorist zombie
-- Removed Mod: @TLH Item Pack
+
+
+  - Need to remove TLH Item pack, and 
 - Attempted to fix a bug preventing the Dingo Trucks from spawning, need to test
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 10/22/2024 Start ++++++++++++++++++++ -->
+
+## 10/22/2024
+- Updated mods:
+  - @Expansion-Core
+
+<!-- ++++++++++++++++++++ 10/22/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/21/2024 Start ++++++++++++++++++++ -->
 

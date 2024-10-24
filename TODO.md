@@ -21,7 +21,6 @@
 - Post server feature list to discord
 
 - Mods:
-  - Need to remove TLH Item pack, and remove references to it throughout the files (cfg spawnable types, economy core, random presets, cj187 loot crates)
   - Test and install DayZ Expansion Mods
 
 - Vehicles: 
