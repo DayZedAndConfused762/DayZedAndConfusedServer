@@ -1379,7 +1379,7 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 "KamazWheel_Ruined"                                                                                     @Kamaz_Truck
 
 
-======== ABOVE SORTED ======
+
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 
@@ -1462,952 +1462,94 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 "Mag_CMAG_30Rnd"                        14              weapons         Mi              2/3/4
 "Mag_CMAG_30Rnd_Black"                  5               weapons         Mi              3/4
 "Mag_CMAG_30Rnd_Green"                  5               weapons         Mi              3/4
-
-"Mag_CMAG_40Rnd"
-3
-
-        <restock>3600</restock>
-        <min>1</min>
-
-
-
-
-weapons
-Mi/
-3/
-
-"Mag_CMAG_40Rnd_Black"
-3
-
-        <restock>3600</restock>
-        <min>1</min>
-
-
-
-
-weapons
-weapons
-Mi/
-4
-
-"Mag_CMAG_40Rnd_Green"
-3
-
-        <restock>3600</restock>
-        <min>1</min>
-
-
-
-
-weapons
-CO/
-
-"Mag_CZ527_5rnd"
-20
-
-
-
-
-
-
-
-weapons
-Fa/
-V/
-Hu
-2/3/4
-
-"Mag_CZ550_10Rnd"
-8
-
-
-
-
-
-
-
-weapons
-Hu
-3/4
-
-"Mag_CZ61_20Rnd"
-20
-
-
-
-
-
-
-
-weapons
-Po
-
-"Mag_CZ75_15Rnd"
-60
-
-
-
-
-
-
-
-weapons
-Po
-T/
-V/
-3/4
-
-"Mag_Deagle_9rnd"
-30
-
-
-
-        <quantmin>15</quantmin>
-
-
-
-weapons
-T/
-
-"Mag_FAL_20Rnd"
-6
-
-
-
-
-
-
-
-weapons
-Mi/
-4
-
-"Mag_FAMAS_25Rnd"
-7
-
-
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_FNX45_15Rnd"
-24
-
-
-
-
-
-
-
-weapons
-Mi/
-2/
-3/
-
-"Mag_Glock_15Rnd"
-24
-
-
-
-
-
-
-
-weapons
-Po
-
-"Mag_IJ70_8Rnd"
-70
-
-
-        <min>50</min>
-
-
-
-
-weapons
-T/
-V/
-1/
-
-"Mag_M14_10Rnd"
-25
-
-
-        <min>14</min>
-        <quantmin>30</quantmin>
-        <quantmax>90</quantmax>
-
-
-weapons
-Mi/
-3/4
-
-"Mag_M14_20Rnd"
-16
-
-
-
-        <quantmin>30</quantmin>
-        <quantmax>90</quantmax>
-
-
-weapons
-Mi/
-3/4
-
-"Mag_MKII_10Rnd"
-30
-
-
-
-
-
-
-
-weapons
-T/
-V/
-1/2
-
-"Mag_MP5_15Rnd"
-20
-
-
-        <min>7</min>
-
-
-
-
-weapons
-Mi/
-1/2/3/
-
-"Mag_MP5_30Rnd"
-9
-
-
-        <min>6</min>
-
-
-
-
-weapons
-Mi/
-2/
-3/
-
-"Mag_P1_8Rnd"
-35
-
-
-        <min>25</min>
-        <quantmin>25</quantmin>
-
-
-
-weapons
-T/
-V/
-2/
-3/
-
-"Mag_PP19_64Rnd"
-15
-
-        <restock>3600</restock>
-        <min>9</min>
-
-
-
-
-weapons
-Mi/
-
-"Mag_Ruger1022_15Rnd"
-35
-
-
-
-
-
-
-
-weapons
-T/
-V/
-1/2
-
-"Mag_Ruger1022_30Rnd"
-30
-
-
-
-
-
-
-
-weapons
-T/
-V/
-2/
-3/
-
-"Mag_SSG82_5rnd"
-25
-
-
-
-
-
-
-
-weapons
-Po
-2/3/4
-
-"Mag_STANAG_30Rnd"
-10
-
-
-
-
-
-
-
-weapons
-Mi/
-2/3/4
-
-"Mag_STANAG_60Rnd"
-5
-
-
-
-
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-Mi/
-3/4
-
-"Mag_SV98_10Rnd"
-12
-
-
-        <min>7</min>
-        <quantmin>30</quantmin>
-        <quantmax>70</quantmax>
-
-
-weapons
-Mi/
-3/4
-
-"Mag_SVD_10Rnd"
-6
-
-        <restock>3600</restock>
-
-
-
-
-
-weapons
-Mi/
-4
-
-"Mag_Saiga_5Rnd"
-15
-
-
-
-
-
-
-
-weapons
-Mi/
-2/3/4
-
-"Mag_Saiga_8Rnd"
-5
-
-
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_Saiga_Drum20Rnd"
-5
-
-
-
-
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-Mi/
-
-"Mag_Scout_5Rnd"
-8
-
-
-
-
-
-
-
-weapons
-Po
-2/3/4
-
-"Mag_UMP_25Rnd"
-14
-
-
-        <min>9</min>
-
-
-
-
-weapons
-Mi/
-
-"Mag_VAL_20Rnd"
-8
-
-        <restock>3600</restock>
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_VSS_10Rnd"
-8
-
-        <restock>3600</restock>
-
-
-
-
-
-weapons
-Mi/
-3/
-
-"Mag_Vikhr_30Rnd"
-6
-
-
-
-
-
-
-
-weapons
-Mi/
-4
-
-
-<!-- AMMUNITION_MAGAZINES END -->
-
-<!-- ++++++++++ AMMUNITION END ++++++++++ -->
-
-<!-- ++++++++++ ATTACHMENTS START ++++++++++ -->
-
-<!-- ATTACHMENTS_BAYONETS START -->
-
-"AK_Bayonet"
-10
-
-
-
-
-
-
-weapons
-Mi/
-2/
-3/
-
-"M9A1_Bayonet"
-10
-
-
-
-
-
-
-weapons
-Mi/
-2/
-3/
-
-"Mosin_Bayonet"
-10
-
-
-
-
-
-
-weapons
-Mi/
-Fa/
-2/
-3/
-
-"SKS_Bayonet"
-10
-
-
-
-
-
-
-weapons
-Mi/
-2/
-3/
-
-
-<!-- ATTACHMENTS_BAYONETS END -->
-
-<!-- ATTACHMENTS_COMPENSATORS START -->
-
-"MP5_Compensator"
-6
-
-
-
-
-
-
-weapons
-Mi/
-
-"Mosin_Compensator"
-15
-
-
-
-
-
-
-weapons
-Hu
-
-
-<!-- ATTACHMENTS_COMPENSATORS END -->
-
-<!-- ATTACHMENTS_GRIPS START -->
-
-"AK74_Hndgrd"
-5
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"AK74_Hndgrd_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"AK74_Hndgrd_Camo"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"AK_PlasticHndgrd"
-5
-
-
-
-
-
-
-weapons
-Mi/
-
-"AK_RailHndgrd"
-3
-
-
-        <min>1</min>
-
-
-
-weapons
-
-Mi/
-
-"AK_RailHndgrd_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-
-Mi/
-
-"AK_RailHndgrd_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-
-Mi/
-
-"AK_WoodHndgrd"
-3
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"AK_WoodHndgrd_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"AK_WoodHndgrd_Camo"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_MPHndgrd"
-3
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_MPHndgrd_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_MPHndgrd_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_PlasticHndgrd"
-3
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_PlasticHndgrd_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_PlasticHndgrd_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_RISHndgrd"
-3
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_RISHndgrd_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
-Mi/
-
-"M4_RISHndgrd_Green"
-1
-
-        <restock>1</restock>
-
-
-
-
-weapons
-Mi/
-
-"MP5_PlasticHndgrd"
-4
-
-
-
-
-
-
-weapons
-Mi/
-
-"MP5_RailHndgrd"
-4
-
-
-
-
-
-
-weapons
-Mi/
-
-
-<!-- ATTACHMENTS_GRIPS END -->
-
-<!-- ATTACHMENTS_LIGHTS START -->
-
-"TLRLight"
-40
-
-
-
-
-
-
-weapons
-
-Mi/
-Po
-2/3/4
-
-"UniversalLight"
-30
-
-
-
-
-
-
-weapons
-
-Mi/
-Po
-2/3/4
-
-
-<!-- ATTACHMENTS_LIGHTS END -->
-
-<!-- ATTACHMENTS_OPTICS START -->
-
-"ACOGOptic"
-10
-
-
-        <min>6</min>
-
-
-
-weapons
-Mi/
-
-"ACOGOptic_6x"
-5
-
-
-
-
-
-
-weapons
-Mi/
-Po
-3/4
-
-"BUISOptic"
-10
-
-
-
-
-
-
-weapons
-Mi/
-2/3/4
-
-"FNP45_MRDSOptic"
-10
-
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"HuntingOptic"
-15
-
-
-
-
-
-
-weapons
-
-Hu
-2/3/4
-
-"KashtanOptic"
-15
-
-
-
-
-
-
-weapons
-Mi/
-
-"KazuarOptic"
-1
-
-        <restock>3600</restock>
-        <min>1</min>
-
-
-
-weapons
-
-CO/
-
-"KobraOptic"
-15
-
-
-
-
-
-
-weapons
-Mi/
-
-"M4_CarryHandleOptic"
-5
-
-
-
-
-
-
-weapons
-Mi/
-
-"M4_T3NRDSOptic"
-10
-
-
-
-
-
-
-weapons
-Mi/
-3/4
+"Mag_CMAG_40Rnd"                        3               weapons         Mi              3
+"Mag_CMAG_40Rnd_Black"                  3               weapons         Mi              4
+"Mag_CMAG_40Rnd_Green"                  3               weapons         CO
+"Mag_CZ527_5rnd"                        20              weapons         Fa/Hu/V         2/3/4
+"Mag_CZ550_10Rnd"                       8               weapons         Hu              3/4
+"Mag_CZ61_20Rnd"                        20              weapons         Po
+"Mag_CZ75_15Rnd"                        60              weapons         Po/T/V          3/4
+"Mag_Deagle_9rnd"                       30              weapons         T
+"Mag_FAL_20Rnd"                         6               weapons         Mi              4
+"Mag_FAMAS_25Rnd"                       7               weapons         Mi              3/4
+"Mag_FNX45_15Rnd"                       24              weapons         Mi              2/3
+"Mag_Glock_15Rnd"                       24              weapons         Po
+"Mag_IJ70_8Rnd"                         70              weapons         T/V             1
+"Mag_M14_10Rnd"                         25              weapons         Mi              3/4
+"Mag_M14_20Rnd"                         16              weapons         Mi              3/4
+"Mag_MKII_10Rnd"                        30              weapons         T/V             1/2
+"Mag_MP5_15Rnd"                         20              weapons         Mi              1/2/3
+"Mag_MP5_30Rnd"                         9               weapons         Mi              2/3
+"Mag_P1_8Rnd"                           35              weapons         T/V             2/3
+"Mag_PP19_64Rnd"                        15              weapons         Mi
+"Mag_Ruger1022_15Rnd"                   35              weapons         T/V             1/2
+"Mag_Ruger1022_30Rnd"                   30              weapons         T/V             2/3
+"Mag_SSG82_5rnd"                        25              weapons         Po              2/3/4
+"Mag_STANAG_30Rnd"                      10              weapons         Mi              2/3/4
+"Mag_STANAG_60Rnd"                      5               weapons         Mi              3/4                                             X
+"Mag_SV98_10Rnd"                        12              weapons         Mi              3/4
+"Mag_SVD_10Rnd"                         6               weapons         Mi              4
+"Mag_Saiga_5Rnd"                        15              weapons         Mi              2/3/4
+"Mag_Saiga_8Rnd"                        5               weapons         Mi              3/4
+"Mag_Saiga_Drum20Rnd"                   5               weapons         Mi                                                              X
+"Mag_Scout_5Rnd"                        8               weapons         Po              2/3/4
+"Mag_UMP_25Rnd"                         14              weapons         Mi
+"Mag_VAL_20Rnd"                         8               weapons         Mi              3/4
+"Mag_VSS_10Rnd"                         8               weapons         Mi              3
+"Mag_Vikhr_30Rnd"                       6               weapons         Mi              4
+
+======== ABOVE SORTED ======
+
+
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"AK_Bayonet"                            10              weapons         Mi              2/3
+"M9A1_Bayonet"                          10              weapons         Mi              2/3
+"Mosin_Bayonet"                         10              weapons         Fa/Mi           2/3
+"SKS_Bayonet"                           10              weapons         Mi              2/3
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"MP5_Compensator"                       6               weapons         Mi
+"Mosin_Compensator"                     15              weapons         Hu
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"AK74_Hndgrd"                           5               weapons         Mi
+"AK74_Hndgrd_Black"                     1               weapons         Mi
+"AK74_Hndgrd_Camo"                      1               weapons         Mi
+"AK_PlasticHndgrd"                      5               weapons         Mi
+"AK_RailHndgrd"                         3               weapons         Mi
+"AK_RailHndgrd_Black"                   1               weapons         Mi
+"AK_RailHndgrd_Green"                   1               weapons         Mi
+"AK_WoodHndgrd"                         3               weapons         Mi
+"AK_WoodHndgrd_Black"                   1               weapons         Mi
+"AK_WoodHndgrd_Camo"                    1               weapons         Mi
+"M4_MPHndgrd"                           3               weapons         Mi
+"M4_MPHndgrd_Black"                     1               weapons         Mi
+"M4_MPHndgrd_Green"                     1               weapons         Mi
+"M4_PlasticHndgrd"                      3               weapons         Mi
+"M4_PlasticHndgrd_Black"                1               weapons         Mi
+"M4_PlasticHndgrd_Green"                1               weapons         Mi
+"M4_RISHndgrd"                          3               weapons         Mi
+"M4_RISHndgrd_Black"                    1               weapons         Mi
+"M4_RISHndgrd_Green"                    1               weapons         Mi
+"MP5_PlasticHndgrd"                     4               weapons         Mi
+"MP5_RailHndgrd"                        4               weapons         Mi
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"TLRLight"                              40              weapons         Mi/Po           2/3/4
+"UniversalLight"                        30              weapons         Mi/Po           2/3/4
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"ACOGOptic"                             10              weapons         Mi
+"ACOGOptic_6x"                          5               weapons         Mi/Po           3/4
+"BUISOptic"                             10              weapons         Mi              2/3/4
+"FNP45_MRDSOptic"                       10              weapons         Mi              3/4
+"HuntingOptic"                          15              weapons         Hu              2/3/4
+"KashtanOptic"                          15              weapons         Mi
+"KazuarOptic"                           1               weapons         CO
+"KobraOptic"                            15              weapons         Mi
+"M4_CarryHandleOptic"                   5               weapons         Mi
+"M4_T3NRDSOptic"                        10              weapons         Mi              3/4
 
 "M68Optic"
 15
@@ -2475,11 +1617,6 @@ Mi/
 "StarlightOptic"
 1
 
-        <restock>3600</restock>
-        <min>1</min>
-
-
-
 weapons
 
 CO/
@@ -2493,40 +1630,22 @@ CO/
 3
 
 
-        <min>1</min>
-
 
 
 weapons
 Mi/
 
 "AK_FoldingBttstck_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "AK_FoldingBttstck_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "AK_PlasticBttstck"
 3
 
-
-        <min>1</min>
 
 
 
@@ -2534,32 +1653,16 @@ weapons
 Mi/
 
 "AK_PlasticBttstck_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "AK_PlasticBttstck_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "AK_WoodBttstck"
 3
 
-
-        <min>1</min>
 
 
 
@@ -2567,32 +1670,16 @@ weapons
 Mi/
 
 "AK_WoodBttstck_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "AK_WoodBttstck_Camo"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "AKS74U_Bttstck"
 3
 
-
-        <min>1</min>
 
 
 
@@ -2600,25 +1687,11 @@ weapons
 Mi/
 
 "AKS74U_Bttstck_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "AKS74U_Bttstck_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "Fal_FoldingBttstck"
@@ -2649,40 +1722,22 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
 
 weapons
 Mi/
 
 "M4_CQBBttstck_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "M4_CQBBttstck_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "M4_MPBttstck"
 3
 
-
-        <min>1</min>
 
 
 
@@ -2690,32 +1745,16 @@ weapons
 Mi/
 
 "M4_MPBttstck_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "M4_MPBttstck_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "M4_OEBttstck"
 3
 
-
-        <min>1</min>
 
 
 
@@ -2723,25 +1762,11 @@ weapons
 Mi/
 
 "M4_OEBttstck_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "M4_OEBttstck_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 Mi/
 
 "MP5k_StockBttstck"
@@ -2786,8 +1811,6 @@ Mi/
 2
         <lifetime>9800</lifetime>
 
-        <min>1</min>
-
 
 
 weapons
@@ -2800,11 +1823,6 @@ weapons
 
 "M4_Suppressor"
 2
-
-        <restock>3600</restock>
-        <min>1</min>
-
-
 
 weapons
 
@@ -3878,8 +2896,6 @@ T/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -3888,8 +2904,6 @@ T/
 "EyeMask_Blue"
 3
 
-
-        <min>1</min>
 
 
 
@@ -3900,8 +2914,6 @@ T/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -3911,8 +2923,6 @@ T/
 "EyeMask_Yellow"
 3
 
-
-        <min>1</min>
 
 
 
@@ -4289,8 +3299,6 @@ V/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -4299,8 +3307,6 @@ V/
 "MimeMask_Male"
 3
 
-
-        <min>1</min>
 
 
 
@@ -4349,8 +3355,6 @@ Me/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -4361,8 +3365,6 @@ T/
 "AthleticShoes_Blue"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -4375,8 +3377,6 @@ T/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -4388,8 +3388,6 @@ T/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -4400,8 +3398,6 @@ T/
 "AthleticShoes_Grey"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -5832,8 +4828,6 @@ T/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -6082,8 +5076,6 @@ V/
 "DarkMotoHelmet_YellowScarred"
 2
 
-
-        <min>1</min>
 
 
 
@@ -7249,8 +6241,6 @@ Fi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -7275,8 +6265,6 @@ Fi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -7299,8 +6287,6 @@ Fi/
 "NBCHoodGray"
 2
 
-
-        <min>1</min>
 
 
 
@@ -7325,8 +6311,6 @@ Fi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -7349,8 +6333,6 @@ Fi/
 "NBCPantsGray"
 2
 
-
-        <min>1</min>
 
 
 
@@ -7511,8 +6493,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -7521,8 +6501,6 @@ V/
 "CanvasPantsMidi_Blue"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -7533,8 +6511,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -7544,8 +6520,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -7554,8 +6528,6 @@ V/
 "CanvasPantsMidi_Violet"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -7687,8 +6659,6 @@ Fa/
 "Chainmail_Leggings"
 2
 
-
-        <min>1</min>
 
 
 
@@ -8491,8 +7461,6 @@ V/
 "Chainmail"
 2
 
-
-        <min>1</min>
 
 
 
@@ -9582,8 +8550,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -9592,8 +8558,6 @@ V/
 "TShirt_Black"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -9604,8 +8568,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -9614,8 +8576,6 @@ V/
 "TShirt_Green"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -9626,8 +8586,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -9636,8 +8594,6 @@ V/
 "TShirt_OrangeWhiteStripes"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -9648,8 +8604,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -9659,8 +8613,6 @@ V/
 3
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -9669,8 +8621,6 @@ V/
 "TShirt_White"
 3
         <lifetime>900</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10066,8 +9016,6 @@ V/
 "Chestplate"
 3
 
-
-        <min>1</min>
 
 
 
@@ -10544,16 +9492,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_BlueCollarFat_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10562,16 +9506,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_BlueCollarFat_White"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10580,16 +9520,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_CitizenANormal_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10598,16 +9534,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_CitizenBSkinny"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10616,16 +9548,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_Clerk_Normal_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10634,16 +9562,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_Clerk_Normal_White"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10652,16 +9576,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_HikerSkinny_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10670,16 +9590,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_HikerSkinny_Grey"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10688,16 +9604,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_JoggerSkinny_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10706,16 +9618,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_JoggerSkinny_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10724,16 +9632,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_JournalistNormal_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10742,16 +9646,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_JournalistNormal_Red"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10760,16 +9660,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_MechanicNormal_Beige"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10778,16 +9674,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_MechanicNormal_Grey"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10796,16 +9688,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_MilkMaidOld_Beige"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10814,16 +9702,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_MilkMaidOld_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10832,16 +9716,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_NurseFat"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10850,16 +9730,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_ParamedicNormal_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10868,16 +9744,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_PatientOld"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10886,16 +9758,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_ShortSkirt_beige"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10904,16 +9772,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_ShortSkirt_brown"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10922,16 +9786,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_ShortSkirt_green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10940,16 +9800,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_ShortSkirt_red"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10958,16 +9814,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_ShortSkirt_white"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10976,16 +9828,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_SkaterYoung_Brown"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -10994,16 +9842,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_SkaterYoung_Violet"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11012,16 +9856,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_SurvivorNormal_Orange"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11030,16 +9870,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_SurvivorNormal_White"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11048,16 +9884,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_VillagerOld_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11066,16 +9898,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbF_VillagerOld_White"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11084,16 +9912,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_CitizenASkinny_Brown"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11102,16 +9926,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_CitizenASkinny_Red"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11120,16 +9940,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_CitizenBFat_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11138,16 +9954,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_ClerkFat_Brown"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11156,16 +9968,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_ClerkFat_Khaki"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11174,16 +9982,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_CommercialPilotOld_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11192,16 +9996,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_CommercialPilotOld_Grey"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11210,16 +10010,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_ConstrWorkerNormal_Beige"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11228,16 +10024,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_ConstrWorkerNormal_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11246,16 +10038,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_DoctorFat"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11264,16 +10052,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_FarmerFat_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11282,16 +10066,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_FarmerFat_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11300,16 +10080,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_FishermanOld_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11318,16 +10094,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_FishermanOld_Grey"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11336,16 +10108,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HandymanNormal_Beige"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11354,16 +10122,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HandymanNormal_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11372,16 +10136,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HandymanNormal_White"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11390,16 +10150,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HermitSkinny_Beige"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11408,16 +10164,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HermitSkinny_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11426,16 +10178,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HikerSkinny_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11444,16 +10192,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HikerSkinny_Yellow"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11462,16 +10206,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HunterOld_Spring"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11480,16 +10220,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_HunterOld_Winter"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11498,16 +10234,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_Jacket_black"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11516,16 +10248,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_Jacket_bluechecks"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11534,16 +10262,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_Jacket_greenchecks"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11552,16 +10276,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_Jacket_khaki"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11570,16 +10290,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_Jacket_stripes"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11588,16 +10304,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_JoggerSkinny_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11606,16 +10318,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_JournalistSkinny"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11624,16 +10332,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_MechanicSkinny_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11642,16 +10346,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_MechanicSkinny_Red"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11660,16 +10360,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_MotobikerFat_Black"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11678,16 +10374,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_NBC_Grey"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11696,16 +10388,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_OffshoreWorker_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11714,16 +10402,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_OffshoreWorker_Red"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11732,16 +10416,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_ParamedicNormal_Black"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11750,16 +10430,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_ParamedicNormal_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11768,16 +10444,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_PatientSkinny"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11786,16 +10458,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_PatrolNormal_Flat"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11804,16 +10472,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_PatrolNormal_Summer"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11822,16 +10486,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_PolicemanSpecForce"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11840,16 +10500,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_PrisonerSkinny"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11858,16 +10514,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_SkaterYoung_Blue"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11876,16 +10528,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_SkaterYoung_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11894,16 +10542,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_SoldierNormal"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11912,16 +10556,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_VillagerOld_Green"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11930,16 +10570,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_priestPopSkinny"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11948,16 +10584,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_usSoldier_Officer_Desert"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -11966,8 +10598,6 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
@@ -11975,16 +10605,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 	<type name="ZmbM_usSoldier_Officer_Convoy"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -12232,9 +10858,7 @@ Mi/
 "AK101"
 2
 
-        <restock>3600</restock>
-        <min>1</min>
-        <quantmin>30</quantmin>
+        <restock>3600</restock>        <quantmin>30</quantmin>
 
 
 
@@ -12246,8 +10870,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
 weapons
@@ -12257,8 +10879,6 @@ Mi/
 "AK101_Green"
 2
 
-
-        <min>1</min>
 
 
 
@@ -12283,8 +10903,6 @@ Mi/
 4
 
 
-        <min>1</min>
-
 
 
 weapons
@@ -12295,8 +10913,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
 
 weapons
@@ -12306,9 +10922,7 @@ Mi/
 "AKM"
 1
 
-        <restock>3600</restock>
-        <min>1</min>
-        <quantmin>30</quantmin>
+        <restock>3600</restock>        <quantmin>30</quantmin>
 
 
 
@@ -12368,9 +10982,7 @@ Mi/
 "Aug"
 2
 
-        <restock>3600</restock>
-        <min>1</min>
-        <quantmin>30</quantmin>
+        <restock>3600</restock>        <quantmin>30</quantmin>
 
 
 
@@ -12430,9 +11042,7 @@ Mi/
 "M4A1"
 3
 
-        <restock>3600</restock>
-        <min>1</min>
-        <quantmin>30</quantmin>
+        <restock>3600</restock>        <quantmin>30</quantmin>
 
 
 
@@ -12441,25 +11051,11 @@ Mi/
 4
 
 "M4A1_Black"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 CO/
 
 "M4A1_Green"
-1
-
-
-        <min>1</min>
-
-
-
-weapons
+                    1               weapons
 CO/
 
 "SawedoffFAMAS"
@@ -12524,8 +11120,6 @@ T/
 "Crossbow_Summer"
 2
 
-
-        <min>1</min>
         <quantmin>30</quantmin>
 
 
@@ -12536,8 +11130,6 @@ Hu
 "Crossbow_Wood"
 3
 
-
-        <min>1</min>
         <quantmin>30</quantmin>
 
 
@@ -12562,8 +11154,6 @@ C/
 "M79"
 3
 
-
-        <min>1</min>
         <quantmin>30</quantmin>
 
 
@@ -12631,8 +11221,6 @@ T/
 "Derringer_Black"
 7
 
-
-        <min>1</min>
         <quantmin>50</quantmin>
 
 
@@ -12644,8 +11232,6 @@ T/
 "Derringer_Grey"
 7
 
-
-        <min>1</min>
         <quantmin>50</quantmin>
 
 
@@ -12657,8 +11243,6 @@ T/
 "Derringer_Pink"
 1
 
-
-        <min>1</min>
         <quantmin>50</quantmin>
 
 
@@ -12914,8 +11498,6 @@ V/
 "M14"
 3
 
-
-        <min>1</min>
         <quantmin>30</quantmin>
 
 
@@ -12941,8 +11523,6 @@ Hu
 "Mosin9130_Black"
 5
 
-
-        <min>1</min>
         <quantmin>30</quantmin>
 
 
@@ -12957,8 +11537,6 @@ Hu
 5
 
 
-        <min>1</min>
-
 
 
 weapons
@@ -12968,8 +11546,6 @@ Hu
 "Mosin9130_Green"
 5
 
-
-        <min>1</min>
 
 
 
@@ -13077,9 +11653,7 @@ Mi/
 "SVD"
 3
 
-        <restock>3600</restock>
-        <min>1</min>
-        <quantmin>30</quantmin>
+        <restock>3600</restock>        <quantmin>30</quantmin>
 
 
 
@@ -13113,8 +11687,6 @@ weapons
 "Scout"
 2
 
-
-        <min>1</min>
         <quantmin>30</quantmin>
 
 
@@ -13136,8 +11708,6 @@ Po
 "Scout_Livonia"
 2
 
-
-        <min>1</min>
 
 
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
@@ -13173,8 +11743,6 @@ Hu
 "Winchester70_Green"
 2
 
-
-        <min>1</min>
         <quantmin>25</quantmin>
         <quantmax>75</quantmax>
 
@@ -13316,8 +11884,6 @@ Mi/
 "AntiChemInjector"
 1
 
-
-        <min>1</min>
 
 
 
@@ -13480,8 +12046,6 @@ Me/
 "Defibrillator"
 1
 
-
-        <min>1</min>
 
 
 
@@ -14181,8 +12745,6 @@ V/
 "RabbitLegMeat"
 0
 
-
-        <min>1</min>
 
 
 
@@ -16587,8 +15149,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -16599,8 +15159,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -16610,8 +15168,6 @@ Mi/
 "PlateCarrierHolster_Green"
 1
 
-
-        <min>1</min>
 
 
 
@@ -16635,8 +15191,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -16647,8 +15201,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -16658,8 +15210,6 @@ Mi/
 "PlateCarrierPouches_Green"
 2
 
-
-        <min>1</min>
 
 
 
@@ -16676,8 +15226,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="containers"/>
@@ -16687,8 +15235,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="containers"/>
@@ -16697,8 +15243,6 @@ Mi/
 "AliceBag_Green"
 3
 
-
-        <min>1</min>
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
@@ -16989,8 +15533,6 @@ Hu
 "HuntingBag_Hannah"
 2
 
-
-        <min>1</min>
 
 
 
@@ -17759,8 +16301,6 @@ Fi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="tools"/>
@@ -17770,8 +16310,6 @@ Fi/
 "FirefighterAxe_Green"
 2
 
-
-        <min>1</min>
 
 
 
@@ -17924,8 +16462,6 @@ V/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -18014,8 +16550,6 @@ V/
 5
 
 
-        <min>1</min>
-
 
 
         <category name="tools"/>
@@ -18081,8 +16615,6 @@ Fa/
 "Mace"
 2
 
-
-        <min>1</min>
 
 
 
@@ -18193,8 +16725,6 @@ Fa/
 "StunBaton"
 5
 
-
-        <min>1</min>
 
 
 
@@ -18787,8 +17317,6 @@ V/
 "RabbitPelt"
 0
 
-
-        <min>1</min>
 
 
 
@@ -20132,8 +18660,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="lootdispatch"/>
@@ -20153,8 +18679,6 @@ Mi/
 "Offroad_02_Door_1_2_Rust"
 3
 
-
-        <min>1</min>
 
 
 
@@ -20176,8 +18700,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="lootdispatch"/>
@@ -20197,8 +18719,6 @@ Mi/
 "Offroad_02_Door_2_2_Rust"
 3
 
-
-        <min>1</min>
 
 
 
@@ -20229,8 +18749,6 @@ Mi/
 "Offroad_02_Trunk_Rust"
 3
 
-
-        <min>1</min>
 
 
 
@@ -21605,8 +20123,6 @@ Fa/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -21628,8 +20144,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -21639,8 +20153,6 @@ V/
 "BushlatPoliceJacket_Blue"
 3
 
-
-        <min>1</min>
 
 
 
@@ -21662,8 +20174,6 @@ Me/
 "CoyoteBag_Winter"
 2
 
-
-        <min>1</min>
 
 
 
@@ -21697,8 +20207,6 @@ V/
 0
         <lifetime>900</lifetime>
 
-        <min>1</min>
-
 
 
 
@@ -21714,8 +20222,6 @@ V/
 "DownJacket_Blue"
 2
 
-
-        <min>1</min>
 
 
 
@@ -21749,8 +20255,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -21761,8 +20265,6 @@ V/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -21772,8 +20274,6 @@ V/
     "DownJacket_Red"
 2
 
-
-        <min>1</min>
 
 
 
@@ -21853,8 +20353,6 @@ Mi/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -21863,8 +20361,6 @@ Hu
 <type name="Iceaxe"
 2
 
-
-        <min>1</min>
 
 
 
@@ -21886,8 +20382,6 @@ C/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -21897,8 +20391,6 @@ Me/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -21907,8 +20399,6 @@ Me/
 <type name="FilteringBottle"
 3
 
-
-        <min>1</min>
 
 
 
@@ -22035,8 +20525,6 @@ V/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22047,8 +20535,6 @@ V/
 3
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22058,8 +20544,6 @@ V/
 "SherpaHat_Red"
 3
 
-
-        <min>1</min>
 
 
 
@@ -22082,8 +20566,6 @@ V/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22094,8 +20576,6 @@ V/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22105,8 +20585,6 @@ V/
 "SkiGoggles_BlackYellow"
 2
 
-
-        <min>1</min>
 
 
 
@@ -22119,8 +20597,6 @@ V/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22132,8 +20608,6 @@ V/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22144,8 +20618,6 @@ V/
 <type name="SnowstormUshanka_Brown"
 2
 
-
-        <min>1</min>
 
 
 
@@ -22169,8 +20641,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22181,8 +20651,6 @@ V/
 "SnowstormUshanka_White"
 2
 
-
-        <min>1</min>
 
 
 
@@ -22223,8 +20691,6 @@ V/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="containers"/>
@@ -22233,8 +20699,6 @@ Mi/
 <type name="UKAssVest_Winter"
 2
 
-
-        <min>1</min>
 
 
 
@@ -22291,16 +20755,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_Gamedev_Black"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -22309,16 +20769,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_Gamedev_Gray"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -22327,16 +20783,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_PatientSkinny_Winter"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -22345,8 +20797,6 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
@@ -22354,16 +20804,12 @@ Mi/
 0
         <lifetime>1800</lifetime>
 
-        <min>1</min>
-
 
 
 
 "ZmbM_eastSoldier_normal_Navy"
 0
         <lifetime>1800</lifetime>
-
-        <min>1</min>
 
 
 
@@ -22381,8 +20827,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="containers"/>
@@ -22391,8 +20835,6 @@ Mi/
 "BallisticHelmet_Winter"
 2
 
-
-        <min>1</min>
 
 
 
@@ -22403,8 +20845,6 @@ Mi/
 2
 
 
-        <min>1</min>
-
 
 
         <category name="clothes"/>
@@ -22413,8 +20853,6 @@ Po
 "BalaclavaMask_Chain"
 2
 
-
-        <min>1</min>
 
 
 
