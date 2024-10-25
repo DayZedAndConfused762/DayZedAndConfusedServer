@@ -693,20 +693,9 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 "MVS_Helmet_01_Black"                   1               clothes         Mi                              @ModularVestSystem
 "MVS_Helmet_01_Snow"                    1               clothes         Mi                              @ModularVestSystem
 "MVS_Helmet_01_ERDL"                    1               clothes         Mi                              @ModularVestSystem
-"MVS_Helmet_01_Multicam"                1               clothes         Mi                              @ModularVestSystem
-0
-clothes
-Military
-
-"MVS_Helmet_01_Multicam_Tropic"         1               clothes         Mi                              @ModularVestSystem
-0
-clothes
-Military
-
-"MVS_Helmet_01_Multicam_Black"          1               clothes         Mi                              @ModularVestSystem
-0
-clothes
-Military
+"MVS_Helmet_01_Multicam"                0               clothes         Mi                              @ModularVestSystem
+"MVS_Helmet_01_Multicam_Tropic"         0               clothes         Mi                              @ModularVestSystem
+"MVS_Helmet_01_Multicam_Black"          0               clothes         Mi                              @ModularVestSystem
 
 
 <!-- HELMETS-01 END -->
@@ -1460,178 +1449,19 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 "Mag_AK74_45Rnd"                        3               weapons         CO
 "Mag_AKM_30Rnd"                         10              weapons         Mi              3/4
 "Mag_AKM_Drum75Rnd"                     3               weapons         Mi                                                              X
-
-"Mag_AKM_Drum75Rnd_Black"
-1
-
-
-        <min>1</min>
-
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-Mi/
-
-"Mag_AKM_Drum75Rnd_Green"
-1
-
-
-        <min>1</min>
-
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-Mi/
-
-"Mag_AKM_Palm30Rnd"
-4
-
-
-        <min>1</min>
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_AKM_Palm30Rnd_Black"
-4
-
-
-        <min>1</min>
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_AKM_Palm30Rnd_Green"
-7
-
-
-        <min>1</min>
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_Aug_30Rnd"
-8
-
-
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_CMAG_10Rnd"
-15
-
-
-
-
-
-
-
-weapons
-        <usage name="School"/>
-V/
-2/
-3/
-
-"Mag_CMAG_10Rnd_Black"
-12
-
-
-
-
-
-
-
-weapons
-		<usage name="Village"/>	
-		<usage name="Hunting"/>
-2/
-3/
-
-"Mag_CMAG_10Rnd_Green"
-9
-
-
-
-
-
-
-
-weapons
-Mi/
-1/2
-
-"Mag_CMAG_20Rnd"
-12
-
-
-
-
-
-
-
-weapons
-Mi/
-2/
-3/
-
-"Mag_CMAG_30Rnd"
-14
-
-
-        <min>6</min>
-
-
-
-
-weapons
-Mi/
-2/3/4
-
-"Mag_CMAG_30Rnd_Black"
-5
-
-
-        <min>1</min>
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Mag_CMAG_30Rnd_Green"
-5
-
-
-        <min>1</min>
-
-
-
-
-weapons
-Mi/
-3/4
+"Mag_AKM_Drum75Rnd_Black"               1               weapons         Mi                                                              X
+"Mag_AKM_Drum75Rnd_Green"               1               weapons         Mi                                                              X
+"Mag_AKM_Palm30Rnd"                     4               weapons         Mi              3/4
+"Mag_AKM_Palm30Rnd_Black"               4               weapons         Mi              3/4
+"Mag_AKM_Palm30Rnd_Green"               7               weapons         Mi              3/4
+"Mag_Aug_30Rnd"                         8               weapons         Mi              3/4
+"Mag_CMAG_10Rnd"                        15              weapons         S/V             2/3
+"Mag_CMAG_10Rnd_Black"                  12              weapons         Hu/V            2/3
+"Mag_CMAG_10Rnd_Green"                  9               weapons         Mi              1/2
+"Mag_CMAG_20Rnd"                        12              weapons         Mi              2/3
+"Mag_CMAG_30Rnd"                        14              weapons         Mi              2/3/4
+"Mag_CMAG_30Rnd_Black"                  5               weapons         Mi              3/4
+"Mag_CMAG_30Rnd_Green"                  5               weapons         Mi              3/4
 
 "Mag_CMAG_40Rnd"
 3
