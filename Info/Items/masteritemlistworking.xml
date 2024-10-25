@@ -14,6 +14,7 @@ Office              O
 Police              Po
 Prison              Pr
 School              S
+SeasonalEvent       Se
 Town                T
 Village             V
 
@@ -1697,490 +1698,51 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 <!-- CLOTHING_EYES START -->
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"AviatorGlasses"
-13
+"AviatorGlasses"                        13              clothes         Mi/Po/T
+"DesignerGlasses"                       18              clothes         T
+"EyeMask_Black"                         3               clothes         L
+"EyeMask_Blue"                          3               clothes         L
+"EyeMask_Red"                           3               clothes         L/Se
+"EyeMask_Yellow"                        3               clothes         L/Se
+"EyePatch_Improvised"                   crafted         clothes
+"SportGlasses_Black"                    13              clothes         I/O/S/T/V
+"SportGlasses_Blue"                     13              clothes         I/O/S/T/V
+"SportGlasses_Green"                    13              clothes         I/O/S/T/V
+"SportGlasses_Orange"                   13              clothes         I/O/S/T/V
+"TacticalGoggles"                       8               clothes         Mi              2/3/4
+"ThickFramesGlasses"                    25              clothes         T/V
+"ThinFramesGlasses"                     25              clothes         T/V
 
-
-
-
-
-
-clothes
-
-Mi/
-Po
-T/
-
-"DesignerGlasses"
-18
-
-
-
-
-
-
-clothes
-T/
-
-"EyeMask_Black"
-3
-
-
-
-
-clothes
-        <usage name="Lunapark"/>
-
-"EyeMask_Blue"
-3
-
-
-
-
-clothes
-        <usage name="Lunapark"/>
-
-"EyeMask_Red"
-3
-
-
-
-
-clothes
-        <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
-
-"EyeMask_Yellow"
-3
-
-
-
-
-clothes
-        <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
-
-"EyePatch_Improvised"
-0
-
-
-
-
-
-
-clothes
-
-"SportGlasses_Black"
-13
-
-
-
-
-
-
-clothes
-
-        <usage name="Industrial"/>
-T/
-V/
-O
-S
-
-"SportGlasses_Blue"
-13
-
-
-
-
-
-
-clothes
-
-        <usage name="Industrial"/>
-T/
-V/
-O
-S
-
-"SportGlasses_Green"
-13
-
-
-
-
-
-
-clothes
-
-        <usage name="Industrial"/>
-T/
-V/
-O
-S
-
-"SportGlasses_Orange"
-13
-
-
-
-
-
-
-clothes
-
-        <usage name="Industrial"/>
-T/
-V/
-O
-S
-
-"TacticalGoggles"
-8
-
-
-
-
-
-
-clothes
-Mi/
-2/3/4
-
-"ThickFramesGlasses"
-25
-
-
-
-
-
-
-clothes
-T/
-V/
-
-"ThinFramesGlasses"
-25
-
-
-
-
-
-
-clothes
-T/
-V/
-
-
-<!-- CLOTHING_EYES END -->
 
 <!-- CLOTHING_FACE START -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Balaclava3Holes_Beige"                 8               clothes         T/V             2/3
+"Balaclava3Holes_Black"                 3               clothes         Mi/Po/T/V       2/3/4
+"Balaclava3Holes_Blue"                  5               clothes         Po/T/V          1/2
+"Balaclava3Holes_Green"                 4               clothes         T/V             3/4
+"BalaclavaMask_Beige"                   4               clothes         I/T/V           2/3
+"BalaclavaMask_Black"                   4               clothes         I/Po/T/V        3/4
+"BalaclavaMask_Blackskull"              3               clothes         Mi              3/4
+"BalaclavaMask_Blue"                    6               clothes         I/Po/T/V        2/3
+"BalaclavaMask_Green"                   6               clothes         I/Mi/T/V        2/3/4
+"BalaclavaMask_Pink"                    8               clothes         I/T/V           1
+"BalaclavaMask_White"                   1               clothes         I/T/V           1/2
+"Bandana_Blackpattern"                  8               clothes         T/V             2/3/4
+"Bandana_Camopattern"                   8               clothes         T/V             2/3/4
+"Bandana_Greenpattern"                  8               clothes         T/V             2/3/4
+"Bandana_Polkapattern"                  8               clothes         T/V
+"Bandana_Redpattern"                    8               clothes         T/V
+"FaceCover_Improvised"                  crafted         clothes
+"HockeyMask"                            18              clothes         S/T/V
+"MimeMask_Female"                       3               clothes         L
+"MimeMask_Male"                         3               clothes         L
+"MouthRag"                              crafted         tools
+"NioshFaceMask"                         18              clothes         I/Me
+"SurgicalMask"                          15              clothes         Me
 
-"Balaclava3Holes_Beige"
-8
-
-
-
-
-
-
-clothes
-T/
-V/
-2/
-3/
-
-"Balaclava3Holes_Black"
-3
-
-
-
-
-
-
-clothes
-Mi/
-Po
-T/
-V/
-2/3/4
-
-"Balaclava3Holes_Blue"
-5
-
-
-
-
-
-
-clothes
-Po
-T/
-V/
-1/2
-
-"Balaclava3Holes_Green"
-4
-
-
-
-
-
-
-clothes
-T/
-V/
-3/4
-
-"BalaclavaMask_Beige"
-4
-
-
-
-
-
-
-clothes
-
-        <usage name="Industrial"/>
-T/
-V/
-2/
-3/
-
-"BalaclavaMask_Black"
-4
-
-
-
-
-
-
-clothes
-
-Po
-        <usage name="Industrial"/>
-T/
-V/
-3/4
-
-"BalaclavaMask_Blackskull"
-3
-
-
-
-
-
-
-clothes
-
-Mi/
-3/4
-
-"BalaclavaMask_Blue"
-6
-
-
-
-
-
-
-clothes
-
-Po
-        <usage name="Industrial"/>
-T/
-V/
-2/
-3/
-
-"BalaclavaMask_Green"
-6
-
-
-
-
-
-
-clothes
-
-Mi/
-        <usage name="Industrial"/>
-T/
-V/
-2/3/4
-
-"BalaclavaMask_Pink"
-8
-
-
-
-
-
-
-clothes
-
-        <usage name="Industrial"/>
-T/
-V/
-1/
-
-"BalaclavaMask_White"
-1
-
-
-
-
-
-
-clothes
-
-        <usage name="Industrial"/>
-T/
-V/
-1/2
-
-"Bandana_Blackpattern"
-8
-
-
-
-
-
-
-clothes
-T/
-V/
-2/3/4
-
-"Bandana_Camopattern"
-8
-
-
-
-
-
-
-clothes
-T/
-V/
-2/3/4
-
-"Bandana_Greenpattern"
-8
-
-
-
-
-
-
-clothes
-T/
-V/
-2/3/4
-
-"Bandana_Polkapattern"
-8
-
-
-
-
-
-
-clothes
-T/
-V/
-
-"Bandana_Redpattern"
-8
-
-
-
-
-
-
-clothes
-T/
-V/
-
-"FaceCover_Improvised"
-0
-
-
-
-
-
-
-clothes
-
-"HockeyMask"
-18
-
-
-
-
-
-
-clothes
-S
-T/
-V/
-
-"MimeMask_Female"
-3
-
-
-
-
-clothes
-        <usage name="Lunapark"/>
-
-"MimeMask_Male"
-3
-
-
-
-
-clothes
-        <usage name="Lunapark"/>
-
-"MouthRag"
-0
-
-
-
-
-
-
-tools
-
-"NioshFaceMask"
-18
-
-
-
-
-
-
-clothes
-Me/
-        <usage name="Industrial"/>
-
-"SurgicalMask"
-15
-
-
-
-
-
-
-clothes
-Me/
-
-
-<!-- CLOTHING_FACE END -->
 
 <!-- CLOTHING_FEET START -->
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "AthleticShoes_Black"
 3
         <lifetime>900</lifetime>
@@ -2814,7 +2376,7 @@ Fa/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -2828,7 +2390,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -2842,7 +2404,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -2856,7 +2418,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -2870,7 +2432,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -3203,7 +2765,7 @@ Mi/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "WorkingGloves_Black"
@@ -3215,7 +2777,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "WorkingGloves_Brown"
@@ -3227,7 +2789,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "WorkingGloves_Yellow"
@@ -3239,7 +2801,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 
@@ -3673,7 +3235,7 @@ clothes
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 
 "ConstructionHelmet_Lime"
 25
@@ -3685,7 +3247,7 @@ clothes
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 
 "ConstructionHelmet_Orange"
 25
@@ -3697,7 +3259,7 @@ clothes
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 
 "ConstructionHelmet_Red"
 25
@@ -3709,7 +3271,7 @@ clothes
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 
 "ConstructionHelmet_White"
 25
@@ -3721,7 +3283,7 @@ clothes
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 
 "ConstructionHelmet_Yellow"
 25
@@ -3733,7 +3295,7 @@ clothes
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 
 "CowboyHat_Brown"
 20
@@ -3800,7 +3362,7 @@ Hu
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 2/3/4
@@ -3814,7 +3376,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/2
@@ -3828,7 +3390,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/2
@@ -3842,7 +3404,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 2/3/4
@@ -3856,7 +3418,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -3870,7 +3432,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -3884,7 +3446,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -3898,7 +3460,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -4452,7 +4014,7 @@ clothes
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 2/3/4
@@ -4467,7 +4029,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/2
@@ -4482,7 +4044,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/2
@@ -4497,7 +4059,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 2/3/4
@@ -4512,7 +4074,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -4527,7 +4089,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -4542,7 +4104,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -4557,7 +4119,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 T/
 V/
 1/
@@ -4700,7 +4262,7 @@ Fa/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "RadarCap_Blue"
@@ -4713,7 +4275,7 @@ Fa/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "RadarCap_Brown"
@@ -4726,7 +4288,7 @@ Fa/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 T/
 V/
@@ -4741,7 +4303,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 T/
 V/
@@ -4756,7 +4318,7 @@ V/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 Fa/
 T/
 V/
@@ -4889,7 +4451,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 
 "WinterCoif_Blue"
 14
@@ -4946,7 +4508,7 @@ Mi/
 
 clothes
 
-        <usage name="Industrial"/>
+I/
 2/3/4
 
 "ZmijovkaCap_Blue"
@@ -5428,7 +4990,7 @@ V/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 2/3/4
 
@@ -5441,7 +5003,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 3/4
 
@@ -5454,7 +5016,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 2/
 3/
@@ -5468,7 +5030,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 3/4
 
@@ -5481,7 +5043,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 2/
 3/
@@ -5652,7 +5214,7 @@ T/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "JumpsuitPants_Green"
@@ -5664,7 +5226,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "JumpsuitPants_Grey"
@@ -5676,7 +5238,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "JumpsuitPants_Red"
@@ -5688,7 +5250,7 @@ Fa/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "LeatherPants_Beige"
@@ -6586,7 +6148,7 @@ Hu
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 C/
 
 "JumpsuitJacket_Gray"
@@ -6598,7 +6160,7 @@ C/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 C/
 
 "JumpsuitJacket_Green"
@@ -6610,7 +6172,7 @@ C/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 C/
 
 "JumpsuitJacket_Red"
@@ -6622,7 +6184,7 @@ C/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 C/
 
 "LabCoat"
@@ -8021,7 +7583,7 @@ T/
 
 
 clothes
-        <usage name="Industrial"/>
+I/
 
 "SmershVest"
 8
@@ -9486,7 +9048,7 @@ Mi/
 
 
 tools
-        <usage name="Lunapark"/>
+L
 
 "ImprovisedExplosive"
 0
@@ -9507,7 +9069,7 @@ tools
 
 
         <category name="explosives"/>
-        <usage name="Industrial"/>
+I/
         <value name="Unique"/>
 
 "RemoteDetonator"
@@ -9519,7 +9081,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
         <value name="Unique"/>
 
 "RemoteDetonatorReceiver"
@@ -11681,7 +11243,7 @@ S
 
 T/
 V/
-        <usage name="Lunapark"/>
+L
 1/2/3/
 
 "CatFoodCan_Opened"
@@ -11706,7 +11268,7 @@ V/
 
 T/
 S
-        <usage name="Lunapark"/>
+L
 1/
 
 "Crackers"
@@ -11722,7 +11284,7 @@ S
 T/
 V/
 S
-        <usage name="Lunapark"/>
+L
 1/
 
 "DogFoodCan"
@@ -11738,7 +11300,7 @@ S
 T/
 V/
 S
-        <usage name="Lunapark"/>
+L
 1/2/3/
 
 "DogFoodCan_Opened"
@@ -11765,7 +11327,7 @@ Fa/
 T/
 V/
 S
-        <usage name="Lunapark"/>
+L
 1/2/3/
 
 "Lunchmeat"
@@ -11952,7 +11514,7 @@ V/
 T/
 V/
 S
-        <usage name="Lunapark"/>
+L
 1/
 
 "SardinesCan"
@@ -12089,7 +11651,7 @@ V/
 Hu
 O
 S
-        <usage name="Lunapark"/>
+L
 1/2/3/
 
 "ZagorkyChocolate"
@@ -12117,7 +11679,7 @@ Hu
 Hu
 O
 S
-        <usage name="Lunapark"/>
+L
 
 
 <!-- NUTRITION_PACKAGED END -->
@@ -12413,7 +11975,7 @@ clothes
 
 
 clothes
-        <usage name="Lunapark"/>
+L
 
 "EyeMask_Valentines"
 0
@@ -12424,7 +11986,7 @@ clothes
 
 
 clothes
-        <usage name="Lunapark"/>
+L
 
 	"GiftBox_Large_1"
 0
@@ -13629,7 +13191,7 @@ Me/
 
 
         <category name="containers"/>
-        <usage name="Industrial"/>
+I/
 T/
 
 
@@ -13698,7 +13260,7 @@ tools
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Barrel_Green"
@@ -13711,7 +13273,7 @@ Fa/
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Barrel_Red"
@@ -13724,7 +13286,7 @@ Fa/
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Barrel_Yellow"
@@ -13737,7 +13299,7 @@ Fa/
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "CarTent"
@@ -13749,7 +13311,7 @@ Fa/
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
-        <usage name="Industrial"/>
+I/
 
 "LandMineTrap"
 10
@@ -13852,7 +13414,7 @@ T/
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
-        <usage name="Lunapark"/>
+L
 
 "SeaChest"
 20
@@ -13863,7 +13425,7 @@ T/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 C/
 Hu
@@ -14346,7 +13908,7 @@ Me/
 
 
         <category name="containers"/>
-        <usage name="Lunapark"/>
+L
 
 "HuntingBag"
 12
@@ -14763,7 +14325,7 @@ Fi/
 
 tools
 
-        <usage name="Industrial"/>
+I/
 V/
 
 "BatteryCharger"
@@ -14775,7 +14337,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "CableReel"
 60
@@ -14786,7 +14348,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "PowerGenerator"
 60
@@ -14798,7 +14360,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 
 <!-- TOOLS_ELECTRICAL END -->
@@ -15100,7 +14662,7 @@ Mi/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 2/3/4
 
 "FangeKnife"
@@ -15156,7 +14718,7 @@ Fi/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Hatchet"
@@ -15231,7 +14793,7 @@ Fa/
 tools
 T/
 V/
-        <usage name="Lunapark"/>
+L
 
 "Sickle"
 50
@@ -15306,7 +14868,7 @@ clothes
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 2/3/4
@@ -15394,7 +14956,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "FieldShovel"
 35
@@ -15416,7 +14978,7 @@ Mi/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "HandSaw"
@@ -15428,7 +14990,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "LugWrench"
@@ -15440,7 +15002,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "Mace"
 2
@@ -15482,7 +15044,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 2/3/4
 
@@ -15495,7 +15057,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "PipeWrench"
 70
@@ -15507,9 +15069,9 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
-        <usage name="Lunapark"/>
+L
 
 <!--
 "PoliceBaton"
@@ -15535,7 +15097,7 @@ Po
 
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
 2/3/4
 
@@ -15549,7 +15111,7 @@ Fa/
 
 tools
 
-        <usage name="Industrial"/>
+I/
 3/4
 
 "StunBaton"
@@ -15560,7 +15122,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 Po
 
 "Wrench"
@@ -15572,7 +15134,7 @@ Po
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -15601,7 +15163,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -15632,7 +15194,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 T/
 V/
 
@@ -15645,7 +15207,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 T/
 V/
 
@@ -15658,7 +15220,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 T/
 V/
 
@@ -15671,7 +15233,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 T/
 V/
 
@@ -15684,7 +15246,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 T/
 V/
 
@@ -15708,7 +15270,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 T/
 V/
@@ -15724,7 +15286,7 @@ Hu
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 T/
 V/
@@ -15767,7 +15329,7 @@ Mi/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Hu
 
 "Roadflare"
@@ -15792,7 +15354,7 @@ Po
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "Torch"
 0
@@ -15831,7 +15393,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Bark_Birch"
@@ -15883,7 +15445,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "BurlapStrip"
@@ -15949,7 +15511,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "GoatPelt"
@@ -15993,7 +15555,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "MetalWire"
 70
@@ -16004,7 +15566,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Nail"
@@ -16027,7 +15589,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Netting"
@@ -16039,7 +15601,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 C/
 
 "Paper"
@@ -16132,7 +15694,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "PlantMaterial"
 0
@@ -16171,7 +15733,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "SharpWoodenStick"
@@ -16354,7 +15916,7 @@ V/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 V/
 
@@ -16450,7 +16012,7 @@ tools
 
 Mi/
 Po
-        <usage name="Industrial"/>
+I/
 Hu
 
 
@@ -16467,7 +16029,7 @@ Hu
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "ElectronicRepairKit"
 50
@@ -16479,7 +16041,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "EpoxyPutty"
 50
@@ -16491,7 +16053,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "LeatherSewingKit"
 80
@@ -16503,7 +16065,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 V/
 
 "SewingKit"
@@ -16529,7 +16091,7 @@ V/
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "WeaponCleaningKit"
 25
@@ -16570,7 +16132,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "CombinationLock4"
@@ -16582,7 +16144,7 @@ Fa/
 
 
 tools
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "HandcuffKeys"
@@ -16727,7 +16289,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_CoDriver_Blue"
 0
@@ -16738,7 +16300,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_CoDriver_BlueRust"
 10
@@ -16749,7 +16311,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_CoDriver_GreenRust"
 10
@@ -16760,7 +16322,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_CoDriver_White"
 0
@@ -16771,7 +16333,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_CoDriver_WhiteRust"
 10
@@ -16782,7 +16344,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_Driver"
 0
@@ -16793,7 +16355,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_Driver_Blue"
 0
@@ -16804,7 +16366,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_Driver_BlueRust"
 10
@@ -16815,7 +16377,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_Driver_GreenRust"
 10
@@ -16826,7 +16388,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_Driver_White"
 0
@@ -16837,7 +16399,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackDoors_Driver_WhiteRust"
 10
@@ -16848,7 +16410,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackHood"
 0
@@ -16859,7 +16421,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackHood_Blue"
 0
@@ -16870,7 +16432,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackHood_BlueRust"
 10
@@ -16881,7 +16443,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackHood_GreenRust"
 10
@@ -16892,7 +16454,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackHood_White"
 0
@@ -16903,7 +16465,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackHood_WhiteRust"
 10
@@ -16914,7 +16476,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackTrunk"
 0
@@ -16925,7 +16487,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackTrunk_Blue"
 0
@@ -16946,7 +16508,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackTrunk_GreenRust"
 10
@@ -16957,7 +16519,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackTrunk_White"
 0
@@ -16968,7 +16530,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackTrunk_WhiteRust"
 10
@@ -16979,7 +16541,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackWheel"
 40
@@ -16990,7 +16552,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "HatchbackWheel_Ruined"
 0
@@ -17048,7 +16610,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_1_Black"
 0
@@ -17059,7 +16621,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_1_BlackRust"
 10
@@ -17070,7 +16632,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_1_Blue"
 0
@@ -17081,7 +16643,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_1_BlueRust"
 10
@@ -17092,7 +16654,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_1_RedRust"
 10
@@ -17103,7 +16665,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_2"
 0
@@ -17114,7 +16676,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_2_Black"
 0
@@ -17125,7 +16687,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_2_BlackRust"
 10
@@ -17136,7 +16698,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_2_Blue"
 0
@@ -17147,7 +16709,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_2_BlueRust"
 10
@@ -17158,7 +16720,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_1_2_RedRust"
 10
@@ -17169,7 +16731,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_1"
 0
@@ -17180,7 +16742,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_1_Black"
 0
@@ -17191,7 +16753,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_1_BlackRust"
 10
@@ -17202,7 +16764,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_1_Blue"
 0
@@ -17213,7 +16775,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_1_BlueRust"
 10
@@ -17224,7 +16786,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_1_RedRust"
 10
@@ -17235,7 +16797,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_2"
 0
@@ -17246,7 +16808,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_2_Black"
 0
@@ -17257,7 +16819,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_2_BlackRust"
 10
@@ -17268,7 +16830,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_2_Blue"
 0
@@ -17279,7 +16841,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_2_BlueRust"
 10
@@ -17290,7 +16852,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Door_2_2_RedRust"
 10
@@ -17301,7 +16863,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Hood"
 0
@@ -17312,7 +16874,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Hood_Black"
 0
@@ -17323,7 +16885,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Hood_BlackRust"
 10
@@ -17334,7 +16896,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Hood_Blue"
 0
@@ -17345,7 +16907,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Hood_BlueRust"
 10
@@ -17356,7 +16918,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Hood_RedRust"
 10
@@ -17367,7 +16929,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Trunk"
 0
@@ -17378,7 +16940,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Trunk_Black"
 0
@@ -17389,7 +16951,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Trunk_BlackRust"
 10
@@ -17400,7 +16962,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Trunk_Blue"
 0
@@ -17411,7 +16973,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Trunk_BlueRust"
 10
@@ -17422,7 +16984,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Trunk_RedRust"
 10
@@ -17433,7 +16995,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Wheel"
 40
@@ -17444,7 +17006,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Hatchback_02_Wheel_Ruined"
 0
@@ -17595,7 +17157,7 @@ Mi/
 
         <category name="lootdispatch"/>
 Mi/
-        <usage name="Industrial"/>
+I/
 2/3/4
 
 
@@ -17644,7 +17206,7 @@ Mi/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_1_1_Blue"
@@ -17656,7 +17218,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_1_1_BlueRust"
@@ -17668,7 +17230,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_1_1_GreenRust"
@@ -17680,7 +17242,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_1_1_Orange"
@@ -17692,7 +17254,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_1_1_OrangeRust"
@@ -17704,7 +17266,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_2_1"
@@ -17716,7 +17278,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_2_1_Blue"
@@ -17728,7 +17290,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_2_1_BlueRust"
@@ -17740,7 +17302,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_2_1_GreenRust"
@@ -17752,7 +17314,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_2_1_Orange"
@@ -17764,7 +17326,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Door_2_1_OrangeRust"
@@ -17776,7 +17338,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Hood"
@@ -17788,7 +17350,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Hood_Blue"
@@ -17800,7 +17362,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Hood_BlueRust"
@@ -17812,7 +17374,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Hood_GreenRust"
@@ -17824,7 +17386,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Hood_Orange"
@@ -17836,7 +17398,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Hood_OrangeRust"
@@ -17848,7 +17410,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_Wheel"
@@ -17861,7 +17423,7 @@ Fa/
 
         <category name="lootdispatch"/>
         <category name="tools" />
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_WheelDouble"
@@ -17874,7 +17436,7 @@ Fa/
 
         <category name="lootdispatch"/>
         <category name="tools" />
-        <usage name="Industrial"/>
+I/
 Fa/
 
 "Truck_01_WheelDouble_Ruined"
@@ -17943,7 +17505,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackLeft_Black"
 0
@@ -17954,7 +17516,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackLeft_BlackRust"
 10
@@ -17965,7 +17527,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackLeft_WhiteRust"
 10
@@ -17976,7 +17538,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackLeft_Wine"
 0
@@ -17987,7 +17549,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackLeft_WineRust"
 10
@@ -17998,7 +17560,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackRight"
 0
@@ -18009,7 +17571,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackRight_Black"
 0
@@ -18020,7 +17582,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackRight_BlackRust"
 10
@@ -18031,7 +17593,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackRight_WhiteRust"
 10
@@ -18042,7 +17604,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackRight_Wine"
 0
@@ -18053,7 +17615,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_BackRight_WineRust"
 10
@@ -18064,7 +17626,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_CoDriver"
 0
@@ -18075,7 +17637,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_CoDriver_Black"
 0
@@ -18086,7 +17648,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_CoDriver_BlackRust"
 10
@@ -18097,7 +17659,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_CoDriver_WhiteRust"
 10
@@ -18108,7 +17670,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_CoDriver_Wine"
 0
@@ -18119,7 +17681,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_CoDriver_WineRust"
 10
@@ -18130,7 +17692,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_Driver"
 0
@@ -18141,7 +17703,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_Driver_Black"
 0
@@ -18152,7 +17714,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_Driver_BlackRust"
 10
@@ -18163,7 +17725,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_Driver_WhiteRust"
 10
@@ -18174,7 +17736,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_Driver_Wine"
 0
@@ -18185,7 +17747,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanDoors_Driver_WineRust"
 10
@@ -18196,7 +17758,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanHood"
 0
@@ -18207,7 +17769,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanHood_Black"
 0
@@ -18218,7 +17780,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanHood_BlackRust"
 10
@@ -18229,7 +17791,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanHood_WhiteRust"
 10
@@ -18240,7 +17802,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanHood_Wine"
 0
@@ -18251,7 +17813,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanHood_WineRust"
 10
@@ -18262,7 +17824,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanTrunk"
 0
@@ -18273,7 +17835,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanTrunk_Black"
 0
@@ -18284,7 +17846,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanTrunk_BlackRust"
 10
@@ -18295,7 +17857,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanTrunk_WhiteRust"
 10
@@ -18306,7 +17868,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanTrunk_Wine"
 0
@@ -18317,7 +17879,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanTrunk_WineRust"
 10
@@ -18328,7 +17890,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanWheel"
 40
@@ -18339,7 +17901,7 @@ Fa/
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "CivSedanWheel_Ruined"
 0
@@ -18367,7 +17929,7 @@ Fa/
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "CarBattery"
 60
@@ -18379,7 +17941,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "CarRadiator"
 60
@@ -18391,7 +17953,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "GlowPlug"
 20
@@ -18402,7 +17964,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 "HeadlightH7"
 0
@@ -18424,7 +17986,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "SparkPlug"
 35
@@ -18436,7 +17998,7 @@ tools
 
 tools
 
-        <usage name="Industrial"/>
+I/
 
 "TruckBattery"
 20
@@ -18448,7 +18010,7 @@ tools
 
 
 tools
-        <usage name="Industrial"/>
+I/
 
 
 <!-- VEHICLES_PARTS END -->
@@ -18496,7 +18058,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_1_Grey"
 0
@@ -18507,7 +18069,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_1_GreyRust"
 10
@@ -18518,7 +18080,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_1_Red"
 0
@@ -18529,7 +18091,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_1_RedRust"
 10
@@ -18540,7 +18102,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_1_YellowRust"
 10
@@ -18551,7 +18113,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_2"
 0
@@ -18562,7 +18124,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_2_Grey"
 0
@@ -18573,7 +18135,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_2_GreyRust"
 10
@@ -18584,7 +18146,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_2_Red"
 0
@@ -18595,7 +18157,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_2_RedRust"
 10
@@ -18606,7 +18168,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_1_2_YellowRust"
 10
@@ -18617,7 +18179,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_1"
 0
@@ -18628,7 +18190,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_1_Grey"
 0
@@ -18639,7 +18201,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_1_GreyRust"
 10
@@ -18650,7 +18212,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_1_Red"
 0
@@ -18661,7 +18223,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_1_RedRust"
 10
@@ -18672,7 +18234,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_1_YellowRust"
 10
@@ -18683,7 +18245,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_2"
 0
@@ -18694,7 +18256,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_2_Grey"
 0
@@ -18705,7 +18267,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_2_GreyRust"
 10
@@ -18716,7 +18278,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_2_Red"
 0
@@ -18727,7 +18289,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_2_RedRust"
 10
@@ -18738,7 +18300,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Door_2_2_YellowRust"
 10
@@ -18749,7 +18311,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Hood"
 0
@@ -18760,7 +18322,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Hood_Grey"
 0
@@ -18771,7 +18333,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Hood_GreyRust"
 10
@@ -18782,7 +18344,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Hood_Red"
 0
@@ -18793,7 +18355,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Hood_RedRust"
 10
@@ -18804,7 +18366,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Hood_YellowRust"
 10
@@ -18815,7 +18377,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Trunk"
 0
@@ -18826,7 +18388,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Trunk_Grey"
 0
@@ -18837,7 +18399,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Trunk_GreyRust"
 10
@@ -18848,7 +18410,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Trunk_Red"
 0
@@ -18859,7 +18421,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Trunk_RedRust"
 10
@@ -18870,7 +18432,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Trunk_YellowRust"
 10
@@ -18881,7 +18443,7 @@ tools
 
 
         <category name="lootdispatch"/>
-        <usage name="Industrial"/>
+I/
 
 "Sedan_02_Wheel"
 40
@@ -19143,7 +18705,7 @@ Mi/
 
 
         <category name="food"/>
-        <usage name="Industrial"/>
+I/
 T/
 V/
 
@@ -19390,7 +18952,7 @@ V/
 
 
 clothes
-        <usage name="Lunapark"/>
+L
 
 "SkiGloves_Blue"
 2
