@@ -1550,395 +1550,59 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 "KobraOptic"                            15              weapons         Mi
 "M4_CarryHandleOptic"                   5               weapons         Mi
 "M4_T3NRDSOptic"                        10              weapons         Mi              3/4
-
-"M68Optic"
-15
-
-
-
-
-
-
-weapons
-Mi/
-
-"PSO11Optic"
-5
-
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"PSO1Optic"
-15
-
-
-
-
-
-
-weapons
-Mi/
-
-"PUScopeOptic"
-15
-
-
-
-
-
-
-weapons
-Hu/Mi
-
-"PistolOptic"
-10
-
-
-
-
-
-
-weapons
-Hu
-3/4
-
-"ReflexOptic"
-20
-weapons
-Mi/
-1/2/3/
-
-"StarlightOptic"
-1
-
-weapons
-
-CO/
-
-
-<!-- ATTACHMENTS_OPTICS END -->
-
-<!-- ATTACHMENTS_STOCKS START -->
-
-"AK_FoldingBttstck"
-3
-
-
-
-
-weapons
-Mi/
-
-"AK_FoldingBttstck_Black"
-                    1               weapons
-Mi/
-
-"AK_FoldingBttstck_Green"
-                    1               weapons
-Mi/
-
-"AK_PlasticBttstck"
-3
-
-
-
-
-weapons
-Mi/
-
-"AK_PlasticBttstck_Black"
-                    1               weapons
-Mi/
-
-"AK_PlasticBttstck_Green"
-                    1               weapons
-Mi/
-
-"AK_WoodBttstck"
-3
-
-
-
-
-weapons
-Mi/
-
-"AK_WoodBttstck_Black"
-                    1               weapons
-Mi/
-
-"AK_WoodBttstck_Camo"
-                    1               weapons
-Mi/
-
-"AKS74U_Bttstck"
-3
-
-
-
-
-weapons
-Mi/
-
-"AKS74U_Bttstck_Black"
-                    1               weapons
-Mi/
-
-"AKS74U_Bttstck_Green"
-                    1               weapons
-Mi/
-
-"Fal_FoldingBttstck"
-5
-
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"Fal_OeBttstck"
-5
-
-
-
-
-
-
-weapons
-Mi/
-3/4
-
-"M4_CQBBttstck"
-3
-
-
-
-
-weapons
-Mi/
-
-"M4_CQBBttstck_Black"
-                    1               weapons
-Mi/
-
-"M4_CQBBttstck_Green"
-                    1               weapons
-Mi/
-
-"M4_MPBttstck"
-3
-
-
-
-
-weapons
-Mi/
-
-"M4_MPBttstck_Black"
-                    1               weapons
-Mi/
-
-"M4_MPBttstck_Green"
-                    1               weapons
-Mi/
-
-"M4_OEBttstck"
-3
-
-
-
-
-weapons
-Mi/
-
-"M4_OEBttstck_Black"
-                    1               weapons
-Mi/
-
-"M4_OEBttstck_Green"
-                    1               weapons
-Mi/
-
-"MP5k_StockBttstck"
-4
-
-
-
-
-
-
-weapons
-Mi/
-
-"PP19_Bttstck"
-4
-
-        <restock>3600</restock>
-
-
-
-
-weapons
-Mi/
-
-"Saiga_Bttstck"
-5
-
-
-
-
-
-
-weapons
-Mi/
-
-
-<!-- ATTACHMENTS_STOCKS END -->
-
-<!-- ATTACHMENTS_SUPPRESSORS START -->
-
-"AK_Suppressor"
-2
-        <lifetime>9800</lifetime>
-
-
-
-weapons
-
-CO/
-
-"ImprovisedSuppressor"
-0
-weapons
-
-"M4_Suppressor"
-2
-
-weapons
-
-CO/
-
-"PistolSuppressor"
-10
-
-
-
-
-
-
-weapons
-Mi/
-Po
-
-
-<!-- ATTACHMENTS_SUPPRESSORS END -->
-
-<!-- ATTACHMENTS_WRAPS START -->
-
-"GhillieAtt_Mossy"
-5
-
-
-
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
-Mi/
-
-"GhillieAtt_Tan"
-0
-
-
-
-
-
-
-        <category name="clothes"/>
-
-"GhillieAtt_Woodland"
-0
-
-
-
-
-
-
-        <category name="clothes"/>
-
-
-<!-- ATTACHMENTS_WRAPS END -->
-
-<!-- ++++++++++ ATTACHMENTS END ++++++++++ -->
-
-<!-- ++++++++++ BASEBUILDING START ++++++++++ -->
-
-<!-- BASEBUILDING_FLAGS START -->
-
-"Flag_APA"
-1
-
-
-
-
-
-
-        <category name="tools"/>
-
-"Flag_Altis"
-1
-
-
-
-
-
-
-        <category name="tools"/>
-
-"Flag_BabyDeer"
-1
-
-
-
-
-
-        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-
-"Flag_Bear"
-1
-
-
-
-
-
-
-        <category name="tools"/>
-
-"Flag_Bohemia"
-1
-
-
-
-
-
-        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-
+"M68Optic"                              15              weapons         Mi
+"PSO11Optic"                            5               weapons         Mi              3/4
+"PSO1Optic"                             15              weapons         Mi
+"PUScopeOptic"                          15              weapons         Hu/Mi
+"PistolOptic"                           10              weapons         Hu              3/4
+"ReflexOptic"                           20              weapons         Mi              1/2/3
+"StarlightOptic"                        1               weapons         CO
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"AK_FoldingBttstck"                     3               weapons         Mi
+"AK_FoldingBttstck_Black"               1               weapons         Mi
+"AK_FoldingBttstck_Green"               1               weapons         Mi
+"AK_PlasticBttstck"                     3               weapons         Mi
+"AK_PlasticBttstck_Black"               1               weapons         Mi
+"AK_PlasticBttstck_Green"               1               weapons         Mi
+"AK_WoodBttstck"                        3               weapons         Mi
+"AK_WoodBttstck_Black"                  1               weapons         Mi
+"AK_WoodBttstck_Camo"                   1               weapons         Mi
+"AKS74U_Bttstck"                        3               weapons         Mi
+"AKS74U_Bttstck_Black"                  1               weapons         Mi
+"AKS74U_Bttstck_Green"                  1               weapons         Mi
+"Fal_FoldingBttstck"                    5               weapons         Mi              3/4
+"Fal_OeBttstck"                         5               weapons         Mi              3/4
+"M4_CQBBttstck"                         3               weapons         Mi
+"M4_CQBBttstck_Black"                   1               weapons         Mi
+"M4_CQBBttstck_Green"                   1               weapons         Mi
+"M4_MPBttstck"                          3               weapons         Mi
+"M4_MPBttstck_Black"                    1               weapons         Mi
+"M4_MPBttstck_Green"                    1               weapons         Mi
+"M4_OEBttstck"                          3               weapons         Mi
+"M4_OEBttstck_Black"                    1               weapons         Mi
+"M4_OEBttstck_Green"                    1               weapons         Mi
+"MP5k_StockBttstck"                     4               weapons         Mi
+"PP19_Bttstck"                          4               weapons         Mi
+"Saiga_Bttstck"                         5               weapons         Mi
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"AK_Suppressor"                         2               weapons         CO
+"ImprovisedSuppressor"                  crafted         weapons
+"M4_Suppressor"                         2               weapons         CO
+"PistolSuppressor"                      10              weapons         Mi/Po
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"GhillieAtt_Mossy"                      5               clothes         Mi                                                              X
+"GhillieAtt_Tan"                        0               clothes
+"GhillieAtt_Woodland"                   0               clothes
+
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Flag_APA"                              1               tools
+"Flag_Altis"                            1               tools
+"Flag_BabyDeer"                         1               tools           O/S
+"Flag_Bear"                             1               tools
+"Flag_Bohemia"                          1               tools           O/S
 "Flag_BrainZ"
 1
 
@@ -1947,7 +1611,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_CDF"
 1
@@ -1957,9 +1621,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_CHEL"
 1
@@ -1969,9 +1633,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_CMC"
 1
@@ -1981,9 +1645,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Cannibals"
 1
@@ -1993,9 +1657,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Chedaki"
 1
@@ -2005,9 +1669,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Chernarus"
 1
@@ -2017,9 +1681,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Crook"
 1
@@ -2029,7 +1693,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_DayZ"
 1
@@ -2039,9 +1703,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_HunterZ"
 1
@@ -2051,9 +1715,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Livonia"
 1
@@ -2063,7 +1727,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_LivoniaArmy"
 1
@@ -2073,7 +1737,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_LivoniaPolice"
 1
@@ -2083,7 +1747,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_NAPA"
 1
@@ -2093,9 +1757,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_NSahrani"
 1
@@ -2105,7 +1769,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_Pirates"
 1
@@ -2115,9 +1779,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_RSTA"
 1
@@ -2127,9 +1791,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Refuge"
 1
@@ -2139,9 +1803,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Rex"
 1
@@ -2151,7 +1815,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_Rooster"
 1
@@ -2161,9 +1825,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_SSahrani"
 1
@@ -2173,7 +1837,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_Snake"
 1
@@ -2183,9 +1847,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_TEC"
 1
@@ -2195,9 +1859,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_UEC"
 1
@@ -2207,9 +1871,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_White"
 1
@@ -2219,9 +1883,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Wolf"
 1
@@ -2231,9 +1895,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 "Flag_Zagorky"
 1
@@ -2243,7 +1907,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Flag_Zenit"
 1
@@ -2253,9 +1917,9 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
-        <usage name="Office"/>
-        <usage name="School"/>
+tools
+O
+S
 
 
 <!-- BASEBUILDING_FLAGS END -->
@@ -2270,7 +1934,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "ShelterKit"
 0
@@ -2280,7 +1944,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "TerritoryFlagKit"
 0
@@ -2290,7 +1954,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "WatchtowerKit"
 0
@@ -2300,7 +1964,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- BASEBUILDING_KITS END -->
@@ -2344,7 +2008,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "ShelterStick"
 0
@@ -2364,7 +2028,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Watchtower"
 0
@@ -2392,7 +2056,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Altis"
 0
@@ -2402,7 +2066,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_BabyDeer"
 0
@@ -2412,7 +2076,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Bear"
 0
@@ -2422,7 +2086,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Black"
 0
@@ -2432,7 +2096,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Blue"
 0
@@ -2442,7 +2106,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Bohemia"
 0
@@ -2452,7 +2116,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_BrainZ"
 0
@@ -2462,7 +2126,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_CDF"
 0
@@ -2472,7 +2136,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_CHEL"
 0
@@ -2482,7 +2146,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_CMC"
 0
@@ -2492,7 +2156,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Cannibals"
 0
@@ -2502,7 +2166,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Chedaki"
 0
@@ -2512,7 +2176,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Chernarus"
 0
@@ -2522,7 +2186,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Crook"
 0
@@ -2532,7 +2196,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_DayZ"
 0
@@ -2542,7 +2206,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Green"
 0
@@ -2552,7 +2216,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_HunterZ"
 0
@@ -2562,7 +2226,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Livonia"
 0
@@ -2572,7 +2236,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_LivoniaArmy"
 0
@@ -2582,7 +2246,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_LivoniaPolice"
 0
@@ -2592,7 +2256,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_NAPA"
 0
@@ -2602,7 +2266,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_NSahrani"
 0
@@ -2612,7 +2276,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Orange"
 0
@@ -2622,7 +2286,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Pink"
 0
@@ -2632,7 +2296,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Pirates"
 0
@@ -2642,7 +2306,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_RSTA"
 0
@@ -2652,7 +2316,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Red"
 0
@@ -2662,7 +2326,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Refuge"
 0
@@ -2672,7 +2336,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Rex"
 0
@@ -2682,7 +2346,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Rooster"
 0
@@ -2692,7 +2356,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_SSahrani"
 0
@@ -2702,7 +2366,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Snake"
 0
@@ -2712,7 +2376,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_TEC"
 0
@@ -2722,7 +2386,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_UEC"
 0
@@ -2732,7 +2396,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_White"
 0
@@ -2742,7 +2406,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Wolf"
 0
@@ -2752,7 +2416,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Yellow"
 0
@@ -2762,7 +2426,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Zagorky"
 0
@@ -2772,7 +2436,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Armband_Zenit"
 0
@@ -2782,7 +2446,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 
 <!-- CLOTHING_ARMBANDS END -->
@@ -2797,7 +2461,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -2809,7 +2473,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherBelt_Black"
 0
@@ -2819,7 +2483,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherBelt_Brown"
 0
@@ -2829,7 +2493,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherBelt_Natural"
 0
@@ -2839,7 +2503,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "MilitaryBelt"
 10
@@ -2849,7 +2513,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "RopeBelt"
@@ -2860,7 +2524,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 
 <!-- CLOTHING_BELTS END -->
@@ -2875,7 +2539,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 Po
@@ -2889,7 +2553,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "EyeMask_Black"
@@ -2898,7 +2562,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
 
 "EyeMask_Blue"
@@ -2907,7 +2571,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
 
 "EyeMask_Red"
@@ -2916,7 +2580,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
         <usage name="SeasonalEvent"/>
 
@@ -2926,7 +2590,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
         <usage name="SeasonalEvent"/>
 
@@ -2938,7 +2602,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "SportGlasses_Black"
 13
@@ -2948,13 +2612,13 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "SportGlasses_Blue"
 13
@@ -2964,13 +2628,13 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "SportGlasses_Green"
 13
@@ -2980,13 +2644,13 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "SportGlasses_Orange"
 13
@@ -2996,13 +2660,13 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "TacticalGoggles"
 8
@@ -3012,7 +2676,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 2/3/4
 
@@ -3024,7 +2688,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -3036,7 +2700,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -3053,7 +2717,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/
@@ -3067,7 +2731,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 Po
 T/
@@ -3082,7 +2746,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 T/
 V/
@@ -3096,7 +2760,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 3/4
@@ -3109,7 +2773,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -3125,7 +2789,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Po
         <usage name="Industrial"/>
@@ -3141,7 +2805,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 3/4
@@ -3154,7 +2818,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Po
         <usage name="Industrial"/>
@@ -3171,7 +2835,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
         <usage name="Industrial"/>
@@ -3187,7 +2851,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -3202,7 +2866,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -3217,7 +2881,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -3230,7 +2894,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -3243,7 +2907,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -3256,7 +2920,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -3268,7 +2932,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -3280,7 +2944,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "HockeyMask"
 18
@@ -3290,8 +2954,8 @@ V/
 
 
 
-        <category name="clothes"/>
-        <usage name="School"/>
+clothes
+S
 T/
 V/
 
@@ -3301,7 +2965,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
 
 "MimeMask_Male"
@@ -3310,7 +2974,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
 
 "MouthRag"
@@ -3321,7 +2985,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "NioshFaceMask"
 18
@@ -3331,7 +2995,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
         <usage name="Industrial"/>
 
@@ -3343,7 +3007,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 
@@ -3357,10 +3021,10 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "AthleticShoes_Blue"
 3
@@ -3368,10 +3032,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "AthleticShoes_Brown"
 3
@@ -3379,10 +3043,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "AthleticShoes_Green"
 3
@@ -3390,10 +3054,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "AthleticShoes_Grey"
 3
@@ -3401,10 +3065,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "CombatBoots_Beige"
 4
@@ -3414,7 +3078,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3426,7 +3090,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3438,7 +3102,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3450,7 +3114,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3462,7 +3126,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3474,7 +3138,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -3486,7 +3150,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -3498,7 +3162,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -3510,7 +3174,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -3522,7 +3186,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -3534,7 +3198,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "HikingBootsLow_Beige"
 25
@@ -3544,7 +3208,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3557,7 +3221,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3570,7 +3234,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3583,7 +3247,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3596,7 +3260,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3609,7 +3273,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3622,7 +3286,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3635,7 +3299,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3648,7 +3312,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3661,7 +3325,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3674,7 +3338,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -3687,7 +3351,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3699,7 +3363,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3711,7 +3375,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3723,7 +3387,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3735,7 +3399,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3747,7 +3411,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherShoes_Black"
 0
@@ -3757,7 +3421,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherShoes_Brown"
 0
@@ -3767,7 +3431,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherShoes_Natural"
 0
@@ -3777,7 +3441,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "MedievalBoots"
 2
@@ -3787,7 +3451,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "MilitaryBoots_Beige"
@@ -3798,7 +3462,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3810,7 +3474,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3822,7 +3486,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -3834,7 +3498,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -3846,7 +3510,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -3858,10 +3522,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "Sneakers_Gray"
 35
@@ -3871,10 +3535,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "Sneakers_Green"
 35
@@ -3884,10 +3548,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "Sneakers_Red"
 35
@@ -3897,10 +3561,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "Sneakers_White"
 35
@@ -3910,10 +3574,10 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
-        <usage name="School"/>
+S
 
 "TTSKOBoots"
 8
@@ -3923,7 +3587,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "Wellies_Black"
@@ -3934,7 +3598,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Fa/
 
@@ -3946,7 +3610,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Fa/
 
@@ -3958,7 +3622,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Fa/
 
@@ -3970,7 +3634,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Fa/
 
@@ -3982,7 +3646,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -3996,7 +3660,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -4010,7 +3674,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -4024,7 +3688,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -4038,7 +3702,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -4057,7 +3721,7 @@ V/
 
 
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GhillieBushrag_Tan"
@@ -4068,7 +3732,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "GhillieBushrag_Woodland"
 0
@@ -4078,7 +3742,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "GhillieHood_Mossy"
 5
@@ -4088,7 +3752,7 @@ Mi/
 
 
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GhillieHood_Tan"
@@ -4099,7 +3763,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "GhillieHood_Woodland"
 0
@@ -4109,7 +3773,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "GhillieSuit_Mossy"
 5
@@ -4119,7 +3783,7 @@ Mi/
 
 
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GhillieSuit_Tan"
@@ -4130,7 +3794,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "GhillieSuit_Woodland"
 0
@@ -4140,7 +3804,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "GhillieTop_Mossy"
 5
@@ -4150,7 +3814,7 @@ Mi/
 
 
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GhillieTop_Tan"
@@ -4161,7 +3825,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "GhillieTop_Woodland"
 0
@@ -4171,7 +3835,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 
 <!-- CLOTHING_GHILLIE END -->
@@ -4186,7 +3850,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherGloves_Beige"
 0
@@ -4196,7 +3860,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherGloves_Black"
 0
@@ -4206,7 +3870,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherGloves_Brown"
 0
@@ -4216,7 +3880,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherGloves_Natural"
 0
@@ -4226,7 +3890,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "OMNOGloves_Brown"
 6
@@ -4236,7 +3900,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 Po
 2/3/4
@@ -4249,7 +3913,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 Po
 2/3/4
@@ -4262,7 +3926,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "PaddedGloves_Brown"
@@ -4273,7 +3937,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "PaddedGloves_Threat"
@@ -4284,7 +3948,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 
 "SurgicalGloves_Blue"
@@ -4295,7 +3959,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "SurgicalGloves_Green"
@@ -4306,7 +3970,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "SurgicalGloves_LightBlue"
@@ -4317,7 +3981,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "SurgicalGloves_White"
@@ -4328,7 +3992,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "TacticalGloves_Beige"
@@ -4339,7 +4003,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TacticalGloves_Black"
@@ -4350,7 +4014,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TacticalGloves_Green"
@@ -4361,7 +4025,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "WorkingGloves_Beige"
@@ -4372,7 +4036,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -4384,7 +4048,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -4396,7 +4060,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -4408,7 +4072,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -4425,7 +4089,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "BallisticHelmet_Black"
@@ -4436,7 +4100,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "BallisticHelmet_Desert"
@@ -4447,7 +4111,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "BallisticHelmet_Green"
@@ -4458,7 +4122,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "BallisticHelmet_UN"
@@ -4469,7 +4133,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "BallisticHelmet_Woodland"
@@ -4480,7 +4144,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "BaseballCap_Beige"
@@ -4491,7 +4155,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4503,7 +4167,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4515,7 +4179,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4527,7 +4191,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4539,7 +4203,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4551,7 +4215,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Hu
 
@@ -4563,7 +4227,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4575,7 +4239,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4587,7 +4251,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -4599,7 +4263,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -4611,7 +4275,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -4623,7 +4287,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "BeanieHat_Brown"
@@ -4634,7 +4298,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -4646,7 +4310,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -4658,7 +4322,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -4670,7 +4334,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -4682,7 +4346,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -4694,7 +4358,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 1/2
@@ -4707,7 +4371,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 1/2
@@ -4720,7 +4384,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Hu/Mi
 
@@ -4732,7 +4396,7 @@ Hu/Mi
 
 
 
-        <category name="clothes"/>
+clothes
 
 Hu/Mi
 
@@ -4744,7 +4408,7 @@ Hu/Mi
 
 
 
-        <category name="clothes"/>
+clothes
 
 Hu/Mi
 
@@ -4756,7 +4420,7 @@ Hu/Mi
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 C/
@@ -4770,7 +4434,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 1/2
@@ -4783,7 +4447,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 1/2
@@ -4796,7 +4460,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 1/2
@@ -4809,7 +4473,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 1/2
@@ -4822,7 +4486,7 @@ T/
 
 
 
-        <category name="tools"/>
+tools
 
 "Chainmail_Coif"
 2
@@ -4830,7 +4494,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "ConstructionHelmet_Blue"
@@ -4841,7 +4505,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 
@@ -4853,7 +4517,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 
@@ -4865,7 +4529,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 
@@ -4877,7 +4541,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 
@@ -4889,7 +4553,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 
@@ -4901,7 +4565,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 
@@ -4913,7 +4577,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Fa/
 V/
 Hu
@@ -4927,7 +4591,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Fa/
 V/
 Hu
@@ -4941,7 +4605,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Fa/
 V/
 Hu
@@ -4955,7 +4619,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Fa/
 V/
 Hu
@@ -4969,7 +4633,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -4983,7 +4647,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -4997,7 +4661,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -5011,7 +4675,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -5025,7 +4689,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -5039,7 +4703,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -5053,7 +4717,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -5067,7 +4731,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 T/
 V/
@@ -5079,7 +4743,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5091,7 +4755,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5103,7 +4767,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5115,7 +4779,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5127,7 +4791,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5139,7 +4803,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5151,7 +4815,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5163,7 +4827,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 
 "DirtBikeHelmet_Red"
@@ -5174,7 +4838,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5186,7 +4850,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5198,7 +4862,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Fi/
 
 "FirefightersHelmet_White"
@@ -5209,7 +4873,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Fi/
 
 "FirefightersHelmet_Yellow"
@@ -5220,7 +4884,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Fi/
 
 "FlatCap_Black"
@@ -5231,7 +4895,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5243,7 +4907,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5255,7 +4919,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5267,7 +4931,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5279,7 +4943,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5291,7 +4955,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5303,7 +4967,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5315,7 +4979,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 
@@ -5327,7 +4991,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 2/3/4
@@ -5340,7 +5004,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 2/3/4
@@ -5353,7 +5017,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "GorkaPants_Autumn"
@@ -5364,7 +5028,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GorkaPants_Flat"
@@ -5375,7 +5039,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GorkaPants_PautRev"
@@ -5386,7 +5050,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GorkaPants_Summer"
@@ -5397,7 +5061,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "HeadCover_Improvised"
@@ -5408,7 +5072,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "HockeyHelmet_Black"
 25
@@ -5418,7 +5082,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5430,7 +5094,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5442,7 +5106,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5454,7 +5118,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5466,7 +5130,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherHat_Black"
 0
@@ -5476,7 +5140,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherHat_Brown"
 0
@@ -5486,7 +5150,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherHat_Natural"
 0
@@ -5496,7 +5160,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "MedicalScrubsHat_Blue"
 4
@@ -5506,7 +5170,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "MedicalScrubsHat_Green"
@@ -5517,7 +5181,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "MedicalScrubsHat_White"
@@ -5528,7 +5192,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "Mich2001Helmet"
@@ -5539,7 +5203,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 4
 
@@ -5551,7 +5215,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 2/3/4
 
@@ -5563,7 +5227,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 2/3/4
 
@@ -5575,7 +5239,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "MilitaryBeret_Red"
@@ -5586,7 +5250,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 2/3/4
 
@@ -5598,7 +5262,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "MorozkoHat"
@@ -5609,7 +5273,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="SeasonalEvent"/>
 
 "MotoHelmet_Black"
@@ -5620,7 +5284,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5635,7 +5299,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5650,7 +5314,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5665,7 +5329,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5680,7 +5344,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5695,7 +5359,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5710,7 +5374,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5725,7 +5389,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 T/
@@ -5741,7 +5405,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical" />
 
 -->
@@ -5753,7 +5417,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "OKZKCap_Green"
@@ -5764,7 +5428,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "OfficerHat"
@@ -5775,7 +5439,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -5787,7 +5451,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "PetushokHat_Green"
@@ -5798,7 +5462,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "PetushokHat_Yellow"
@@ -5809,7 +5473,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "PilotkaCap"
@@ -5820,7 +5484,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 2/3/4
 
@@ -5832,7 +5496,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Po
 
@@ -5844,7 +5508,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Prison"/>
 
 "PumpkinHelmet"
@@ -5855,7 +5519,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 Fa/
 2/
 3/
@@ -5868,7 +5532,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -5881,7 +5545,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -5894,7 +5558,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -5909,7 +5573,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -5924,7 +5588,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 Fa/
@@ -5939,7 +5603,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5951,7 +5615,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5963,7 +5627,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5975,7 +5639,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5987,7 +5651,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -5999,7 +5663,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TankerHelmet"
@@ -6010,7 +5674,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 3/4
@@ -6023,7 +5687,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -6035,7 +5699,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 2/3/4
 
@@ -6047,7 +5711,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "WeldingMask"
@@ -6058,7 +5722,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 
 "WinterCoif_Blue"
@@ -6069,7 +5733,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "WinterCoif_Green"
@@ -6080,7 +5744,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "WinterCoif_Skull"
@@ -6091,7 +5755,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "ZSh3PilotHelmet"
@@ -6102,7 +5766,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -6114,7 +5778,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
         <usage name="Industrial"/>
 2/3/4
@@ -6127,7 +5791,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 2/3/4
@@ -6140,7 +5804,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Fa/
 2/3/4
@@ -6153,7 +5817,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Hu
 2/3/4
@@ -6166,7 +5830,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 V/
 2/3/4
@@ -6184,7 +5848,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 Fi/
 
@@ -6196,7 +5860,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -6209,7 +5873,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 1/2/3/
 
@@ -6222,7 +5886,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Me/
 Fi/
@@ -6235,7 +5899,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "NBCBootsGray"
 2
@@ -6243,7 +5907,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 4
@@ -6256,7 +5920,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Me/
 Fi/
@@ -6267,7 +5931,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 4
 
@@ -6279,7 +5943,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Me/
 Fi/
@@ -6290,7 +5954,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 4
 
@@ -6302,7 +5966,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Me/
 Fi/
@@ -6313,7 +5977,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 4
 
@@ -6325,7 +5989,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Me/
 Fi/
@@ -6336,7 +6000,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 4
 
@@ -6348,7 +6012,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Me/
 Fi/
@@ -6366,7 +6030,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "Breeches_Beetcheck"
@@ -6377,7 +6041,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6389,7 +6053,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6401,7 +6065,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6413,7 +6077,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6425,7 +6089,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6437,7 +6101,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6449,7 +6113,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6461,7 +6125,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6473,7 +6137,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6485,7 +6149,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -6495,7 +6159,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPantsMidi_Blue"
@@ -6504,7 +6168,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPantsMidi_Grey"
@@ -6513,7 +6177,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPantsMidi_Red"
@@ -6522,7 +6186,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPantsMidi_Violet"
@@ -6531,7 +6195,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPants_Beige"
@@ -6542,7 +6206,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPants_Blue"
@@ -6553,7 +6217,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPants_Grey"
@@ -6564,7 +6228,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPants_Red"
@@ -6575,7 +6239,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CanvasPants_Violet"
@@ -6586,7 +6250,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "CargoPants_Beige"
@@ -6597,7 +6261,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 2/3/4
@@ -6610,7 +6274,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 3/4
@@ -6623,7 +6287,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 2/
@@ -6637,7 +6301,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 3/4
@@ -6650,7 +6314,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 2/
@@ -6662,7 +6326,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "FirefightersPants_Beige"
@@ -6673,7 +6337,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 Fi/
 
 "FirefightersPants_Black"
@@ -6684,7 +6348,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Fi/
 
 "HunterPants_Autumn"
@@ -6695,7 +6359,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 3/4
 
@@ -6707,7 +6371,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 3/4
 
@@ -6719,7 +6383,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 3/4
 
@@ -6731,7 +6395,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 2/3/4
 
@@ -6743,7 +6407,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 2/3/4
 
@@ -6755,7 +6419,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Jeans_Blue"
@@ -6766,7 +6430,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Jeans_BlueDark"
@@ -6777,7 +6441,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Jeans_Brown"
@@ -6788,7 +6452,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Jeans_Green"
@@ -6799,7 +6463,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Jeans_Grey"
@@ -6810,7 +6474,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "JumpsuitPants_Blue"
@@ -6821,7 +6485,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -6833,7 +6497,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -6845,7 +6509,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -6857,7 +6521,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 Fa/
 
@@ -6869,7 +6533,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherPants_Black"
 0
@@ -6879,7 +6543,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherPants_Brown"
 0
@@ -6889,7 +6553,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherPants_Natural"
 0
@@ -6899,7 +6563,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LegsCover_Improvised"
 0
@@ -6909,7 +6573,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "MedicalScrubsPants_Blue"
 4
@@ -6919,7 +6583,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "MedicalScrubsPants_Green"
@@ -6930,7 +6594,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "MedicalScrubsPants_White"
@@ -6941,7 +6605,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "ParamedicPants_Blue"
@@ -6952,7 +6616,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "ParamedicPants_Crimson"
@@ -6963,7 +6627,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "ParamedicPants_Green"
@@ -6974,7 +6638,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "PolicePants"
@@ -6985,7 +6649,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 
 "PolicePantsOrel"
@@ -6996,7 +6660,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 
 "PrisonUniformPants"
@@ -7007,7 +6671,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Prison"/>
 
 "ShortJeans_Black"
@@ -7018,7 +6682,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ShortJeans_Blue"
@@ -7029,7 +6693,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ShortJeans_Brown"
@@ -7040,7 +6704,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ShortJeans_Darkblue"
@@ -7051,7 +6715,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ShortJeans_Green"
@@ -7062,7 +6726,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ShortJeans_Red"
@@ -7073,7 +6737,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Skirt_Blue"
@@ -7084,7 +6748,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7096,7 +6760,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7108,7 +6772,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7120,7 +6784,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7132,7 +6796,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "SlacksPants_Black"
@@ -7143,7 +6807,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "SlacksPants_Blue"
@@ -7154,7 +6818,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "SlacksPants_Brown"
@@ -7165,7 +6829,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "SlacksPants_DarkGrey"
@@ -7176,7 +6840,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "SlacksPants_Khaki"
@@ -7187,7 +6851,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "SlacksPants_LightGrey"
@@ -7198,7 +6862,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "SlacksPants_White"
@@ -7209,7 +6873,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "TTSKOPants"
@@ -7220,7 +6884,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TrackSuitPants_Black"
@@ -7231,7 +6895,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7243,7 +6907,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7255,7 +6919,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7267,7 +6931,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7279,7 +6943,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7291,7 +6955,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "USMCPants_Woodland"
@@ -7302,7 +6966,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 
@@ -7318,7 +6982,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "Blouse_Blue"
@@ -7329,7 +6993,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Blouse_Green"
@@ -7340,7 +7004,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Blouse_Violet"
@@ -7351,7 +7015,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Blouse_White"
@@ -7362,7 +7026,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "BomberJacket_Black"
@@ -7373,7 +7037,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 3/4
@@ -7386,7 +7050,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/
@@ -7400,7 +7064,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/
@@ -7414,7 +7078,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -7427,7 +7091,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/
@@ -7441,7 +7105,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -7453,7 +7117,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -7464,7 +7128,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "ChernarusSportShirt"
@@ -7475,9 +7139,9 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
-        <usage name="School"/>
+S
 
 "DenimJacket"
 25
@@ -7487,7 +7151,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -7499,7 +7163,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Fi/
 
 "FirefighterJacket_Black"
@@ -7510,7 +7174,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Fi/
 
 "GorkaEJacket_Autumn"
@@ -7521,7 +7185,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GorkaEJacket_Flat"
@@ -7532,7 +7196,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GorkaEJacket_PautRev"
@@ -7543,7 +7207,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GorkaEJacket_Summer"
@@ -7554,7 +7218,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "HikingJacket_Black"
@@ -7565,7 +7229,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -7578,7 +7242,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -7591,7 +7255,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 3/4
@@ -7604,7 +7268,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -7617,7 +7281,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -7630,7 +7294,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -7643,7 +7307,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -7656,7 +7320,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -7669,7 +7333,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -7682,7 +7346,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -7695,7 +7359,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 3/4
 
@@ -7707,7 +7371,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 3/4
 
@@ -7719,7 +7383,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 3/4
 
@@ -7731,7 +7395,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 2/3/4
 
@@ -7743,7 +7407,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 2/3/4
 
@@ -7755,7 +7419,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 C/
 
@@ -7767,7 +7431,7 @@ C/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 C/
 
@@ -7779,7 +7443,7 @@ C/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 C/
 
@@ -7791,7 +7455,7 @@ C/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 C/
 
@@ -7803,7 +7467,7 @@ C/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "LeatherJacket_Beige"
@@ -7814,7 +7478,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherJacket_Black"
 0
@@ -7824,7 +7488,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherJacket_Brown"
 0
@@ -7834,7 +7498,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherJacket_Natural"
 0
@@ -7844,7 +7508,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherShirt_Natural"
 0
@@ -7854,7 +7518,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "M65Jacket_Black"
 4
@@ -7864,7 +7528,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -7876,7 +7540,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -7888,7 +7552,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 4
 
@@ -7900,7 +7564,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -7912,7 +7576,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ManSuit_Black"
@@ -7923,7 +7587,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ManSuit_Blue"
@@ -7934,7 +7598,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ManSuit_Brown"
@@ -7945,7 +7609,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ManSuit_DarkGrey"
@@ -7956,7 +7620,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ManSuit_Khaki"
@@ -7967,7 +7631,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ManSuit_LightGrey"
@@ -7978,7 +7642,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "ManSuit_White"
@@ -7989,7 +7653,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "MedicalScrubsShirt_Blue"
@@ -8000,7 +7664,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "MedicalScrubsShirt_Green"
@@ -8011,7 +7675,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "MedicalScrubsShirt_White"
@@ -8022,7 +7686,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "MiniDress_BlueChecker"
@@ -8033,10 +7697,10 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "MiniDress_BlueWithDots"
 30
@@ -8046,10 +7710,10 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "MiniDress_BrownChecker"
 30
@@ -8059,10 +7723,10 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "MiniDress_GreenChecker"
 30
@@ -8072,10 +7736,10 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "MiniDress_Pink"
 30
@@ -8085,10 +7749,10 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "MiniDress_PinkChecker"
 30
@@ -8098,10 +7762,10 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "MiniDress_RedChecker"
 30
@@ -8111,10 +7775,10 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "MiniDress_WhiteChecker"
 30
@@ -8124,10 +7788,10 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
-        <usage name="School"/>
+S
 
 "NurseDress_Blue"
 8
@@ -8137,7 +7801,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "NurseDress_White"
@@ -8148,7 +7812,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "ParamedicJacket_Blue"
@@ -8159,7 +7823,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "ParamedicJacket_Crimson"
@@ -8170,7 +7834,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "ParamedicJacket_Green"
@@ -8181,7 +7845,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "PoliceJacket"
@@ -8192,7 +7856,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 
 "PoliceJacketOrel"
@@ -8203,7 +7867,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 
 "PrisonUniformJacket"
@@ -8214,7 +7878,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Prison"/>
 
 "QuiltedJacket_Black"
@@ -8225,7 +7889,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 3/4
@@ -8238,7 +7902,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -8251,7 +7915,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 3/4
@@ -8264,7 +7928,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8276,7 +7940,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -8289,7 +7953,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/
@@ -8303,7 +7967,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -8316,7 +7980,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -8329,7 +7993,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 C/
 T/
 V/
@@ -8342,7 +8006,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 C/
 T/
 V/
@@ -8355,7 +8019,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 C/
 T/
 V/
@@ -8368,7 +8032,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 C/
 T/
 V/
@@ -8381,7 +8045,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 C/
 T/
 V/
@@ -8394,7 +8058,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 C/
 T/
 V/
@@ -8407,7 +8071,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 C/
 T/
 V/
@@ -8420,7 +8084,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "Shirt_BlueCheck"
@@ -8431,7 +8095,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8443,7 +8107,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8455,7 +8119,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8467,7 +8131,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8479,7 +8143,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8491,7 +8155,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8503,7 +8167,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -8516,7 +8180,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -8529,7 +8193,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu/Mi
 2/3/4
 
@@ -8541,7 +8205,7 @@ Hu/Mi
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -8552,7 +8216,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_Black"
@@ -8561,7 +8225,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_Blue"
@@ -8570,7 +8234,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_Green"
@@ -8579,7 +8243,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_Grey"
@@ -8588,7 +8252,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_OrangeWhiteStripes"
@@ -8597,7 +8261,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_Red"
@@ -8606,7 +8270,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_RedBlackStripes"
@@ -8615,7 +8279,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TShirt_White"
@@ -8624,7 +8288,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "TTsKOJacket_Camo"
@@ -8635,7 +8299,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TacticalShirt_Black"
@@ -8646,7 +8310,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -8658,7 +8322,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TacticalShirt_Olive"
@@ -8669,7 +8333,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TacticalShirt_Tan"
@@ -8680,7 +8344,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "TorsoCover_Improvised"
@@ -8691,7 +8355,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "TrackSuitJacket_Black"
 30
@@ -8701,7 +8365,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8713,7 +8377,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8725,7 +8389,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8737,7 +8401,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8749,7 +8413,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -8761,7 +8425,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "USMCJacket_Woodland"
@@ -8772,7 +8436,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "WomanSuit_Beige"
@@ -8783,7 +8447,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WomanSuit_Black"
@@ -8794,7 +8458,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WomanSuit_Blue"
@@ -8805,7 +8469,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WomanSuit_Brown"
@@ -8816,7 +8480,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WomanSuit_DarkGrey"
@@ -8827,7 +8491,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WomanSuit_Khaki"
@@ -8838,7 +8502,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WomanSuit_LightGrey"
@@ -8849,7 +8513,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WomanSuit_White"
@@ -8860,7 +8524,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 
 "WoolCoat_Beige"
@@ -8871,7 +8535,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -8884,7 +8548,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -8897,7 +8561,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -8910,7 +8574,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/
@@ -8924,7 +8588,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/
@@ -8938,7 +8602,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -8951,7 +8615,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -8964,7 +8628,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/2
@@ -8977,7 +8641,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/
@@ -8990,7 +8654,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 1/
@@ -9008,7 +8672,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 2/3/4
@@ -9019,7 +8683,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "HighCapacityVest_Black"
@@ -9030,7 +8694,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -9042,7 +8706,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 4
 
@@ -9054,7 +8718,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 
 "LeatherStorageVest_Beige"
@@ -9065,7 +8729,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherStorageVest_Black"
 0
@@ -9075,7 +8739,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherStorageVest_Brown"
 0
@@ -9085,7 +8749,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 "LeatherStorageVest_Natural"
 0
@@ -9095,7 +8759,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 "PlateCarrierVest"
 1
@@ -9105,7 +8769,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -9117,7 +8781,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -9129,7 +8793,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -9141,7 +8805,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -9153,7 +8817,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 
 "PressVest_Blue"
@@ -9164,7 +8828,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 T/
 2/3/4
@@ -9177,7 +8841,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 T/
 2/3/4
@@ -9190,7 +8854,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Industrial"/>
 
 "SmershVest"
@@ -9201,7 +8865,7 @@ T/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 2/3/4
 
@@ -9213,7 +8877,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 "UKAssVest_Camo"
@@ -9224,7 +8888,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 "UKAssVest_Khaki"
@@ -9235,7 +8899,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 "UKAssVest_Olive"
@@ -9246,7 +8910,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
+clothes
 Mi/
 
 
@@ -10632,7 +10296,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "ClaymoreMine"
 4
@@ -10655,7 +10319,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Lunapark"/>
 
 "ImprovisedExplosive"
@@ -10688,7 +10352,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
         <value name="Unique"/>
 
@@ -10700,7 +10364,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "RemoteDetonatorTrigger"
 0
@@ -10710,7 +10374,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- EXPLOSIVES_PLACED END -->
@@ -11887,7 +11551,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 CO/
 
@@ -11900,7 +11564,7 @@ CO/
         <quantmax>50</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -11912,7 +11576,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -11924,7 +11588,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -11937,7 +11601,7 @@ Me/
         <quantmax>50</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -11950,7 +11614,7 @@ Me/
         <quantmax>50</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 Me/
 Hu
@@ -11964,7 +11628,7 @@ Hu
         <quantmax>50</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -11977,7 +11641,7 @@ Me/
         <quantmax>20</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -11995,7 +11659,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -12007,7 +11671,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -12019,7 +11683,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 "BloodBagIV"
 0
@@ -12029,7 +11693,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 "BloodTestKit"
 10
@@ -12039,7 +11703,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -12049,7 +11713,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -12062,7 +11726,7 @@ Me/
         <quantmax>50</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -12076,7 +11740,7 @@ V/
         <quantmax>50</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 Me/
 T/
@@ -12090,7 +11754,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Hu
 
@@ -12103,7 +11767,7 @@ Hu
         <quantmax>50</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 Me/
 T/
@@ -12117,7 +11781,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -12129,7 +11793,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 "Splint"
 0
@@ -12139,7 +11803,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "Splint_Applied"
 0
@@ -12149,7 +11813,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "StartKitIV"
 30
@@ -12159,7 +11823,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 
 Me/
 
@@ -12171,7 +11835,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
 Me/
 T/
 V/
@@ -12392,7 +12056,7 @@ Hu/Mi
 
 
 
-        <category name="tools"/>
+tools
 
 "GreenBellPepper"
 20
@@ -12446,7 +12110,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Plant_Potato"
 0
@@ -12456,7 +12120,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Plant_Pumpkin"
 0
@@ -12466,7 +12130,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Plant_Tomato"
 0
@@ -12476,7 +12140,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Plant_Zucchini"
 0
@@ -12486,7 +12150,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "PleurotusMushroom"
 0
@@ -12536,7 +12200,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "SlicedPumpkin"
 0
@@ -12811,7 +12475,7 @@ V/
         <category name="food"/>
 
 T/
-        <usage name="School"/>
+S
 1/
 
 "BrisketSpread"
@@ -12825,8 +12489,8 @@ T/
         <category name="food"/>
 
 T/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 1/
 
 "BrisketSpread_Opened"
@@ -12875,7 +12539,7 @@ V/
         <category name="food"/>
 
 T/
-        <usage name="School"/>
+S
         <usage name="Lunapark"/>
 1/
 
@@ -12891,7 +12555,7 @@ T/
 
 T/
 V/
-        <usage name="School"/>
+S
         <usage name="Lunapark"/>
 1/
 
@@ -12907,7 +12571,7 @@ V/
 
 T/
 V/
-        <usage name="School"/>
+S
         <usage name="Lunapark"/>
 1/2/3/
 
@@ -12934,7 +12598,7 @@ V/
 Fa/
 T/
 V/
-        <usage name="School"/>
+S
         <usage name="Lunapark"/>
 1/2/3/
 
@@ -12949,8 +12613,8 @@ V/
         <category name="food"/>
 
 T/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 1/2
 
 "Lunchmeat_Opened"
@@ -12974,7 +12638,7 @@ T/
         <category name="food"/>
 
 V/
-        <usage name="School"/>
+S
 1/2
 
 "Pajka"
@@ -12989,8 +12653,8 @@ V/
 
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 1/
 
 "Pajka_Opened"
@@ -13015,8 +12679,8 @@ V/
 
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 1/
 
 "Pate_Opened"
@@ -13041,7 +12705,7 @@ V/
 
 T/
 V/
-        <usage name="School"/>
+S
 1/2/3/
 
 "PeachesCan_Opened"
@@ -13066,8 +12730,8 @@ V/
 
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 1/2/3/
 
 "PorkCan_Opened"
@@ -13092,7 +12756,7 @@ V/
         <category name="food"/>
 
 T/
-        <usage name="School"/>
+S
 1/2/3/
 
 "Rice"
@@ -13121,7 +12785,7 @@ V/
 
 T/
 V/
-        <usage name="School"/>
+S
         <usage name="Lunapark"/>
 1/
 
@@ -13161,7 +12825,7 @@ V/
 
 T/
 V/
-        <usage name="Office"/>
+O
 1/2/3/
 
 "SpaghettiCan_Opened"
@@ -13207,7 +12871,7 @@ Mi/
         <category name="food"/>
 
 T/
-        <usage name="Office"/>
+O
 1/2
 
 "TunaCan_Opened"
@@ -13232,7 +12896,7 @@ T/
 
 T/
 V/
-        <usage name="Office"/>
+O
         <usage name="Prison"/>
 
 "UnknownFoodCan_Opened"
@@ -13257,8 +12921,8 @@ V/
 
 V/
 Hu
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
         <usage name="Lunapark"/>
 1/2/3/
 
@@ -13285,8 +12949,8 @@ Hu
         <category name="food"/>
 
 Hu
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
         <usage name="Lunapark"/>
 
 
@@ -13302,7 +12966,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "PepperSeedsPack"
 25
@@ -13337,7 +13001,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "PumpkinSeedsPack"
 25
@@ -13358,7 +13022,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "TomatoSeedsPack"
 25
@@ -13379,7 +13043,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "ZucchiniSeedsPack"
 25
@@ -13488,7 +13152,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="SeasonalEvent"/>
 
 "ChristmasHeadband_Gingerbread"
@@ -13499,7 +13163,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="SeasonalEvent"/>
 
 "ChristmasHeadband_Trees"
@@ -13510,7 +13174,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="SeasonalEvent"/>
 
 "ChristmasTree"
@@ -13560,7 +13224,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="SeasonalEvent"/>
 
 "EyeMask_Dead"
@@ -13571,7 +13235,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="SeasonalEvent"/>
 
 "EyeMask_NewYears"
@@ -13582,7 +13246,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
 
 "EyeMask_Valentines"
@@ -13593,7 +13257,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
 
 	"GiftBox_Large_1"
@@ -13784,7 +13448,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "SantasBeard"
 0
@@ -13794,7 +13458,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -13808,7 +13472,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 T/
 V/
@@ -13822,7 +13486,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="SeasonalEvent"/>
 
 	"WitchHat"
@@ -13864,7 +13528,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "WitchHood_Chainmail_Brown"
 0
@@ -13874,7 +13538,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "WitchHood_Chainmail_Red"
 0
@@ -13884,7 +13548,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 -->
 "WitchHoodCoif_Black"
@@ -13895,7 +13559,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "WitchHoodCoif_Brown"
 0
@@ -13905,7 +13569,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "WitchHoodCoif_Red"
 0
@@ -13915,7 +13579,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "WitchHood_Red"
 0
@@ -13935,7 +13599,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 
 "Wreck_SantasSleigh"
@@ -14826,7 +14490,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="tools"/>
+tools
 
 "BarrelHoles_Green"
 0
@@ -14836,7 +14500,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="tools"/>
+tools
 
 "BarrelHoles_Red"
 0
@@ -14846,7 +14510,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="tools"/>
+tools
 
 "BarrelHoles_Yellow"
 0
@@ -14856,7 +14520,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="tools"/>
+tools
 
 "Barrel_Blue"
 40
@@ -14866,7 +14530,7 @@ Mi/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -14879,7 +14543,7 @@ Fa/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -14892,7 +14556,7 @@ Fa/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -14905,7 +14569,7 @@ Fa/
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -15032,7 +14696,7 @@ T/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 C/
@@ -15119,7 +14783,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 "NylonKnifeSheath"
 10
@@ -15129,7 +14793,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 Hu
 
@@ -15141,7 +14805,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -15151,7 +14815,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -15161,7 +14825,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -15171,7 +14835,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -15183,7 +14847,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -15193,7 +14857,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -15203,7 +14867,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
 
@@ -15213,7 +14877,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 Mi/
 
@@ -15319,7 +14983,7 @@ V/
 
         <category name="containers"/>
 T/
-        <usage name="School"/>
+S
 1/2/3/
 
 "ChildBag_Green"
@@ -15332,7 +14996,7 @@ T/
 
         <category name="containers"/>
 T/
-        <usage name="School"/>
+S
 1/2/3/
 
 "ChildBag_Red"
@@ -15345,7 +15009,7 @@ T/
 
         <category name="containers"/>
 T/
-        <usage name="School"/>
+S
 1/2/3/
 
 "CourierBag"
@@ -15796,7 +15460,7 @@ C/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -15809,7 +15473,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "FryingPan"
 40
@@ -15819,7 +15483,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 T/
 V/
 
@@ -15831,7 +15495,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "PortableGasStove"
 40
@@ -15841,7 +15505,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 V/
 Hu
 
@@ -15853,7 +15517,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -15866,7 +15530,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Fa/
 Hu
@@ -15884,7 +15548,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 Mi/
 3/4
 
@@ -15896,7 +15560,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 Mi/
 Po
 T/
@@ -15910,7 +15574,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Mi/
 Po
@@ -15931,7 +15595,7 @@ Fi/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 V/
@@ -15944,7 +15608,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "CableReel"
@@ -15955,7 +15619,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "PowerGenerator"
@@ -15967,7 +15631,7 @@ V/
         <quantmax>70</quantmax>
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 
@@ -15983,7 +15647,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "FarmingHoe"
 80
@@ -15993,7 +15657,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 V/
 
@@ -16005,7 +15669,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 
 "GardenPlot"
@@ -16016,7 +15680,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "GardenPlotGreenhouse"
 0
@@ -16026,7 +15690,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "GardenPlotPolytunnel"
 0
@@ -16036,7 +15700,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- TOOLS_FARMING END -->
@@ -16051,7 +15715,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "FireplaceIndoor"
 0
@@ -16061,7 +15725,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "Firewood"
 0
@@ -16071,7 +15735,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "HandDrillKit"
 0
@@ -16081,7 +15745,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "LargeGasCanister"
 30
@@ -16092,7 +15756,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 V/
 Hu
 
@@ -16105,7 +15769,7 @@ Hu
         <quantmax>90</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -16120,7 +15784,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 V/
 Hu
 
@@ -16133,7 +15797,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 
@@ -16146,7 +15810,7 @@ T/
 
 
 
-        <category name="tools"/>
+tools
 V/
 Hu
 
@@ -16163,7 +15827,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "BoneBait"
 0
@@ -16173,7 +15837,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "BoneHook"
 0
@@ -16183,7 +15847,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "FishNetTrap"
 0
@@ -16193,7 +15857,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "FishingRod"
 35
@@ -16203,7 +15867,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 C/
 
 "Hook"
@@ -16214,7 +15878,7 @@ C/
 
 
 
-        <category name="tools"/>
+tools
 
 C/
 
@@ -16226,7 +15890,7 @@ C/
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- TOOLS_FISHING END -->
@@ -16245,7 +15909,7 @@ C/
 
 
 
-        <category name="tools"/>
+tools
 T/
 V/
 
@@ -16257,7 +15921,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Mi/
 
@@ -16269,7 +15933,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 2/3/4
 
@@ -16281,7 +15945,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 Hu
 
@@ -16293,7 +15957,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 Fi/
 
@@ -16303,7 +15967,7 @@ Fi/
 
 
 
-        <category name="tools"/>
+tools
 
 Fi/
 
@@ -16313,7 +15977,7 @@ Fi/
 
 
 
-        <category name="tools"/>
+tools
 
 Fi/
 
@@ -16325,7 +15989,7 @@ Fi/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -16337,7 +16001,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 Fa/
 V/
@@ -16350,7 +16014,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Hu
 
@@ -16362,7 +16026,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 
@@ -16374,7 +16038,7 @@ T/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 
@@ -16386,7 +16050,7 @@ T/
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 2/3/4
 
@@ -16398,7 +16062,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 T/
 V/
         <usage name="Lunapark"/>
@@ -16411,7 +16075,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 1/2
 
@@ -16423,7 +16087,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "SpearStone"
 0
@@ -16433,7 +16097,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "SteakKnife"
 70
@@ -16443,7 +16107,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 V/
 1/
@@ -16456,7 +16120,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Sword"
 2
@@ -16464,7 +16128,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "WoodAxe"
@@ -16475,7 +16139,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 V/
@@ -16489,7 +16153,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- TOOLS_HAND_BLADE END -->
@@ -16504,7 +16168,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "BaseballBat"
 80
@@ -16514,10 +16178,10 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 T/
 V/
-        <usage name="School"/>
+S
 
 "BrassKnuckles_Dull"
 40
@@ -16527,7 +16191,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -16540,7 +16204,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -16552,7 +16216,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 
 "Crowbar"
@@ -16563,7 +16227,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "FieldShovel"
@@ -16574,7 +16238,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 Mi/
 
 "Hammer"
@@ -16585,7 +16249,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -16597,7 +16261,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -16609,7 +16273,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "Mace"
@@ -16618,7 +16282,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Historical"/>
 
 "MeatTenderizer"
@@ -16629,7 +16293,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 T/
 V/
 
@@ -16641,7 +16305,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Pickaxe"
 20
@@ -16651,7 +16315,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 2/3/4
@@ -16664,7 +16328,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "PipeWrench"
@@ -16675,7 +16339,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -16690,7 +16354,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 Po
  
@@ -16703,7 +16367,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -16717,7 +16381,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 3/4
@@ -16728,7 +16392,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Po
@@ -16741,7 +16405,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 V/
@@ -16759,7 +16423,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 
 "Pliers"
@@ -16770,7 +16434,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 V/
@@ -16783,7 +16447,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 Fa/
 T/
 V/
@@ -16801,7 +16465,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 T/
 V/
@@ -16814,7 +16478,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 T/
 V/
@@ -16827,7 +16491,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 T/
 V/
@@ -16840,7 +16504,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 T/
 V/
@@ -16853,7 +16517,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 T/
 V/
@@ -16866,7 +16530,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 
 "Headtorch_Black"
@@ -16877,7 +16541,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 T/
@@ -16893,7 +16557,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 T/
@@ -16909,7 +16573,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "NVGHeadstrap"
 10
@@ -16919,7 +16583,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 Mi/
 3/4
 
@@ -16936,7 +16600,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Hu
 
@@ -16948,7 +16612,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 Mi/
 Po
 2/3/4
@@ -16961,7 +16625,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "Torch"
@@ -16972,7 +16636,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
 
 "XmasLights"
 50
@@ -16982,7 +16646,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -17000,7 +16664,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -17012,7 +16676,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "Bark_Oak"
 0
@@ -17022,7 +16686,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "BearPelt"
 0
@@ -17032,7 +16696,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "Bone"
 0
@@ -17042,7 +16706,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "BurlapSack"
 80
@@ -17052,7 +16716,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -17064,7 +16728,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "Camonet"
 40
@@ -17074,7 +16738,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 Mi/
 
@@ -17086,7 +16750,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "CowPelt"
 0
@@ -17096,7 +16760,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "DeerPelt"
 0
@@ -17106,7 +16770,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 "Fabric"
 60
@@ -17117,7 +16781,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -17130,7 +16794,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "Guts"
 0
@@ -17140,7 +16804,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "LongWoodenStick"
 0
@@ -17150,7 +16814,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "MetalPlate"
 60
@@ -17161,7 +16825,7 @@ Fa/
         <quantmax>60</quantmax>
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -17173,7 +16837,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -17185,7 +16849,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "NailBox"
 150
@@ -17195,7 +16859,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 Fa/
@@ -17208,7 +16872,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 C/
 
@@ -17220,7 +16884,7 @@ C/
 
 
 
-        <category name="tools"/>
+tools
 
 "Pen_Black"
 0
@@ -17230,12 +16894,12 @@ C/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "Pen_Blue"
 0
@@ -17245,12 +16909,12 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "Pen_Green"
 0
@@ -17260,12 +16924,12 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "Pen_Red"
 0
@@ -17275,12 +16939,12 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "PigPelt"
 0
@@ -17290,7 +16954,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "PileOfWoodenPlanks"
 40
@@ -17300,7 +16964,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -17312,7 +16976,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "RabbitPelt"
 0
@@ -17320,7 +16984,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Rag"
 0
@@ -17330,7 +16994,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 "Rope"
 100
@@ -17340,7 +17004,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -17352,7 +17016,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "SheepPelt"
 0
@@ -17362,7 +17026,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "SmallGuts"
 0
@@ -17372,7 +17036,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "SmallStone"
 0
@@ -17383,7 +17047,7 @@ Fa/
         <quantmax>15</quantmax>
 
 
-        <category name="tools"/>
+tools
 
 "Stone"
 0
@@ -17393,7 +17057,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "TannedLeather"
 0
@@ -17403,7 +17067,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "WildboarPelt"
 0
@@ -17413,7 +17077,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "WolfPelt"
 0
@@ -17423,7 +17087,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "WoodenLog"
 0
@@ -17433,7 +17097,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "WoodenPlank"
 0
@@ -17443,7 +17107,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "WoodenStick"
 0
@@ -17453,7 +17117,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- TOOLS_MATERIALS END -->
@@ -17468,11 +17132,11 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "AlarmClock_Green"
 20
@@ -17482,11 +17146,11 @@ T/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "AlarmClock_Red"
 20
@@ -17496,11 +17160,11 @@ T/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
-        <usage name="Office"/>
-        <usage name="School"/>
+O
+S
 
 "KitchenTimer"
 25
@@ -17510,7 +17174,7 @@ T/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -17523,7 +17187,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 V/
@@ -17541,7 +17205,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 Mi/
 Po
@@ -17555,11 +17219,11 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
-        <usage name="School"/>
+S
 Hu
-        <usage name="Office"/>
+O
 
 "ChernarusMap_Open"
 0
@@ -17569,7 +17233,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "Compass"
 70
@@ -17579,7 +17243,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 Hu/Mi
 
@@ -17591,7 +17255,7 @@ Hu/Mi
 
 
 
-        <category name="tools"/>
+tools
 Hu
 
 "OrienteeringCompass"
@@ -17602,7 +17266,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -17616,7 +17280,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 Mi/
 Po
@@ -17636,7 +17300,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "ElectronicRepairKit"
@@ -17647,7 +17311,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -17659,7 +17323,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -17671,7 +17335,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 V/
@@ -17684,7 +17348,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
 T/
 V/
@@ -17697,7 +17361,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -17709,7 +17373,7 @@ V/
 
 
 
-        <category name="tools"/>
+tools
 Mi/
 Po
 Hu
@@ -17722,7 +17386,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 Fa/
 
@@ -17739,7 +17403,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -17751,7 +17415,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 Fa/
 
@@ -17763,7 +17427,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 Po
         <usage name="Prison"/>
@@ -17776,7 +17440,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
 
 Po
         <usage name="Prison"/>
@@ -17789,7 +17453,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
 
 "Lockpick"
 50
@@ -17799,7 +17463,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- TOOLS_SECURITY END -->
@@ -17814,7 +17478,7 @@ Po
 
 
         <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+tools
 Hu
 
 	"RabbitSnareTrap"
@@ -17825,7 +17489,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "SmallFishTrap"
 0
@@ -17835,7 +17499,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 "TripwireTrap"
 0
@@ -17845,7 +17509,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 
 
 <!-- TOOLS_TRAPS END -->
@@ -19535,7 +19199,7 @@ Fa/
         <quantmax>70</quantmax>
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -19548,7 +19212,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "CarRadiator"
@@ -19559,7 +19223,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -19571,7 +19235,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 "HeadlightH7"
@@ -19582,7 +19246,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
 "HeadlightH7_Box"
 60
@@ -19592,7 +19256,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -19604,7 +19268,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
 
         <usage name="Industrial"/>
 
@@ -19617,7 +19281,7 @@ Fa/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Industrial"/>
 
 
@@ -20125,7 +19789,7 @@ Fa/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 
 "BalaclavaMask_BDU"
@@ -20136,7 +19800,7 @@ Hu
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 3/4
  
@@ -20146,7 +19810,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20156,7 +19820,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 3/4
 
@@ -20168,7 +19832,7 @@ Po
 
 
 
-        <category name="tools"/>
+tools
 Me/
 
 "CoyoteBag_Winter"
@@ -20191,7 +19855,7 @@ Mi/
         <category name="food"/>
 T/
 V/
-        <usage name="School"/>
+S
 
 "CrabCan_Opened"
 0
@@ -20225,7 +19889,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20237,7 +19901,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GhillieHood_Winter"
@@ -20248,7 +19912,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
     "DownJacket_Green"
@@ -20257,7 +19921,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20267,7 +19931,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20277,7 +19941,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20289,7 +19953,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GhillieTop_Winter"
@@ -20300,7 +19964,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GlassBottle"
@@ -20325,7 +19989,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "GorkaPants_Winter"
@@ -20336,7 +20000,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "Headdress_Wolf"
@@ -20347,7 +20011,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 
 "HuntingVest_Winter"
 3
@@ -20355,7 +20019,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 
 <type name="Iceaxe"
@@ -20375,7 +20039,7 @@ Hu
 
 
 
-        <category name="tools"/>
+tools
 C/
 
 "NBCBootsWhite"
@@ -20384,7 +20048,7 @@ C/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 "NBCHoodWhite"
@@ -20393,7 +20057,7 @@ Me/
 
 
 
-        <category name="clothes"/>
+clothes
 Me/
 
 <type name="FilteringBottle"
@@ -20402,7 +20066,7 @@ Me/
 
 
 
-        <category name="tools"/>
+tools
         <usage name="Hunter"/>
 
 <type name="PlateCarrierHolster_Winter"
@@ -20461,7 +20125,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 Me/
 Mi/
 
@@ -20482,7 +20146,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20494,7 +20158,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 <type name="Shemag_Red"
@@ -20505,7 +20169,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 V/
 Fi/
 
@@ -20517,7 +20181,7 @@ Fi/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20527,7 +20191,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20537,7 +20201,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20547,7 +20211,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20559,7 +20223,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
         <usage name="Lunapark"/>
 
 "SkiGloves_Blue"
@@ -20568,7 +20232,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20578,7 +20242,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
@@ -20588,7 +20252,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 T/
 V/
@@ -20599,7 +20263,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 T/
 V/
@@ -20610,7 +20274,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 T/
 V/
@@ -20621,7 +20285,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 T/
 V/
@@ -20634,7 +20298,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "SnowstormUshanka_Olive"
@@ -20643,7 +20307,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 T/
 V/
@@ -20654,7 +20318,7 @@ V/
 
 
 
-        <category name="clothes"/>
+clothes
 Hu
 T/
 V/
@@ -20702,7 +20366,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "WalleyePollock"
@@ -20731,7 +20395,7 @@ Mi/
 
 
 
-        <category name="tools"/>
+tools
 
 <type name="ZmbF_NurseFat_Winter"
 0
@@ -20838,7 +20502,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Mi/
 
 "BalaclavaMask_Pig"
@@ -20847,7 +20511,7 @@ Mi/
 
 
 
-        <category name="clothes"/>
+clothes
 Po
 
 "BalaclavaMask_Chain"
@@ -20856,7 +20520,7 @@ Po
 
 
 
-        <category name="clothes"/>
+clothes
 T/
 V/
 
