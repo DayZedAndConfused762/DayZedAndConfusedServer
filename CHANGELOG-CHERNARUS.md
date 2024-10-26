@@ -60,6 +60,7 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+## To Do:
 
 - Installed mods:
   - @CJ187-RandomFuelpumps: https://steamcommunity.com/sharedfiles/filedetails/?id=2868862030
@@ -68,13 +69,15 @@
 
 ## Working
 
-- Loot economy:
-  - Added vanilla glock back to loot pool
-  - Removed 9x19 ammo spanws from village
+
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 ## 10/25/2024
+
+- Loot economy:
+  - Added vanilla glock back to loot pool
+  - Removed 9x19 ammo spawns from village
 
 - Removed Mods: 
   - @TLH Item Pack

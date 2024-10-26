@@ -26,7 +26,6 @@
   - Configure @CJ187RandomFuelPumps
 
 - Vehicles:
-  - Add Dingo Truck wheels to loot table
   - Find spawn points for Dingo Trucks
   - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
   - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
