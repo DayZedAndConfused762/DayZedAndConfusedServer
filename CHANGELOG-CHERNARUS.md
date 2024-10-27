@@ -70,24 +70,26 @@
 ## Working
 
 - Events:
-  - Remove Drugcar eventw
+  - Removed Drugcar eventw
 
 - Central Economy:
   - Increased spawn rate of empty bags for @CannabisPlus
-  - add references for @Dayz-Expansion to cfgeventspawns and cfgeconomycore
+  - added references for @Dayz-Expansion to cfgeventspawns and cfgeconomycore
 
 - Configure Mods:
   - @Dayz-Expansion:
-    - AirdropSettings.json:
-      - change "Server3DMarkerOnDropLocation" 1 to 0
-      - change "Radius" from 1 to 20.0
-      - change "ItemCount" from 50 to 20
-    - BookSettings.json:
-      - add server rules
-      - change 
-      - change 
-      - change 
-  
+    - Profiles folder:
+      - AirdropSettings.json
+      - BookSettings.json
+      - GarageSettings.json
+      - GeneralSettings.json
+      - NotificationSettings.json
+      - PartySettings.json
+      - QuestSettings.json
+      - SocialMediaSettings.json
+      - VehicleSettings.json
+    - Misstion folder:
+      
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
