@@ -75,6 +75,10 @@
 - Loot Economy:
   - Increased spawn rate of empty bags for @CannabisPlus
 
+- Mods:
+  - @Dayz-Expansion:
+    - add references for expansion to cfgeventspawns and cfgeconomycore
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 ## 10/25/2024
