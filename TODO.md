@@ -45,6 +45,7 @@
  - add paragon storage to basic territories
 
 - Items:
+  - Check spawn rates of plastic bags for CannabisPlus 
   - Test helmets
   - Spawn cj187 NVGs to test and see where they should spawn
   - Find a trader mod
