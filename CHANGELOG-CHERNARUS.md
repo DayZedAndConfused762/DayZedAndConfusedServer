@@ -69,7 +69,7 @@
 
 ## Working
 
-
+- Increased spawn rate of empty bags for @CannabisPlus
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
