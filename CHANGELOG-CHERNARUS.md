@@ -69,7 +69,11 @@
 
 ## Working
 
-- Increased spawn rate of empty bags for @CannabisPlus
+- Events:
+  - Remove Drugcar event
+
+- Loot Economy:
+  - Increased spawn rate of empty bags for @CannabisPlus
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
