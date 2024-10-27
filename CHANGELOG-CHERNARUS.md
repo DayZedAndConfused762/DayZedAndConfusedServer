@@ -77,19 +77,7 @@
   - added references for @Dayz-Expansion to cfgeventspawns and cfgeconomycore
 
 - Configure Mods:
-  - @Dayz-Expansion:
-    - Profiles folder:
-      - AirdropSettings.json
-      - BookSettings.json
-      - GarageSettings.json
-      - GeneralSettings.json
-      - NotificationSettings.json
-      - PartySettings.json
-      - QuestSettings.json
-      - SocialMediaSettings.json
-      - VehicleSettings.json
-    - Misstion folder:
-      
+  - @Dayz-Expansion
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
