@@ -18,9 +18,6 @@
 
 ## To Do 
 
-- Events:
-  - Remove Drugcar event
-
 - Server Info:
   - Create a server description/feature list to post on discord and use as a a server advertisement
 
@@ -48,6 +45,7 @@
  - add paragon storage to basic territories
 
 - Items:
+  - Remove referenced to the Drugcar event from drugsplus and cannabisplus
   - Test helmets
   - Spawn cj187 NVGs to test and see where they should spawn
   - Find a trader mod
