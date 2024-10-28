@@ -2713,27 +2713,6 @@
 
 <!-- UAZ31514 End -->
 
-<!-- Gunner Truck Start -->
-
-	<event name="VehicleGunner" >
-		<pos x="5368.050293" z="9923.710938" a="83.773880" />		<!-- NWAF -->
- 		<pos x="3970.166748" z="11420.040039" a="-0.224688" />		<!-- NWAF -->
- 		<pos x="4051.421143" z="11574.770508" a="-83.113014" />		<!-- NWAF -->
- 		<pos x="2155.196045" z="3353.465820" a="-58.838551" />		<!-- Pavlovo Contaminated Zone -->
- 		<pos x="3682.933594" z="5966.188965" a="161.302292" />		<!-- Green Mountain -->
- 		<pos x="7971.375977" z="14691.407227" a="-12.877541" />		<!-- MB N of Severograd -->
-	</event>
-	<event name="VehicleGunnerTan" >
-		<pos x="588.312927" z="13674.239258" a="-0.224688" />		<!-- Tisy -->
- 		<pos x="3631.720459" z="14803.532227" a="-0.941767" />		<!-- Pobeda -->
- 		<pos x="7049.273926" z="14637.461914" a="-144.285614" />	<!-- Kamensk Military -->
-	</event>
-	<event name="VehicleGunnerWhite" >
-		<pos x="8675.393555" z="13623.034180" a="164.477798" />		<!-- Karer Krasnay Zarya -->
-<!-- 		<pos x="12088.340820" z="12680.735352" a="164.929871" />	-->	<!-- NEAF -->	
-	</event>
-
-<!-- Gunner Truck End -->
 
 <!-- Vvg7 bikes Blackout Scorpion Start -->
 
@@ -2915,11 +2894,21 @@
 
 <!-- Dingo Trucks -->
 
-<!--
-<event name="VehicleDingo_Spawn" >
-        <pos x="4836.8378919" z="10305.982422" a="275.906708" />
-</event>
--->
+
+	<event name="VehicleDingo_Spawn" >
+		<pos x="5368.050293" z="9923.710938" a="83.773880" />		<!-- NWAF -->
+ 		<pos x="3970.166748" z="11420.040039" a="-0.224688" />		<!-- NWAF -->
+ 		<pos x="4051.421143" z="11574.770508" a="-83.113014" />		<!-- NWAF -->
+ 		<pos x="2155.196045" z="3353.465820" a="-58.838551" />		<!-- Pavlovo Contaminated Zone -->
+ 		<pos x="3682.933594" z="5966.188965" a="161.302292" />		<!-- Green Mountain -->
+ 		<pos x="7971.375977" z="14691.407227" a="-12.877541" />		<!-- MB N of Severograd -->
+		<pos x="588.312927" z="13674.239258" a="-0.224688" />		<!-- Tisy -->
+ 		<pos x="3631.720459" z="14803.532227" a="-0.941767" />		<!-- Pobeda -->
+ 		<pos x="7049.273926" z="14637.461914" a="-144.285614" />	<!-- Kamensk Military -->
+		<pos x="8675.393555" z="13623.034180" a="164.477798" />		<!-- Karer Krasnay Zarya -->
+<!-- 		<pos x="12088.340820" z="12680.735352" a="164.929871" />	-->	<!-- NEAF -->	
+	</event>
+
 
 	<!-- Copy from here... -->
 	<!-- EXPANSION CARS -->
