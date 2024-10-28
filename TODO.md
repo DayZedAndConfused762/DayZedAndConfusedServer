@@ -30,6 +30,10 @@
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 
 - CJ187 crates:
+  - Add cash registers
+  - Make cash registers key or lockpick or tools
+  - Make crates key or lockpick
+  - Lower damage to tools
   - Fix floating crates: one at NEAF  (12k/12k)
   - Setup more lootcrate loot
   - Make sure stuff will fit in cj187 crates in crates
