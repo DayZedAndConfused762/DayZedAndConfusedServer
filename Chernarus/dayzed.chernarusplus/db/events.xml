@@ -1152,9 +1152,9 @@
         </children>
     </event>
     <event name="VehicleHatchback02">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>10</nominal>
+        <min>7</min>
+        <max>18</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1165,6 +1165,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
+	    <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_BanditKitty"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Black"/>
             <child lootmax="0" lootmin="0" max="5" min="3" type="Hatchback_02_Blue"/>
