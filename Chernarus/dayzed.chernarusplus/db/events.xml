@@ -1759,13 +1759,13 @@
 
 <!-- Military Road Block Event End -->
 
-<!--
+
 <!-- Dingo Trucks-->
 
     <event name="VehicleDingo_Spawn">
-        <nominal>8</nominal>
-        <min>5</min>
-        <max>11</max>
+        <nominal>9</nominal>
+        <min>13</min>
+        <max>18</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1776,12 +1776,13 @@
         <limit>mixed</limit>
         <active>0</active>
         <children>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Dingo" />
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Dingo_CZ" />
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Dingo_CZ_Desert" />
+            <child lootmax="0" lootmin="0" max="6" min="3" type="Dingo" />
+            <child lootmax="0" lootmin="0" max="6" min="3" type="Dingo_CZ" />
+            <child lootmax="0" lootmin="0" max="6" min="3" type="Dingo_CZ_Desert" />
         </children>
     </event>
 <!-- end dingo trucks -->
--->
+
+
 
 </events>

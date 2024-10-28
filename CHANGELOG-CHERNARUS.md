@@ -69,15 +69,21 @@
 
 ## Working
 
-- Events:
-  - Removed Drugcar eventw
+- Removed Mods:
+  - @GunnerTruckOshkosh
+
+- Installed & Configured Mods:
+  - @Dayz-Expansion
+
+- Dynamic Events:
+  - Removed Drugcar event
 
 - Central Economy:
   - Increased spawn rate of empty bags for @CannabisPlus
-  - added references for @Dayz-Expansion to cfgeventspawns and cfgeconomycore
+  - Added references for @Dayz-Expansion to cfgeventspawns and cfgeconomycore
+  - Added spawns for the Dingo Trucks
 
-- Configure Mods:
-  - @Dayz-Expansion
+
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
