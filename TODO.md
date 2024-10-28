@@ -22,17 +22,11 @@
   - Create a server description/feature list to post on discord and use as a a server advertisement
 
 - Mods:
-  - Test and install @DayZ-Expansion Mods
-  - Configure @CJ187RandomFuelPumps
 
 - Vehicles:
-  - Find spawn points for Dingo Trucks
   - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
-  - Fuz VehicleGunnerWhite spawn:  		<!-- NEAF -->
   - Figure out which UAZ needs a glow plug instead of a spark plug
-  - Find more spawn points for Gunnertruck
   - Find spawn points for Kamaz Trucks
-  - Find spawn points for Kamaz Typhoon
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 
 - CJ187 crates:
@@ -48,7 +42,6 @@
   - Remove referenced to the Drugcar event from drugsplus and cannabisplus
   - Test helmets
   - Spawn cj187 NVGs to test and see where they should spawn
-  - Find a trader mod
   - add loot to protective cases
   - spawn and test, remove from types if non functional CattleProd StunBaton PoliceBaton
   - Add bunker tags to items that will only spawn in bunker
