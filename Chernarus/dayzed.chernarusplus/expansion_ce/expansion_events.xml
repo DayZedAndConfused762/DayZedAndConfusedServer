@@ -2,7 +2,7 @@
 <events>
 
     <!-- Vanilla Tweaks -->
-    <event name="VehicleHatchback02">
+   <!-- <event name="VehicleHatchback02">
         <nominal>10</nominal>
         <min>7</min>
         <max>13</max>
@@ -43,6 +43,7 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_YellowBright"/>
         </children>
     </event>
+	-->
     <!-- Expansion content -->
     <!-- CARS -->
 	<event name="VehicleUAZ">
@@ -164,7 +165,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6"/>
             <child lootmax="0" lootmin="0" max="2" min="1" type="ExpansionMh6_Blueline"/>
@@ -195,7 +196,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin"/>
             <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionMerlin_Dahoman"/>
@@ -217,7 +218,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="3" min="1" type="ExpansionUh1h"/>
             <child lootmax="0" lootmin="0" max="3" min="1" type="ExpansionUh1h_Medical"/>
@@ -238,7 +239,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="4" min="1" type="ExpansionUtilityBoat"/>
         </children>
@@ -255,7 +256,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="19" min="1" type="ExpansionZodiacBoat"/>
             <child lootmax="0" lootmin="0" max="19" min="1" type="ExpansionZodiacBoat_Black"/>
@@ -274,7 +275,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>mixed</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="ExpansionGyrocopter"/>
         </children>
