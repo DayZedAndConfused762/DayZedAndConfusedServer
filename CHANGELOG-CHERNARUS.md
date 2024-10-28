@@ -84,6 +84,10 @@
   - Dayz-Expansion-Missions: https://steamcommunity.com/sharedfiles/filedetails/?id=2792984177&searchtext=dayz-expansion-missions
   - Dayz-Expansion-Navigation: https://steamcommunity.com/workshop/filedetails/?id=2792984722
   - DayZ-Expansion-Groups: https://steamcommunity.com/sharedfiles/filedetails/?id=2792983364
+  - CJ187MoreMoney: https://steamcommunity.com/sharedfiles/filedetails/?id=2018887948&searchtext=money
+  - CJ187-Money-Rubles-Only: https://steamcommunity.com/sharedfiles/filedetails/?id=2859892611&searchtext=money
+  - CJ187-RandomFuelStations: https://steamcommunity.com/sharedfiles/filedetails/?id=2868862030&searchtext=random+fuel+pumps
+  - Project Survive Armband Stash:
 
 - Dynamic Events:
   - Removed Drugcar event
@@ -95,6 +99,17 @@
     - Added vehicle spawns for: Dingo Truck, UAZs, Vodnick, Bus, Tractor, Land Rover, MH6, Merlin, UH1H, Typhoon Kamaz
   - Items:
     - Added weapons: M9, Taser, G36, M1A, RPG7, DT11, BenelliM4, MPX, MP5SD, Kedr, VityazSN, AWM, Kar98, LAW
+    - Added misc. items: New GPS, Circuit Boards, new consumables
+    - Added Currency: Rubles
+    - Added Wallets
+    - Added currency spawns to infected
+    - Added currency spawns to clothing
+
+- World
+  - Re added random fuel levels at fuel pumps
+
+- Misc.:
+  - Added 1x1 inventory slot to armbands
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 

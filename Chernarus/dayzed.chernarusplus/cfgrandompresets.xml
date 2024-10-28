@@ -861,4 +861,48 @@
 			<item name="Mag_STANAG_60Rnd" chance="0.05" />
 			<item name="Mag_AKM_Drum75Rnd" chance="0.05" />
 		</cargo>
+
+		<cargo chance="0.05" name="RU_Money_Clothes">
+				<item name="Money_Ruble1" chance="0.25" />
+				<item name="Money_Ruble2" chance="0.20" />
+				<item name="Money_Ruble5" chance="0.18" />
+				<item name="Money_Ruble10" chance="0.17" />
+				<item name="Money_Ruble50" chance="0.10" />
+				<item name="Money_Ruble100" chance="0.03" />
+				<item name="Money_Ruble200" chance="0.02" />
+				<item name="Money_Ruble500" chance="0.02" />0
+				<item name="Money_Ruble1000" chance="0.01" />
+				<item name="Money_Ruble2000" chance="0.01" />
+				<item name="Money_Ruble5000" chance="0.01" />
+		</cargo>
+		<cargo chance="0.03" name="RU_Money_Infected">
+				<item name="Money_Ruble50" chance="0.50" />
+				<item name="Money_Ruble100" chance="0.25" />
+				<item name="Money_Ruble200" chance="0.15" />
+				<item name="Money_Ruble500" chance="0.06" />
+				<item name="Money_Ruble1000" chance="0.02" />
+				<item name="Money_Ruble2000" chance="0.01" />
+				<item name="Money_Ruble5000" chance="0.01" />
+		</cargo>
+		<cargo chance="0.05" name="US_Money">
+				<item name="Money_Dollar1" chance="0.15" />
+				<item name="Money_Dollar2" chance="0.15" />
+				<item name="Money_Dollar5" chance="0.10" />
+				<item name="Money_Dollar10" chance="0.10" />
+				<item name="Money_Dollar20" chance="0.05" />
+				<item name="Money_Dollar50" chance="0.02" />
+				<item name="Money_Dollar100" chance="0.01" />
+		</cargo>
+		<cargo chance="0.05" name="EU_Money">
+				<item name="Money_Euro1" chance="0.15" />
+				<item name="Money_Euro2" chance="0.15" />
+				<item name="Money_Euro5" chance="0.15" />
+				<item name="Money_Euro10" chance="0.10" />
+				<item name="Money_Euro20" chance="0.10" />
+				<item name="Money_Euro50" chance="0.10" />
+				<item name="Money_Euro100" chance="0.05" />
+				<item name="Money_Euro200" chance="0.02" />
+				<item name="Money_Euro500" chance="0.01" />
+		</cargo>
+
 </randompresets>
