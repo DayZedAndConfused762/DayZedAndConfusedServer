@@ -86,16 +86,7 @@ https://www.youtube.com/watch?v=7JwRsxJARKs
 
 https://cmsminecraftshop.com/en/console/
 
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_AmmoBox_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Ammo_762x51mmDUDS' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Mag_1911_8Rnd' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Helmet_MICH2000_Black' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_NBC_Hood_M81' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_NBC_Hood_White' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Pants_M65_MonolithFighter' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Book_StrangeDiary' will be ignored. (Type does not exist. (Typo?))
- 7:15:16.819 !!! [CE][offlineDB] :: Type 'TLH_Collectable_Note_StrangeNote' will be ignored. (Type does not exist. (Typo?))
- 15:13:41.252 [CE][LootRespawner] (PRIDummy) :: Item [647] causing search overtime: "Msp_CoffinBox"
+
 
 - https://www.reddit.com/r/dayz/comments/142j5kd/pve_mod/
 - https://forums.dayz.com/topic/254867-i-need-help-creating-a-random-zombie-horde/
