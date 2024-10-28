@@ -92,7 +92,7 @@
   - Increased spawn rate of empty bags for @CannabisPlus
   - Added references for @Dayz-Expansion to cfgeventspawns and cfgeconomycore
   - Vehicles:
-    - Added vehicle spawns for: Dingo Truck, UAZs, Vodnick, Bus, Tractor, Land Rover, MH6, Merlin, UH1H
+    - Added vehicle spawns for: Dingo Truck, UAZs, Vodnick, Bus, Tractor, Land Rover, MH6, Merlin, UH1H, Typhoon Kamaz
   - Items:
     - Added weapons: M9, Taser, G36, M1A, RPG7, DT11, BenelliM4, MPX, MP5SD, Kedr, VityazSN, AWM, Kar98, LAW
 
