@@ -73,17 +73,17 @@
   - @GunnerTruckOshkosh
 
 - Installed & Configured Mods:
-  - dayz-expansion		https://steamcommunity.com/sharedfiles/filedetails/?id=2116151222&searchtext=dayz-expansion-map-assets
-  - dayz-expansion-book		https://steamcommunity.com/sharedfiles/filedetails/?id=2572324799&searchtext=dayz-expansion-book
-  - dayz-expansion-map-assets  https://steamcommunity.com/sharedfiles/filedetails/?id=2792983824&searchtext=dayz-expansion-map-assets
-  - dayz-expansion-quests		https://steamcommunity.com/sharedfiles/filedetails/?id=2828486817&searchtext=dayz-expansion-map-assets
-  - dayz-expansion-vehicles		https://steamcommunity.com/sharedfiles/filedetails/?id=2291785437&searchtext=dayz-expansion-map-assets
-  - dayz-expansion-animations	https://steamcommunity.com/sharedfiles/filedetails/?id=2793893086&searchtext=dayz-expansion-map-assets
-  - dayz-expansion-licensed		https://steamcommunity.com/sharedfiles/filedetails/?id=2116157322&searchtext=dayz-expansion
-  - dayz-expansion-weapons
-  - dayz-expansion-missions		https://steamcommunity.com/sharedfiles/filedetails/?id=2792984177&searchtext=dayz-expansion-missions
-  - dayz-expansion-navigation
-  - DayZ-Expansion-Groups
+  - Dayz-Expansion: https://steamcommunity.com/sharedfiles/filedetails/?id=2116151222&searchtext=dayz-expansion-map-assets
+  - Dayz-Expansion-Book: https://steamcommunity.com/sharedfiles/filedetails/?id=2572324799&searchtext=dayz-expansion-book
+  - Dayz-Expansion-Map-Assets: https://steamcommunity.com/sharedfiles/filedetails/?id=2792983824&searchtext=dayz-expansion-map-assets
+  - Dayz-Expansion-Quests: https://steamcommunity.com/sharedfiles/filedetails/?id=2828486817&searchtext=dayz-expansion-map-assets
+  - dayz-Expansion-Vehicles: https://steamcommunity.com/sharedfiles/filedetails/?id=2291785437&searchtext=dayz-expansion-map-assets
+  - Dayz-Expansion-Animations: https://steamcommunity.com/sharedfiles/filedetails/?id=2793893086&searchtext=dayz-expansion-map-assets
+  - Dayz-Expansion-Licensed: https://steamcommunity.com/sharedfiles/filedetails/?id=2116157322&searchtext=dayz-expansion
+  - Dayz-Expansion-Weapons: https://steamcommunity.com/sharedfiles/filedetails/?id=2792985069
+  - Dayz-Expansion-Missions: https://steamcommunity.com/sharedfiles/filedetails/?id=2792984177&searchtext=dayz-expansion-missions
+  - Dayz-Expansion-Navigation: https://steamcommunity.com/workshop/filedetails/?id=2792984722
+  - DayZ-Expansion-Groups: https://steamcommunity.com/sharedfiles/filedetails/?id=2792983364
 
 - Dynamic Events:
   - Removed Drugcar event
@@ -91,10 +91,10 @@
 - Central Economy:
   - Increased spawn rate of empty bags for @CannabisPlus
   - Added references for @Dayz-Expansion to cfgeventspawns and cfgeconomycore
-
-- Vehicles:
-  - Added vehicle spawns for: Dingo Truck, UAZs, Vodnick, Bus, Tractor, Land Rover, MH6, Merlin, UH1H
-
+  - Vehicles:
+    - Added vehicle spawns for: Dingo Truck, UAZs, Vodnick, Bus, Tractor, Land Rover, MH6, Merlin, UH1H
+  - Items:
+    - Added weapons: M9, Taser, G36, M1A, RPG7, DT11, BenelliM4, MPX, MP5SD, Kedr, VityazSN, AWM, Kar98, LAW
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
