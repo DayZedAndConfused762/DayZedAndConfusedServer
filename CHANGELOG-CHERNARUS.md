@@ -60,11 +60,6 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
-## To Do:
-
-- Installed mods:
-  - @CJ187-RandomFuelpumps: https://steamcommunity.com/sharedfiles/filedetails/?id=2868862030
-
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
 ## Working
