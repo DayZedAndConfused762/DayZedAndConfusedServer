@@ -30,563 +30,54 @@ Unique              U
 
 
 
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 
-<!-- ++++++++++ ENTITIES END ++++++++++ -->
-
-<!-- ++++++++++ EXPLOSIVES START ++++++++++ -->
-
-<!-- EXPLOSIVES_PLACED START -->
-
-"Anniversary_FireworksLauncher"
-0
-
-
-
-
-
-
-tools
-
-"ClaymoreMine"
-4
-        <lifetime>1296000</lifetime>
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-3/4
-        <value name="Unique"/>
-
-"FireworksLauncher"
-4
-
-
-
-
-
-
-tools
-L
-
-"ImprovisedExplosive"
-0
-        <lifetime>1296000</lifetime>
-
-
-
-
-
-        <category name="explosives"/>
-
-"Plastic_Explosive"
-5
-        <lifetime>1296000</lifetime>
-
-
-
-
-
-        <category name="explosives"/>
-I/
-        <value name="Unique"/>
-
-"RemoteDetonator"
-5
-
-
-
-
-
-
-tools
-I/
-        <value name="Unique"/>
-
-"RemoteDetonatorReceiver"
-0
-
-
-
-
-
-
-tools
-
-"RemoteDetonatorTrigger"
-0
-
-
-
-
-
-
-tools
-
-
-<!-- EXPLOSIVES_PLACED END -->
-
-<!-- EXPLOSIVES_SMOKE START -->
-
-"M18SmokeGrenade_Green"
-15
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-
-"M18SmokeGrenade_Purple"
-15
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-
-"M18SmokeGrenade_Red"
-5
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-
-"M18SmokeGrenade_White"
-5
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-
-"M18SmokeGrenade_Yellow"
-10
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-
-"RDG2SmokeGrenade_Black"
-10
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-Po
-
-"RDG2SmokeGrenade_White"
-10
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-Po
-
-
-<!-- EXPLOSIVES_SMOKE END -->
-
-<!-- EXPLOSIVES_THROWN START -->
-
-"FlashGrenade"
-10
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-
-"Grenade_ChemGas"
-0
-
-
-
-
-
-
-        <category name="explosives"/>
-
-"M67Grenade"
-15
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-3/4
-
-"RGD5Grenade"
-15
-
-
-
-
-
-
-        <category name="explosives"/>
-Mi/
-3/4
-
-
-<!-- EXPLOSIVES_THROWN END -->
-
-<!-- ++++++++++ EXPLOSIVES END ++++++++++ -->
 
 <!-- ++++++++++ FIREARMS START ++++++++++ -->
 
 <!-- FIREARMS_ASSAULT START-->
-
-"AK101"
-2
-
-        <restock>3600</restock>        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-4
-
-"AK101_Black"
-2
-
-
-
-
-weapons
-Mi/
-4
-
-"AK101_Green"
-2
-
-
-
-
-weapons
-Mi/
-4
-
-"AK74"
-8
-
-
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-3/4
-
-"AK74_Black"
-4
-
-
-
-
-weapons
-Mi/
-3/4
-
-"AK74_Green"
-3
-
-
-
-
-weapons
-Mi/
-3/4
-
-"AKM"
-1
-
-        <restock>3600</restock>        <quantmin>30</quantmin>
-
-
-
-weapons
-CO/
-
-"AKS74U"
-15
-
-
-        <min>7</min>
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-2/3/4
-
-"AKS74U_Black"
-4
-
-
-
-
-
-
-weapons
-Mi/
-2/3/4
-
-"AKS74U_Green"
-3
-
-
-
-
-
-
-weapons
-Mi/
-2/3/4
-
-"ASVAL"
-8
-
-        <restock>3600</restock>
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-4
-
-"Aug"
-2
-
-        <restock>3600</restock>        <quantmin>30</quantmin>
-
-
-
-weapons
-CO/
-
-"AugShort"
-5
-
-
-
-        <quantmin>30</quantmin>
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-Mi/
-
-"FAL"
-5
-
-
-
-        <quantmin>30</quantmin>
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-Mi/
-
-"FAMAS"
-5
-
-
-
-        <quantmin>30</quantmin>
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-Mi/
-
-"M16A2"
-10
-
-
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-2/
-3/
-
-"M4A1"
-3
-
-        <restock>3600</restock>        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-4
-
-"M4A1_Black"
-                    1               weapons
-CO/
-
-"M4A1_Green"
-                    1               weapons
-CO/
-
-"SawedoffFAMAS"
-0
-weapons
-
-"VSS"
-7
-
-        <restock>3600</restock>
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-4
-
-"Vikhr"
-7
-
-
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Mi/
-3/
-
-
-<!-- FIREARMS_ASSAULT END -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"AK101"                                 2               weapons         Mi              4
+"AK101_Black"                           2               weapons         Mi              4
+"AK101_Green"                           2               weapons         Mi              4
+"AK74"                                  8               weapons         Mi              3/4
+"AK74_Black"                            4               weapons         Mi              3/4
+"AK74_Green"                            3               weapons         Mi              3/4
+"AKM"                                   1               weapons         CO
+"AKS74U"                                15              weapons         Mi              2/3/4
+"AKS74U_Black"                          4               weapons         Mi              2/3/4
+"AKS74U_Green"                          3               weapons         Mi              2/3/4
+"ASVAL"                                 8               weapons         Mi              4
+"Aug"                                   2               weapons         CO
+"AugShort"                              5               weapons         Mi                                                              X
+"FAL"                                   5               weapons         Mi                                                              X
+"FAMAS"                                 5               weapons         Mi                                                              X
+"M16A2"                                 10              weapons         Mi              2/3
+"M4A1"                                  3               weapons         Mi              4
+"M4A1_Black"                            1               weapons         CO
+"M4A1_Green"                            1               weapons         CO
+"SawedoffFAMAS"                         0               weapons
+"VSS"                                   7               weapons         Mi              4
+"Vikhr"                                 7               weapons         Mi              3
 
 <!-- FIREARMS_BOWS START -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Crossbow_Autumn"                       5               weapons         Hu
+"Crossbow_Black"                        5               weapons         T
+"Crossbow_Summer"                       2               weapons         Hu
+"Crossbow_Wood"                         3               weapons         Fa
 
-"Crossbow_Autumn"
-5
-
-
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Hu
-
-"Crossbow_Black"
-5
-
-
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-T/
-
-"Crossbow_Summer"
-2
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Hu
-
-"Crossbow_Wood"
-3
-
-        <quantmin>30</quantmin>
-
-
-
-weapons
-Fa/
-
-
-<!-- FIREARMS_BOWS END -->
 
 <!-- FIREARMS_LAUNCHERS START -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Flaregun"                              25              weapons         C/Fi/Me/Mi/Po
+"M79"                                   3               weapons         Mi/U                                                            X
 
-"Flaregun"
-25
-weapons
-Mi/
-Po
-Me/
-Fi/
-C/
-
-"M79"
-3
-
-        <quantmin>30</quantmin>
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-weapons
-        <value name="Unique"/>
-Mi/
-
-
-<!-- FIREARMS_LAUNCHERS END -->
 
 <!-- FIREARMS_PISTOLS START -->
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "CZ75"
 60
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -598,11 +89,6 @@ V/
 20
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Mi/
 1/2
@@ -611,21 +97,11 @@ Mi/
 25
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 T/
 
 "Deagle_Gold"
 5
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -668,21 +144,11 @@ T/
 5
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Mi/
 
 "FNX45"
 20
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -694,11 +160,6 @@ Mi/
 0
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 
 Po
@@ -707,22 +168,12 @@ Po
 15
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Hu
 2/3/4
 
 "MKII"
 30
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -735,21 +186,11 @@ V/
 25
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 T/
 
 "MakarovIJ70"
 80
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -760,11 +201,6 @@ V/
 
 "P1"
 40
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -825,11 +261,6 @@ Hu
 25
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Fa/
 V/
@@ -838,11 +269,6 @@ Hu
 
 "CZ527_Black"
 10
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -855,11 +281,6 @@ Hu
 5
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Fa/
 V/
@@ -870,11 +291,6 @@ Hu
 5
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Fa/
 V/
@@ -883,11 +299,6 @@ Hu
 
 "CZ550"
 5
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -909,22 +320,12 @@ V/
 1/2
 
 "M14"
-3
-
-        <quantmin>30</quantmin>
-
-
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+3        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
 weapons
 Mi/
 
 "Mosin9130"
 25
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -935,11 +336,6 @@ Hu
 
 "Mosin9130_Black"
 5
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 T/
 V/
@@ -1041,11 +437,6 @@ Mi/
 15
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Po
 2/3/4
@@ -1099,11 +490,6 @@ weapons
 
 "Scout"
 2
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
         <usage name="Prison"/>
 
@@ -1214,11 +600,6 @@ Po
 8
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Mi/
 3/4
@@ -1240,21 +621,11 @@ weapons
 20
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Po
 
 "MP5K"
 12
-
-
-
-        <quantmin>30</quantmin>
-
 
 
 weapons
@@ -1265,11 +636,6 @@ Mi/
 8
 
         <restock>3600</restock>
-
-        <quantmin>30</quantmin>
-
-
-
 weapons
 Mi/
 
@@ -4329,13 +3695,13 @@ I/
 
 "LandMineTrap"
 10
-        <lifetime>1296000</lifetime>
 
 
 
 
 
-        <category name="explosives"/>
+
+explosives
 Mi/
 4
 
@@ -6518,11 +5884,6 @@ tools
 60
 
 
-
-        <quantmin>30</quantmin>
-
-
-
 tools
 
 I/
@@ -7214,7 +6575,7 @@ tools
 
 "BearTrap"
 20
-        <lifetime>1296000</lifetime>
+
 
 
 
@@ -7245,7 +6606,7 @@ tools
 
 "TripwireTrap"
 0
-        <lifetime>1296000</lifetime>
+
 
 
 
