@@ -36,969 +36,116 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 
 <!-- TOOLS_COOKING START -->
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"CanOpener"
-50
-
-
-
-
-
-
-tools
-
-T/
-V/
-
+"CanOpener"                             50              tools           T/V
 "CookingStand"
-0
+"FryingPan"                             40              tools           T/V
+"PortableGasStove"                      40              tools           Hu/V
+"Pot"                                   20              tools           T/V
+"Tripod"                                40              tools           Fa/Hu
 
 
 
-
-
-
-tools
-
-"FryingPan"
-40
-
-
-        <min>25</min>
-
-
-
-tools
-T/
-V/
-
-"OvenIndoor"
-0
-
-
-
-
-
-
-tools
-
-"PortableGasStove"
-40
-
-
-
-
-
-
-tools
-V/
-Hu
-
-"Pot"
-20
-
-
-
-
-
-
-tools
-
-T/
-V/
-
-"Tripod"
-40
-
-
-
-
-
-
-tools
-
-Fa/
-Hu
-
-
-<!-- TOOLS_COOKING END -->
 
 <!-- TOOLS_COMMUNICATION START -->
-
-"BaseRadio"
-10
-
-
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"BaseRadio"                             10              tools           Mi              3/4
+"Megaphone"                             20              tools           Mi/Po/T/V
+"PersonalRadio"                         10              tools           Mi/Po/Me/Fi
 
 
 
-tools
-Mi/
-3/4
-
-"Megaphone"
-20
-
-
-
-
-
-
-tools
-Mi/
-Po
-T/
-V/
-
-"PersonalRadio"
-10
-
-
-
-
-
-
-tools
-
-Mi/
-Po
-Me/
-Fi/
-
-
-<!-- TOOLS_COMMUNICATION END -->
 
 <!-- TOOLS_ELECTRICAL START -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Battery9V"                             40              tools           I/V
+"BatteryCharger"                        30              tools           I
+"CableReel"                             60              tools           I
+"PowerGenerator"                        60              tools           I
 
-"Battery9V"
-40
-
-
-
-        <quantmin>50</quantmin>
-
-
-
-tools
-
-I/
-V/
-
-"BatteryCharger"
-30
-
-        <restock>360</restock>
-
-
-
-
-tools
-I/
-
-"CableReel"
-60
-
-
-        <min>50</min>
-
-
-
-tools
-I/
-
-"PowerGenerator"
-60
-
-
-        <min>50</min>
-
-        <quantmax>70</quantmax>
-
-
-tools
-I/
-
-
-<!-- TOOLS_ELECTRICAL END -->
 
 <!-- TOOLS_FARMING START -->
-
-"AntiPestsSpray"
-0
-
-
-
-
-
-
-tools
-
-"FarmingHoe"
-80
-
-
-        <min>70</min>
-
-
-
-tools
-Fa/
-V/
-
-"GardenLime"
-10
-
-
-
-
-
-
-tools
-Fa/
-
-"GardenPlot"
-0
-
-
-
-
-
-
-tools
-
-"GardenPlotGreenhouse"
-0
-
-
-
-
-
-
-tools
-
-"GardenPlotPolytunnel"
-0
-
-
-
-
-
-
-tools
-
-
-<!-- TOOLS_FARMING END -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"AntiPestsSpray"                        0               tools
+"FarmingHoe"                            80              tools           Fa/V
+"GardenLime"                            10              tools           Fa
+"GardenPlot"                            0               tools
+"GardenPlotGreenhouse"                  0               tools
+"GardenPlotPolytunnel"                  0               tools
 
 <!-- TOOLS_FIRE START -->
-
-"Fireplace"
-0
-
-
-
-
-
-
-tools
-
-"FireplaceIndoor"
-0
-
-
-
-
-
-
-tools
-
-"Firewood"
-0
-
-
-
-
-
-
-tools
-
-"HandDrillKit"
-0
-
-
-
-
-
-
-tools
-
-"LargeGasCanister"
-30
-
-
-
-        <quantmin>65</quantmin>
-
-
-
-tools
-V/
-Hu
-
-"Matchbox"
-60
-
-
-
-
-        <quantmax>90</quantmax>
-
-
-tools
-
-T/
-V/
-Hu
-
-"MediumGasCanister"
-40
-
-
-
-        <quantmin>65</quantmin>
-
-
-
-tools
-V/
-Hu
-
-"PetrolLighter"
-50
-
-
-
-
-
-
-
-tools
-
-T/
-
-"SmallGasCanister"
-50
-
-
-
-        <quantmin>65</quantmin>
-
-
-
-tools
-V/
-Hu
-
-
-<!-- TOOLS_FIRE END -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Fireplace"                             0               tools
+"FireplaceIndoor"                       0               tools
+"Firewood"                              0               tools
+"HandDrillKit"                          0               tools
+"LargeGasCanister"                      30              tools           Hu/V
+"Matchbox"                              60              tools           Hu/T/V
+"MediumGasCanister"                     40              tools           Hu/V
+"PetrolLighter"                         50              tools           T
+"SmallGasCanister"                      50              tools           Hu/V
 
 <!-- TOOLS_FISHING START -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Bait"                                  0               tools
+"BoneBait"                              0               tools
+"BoneHook"                              0               tools
+"FishNetTrap"                           0               tools
+"FishingRod"                            35              tools           C
+"Hook"                                  30              tools           C
+"ImprovisedFishingRod"                  0               tools
 
-"Bait"
-0
-
-
-
-
-
-
-tools
-
-"BoneBait"
-0
-
-
-
-
-
-
-tools
-
-"BoneHook"
-0
-
-
-
-
-
-
-tools
-
-"FishNetTrap"
-0
-
-
-
-
-
-
-tools
-
-"FishingRod"
-35
-
-
-
-
-
-
-tools
-C/
-
-"Hook"
-30
-
-
-
-
-
-
-tools
-
-C/
-
-"ImprovisedFishingRod"
-0
-
-
-
-
-
-
-tools
-
-
-<!-- TOOLS_FISHING END -->
-
-<!-- TOOLS_FLAGS START -->
-
-<!-- TOOLS_FLAGS END -->
 
 <!-- TOOLS_HAND_BLADE START -->
-
-"Cleaver"
-55
-
-
-        <min>45</min>
-
-
-
-tools
-T/
-V/
-
-"CombatKnife"
-20
-
-
-
-
-
-
-tools
-
-Mi/
-
-"CrudeMachete"
-25
-
-
-
-
-
-
-tools
-I/
-2/3/4
-
-"FangeKnife"
-5
-
-
-
-
-
-
-tools
-
-Hu
-
-"FirefighterAxe"
-5
-
-
-
-
-
-
-tools
-
-Fi/
-
-"FirefighterAxe_Black"
-2
-
-
-
-
-tools
-
-Fi/
-
-"FirefighterAxe_Green"
-2
-
-
-
-
-tools
-
-Fi/
-
-"Hacksaw"
-70
-
-
-        <min>50</min>
-
-
-
-tools
-I/
-Fa/
-
-"Hatchet"
-120
-
-
-        <min>95</min>
-
-
-
-tools
-
-Fa/
-V/
-
-"HuntingKnife"
-60
-
-
-        <min>50</min>
-
-
-
-tools
-
-Hu
-
-"KitchenKnife"
-60
-
-
-        <min>50</min>
-
-
-
-tools
-
-T/
-
-"KukriKnife"
-20
-
-
-
-
-
-
-tools
-
-T/
-
-"Machete"
-25
-
-
-
-
-
-
-tools
-Fa/
-2/3/4
-
-"OrientalMachete"
-3
-
-
-
-
-
-
-tools
-T/
-V/
-L
-
-"Sickle"
-50
-
-
-
-
-
-
-tools
-Fa/
-1/2
-
-"SpearBone"
-0
-
-
-
-
-
-
-tools
-
-"SpearStone"
-0
-
-
-
-
-
-
-tools
-
-"SteakKnife"
-70
-
-
-
-
-
-
-tools
-
-V/
-1/
-
-"StoneKnife"
-0
-
-
-
-
-
-
-tools
-
-"Sword"
-2
-
-
-
-
-clothes
-        <usage name="Historical"/>
-
-"WoodAxe"
-20
-
-
-        <min>13</min>
-
-
-
-tools
-I/
-Fa/
-V/
-2/3/4
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"Cleaver"                               55              tools           T/V
+"CombatKnife"                           20              tools           Mi
+"CrudeMachete"                          25              tools           I               2/3/4
+"FangeKnife"                            5               tools           Hu
+"FirefighterAxe"                        5               tools           Fi
+"FirefighterAxe_Black"                  2               tools           Fi
+"FirefighterAxe_Green"                  2               tools           Fi
+"Hacksaw"                               70              tools           Fa/I
+"Hatchet"                               120             tools           Fa/V
+"HuntingKnife"                          60              tools           Hu
+"KitchenKnife"                          60              tools           T
+"KukriKnife"                            20              tools           T
+"Machete"                               25              tools           Fa              2/3/4
+"OrientalMachete"                       3               tools           L/T/V
+"Sickle"                                50              tools           Fa              1/2
+"SpearBone"                             crafted
+"SpearStone"                            crafted
+"SteakKnife"                            70              tools           V               1
+"StoneKnife"                            crafted
+"Sword"                                 2               clothes         Hi
+"WoodAxe"                               20              tools           Fa/I/V          2/3/4
 "BoneKnife"
-0
-
-
-
-
-
-
-tools
-
-
-<!-- TOOLS_HAND_BLADE END -->
 
 <!-- TOOLS_HAND_BLUNT START -->
-
-"BarbedBaseballBat"
-0
-
-
-
-
-
-
-tools
-
-"BaseballBat"
-80
-
-
-        <min>50</min>
-
-
-
-tools
-T/
-V/
-S
-
-"BrassKnuckles_Dull"
-40
-
-
-
-
-
-
-tools
-
-T/
-V/
-
-"BrassKnuckles_Shiny"
-30
-
-
-
-
-
-
-tools
-
-T/
-V/
-3/4
-
-"CattleProd"
-5
-
-
-
-
-tools
-Fa/
-
-"Crowbar"
-70
-
-
-        <min>50</min>
-
-
-
-tools
-I/
-
-"FieldShovel"
-35
-
-
-        <min>28</min>
-
-
-
-tools
-Mi/
-
-"Hammer"
-45
-
-
-
-
-
-
-tools
-I/
-Fa/
-
-"HandSaw"
-70
-
-
-        <min>50</min>
-
-
-
-tools
-I/
-Fa/
-
-"LugWrench"
-60
-
-
-
-
-
-
-tools
-I/
-
-"Mace"
-2
-
-
-
-
-clothes
-        <usage name="Historical"/>
-
-"MeatTenderizer"
-70
-
-
-
-
-
-
-tools
-T/
-V/
-
-"NailedBaseballBat"
-0
-
-
-
-
-
-
-tools
-
-"Pickaxe"
-20
-
-
-        <min>13</min>
-
-
-
-tools
-I/
-Fa/
-2/3/4
-
-"Pipe"
-80
-
-
-
-
-
-
-tools
-I/
-
-"PipeWrench"
-70
-
-
-        <min>50</min>
-
-
-
-tools
-
-I/
-Fa/
-L
-
-<!--
-"PoliceBaton"
-10
-
-
-
-
-
-
-tools
-
-Po
- 
--->
-"Shovel"
-70
-
-
-        <min>50</min>
-
-
-
-tools
-
-I/
-Fa/
-2/3/4
-
-"SledgeHammer"
-20
-
-
-
-
-
-
-tools
-
-I/
-3/4
-
-"StunBaton"
-5
-
-
-
-
-tools
-
-I/
-Po
-
-"Wrench"
-70
-
-
-        <min>50</min>
-
-
-
-tools
-I/
-Fa/
-V/
-
-
-<!-- TOOLS_HAND_BLUNT END -->
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+"BarbedBaseballBat"                     0
+"BaseballBat"                           80              tools           S/T/V
+"BrassKnuckles_Dull"                    40              tools           T/V
+"BrassKnuckles_Shiny"                   30              tools           T/V             3/4
+"CattleProd"                            5               tools           Fa
+"Crowbar"                               70              tools           I
+"FieldShovel"                           35              tools           Mi
+"Hammer"                                45              tools           Fa/I
+"HandSaw"                               70              tools           Fa/I
+"LugWrench"                             60              tools           I
+"Mace"                                  2               clothes         Hi
+"MeatTenderizer"                        70              tools           T/V
+"NailedBaseballBat"                     0
+"Pickaxe"                               20              tools           Fa/I            2/3/4
+"Pipe"                                  80              tools           I
+"PipeWrench"                            70              tools           Fa/I/L
+<!--    "PoliceBaton"   10      tools   Po      -->
+"Shovel"                                70              tools           Fa/I            2/3/4
+"SledgeHammer"                          20              tools           I               3/4
+"StunBaton"                             5               tools           I/Po
+"Wrench"                                70              tools           Fa/I/V
 
 <!-- TOOLS_HAND_MISC START -->
-
+Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "Pitchfork"
 55
 
