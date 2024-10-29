@@ -69,8 +69,19 @@
 
 ## Working
 
+- Added lootable cash registers that contain currency, openable with keys, lockpicks, crowbars, or sledgehammers
+- Increased loot spawns of cash register keys
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 10/29/2024 Start ++++++++++++++++++++ -->
+
+## 10/29/2024
+
 - Removed Mods:
   - @GunnerTruckOshkosh
+  - @6-Dayz-Autorun
+  - @Airdrop-Upgraded
 
 - Installed & Configured Mods:
   - Dayz-Expansion: https://steamcommunity.com/sharedfiles/filedetails/?id=2116151222&searchtext=dayz-expansion-map-assets
@@ -111,7 +122,9 @@
 - Misc.:
   - Added 1x1 inventory slot to armbands
 
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ 10/29/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 10/25/2024 Start ++++++++++++++++++++ -->
 
 ## 10/25/2024
 
@@ -131,6 +144,8 @@
 
 - Vehicles:
   - Removed Dingo Truck event and spawn points, need to find new spawn points as they were using the spawn points as the Kamaz Truck
+
+<!-- ++++++++++++++++++++ 10/25/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/22/2024 Start ++++++++++++++++++++ -->
 

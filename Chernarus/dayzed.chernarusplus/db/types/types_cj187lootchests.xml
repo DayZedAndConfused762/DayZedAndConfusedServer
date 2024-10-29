@@ -487,19 +487,15 @@
         <usage name="Lunapark"/>
     </type>
     <type name="CJ_Key103">
-        <nominal>1</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>25</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
          <category name="tools"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
         <usage name="Coast"/>
@@ -508,7 +504,6 @@
         <usage name="Hunting"/>
         <usage name="Office"/>
         <usage name="School"/>
-        <usage name="Prison"/>
         <usage name="Lunapark"/>
     </type>
     <type name="CJ_Key201">
