@@ -1076,6 +1076,9 @@ er:25 stamp:137387, valid:yes, name:"mpmissions\dayzed.chernarusplus\storage_380
 - Mods:
 
 - Vehicles:
+  - Move MH6 spawn from tisy Position: <1730.287231, 451.775269, 14348.391602>
+Orientation: <2.016927, -0.033347, 0.210079>
+Config-Type: ExpansionMh6_Digital 
   - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
   - Figure out which UAZ needs a glow plug instead of a spark plug
   - Find spawn points for Kamaz Trucks
