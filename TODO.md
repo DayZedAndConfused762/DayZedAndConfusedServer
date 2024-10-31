@@ -95,23 +95,14 @@ Expansion
 
 
 
-ExpansionBriefcase
-ExpansionCiruitBoard_MK1
-ExpansionCiruitBoard_MK2
-ExpansionCiruitBoard_MK3
-ExpansionGoldNugget
-ExpansionSilverNugged
-ExpansionGoldBar
-ExpansionSilverBar
-Expansion_LobotomyDartGun
-Mag_Expansion_LobotomyDart
-Ammo_Expansion_LobotomyDart
-Expansion_ANPEQ15_Green
-Expansion_ANPEQ15_GreenNV
-Expansion_ANPEQ15_Red
+
+
+
+
 ExpansionArmbandBandit
 ExpansionArmbandHero
 ExpansionTacticalGlovesDesert
+ExpansionCoyoteBlack
 ExpansionCowboyHatGator
 ExpansionCowboyHatSnake
 ExpansionCowboyHatRattleSnake	
@@ -120,46 +111,8 @@ ExpansionMich2001Desert
 ExpansionRidersJacketBrown
 ExpansionRidersJacketBrownDarkBlue
 ExpansionRidersJacketFogEaters
-ExpansionBread1
-ExpansionBread2
-ExpansionBread3
-ExpansionCheese1
-ExpansionCheese2
-ExpansionCheese3
-ExpansionCheese4
-ExpansionDeltapointOptic
-ExpansionEXPS3HoloOptic
-
-
-ExpansionCarKey
-ExpansionKeyChain_Red
-ExpansionKeyChain_White
-ExpansionKeyChain_Black
-ExpansionKeyChain_Blue
-ExpansionKeyChain_Green
-ExpansionKeyChain_Grey
-ExpansionKeyChain_Orange
-ExpansionKeyChain_Pink
-ExpansionKeyChain_Purple
-ExpansionKeyChain_Yellow
-ExpansionCoyoteBlack
 ExpansionDesertTortilla
-ExpansionQuestItemPaper
-ExpansionQuestItemPackage
-ExpansionQuestItemBook
-ExpansionQuestItem_NamalskRadio
-ExpansionRadio
-Expansion_Taser_Black
-Expansion_M14
-Expansion_M1A_Black
-Expansion_M1A_Tan
-Expansion_M1A_Green
-Ammo_Expansion_M203_Smoke_		white, red, green, yellow, purple, Teargas, 
-Ammo_Expansion_M203_Sticky_Smoke_   same as above
-Ammo_Expansion_M203_HE
-Expansion_Ammo_FlareSupplyRed
-Expansion_Ammo_FlareSupplyGreen
-Expansion_Ammo_FlareSupplyBlue
+
 
 								
 
