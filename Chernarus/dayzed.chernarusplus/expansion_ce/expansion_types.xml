@@ -1632,7 +1632,41 @@
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
-</types>
+
+
+    <type name="ExpansionCircuitBoard_MK1">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="tools"/>
+    </type>
+    <type name="ExpansionCircuitBoard_MK2">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="tools"/>
+    </type>
+    <type name="ExpansionCircuitBoard_MK3">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="tools"/>
+    </type>
 
 <!-- MISC END -->
 
@@ -1967,8 +2001,7 @@
 
 
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<types>
+
     <!-- ADDITONAL VANILLA CAR VARIANTS -->
     <!-- OFFROAD HATCHBACK -->
     <type name="OffroadHatchback_WhiteRust">
