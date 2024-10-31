@@ -68,6 +68,7 @@
 
 - Added lootable cash registers that contain currency, openable with keys, lockpicks, crowbars, or sledgehammers
 - Increased loot spawns of cash register keys
+- Reverted weather back to vanilla values (no more endless snow)
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
