@@ -2,6 +2,8 @@
 <types>
 <!-- CATEGORIES: -->
 <!--  -->
+<!-- ADMIN: -->
+<!-- -->
 <!-- AMMUNITION: -->
 <!--  AMMUNITION_BOXED  AMMUNITION_EXPLOSIVE  AMMUNITION_LOOSE  AMMUNITION_MAGS -->
 <!-- -->
@@ -15,10 +17,28 @@
 <!-- FIREARMS: -->
 <!--  FIREARMS_ASSAULT  FIREARMS_BOWS  FIREARMS_LAUNCHERS  FIREARMS_PISTOLS  FIREARMS_RIFLES  FIREARMS_SHOTGUNS  FIREARMS_SMG -->
 <!--  -->
+<!-- KEYS -->
+<!-- -->
 <!-- MARKET: -->
 <!--  -->
 <!-- MONEY: -->
 
+<!-- ADMIN START -->
+
+	<type name="ExpansionCarAdminKey">
+        <lifetime>0</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="ExpansionAdminHammer">
+        <lifetime>0</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="ExpansionAdminChest">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+    </type>
+
+<!-- ADMIN END -->
 
 <!-- AMMUNITION START -->
 
@@ -990,6 +1010,42 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="tools"/>
     </type>
+	<type name="ExpansionBoltCutters">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="ExpansionPropaneTorch">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="ExpansionToolBox">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
 
 <!-- BASE_BUILDING END -->
 
@@ -1387,6 +1443,26 @@
 <!-- FIREARMS_SMG END -->
 
 <!-- FIREARMS END -->
+
+<!-- KEYS START -->
+
+    <type name="ExpansionCarKey">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+
+<!-- KEYS END -->
 
 <!-- MARKET START -->
 
