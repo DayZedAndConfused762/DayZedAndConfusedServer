@@ -33,6 +33,18 @@
 
 <!-- AMMUNITION_MAGAZINES START -->
 
+	<type name="Candy_Avenger_Mag_500rnd">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
   	<type name="Candy_BTAPR_mag_7Rnd">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
@@ -105,6 +117,18 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
+	<type name="Candy_RK62M2_mag_45Rnd">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
 	<type name="Candy_SFAR_mag_60Rnd">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
@@ -118,6 +142,18 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_SS2V5_mag_30Rnd">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+	<type name="Candy_RPK_mag_100Rnd">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
