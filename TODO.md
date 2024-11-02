@@ -182,10 +182,11 @@ ExpansionDesertTortilla
 - Server Info:
   - Create a server description/feature list to post on discord and use as a a server advertisement
 
-- Mods:
-
+- Airdrops:
+  - Test these to make sure they are working properly
+  
 - Vehicles:
-  - Create spawnable types file for Pitbul
+  - Test pitbull: see if it takes a spark plug or a glow plug
   - Find spawn locations for Pitbul
   - Move MH6 spawn from tisy Position: <1730.287231, 451.775269, 14348.391602>
       Orientation: <2.016927, -0.033347, 0.210079>
@@ -196,7 +197,6 @@ ExpansionDesertTortilla
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 
 - CJ187 crates:
-  - Add cash registers
   - Make cash registers key or lockpick or tools
   - Make crates key or lockpick
   - Lower damage to tools

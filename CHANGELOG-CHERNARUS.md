@@ -66,6 +66,9 @@
 
 ## Working
 
+- Mods:
+  - Updated server mod, added new Pitbull military vehicle, as well as a new weapon pack (these do not spawn yet)
+
 - Loot Crates:
   - Added lootable cash registers that contain currency, openable with keys, lockpicks, crowbars, or sledgehammers
   - Increased loot spawns of cash register keys
@@ -80,6 +83,13 @@
   - Removed items from airdrops that were causing a crash (items were part of DayZ-Expansion base building mod which we don't have)
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/1/2024 Start ++++++++++++++++++++ -->
+
+- Updated mods:
+  - @CodeLock
+
+<!-- ++++++++++++++++++++ 11/1/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 10/31/2024 Start ++++++++++++++++++++ -->
 
