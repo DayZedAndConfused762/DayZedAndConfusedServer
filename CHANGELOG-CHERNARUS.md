@@ -66,6 +66,10 @@
 
 ## Working
 
+- Base Building:
+  - Updated lifetime of base building parts to two weeks.  Your flag will refresh this duration every five days.  Be sure to keep your flag raised.
+    - Note: Some storage items do have a lower lifetime of 10 days, if you place these in locations not protected by a flag, be sure to interact with it (add or remove from storage) at least once every 10 days or they will despawn.
+
 - Mods:
   - Updated server mod, added new Pitbull military vehicle, as well as a new weapon pack (these do not spawn yet)
 
@@ -77,6 +81,8 @@
   - Reverted weather back to vanilla values (no more endless snow)
 
 - Central Economy:
+  - Updated vehicle lifetime from 45 days to two weeks.
+    - Be sure to interact with your vehicles inventory, or start and move the vehicle at least once every two weeks to prevent it from despawning.
   - Corrected lifetime for some @DayZ-Expansion vehicles
 
 - Bug Fixes:
