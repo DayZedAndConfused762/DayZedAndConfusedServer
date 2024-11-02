@@ -185,6 +185,8 @@ ExpansionDesertTortilla
 - Mods:
 
 - Vehicles:
+  - Create spawnable types file for Pitbul
+  - Find spawn locations for Pitbul
   - Move MH6 spawn from tisy Position: <1730.287231, 451.775269, 14348.391602>
       Orientation: <2.016927, -0.033347, 0.210079>
       Config-Type: ExpansionMh6_Digital 
