@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+NOT a replacment must be add inside your types.xml file  or use CE
+v2  01082023
+ALL MAPS
+MuchCarKey Enable
+-->
+<types>
+	<type name="Ford_flatbed">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="Ford_flatbed_blue">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="Ford_flatbed_red">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="Ford_flatbed_green">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZIL133_flatbed">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZIL133_flatbed_green">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="Ford_flatbed_doors_driver">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_codriver">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_hood">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_codriver_green">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_driver_green">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_hood_green">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_driver_blue">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_codriver_blue">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_hood_blue">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_driver_red">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_codriver_red">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_hood_red">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_doors_trunk">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_tent">
+		<nominal>3</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>3</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_wheel">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_WheelDouble">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_wheel_destroyed">
+		<nominal>0</nominal>
+		<lifetime>300</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="Ford_flatbed_WheelDouble_destroyed">
+		<nominal>0</nominal>
+		<lifetime>300</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_wheel">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_wheel_destroyed">
+		<nominal>0</nominal>
+		<lifetime>300</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_WheelDouble">
+		<nominal>4</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>4</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_WheelDouble_destroyed">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_tent">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_doors_driver">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_doors_codriver">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_doors_hood">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_doors_trunk">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_doors_driver_green">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_doors_codriver_green">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+	<type name="ZIL133_flatbed_doors_hood_green">
+		<nominal>1</nominal>
+		<lifetime>3600</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="vehiclesparts" />
+		<tag name="floor" />
+		<usage name="Industrial" />
+	</type>
+</types>
