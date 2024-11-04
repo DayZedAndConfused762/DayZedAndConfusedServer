@@ -78,13 +78,14 @@
   - Increased loot spawns of cash register keys
 
 - Weather:
-  - Reverted weather back to vanilla values (no more endless snow)
+  - Reverted weather back to vanilla values (no more endless snow, will be coming back to this one)
 
 - Central Economy:
-  - Updated vehicle lifetime from 45 days to two weeks.
-    - Be sure to interact with your vehicles inventory, or start and move the vehicle at least once every two weeks to prevent it from despawning.
+  - Updated vehicle lifetime from 45 days to two weeks
+    - Be sure to interact with your vehicles inventory, or start and move the vehicle at least once every two weeks to prevent it from despawning
   - Corrected lifetime for some @DayZ-Expansion vehicles
-`
+  - Adjusted rates of currency spawns
+
 - Bug Fixes:
   - Removed items from airdrops that were causing a crash (items were part of DayZ-Expansion base building mod which we don't have)
 
