@@ -13,6 +13,8 @@
 ## Contents:
 
 - [Working](#Working)
+- [11/4/2024](#11/4/2024)
+- [10/31/2024](#10/31/2024)
 - [10/29/2024](#10/29/2024)
 - [10/25/2024](#10/25/2024)
 - [10/22/2024](#10/22/2024)
@@ -66,12 +68,19 @@
 
 ## Working
 
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/4/2024 Start ++++++++++++++++++++ -->
+
+## 11/4/2024
+
 - Base Building:
   - Updated lifetime of base building parts to two weeks.  Your flag will refresh this duration every five days.  Be sure to keep your flag raised.
     - Note: Some storage items do have a lower lifetime of 10 days, if you place these in locations not protected by a flag, be sure to interact with it (add or remove from storage) at least once every 10 days or they will despawn.
 
 - Mods:
   - Updated server mod, added new Pitbull military vehicle, as well as a new weapon pack (these do not spawn yet)
+  - Installed Red Falon Flight System Heliz (this is not configured yet)
 
 - Loot Crates:
   - Added lootable cash registers that contain currency, openable with keys, lockpicks, crowbars, or sledgehammers
@@ -89,7 +98,7 @@
 - Bug Fixes:
   - Removed items from airdrops that were causing a crash (items were part of DayZ-Expansion base building mod which we don't have)
 
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ 11/4/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/2/2024 Start ++++++++++++++++++++ -->
 
