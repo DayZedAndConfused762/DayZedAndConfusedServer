@@ -31,7 +31,7 @@ Dynamic Event       De
 
 <!-- CATEGORIES: -->
 <!-- -->
-<!--  ATTACHMENTS_BAYONETS  ATTACHMENTS_COMPENSATORS  ATTACHMENTS_GRIPS  ATTACHMENTS_LASERS  ATTACHMENTS_OPTICS  -->
+<!--  ATTACHMENTS_BAYONETS  ATTACHMENTS_COMPENSATORS  ATTACHMENTS_GRIPS  ATTACHMENTS_LIGHTS  ATTACHMENTS_OPTICS  -->
 <!--  ATTACHMENTS_STOCKS  ATTACHMENTS_SUPPRESSORS  ATTACHMENTS_WRAPS  -->
 <!-- -->
 
@@ -96,7 +96,7 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod
 
 <!-- ATTACHMENTS_GRIPS END -->
 
-<!-- ATTACHMENTS_LASERS START -->
+<!-- ATTACHMENTS_LIGHTS START -->
 
 Item				                    Nominal		    Category	    Usage		    Value		    Mod
 "M4_UniversalLasersight_Atacs_AU"       1               weapons         Mi              .               @CJ187MoreWeapons
@@ -106,8 +106,16 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod
 "M4_UniversalLasersight_Green"          1               weapons         Mi              .               @CJ187MoreWeapons
 "M4_UniversalLasersight_Tan"            1               weapons         Mi              .               @CJ187MoreWeapons
 "M4_UniversalLasersight_White"          1               weapons         Mi              .               @CJ187MoreWeapons
+"TLRLight"                              40              weapons         Mi/Po           2/3/4
+"UniversalLight"                        30              weapons         Mi/Po           2/3/4
+Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
+"Candy_MBL_Light"                       0               Mi/
+"Candy_SUR_Light"                       0               Mi/
+"Candy_TRL2_Light"                      0               Mi/
+"Candy_X300_Light"                      0               Mi/
+"Candy_X400_Light"                      0               Mi/
 
-<!-- ATTACHMENTS_LASERS END -->
+<!-- ATTACHMENTS_LIGHTS END -->
 
 <!-- ATTACHMENTS_OPTICS START -->
 
@@ -125,6 +133,47 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod
 "M68Optic_Green"                        1               weapons         Mi              .               @CJ187MoreWeapons
 "M68Optic_Tan"                          1               weapons         Mi              .               @CJ187MoreWeapons
 "M68Optic_White"                        1               weapons         Mi              .               @CJ187MoreWeapons
+Item				                    Nominal		    Category	    Usage		    Value		    Mod
+"ACOGOptic"                             10              weapons         Mi
+"ACOGOptic_6x"                          5               weapons         Mi/Po           3/4
+"BUISOptic"                             10              weapons         Mi              2/3/4
+"FNP45_MRDSOptic"                       10              weapons         Mi              3/4
+"HuntingOptic"                          15              weapons         Hu              2/3/4
+"KashtanOptic"                          15              weapons         Mi
+"KazuarOptic"                           1               weapons         CO
+"KobraOptic"                            15              weapons         Mi
+"M4_CarryHandleOptic"                   5               weapons         Mi
+"M4_T3NRDSOptic"                        10              weapons         Mi              3/4
+"M68Optic"                              15              weapons         Mi
+"PSO11Optic"                            5               weapons         Mi              3/4
+"PSO1Optic"                             15              weapons         Mi
+"PUScopeOptic"                          15              weapons         Hu/Mi
+"PistolOptic"                           10              weapons         Hu              3/4
+"ReflexOptic"                           20              weapons         Mi              1/2/3
+"StarlightOptic"                        1               weapons         CO
+Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
+"Candy_98S_Optic"                       0               Mi/
+"Candy_Barsuk_Optic"                    0               Mi/
+"Candy_BR_Optic"                        0               Mi/
+"Candy_DKS501_Optic"                    0               Mi/
+"Candy_FLINT_Optic"                     0               Mi/
+"Candy_GS15_Optic"                      0               Mi/
+"Candy_GX_Optic"                        0               Mi/
+"Candy_HAMR_Optic"                      0               Mi/
+"Candy_Leupold_Optic"                   0               Mi/
+"Candy_M900_Optic"                      0               Mi/
+"Candy_MD_Optic"                        0               Mi/
+"Candy_Razor_Optic"                     0               Mi/
+"Candy_SC_Optic"                        0               Mi/
+"Candy_SN_Optic"                        0               Mi/
+"Candy_SPIT_Optic"                      0               Mi/
+"Candy_SRR_Optic"                       0               Mi/
+"Candy_SSZ_Optic"                       0               Mi/
+
+
+"Candy_SW_Optic"                        0               Mi/
+"Candy_TA11_Optic"                      0               Mi/
+"Candy_UH1_Optic"                       0               Mi/
 
 <!-- ATTACHMENTS_OPTICS END -->
 
@@ -149,71 +198,6 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod
 "MLOK_Buttstock_Green"                  1               weapons         Mi              .               @CJ187MoreWeapons
 "MLOK_Buttstock_Tan"                    1               weapons         Mi              .               @CJ187MoreWeapons
 "MLOK_Buttstock_White"                  1               weapons         Mi              .               @CJ187MoreWeapons
-
-<!-- ATTACHMENTS_STOCKS END -->
-
-<!-- ATTACHMENTS_SUPPRESSORS START -->
-
-Item				                    Nominal		    Category	    Usage		    Value		    Mod
-"M4_Suppressor_Green"                   1               weapons         Mi              De              @CJ187MoreWeapons
-"M4_Suppressor_Tan"                     1               weapons         Mi              4               @CJ187MoreWeapons
-"M4_Suppressor_White"                   1               weapons         Mi              2/3             @CJ187MoreWeapons
-"M4_Suppressor_ATACS_AU"                1               weapons         Co/Mi                           @CJ187MoreWeapons
-"M4_Suppressor_ATACS_FG"                1               weapons         Mi              De              @CJ187MoreWeapons
-"M4_Suppressor_ATACS_IX"                1               weapons         Mi              De              @CJ187MoreWeapons
-
-
-"vg7_scorpion_suppressor"               2               weapons         CA                              @BlackoutScorpion
-
-<!-- ATTACHMENTS_SUPPERSORS END -->
-
-<!-- ATTACHMENTS_WRAPS START -->
-
-<!-- ATTACHMENTS_WRAPS END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Item				                    Nominal		    Category	    Usage		    Value		    Mod
-"TLRLight"                              40              weapons         Mi/Po           2/3/4
-"UniversalLight"                        30              weapons         Mi/Po           2/3/4
-
-Item				                    Nominal		    Category	    Usage		    Value		    Mod
-"ACOGOptic"                             10              weapons         Mi
-"ACOGOptic_6x"                          5               weapons         Mi/Po           3/4
-"BUISOptic"                             10              weapons         Mi              2/3/4
-"FNP45_MRDSOptic"                       10              weapons         Mi              3/4
-"HuntingOptic"                          15              weapons         Hu              2/3/4
-"KashtanOptic"                          15              weapons         Mi
-"KazuarOptic"                           1               weapons         CO
-"KobraOptic"                            15              weapons         Mi
-"M4_CarryHandleOptic"                   5               weapons         Mi
-"M4_T3NRDSOptic"                        10              weapons         Mi              3/4
-"M68Optic"                              15              weapons         Mi
-"PSO11Optic"                            5               weapons         Mi              3/4
-"PSO1Optic"                             15              weapons         Mi
-"PUScopeOptic"                          15              weapons         Hu/Mi
-"PistolOptic"                           10              weapons         Hu              3/4
-"ReflexOptic"                           20              weapons         Mi              1/2/3
-"StarlightOptic"                        1               weapons         CO
-
 Item				                    Nominal		    Category	    Usage		    Value		    Mod
 "AK_FoldingBttstck"                     3               weapons         Mi
 "AK_FoldingBttstck_Black"               1               weapons         Mi
@@ -241,60 +225,6 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod
 "MP5k_StockBttstck"                     4               weapons         Mi
 "PP19_Bttstck"                          4               weapons         Mi
 "Saiga_Bttstck"                         5               weapons         Mi
-
-Item				                    Nominal         Category	    Usage		Value		Mod                             DE Loot
-"AK_Suppressor"                         2               weapons         CO
-"ImprovisedSuppressor"                  crafted         weapons
-"M4_Suppressor"                         2               weapons         CO
-"PistolSuppressor"                      10              weapons         Mi/Po
-
-Item				                    Nominal         Category	    Usage		Value		Mod                             DE Loot
-"GhillieAtt_Mossy"                      5               clothes         Mi          De
-"GhillieAtt_Tan"                        0               clothes
-"GhillieAtt_Woodland"                   0               clothes
-
-
-
-<!-- ATTACHMENTS START -->
-
-<!-- ATTACHMENTS_LIGHTS -->
-Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_MBL_Light"                       0               Mi/
-"Candy_SUR_Light"                       0               Mi/
-"Candy_TRL2_Light"                      0               Mi/
-"Candy_X300_Light"                      0               Mi/
-"Candy_X400_Light"                      0               Mi/
-
-<!-- ATTACHMENTS_LIGHTS -->
-
-<!-- ATTACHMENTS_OPTICS --> 
-Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_98S_Optic"                       0               Mi/
-"Candy_Barsuk_Optic"                    0               Mi/
-"Candy_BR_Optic"                        0               Mi/
-"Candy_DKS501_Optic"                    0               Mi/
-"Candy_FLINT_Optic"                     0               Mi/
-"Candy_GS15_Optic"                      0               Mi/
-"Candy_GX_Optic"                        0               Mi/
-"Candy_HAMR_Optic"                      0               Mi/
-"Candy_Leupold_Optic"                   0               Mi/
-"Candy_M900_Optic"                      0               Mi/
-"Candy_MD_Optic"                        0               Mi/
-"Candy_Razor_Optic"                     0               Mi/
-"Candy_SC_Optic"                        0               Mi/
-"Candy_SN_Optic"                        0               Mi/
-"Candy_SPIT_Optic"                      0               Mi/
-"Candy_SRR_Optic"                       0               Mi/
-"Candy_SSZ_Optic"                       0               Mi/
-
-
-"Candy_SW_Optic"                        0               Mi/
-"Candy_TA11_Optic"                      0               Mi/
-"Candy_UH1_Optic"                       0               Mi/
-
-<!-- ATTACHMENTS_OPTICS --> 
-
-<!-- ATTACHMENTS_STOCKS -->
 Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
 "Candy_AK103_Buttstock"                 0               Mi/
 "Candy_AK12M2_Buttstock"                0               Mi/
@@ -338,9 +268,26 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod 
 "Candy_ULR_Buttstock"                   0               Mi/
 "Candy_Underwater_aps_Buttstock"        0               Mi/
 
-<!-- ATTACHMENTS_STOCKS -->
+<!-- ATTACHMENTS_STOCKS END -->
 
 <!-- ATTACHMENTS_SUPPRESSORS START -->
+
+Item				                    Nominal		    Category	    Usage		    Value		    Mod
+"M4_Suppressor_Green"                   1               weapons         Mi              De              @CJ187MoreWeapons
+"M4_Suppressor_Tan"                     1               weapons         Mi              4               @CJ187MoreWeapons
+"M4_Suppressor_White"                   1               weapons         Mi              2/3             @CJ187MoreWeapons
+"M4_Suppressor_ATACS_AU"                1               weapons         Co/Mi                           @CJ187MoreWeapons
+"M4_Suppressor_ATACS_FG"                1               weapons         Mi              De              @CJ187MoreWeapons
+"M4_Suppressor_ATACS_IX"                1               weapons         Mi              De              @CJ187MoreWeapons
+Item				                    Nominal         Category	    Usage		Value		Mod                             DE Loot
+"AK_Suppressor"                         2               weapons         CO
+"ImprovisedSuppressor"                  crafted         weapons
+"M4_Suppressor"                         2               weapons         CO
+"PistolSuppressor"                      10              weapons         Mi/Po
+
+"vg7_scorpion_suppressor"               2               weapons         CA                              @BlackoutScorpion
+
+
 Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
 "Candy_CRS_Sup"                         0               Mi/
 "Candy_FO4_Sup"                         0               Mi/
@@ -356,129 +303,27 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod 
 "Candy_SH_Sup"                          0               Mi/
 "Candy_XRM_Sup"                         0               Mi/
 
-<!-- ATTACHMENTS_SUPPRESSORS END -->
 
-<!-- ATTACHMENTS END -->
+<!-- ATTACHMENTS_SUPPRESORS END -->
 
+<!-- ATTACHMENTS_WRAPS START -->
 
-	<!-- OPTICS -->
-"ExpansionKar98ScopeOptic"        <nominal>7</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-"ExpansionDeltapointOptic"        <nominal>4</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"ExpansionEXPS3HoloOptic"        <nominal>4</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"ExpansionHAMROptic"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_PMII25Optic"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"ExpansionReflexMRSOptic"        <nominal>6</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-	<!-- MISC ATTACHEMENTS -->
-"Expansion_M1A_RailAtt"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_ANPEQ15_Red"        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_Kar98_Bayonet"        <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Hunting"/>
-        <usage name="Farm"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
+Item				                    Nominal         Category	    Usage		Value		Mod
+"GhillieAtt_Mossy"                      5               clothes         Mi          De
+"GhillieAtt_Tan"                        0               clothes
+"GhillieAtt_Woodland"                   0               clothes
+
+<!-- ATTACHMENTS_WRAPS END -->
+
+Item				                    Nominal         Category	    Usage		Value		Mod
+"ExpansionKar98ScopeOptic"              7               weapons         Mi
+"ExpansionDeltapointOptic"              4               weapons         Mi          3/4
+"ExpansionEXPS3HoloOptic"               4               weapons         Mi          3/4
+"ExpansionHAMROptic"                    3               weapons         Mi          3/4
+"Expansion_PMII25Optic"                 3               weapons         Mi          3/4
+"ExpansionReflexMRSOptic"               6               weapons         Mi          1/2/3
+
+"Expansion_M1A_RailAtt"                 3               weapons         Mi          2/3/4
+
+"Expansion_ANPEQ15_Red"                 3               weapons         Mi          3/4
+"Expansion_Kar98_Bayonet"               3               weapons         Fa/Hu/Mi    2/3
