@@ -1,4 +1,34 @@
-﻿
+﻿Usages:
+Coast               C
+ContaminatedArea    CA
+Drugcar             D
+Farm                Fa
+Firefighter         Fi
+Industrial          I
+Historical          Hi
+Hunting             Hu
+Lunapark            L
+Medic               Me
+Military            Mi
+Office              O
+Police              Po
+Prison              Pr
+School              S
+SeasonalEvent       Se
+Town                T
+Village             V
+
+Categories:
+vehiclesparts       vp
+
+Values:
+Tier1               1
+Tier2               2    
+Tier3               3
+Tier4               4
+Unique              U
+Dynamic Event       De
+
 
 
 
@@ -8,15 +38,8 @@ Item				                    Nominal		    Category	    Usage		    Value		    Mod 
 "BBP_TapeMeasure"		                20		        tools		    I		        .		        @BaseBuildingPlus
 "BBP_Blueprint"			                20		        tools		    I		        .		        @BaseBuildingPlus
 
-
-Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
 "CodeLock"                              40              tools           Fa/I                            @CodeLock
 
-
-
-Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"mmg_raidsaw"                           2               tools           Fa/I/Mi                         @MMGBaseStorage
-"mmg_raid_driver"                       2               tools           Fa/I/Mi                         @MMGBaseStorage
 "mmg_craftable_tent_kit"                0               tools           Fa/Hi/Hu                        @MMGBaseStorage
 "mmg_crate04_olive"                     1               tools           FA/I                            @MMGBaseStorage
 "mmg_crate04_black"                     1               tools           FA/I                            @MMGBaseStorage
