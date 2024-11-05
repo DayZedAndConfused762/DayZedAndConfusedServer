@@ -81,6 +81,9 @@
     - Note: Some storage items do have a lower lifetime of 10 days, if you place these in locations not protected by a flag, be sure to interact with it (add or remove from storage) at least once every 10 days or they will despawn.
 
 - Mods:
+  - Updated mods:
+    - MMG Base Storage
+    - UAZ51314
   - Updated server mod, added new Pitbull military vehicle, as well as a new weapon pack (these do not spawn yet)
   - Installed Red Falon Flight System Heliz (this is not configured yet)
 

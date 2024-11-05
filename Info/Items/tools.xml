@@ -177,3 +177,32 @@ Item				        Nominal         Category	Usage		Value		Mod                      
 
 Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
 "Jig"                       20              tools       C
+
+"ExpansionGPS"        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+
+<!-- MELEE START -->
+Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
+"Candy_Butterfly"                   0               Mi/
+"Candy_FuryBeans"                   0               Mi/
+"Candy_Kukri"                       0               Mi/
+"Candy_Machete"                     0               Mi/
+"Candy_MechAxe"                     0               Mi/
+"Candy_Torch"                       0               Mi/
+"Candy_Tube"                        0               Mi/
+"Candy_SharpTube"                   0               Mi/
+"Candy_VIETKNF"                     0               Mi/
