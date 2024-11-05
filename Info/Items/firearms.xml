@@ -76,6 +76,10 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "SawedoffFAMAS"                         0               weapons
 "VSS"                                   7               weapons         Mi              4
 "Vikhr"                                 7               weapons         Mi              3
+"Expansion_M16"                         3               weapons         Mi              3/4
+"Expansion_M1A"                         3               weapons         Mi              2/3/4
+"Expansion_M14"                         4               weapons         Mi              2/3/4
+
 
 <!-- FIREARMS_BOWS START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -83,12 +87,17 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Crossbow_Black"                        5               weapons         T
 "Crossbow_Summer"                       2               weapons         Hu
 "Crossbow_Wood"                         3               weapons         Fa
+"Expansion_Crossbow"                    0               weapons         Fa/V            1/2/3
 
 
 <!-- FIREARMS_LAUNCHERS START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
 "Flaregun"                              25              weapons         C/Fi/Me/Mi/Po
 "M79"                                   3               weapons         Mi/U                                                            X
+"ExpansionRPG7"                         1               weapons         Mi              3/4
+"ExpansionLAW"                          1               weapons         Mi              3/4
+"Expansion_M79"                         0               weapons         Mi              3/4
+"ExpansionFlaregun"                     0               weapons         Mi              3/4
 
 <!-- FIREARMS_LMG START -->
 Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
@@ -123,6 +132,11 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "SawedoffMagnum"                        0               weapons
 "Candy_P229"                            0               Mi/
 "Candy_FiveSeven"                       0               Mi/
+"Expansion_Taser_Yellow"                10              weapons         Po              1/2/3
+"Expansion_Taser_Black"                 0               weapons
+
+"Expansion_M9"                          6               weapons         Mi              1/2
+"Expansion_Longhorn"                    0               weapons         Hu              2/3/4
 
 <!-- FIREARMS_RIFLES START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -185,6 +199,10 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Candy_MSR"                             0               Mi/
 "Candy_SSZ"                             0               Mi/
 "Candy_VSSK"                            0               Mi/
+"Expansion_DT11"                        4               weapons         Hu              2/3/4
+"Expansion_AWM"                         2               weapons         Mi              3/4/De
+"Expansion_Kar98"                       10              weapons         Hu/Fa/T/V       1/2/3
+
 
 <!-- FIREARMS_SHOTGUNS START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -198,6 +216,7 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Candy_Gatling"                         0               Mi/
 "Candy_KOMRAD"                          0               Mi/
 "Candy_SOLYANKA"                        0               Mi/
+"Expansion_BenelliM4"                   5               weapons         Mi              1/2
 
 <!-- FIREARMS_SMG START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -208,28 +227,6 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Candy_MP5"                             0               Mi/
 "Candy_Kriss"                           0               Mi/
 "vg7_scorpion_smg"                      1               weapons         CA                              @Blackouts Scorpion
-
-
-
-
-	<!-- CROSSBOWS -->
-Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
-"Expansion_Crossbow"                    0               weapons         Fa/V            1/2/3
-
-	<!-- LAUNCHERS -->
-"ExpansionRPG7"                         1               weapons         Mi              3/4
-"ExpansionLAW"                          1               weapons         Mi              3/4
-"Expansion_M79"                         0               weapons         Mi              3/4
-"ExpansionFlaregun"                     0               weapons         Mi              3/4
-
-	<!-- PISTOLS -->
-"Expansion_Taser_Yellow"                10              weapons         Po              1/2/3
-"Expansion_Taser_Black"                 0               weapons
-
-"Expansion_M9"                          6               weapons         Mi              1/2
-"Expansion_Longhorn"                    0               weapons         Hu              2/3/4
-
-	<!-- SUBMACHINE GUNS -->
 "Expansion_G36"                         5               weapons         Mi              2/3
 "Expansion_MPX"                         5               weapons         Mi              2/3
 "Expansion_MP5"                         5               weapons         Mi              2/3/4
@@ -239,17 +236,17 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Expansion_Kedr"                        3               weapons         Mi              2/3
 "Expansion_VityazSN"                    3               weapons         Mi              2/3/4
 
-	<!-- ASSAULT RIFLES -->
-"Expansion_M16"                         3               weapons         Mi              3/4
-"Expansion_M1A"                         3               weapons         Mi              2/3/4
-"Expansion_M14"                         4               weapons         Mi              2/3/4
 
-	<!-- RIFLES -->
-"Expansion_DT11"                        4               weapons         Hu              2/3/4
 
-	<!-- SHOTGUNS -->
-"Expansion_BenelliM4"                   5               weapons         Mi              1/2
 
-	<!-- SNIPER RIFLES -->
-"Expansion_AWM"                         2               weapons         Mi              3/4/De
-"Expansion_Kar98"                       10              weapons         Hu/Fa/T/V       1/2/3
+
+	<!-- CROSSBOWS -->
+Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
+
+
+
+
+	<!-- PISTOLS -->
+
+
+	<!-- SUBMACHINE GUNS -->
