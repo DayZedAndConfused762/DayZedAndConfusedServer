@@ -37,6 +37,36 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "ASVAL"                                 8               weapons         Mi              4
 "Aug"                                   2               weapons         CO
 "AugShort"                              5               weapons         Mi                                                              X
+"Candy_ACRBushMaster"                   0               Mi/
+"Candy_AK103"                           0               Mi/
+"Candy_AK12M2"                          0               Mi/
+"Candy_AK47MD"                          0               Mi/
+"Candy_AK74SOCOM"                       0               Mi/
+"Candy_AK74SOCOMv2"                     0               Mi/
+"Candy_AKALFA"                          0               Mi/
+"Candy_AKM"                             0               Mi/
+"Candy_AMB17"                           0               Mi/
+"Candy_AR15"                            0               Mi/
+"Candy_ARX_160"                         0               Mi/
+"Candy_ASH12"                           0               Mi/
+"Candy_BR80"                            0               Mi/
+"Candy_FAMASVHS"                        0               Mi/
+"Candy_FAMASVHSv2"                      0               Mi/
+"Candy_G36"                             0               Mi/
+"Candy_G36X"                            0               Mi/
+"Candy_GSAR15"                          0               Mi/
+"Candy_HGK56"                           0               Mi/
+"Candy_HK416"                           0               Mi/
+"Candy_HoneyBadger"                     0               Mi/
+"Candy_KPA88"                           0               Mi/
+"Candy_MK18"                            0               Mi/
+"Candy_RK62M2"                          0               Mi/
+"Candy_SA80"                            0               Mi/
+"Candy_SCARSC"                          0               Mi/
+"Candy_SFAR"                            0               Mi/
+"Candy_SS2V5"                           0               Mi/
+"Candy_Underwater_aps"                  0               Mi/
+"Candy_XRKM4"                           0               Mi/
 "FAL"                                   5               weapons         Mi                                                              X
 "FAMAS"                                 5               weapons         Mi                                                              X
 "M16A2"                                 10              weapons         Mi              2/3
@@ -60,6 +90,17 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Flaregun"                              25              weapons         C/Fi/Me/Mi/Po
 "M79"                                   3               weapons         Mi/U                                                            X
 
+<!-- FIREARMS_LMG START -->
+Item				                    Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
+"Candy_Avenger"                         0               Mi/
+"Candy_FMX"                             0               Mi/
+"Candy_LMG"                             0               Mi/
+"Candy_M60"                             0               Mi/
+"Candy_M249"                            0               Mi/
+"Candy_PKP"                             0               Mi/
+"Candy_RPK"                             0               Mi/
+"Candy_Sammy"                           0               Mi/
+<!-- FIREARMS_LMG END -->
 
 <!-- FIREARMS_PISTOLS START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -80,7 +121,8 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Msp_Water_Gun"                         4               weapons         C/V             1               @MuchStuffPack
 "P1"                                    40              weapons         T/V             2/3
 "SawedoffMagnum"                        0               weapons
-
+"Candy_P229"                            0               Mi/
+"Candy_FiveSeven"                       0               Mi/
 
 <!-- FIREARMS_RIFLES START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -118,8 +160,31 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Winchester70"                          8               weapons         Hu              2/3/4
 "Winchester70_Black"                    3               weapons         Hu              3/4
 "Winchester70_Green"                    2               weapons         Hu              3/4
-
-
+"Candy_Beowolf"                         0               Mi/
+"Candy_CSMillan"                        0               Mi/
+"Candy_HKG28"                           0               Mi/
+"Candy_KalashnikovSR1"                  0               Mi/
+"Candy_M110"                            0               Mi/
+"Candy_M900"                            0               Mi/
+"Candy_MK14_EBR"                        0               Mi/
+"Candy_ScarH"                           0               Mi/
+"Candy_AK50"                            0               Mi/
+"Candy_AR50A"                           0               Mi/
+"Candy_Arbiter"                         0               Mi/
+"Candy_BTAPR"                           0               Mi/
+"Candy_CDX"                             0               Mi/
+"Candy_CTM200"                          0               Mi/
+"Candy_DenelNTW"                        0               Mi/
+"Candy_DKS501"                          0               Mi/
+"Candy_DVL"                             0               Mi/
+"Candy_K14"                             0               Mi/
+"Candy_Kar98S"                          0               Mi/
+"Candy_KVSK"                            0               Mi/
+"Candy_M82A1"                           0               Mi/
+"Candy_M98B"                            0               Mi/
+"Candy_MSR"                             0               Mi/
+"Candy_SSZ"                             0               Mi/
+"Candy_VSSK"                            0               Mi/
 
 <!-- FIREARMS_SHOTGUNS START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -129,7 +194,10 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "Saiga"                                 8               weapons         Mi              3/4
 "SawedoffIzh18Shotgun"                  0               weapons
 "SawedoffIzh43Shotgun"                  0               weapons
-"vg7_scorpion_smg"                      1               weapons         CA                              @Blackouts Scorpion
+
+"Candy_Gatling"                         0               Mi/
+"Candy_KOMRAD"                          0               Mi/
+"Candy_SOLYANKA"                        0               Mi/
 
 <!-- FIREARMS_SMG START -->
 Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
@@ -137,451 +205,51 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "MP5K"                                  12              weapons         Mi              1/2/3
 "PP19"                                  8               weapons         Mi
 "UMP45"                                 10              weapons         Mi
-
-
-
-<!-- FIREARMS START -->
-
-<!-- FIREARMS_ASSAULT START -->
-Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_ACRBushMaster"               0               Mi/
-"Candy_AK103"                       0               Mi/
-"Candy_AK12M2"                      0               Mi/
-"Candy_AK47MD"                      0               Mi/
-"Candy_AK74SOCOM"                   0               Mi/
-"Candy_AK74SOCOMv2"                 0               Mi/
-"Candy_AKALFA"                      0               Mi/
-"Candy_AKM"                         0               Mi/
-"Candy_AMB17"                       0               Mi/
-"Candy_AR15"                        0               Mi/
-"Candy_ARX_160"                     0               Mi/
-"Candy_ASH12"                       0               Mi/
-"Candy_BR80"                        0               Mi/
-"Candy_FAMASVHS"                    0               Mi/
-"Candy_FAMASVHSv2"                  0               Mi/
-"Candy_G36"                         0               Mi/
-"Candy_G36X"                        0               Mi/
-"Candy_GSAR15"                      0               Mi/
-"Candy_HGK56"                       0               Mi/
-"Candy_HK416"                       0               Mi/
-"Candy_HoneyBadger"                 0               Mi/
-"Candy_KPA88"                       0               Mi/
-"Candy_MK18"                        0               Mi/
-"Candy_RK62M2"                      0               Mi/
-"Candy_SA80"                        0               Mi/
-"Candy_SCARSC"                      0               Mi/
-"Candy_SFAR"                        0               Mi/
-"Candy_SS2V5"                       0               Mi/
-"Candy_Underwater_aps"              0               Mi/
-"Candy_XRKM4"                       0               Mi/
-
-<!-- FIREARMS_ASSAULT END -->
-
-<!-- FIREARMS_LMG START -->
-Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_Avenger"                     0               Mi/
-"Candy_FMX"                         0               Mi/
-"Candy_LMG"                         0               Mi/
-"Candy_M60"                         0               Mi/
-"Candy_M249"                        0               Mi/
-"Candy_PKP"                         0               Mi/
-"Candy_RPK"                         0               Mi/
-"Candy_Sammy"                       0               Mi/
-
-
-<!-- FIREARMS_LMG END -->
-
-<!-- FIREARMS_PISTOLS START -->
-Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_P229"                        0               Mi/
-"Candy_FiveSeven"                   0               Mi/
-
-<!-- FIREARMS_PISTOLS END -->
-
-<!-- FIREARMS_RIFLES START -->
-Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_Beowolf"                     0               Mi/
-"Candy_CSMillan"                    0               Mi/
-"Candy_HKG28"                       0               Mi/
-"Candy_KalashnikovSR1"              0               Mi/
-"Candy_M110"                        0               Mi/
-"Candy_M900"                        0               Mi/
-"Candy_MK14_EBR"                    0               Mi/
-"Candy_ScarH"                       0               Mi/
-
-
-
-<!-- FIREARMS_RIFLES END -->
-
-<!-- FIREARMS_SHOTGUNS START -->
-Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_Gatling"                     0               Mi/
-"Candy_KOMRAD"                      0               Mi/
-"Candy_SOLYANKA"                    0               Mi/
-
-
-<!-- FIREARMS_SHOTGUNS END -->
-
-<!-- FIREARMS_SNIPER START -->
-Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_AK50"                        0               Mi/
-"Candy_AR50A"                       0               Mi/
-"Candy_Arbiter"                     0               Mi/
-"Candy_BTAPR"                       0               Mi/
-"Candy_CDX"                         0               Mi/
-"Candy_CTM200"                      0               Mi/
-"Candy_DenelNTW"                    0               Mi/
-"Candy_DKS501"                      0               Mi/
-"Candy_DVL"                         0               Mi/
-"Candy_K14"                         0               Mi/
-"Candy_Kar98S"                      0               Mi/
-"Candy_KVSK"                        0               Mi/
-"Candy_M82A1"                       0               Mi/
-"Candy_M98B"                        0               Mi/
-"Candy_MSR"                         0               Mi/
-"Candy_SSZ"                         0               Mi/
-"Candy_VSSK"                        0               Mi/
-
-
-<!-- FIREARMS_SNIPER END -->
-
-<!-- FIREARMS_SMG START -->
-Item				                Nominal		    Category	    Usage		    Value		    Mod                             DE Loot
-"Candy_MP5"                         0               Mi/
-"Candy_Kriss"                       0               Mi/
-
-<!-- FIREARMS_SMG END -->
+"Candy_MP5"                             0               Mi/
+"Candy_Kriss"                           0               Mi/
+"vg7_scorpion_smg"                      1               weapons         CA                              @Blackouts Scorpion
 
 
 
 
 	<!-- CROSSBOWS -->
-"Expansion_Crossbow"        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Farm"/>
-        <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
+Item				                    Nominal         Category	    Usage		    Value		    Mod                             DE Loot
+"Expansion_Crossbow"                    0               weapons         Fa/V            1/2/3
+
 	<!-- LAUNCHERS -->
-"ExpansionRPG7"        <nominal>1</nominal>
-        <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"ExpansionLAW"        <nominal>1</nominal>
-        <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_M79"        <nominal>0</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"ExpansionFlaregun"        <nominal>0</nominal>
-        <lifetime>10800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
+"ExpansionRPG7"                         1               weapons         Mi              3/4
+"ExpansionLAW"                          1               weapons         Mi              3/4
+"Expansion_M79"                         0               weapons         Mi              3/4
+"ExpansionFlaregun"                     0               weapons         Mi              3/4
+
 	<!-- PISTOLS -->
-"Expansion_Taser_Yellow"        <nominal>10</nominal>
-        <lifetime>10800</lifetime>
-        <restock>900</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Police"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-"Expansion_Taser_Black"        <nominal>0</nominal>
-        <lifetime>10800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="weapons"/>
-    </type>
-"Expansion_M9"        <nominal>6</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-    </type>
-"Expansion_Longhorn"        <nominal>0</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
+"Expansion_Taser_Yellow"                10              weapons         Po              1/2/3
+"Expansion_Taser_Black"                 0               weapons
+
+"Expansion_M9"                          6               weapons         Mi              1/2
+"Expansion_Longhorn"                    0               weapons         Hu              2/3/4
+
 	<!-- SUBMACHINE GUNS -->
-"Expansion_G36"        <nominal>5</nominal>
-        <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-"Expansion_MPX"        <nominal>5</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-"Expansion_MP5"        <nominal>5</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_MP5SD"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_MP5_RailAtt"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_MP7"        <nominal>5</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_Kedr"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>900</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-"Expansion_VityazSN"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1200</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
+"Expansion_G36"                         5               weapons         Mi              2/3
+"Expansion_MPX"                         5               weapons         Mi              2/3
+"Expansion_MP5"                         5               weapons         Mi              2/3/4
+"Expansion_MP5SD"                       3               weapons         Mi              3/4
+"Expansion_MP5_RailAtt"                 3               weapons         Mi              2/3/4
+"Expansion_MP7"                         5               weapons         Mi              3/4
+"Expansion_Kedr"                        3               weapons         Mi              2/3
+"Expansion_VityazSN"                    3               weapons         Mi              2/3/4
+
 	<!-- ASSAULT RIFLES -->
-"Expansion_M16"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_M1A"        <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_M14"        <nominal>4</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
+"Expansion_M16"                         3               weapons         Mi              3/4
+"Expansion_M1A"                         3               weapons         Mi              2/3/4
+"Expansion_M14"                         4               weapons         Mi              2/3/4
+
 	<!-- RIFLES -->
-"Expansion_DT11"        <nominal>4</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1200</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
+"Expansion_DT11"                        4               weapons         Hu              2/3/4
+
 	<!-- SHOTGUNS -->
-"Expansion_BenelliM4"        <nominal>5</nominal>
-        <lifetime>10800</lifetime>
-        <restock>3600</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-	</type>
+"Expansion_BenelliM4"                   5               weapons         Mi              1/2
+
 	<!-- SNIPER RIFLES -->
-"Expansion_AWM"        <nominal>2</nominal>
-        <lifetime>7200</lifetime>
-        <restock>28800</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-"Expansion_Kar98"        <nominal>10</nominal>
-        <lifetime>7200</lifetime>
-        <restock>900</restock>
-        <min>4</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
+"Expansion_AWM"                         2               weapons         Mi              3/4/De
+"Expansion_Kar98"                       10              weapons         Hu/Fa/T/V       1/2/3
