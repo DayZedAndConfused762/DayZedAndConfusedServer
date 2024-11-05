@@ -1,27 +1,52 @@
-﻿
-Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
+﻿Usages:
+Coast               C
+ContaminatedArea    CA
+Drugcar             D
+Farm                Fa
+Firefighter         Fi
+Industrial          I
+Historical          Hi
+Hunting             Hu
+Lunapark            L
+Medic               Me
+Military            Mi
+Office              O
+Police              Po
+Prison              Pr
+School              S
+SeasonalEvent       Se
+Town                T
+Village             V
+
+Categories:
+vehiclesparts       vp
+
+Values:
+Tier1               1
+Tier2               2    
+Tier3               3
+Tier4               4
+Unique              U
+Dynamic Event       De
+
+
+
+Item				                    Nominal         Category	    Usage		    Value		    Mod
+
+"Bear_Beige"                            15              containers      S/T/V
+"Bear_Dark"                             15              containers      S/T/V
+"Bear_Pink"                             15              containers      S/T/V
+"Bear_White"                            15              containers      S/T/V
 "CJ_Cigarettes_1"                       1               containers      I/V/T           .               @CJ187MoreItems
 "CJ_Cigarettes_2"                       1               containers      I/V/T           .               @CJ187MoreItems
 "CJ_Cigarettes_3"                       1               containers      I/V/T           .               @CJ187MoreItems
 "CJ_Cigarettes_4"                       1               containers      I/V/T           .               @CJ187MoreItems
 "CJ_Cigarettes_5"                       1               containers      I/V/T           .               @CJ187MoreItems
-"Msp_PolarBear"                         3               containers      T/V                             @MuchStuffPack
-"Msp_Bunny"                             1               clothes         T/V                             @MuchStuffPack
-"Msp_Rabbit"                            1               clothes         T/V                             @MuchStuffPack
-
-
-
-<!-- STORAGE_CARRIED START -->
-Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"Bear_Beige"                            15              containers      S/T/V
-"Bear_Dark"                             15              containers      S/T/V
-"Bear_Pink"                             15              containers      S/T/V
-"Bear_White"                            15              containers      S/T/V
 "DrysackBag_Green"                      0
 "DrysackBag_Orange"                     0
 "DrysackBag_Yellow"                     0
-"DuffelBagSmall_Camo"                   8               containers      Mi              2/3
-"DuffelBagSmall_Green"                  8               containers      V               2/3
-"DuffelBagSmall_Medical"                6               containers      Mi              2/3
 "FirstAidKit"                           5               containers      Me
+"Msp_PolarBear"                         3               containers      T/V                             @MuchStuffPack
+"Msp_Bunny"                             1               clothes         T/V                             @MuchStuffPack
+"Msp_Rabbit"                            1               clothes         T/V                             @MuchStuffPack
 "SmallProtectorCase"                    50              containers      I/T
