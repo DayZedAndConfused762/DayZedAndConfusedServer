@@ -1,13 +1,13 @@
 {
     "m_Version": 12,
-    "DisplayName": "Black Market Shotguns",
+    "DisplayName": "Black Market Launchers",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "Candy_Gatling",
+            "ClassName": "Flaregun",
             "MaxPriceThreshold": "100000",
             "MinPriceThreshold": "100000",
             "SellPricePercent": -1.0,
@@ -18,7 +18,7 @@
             "Variants": []
         },
         {
-            "ClassName": "Candy_KOMRAD",
+            "ClassName": "M79",
             "MaxPriceThreshold": "100000",
             "MinPriceThreshold": "100000",
             "SellPricePercent": -1.0,
@@ -29,7 +29,18 @@
             "Variants": []
         },
         {
-            "ClassName": "Candy_SOLYANKA",
+            "ClassName": "ExpansionRPG7",
+            "MaxPriceThreshold": "100000",
+            "MinPriceThreshold": "100000",
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "ExpansionLAW",
             "MaxPriceThreshold": "100000",
             "MinPriceThreshold": "100000",
             "SellPricePercent": -1.0,

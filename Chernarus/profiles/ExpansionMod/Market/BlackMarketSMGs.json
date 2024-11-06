@@ -1,15 +1,26 @@
 {
     "m_Version": 12,
-    "DisplayName": "Black Market Assault Rifles",
+    "DisplayName": "Black Market SMGs",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "CHANGEME",
-            "MaxPriceThreshold": "CHANGEME",
-            "MinPriceThreshold": "CHANGEME",
+            "ClassName": "Candy_MP5",
+            "MaxPriceThreshold": "100000",
+            "MinPriceThreshold": "100000",
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Candy_Kriss",
+            "MaxPriceThreshold": "100000",
+            "MinPriceThreshold": "100000",
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
