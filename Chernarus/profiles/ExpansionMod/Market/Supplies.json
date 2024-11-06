@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 20.0,
     "Items": [
         {
             "ClassName": "paper",
@@ -210,8 +210,8 @@
         },
         {
             "ClassName": "nailbox",
-            "MaxPriceThreshold": 750,
-            "MinPriceThreshold": 450,
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 5000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -221,7 +221,7 @@
         },
         {
             "ClassName": "nail",
-            "MaxPriceThreshold": 10,
+            "MaxPriceThreshold": 150,
             "MinPriceThreshold": 5,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
