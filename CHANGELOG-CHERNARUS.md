@@ -70,6 +70,9 @@
 
 ## Working
 
+- Vehicles:
+  - When disconncted in a vehicle, you should now be placed on the ground when reconnecting
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/4/2024 Start ++++++++++++++++++++ -->
