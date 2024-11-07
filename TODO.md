@@ -10,6 +10,11 @@
 
 <!-- ------------------------------ Overview Start ------------------------------ -->
 
+https://github.com/CommanderBeelo/BBP-and-Expansion-
+https://steamcommunity.com/sharedfiles/filedetails/?id=2815793829
+https://www.youtube.com/watch?v=drk8R8N7L4s
+https://gitlab.com/basebuildingplus/bbp-wiki/-/wikis/home
+
 13:02:07.915 !!! [CE][offlineDB] :: Type 'Expansion_M79' will be ignored. (Not spawnable. (Scope is not public?))
 
 13:02:07.915 !!! [CE][offlineDB] :: Type 'ExpansionFlaregun' will be ignored. (Not spawnable. (Scope is not public?))
@@ -190,7 +195,7 @@ ExpansionDesertTortilla
   
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug
-  - Find spawn locations for Pitbul
+  - Find spawn locations for RFFS Helis
   - Move MH6 spawn from tisy Position: <1730.287231, 451.775269, 14348.391602>
       Orientation: <2.016927, -0.033347, 0.210079>
       Config-Type: ExpansionMh6_Digital 
@@ -200,9 +205,7 @@ ExpansionDesertTortilla
   - Add types.xml, event, cfgspawnable types and cfgeventspawns
 
 - CJ187 crates:
-  - Make cash registers key or lockpick or tools
   - Make crates key or lockpick
-  - Lower damage to tools
   - Fix floating crates: one at NEAF  (12k/12k)
   - Setup more lootcrate loot
   - Make sure stuff will fit in cj187 crates in crates
