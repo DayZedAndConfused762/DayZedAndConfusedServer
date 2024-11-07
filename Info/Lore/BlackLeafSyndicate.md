@@ -86,5 +86,4 @@ Independent Communities: Many survivor communities have fallen victim to the Syn
 **Corrupt Officials and Former Governmental Leaders**: In the world of the Syndicate, the lines between criminal and government are blurred. They often have contacts within government factions—military leaders, corrupt officials, and even scientists—who help protect their operations in exchange for cannabis or other illicit resources.
 
 ## The Black Leaf Syndicate’s Vision for the Future:
-The Black Leaf Syndicate does not care about the long-term survival of humanity. They believe in survival
-
+The Black Leaf Syndicate does not care about the long-term survival of humanity.
