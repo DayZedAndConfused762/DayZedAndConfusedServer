@@ -35,33 +35,24 @@ The Black Leaf Syndicate is hierarchical, with a few powerful leaders at the top
 
 ### Viktor "The Green King" Rurik:
 
-**Role**: The undisputed leader of the Black Leaf Syndicate.
-
-**Backstory**: Viktor Rurik, a former warlord and black-market dealer before the outbreak, saw the collapse of civilization as an opportunity to seize control. Originally involved in arms dealing, he quickly adapted to the demand for cannabis, using his connections and ruthless business practices to dominate the trade. He is known as "The Green King" because he has cornered the global cannabis market, and his name strikes fear into anyone who crosses him.
-
-**Leadership Style**: Cold, calculating, and manipulative. Viktor governs with an iron fist and is notorious for his ability to break rivals mentally and physically. His charm is masked by a deep cruelty, and he is not afraid to sacrifice his own men if it means expanding his empire.
-
-**Signature**: Viktor always wears a custom-made, green-leaf patterned coat, symbolizing his dominion over the cannabis trade. He carries a diamond-encrusted cigar cutter, a symbol of his extravagant wealth and power.
+- **Role**: The undisputed leader of the Black Leaf Syndicate.
+- **Backstory**: Viktor Rurik, a former warlord and black-market dealer before the outbreak, saw the collapse of civilization as an opportunity to seize control. Originally involved in arms dealing, he quickly adapted to the demand for cannabis, using his connections and ruthless business practices to dominate the trade. He is known as "The Green King" because he has cornered the global cannabis market, and his name strikes fear into anyone who crosses him.
+- **Leadership Style**: Cold, calculating, and manipulative. Viktor governs with an iron fist and is notorious for his ability to break rivals mentally and physically. His charm is masked by a deep cruelty, and he is not afraid to sacrifice his own men if it means expanding his empire.
+- **Signature**: Viktor always wears a custom-made, green-leaf patterned coat, symbolizing his dominion over the cannabis trade. He carries a diamond-encrusted cigar cutter, a symbol of his extravagant wealth and power.
 
 ### Elena "The Viper" Volkov:
 
-**Role**: The head of operations and enforcement for the Syndicate.
-
-**Backstory**: Elena Volkov is a former military officer with a dark past. Before joining the Black Leaf Syndicate, she led a mercenary group that specialized in high-risk, high-reward operations. When the outbreak began, she saw the potential for power in the chaos and joined Rurik’s ranks, quickly rising to become one of his most trusted enforcers.
-
-**Leadership Style**: Tactical and pragmatic, Elena is the Syndicate’s enforcer. She believes in order, but only as a tool to impose fear. While Viktor manipulates with wealth and charm, Elena uses violence and intimidation to crush enemies and instill loyalty. Her men know that failure is not tolerated, and punishment is swift and brutal.
-
-**Signature**: Elena is always seen wearing tactical black gear, with a long, serpent-shaped tattoo curling down her arm. The tattoo represents both her tactical mind and her readiness to strike at anyone who crosses her.
+- **Role**: The head of operations and enforcement for the Syndicate.
+- **Backstory**: Elena Volkov is a former military officer with a dark past. Before joining the Black Leaf Syndicate, she led a mercenary group that specialized in high-risk, high-reward operations. When the outbreak began, she saw the potential for power in the chaos and joined Rurik’s ranks, quickly rising to become one of his most trusted enforcers.
+- **Leadership Style**: Tactical and pragmatic, Elena is the Syndicate’s enforcer. She believes in order, but only as a tool to impose fear. While Viktor manipulates with wealth and charm, Elena uses violence and intimidation to crush enemies and instill loyalty. Her men know that failure is not tolerated, and punishment is swift and brutal.
+- **Signature**: Elena is always seen wearing tactical black gear, with a long, serpent-shaped tattoo curling down her arm. The tattoo represents both her tactical mind and her readiness to strike at anyone who crosses her.
 
 ### "Talon" Kovar:
 
-**Role**: The Syndicate’s top smuggler and drug manufacturer.
-
-**Backstory**: "Talon" Kovar was once a chemist and black-market drug manufacturer before the outbreak. When the world collapsed, he saw the opportunity to turn his skills toward cannabis refinement. He now oversees the production of some of the most potent—and dangerous—strains of cannabis in existence. His lab is hidden deep within a fortified compound, where he creates new, addictive drugs that the Syndicate pushes onto desperate survivors.
-
-**Leadership Style**: Quiet, calculating, and methodical. Talon has a mind for science and profit, focusing on producing the most addictive substances possible. He is not afraid to experiment with new methods, often mixing cannabis with other chemicals to create more potent or hallucinogenic drugs. His ability to push the boundaries of cannabis refinement makes him invaluable to the Syndicate.
-
-**Signature**: Kovar is known for his eerie calm and mechanical demeanor. He wears a lab coat even in the field and has an assortment of syringes and vials on him at all times. His appearance is disarming, but his mind is always working on the next big breakthrough in chemical warfare.
+- **Role**: The Syndicate’s top smuggler and drug manufacturer.
+- **Backstory**: "Talon" Kovar was once a chemist and black-market drug manufacturer before the outbreak. When the world collapsed, he saw the opportunity to turn his skills toward cannabis refinement. He now oversees the production of some of the most potent—and dangerous—strains of cannabis in existence. His lab is hidden deep within a fortified compound, where he creates new, addictive drugs that the Syndicate pushes onto desperate survivors.
+- **Leadership Style**: Quiet, calculating, and methodical. Talon has a mind for science and profit, focusing on producing the most addictive substances possible. He is not afraid to experiment with new methods, often mixing cannabis with other chemicals to create more potent or hallucinogenic drugs. His ability to push the boundaries of cannabis refinement makes him invaluable to the Syndicate.
+- **Signature**: Kovar is known for his eerie calm and mechanical demeanor. He wears a lab coat even in the field and has an assortment of syringes and vials on him at all times. His appearance is disarming, but his mind is always working on the next big breakthrough in chemical warfare.
 
 ## Tactics and Operations:
 
