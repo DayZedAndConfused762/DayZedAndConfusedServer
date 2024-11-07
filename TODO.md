@@ -179,6 +179,9 @@ ExpansionDesertTortilla
 
 ## To Do 
 
+- Base Building:
+  - Add this mod to allow base damage: https://steamcommunity.com/sharedfiles/filedetails/?id=2815793829
+
 - Server Info:
   - Create a server description/feature list to post on discord and use as a a server advertisement
 
