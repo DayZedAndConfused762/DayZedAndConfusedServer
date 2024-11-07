@@ -52,38 +52,53 @@ The current SCP is General Viktor Klein, a cold and calculating strategist known
 - **Lieutenant (Lt)**: Junior officers responsible for tactical decision-making within squads. Lieutenants are often in charge of monitoring civilian compliance with cannabis distribution or leading raids against non-compliant groups.
 - **Enforcer (Enf)**: The standard rank for all Protocol Enforcers, these soldiers and agents are highly trained operatives who carry out the majority of on-the-ground work. They are feared for their brutality, as they have been conditioned to suppress any form of resistance through overwhelming force.
 
-Training and Conditioning:
+## Training and Conditioning:
+
 To become a member of the Protocol Enforcers, candidates undergo a grueling selection and training process designed to weed out any signs of weakness, hesitation, or independent thought. The UFSE does not simply want soldiers—they want unquestioning servants of the regime.
 
-Selection Process:
+### Selection Process:
 
 Candidates are chosen from a pool of UFSE loyalists, often from military backgrounds or even civilians who have shown exceptional loyalty to the UFSE government. They are put through intense psychological testing to ensure their loyalty and ideological purity.
+
 The process includes a brutal series of physical and psychological endurance tests, including survival training, urban warfare tactics, and intensive indoctrination into UFSE doctrine. Potential Enforcers must prove they can operate without question, even under extreme pressure or in morally dubious situations.
-Psychological Reconditioning:
+
+### Psychological Reconditioning:
 
 Once selected, new recruits are subjected to a form of psychological reconditioning that breaks down their identity and replaces it with a single, unified purpose: serving the UFSE and enforcing the Cannabis Protocol.
+
 The process includes intense mind manipulation, using techniques such as sensory deprivation, constant surveillance, and the Protocol S-2 cannabis strain to induce a sense of loyalty and subservience. The recruits are exposed to hallucinatory simulations of potential "dissent" and rebellion, forcing them to view such acts as treasonous.
+
 The reconditioning is complete once the recruit is branded with a unique, serial-like identifier that marks them as an official Protocol Enforcer.
-Field Training:
+
+### Field Training:
 
 Enforcers undergo live-action training in urban zones, wilderness environments, and infected territories. They learn to operate under the worst possible conditions, fighting both the infected and hostile human factions. Their training includes:
-Combat and Suppression: Enforcers are highly trained in hand-to-hand combat, firearm usage, and special tactics designed for suppression and intimidation.
+
+- **Combat and Suppression**: Enforcers are highly trained in hand-to-hand combat, firearm usage, and special tactics designed for suppression and intimidation.
 Cannabis Distribution and Enforcement: Enforcers are trained to deliver cannabis doses, conduct drug tests, and enforce rationing protocols. They are often deployed to confiscate illegal cannabis and dismantle black market operations.
-Interrogation and Psychological Warfare: Members of the RPO Division specialize in psychological warfare techniques, manipulating individuals’ fears and breaking down resistance through mental reconditioning or force-feeding Protocol S-3.
-Tactics and Operations:
+- **Interrogation and Psychological Warfare**: Members of the RPO Division specialize in psychological warfare techniques, manipulating individuals’ fears and breaking down resistance through mental reconditioning or force-feeding Protocol S-3.
+
+### Tactics and Operations:
+
 The Protocol Enforcers use a combination of militarized tactics, psychological warfare, and surveillance to carry out their duties. Their operations are carried out with ruthless efficiency, and they are feared for their willingness to act without mercy.
 
-Surveillance and Control:
+### Surveillance and Control:
 
 Enforcers work in tandem with UFSE surveillance systems, including drones and informants, to monitor civilian activities. They track any suspicious behavior related to cannabis misuse, black market dealings, or attempts to evade rationing.
-Canvassing Operations: They conduct door-to-door checks of citizens’ homes, ensuring that Cannabis Protocol doses are being used properly and that there are no illegal drugs being cultivated.
-Public Trials and Executions:
+### Canvassing Operations:
+
+They conduct door-to-door checks of citizens’ homes, ensuring that Cannabis Protocol doses are being used properly and that there are no illegal drugs being cultivated.
+
+### Public Trials and Executions:
 
 The Protocol Enforcers are known for publicly executing those who violate the Cannabis Protocol in brutal, public demonstrations. These "Cannabis Trials" are often held in the town squares, with the Enforcers showcasing the power of the UFSE government by punishing offenders in front of the terrified populace.
-Raids and Suppression:
+
+### Raids and Suppression:
 
 The Enforcers specialize in suppression raids against dissident groups or factions that defy UFSE control, such as the Green Vanguard or The Black Leaf Syndicate. They are armed with advanced weaponry, including flamethrowers, armored vehicles, and chemical agents to neutralize insurgents, rogue civilians, or any threat to the Cannabis Protocol.
-The Future of the Protocol Enforcers:
+
+## The Future of the Protocol Enforcers:
+
 As tensions rise between the UFSE and rebel factions, the role of the Protocol Enforcers becomes increasingly critical. Their power is likely to expand as more regions fall under UFSE control and the regime seeks to solidify its dominance over the population. The Enforcers will continue to serve as both the government's fist and its face of terror, ensuring that any attempts to disrupt the Cannabis Protocol are quickly stamped out with extreme prejudice.
 
 
