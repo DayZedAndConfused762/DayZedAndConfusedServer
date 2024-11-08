@@ -73,6 +73,8 @@
 - Vehicles:
   - When disconnected in a vehicle, you should now be placed on the ground when reconnecting
 
+- Central Economy:
+  - Added some missing @ParagonStorage items to loot pool
 
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
