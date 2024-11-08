@@ -113,3 +113,71 @@ Echoes: The rarest and most terrifying, these variants exhibit enhanced senses, 
 
 Final Note:
 The Infected are a constant reminder of the world’s collapse. As survivors weigh their alliances, they must not only fend off the Infected but decide if they will risk dependency under the Black Leaf Syndicate’s control, fight alongside the Green Vanguard, or submit to the UFSE’s authoritarian rule. In this brutal new world, every encounter with the Infected is a stark reminder of what can happen when humanity loses sight of its own survival in the face of greed and desperation.
+
+
+
+
+
+The Infected: Echoes of Humanity’s Downfall
+Overview:
+The Infected are the tragic result of a bioweapon gone wrong, a viral mutation initially intended to enhance human abilities. Instead, it unlocked a primal fury, turning ordinary people into relentless, semi-conscious husks. Infected roam the world in a savage state, driven by a relentless hunger and primal instincts. Their existence is a haunting reminder of humanity’s fatal ambitions and serves as a stark warning against playing god with nature.
+
+The virus, known as the Z-Virus, attacks the brain and nervous system, effectively reprogramming its hosts into frenzied hunters. Though often seen as mindless monsters, the Infected are more than mere zombies—they are remnants of humanity, caught in a perpetual struggle between fading memories and the overpowering demands of the virus within them.
+
+Stages of Infection:
+The Z-Virus doesn’t turn people instantly. Instead, it mutates its host over a series of stages, each marked by more extreme transformations and decreasing humanity. Survivors and factions alike fear each stage for the specific threats they pose.
+
+Stage 1: The "Fresh Infected" (Hours to Days After Infection)
+In this stage, the host is still physically close to human but displays heightened aggression, faster reflexes, and limited cognitive abilities. Their senses sharpen, and their pulse quickens, making them formidable adversaries, often able to outrun and overpower unprepared survivors.
+
+Behavior: Instinctual, highly aggressive, and prone to sporadic bursts of rage. They show some memory retention and can even mimic familiar behaviors.
+Weakness: High sensitivity to sound and light can distract or disorient them momentarily.
+Stage 2: The "Feral Infected" (Weeks After Infection)
+As the virus continues to ravage the body, the host loses recognizable human features. Their skin begins to decay, bones protrude, and muscles swell. With a twisted sense of smell and hearing, they’re attracted to movement and sound, often in packs.
+
+Behavior: These infected are more vicious and bestial, their rage overpowering any remaining humanity. They travel in packs and display simple hunting strategies, adapting to capture prey effectively.
+Weakness: Despite their strength, they’re clumsy, making them prone to stumbling or getting trapped in tight spaces.
+Stage 3: The "Wraiths" (Months After Infection)
+These Infected are the oldest and most disturbing. Their bodies have been almost entirely consumed by the virus, leaving skeletal, gaunt figures with an insatiable hunger. Though slower, Wraiths are cunning and incredibly resilient, seemingly impervious to pain. They no longer need to eat but are drawn to any form of life out of a lingering, mysterious compulsion.
+
+Behavior: Wraiths are more strategic, lurking in shadows and ambushing survivors. They are patient predators, using darkness and surprise to their advantage.
+Weakness: Wraiths are more susceptible to certain chemicals and environmental hazards, particularly fire.
+The Origin of the Z-Virus:
+The Z-Virus, officially known as Z1H3, was developed as a military-grade bioweapon intended to bolster human endurance and aggression in combat scenarios. Initially promising, the virus was found to increase physical strength, mental alertness, and healing rates. However, these benefits came with unexpected side effects: heightened aggression, cognitive deterioration, and, eventually, a total loss of identity.
+
+Despite early warnings, the Z-Virus was secretly tested on unwitting populations, a reckless decision that would seal humanity’s fate. When the virus mutated and spread uncontrollably, governments lost all control, and the world spiraled into chaos.
+
+Mutations and Adaptations:
+Over time, the virus has shown a disturbing ability to adapt to its host environment, producing different strains in various regions. In some colder climates, for instance, Infected develop thicker, frost-resistant skin, while in warmer climates, they have thinner, heat-resistant exteriors. These mutations make it difficult to anticipate an Infected’s weaknesses, creating additional challenges for survivors.
+
+Common Mutations:
+
+Venomous Spit: In some cases, the virus induces toxic buildup within the host’s glands, allowing them to produce a virulent spit that can infect or incapacitate survivors on contact.
+Enhanced Hearing: Certain Infected possess amplified hearing, allowing them to detect faint sounds from impressive distances. This mutation makes them especially dangerous in rural or silent settings.
+Cannibalistic Tendencies: The virus occasionally drives Infected to prey on their own kind, resulting in some stronger Infected growing larger or more resilient by consuming weaker ones.
+Behavioral Patterns:
+The Infected do not possess traditional intelligence but are driven by basic survival instincts: feed, move, and eliminate threats. However, there are still eerie signs of past lives in their movements. Some survivors report seeing them roam former homes, mimicking human actions such as reaching for doorknobs, or gathering around remnants of cities, as if reliving fading memories.
+
+Their sense of smell and sound plays a crucial role in navigation, as they are often attracted to scents of uninfected humans or the smell of fear, sweat, and blood.
+
+Interaction with the Environment:
+The Infected avoid sunlight and tend to roam at night or in darker areas. They congregate near places with a high concentration of organic matter, such as forests, abandoned farms, or city ruins. Where nature has begun reclaiming human structures, the Infected appear to be drawn, as if compelled to “haunt” these once-lively places. It is unknown if this is a random quirk or if something deeper within the virus drives them.
+
+The Role of Cannabis in Containment:
+In certain strains of cannabis developed through the Cannabis Protocol, researchers discovered compounds that can temporarily stall the spread of the virus within an infected host, alleviating symptoms and granting survivors precious time. High doses of these compounds can suppress aggression and partially restore mental faculties for a short period, giving survivors the ability to regain self-control temporarily.
+
+For this reason, factions such as the Green Vanguard are committed to cultivating and distributing these strains to offer a lifeline against the Z-Virus. However, full immunity remains a distant hope, and while cannabis-based treatments can slow the process, they are not a permanent cure.
+
+The Infected as Symbols of Humanity’s Hubris:
+Beyond their physical threat, the Infected embody the tragic consequences of mankind’s disregard for natural limits and ethical boundaries. They are a living reminder of humanity’s tendency to exploit and consume, now turned inward, with once-productive lives twisted into aimless destruction. Survivors often see the Infected as a ghostly mirror, reflecting what happens when ambition blinds caution.
+
+Variants and Unique Types of Infected:
+Over time, survivors have reported encounters with unique variants of Infected, each with distinct traits and behaviors. These variants have become legends, known by names whispered with both fear and grim fascination.
+
+“The Howlers”: Infected that emit a piercing scream to attract others nearby. These sounds are unsettling and serve as a siren call for other infected to swarm survivors.
+“The Juggernauts”: Massive, mutated Infected with extreme muscle density. They’re slower but incredibly powerful, capable of smashing through walls and barricades.
+“The Crawlers”: These Infected have degraded legs, forcing them to crawl. They hide in tall grass or shadows, ambushing survivors with surprising agility.
+The Future of the Infected:
+The Z-Virus is constantly mutating, and new variants continue to arise, forcing survivors and factions to adapt rapidly. Researchers suspect that, over time, the virus may evolve into a less aggressive form, potentially coexisting with its host. However, this is speculative, and until then, the Infected remain the most immediate threat to those left alive.
+
+The Infected embody the devastating consequences of human folly but also the resilience of life in its most twisted form. In their cursed existence, they remind the world of what was lost and, perhaps, offer a grim warning of what may happen again if humanity’s survivors fail to learn from the past.
