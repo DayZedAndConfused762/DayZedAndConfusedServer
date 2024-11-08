@@ -18,11 +18,17 @@ Research indicated that when consumed, cannabis altered the neurological pathway
 
 In 2023, the Cannabis Protocol became humanity’s last line of defense. Cannabis cultivation, once viewed as an illicit drug trade, was now officially sanctioned by the government as part of a global effort to halt the infection. Government-controlled laboratories developed several strains, each engineered to enhance its protective effects:
 
-CBD-Delta-8: A strain known for its calming effects, it helped mitigate the psychological trauma of the apocalypse and aided in the recovery of cognitive functions.
+Protocol S-1: A strain that helped stabilize the neurological function of infected individuals temporarily, halting or slowing the physical mutation caused by the virus. It was primarily used to manage exposed individuals and keep the infected from deteriorating into full-blown zombies.
 
-Sativa-X-23: A high-THC strain with neuroprotective qualities, used primarily to help the infected delay the full onset of zombification.
+Protocol S-2: A strain designed for the civilian population. This strain had calming, anxiety-reducing effects, and was used to control public sentiment, reduce resistance, and promote complacency. Those who were loyal to the UFSE would be given regular doses of this strain, which helped to reinforce their dependence on the regime.
 
-Resilience-Hemp-42: A hybrid strain with both high CBD and THC content, shown to offer a better resistance to infection and a slowing of viral replication in test subjects.
+Protocol S-3: An experimental strain that combines the calming effects of the S-2 strain with potent hallucinogenic properties. This strain was intended to be used on enemy factions or dissenters, creating confusion, hallucinations, and psychological disarray to break down any resistance to UFSE control.
+
+~~CBD-Delta-8: A strain known for its calming effects, it helped mitigate the psychological trauma of the apocalypse and aided in the recovery of cognitive functions.~~
+
+~~Sativa-X-23: A high-THC strain with neuroprotective qualities, used primarily to help the infected delay the full onset of zombification.~~
+
+~~Resilience-Hemp-42: A hybrid strain with both high CBD and THC content, shown to offer a better resistance to infection and a slowing of viral replication in test subjects.~~
 
 These strains were distributed in concentrated forms, such as oils, tinctures, and pills, to individuals who were at risk of infection. As the government faced increasing pressure to maintain order, the Protocol Enforcers, a special task force, were formed to safeguard the cannabis fields and supply chains.
 
