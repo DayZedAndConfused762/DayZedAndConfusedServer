@@ -83,3 +83,131 @@ In the shattered world of DayZ, The Green Vanguard is both a symbol of hope and 
 
 This lore fleshes out The Green Vanguard as a complex and ideologically driven faction. Their mission is more than just survival—it’s about restoring balance, freedom, and ecological harmony in a post-apocalyptic world.
 
+========================================================
+
+
+The Green Vanguard: Guardians of Nature’s Last Hope
+Overview:
+The Green Vanguard is a freedom-fighting faction that sees nature, especially cannabis, as humanity's lifeline. They are driven idealists and warriors of the earth, who view the world’s collapse as a chance to rewrite humanity's relationship with nature. To them, cannabis isn’t just medicine; it’s a powerful symbol of reconnection, survival, and defiance against a broken system.
+
+While other factions turn to force, technology, and government control, the Green Vanguard places their faith in nature’s power. Cannabis is not only a treatment for the Z-Virus but a catalyst for a new way of life. They believe this plant could heal both the infected and the world itself, restoring balance and freedom.
+
+Core Beliefs:
+Cannabis as Salvation:
+The Green Vanguard stands firm in their belief that genetically enhanced cannabis strains from the Cannabis Protocol offer humanity’s best shot at survival. They trust the plant’s potential to slow infection and preserve cognitive functions, transforming cannabis fields into sanctuaries for the desperate.
+
+They reject government control over the Cannabis Protocol and fight for its accessibility for all, championing community-based cultivation that can resist monopolization. To them, cannabis must remain a resource of the people.
+
+Environmental Reclamation:
+The apocalypse marks a new beginning for the Green Vanguard. They are on a mission to repair the damage of industrialization and environmental exploitation, seeing this shattered world as a warning. They work tirelessly to rewild the earth, restoring ecosystems with sustainable farming and natural habitats that nurture life.
+
+Cannabis is central, but they also plant diverse crops to rebuild the land. Guided by a vision of a living, breathing earth, they see themselves as stewards of this reborn world, committed to nurturing every living thing that survives.
+
+The Fight for Freedom:
+The Green Vanguard rejects both authoritarian rule and profiteering off cannabis. They see their struggle as a fight for liberty—not just from the infected, but from oppressive forces that aim to control civilization’s remnants. Their vision is a world where communities come together freely, in harmony with the land, to rebuild from the ashes.
+
+Structure & Leadership:
+The Green Vanguard operates with a decentralized, collective structure, emphasizing freedom, merit, and respect over hierarchy. Each group makes autonomous decisions to advance the Vanguard’s ideals, with key leaders serving as guiding figures for the movement:
+
+Elder Mara "Greenheart" Kovač:
+Role: Spiritual and ideological leader.
+Backstory: A former botanist and activist, Mara was among the first to see cannabis as a potential cure for the Z-Virus. After government seizure of cannabis fields, her vision of an egalitarian, earth-centered society resonated widely.
+Leadership Style: Charismatic and diplomatic, Mara believes the Vanguard must embody hope, using unity over force to inspire others.
+Signature: She carries a personal seed pouch as a symbol of planting hope for future generations.
+Rico "Redwood" Dávila:
+Role: Protector of the Vanguard’s fields.
+Backstory: A former soldier disillusioned by the UFSE’s corrupt control, Rico joined the Vanguard to defend the freedom he once believed in. His military expertise has fortified the Vanguard’s defenses.
+Leadership Style: Tactical and vigilant. Rico believes in practical survival and stands ready to defend the Vanguard at all costs.
+Signature: His camouflage jacket, decorated with green leaf patches, shows his loyalty to the Vanguard.
+Lila “Seedling” Rojas:
+Role: Head of cultivation and agriculture.
+Backstory: Raised on a farm, Lila mastered sustainable agriculture and old-world methods. Her cannabis cultivation skills have become invaluable to the Vanguard’s self-sufficiency.
+Leadership Style: Grounded and nurturing, Lila believes the key to healing lies in restoring the earth’s balance through soil, seeds, and sustainable growth.
+Signature: Often seen with dirt-stained hands and a wide-brimmed hat, symbolizing her dedication to the land.
+Tactics and Operations:
+Cannabis Cultivation: The Green Vanguard cultivates hidden fields in remote areas, growing strains for treating both infected and survivors. Using guerrilla tactics, they guard their farms from raiders, rival factions, and government forces.
+
+Rewilding Initiatives: Beyond cannabis, they work to revive ecosystems with native plants, clean up damaged environments, and support wildlife sanctuaries. Vanguard naturalists track animal populations, maintaining safe zones for all life.
+
+Rescue and Aid Operations: Running rescue missions in infected zones, the Vanguard helps survivors escape the undead and predatory factions. They prioritize delivering food, water, and cannabis-based care.
+
+Guerrilla Warfare: Though not militaristic, the Vanguard employs guerrilla resistance to defend their people. They’ve ambushed UFSE convoys, sabotaged Syndicate trafficking routes, and protected vulnerable communities, emphasizing non-lethal tactics when possible.
+
+Enemies and Allies:
+Enemies:
+United Federal States of Europe (UFSE): Representing authoritarian control, the UFSE monopolizes cannabis as a tool of dominance. The Vanguard actively resists their tactics, fighting to keep cannabis a free, shared resource.
+
+Black Leaf Syndicate: A corrupt network that exploits cannabis for profit, the Syndicate produces unregulated, dangerous strains. The Vanguard condemns them for fueling addiction rather than healing.
+
+Allies:
+Independent Survivor Groups: Sharing values with the Vanguard, some survivor groups exchange supplies, skills, and protection.
+
+Eco-Factions: Other eco-focused factions align with the Vanguard’s mission, united by principles of sustainable living and earth-centered survival.
+
+The Green Vanguard’s Vision for the Future:
+The Green Vanguard envisions a new world, built on respect for the earth and freed from the oppressive systems of the past. They see cannabis as the first step in a healing process—not only for humanity but for the planet itself. Their dream is of a free, self-sustaining world, where nature is cherished and communities are connected by purpose.
+
+In the fractured world of DayZ, The Green Vanguard represents hope, unity, and resistance, planting seeds of freedom in defiance of an infected world. They fight for the earth’s survival—one field, one mission, one life at a time.
+
+
+=============
+
+
+The Green Vanguard: Freedom Fighters for Earth’s Renewal
+Overview:
+The Green Vanguard stands as a movement of resistance fighters and guardians of the natural world. They believe that nature—and especially cannabis—is key to reclaiming humanity’s future. To them, the apocalypse is a brutal reminder of mankind’s disregard for the earth, and they fight to protect and restore it. They see the cannabis plant as more than medicine; it’s a rallying symbol of freedom and hope, promising both survival and a path back to harmony with the earth.
+
+While other factions rely on force, technology, and government control, the Green Vanguard relies on unity with nature. They view cannabis not just as a cure but as a means to break free from oppressive systems and heal the world itself.
+
+Core Beliefs:
+Cannabis as a Beacon of Hope
+To the Green Vanguard, cannabis is humanity’s best hope. The plant, especially the enhanced strains born from the Cannabis Protocol, is seen as a potential cure for the infected, or at the very least, a means to retain human consciousness. They advocate for widespread, decentralized cannabis cultivation, fighting against government monopolies to ensure it remains free for all to grow and use.
+
+Reclaiming the Earth
+For the Green Vanguard, the collapse of the old world is a chance to return the earth to its natural state. They are dedicated to undoing the damage of industry, deforestation, and pollution, seeing themselves as stewards in a new age. They replant forests, cultivate sustainable farms, and protect wild places, working to build an environment where humans and nature live in balance.
+
+Freedom from Oppression
+Unlike the UFSE and the Black Leaf Syndicate, the Green Vanguard rejects any system that seeks to dominate and commodify nature. To them, the government’s grip on cannabis is just another link in the chain of tyranny. They fight not just against the infected but for liberation from those who would control what’s left of humanity. Their vision is a free world, where communities are self-reliant, living in harmony with the land.
+
+Structure & Leadership:
+The Green Vanguard operates as a decentralized network where each cell has autonomy. Leadership is earned through respect and action, with each group making collective decisions for the movement’s shared goals. However, a few prominent figures have emerged to inspire and guide the cause:
+
+Elder Mara "Greenheart" Kovač
+Role: Visionary Leader and Spiritual Guide
+Background: A former botanist and activist, Mara witnessed the first signs of the Z-Virus and was one of the earliest advocates for cannabis as a remedy. After the government seized control of cannabis resources, she became a symbol of resistance and ecological renewal.
+Leadership Style: Diplomatic and inspirational, Greenheart believes in using cannabis to unite rather than divide. She aims for the Vanguard to be a beacon of hope, guiding survivors toward a new, ecologically balanced world.
+Signature: Often seen carrying a small seed pouch, symbolizing the Green Vanguard’s commitment to seeding the future.
+Rico "Redwood" Dávila
+Role: Defender of the Green Vanguard’s Fields
+Background: Formerly a mercenary, Rico once worked as a guard for private cannabis companies. Disillusioned by the UFSE’s corruption, he joined the Vanguard to protect the plant from exploitation.
+Leadership Style: Tough and tactical, Redwood believes that defense is essential for freedom. He sees armed resistance as necessary to safeguard the Vanguard’s ideals.
+Signature: Wears a camouflage jacket adorned with green leaf patches, symbolizing his loyalty to the cause.
+Lila “Seedling” Rojas
+Role: Master Cultivator and Educator
+Background: A seasoned farmer, Lila turned her skills to sustainable agriculture and cannabis cultivation after the outbreak. Her expertise in growing and foraging is invaluable to the Vanguard’s self-sufficiency.
+Leadership Style: Nurturing and practical, Seedling believes survival depends on restoring the earth. She leads new recruits in sustainable farming and works tirelessly to cultivate life in the wastelands.
+Signature: Always seen with soil-stained hands and a wide-brimmed hat, embodying her dedication to the land.
+Tactics and Operations:
+Cannabis Freedom Farms
+The Green Vanguard has established hidden farms to grow cannabis and medicinal herbs, guarding them fiercely from enemies and hostile factions. Using guerrilla tactics, they secure these fields, ensuring their lifeline to health and resistance is always protected.
+
+Rewilding the Land
+Beyond cannabis, they work to repair ecosystems scarred by human hands. They plant native species, reclaim polluted lands, and maintain sanctuaries for plants and wildlife, creating safe havens for the earth’s renewal.
+
+Rescuing the Oppressed
+The Vanguard doesn’t just fight for land; they also fight for people. Through covert missions, they rescue survivors trapped in infected zones or under oppressive factions. They offer cannabis-based treatments and vital resources, providing a lifeline for those in need.
+
+Guerrilla Resistance
+While not overly militaristic, the Vanguard adopts guerrilla warfare tactics against the UFSE and Black Leaf Syndicate. They strike quickly, sabotaging enemy operations and ambushing convoys to protect their lands and people. Their methods favor non-lethal action, but they’re ready to defend themselves if needed.
+
+The Green Vanguard’s Friends and Foes:
+Adversaries:
+United Federal European States (UFSE): The UFSE represents authoritarianism and exploitation, traits the Green Vanguard opposes. To them, the UFSE’s control over cannabis is a direct threat to freedom.
+The Black Leaf Syndicate: A criminal organization exploiting cannabis for profit, often lacing it with harmful additives. The Vanguard views the Syndicate as a threat to the healing potential of the plant and to the people they seek to free.
+Allies:
+Independent Survivor Groups: Often in alliance with smaller survivor communities, the Vanguard trades resources and knowledge, united by shared values of freedom and ecological living.
+Other Eco-Factions: Some survivalist factions are sympathetic to the Green Vanguard’s goals and occasionally join forces in environmental restoration projects.
+A Vision for a New World
+The Green Vanguard is more than just a faction; it’s a revolutionary force, fighting for a world where humanity and nature thrive together. They envision a future where cannabis is both a cure and a symbol of liberty, guiding the world toward healing and balance.
+
+In the post-apocalyptic landscape of DayZ, the Green Vanguard stands as a beacon of resistance and renewal, determined to plant seeds of hope in the shattered remains of the world.

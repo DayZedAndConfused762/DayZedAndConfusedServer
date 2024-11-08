@@ -1,7 +1,3 @@
-
-
-Certainly! Here's an expanded and detailed lore about The Cannabis Protocol in the world of your DayZ server, focusing on its origins, its uses, and its role in the broader political, social, and scientific landscape.
-
 # The Cannabis Protocol: A Pillar of Control and Survival
 
 ## Overview:
