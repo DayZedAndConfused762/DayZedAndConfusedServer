@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
             "ClassName": "rgd5grenade",
             "MaxPriceThreshold": 22085,
-            "MinPriceThreshold": 13250,
+            "MinPriceThreshold": 500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -20,7 +20,7 @@
         {
             "ClassName": "m67grenade",
             "MaxPriceThreshold": 22085,
-            "MinPriceThreshold": 13250,
+            "MinPriceThreshold": 21500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -31,62 +31,7 @@
         {
             "ClassName": "flashgrenade",
             "MaxPriceThreshold": 3450,
-            "MinPriceThreshold": 2070,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "remotedetonator",
-            "MaxPriceThreshold": 11875,
-            "MinPriceThreshold": 7125,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "remotedetonatortrigger",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "improvisedexplosive",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "plastic_explosive",
-            "MaxPriceThreshold": 16965,
-            "MinPriceThreshold": 10180,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "grenade_chemgas",
-            "MaxPriceThreshold": 480,
-            "MinPriceThreshold": 290,
+            "MinPriceThreshold": 2500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -96,8 +41,8 @@
         },
         {
             "ClassName": "m18smokegrenade_red",
-            "MaxPriceThreshold": 3450,
-            "MinPriceThreshold": 2070,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -107,14 +52,13 @@
                 "m18smokegrenade_green",
                 "m18smokegrenade_yellow",
                 "m18smokegrenade_purple",
-                "m18smokegrenade_white",
-                "expansion_m18smokegrenade_teargas"
+                "m18smokegrenade_white"
             ]
         },
         {
             "ClassName": "expansion_m18smokegrenade_teargas",
-            "MaxPriceThreshold": 520,
-            "MinPriceThreshold": 260,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 3000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -124,8 +68,8 @@
         },
         {
             "ClassName": "rdg2smokegrenade_black",
-            "MaxPriceThreshold": 2760,
-            "MinPriceThreshold": 1655,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -150,28 +94,6 @@
             "ClassName": "expansionsupplysignal",
             "MaxPriceThreshold": 2000000,
             "MinPriceThreshold": 1000000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "landminetrap",
-            "MaxPriceThreshold": 25445,
-            "MinPriceThreshold": 15265,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "claymoremine",
-            "MaxPriceThreshold": 26625,
-            "MinPriceThreshold": 15975,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

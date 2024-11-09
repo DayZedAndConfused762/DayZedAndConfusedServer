@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
             "ClassName": "personalradio",
@@ -34,7 +34,7 @@
         },
         {
             "ClassName": "electronicrepairkit",
-            "MaxPriceThreshold": 1015,
+            "MaxPriceThreshold": 5000,
             "MinPriceThreshold": 610,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
@@ -82,19 +82,6 @@
             "ClassName": "rangefinder",
             "MaxPriceThreshold": 1355,
             "MinPriceThreshold": 815,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "nvgoggles",
-            "MaxPriceThreshold": 9025,
-            "MinPriceThreshold": 5415,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
