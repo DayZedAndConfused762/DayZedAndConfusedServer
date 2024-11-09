@@ -4,12 +4,12 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 75.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
             "ClassName": "partytent",
-            "MaxPriceThreshold": 5105,
-            "MinPriceThreshold": 3060,
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 5000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -22,42 +22,9 @@
             ]
         },
         {
-            "ClassName": "partytent_blue",
-            "MaxPriceThreshold": 5105,
-            "MinPriceThreshold": 3060,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "partytent_brown",
-            "MaxPriceThreshold": 5105,
-            "MinPriceThreshold": 3060,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "partytent_lunapark",
-            "MaxPriceThreshold": 6380,
-            "MinPriceThreshold": 3830,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "mediumtent",
-            "MaxPriceThreshold": 3925,
-            "MinPriceThreshold": 2355,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 7500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -69,31 +36,9 @@
             ]
         },
         {
-            "ClassName": "mediumtent_orange",
-            "MaxPriceThreshold": 3925,
-            "MinPriceThreshold": 2355,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "mediumtent_green",
-            "MaxPriceThreshold": 5025,
-            "MinPriceThreshold": 3015,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "largetent",
-            "MaxPriceThreshold": 19140,
-            "MinPriceThreshold": 11485,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 10000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -103,8 +48,8 @@
         },
         {
             "ClassName": "cartent",
-            "MaxPriceThreshold": 9250,
-            "MinPriceThreshold": 5550,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 10000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
