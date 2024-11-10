@@ -7,75 +7,82 @@
     "InitStockPercent": 10.0,
     "Items": [
         {
-            "ClassName": "fal",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "ClassName": "aks74u",
+            "MaxPriceThreshold": 18000,
+            "MinPriceThreshold": 15390,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
-                "fal_oebttstck",
-                "mag_fal_20rnd"
+                "aks74u_bttstck"],
+            "Variants": []
+        },
+        {
+            "ClassName": "fal",
+            "MaxPriceThreshold": 30000,
+            "MinPriceThreshold": 25000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "fal_oebttstck"
             ],
             "Variants": []
         },
         {
             "ClassName": "akm",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 27000,
+            "MinPriceThreshold": 20000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "ak_woodbttstck",
-                "ak_woodhndgrd",
-                "mag_akm_30rnd"
+                "ak_woodhndgrd"
             ],
             "Variants": []
         },
         {
             "ClassName": "ak101",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 20000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "ak_plasticbttstck",
-                "ak_plastichndgrd",
-                "mag_ak101_30rnd"
+                "ak_plastichndgrd"
             ],
             "Variants": []
         },
         {
             "ClassName": "ak74",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 21000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "ak74_woodbttstck",
-                "ak74_hndgrd",
-                "mag_ak74_30rnd"
+                "ak74_hndgrd"
             ],
             "Variants": []
         },
         {
             "ClassName": "m4a1",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 28000,
+            "MinPriceThreshold": 22000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
                 "m4_carryhandleoptic",
-                "mag_stanag_30rnd",
                 "m4_oebttstck",
                 "m4_plastichndgrd"
             ],
@@ -83,80 +90,69 @@
         },
         {
             "ClassName": "m16a2",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 22000,
+            "MinPriceThreshold": 20000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
-                "mag_stanag_30rnd"
             ],
             "Variants": []
         },
         {
             "ClassName": "famas",
-            "MaxPriceThreshold": 20000,
+            "MaxPriceThreshold": 24000,
             "MinPriceThreshold": 10000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_famas_25rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "aug",
-            "MaxPriceThreshold": 20000,
+            "MaxPriceThreshold": 24000,
             "MinPriceThreshold": 10000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_aug_30rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "augshort",
-            "MaxPriceThreshold": 20000,
+            "MaxPriceThreshold": 22000,
             "MinPriceThreshold": 10000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_aug_30rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "expansion_m16",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 24000,
+            "MinPriceThreshold": 20000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_stanag_30rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "expansion_g36",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 23000,
+            "MinPriceThreshold": 20000,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mag_expansion_g36_30rnd"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         }
     ]
