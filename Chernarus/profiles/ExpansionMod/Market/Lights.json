@@ -24,8 +24,8 @@
         },
         {
             "ClassName": "roadflare",
-            "MaxPriceThreshold": 9445,
-            "MinPriceThreshold": 5670,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 200,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -74,19 +74,6 @@
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
-        },
-        {
-            "ClassName": "xmaslights",
-            "MaxPriceThreshold": 430,
-            "MinPriceThreshold": 260,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
         },
@@ -98,9 +85,7 @@
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mediumgascanister"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -111,9 +96,7 @@
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "mediumgascanister"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -124,25 +107,10 @@
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
+            "SpawnAttachments": [],
             "Variants": [
                 "headtorch_grey"
             ]
-        },
-        {
-            "ClassName": "headtorch_grey",
-            "MaxPriceThreshold": 2955,
-            "MinPriceThreshold": 1770,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
-            "Variants": []
         },
         {
             "ClassName": "spotlight",
@@ -157,8 +125,8 @@
         },
         {
             "ClassName": "universallight",
-            "MaxPriceThreshold": 4760,
-            "MinPriceThreshold": 2855,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -168,8 +136,8 @@
         },
         {
             "ClassName": "tlrlight",
-            "MaxPriceThreshold": 4760,
-            "MinPriceThreshold": 2855,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

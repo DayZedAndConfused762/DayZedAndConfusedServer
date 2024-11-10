@@ -181,8 +181,8 @@
         },
         {
             "ClassName": "gasmask",
-            "MaxPriceThreshold": 5120,
-            "MinPriceThreshold": 3070,
+            "MaxPriceThreshold": 25120,
+            "MinPriceThreshold": 13070,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -192,28 +192,24 @@
         },
         {
             "ClassName": "gp5gasmask",
-            "MaxPriceThreshold": 11845,
-            "MinPriceThreshold": 7105,
+            "MaxPriceThreshold": 31845,
+            "MinPriceThreshold": 17105,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "gasmask_filter"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
             "ClassName": "airbornemask",
-            "MaxPriceThreshold": 765,
-            "MinPriceThreshold": 460,
+            "MaxPriceThreshold": 2765,
+            "MinPriceThreshold": 1460,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "gasmask_filter"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
