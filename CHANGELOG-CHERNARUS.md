@@ -70,14 +70,34 @@
 
 ## Working
 
+- Traders:
+  - Added a trader outpost at Green Mountain
+  - Added a black market trader at Radio Zenis
+
 - Vehicles:
   - When disconnected in a vehicle, you should now be placed on the ground when reconnecting
 
 - Central Economy:
   - Added some missing @ParagonStorage items to loot pool
-
+  - Added some new weapons to the loot pool
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 11/9/2024
+
+- Traders:
+  - Added a trader outpost at Green Mountain
+  - Added a black market trader at Radio Zenis
+
+- Vehicles:
+  - When disconnected in a vehicle, you should now be placed on the ground when reconnecting
+
+- Central Economy:
+  - Added some missing @ParagonStorage items to loot pool
+  - Added some new weapons to the loot pool
+
+- Updated Mods:
+    - Dabs Framework
 
 <!-- ++++++++++++++++++++ 11/4/2024 Start ++++++++++++++++++++ -->
 
