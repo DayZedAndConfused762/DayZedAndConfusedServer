@@ -71,15 +71,8 @@ gabi linda baty
 ## Working
 
 - Traders:
-  - Added a trader outpost at Green Mountain
-  - Added a black market trader at Radio Zenis
-
-- Vehicles:
-  - When disconnected in a vehicle, you should now be placed on the ground when reconnecting
-
-- Central Economy:
-  - Added some missing @ParagonStorage items to loot pool
-  - Added some new weapons to the loot pool
+  - Adjusted trader pricing and stock levels
+  - Added explosives trader to black market
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
