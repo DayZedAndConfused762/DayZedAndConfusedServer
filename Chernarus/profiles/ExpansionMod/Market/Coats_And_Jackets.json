@@ -678,8 +678,8 @@
         },
         {
             "ClassName": "chainmail",
-            "MaxPriceThreshold": 595,
-            "MinPriceThreshold": 355,
+            "MaxPriceThreshold": 12595,
+            "MinPriceThreshold": 11355,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -689,8 +689,8 @@
         },
         {
             "ClassName": "omkjacket_navy",
-            "MaxPriceThreshold": 240,
-            "MinPriceThreshold": 145,
+            "MaxPriceThreshold": 9240,
+            "MinPriceThreshold": 8145,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -700,14 +700,30 @@
         },
         {
             "ClassName": "navyuniformjacket",
-            "MaxPriceThreshold": 240,
-            "MinPriceThreshold": 145,
+            "MaxPriceThreshold": 9240,
+            "MinPriceThreshold": 8145,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "MVS_GorkaJacket",
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_GorkaJacket_Snow",
+                "MVS_GorkaJacket_Multicam",
+                "MVS_GorkaJacket_Multicam_Tropic",
+                "MVS_GorkaJacket_Multicam_Black"
+            ]
         }
     ]
 }

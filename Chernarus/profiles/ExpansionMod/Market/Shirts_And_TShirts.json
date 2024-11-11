@@ -296,14 +296,38 @@
         },
         {
             "ClassName": "MVS_Shirt_BDU",
-            "MaxPriceThreshold": 1725,
-            "MinPriceThreshold": 1035,
+            "MaxPriceThreshold": 9000,
+            "MinPriceThreshold": 7000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "MVS_Shirt_BDU_Snow",
+                "MVS_Shirt_BDU_Multicam",
+                "MVS_Shirt_BDU_Multicam_Tropic",
+                "MVS_Shirt_BDU_Multicam_Black"
+            ]
+        },
+        {
+            "ClassName": "MVS_CombatShirt_OD",
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 10000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_CombatShirt_Tan",
+                "MVS_CombatShirt_Black",
+                "MVS_CombatShirt_Snow",
+                "MVS_CombatShirt_ERDL",
+                "MVS_CombatShirt_Multicam",
+                "MVS_CombatShirt_Multicam_Tropic",
+                "MVS_CombatShirt_Multicam_Black"
+            ]
         }
     ]
 }
