@@ -7,16 +7,57 @@
     "InitStockPercent": 510.0,
     "Items": [
         {
-            "ClassName": "personalradio",
-            "MaxPriceThreshold": 1180,
-            "MinPriceThreshold": 710,
+            "ClassName": "CJ_WalkieTalkie",
+            "MaxPriceThreshold": 2000,
+            "MinPriceThreshold": 1500,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "CJ_Motorola_T80_Yellow",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "CJ_Motorola_T80_Red",
+                "CJ_Motorola_T80_Blue",
+                "CJ_Motorola_T80_Green",
+                "CJ_Motorola_T80_Lime",
+                "CJ_Motorola_T80_Grey"
+            ]
+        },
+        {
+            "ClassName": "CJ_Falcon3_Radio",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 2500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "CJ_TacSatRadio_Black",
+                "CJ_TacSatRadio_Green",
+                "CJ_TacSatRadio_Tan"
+            ]
+        },
+        {
+            "ClassName": "personalradio",
+            "MaxPriceThreshold": 2250,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -45,8 +86,8 @@
         },
         {
             "ClassName": "cablereel",
-            "MaxPriceThreshold": 915,
-            "MinPriceThreshold": 550,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 2000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -56,8 +97,8 @@
         },
         {
             "ClassName": "batterycharger",
-            "MaxPriceThreshold": 1115,
-            "MinPriceThreshold": 670,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 2000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -115,6 +156,21 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "CJ_Battery9V_1",
+            "MaxPriceThreshold": 475,
+            "MinPriceThreshold": 285,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "CJ_Battery9V_2",
+                "CJ_Battery9V_3",
+                "CJ_Battery9V_4"
+            ]
         }
     ]
 }

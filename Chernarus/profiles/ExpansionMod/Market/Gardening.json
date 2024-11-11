@@ -8,14 +8,43 @@
     "Items": [
         {
             "ClassName": "gardenlime",
-            "MaxPriceThreshold": 595,
-            "MinPriceThreshold": 355,
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 800,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "CJ_AntiPestsSpray_1",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "CJ_AntiPestsSpray_2",
+                "CJ_AntiPestsSpray_3"
+            ]
+        },
+        {
+            "ClassName": "CJ_GardenLime_1",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "CJ_GardenLime_2",
+                "CJ_GardenLime_3",
+                "CJ_GardenLime_4"
+            ]
         }
     ]
 }
