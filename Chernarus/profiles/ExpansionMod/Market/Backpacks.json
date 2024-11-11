@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 10.0,
+    "InitStockPercent": 50.0,
     "Items": [
         {
             "ClassName": "childbag_red",
@@ -146,8 +146,8 @@
         },
         {
             "ClassName": "assaultbag_winter",
-            "MaxPriceThreshold": 1980,
-            "MinPriceThreshold": 1190,
+            "MaxPriceThreshold": 7080,
+            "MinPriceThreshold": 5190,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -213,8 +213,8 @@
         },
         {
             "ClassName": "coyotebag_winter",
-            "MaxPriceThreshold": 1980,
-            "MinPriceThreshold": 1190,
+            "MaxPriceThreshold": 9080,
+            "MinPriceThreshold": 7190,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -250,28 +250,6 @@
                 "alicebag_black",
                 "alicebag_camo"
             ]
-        },
-        {
-            "ClassName": "alicebag_black",
-            "MaxPriceThreshold": 5840,
-            "MinPriceThreshold": 3505,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "alicebag_camo",
-            "MaxPriceThreshold": 5840,
-            "MinPriceThreshold": 3505,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "slingbag_black",

@@ -4,7 +4,7 @@
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 10.0,
+    "InitStockPercent": 100.0,
     "Items": [
         {
             "ClassName": "CP_Pouch",
@@ -41,8 +41,8 @@
         },
         {
             "ClassName": "CP_Bagger",
-            "MaxPriceThreshold": 100000,
-            "MinPriceThreshold": 100000,
+            "MaxPriceThreshold": 250000,
+            "MinPriceThreshold": 250000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
         },
         {
             "ClassName": "CP_PlasticWrapper",
-            "MaxPriceThreshold": 100000,
-            "MinPriceThreshold": 100000,
+            "MaxPriceThreshold": 500000,
+            "MinPriceThreshold": 500000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
@@ -68,7 +68,7 @@
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
-            "QuantityPercent": -1,
+            "QuantityPercent": 10,
             "SpawnAttachments": [],
             "Variants": []
         },
