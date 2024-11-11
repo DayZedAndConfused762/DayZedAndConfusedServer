@@ -525,8 +525,8 @@
         },
         {
             "ClassName": "chainmail_leggings",
-            "MaxPriceThreshold": 595,
-            "MinPriceThreshold": 355,
+            "MaxPriceThreshold": 12595,
+            "MinPriceThreshold": 12355,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -547,14 +547,63 @@
         },
         {
             "ClassName": "navyuniformpants",
-            "MaxPriceThreshold": 240,
-            "MinPriceThreshold": 145,
+            "MaxPriceThreshold": 9240,
+            "MinPriceThreshold": 8145,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "MVS_Pants_BDU",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 8000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_Pants_BDU_Snow"
+                
+            ]
+        },
+        {
+            "ClassName": "MVS_MVS_GorkaPantsPants_BDU",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 8000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+               "MVS_GorkaPants_Snow",
+                "MVS_GorkaPants_Multicam",
+               "MVS_GorkaPants_Multicam_Black",
+                "MVS_GorkaPants_Multicam_Tropic"
+            ]
+        },
+        {
+            "ClassName": "MVS_CombatPants_OD",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 8000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MVS_CombatPants_Tan",
+                "MVS_CombatPants_Black",
+                "MVS_CombatPants_Snow",
+                "MVS_CombatPants_ERDL",
+                "MVS_CombatPants_Multicam",
+                "MVS_CombatPants_Multicam_Tropic",
+                "MVS_CombatPants_Multicam_Black"
+            ]
         }
     ]
 }
