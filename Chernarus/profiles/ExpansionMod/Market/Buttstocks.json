@@ -114,7 +114,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "M4_OEBttstck_Tan",
+                "M4_OEBttstck_White"
+            ]
         },
         {
             "ClassName": "m4_mpbttstck",
@@ -125,7 +128,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "M4_MPBttstck_Tan",
+                "M4_MPBttstck_White"
+            ]
         },
         {
             "ClassName": "m4_cqbbttstck",
@@ -136,7 +142,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "M4_CQBBttstck_Wood",
+                "M4_CQBBttstck_Tan",
+                "M4_CQBBttstck_White"
+            ]
         },
         {
             "ClassName": "pp19_bttstck",
@@ -162,6 +172,39 @@
                 "ghillieatt_woodland",
                 "ghillieatt_mossy",
                 "ghillieatt_winter"
+            ]
+        },
+        {
+            "ClassName": "Ar15_Buttstock_Black",
+            "MaxPriceThreshold": 4390,
+            "MinPriceThreshold": 2630,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Ar15_Buttstock_Tan",
+                "Ar15_Buttstock_Green",
+                "Ar15_Buttstock_White",
+                "Ar15_Buttstock_Atacs_AU",
+                "Ar15_Buttstock_Atacs_FG",
+                "Ar15_Buttstock_Atacs_IX"
+            ]
+        },
+        {
+            "ClassName": "MLOK_Buttstock_Black",
+            "MaxPriceThreshold": 4390,
+            "MinPriceThreshold": 2630,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "MLOK_Buttstock_Green",
+                "MLOK_Buttstock_Tan",
+                "MLOK_Buttstock_White"
             ]
         }
     ]

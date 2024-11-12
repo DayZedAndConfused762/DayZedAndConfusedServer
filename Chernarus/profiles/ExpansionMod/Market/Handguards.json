@@ -81,7 +81,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "M4_PlasticHndgrd_Tan",
+                "M4_PlasticHndgrd_White"
+            ]
         },
         {
             "ClassName": "m4_rishndgrd",
@@ -92,7 +95,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "M4_RISHndgrd_Tan",
+                "M4_RISHndgrd_White"
+            ]
         },
         {
             "ClassName": "m4_mphndgrd",
@@ -103,7 +109,40 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
+            "Variants": [
+                "M4_MPHndgrd_Wood",
+                "M4_MPHndgrd_Tan",
+                "M4_MPHndgrd_White"
+            ]
+        },
+        {
+            "ClassName": "Ar15_Handguard",
+            "MaxPriceThreshold": 2985,
+            "MinPriceThreshold": 1790,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "M4_RIS_Cover_Black",
+            "MaxPriceThreshold": 2985,
+            "MinPriceThreshold": 1790,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "M4_RIS_Cover_Green",
+                "M4_RIS_Cover_Tan",
+                "M4_RIS_Cover_White",
+                "M4_RIS_Cover_Atacs_AU",
+                "M4_RIS_Cover_Atacs_FG",
+                "M4_RIS_Cover_Atacs_IX"
+            ]
         }
     ]
 }

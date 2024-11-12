@@ -75,7 +75,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "CJ_Flashlight_Yellow"
+            ]
         },
         {
             "ClassName": "portablegaslamp",
@@ -144,6 +146,46 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
+        },
+        {
+            "ClassName": "CJ_GasBottle",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "CJ_ButaneCanister",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "M4_UniversalLasersight_Black",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "M4_UniversalLasersight_Green",
+                "M4_UniversalLasersight_Tan",
+                "M4_UniversalLasersight_White",
+                "M4_UniversalLasersight_Atacs_AU",
+                "M4_UniversalLasersight_Atacs_FG",
+                "M4_UniversalLasersight_Atacs_IX"
+            ]
         }
     ]
 }
