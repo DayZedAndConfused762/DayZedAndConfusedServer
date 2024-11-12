@@ -73,6 +73,10 @@ gabi linda baty
 - Traders:
   - Adjusted trader pricing and stock levels
   - Added explosives trader to black market
+  - Added a lot more items to traders
+
+- Central Economy:
+  - Added Car Keys to loot pool (town and villages)
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 

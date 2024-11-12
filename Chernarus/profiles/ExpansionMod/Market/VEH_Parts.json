@@ -1,0 +1,122 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_VEHICLE_PARTS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 50.0,
+    "Items": [
+        {
+            "ClassName": "tirerepairkit",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 30000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionhydraulichoses",
+            "MaxPriceThreshold": 250000,
+            "MinPriceThreshold": 200000,
+            "SellPricePercent": 10,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionkeychain_red",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "expansionkeychain_white",
+                "expansionkeychain_black",
+                "expansionkeychain_blue",
+                "expansionkeychain_green",
+                "expansionkeychain_grey",
+                "expansionkeychain_orange",
+                "expansionkeychain_pink",
+                "expansionkeychain_purple",
+                "expansionkeychain_yellow"
+            ]
+        },
+        {
+            "ClassName": "ExpansionCarKey",
+            "MaxPriceThreshold": 100000,
+            "MinPriceThreshold": 80000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 500,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "RFFSHeli_flight_case",
+            "MaxPriceThreshold": 250000,
+            "MinPriceThreshold": 200000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "RFFSHeli_flight_case_red",
+                "RFFSHeli_flight_case_blue"
+            ]
+        },
+        {
+            "ClassName": "RFFSHeli_hydraulic_hoses",
+            "MaxPriceThreshold": 250000,
+            "MinPriceThreshold": 200000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "RFFSHeli_wiring_harness",
+            "MaxPriceThreshold": 250000,
+            "MinPriceThreshold": 200000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "RFFSHeli_aviation_toolbox",
+            "MaxPriceThreshold": 50000,
+            "MinPriceThreshold": 40000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "RFFSHeli_hydraulic_fluid",
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 20000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}
