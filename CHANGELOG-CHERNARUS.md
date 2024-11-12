@@ -68,6 +68,8 @@ gabi linda baty
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+steamProtocolMaxDataSize = 2048;
+
 ## Working
 
 - Traders:
