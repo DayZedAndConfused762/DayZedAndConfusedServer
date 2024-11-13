@@ -104,19 +104,7 @@ Expansion
 
 
 
-ExpansionArmbandBandit
-ExpansionArmbandHero
-ExpansionTacticalGlovesDesert
-ExpansionCoyoteBlack
-ExpansionCowboyHatGator
-ExpansionCowboyHatSnake
-ExpansionCowboyHatRattleSnake	
-ExpansionShemag
-ExpansionMich2001Desert
-ExpansionRidersJacketBrown
-ExpansionRidersJacketBrownDarkBlue
-ExpansionRidersJacketFogEaters
-ExpansionDesertTortilla
+
 
 
 								
