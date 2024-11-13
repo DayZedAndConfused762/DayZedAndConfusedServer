@@ -13,6 +13,8 @@ gabi linda baty
 ## Contents:
 
 - [Working](#Working)
+- [11/13/2024](#11/13/2024)
+- [11/9/2024](#11/9/2024)
 - [11/4/2024](#11/4/2024)
 - [11/2/2024](#11/2/2024)
 - [11/1/2024](#11/1/2024)
@@ -135,6 +137,10 @@ steamProtocolMaxDataSize = 2048;
 
 ## Working
 
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 11/13/2024
+
 - Traders:
   - Adjusted trader pricing and stock levels
   - Added explosives trader to black market
@@ -143,7 +149,9 @@ steamProtocolMaxDataSize = 2048;
 - Central Economy:
   - Added Car Keys to loot pool (town and villages)
 
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+- Updated mods: Red Falcon Helis, various DayZ-Expansion Mods, Dabs Framework
+
+
 
 ## 11/9/2024
 
