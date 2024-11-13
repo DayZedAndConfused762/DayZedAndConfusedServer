@@ -1,17 +1,17 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_LIGHTS",
+    "DisplayName": "Lights",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
             "ClassName": "chemlight_blue",
             "MaxPriceThreshold": 615,
             "MinPriceThreshold": 370,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 10000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -27,7 +27,7 @@
             "MaxPriceThreshold": 400,
             "MinPriceThreshold": 200,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 10000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -49,7 +49,7 @@
             "MaxPriceThreshold": 825,
             "MinPriceThreshold": 495,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
+            "MaxStockThreshold": 10000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -116,30 +116,8 @@
         },
         {
             "ClassName": "spotlight",
-            "MaxPriceThreshold": 1115,
-            "MinPriceThreshold": 670,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "universallight",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "tlrlight",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
+            "MaxPriceThreshold": 9000,
+            "MinPriceThreshold": 8000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -168,24 +146,6 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": []
-        },
-        {
-            "ClassName": "M4_UniversalLasersight_Black",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "M4_UniversalLasersight_Green",
-                "M4_UniversalLasersight_Tan",
-                "M4_UniversalLasersight_White",
-                "M4_UniversalLasersight_Atacs_AU",
-                "M4_UniversalLasersight_Atacs_FG",
-                "M4_UniversalLasersight_Atacs_IX"
-            ]
         }
     ]
 }

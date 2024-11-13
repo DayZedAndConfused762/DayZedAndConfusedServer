@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_TENTS",
+    "DisplayName": "Tents",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 5.0,
     "Items": [
         {
             "ClassName": "partytent",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 5000,
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 30000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -23,8 +23,8 @@
         },
         {
             "ClassName": "mediumtent",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 7500,
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 30000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -37,8 +37,8 @@
         },
         {
             "ClassName": "largetent",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 70000,
+            "MinPriceThreshold": 60000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -48,8 +48,8 @@
         },
         {
             "ClassName": "cartent",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 70000,
+            "MinPriceThreshold": 60000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,

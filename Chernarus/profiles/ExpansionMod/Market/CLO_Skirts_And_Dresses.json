@@ -1,10 +1,10 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SKIRTS & #STR_EXPANSION_MARKET_CATEGORY_DRESSES",
+    "DisplayName": "Skirts and Dresses",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 50.0,
+    "InitStockPercent": 10.0,
     "Items": [
         {
             "ClassName": "skirt_blue",
@@ -22,42 +22,9 @@
             ]
         },
         {
-            "ClassName": "skirt_red",
-            "MaxPriceThreshold": 1050,
-            "MinPriceThreshold": 630,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "skirt_white",
-            "MaxPriceThreshold": 1050,
-            "MinPriceThreshold": 630,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "skirt_yellow",
-            "MaxPriceThreshold": 1050,
-            "MinPriceThreshold": 630,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "minidress_pink",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 600,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -74,83 +41,6 @@
             ]
         },
         {
-            "ClassName": "minidress_pinkchecker",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "minidress_redchecker",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "minidress_bluechecker",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "minidress_bluewithdots",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "minidress_whitechecker",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "minidress_brownchecker",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "minidress_greenchecker",
-            "MaxPriceThreshold": 335,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "nursedress_blue",
             "MaxPriceThreshold": 1075,
             "MinPriceThreshold": 645,
@@ -162,17 +52,6 @@
             "Variants": [
                 "nursedress_white"
             ]
-        },
-        {
-            "ClassName": "nursedress_white",
-            "MaxPriceThreshold": 1075,
-            "MinPriceThreshold": 645,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }

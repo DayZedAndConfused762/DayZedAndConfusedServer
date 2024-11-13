@@ -1,10 +1,10 @@
 {
     "m_Version": 12,
-    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_ELECTRONICS",
+    "DisplayName": "Electronics",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
-    "InitStockPercent": 510.0,
+    "InitStockPercent": 25.0,
     "Items": [
         {
             "ClassName": "CJ_WalkieTalkie",
@@ -97,8 +97,8 @@
         },
         {
             "ClassName": "batterycharger",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 2000,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 12000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -121,15 +121,13 @@
         },
         {
             "ClassName": "rangefinder",
-            "MaxPriceThreshold": 1355,
-            "MinPriceThreshold": 815,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
-            "SpawnAttachments": [
-                "battery9v"
-            ],
+            "SpawnAttachments": [],
             "Variants": []
         },
         {
@@ -158,7 +156,7 @@
             "Variants": []
         },
         {
-            "ClassName": "CJ_Battery9V_1",
+            "ClassName": "Battery9V",
             "MaxPriceThreshold": 475,
             "MinPriceThreshold": 285,
             "SellPricePercent": -1.0,
@@ -167,21 +165,7 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "CJ_Battery9V_2",
-                "CJ_Battery9V_3",
-                "CJ_Battery9V_4"
-            ]
-        },
-        {
-            "ClassName": "CJ_Battery9V_1",
-            "MaxPriceThreshold": 475,
-            "MinPriceThreshold": 285,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 1000,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
+                "CJ_Battery9V_1",
                 "CJ_Battery9V_2",
                 "CJ_Battery9V_3",
                 "CJ_Battery9V_4"
