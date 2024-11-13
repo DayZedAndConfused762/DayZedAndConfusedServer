@@ -140,7 +140,16 @@ steamProtocolMaxDataSize = 2048;
 - Market:
   - More adjustments to prices and stocking
 
+- Loot Chests:
+  - Added some black market weapons to the Prison and t4 Military crates
 
+- Central Economy:
+  - Added Car Keys to loot pool (town and villages)
+  - Adjusted spawn rates of Loot Chest keys
+  - Removed currently unused keys from the loot pool
+  - Added a low chance to all zombies to spawn loot chest keys (certain zombies are more likely to drop certain types of keys)
+  - Adjusted spawn rate of various items
+  - Adjusted various zombie loot spawns
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
@@ -154,11 +163,7 @@ steamProtocolMaxDataSize = 2048;
   - Added explosives trader to black market
   - Added a lot more items to traders
 
-- Central Economy:
-  - Added Car Keys to loot pool (town and villages)
 
-- Loot Chests:
-  - Added some black market weapons to the Prison and t4 Military crates
 
 - Updated mods: Red Falcon Helis, various DayZ-Expansion Mods, Dabs Framework
 

@@ -859,9 +859,12 @@
       "name": "Base Building Supplies",
       "number": 4,
       "pos": [
-        "INSERT LOCATIONS",
+        "12870.00 500 13668.75|100 100 100",
+        "11870.00 500 12668.75|100 100 100",
+        "10870.00 500 11668.75|100 100 100",
+        "9870.00 500 10668.75|100 100 100"
       ],
-      "keyclass": "CJ_Key8",
+      "keyclass": "CJ_Key2",
       "openable": 0,
       "chest": [
         "CJ_LootChest_Wood_Brown_Tools_Large"
@@ -870,10 +873,11 @@
       "light": 1,
       "loot": [
         "LC_Table_tools",
+        "LC_Table_tools",
         "LC_Table_repair",
-	"LC_Table_supplies_small",
-	"LC_Table_supplies_small",
-	"LC_Table_supplies_small",
+	      "LC_Table_supplies_small",
+	      "LC_Table_supplies_small",
+	      "LC_Table_supplies_small",
         "LC_Table_supplies_medium",
         "LC_Table_supplies_medium",
         "LC_Table_supplies_large"
@@ -2095,14 +2099,17 @@
       "Loot": [
         "BarbedWire",
         "BarbedWire",
+        "BarbedWire",
         "MetalWire",
         "MetalWire",
+        "MetalWire",
+        "NailBox",
+        "NailBox",
+        "NailBox",
         "NailBox",
         "NailBox",
         "NailBox",
         "Netting",
-        "Netting",
-        "Rope",
         "Rope",
         "BearTrap",
         "CodeLock"
@@ -2113,6 +2120,8 @@
       "Loot": [
         "BBP_Cement",
         "BBP_Cement",
+        "BBP_Cement",
+        "BBP_Mortar_Mix",
         "BBP_Mortar_Mix",
         "BBP_Mortar_Mix",
         "BBP_Concrete_Brick_Pile"
@@ -2121,6 +2130,8 @@
     {
       "name": "LC_Table_supplies_large",
       "Loot": [
+        "MetalPlate",
+        "MetalPlate",
         "MetalPlate",
         "MetalPlate",
         "BBP_Cement",
