@@ -68,6 +68,69 @@ gabi linda baty
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+Position: <2125.660400, 91.677284, 3360.731201>
+Orientation: <-0.224342, -0.231218, 0.211701>
+Config-Type: RFFSHeli_UH1H
+
+Position: <4526.125977, 338.989716, 9567.836914>
+Orientation: <-0.225225, -0.252095, 0.208330>
+Config-Type: RFFSHeli_UH1H
+
+
+
+Position: <5320.526367, 323.900238, 9959.241211>
+Orientation: <-0.774592, -6.669573, 2.171277>
+Config-Type: RFFSHeli_LittleBird
+
+Position: <4560.045410, 318.140045, 8385.270508>
+Orientation: <0.331131, -2.681066, -4.261669>
+Config-Type: RFFSHeli_LittleBird
+
+
+
+Position: <4673.927246, 324.559174, 10987.097656>
+Orientation: <-0.220019, 0.130273, -0.133360>
+Config-Type: RFFSHeli_Blackhawk
+
+Position: <11887.362305, 140.053711, 12468.771484>
+Orientation: <-0.213748, 0.395656, 0.239805>
+Config-Type: RFFSHeli_Blackhawk
+
+
+
+Position: <11979.531250, 139.991547, 12492.271484>
+Orientation: <-0.224768, 0.689654, 0.257998>
+Config-Type: RFFSHeli_CH47
+
+Position: <5082.570313, 9.144884, 2574.604980>
+Orientation: <-0.235353, -0.370346, 2.445579>
+Config-Type: RFFSHeli_CH47
+
+Position: <591.707581, 501.669037, 13707.325195>
+Orientation: <-0.229498, -0.193710, 0.225620>
+Config-Type: RFFSHeli_CH47
+
+
+
+
+Position: <5875.232422, 70.332672, 2603.242188>
+Orientation: <2.018356, 0.665839, 1.463641>
+Config-Type: RFFSHeli_Bell429
+
+Position: <7100.315430, 356.147125, 14648.636719>
+Orientation: <0.223861, 1.157176, 0.238504>
+Config-Type: RFFSHeli_Bell429
+
+
+
+Position: <11161.082031, 10.419658, 2515.809570>
+Orientation: <0.142284, -3.673639, 2.009918>
+Config-Type: RFFSHeli_R22
+
+Position: <2787.456787, 204.473969, 5245.771973>
+Orientation: <-0.228252, 0.185017, -0.273391>
+Config-Type: RFFSHeli_R22
+
 steamProtocolMaxDataSize = 2048;
 
 ## Working
