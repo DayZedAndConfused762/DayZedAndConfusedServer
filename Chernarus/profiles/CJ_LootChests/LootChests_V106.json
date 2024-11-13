@@ -854,6 +854,30 @@
         "LC_Table_Money_verylow",
         "LC_Table_Money_verylow"
       ]
+    },
+    {
+      "name": "Base Building Supplies",
+      "number": 4,
+      "pos": [
+        "INSERT LOCATIONS",
+      ],
+      "keyclass": "CJ_Key8",
+      "openable": 0,
+      "chest": [
+        "CJ_LootChest_Wood_Brown_Tools_Large"
+      ],
+      "lootrandomize": 0,
+      "light": 1,
+      "loot": [
+        "LC_Table_tools",
+        "LC_Table_repair",
+	"LC_Table_supplies_small",
+	"LC_Table_supplies_small",
+	"LC_Table_supplies_small",
+        "LC_Table_supplies_medium",
+        "LC_Table_supplies_medium",
+        "LC_Table_supplies_large"
+      ]
     }
   ],
   "LCPredefinedWeapons": [
