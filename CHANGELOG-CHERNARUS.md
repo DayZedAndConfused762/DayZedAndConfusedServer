@@ -137,7 +137,15 @@ steamProtocolMaxDataSize = 2048;
 
 ## Working
 
+- Market:
+  - More adjustments to prices and stocking
+
+
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+
+<!-- ++++++++++++++++++++ 11/13/2024 Start ++++++++++++++++++++ -->
 
 ## 11/13/2024
 
@@ -149,9 +157,16 @@ steamProtocolMaxDataSize = 2048;
 - Central Economy:
   - Added Car Keys to loot pool (town and villages)
 
+- Loot Chests:
+  - Added some black market weapons to the Prison and t4 Military crates
+
 - Updated mods: Red Falcon Helis, various DayZ-Expansion Mods, Dabs Framework
 
+<!-- ++++++++++++++++++++ 11/13/2024 End ++++++++++++++++++++ -->
 
+
+
+<!-- ++++++++++++++++++++ 11/9/2024 Start ++++++++++++++++++++ -->
 
 ## 11/9/2024
 
@@ -168,6 +183,8 @@ steamProtocolMaxDataSize = 2048;
 
 - Updated Mods:
     - Dabs Framework
+
+<!-- ++++++++++++++++++++ 11/9/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/4/2024 Start ++++++++++++++++++++ -->
 

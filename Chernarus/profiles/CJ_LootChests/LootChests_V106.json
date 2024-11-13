@@ -541,7 +541,7 @@
         "CJ_LootChest_HiddenStash_Large"
       ],
       "lootrandomize": 0,
-      "light": 0,
+      "light": 1,
       "loot": [
         "LC_Table_Weapons_tier1",
         "LC_Table_Ammo_low",
@@ -642,7 +642,7 @@
         "CJ_LootChest_HiddenStash_Large"
       ],
       "lootrandomize": 0,
-      "light": 0,
+      "light": 1,
       "loot": [
         "LC_Table_Weapons_tier2",
         "LC_Table_Ammo_medium",
@@ -836,7 +836,7 @@
       "chest": [
         "CJ_LootChest_CashRegister_New"
       ],
-      "lootrandomize": 0.5,
+      "lootrandomize": 0,
       "light": 1,
       "loot": [
         "LC_Table_Money_high",
@@ -1704,24 +1704,23 @@
         "LC_predefined_AK74_Black",
         "LC_predefined_SKS",
         "LC_predefined_CZ527",
-        "LC_predefined_UMP",
-        "LC_predefined_MP5",
         "LC_predefined_AR15",
         "LC_predefined_AR15_9mm_Atacs_AU",
         "LC_predefined_AR15_9mm_Atacs_FG",
         "LC_predefined_AR15_9mm_Atacs_IX",
-        "LC_predefined_GLOCK19"
-      ]
-    },
-    {
-      "name": "LC_Table_Weapons_tier3",
-      "Loot": [
         "LC_predefined_AK101",
         "LC_predefined_M4A1",
         "LC_predefined_M16A2",
         "LC_predefined_SKS_Black",
         "LC_predefined_SKS_Green",
         "LC_predefined_AK74_Green",
+        "LC_predefined_GLOCK19"
+      ]
+    },
+    {
+      "name": "LC_Table_Weapons_tier3",
+      "Loot": [
+
         "LC_predefined_VSS",
         "LC_predefined_Saiga",
         "LC_predefined_MOSIN",
@@ -1734,21 +1733,64 @@
         "LC_predefined_ASVAL",
         "LC_predefined_WINCHESTER70",
         "LC_predefined_WINCHESTER70_Black",
-        "LC_predefined_WINCHESTER70_Green"
+        "LC_predefined_WINCHESTER70_Green",
+        "LC_predefined_M4A1_Black",
+        "LC_predefined_M4A1_Green",
+        "LC_predefined_AKM",
+        "LC_predefined_AK101_Black",
+        "LC_predefined_AK101_Green"
       ]
     },
     {
       "name": "LC_Table_Weapons_tier4",
       "Loot": [
-        "LC_predefined_M4A1_Black",
-        "LC_predefined_M4A1_Green",
-        "LC_predefined_AKM",
-        "LC_predefined_AK101_Black",
-        "LC_predefined_AK101_Green",
+
         "LC_predefined_SVD",
         "LC_predefined_M14",
         "LC_predefined_MOSIN_Camo",
-        "LC_predefined_FAL"
+        "LC_predefined_FAL",
+        "LC_predefined_Candy_ACRBushMaster",
+        "LC_predefined_Candy_AK103",
+        "LC_predefined_Candy_AK12M2",
+        "LC_predefined_Candy_AKALFA",
+        "LC_predefined_Candy_AKM",
+        "LC_predefined_Candy_AMB17",
+        "LC_predefined_Candy_AR15",
+        "LC_predefined_Candy_ARX_160",
+        "LC_predefined_Candy_ASH12",
+        "LC_predefined_Candy_BR80",
+        "LC_predefined_Candy_FAMASVHS",
+        "LC_predefined_Candy_FAMASVHSv2",
+        "LC_predefined_Candy_G36",
+        "LC_predefined_Candy_G36X",
+        "LC_predefined_Candy_GSAR15",
+        "LC_predefined_Candy_HGK56",
+        "LC_predefined_Candy_HK416",
+        "LC_predefined_Candy_HoneyBadger",
+        "LC_predefined_Candy_KPA88",
+        "LC_predefined_Candy_MK18",
+        "LC_predefined_Candy_RK62M2",
+        "LC_predefined_Candy_SA80",
+        "LC_predefined_Candy_SCARSC",
+        "LC_predefined_Candy_SFAR",
+        "LC_predefined_Candy_SS2V5",
+        "LC_predefined_Candy_Underwater_aps",
+        "LC_predefined_Candy_XRKM4",
+        "LC_predefined_Candy_LMG",
+        "LC_predefined_Candy_M60",
+        "LC_predefined_Candy_M249",
+        "LC_predefined_Candy_RPK",
+        "LC_predefined_Candy_Sammy",
+        "LC_predefined_Candy_CSMillan",
+        "LC_predefined_Candy_HKG28",
+        "LC_predefined_Candy_KalashnikovSR1",
+        "LC_predefined_Candy_M110",
+        "LC_predefined_Candy_M900",
+        "LC_predefined_Candy_MK14_EBR",
+        "LC_predefined_Candy_ScarH",
+        "LC_predefined_Candy_SOLYANKA",
+        "LC_predefined_Candy_MP5",
+        "LC_predefined_Candy_Kriss"
       ]
     },
     {
