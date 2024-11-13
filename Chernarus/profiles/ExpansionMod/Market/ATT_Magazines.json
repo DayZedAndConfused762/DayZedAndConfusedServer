@@ -206,8 +206,8 @@
         },
         {
             "ClassName": "mag_saiga_drum20rnd",
-            "MaxPriceThreshold": 12000,
-            "MinPriceThreshold": 10000,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -235,18 +235,24 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Mag_AKM_Palm30Rnd_Black",
+                "Mag_AKM_Palm30Rnd_Green"
+            ]
         },
         {
             "ClassName": "mag_akm_drum75rnd",
-            "MaxPriceThreshold": 20000,
-            "MinPriceThreshold": 15000,
+            "MaxPriceThreshold": 25000,
+            "MinPriceThreshold": 20000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Mag_AKM_Drum75Rnd_Black",
+                "Mag_AKM_Drum75Rnd_Green"
+            ]
         },
         {
             "ClassName": "mag_ak101_30rnd",
@@ -257,7 +263,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Mag_AK101_30Rnd_Black",
+                "Mag_AK101_30Rnd_Green"
+            ]
         },
         {
             "ClassName": "mag_ak74_30rnd",
@@ -268,7 +277,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Mag_AK74_30Rnd_Black",
+                "Mag_AK74_30Rnd_Green"
+            ]
         },
         {
             "ClassName": "mag_ak74_45rnd",
@@ -294,8 +306,8 @@
         },
         {
             "ClassName": "mag_stanagcoupled_30rnd",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 12000,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -305,8 +317,8 @@
         },
         {
             "ClassName": "mag_stanag_60rnd",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 12000,
+            "MaxPriceThreshold": 20000,
+            "MinPriceThreshold": 18000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 1000,
             "MinStockThreshold": 1,
@@ -323,7 +335,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Mag_CMAG_10Rnd_Black",
+                "Mag_CMAG_10Rnd_Green"
+            ]
         },
         {
             "ClassName": "mag_cmag_20rnd",
@@ -334,7 +349,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "mag_cmag_20rnd_black",
+                "mag_cmag_20rnd_green"
+            ]
         },
         {
             "ClassName": "mag_cmag_30rnd",
@@ -345,7 +363,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "mag_cmag_30rnd_black",
+                "mag_cmag_30rnd_green"
+            ]
         },
         {
             "ClassName": "mag_cmag_40rnd",
@@ -356,7 +377,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "mag_cmag_40rnd_black",
+                "mag_cmag_40rnd_green"
+            ]
         },
         {
             "ClassName": "mag_vss_10rnd",
