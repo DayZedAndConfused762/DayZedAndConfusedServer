@@ -70,6 +70,12 @@ gabi linda baty
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+fix prices:
+jumpsuitpants_blue'
+wallet_medium_red
+buisoptic
+
+
 Position: <2125.660400, 91.677284, 3360.731201>
 Orientation: <-0.224342, -0.231218, 0.211701>
 Config-Type: RFFSHeli_UH1H
