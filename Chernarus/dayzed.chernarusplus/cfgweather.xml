@@ -58,11 +58,11 @@
     <!-- Snowfall should always remain at 0 for this world. -->
     <snowfall>
         <!-- Initial conditions of the snowfall (target value, time to change, how long will it stay), restricted by thresholds (see below) -->
-        <current actual="0.0" time="0" duration="120" />
+        <current actual="0.0" time="0" duration="32768" />
         <!-- What is the range of the snowfall value (0..1) -->
         <limit min="0.0" max="0.0" />
         <!-- How long does it take to the snowfall to change from one value to other (time in seconds) -->
-        <timelimits min="30" max="60" />
+        <timelimits min="300" max="3600" />
         <!-- How much should the snowfall change (0..1) -->
         <changelimits min="0.0" max="0.0" />
         <!-- What range of the overcast value allows the snowfall to be preset (min, max overcast value, time in seconds it takes for snowfall to stop if the overcast is outside of the specified range) -->
