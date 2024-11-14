@@ -74,6 +74,7 @@ fix prices:
 jumpsuitpants_blue'
 wallet_medium_red
 buisoptic
+remove candy ammo boxes
 
 
 Position: <2125.660400, 91.677284, 3360.731201>
