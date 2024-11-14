@@ -69,7 +69,7 @@ gabi linda baty
 <!-- ------------------------------ Overview End ------------------------------ -->
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
-
+https://www.reddit.com/r/ChatGPT/comments/1grceow/realistic_enough/
 Position: <2125.660400, 91.677284, 3360.731201>
 Orientation: <-0.224342, -0.231218, 0.211701>
 Config-Type: RFFSHeli_UH1H
