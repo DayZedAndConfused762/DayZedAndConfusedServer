@@ -136,13 +136,19 @@ Config-Type: RFFSHeli_R22
 
 https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
-## Working
 
-- Market:
-  - More adjustments to prices and stocking
+## Working
 
 - Loot Chests:
   - Added some black market weapons to the Prison and t4 Military crates
+
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 11/14/2024
+
+- Market:
+  - More adjustments to prices and stocking
 
 - Central Economy:
   - Added Car Keys to loot pool (town and villages)
@@ -151,9 +157,6 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
   - Added a low chance to all zombies to spawn loot chest keys (certain zombies are more likely to drop certain types of keys)
   - Adjusted spawn rate of various items
   - Adjusted various zombie loot spawns
-
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
-
 
 <!-- ++++++++++++++++++++ 11/13/2024 Start ++++++++++++++++++++ -->
 
