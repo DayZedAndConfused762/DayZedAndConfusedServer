@@ -12,6 +12,149 @@ gabi linda baty
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+Mil Large
+
+    <event name="VehicleRFalconCH47">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_CH47"/>
+        </children>
+   </event>
+
+
+<event name="VehicleRFalconCH47">
+<pos x="11979.531250" y="139.991547" z="12492.271484 a="-0.224768" />
+<pos x="5082.570313" y="9.144884" z="2574.604980 a="-0.235353" />
+<pos x="591.707581" y="501.669037" z="13707.325195 a="-0.229498" />
+</event>
+
+===============
+
+
+<event name="VehicleRFalconUHandBH">
+<pos x="4673.927246" y="324.559174" z="10987.097656 a="-0.220019" />
+<pos x="11887.362305" y="140.053711" z="12468.771484 a="-0.213748" />
+<pos x="2125.660400" y="91.677284" z="3360.731201 a="-0.224342" />
+<pos x="4526.125977" y="338.989716" z="9567.836914 a="-0.225225" />
+<pos x="2476.755371" y="193.344742" z="5111.245117" a="-0.222970" />
+<pos x="14047.175781" y="20.743902" z="2915.009277" a="0.007720" />
+<pos x="2779.343506" y="26.065443" z="1198.313354" a="-0.226517" />
+<pos x="12445.166992" y="140.532730" z="12531.861328" a="-0.226676" />
+<pos x="11615.882813" y="110.426086" z="15061.618164" a="0.594795" />
+</event>
+
+    <event name="VehicleRFalconUHandBH">
+        <nominal>3</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_UH1H"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_UH1H_Combat"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Blackhawk_Woodland"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Blackhawk"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Blackhawk_blackblackhawk"/>
+        </children>
+   </event>
+
+================
+
+Mil Small
+
+<event name="VehicleRFalconLittleBird">
+<pos x="5320.526367" y="323.900238" z="9959.241211 a="-0.774592" />
+<pos x="4560.045410" y="318.140045" z="8385.270508 a="0.331131" />
+<pos x="2610.090576" y="21.751432" z="1306.517334" a="14.250560" />
+<pos x="10186.822266" y="336.787231" z="12055.617188" a="-2.64277" />
+<pos x="8048.983887" y="39.877960" z="14677.879883" a="0.627637" />
+<pos x="502.655670" y="422.055756" z="11234.965820" a="-0.224400" />
+<pos x="1259.118774" y="279.144958" z="8895.003906" a="-0.223787" />
+</event>
+
+    <event name="VehicleRFalcon----">
+        <nominal>3</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_LittleBird"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_LittleBird_Camo"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_LittleBird_Desert"/>
+        </children>
+   </event>
+
+================
+
+
+
+
+
+<event name="VehicleRFalconBell429">
+<event name="VehicleRFalconR22">
+Civ
+
+<event name="VehicleRFalconCiv">
+<pos x="5875.232422" y="70.332672" z="2603.242188 a="2.018356" />
+<pos x="7100.315430" y="356.147125, 14648.636719 a="0.223861" />
+<pos x="11599.634766" y="57.959042" z="14708.689453" a="-0.245607" />
+<pos x="11161.082031" y="10.419658" z="2515.809570 a="0.142284 />
+<pos x="2787.456787" y="204.473969" z="5245.771973 a="-0.228252 />
+<pos x="3739.961670" y="355.428619" z="11486.831055" a="0.321844" />
+</event>
+
+    <event name="VehicleRFalcon">
+        <nominal>3</nominal>
+        <min>2</min>
+        <max>4</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Bell429"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Bell249_Police"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Bell429_Medic"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Bell429_ZS"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_Bell429_Uganda"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_R22"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_R22_Black"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="RFFSHeli_R22_Red"/>
+        </children>
+   </event>
+
+================
 
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
