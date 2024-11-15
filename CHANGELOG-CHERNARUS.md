@@ -142,6 +142,7 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 - Loot Chests:
   - Added some black market weapons to the Prison and t4 Military crates
 
+- Lowered amount of vehicle spawns
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 

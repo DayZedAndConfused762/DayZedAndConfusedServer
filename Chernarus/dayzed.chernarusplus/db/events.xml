@@ -1133,9 +1133,9 @@
         </children>
     </event>
     <event name="VehicleCivilianSedan">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <min>3</min>
-        <max>8</max>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1146,15 +1146,15 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="CivilianSedan"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="CivilianSedan_Black"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="CivilianSedan_Wine"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="CivilianSedan"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="CivilianSedan_Black"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="CivilianSedan_Wine"/>
         </children>
     </event>
     <event name="VehicleHatchback02">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <min>3</min>
-        <max>8</max>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1189,9 +1189,9 @@
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
-        <nominal>6</nominal>
-        <min>4</min>
-        <max>8</max>
+        <nominal>5</nominal>
+        <min>3</min>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1202,15 +1202,15 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="OffroadHatchback"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="OffroadHatchback_Blue"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="OffroadHatchback_White"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="OffroadHatchback"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="OffroadHatchback_Blue"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="OffroadHatchback_White"/>
         </children>
     </event>
     <event name="VehicleSedan02">
-        <nominal>6</nominal>
-        <min>4</min>
-        <max>8</max>
+        <nominal>5</nominal>
+        <min>3</min>
+        <max>6</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1221,9 +1221,9 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="Sedan_02"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="Sedan_02_Grey"/>
-            <child lootmax="0" lootmin="0" max="3" min="2" type="Sedan_02_Red"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Sedan_02"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Sedan_02_Grey"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Sedan_02_Red"/>
         </children>
     </event>
     <event name="VehicleTruck01">
@@ -1673,9 +1673,9 @@
 <!-- Vvg7 bikes Blackout Scorpion Start -->
 
     <event name="VehicleVG7">
-        <nominal>10</nominal>
-        <min>5</min>
-        <max>15</max>
+        <nominal>5</nominal>
+        <min>3</min>
+        <max>8</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1801,9 +1801,9 @@
     </event>
 
 	    <event name="VehicleTyphoonPolice">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <min>1</min>
-        <max>3</max>
+        <max>1</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1814,14 +1814,14 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="1" type="TyphoonK_Police" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="TyphoonK_Police" />
         </children>
     </event>
 
 	    <event name="VehiclePitbullPolice">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <min>1</min>
-        <max>3</max>
+        <max>1</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1832,7 +1832,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="1" type="Pitbull" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Pitbull" />
         </children>
     </event>
 
