@@ -172,28 +172,15 @@ Expansion
 
 ## To Do 
 
-- Base Building:
-  - Add this mod to allow base damage: https://steamcommunity.com/sharedfiles/filedetails/?id=2815793829
 
 - Server Info:
   - Create a server description/feature list to post on discord and use as a a server advertisement
 
-- Airdrops:
-  - Test these to make sure they are working properly
   
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug
-  - Find spawn locations for RFFS Helis
-  - Move MH6 spawn from tisy Position: <1730.287231, 451.775269, 14348.391602>
-      Orientation: <2.016927, -0.033347, 0.210079>
-      Config-Type: ExpansionMh6_Digital 
-  - Fix VehicleUAZ3 spawn: 		    <!-- Pond N of Novy Lug Military -->
-  - Figure out which UAZ needs a glow plug instead of a spark plug
-  - Find spawn points for Kamaz Trucks
-  - Add types.xml, event, cfgspawnable types and cfgeventspawns
 
 - CJ187 crates:
-  - Make crates key or lockpick
   - Fix floating crates: one at NEAF  (12k/12k)
   - Setup more lootcrate loot
   - Make sure stuff will fit in cj187 crates in crates
@@ -203,7 +190,6 @@ Expansion
  - add paragon storage to basic territories
 
 - Items:
-  - Remove referenced to the Drugcar event from drugsplus and cannabisplus
   - Test helmets
   - Spawn cj187 NVGs to test and see where they should spawn
   - add loot to protective cases
