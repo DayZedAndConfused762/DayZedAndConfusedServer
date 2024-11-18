@@ -14,6 +14,10 @@ gabi linda baty
 
 ================
 
+add expansion smoke grenades for sale at black market and gm
+add smokes to gm
+
+
 check air drop lifetimes
 
 dark blue or black for group/party chat
