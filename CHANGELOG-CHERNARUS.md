@@ -14,6 +14,7 @@ gabi linda baty
 
 ================
 
+dark blue or black for group/party chat
 
 Mil Large
 
