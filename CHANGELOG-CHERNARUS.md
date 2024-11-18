@@ -14,6 +14,8 @@ gabi linda baty
 
 ================
 
+check air drop lifetimes
+
 dark blue or black for group/party chat
 
 Mil Large
