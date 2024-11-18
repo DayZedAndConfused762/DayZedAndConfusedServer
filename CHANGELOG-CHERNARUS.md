@@ -20,10 +20,20 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
 ## Working
 
+## 11/18/2024
+
+- Market:
+  - More adjustments to prices and stocking
+  - Fixed a typo in the cloting and clothing accessory trader files that may have been resulting in a crash
+  - Added a new category for non lethal grenades, available at Black Market and Green Mountain
+
 - Loot Chests:
   - Added some black market weapons to the Prison and t4 Military crates
 
-- Lowered amount of vehicle spawns
+- Vehicles:
+  - Reset vehicles
+  - Lowered number of vehicles available on the map, to help with the lag
+  - Added some RFFS helis
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
@@ -31,8 +41,6 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
 - Market:
   - More adjustments to prices and stocking
-  - Fixed a typo in the cloting and clothing accessory trader files that may have been resulting in a crash
-  - Added a new category for non lethal grenades, available at Black Market and Green Mountain
 
 - Central Economy:
   - Added Car Keys to loot pool (town and villages)
@@ -42,10 +50,7 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
   - Adjusted spawn rate of various items
   - Adjusted various zombie loot spawns
 
-- Vehicles:
-  - Reset vehicles
-  - Lowered number of vehicles available on the map, to help with the lag
-  - Added some RFFS helis
+
 
 <!-- ++++++++++++++++++++ 11/13/2024 Start ++++++++++++++++++++ -->
 
