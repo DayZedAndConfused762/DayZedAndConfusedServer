@@ -31,6 +31,8 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
 - Market:
   - More adjustments to prices and stocking
+  - Fixed a typo in the cloting and clothing accessory trader files that may have been resulting in a crash
+  - Added a new category for non lethal grenades, available at Black Market and Green Mountain
 
 - Central Economy:
   - Added Car Keys to loot pool (town and villages)
@@ -39,6 +41,11 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
   - Added a low chance to all zombies to spawn loot chest keys (certain zombies are more likely to drop certain types of keys)
   - Adjusted spawn rate of various items
   - Adjusted various zombie loot spawns
+
+- Vehicles:
+  - Reset vehicles
+  - Lowered number of vehicles available on the map, to help with the lag
+  - Added some RFFS helis
 
 <!-- ++++++++++++++++++++ 11/13/2024 Start ++++++++++++++++++++ -->
 
