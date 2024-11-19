@@ -496,19 +496,18 @@
         <usage name="Farm"/>
     </type>
 	<type name="HackingBattery">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>0</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="tools"/>
+        <category name="weapons"/>
         <tag name="shelves"/>
         <tag name="floor"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
+        <usage name="Bunker"/>
     </type>
 	<type name="StorageBox_Tcrate_Black">
         <nominal>1</nominal>
