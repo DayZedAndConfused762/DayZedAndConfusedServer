@@ -32,11 +32,13 @@ https://feedback.bistudio.com/T183730
 
 - Market:
   - Added Hacking Tablet to Black Market
+  - Added indiviudal entries for Modual Vest System items, rather then having them set as variants.  According to the mod creator this was causing crashes in expansion traders
 
 - Base Building:
   - Added MSP and MMG items to Hacking list
 
 - Weather:
+  - 
   - Lowered max overcast value to 0.9, to attempt to get rid of the snow
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
