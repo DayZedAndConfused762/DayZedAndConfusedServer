@@ -21,10 +21,10 @@
 
 - Server Info:
   - Create a server description/feature list to post on discord and use as a a server advertisement
-
   
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug
+  - See which uaz takes a glow plug
 
 - CJ187 crates:
   - Fix floating crates: one at NEAF  (12k/12k)
