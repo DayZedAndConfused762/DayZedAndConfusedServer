@@ -41,6 +41,9 @@ https://feedback.bistudio.com/T183730
   - Added new vanilla cfgweather.xml file, it appears there was a bug in the origina file for 1.26 which was fixed in todays DayZ update: https://feedback.bistudio.com/T183730
   - Lowered max overcast value to 0.9, to attempt to get rid of the snow
 
+- Airdrops:
+  - Added codelocks to base building airdrop
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/19/2024 Start ++++++++++++++++++++ -->
