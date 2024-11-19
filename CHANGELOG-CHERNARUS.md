@@ -11,14 +11,33 @@ gabi linda baty
 <!-- ------------------------------ Overview Start ------------------------------ -->
 
 <!-- ------------------------------ Overview End ------------------------------ -->
-s
-<!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+<!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
 https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
-
 ## Working
+
+- Central Economy:
+  - Added Hacking Batteries to Bunker loot
+
+- Market:
+  - Added Hacking Tablet to Black Market
+
+- Base Building:
+  - Added MSP and MMG items to Hacking list
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/19/2024 Start ++++++++++++++++++++ -->
+
+## 11/19/2024
+
+- Updated server due to DayZ patch
+
+<!-- ++++++++++++++++++++ 11/19/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/18/2024 Start ++++++++++++++++++++ -->
 
 ## 11/18/2024
 
@@ -35,7 +54,16 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
   - Lowered number of vehicles available on the map, to help with the lag
   - Added some RFFS helis
 
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+- Removed mods:
+  - VPP Admin Tools
+
+- Installed mods:
+  - Community-Online-Tools
+  - BBPVanillaDoorDamage
+
+<!-- ++++++++++++++++++++ 11/18/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/14/2024 Start ++++++++++++++++++++ -->
 
 ## 11/14/2024
 
@@ -50,7 +78,7 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
   - Adjusted spawn rate of various items
   - Adjusted various zombie loot spawns
 
-
+<!-- ++++++++++++++++++++ 11/14/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/13/2024 Start ++++++++++++++++++++ -->
 
