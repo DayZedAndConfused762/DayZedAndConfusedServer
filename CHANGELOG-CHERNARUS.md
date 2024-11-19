@@ -1,5 +1,6 @@
 <!-- ======================================== CHANGELOG-CHERNARUS.md Start ======================================== -->
-gabi linda baty
+
+
 
 <!-- ------------------------------ Intro Start ------------------------------ -->
 
@@ -8,13 +9,17 @@ gabi linda baty
 <!-- ------------------------------ Intro End ------------------------------ -->
 
 
+
 <!-- ------------------------------ Overview Start ------------------------------ -->
+
+
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+<!-- ------------------------------ ChangeLog Start ------------------------------ -->
+
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
-https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
 ## Working
 
@@ -22,12 +27,16 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
   - Added Hacking Batteries to Bunker loot
   - Added some Black Market weapons to Bunker and Dynamic Event loot pools
   - Added new melee weapons to loot pools
+  - Adjusted spawnable types for Black Market weapons
 
 - Market:
   - Added Hacking Tablet to Black Market
 
 - Base Building:
   - Added MSP and MMG items to Hacking list
+
+- Weather:
+  - Lowered max overcast value to 0.9, to attempt to get rid of the snow
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
@@ -942,7 +951,7 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
 <!-- ++++++++++++++++++++ 9/1/2024 End ++++++++++++++++++++ -->
 
-<!-- ------------------------------ChangeLog End ------------------------------ -->
+<!-- ------------------------------ ChangeLog End ------------------------------ -->
 
 
 <!-- ------------------------------ Outro Start ------------------------------ -->

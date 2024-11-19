@@ -32,11 +32,11 @@
   - Make sure stuff will fit in cj187 crates in crates
 
 - Storage:
- - Edit paragon storage settings,  add hacking tablet and battery, add msp and mmg items to config
  - add paragon storage to basic territories
 
 - Items:
   - Test helmets
+  - Test armor
   - Spawn cj187 NVGs to test and see where they should spawn
   - add loot to protective cases
   - spawn and test, remove from types if non functional CattleProd StunBaton PoliceBaton
@@ -74,7 +74,8 @@
   - WindstridesClothingPack: https://steamcommunity.com/sharedfiles/filedetails/?id=1797720064
   - GearPDA: https://steamcommunity.com/sharedfiles/filedetails/?id=2124309453
   - AdditionalMedicSupplies: https://steamcommunity.com/sharedfiles/filedetails/?id=2579252958
-
+  - https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
+  
 
 
 https://www.youtube.com/watch?v=7JwRsxJARKs
