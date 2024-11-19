@@ -11,7 +11,7 @@
         <!-- How long does it take to the overcast to change from one value to other (time in seconds) -->
         <timelimits min="600" max="900" />
         <!-- How much should the overcast change (0..1) -->
-        <changelimits min="0.0" max="1.0" />
+        <changelimits min="0.0" max="0.9" />
     </overcast>
     <fog>
         <!-- Initial conditions of the fog (target value, time to change, how long will it stay) -->
@@ -69,5 +69,5 @@
         <thresholds min="1.0" max="1.0" end="120" />
     </snowfall>
     <!-- Lightning density (0..1), threshold for the lightning appearance (tied to the overcast value, 0..1), time (seconds) between the lightning strikes -->
-    <storm density="1.0" threshold="0.9" timeout="45"/>
+    <storm density="1.0" threshold="0.8" timeout="45"/>
 </weather>
