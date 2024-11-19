@@ -20,6 +20,7 @@ https://www.youtube.com/playlist?list=PLqB3G83aX-Y6sXsEniYJWc06rkG4k1UL3
 
 - Central Economy:
   - Added Hacking Batteries to Bunker loot
+  - Added some Black Market weapons to Bunker and Dynamic Event loot pools
 
 - Market:
   - Added Hacking Tablet to Black Market

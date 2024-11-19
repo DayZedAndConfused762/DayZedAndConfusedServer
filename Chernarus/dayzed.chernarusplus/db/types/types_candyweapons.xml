@@ -1943,7 +1943,7 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_AK103">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -1952,7 +1952,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Bunker"/>
     </type>
 	<type name="Candy_AK12M2">
         <nominal>1</nominal>
@@ -2003,7 +2003,7 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_AKALFA">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2012,7 +2012,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Bunker"/>
     </type>
 	<type name="Candy_AKM">
         <nominal>0</nominal>
@@ -2051,7 +2051,7 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_ARX_160">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2060,7 +2060,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Bunker"/>
     </type>
 	<type name="Candy_ASH12">
         <nominal>0</nominal>
@@ -2320,7 +2320,7 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_LMG">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2329,10 +2329,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Bunker"/>
     </type>
 	<type name="Candy_M60">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2341,7 +2341,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Bunker"/>
     </type>
 	<type name="Candy_M249">
         <nominal>0</nominal>
@@ -2356,14 +2356,14 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_PKP">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
@@ -2398,10 +2398,10 @@
 <!-- FIREARMS_PISTOLS START -->
 
 	<type name="Candy_P229">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2410,10 +2410,10 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_FiveSeven">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2499,14 +2499,14 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_MK14_EBR">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
@@ -2782,7 +2782,7 @@
 <!-- FIREARMS_SMG START -->
 
 	<type name="Candy_MP5">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2794,14 +2794,14 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_Kriss">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
@@ -2813,7 +2813,7 @@
 <!-- MELEE START -->
 
 	<type name="Candy_Butterfly">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2821,11 +2821,10 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="School"/>
     </type>
 	<type name="Candy_FuryBeans">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2833,11 +2832,11 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
     </type>
 	<type name="Candy_Kukri">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2846,10 +2845,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Hunting"/>
     </type>
 	<type name="Candy_Machete">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2858,10 +2857,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Hunting"/>
     </type>
 	<type name="Candy_MechAxe">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2870,10 +2869,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Village"/>
     </type>
 	<type name="Candy_Torch">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2882,10 +2881,10 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Town"/>
     </type>
 	<type name="Candy_Tube">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2897,7 +2896,7 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_SharpTube">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2909,7 +2908,7 @@
         <usage name="Military"/>
     </type>
 	<type name="Candy_VIETKNF">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -2919,6 +2918,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Hunting"/>
     </type>
 
 <!-- MELEE END -->
