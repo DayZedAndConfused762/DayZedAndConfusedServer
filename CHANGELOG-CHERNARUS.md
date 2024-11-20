@@ -38,11 +38,14 @@ https://feedback.bistudio.com/T183730
   - Added MSP and MMG items to Hacking list
 
 - Weather:
-  - Added new vanilla cfgweather.xml file, it appears there was a bug in the origina file for 1.26 which was fixed in todays DayZ update: https://feedback.bistudio.com/T183730
+  - Added new vanilla cfgweather.xml file, it appears there was a bug in the origina file for 1.26 which was fixed in yesterdays DayZ update: https://feedback.bistudio.com/T183730
   - Lowered max overcast value to 0.9, to attempt to get rid of the snow
 
 - Airdrops:
   - Added codelocks to base building airdrop
+
+- Updated mods:
+  - Dayz-Expansion-Core
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
@@ -51,6 +54,9 @@ https://feedback.bistudio.com/T183730
 ## 11/19/2024
 
 - Updated server due to DayZ patch
+- Updated mods:
+  - Dayz-Expansion-Animations
+  - Dayz-Expansion-Core
 
 <!-- ++++++++++++++++++++ 11/19/2024 End ++++++++++++++++++++ -->
 
