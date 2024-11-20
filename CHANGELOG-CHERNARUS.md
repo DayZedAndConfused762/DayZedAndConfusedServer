@@ -61,6 +61,7 @@ https://feedback.bistudio.com/T183730
 
 - Updated mods:
   - Dayz-Expansion-Core
+  - Dabs Framework
 
 <!-- ++++++++++++++++++++ 11/19/2024 Start ++++++++++++++++++++ -->
 
