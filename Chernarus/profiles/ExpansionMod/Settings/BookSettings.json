@@ -6,7 +6,7 @@
     "EnableServerRulesTab": 1,
     "EnableTerritoryTab": 1,
     "EnableBookMenu": 1,
-    "CreateBookmarks": 0,
+    "CreateBookmarks": 1,
     "ShowHaBStats": 1,
     "ShowPlayerFaction": 0,
     "RuleCategories": [
@@ -40,6 +40,23 @@
     ],
     "Descriptions": [
         {
+            "CategoryName": "Server Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Blah Blah Blah"
+                },
+                {
+                    "DescriptionText": "Blah Blah Blah"
+                },
+                {
+                    "DescriptionText": "Blah Blah Blah"
+                },
+                {
+                    "DescriptionText": "Blah Blah Blah"
+                }
+            ]
+        },
+        {
             "CategoryName": "Background Lore",
             "Descriptions": [
                 {
@@ -52,7 +69,7 @@
                     "DescriptionText": "The future of Europe is shaped by the UFSE’s relentless pursuit of order, using the Cannabis Protocol not only as a medical tool but as a means of societal domination, creating a world where survival comes at the cost of personal freedom."
                 },
                 {
-                    "DescriptionText": "You can read more of the story on Discord."
+                    "DescriptionText": "You can read more of the story on Discord. https://discord.gg/UkHvV7j6kf"
                 }
             ]
         }

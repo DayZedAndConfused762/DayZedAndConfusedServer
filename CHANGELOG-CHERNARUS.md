@@ -24,7 +24,9 @@ https://feedback.bistudio.com/T183730
 
 ## Working
 
-
+- Update mod settings:
+  - ExpansionMod:
+    - Debug Settings: "ServerUpdateRateLimit": 200
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
