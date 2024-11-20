@@ -24,6 +24,12 @@ https://feedback.bistudio.com/T183730
 
 ## Working
 
+
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 11/20/2024
+
 - Central Economy:
   - Added Hacking Batteries to Bunker loot
   - Added some Black Market weapons to Bunker and Dynamic Event loot pools
@@ -46,8 +52,6 @@ https://feedback.bistudio.com/T183730
 
 - Updated mods:
   - Dayz-Expansion-Core
-
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/19/2024 Start ++++++++++++++++++++ -->
 
