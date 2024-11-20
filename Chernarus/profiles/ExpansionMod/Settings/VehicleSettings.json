@@ -16,7 +16,7 @@
     "PickLockToolDamagePercent": 35.0,
     "EnableWindAerodynamics": 0,
     "EnableTailRotorDamage": 1,
-    "Towing": 0,
+    "Towing": 1,
     "EnableHelicopterExplosions": 1,
     "DisableVehicleDamage": 0,
     "VehicleCrewDamageMultiplier": 1.0,
@@ -58,7 +58,7 @@
         },
         {
             "ClassName": "ExpansionBus",
-            "LockComplexity": 1.5
+            "LockComplexity": 1.0
         },
         {
             "ClassName": "ExpansionVodnik",
@@ -87,6 +87,374 @@
         {
             "ClassName": "ExpansionUh1h",
             "LockComplexity": 2.5
-        }
+        },
+        {
+            "ClassName": "Pitbull",
+            "LockComplexity": 1.5
+        },
+        {
+            "ClassName": "Pitbull_green",
+            "LockComplexity": 1.5
+        },
+        {
+            "ClassName": "Pitbull_black",
+            "LockComplexity": 1.5
+        },
+        {
+            "ClassName": "Dingo",
+            "LockComplexity": 1.3
+        },
+        {
+            "ClassName": "Dingo_CZ",
+            "LockComplexity": 1.3
+        },
+        {
+            "ClassName": "Dingo_CZ_Desert",
+            "LockComplexity": 1.3
+        },
+        {
+            "ClassName": "Kamaz",
+            "LockComplexity": 1.0
+        },
+        {
+            "ClassName": "KamazCovered",
+            "LockComplexity": 1.0
+        },
+        {
+            "ClassName": "KamazCovered_Winter",
+            "LockComplexity": 1.0
+        },
+        {
+            "ClassName": "KamazCovered_Civ_Orange_Blue",
+            "LockComplexity": 1.0
+        },
+        {
+            "ClassName": "KamazCovered_Civ_Red",
+            "LockComplexity": 1.0
+        },
+	    {
+        "ClassName": "KamazCovered_Civ_Blue",
+        "LockComplexity": 1.0
+    },
+                {
+        "ClassName": "KamazCovered_Civ_Yellow",
+        "LockComplexity": 1.0
+    },
+        {
+        "ClassName": "KamazFuel",
+        "LockComplexity": 1.0
+    },
+        {
+        "ClassName": "KamazFuel_Shell",
+        "LockComplexity": 1.0
+    },
+        {
+        "ClassName": "KamazFuel_White",
+        "LockComplexity": 1.0
+    },
+        {
+        "ClassName": "KamazFuel_Civ_Orange",
+        "LockComplexity": 1.0
+    },
+        {
+        "ClassName": "KamazCargo",
+        "LockComplexity": 1.0
+    },
+        {
+        "ClassName": "RFFSHeli_Bo105m",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Bo105m_blackcamo",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_LittleBird",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_LittleBird_Camo",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_LittleBird_Desert",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Ka26",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Bell429",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Bell429_Police",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Bell429_Medic",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Bell429_ZS",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Bell429_Uganda",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Katran_wreck",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Mi2",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Mi2_Military",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Mi2_Hornet",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Apache",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Apache_Winter",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Apache_Desert",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_R22",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_R22_Black",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_R22_Red",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Blackhawk",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Blackhawk_Woodland",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Blackhawk_blackblackhawk",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_Blackhawk_Budhawk",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_CH53e",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_CH47",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_EC135",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_EC135_BlackCamo",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_UH1H",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_UH1H_Combat",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_AS350",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_S76",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "RFFSHeli_S76_WoodlandCamo",
+        "LockComplexity": 3.0
+    },
+        {
+        "ClassName": "TyphoonK_Police",
+        "LockComplexity": 2.0
+    },
+        {
+        "ClassName": "TyphoonK_CamoGreen",
+        "LockComplexity": 2.0
+    },
+        {
+        "ClassName": "UAZ_31514",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_blue",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_yellow",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_tdc",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_cargo2",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_cargo2_blue",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_cargo2_yellow",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_cargo2_tdc",
+        "LockComplexity": 1.5
+    },
+        {
+        "ClassName": "UAZ_31514_hunter",
+        "LockComplexity": 1.5
+    },
+            {
+        "ClassName": "UAZ_31514_hunter_camos",
+        "LockComplexity": 1.5
+    },
+            {
+        "ClassName": "UAZ_31514_hunter_camow",
+        "LockComplexity": 1.5
+    },
+            {
+        "ClassName": "vg7_scorpion",
+        "LockComplexity": 0.8
+    },
+            {
+        "ClassName": "vg7_scorpion_easyrider",
+        "LockComplexity": 0.8
+    },
+            {
+        "ClassName": "vg7_scorpion_scorcher",
+        "LockComplexity": 0.8
+    },
+            {
+        "ClassName": "vg7_scorpion_mermaid",
+        "LockComplexity": 0.8
+    },
+    {
+        "ClassName": "vg7_scorpion_butterfly",
+        "LockComplexity": 0.8
+    },
+        {
+        "ClassName": "OffroadHatchback_WhiteRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "OffroadHatchback_Green",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "OffroadHatchback_GreenRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Hatchback_02_BlackRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Hatchback_02_BlueRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Hatchback_02_Red",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Hatchback_02_RedRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Hatchback_02_BanditKitty",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Sedan_02_GreyRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Sedan_02_RedRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Sedan_02_Yellow",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Sedan_02_YellowRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Sedan_02_YellowBright",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Sedan_02_Blue",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Sedan_02_BlueRust",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Truck_01_Covered_Red",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Truck_01_Covered_White",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Truck_01_Covered_Black",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Truck_01_Covered_Wine",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Truck_01_Covered_Lime",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Truck_01_Covered_Yellow",
+        "LockComplexity": 1.0
+    },
+    {
+        "ClassName": "Offroad_02",
+        "LockComplexity": 2.0
+    }
     ]
 }

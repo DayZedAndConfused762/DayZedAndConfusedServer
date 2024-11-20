@@ -31,6 +31,10 @@ https://feedback.bistudio.com/T183730
 - P2P Market:
   - Lowered the cost to list and buy back items on the Player 2 Player trader
 
+- Vehicles:
+  - Enabled vehicle towing
+  - Set lock complexity for lockpicking vehicles
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 ## 11/20/2024
