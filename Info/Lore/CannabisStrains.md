@@ -21,7 +21,8 @@ However, S-1 is not without its limitations:
 - **Temporary Relief:** Its effects last only 6-12 hours, requiring regular consumption to maintain stabilization.
 - **Side Effects:** Users often report nausea, dizziness, and short-term memory loss, particularly with prolonged use.
 - **Addiction Risk:** While not addictive in the traditional sense, reliance on S-1 to stave off full zombification creates a dependency that leaves users desperate for access.
-Medical Application
+
+## Medical Application
 
 S-1 is administered as:
 
