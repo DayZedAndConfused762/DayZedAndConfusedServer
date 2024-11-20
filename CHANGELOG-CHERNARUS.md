@@ -28,6 +28,9 @@ https://feedback.bistudio.com/T183730
   - ExpansionMod:
     - Debug Settings: "ServerUpdateRateLimit": 200
 
+- P2P Market:
+  - Lowered the cost to list and buy back items on the Player 2 Player trader
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 ## 11/20/2024
