@@ -189,4 +189,5 @@ Among UFSE propaganda, Kush is known as "The Nightshade Bloom", an eerie referen
 Kush remains under active research for even more insidious uses, such as enhancing its effects to target specific brain regions or embedding it with neural programming to condition behavior. UFSE scientists theorize it could one day serve as the basis for a "compliance serum," but these efforts are still in experimental stages.
 
 ## Conclusion
+
 S-3 Kush is a testament to the UFSE’s ruthlessness, leveraging science not for salvation but for domination. As both a psychological weapon and a reminder of the regime’s reach, Kush ensures that resistance—whether military or civilian—comes at a high mental cost. In the shadow of its blue haze, enemies fall not to bullets, but to the terrors of their own minds.
