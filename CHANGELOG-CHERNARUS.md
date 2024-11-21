@@ -33,7 +33,7 @@ https://feedback.bistudio.com/T183730
 
 - Vehicles:
   - Enabled vehicle towing
-  - Set lock complexity for lockpicking vehicles
+  - Set lock complexity for lockpicking vehicles, some vehicles are harder to break into than others
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
