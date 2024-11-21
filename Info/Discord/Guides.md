@@ -61,3 +61,5 @@ Treasure hunting in this world offers the thrill of discovery, as you explore th
 To unlock or break into these hidden spots, you'll need to use various tools or keys. Tools such as crowbars, lockpicks, and hammers can help you break into locked crates or cash registers, while keys might be needed for specific stashes or locked areas. The hunt for treasure is both rewarding and challenging, as it requires patience, skill, and sometimes even a bit of luck to find the hidden riches that await.
 
 (image: hidden stash)(image: cash register)(image: loot crate)
+
+# Vehicles
