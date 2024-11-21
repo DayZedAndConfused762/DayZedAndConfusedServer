@@ -19,8 +19,7 @@
 ## To Do 
 
 
-- Server Info:
-  - Create a server description/feature list to post on discord and use as a a server advertisement
+
   
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug
