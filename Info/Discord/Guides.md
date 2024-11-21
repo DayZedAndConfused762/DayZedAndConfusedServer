@@ -24,14 +24,19 @@ There are various raiding tools, such as raid drivers, raid saws, and hacking ta
 
 # Weapons
 
+You will find many different weapons across the map.
 
 # Market
 
+There are two markets, run by two different factions.  You can and sell most items, however some items will not be for sale, such as food and medical supplies.
+
 ## Green Mountain
 
-
+The Chernarus outpost of the Green Vanguard.  Here you will find may every date items and weapons.
 
 ## Black Market
+
+Run by the Black Leaf Syndicate.  Here you are able to sell illicit substance, trade in stolen UFSE arms and armor, as well as sell you're valuable items.
 
 # Bunkers
 
