@@ -63,3 +63,6 @@ To unlock or break into these hidden spots, you'll need to use various tools or 
 (image: hidden stash)(image: cash register)(image: loot crate)
 
 # Vehicles
+
+# Navigation
+
