@@ -25,6 +25,7 @@
 - Central Economy:
   - Lowered the spawn amount of some items tagged as "Police"
   - Added some Black Market guns to Contaminated Areas and Dynamic Events
+  - Added some Black Market ammo to the loot pool
   - Various tweaks and adjustments to loot pool
 
 - Update mod settings:
@@ -33,6 +34,7 @@
 
 - Market:
   - Adjustment to some categories on the clothing accessories trader to help prevent a game client crash - moved items out of variants to their own listing
+  - Fixed a typo in the Black Market Ammo file
 
 - P2P Market:
   - Lowered the cost to list and buy back items on the Player 2 Player trader
