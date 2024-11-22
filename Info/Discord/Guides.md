@@ -20,11 +20,23 @@ Raiding is a key activity in this environment, allowing you to break into other 
 
 There are several raiding tools at your disposal, each with unique capabilities to assist in breaking into secured locations. Raid drivers are used to force open doors, while raid saws allow you to cut through reinforced doors and gates. Hacking tablets can be employed to hack into electronic locks or security systems, offering a more technical approach to infiltration. These tools provide a variety of methods for raiders, allowing for different strategies depending on the situation and the strength of the target's defenses.
 
-# Infected
+====================
 
-# Weapons
+# The Infected !!!
 
-You will find many different weapons across the map.
+The Infected have evolved into diverse and unpredictable threats, each with unique strengths, weaknesses, and abilities. While many retain the classic traits of relentless aggression and speed, some have adapted in ways that make them even more dangerous. Certain Infected possess the strength to break down doors, forcing survivors to constantly reassess what constitutes safety. Their varied traits mean that no two encounters are the same, keeping survivors on edge as they navigate the dangerous wasteland.
+
+Among the ranks of the Infected are rare and formidable "special" types, such as Priests and Terrorists. These variants are significantly tougher to defeat, often requiring advanced tactics or superior firepower. However, the challenge comes with rewards, as these special Infected are known to drop valuable loot that can be the difference between survival and death. Spotting and confronting them can be a calculated risk—but one that might pay off for those brave or desperate enough to take it.
+
+====================
+
+# Weapons !!!
+
+Survivors will come across a wide variety of weapons scattered across the map, ranging from rudimentary firearms to makeshift tools of survival. Among these, the rare and advanced weapons developed by the UFSE stand out as highly coveted treasures. These cutting-edge tools of destruction offer unparalleled power and precision, making them a game-changer for anyone lucky—or daring—enough to acquire them. However, their scarcity ensures that finding them requires determination and a willingness to face danger.
+
+For those hunting UFSE technology, there are several high-risk options. Dynamic Events often offer a chance to claim these advanced weapons, but they come with fierce competition and deadly stakes. Alternatively, survivors can delve into the perilous Bunkers, where UFSE tech is hidden amid hordes of Infected and other dangers. The Black Market is another avenue for acquiring these weapons, though the price is steep, and the dealings are shrouded in risk. Alongside these firearms, survivors can also discover improvised and enhanced melee weapons—brutal tools forged for those who prefer to fight up close and personal.
+
+====================
 
 # Market !!!
 
@@ -40,9 +52,11 @@ At Green Mountain, you'll find a variety of dated items and weapons, including o
 
 ## Black Market
 
-The Black Market is operated by the Black Leaf Syndicate. It serves as a hub for a wide range of illegal activities, providing a space where illicit substances can be sold and traded.
+The Black Market at Radio Zenit is operated by the Black Leaf Syndicate. It serves as a hub for a wide range of illegal activities, providing a space where illicit substances can be sold and traded.
 
 In addition to contraband, the market is also a key location for the exchange of stolen UFSE arms and equipment. Valuable items of all kinds can be bought and sold here, making it a dangerous but lucrative place for those seeking to acquire or offload high-value goods.
+
+====================
 
 # Bunkers !!!
 
@@ -52,7 +66,15 @@ Inside the bunkers, you’ll find some of the best loot available in the area, i
 
 (image: tisy bunker)(image: nwaf bunker)(image: rify bunker)
 
-# Dynamic Events
+====================
+
+# Dynamic Events !!!
+
+Beyond the usual events like helicopter crashes and convoys, survivors can stumble upon unique and dangerous Dynamic Events that add to the challenges of survival. UFSE checkpoints dot the map, serving as remnants of the regime's control efforts. These areas often contain valuable loot but are heavily guarded and fraught with danger. Additionally, the aftermath of terrorist attacks can be found, offering unique opportunities for scavenging. These sites hold rare resources, but their volatile history makes them unpredictable and perilous to explore.
+
+A major threat within these new events is the presence of the special Terrorist Infected. Far tougher than standard infected, these formidable enemies test even the most experienced survivors. Their enhanced durability and aggression make every encounter with them a high-stakes battle, but the rewards they guard are often worth the risk. Proceed with caution—these encounters are as deadly as they are rewarding.
+
+====================
 
 # Treasure Hunting !!!
 
@@ -62,7 +84,12 @@ To unlock or break into these hidden spots, you'll need to use various tools or 
 
 (image: hidden stash)(image: cash register)(image: loot crate)
 
-# Vehicles
+====================
+
+# Vehicles !!!
+In the post-outbreak world, vehicles play a crucial role in survival and exploration. In addition to standard civilian vehicles scattered across the map, you may come across abandoned UFSE military vehicles like the Pitbull and Dingo. These specialized vehicles offer superior durability and off-road capabilities, making them highly coveted by survivors. Vehicle keys can be found to secure your ride, but locks are not foolproof—skilled players with the right tools can pick locks and even change the keys, adding an extra layer of risk to vehicle ownership.
+
+Fuel, however, remains a scarce and valuable resource. Every journey should be planned carefully, as the availability of fuel determines how far you can travel and how quickly you can escape dangerous encounters. Use your vehicles strategically, balancing the need for speed and protection with the ever-present reality of dwindling fuel supplies. 
 
 # Navigation
 

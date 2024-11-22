@@ -171,7 +171,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisBrickBlue">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -179,7 +179,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="tools"/>
+        <usage name="Bunker"/>
     </type>
     <type name="CP_CigarettePack_CannabisBlue">
         <nominal>4</nominal>
@@ -397,7 +398,7 @@
         <category name="food"/>
     </type>
     <type name="CP_CannabisBrickStardawg">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -406,6 +407,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="food"/>
+        <usage name="Lunapark"/>
     </type>
     <type name="CP_CigarettePack_CannabisStardawg">
         <nominal>4</nominal>
@@ -813,7 +815,7 @@
         <usage name="Military"/>
     </type>
     <type name="CP_CannabisBrickS1">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -821,7 +823,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <category name="food"/>
+        <category name="tools"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="CP_CigarettePack_CannabisS1">
         <nominal>4</nominal>

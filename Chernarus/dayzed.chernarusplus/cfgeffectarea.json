@@ -666,7 +666,105 @@
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": ""
 			}
-		}
+		},
+		{ "AreaName": "NWAF_BUNKER",
+            "Type": "SpookyArea",
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 4362.13, 344.75, 10590.3 ],
+                "Radius": 75, 
+                "PosHeight": 50,
+                "NegHeight": 10, 
+                "InnerRingCount": 4,
+                "InnerPartDist": 50, 
+                "OuterRingToggle": 1,
+                "OuterPartDist": 50, 
+                "OuterOffset": 0,
+                "VerticalLayers": 0, 
+                "VerticalOffset": 0,
+                "ParticleName": "graphics/particles/spooky_mist" 
+                },
+            "PlayerData": { 
+                "AroundPartName": "graphics/particles/contaminated_area_gas_around",
+                "TinyPartName": "graphics/particles/spooky_mist",
+                "PPERequesterType": "PPERequester_GlassesSportBlack" 
+            } 
+        },
+        { "AreaName": "NWAF_BUNKER",
+            "Type": "SpookyArea",
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 4296.55, 344.75, 10706.7 ],
+                "Radius": 75, 
+                "PosHeight": 50,
+                "NegHeight": 10, 
+                "InnerRingCount": 4,
+                "InnerPartDist": 50, 
+                "OuterRingToggle": 1,
+                "OuterPartDist": 50, 
+                "OuterOffset": 0,
+                "VerticalLayers": 0, 
+                "VerticalOffset": 0,
+                "ParticleName": "graphics/particles/spooky_mist" 
+                },
+            "PlayerData": { 
+                "AroundPartName": "graphics/particles/contaminated_area_gas_around",
+                "TinyPartName": "graphics/particles/spooky_mist",
+                "PPERequesterType": "PPERequester_GlassesSportBlack" 
+            } 
+        },
+        { "AreaName": "FIRE",
+            "Type": "SpookyArea",
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 4422.47, 379.23, 10566.4 ],
+                "ParticleName": "graphics/particles/fire_bonfire" 
+                },
+            "PlayerData": { 
+                "AroundPartName": "graphics/particles/fire_bonfire",
+                "TinyPartName": "graphics/particles/fire_bonfire",
+                "PPERequesterType": "PPERequester_GlassesSportOrange" 
+            } 
+        },
+        { "AreaName": "FIRE2",
+            "Type": "SpookyArea",
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 4349.35, 379.23, 10526.8 ],
+                "ParticleName": "graphics/particles/fire_bonfire" 
+                },
+            "PlayerData": { 
+                "AroundPartName": "graphics/particles/fire_bonfire",
+                "TinyPartName": "graphics/particles/fire_bonfire",
+                "PPERequesterType": "PPERequester_GlassesSportOrange" 
+            } 
+        },
+        { "AreaName": "FIRE3",
+            "Type": "SpookyArea",
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 4234.89, 379.23, 10729.7 ],
+                "ParticleName": "graphics/particles/fire_bonfire" 
+                },
+            "PlayerData": { 
+                "AroundPartName": "graphics/particles/fire_bonfire",
+                "TinyPartName": "graphics/particles/fire_bonfire",
+                "PPERequesterType": "PPERequester_GlassesSportOrange" 
+            } 
+        },
+        { "AreaName": "FIRE4",
+            "Type": "SpookyArea",
+            "TriggerType": "EffectTrigger",
+            "Data": { 
+                "Pos": [ 4307.84, 379.23, 10769.9 ],
+                "ParticleName": "graphics/particles/fire_bonfire" 
+                },
+            "PlayerData": { 
+                "AroundPartName": "graphics/particles/fire_bonfire",
+                "TinyPartName": "graphics/particles/fire_bonfire",
+                "PPERequesterType": "PPERequester_GlassesSportOrange" 
+            } 
+        }
     ],
 
 	"SafePositions":[
