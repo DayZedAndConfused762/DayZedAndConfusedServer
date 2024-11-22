@@ -18,7 +18,40 @@
 
 ## To Do 
 
+BookAliceInWonderland [Alice's Adventures in Wonderland]
 
+BookBlackBeauty [Black Beauty]
+
+BookCrimeAndPunishment [Crime and Punishment]
+
+BookDeadSouls [Dead Souls]
+
+BookGilgameshEpic [An Old Babylonian Version of the Gilgamesh Epic]
+
+BookGreatExpectations [Great Expectations]
+
+BookHeartOfDarkness [Heart of Darkness]
+
+BookRussian [Russian learning book]
+
+BookTheArtOfWar [The Art Of War]
+
+BookTheCallOfCthulhu [The Call of Cthulhu]
+
+BookTheCosmicComputer [The Cosmic Computer]
+
+BookTheJustifiedSinner [The Private Memoirs and Confessions of a Justified Sinner]
+
+BookTheRedBadgeOfCourage [The Red Badge of Courage]
+
+BookTheWarOfTheWorlds [The War of the Worlds]
+
+BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nations]
+
+
+
+"HackingTablet"                         0               tools           Fa/I                            @ParagonStorage
+"HackingBattery"                        0               tools           Fa/I                            @ParagonStorage
 
   
 - Vehicles:
