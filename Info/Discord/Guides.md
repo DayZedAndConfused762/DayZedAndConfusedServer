@@ -1,4 +1,4 @@
-# Base Building
+# Base Building !!!
 
 ## Territories
 
@@ -26,7 +26,7 @@ There are several raiding tools at your disposal, each with unique capabilities 
 
 You will find many different weapons across the map.
 
-# Market
+# Market !!!
 
 The Market consists of two separate trading areas, each controlled by a different faction. Each market offers a wide range of goods, from weapons and ammunition to tools and various equipment. The two factions oversee the transactions in their respective markets, ensuring the smooth flow of trade and maintaining control over the types of goods exchanged.
 
@@ -44,7 +44,7 @@ The Black Market is operated by the Black Leaf Syndicate. It serves as a hub for
 
 In addition to contraband, the market is also a key location for the exchange of stolen UFSE arms and equipment. Valuable items of all kinds can be bought and sold here, making it a dangerous but lucrative place for those seeking to acquire or offload high-value goods.
 
-# Bunkers
+# Bunkers !!!
 
 There are three bunkers scattered across the region, each requiring a specific series of punches on a punched card to access. These heavily secured locations are not easily infiltrated, and gaining entry to them requires precision and knowledge of the correct sequence. The bunkers can be found at key strategic points: Rify, Tisy, and the Northwest Airfield (NWAF). These locations are well-guarded, making the bunkers a high-risk, high-reward destination for those daring enough to attempt entry.
 
@@ -54,7 +54,7 @@ Inside the bunkers, you’ll find some of the best loot available in the area, i
 
 # Dynamic Events
 
-# Treasure Hunting
+# Treasure Hunting !!!
 
 Treasure hunting in this world offers the thrill of discovery, as you explore the environment in search of hidden stashes, cash registers, and loot crates scattered throughout the landscape. These caches contain valuable items that can significantly aid in your survival, ranging from rare weapons to essential supplies. Some of these treasures are already unlocked and easy to access, while others are secured and require a bit more effort to obtain.
 
