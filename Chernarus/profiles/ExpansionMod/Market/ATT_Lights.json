@@ -28,8 +28,7 @@
             "SpawnAttachments": [],
             "Variants": []
         },
-
- {
+        {
             "ClassName": "M4_UniversalLasersight_Black",
             "MaxPriceThreshold": 1000,
             "MinPriceThreshold": 500,
@@ -46,6 +45,42 @@
                 "M4_UniversalLasersight_Atacs_FG",
                 "M4_UniversalLasersight_Atacs_IX"
             ]
+        },
+        {
+            "ClassName": "Expansion_ANPEQ15_Red",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "Expansion_ANPEQ15_Green",
+                "Expansion_ANPEQ15_GreenNV"
+            ]
+        },
+        {
+            "ClassName": "Expansion_ANPEQ15_Green",
+            "MaxPriceThreshold": 2500,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "Expansion_ANPEQ15_GreenNV",
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 4000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 1000,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
         }
     ]
 }

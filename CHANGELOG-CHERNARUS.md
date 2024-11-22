@@ -20,13 +20,19 @@
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
-https://feedback.bistudio.com/T183730
-
 ## Working
+
+- Central Economy:
+  - Lowered the spawn amount of some items tagged as "Police"
+  - Added some Black Market guns to Contaminated Areas and Dynamic Events
+  - Various tweaks and adjustments to loot pool
 
 - Update mod settings:
   - ExpansionMod:
     - Debug Settings: "ServerUpdateRateLimit": 200
+
+- Market:
+  - Adjustment to some categories on the clothing accessories trader to help prevent a game client crash - moved items out of variants to their own listing
 
 - P2P Market:
   - Lowered the cost to list and buy back items on the Player 2 Player trader
@@ -37,6 +43,8 @@ https://feedback.bistudio.com/T183730
   - Fixed some typos in DayZ-Expansion Heli event file
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/20/2024 End ++++++++++++++++++++ -->
 
 ## 11/20/2024
 
@@ -63,6 +71,8 @@ https://feedback.bistudio.com/T183730
 - Updated mods:
   - Dayz-Expansion-Core
   - Dabs Framework
+
+<!-- ++++++++++++++++++++ 11/20/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/19/2024 Start ++++++++++++++++++++ -->
 

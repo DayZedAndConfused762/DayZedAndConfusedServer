@@ -298,10 +298,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="CJ_Motorola_T80_Blue">
-        <nominal>7</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -685,7 +685,7 @@
 <!-- TOOLS_LIGHTING START -->
 
     <type name="CJ_Flashlight_Yellow">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -702,7 +702,7 @@
 <!-- TOOLS_REPAIR START -->
 
     <type name="CJ_ToolsRepairKit">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -776,6 +776,7 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Firefighter"/>
     </type>
     <type name="CJ_Sewingspool_Blue">
         <nominal>20</nominal>
@@ -791,6 +792,7 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Police"/>
     </type>
     <type name="CJ_Sewingspool_Green">
         <nominal>10</nominal>
@@ -806,6 +808,7 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
+        <usage name="Military"/>
     </type>
     <type name="CJ_Weaponoil">
         <nominal>45</nominal>

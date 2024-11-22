@@ -8,7 +8,7 @@
     <type name="DP_CocaLeaves">
         <nominal>10</nominal>
         <lifetime>3600</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -34,24 +34,21 @@
     <type name="DP_CocaSeedsPack">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="food"/>
-        <usage name="Drugcar"/>
-        <!-- 
         <usage name="Farm"/>
         <usage name="Hunting"/>
-        -->
     </type>
     <type name="DP_CocaBag">
         <nominal>20</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <restock>1800</restock>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -60,12 +57,11 @@
         <category name="tools"/>
         <usage name="Industrial"/>
         <usage name="School"/>
-        <usage name="Drugcar"/>
     </type>
     <type name="DP_CocaBrick">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
