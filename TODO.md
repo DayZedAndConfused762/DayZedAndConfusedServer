@@ -57,12 +57,14 @@ BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nati
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug
   - See which uaz takes a glow plug
+  - fix dingo spawn at NWAF
 
 - CJ187 crates:
   - Find locations for building supply crates
   - Fix floating crates: one at NEAF  (12k/12k)
   - Setup more lootcrate loot
   - Make sure stuff will fit in cj187 crates in crates
+  - move hidden stash: 12200 12520
 
 - Storage:
  - add paragon storage to basic territories
