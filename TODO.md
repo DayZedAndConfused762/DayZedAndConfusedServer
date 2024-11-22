@@ -26,6 +26,7 @@
   - See which uaz takes a glow plug
 
 - CJ187 crates:
+  - Find locations for building supply crates
   - Fix floating crates: one at NEAF  (12k/12k)
   - Setup more lootcrate loot
   - Make sure stuff will fit in cj187 crates in crates
