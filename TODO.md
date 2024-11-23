@@ -18,6 +18,8 @@
 
 ## To Do 
 
+- Rewrite clothes and clothes accessories trader files
+
 BookAliceInWonderland [Alice's Adventures in Wonderland]
 
 BookBlackBeauty [Black Beauty]
