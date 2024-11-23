@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- Fix airplane crate event - loot not despawning
 - Adjust zombie loot:
 
 keys
