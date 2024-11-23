@@ -34,7 +34,8 @@
 
 - Market:
   - Adjustment to some categories on the clothing accessories trader to help prevent a game client crash - moved items out of variants to their own listing
-  - Fixed a typo in the Black Market Ammo file
+  - Moved MVS items to their own categories
+  - Fixed a typo in the Black Market Ammo file - .408C ammo is now purchasable
 
 - P2P Market:
   - Lowered the cost to list and buy back items on the Player 2 Player trader

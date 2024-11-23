@@ -1,11 +1,11 @@
 {
     "m_Version": 12,
-    "DisplayName": "BlackMarket Treasure",
+    "DisplayName": "Black Market Narcotics",
     "MinRequiredReputation": 0,
     "MaxRequiredReputation": 2147483647,
     "RequiredFaction": "",
     "RequiredCompletedQuestID": -1,
-    "TraderIcon": "Coins",
+    "TraderIcon": "Herbal Medicine",
     "Currencies": [
         	"Money_Ruble1",
 	        "Money_Ruble2",
@@ -22,9 +22,9 @@
     "DisplayCurrencyValue": 1,
     "DisplayCurrencyName": "",
     "Categories": [
-        "BlackMarketCurrency",
-        "BlackMarketElectronics",
-        "BlackMarketValuables:2"
-        ],
+        "BM_Drugs:2",
+        "BM_Paraphernalia",
+	    "BM_Seeds"
+    ],
     "Items": {}
 }
