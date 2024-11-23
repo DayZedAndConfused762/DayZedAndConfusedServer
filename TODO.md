@@ -18,7 +18,7 @@
 
 ## To Do 
 
-- Rewrite clothes and clothes accessories trader files
+
 
 BookAliceInWonderland [Alice's Adventures in Wonderland]
 
@@ -55,7 +55,10 @@ BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nati
 "HackingTablet"                         0               tools           Fa/I                            @ParagonStorage
 "HackingBattery"                        0               tools           Fa/I                            @ParagonStorage
 
-  
+- Market:
+  - Rewrite clothes and clothes accessories trader files
+  - Create a trader for MVS items
+
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug
   - See which uaz takes a glow plug
