@@ -19,6 +19,21 @@
 ## To Do 
 
 - Add new Blackout Scorpion items
+
+vg7_scorpion_sissybar
+vg7_scorpion_handguard_left
+vg7_scorpion_handguard_right
+vg7_scorpion_handguard_left_rust
+vg7_scorpion_handguard_right_rust
+vg7_scorpion_handguard_left_mesh
+vg7_scorpion_handguard_right_mesh
+vg7_scorpion_handguard_left_metal
+vg7_scorpion_handguard_right_metal
+vg7_scorption_helmet_ace
+vg7_scorpion_ace
+vg7_scorpion_ace_rust
+
+
 - Fix airplane crate event - loot not despawning
 - Adjust zombie loot:
 
