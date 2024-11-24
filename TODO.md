@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- Add new Blackout Scorpion items
 - Fix airplane crate event - loot not despawning
 - Adjust zombie loot:
 
