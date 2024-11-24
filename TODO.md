@@ -18,6 +18,7 @@
 
 ## To Do 
 
+- ADd candy pistols to BM
 - Add new Blackout Scorpion items
 
 vg7_scorpion_sissybar
@@ -32,7 +33,8 @@ vg7_scorpion_handguard_right_metal
 vg7_scorption_helmet_ace
 vg7_scorpion_ace
 vg7_scorpion_ace_rust
-
+vg7_scorption_wheel_rear_snow
+vg7_scorption_wheel_front_snow
 
 - Fix airplane crate event - loot not despawning
 - Adjust zombie loot:
