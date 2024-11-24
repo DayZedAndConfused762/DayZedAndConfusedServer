@@ -21,8 +21,35 @@
 - ADd candy pistols to BM
 - Add new Blackout Scorpion items
 
-vg7_scorpion_sissybar
-vg7_scorpion_handguard_left
+    <type name="vg7_scorpion_sissybar">
+        <nominal>2</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+
+    <type name="vg7_scorpion_handguard_left">
+        <nominal>2</nominal>
+        <lifetime>2700</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="vehiclesparts"/>
+        <tag name="floor"/>
+        <usage name="Industrial"/>
+    </type>
+
+
 vg7_scorpion_handguard_right
 vg7_scorpion_handguard_left_rust
 vg7_scorpion_handguard_right_rust
@@ -30,7 +57,7 @@ vg7_scorpion_handguard_left_mesh
 vg7_scorpion_handguard_right_mesh
 vg7_scorpion_handguard_left_metal
 vg7_scorpion_handguard_right_metal
-vg7_scorption_helmet_ace
+
 
 
 
