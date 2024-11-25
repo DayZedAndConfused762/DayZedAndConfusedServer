@@ -22,6 +22,15 @@
 
 ## Working
 
+
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 11/25/2024
+
+- Installed mod:
+  - @DZACV (this contains some new vehicles to test, if you want to test one out let me know)
+
 - Central Economy:
   - Lowered the spawn amount of some items tagged as "Police"
   - Added some Black Market guns to Contaminated Areas and Dynamic Events
@@ -45,7 +54,6 @@
   - Set lock complexity for lockpicking vehicles, some vehicles are harder to break into than others
   - Fixed some typos in DayZ-Expansion Heli event file
 
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 ## 11/24/2024
 
@@ -53,7 +61,7 @@
   - @Blackout Scorpion
   - @MuchStuffPack
 
-<!-- ++++++++++++++++++++ 11/20/2024 End ++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++ 11/20/2024 Start ++++++++++++++++++++ -->
 
 ## 11/20/2024
 
