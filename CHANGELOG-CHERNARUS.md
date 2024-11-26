@@ -22,6 +22,9 @@
 
 ## Working
 
+- Central Economy:
+  - Adjustements to loot spawn rates (lowered spawn amounts of some items)
+
 - Market:
   - Added P229 and FN FiveSeven pistols to Black Market trader
 
@@ -29,10 +32,16 @@
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
+<!-- ++++++++++++++++++++ 11/26/2024 Start ++++++++++++++++++++ -->
+
 ## 11/26/2024
 
 - Hotfix:
   - Fixed a typo in vanilla types file
+
+<!-- ++++++++++++++++++++ 11/26/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/25/2024 Start ++++++++++++++++++++ -->
 
 ## 11/25/2024
 
@@ -62,12 +71,17 @@
   - Set lock complexity for lockpicking vehicles, some vehicles are harder to break into than others
   - Fixed some typos in DayZ-Expansion Heli event file
 
+<!-- ++++++++++++++++++++ 11/25/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/24/2024 Start ++++++++++++++++++++ -->
 
 ## 11/24/2024
 
 - Updated mods:
   - @Blackout Scorpion
   - @MuchStuffPack
+
+<!-- ++++++++++++++++++++ 11/24/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/20/2024 Start ++++++++++++++++++++ -->
 
