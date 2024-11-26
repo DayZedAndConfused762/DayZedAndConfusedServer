@@ -23,7 +23,7 @@
 ## Working
 
 - Central Economy:
-  - Adjustements to loot spawn rates (lowered spawn amounts of some items)
+  - Adjustements to loot spawn rates
 
 - Market:
   - Added P229 and FN FiveSeven pistols to Black Market trader
