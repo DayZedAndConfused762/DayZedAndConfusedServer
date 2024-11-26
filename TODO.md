@@ -18,6 +18,20 @@
 
 ## To Do 
 
+_Black red green white grey
+
+Candy_Jeepney_Wheel
+Candy_Jeepney_Doors_Driver
+Candy_Jeepney_Doors_CoDriver
+Candy_Jeepney_Doors_Cargo1
+Candy_Jeepney_Doors_Cargo2
+Candy_Jeepney_Doors_Cargo3
+Candy_Jeepney_Doors_Trunk
+Candy_Jeepney_Doors_Hood
+Candy_Jeepney   -   black red green whuite grey
+
+
+
 - ADd candy pistols to BM
 - Add hesco kits to types
 - make types file for vehicles testing (get types from ingame)
