@@ -18,6 +18,10 @@
 
 ## To Do 
 
+- Market: *******************
+  - Create a trader for MVS items
+  - Add Bitcoin and Coin (CJ187) to exchange and currency for traders
+
 - make types file for vehicles testing (get types from ingame)
   _Black red green white grey
 
@@ -291,9 +295,7 @@ BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nati
 
 
 
-- Market:
-  - Create a trader for MVS items
-  - Add Bitcoin and Coin (CJ187) to exchange and currency for traders
+
 
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug
