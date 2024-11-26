@@ -18,23 +18,24 @@
 
 ## To Do 
 
-_Black red green white grey
+- make types file for vehicles testing (get types from ingame)
+  _Black red green white grey
 
-Candy_Jeepney_Wheel
-Candy_Jeepney_Doors_Driver
-Candy_Jeepney_Doors_CoDriver
-Candy_Jeepney_Doors_Cargo1
-Candy_Jeepney_Doors_Cargo2
-Candy_Jeepney_Doors_Cargo3
-Candy_Jeepney_Doors_Trunk
-Candy_Jeepney_Doors_Hood
-Candy_Jeepney   -   black red green whuite grey
+  Candy_Jeepney_Wheel
+  Candy_Jeepney_Doors_Driver
+  Candy_Jeepney_Doors_CoDriver
+  Candy_Jeepney_Doors_Cargo1
+  Candy_Jeepney_Doors_Cargo2
+  Candy_Jeepney_Doors_Cargo3
+  Candy_Jeepney_Doors_Trunk
+  Candy_Jeepney_Doors_Hood
+  Candy_Jeepney   -   black red green whuite grey
 
 
 
 - ADd candy pistols to BM
 - Add hesco kits to types
-- make types file for vehicles testing (get types from ingame)
+
 - Fix airplane crate event - loot not despawning
 - Adjust zombie loot:
 
@@ -291,8 +292,8 @@ BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nati
 
 
 - Market:
-
   - Create a trader for MVS items
+  - Add Bitcoin and Coin (CJ187) to exchange and currency for traders
 
 - Vehicles:
   - Test pitbull: see if it takes a spark plug or a glow plug

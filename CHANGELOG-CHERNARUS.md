@@ -22,9 +22,17 @@
 
 ## Working
 
+- Market:
+  - Added P229 and FN FiveSeven pistols to Black Market trader
+
 
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 11/26/2024
+
+- Hotfix:
+  - Fixed a typo in vanilla types file
 
 ## 11/25/2024
 
