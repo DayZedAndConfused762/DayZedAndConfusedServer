@@ -30,7 +30,7 @@
 <!-- AMMUNITION_MAGAZINES START -->
 
     <type name="Mag_Glock_30Rnd">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>18000</restock>
         <min>7</min>
@@ -42,10 +42,10 @@
         <usage name="Police"/>
     </type>
     <type name="Mag_Glock_50Rnd">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>10800</lifetime>
         <restock>18000</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>80</quantmax>
         <cost>35</cost>
