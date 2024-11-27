@@ -18,6 +18,7 @@
 
 ## To Do 
 - new armbands:
+
 armband_loner
 armband_bandit
 armband_clearsky
@@ -30,6 +31,19 @@ armband_monolith
 armband_renegade
 armband_sin
 armband_unisg
+
+flag_loner
+flag_bandit
+flag_clearsky
+flag_duty
+flag_ecologist
+flag_freedom
+flag_merc
+flag_military
+flag_monolith
+flag_renegade
+flag_sin
+flag_unisg
 
 - Market: *******************
   - Create a trader for MVS items
