@@ -221,7 +221,6 @@ Item				                    Nominal         Category	    Usage		    Value		    M
 "SodaCan_Kvass"                         20              "food"          1/2/3
 "SodaCan_Pipsi"                         20              "food"          1/2/3
 "SodaCan_Spite"                         20              "food"          1/2/3
-<!--   Removed in 1.26  "Vodka" 15      "food"  -->
 "WaterBottle"                           110
 
 "CJ_WD40_Small"                         30              tools           Fa/I/T/V        .               @CJ187MoreItems
