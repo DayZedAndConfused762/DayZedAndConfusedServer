@@ -20,6 +20,9 @@
 
 - Market: *******************
   - Create a trader for MVS items
+    ExpansionTraderGabi
+    <3684.15, 406.762, 5982.38>
+    <-33.6333, -0, 0>
   - Add Bitcoin and Coin (CJ187) to exchange and currency for traders
 
 - make types file for vehicles testing (get types from ingame)
