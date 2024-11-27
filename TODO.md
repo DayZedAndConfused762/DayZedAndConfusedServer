@@ -18,7 +18,6 @@
 
 
 
-- make types file for vehicles testing (get types from ingame)
   _Black red green white grey
 
   Candy_Jeepney_Wheel
@@ -300,9 +299,6 @@ BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nati
   - Setup more lootcrate loot
   - Make sure stuff will fit in cj187 crates in crates
   - move hidden stash: 12200 12520
-
-- Storage:
- - add paragon storage to basic territories
 
 - Items:
   - Test helmets
