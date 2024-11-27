@@ -28,6 +28,7 @@
 - Market:
   - Added P229 and FN FiveSeven pistols to Black Market trader
 
+- Installed mods: @Stalker Faction Armbands
 
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
