@@ -33,6 +33,7 @@
 
 - Add hesco kits to types
 - Adjust zombie loot:
+  - NBC clothing/gasmask/filters from NBC zombies
 
 keys
 explosives
