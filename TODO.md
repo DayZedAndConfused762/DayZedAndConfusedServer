@@ -17,6 +17,19 @@
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
 ## To Do 
+- new armbands:
+armband_loner
+armband_bandit
+armband_clearsky
+armband_duty
+armband_ecologist
+armband_freedom
+armband_merc
+armband_military
+armband_monolith
+armband_renegade
+armband_sin
+armband_unisg
 
 - Market: *******************
   - Create a trader for MVS items
