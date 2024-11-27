@@ -41,6 +41,7 @@ Your choices will shape the future: resist, exploit, or enforce the Protocol. In
 - **Cannabis Economy:** Grow, trade, or consume cannabis to navigate the unique dynamics of this post-apocalyptic economy.
 - **Dynamic Events:** Encounter thrilling scenarios like plane crashes and military checkpoints, offering high risks and greater rewards.
 - **Custom Bunkers:** Explore fortified locations and bunkers at NWAF, Tisy, and Rify, rich with loot and danger.
+- **Survival:** Essential resources like food and medical supplies are scarce and cannot be purchased from traders, making scavenging a critical aspect of staying alive.
 
 ** *And much more!* **
 

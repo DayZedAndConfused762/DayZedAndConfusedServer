@@ -16,41 +16,7 @@
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
-## To Do 
-- new armbands:
 
-armband_loner
-armband_bandit
-armband_clearsky
-armband_duty
-armband_ecologist
-armband_freedom
-armband_merc
-armband_military
-armband_monolith
-armband_renegade
-armband_sin
-armband_unisg
-
-flag_loner
-flag_bandit
-flag_clearsky
-flag_duty
-flag_ecologist
-flag_freedom
-flag_merc
-flag_military
-flag_monolith
-flag_renegade
-flag_sin
-flag_unisg
-
-- Market: *******************
-  - Create a trader for MVS items
-    ExpansionTraderGabi
-    <3684.15, 406.762, 5982.38>
-    <-33.6333, -0, 0>
-  - Add Bitcoin and Coin (CJ187) to exchange and currency for traders
 
 - make types file for vehicles testing (get types from ingame)
   _Black red green white grey
@@ -66,11 +32,7 @@ flag_unisg
   Candy_Jeepney   -   black red green whuite grey
 
 
-
-- ADd candy pistols to BM
 - Add hesco kits to types
-
-- Fix airplane crate event - loot not despawning
 - Adjust zombie loot:
 
 keys

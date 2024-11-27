@@ -27,6 +27,7 @@
 
 - Market:
   - Added P229 and FN FiveSeven pistols to Black Market trader
+  - Added a new trader at Green Mountain for Modular Vest System items
 
 - Installed mods: @Stalker Faction Armbands
 
