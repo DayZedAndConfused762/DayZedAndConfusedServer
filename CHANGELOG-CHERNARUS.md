@@ -20,19 +20,20 @@
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
-## Working
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 11/27/2024
 
 - Central Economy:
   - Adjustements to loot spawn rates
+  - Added types file for new vehicles for testing
 
 - Market:
   - Added P229 and FN FiveSeven pistols to Black Market trader
   - Added a new trader at Green Mountain for Modular Vest System items
 
 - Installed mods: @Stalker Faction Armbands
-
-
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/26/2024 Start ++++++++++++++++++++ -->
 
