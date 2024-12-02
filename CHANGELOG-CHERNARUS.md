@@ -24,8 +24,13 @@
   - Fixed an error with the UAZ 31514, was spawning with spark plug, now it gets a glow plug instead
 
 - Mods:
-  - Installed mod: Zens Car Workbench https://steamcommunity.com/sharedfiles/filedetails/?id=3030756548&searchtext=zen
-    - *Use 60 Nails on 5 Sheet Metal to craft the kit. Use a screwdriver to de-craft the workbench back into a kit.*
+  - Installed mods:
+    - @Zens Car Workbench: https://steamcommunity.com/sharedfiles/filedetails/?id=3030756548&searchtext=zen
+      - *Use 60 Nails on 5 Sheet Metal to craft the kit. Use a screwdriver to de-craft the workbench back into a kit*
+    - @MassMisc: https://steamcommunity.com/sharedfiles/filedetails/?id=3030756548&searchtext=zen
+      - *You can now find various storage cases, such as gun cases, meant to be carried or stored in a vehicle/container.  They have a 24 hour lifetime*
+    - @NBC Case Plus: https://steamcommunity.com/sharedfiles/filedetails/?id=3297669060&searchtext=case
+      - *This case will store your NBC kit, mask, and even has a slot for a PO-X Antidote*
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
