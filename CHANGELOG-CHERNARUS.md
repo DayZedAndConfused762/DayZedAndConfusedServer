@@ -20,6 +20,12 @@
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+- Vehicles:
+  - Fixed an error with the UAZ 31514, was spawning with spark plug, now it gets a glow plug instead
+
+- Mods:
+  - Installed mod: Zens Car Workbench https://steamcommunity.com/sharedfiles/filedetails/?id=3030756548&searchtext=zen
+    - *Use 60 Nails on 5 Sheet Metal to craft the kit. Use a screwdriver to de-craft the workbench back into a kit.*
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
