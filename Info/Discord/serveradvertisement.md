@@ -29,10 +29,10 @@ We are a new server, looking to build our community.  Now is your time to get in
 
 ## Key Features: 
 
-- **Survival:** Essential resources like food and medical supplies are scarce and cannot be purchased from traders, making scavenging a critical aspect of staying alive.
 - **Evolved Infected:** Face a variety of infected with distinct strengths, weaknesses, and speeds, creating diverse and unpredictable encounters.
-- **Quality of Life Enhancements:** Enjoy features like autorun with stamina awareness, earplugs, and more to streamline your survival experience.
+- **Survival:** Essential resources like food and medical supplies are scarce and cannot be purchased from traders, making scavenging a critical aspect of staying alive.
 - **Trader Outpost and Black Market:** Secure your wealth without ATMs—cash must be physically protected, adding a layer of tension to every trade.
+- **Quality of Life Enhancements:** Enjoy features like autorun with stamina awareness, earplugs, and more to streamline your survival experience.
 - **Custom Vehicles:** Custom vehicles are scatttered throughout the map.  Vehicles and their parts must be scavanged, and can not be purchased on the market.  Fuel is also limited, and the pumps can run out.
 - **Hidden Riches:** Discover loot chests, secret stashes, and locked cash registers. Find keys or break in to claim your prize.
 - **Cannabis Economy:** Grow, trade, or consume cannabis to navigate the unique dynamics of this post-apocalyptic economy.
