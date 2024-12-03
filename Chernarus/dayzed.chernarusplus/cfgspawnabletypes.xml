@@ -3437,15 +3437,15 @@
 		<item name="WitchHood_Red" chance="0.40" />
 		<item name="WitchHood_Chainmail_Black" chance="0.10" />
 	</attachments>
-	<cargo preset="mixKeysHigh" />
-	<cargo preset="mixKeysLow" />
-	<cargo preset="mixDrugs" />
-	<cargo preset="mixDrugs" />
-	<cargo preset="mixDrugs" />
-	<cargo preset="mixJoints" />
-		<cargo preset="mixKeysLow" />
 		<cargo preset="mixKeysHigh" />
-	<cargo preset="grenades" />
+		<cargo preset="mixKeysHigh" />
+		<cargo preset="mixKeysLow" />
+		<cargo preset="mixKeysLow" />
+		<cargo preset="mixDrugs" />
+		<cargo preset="mixDrugs" />
+		<cargo preset="mixDrugs" />
+		<cargo preset="mixJoints" />
+		<cargo preset="grenades" />
 	</type>
 	
 <!-- INFECTED_RELIGIOUS END -->
@@ -3840,7 +3840,7 @@
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-	<cargo chance="0.10">
+		<cargo chance="0.10">
 			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<attachments chance="0.1">
@@ -3856,9 +3856,6 @@
 			<item name="TetracyclineAntibiotics" chance="1.0" />
 		</cargo>
 		<cargo chance="0.1">
-			<item name="ChelatingTablets" chance="1.0" />
-		</cargo>
-		<cargo chance="0.1">
 			<item name="GPSReceiver" chance="1.0" />
 		</cargo>
 		<cargo chance="0.05">
@@ -3866,6 +3863,9 @@
 		</cargo>
 		<cargo chance="0.14">
 			<item name="LandMineTrap" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="HackingBattery" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
@@ -3892,7 +3892,7 @@
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-	<cargo chance="0.10">
+		<cargo chance="0.10">
 			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<attachments chance="0.1">
@@ -3908,9 +3908,6 @@
 			<item name="TetracyclineAntibiotics" chance="1.0" />
 		</cargo>
 		<cargo chance="0.1">
-			<item name="ChelatingTablets" chance="1.0" />
-		</cargo>
-		<cargo chance="0.1">
 			<item name="GPSReceiver" chance="1.0" />
 		</cargo>
 		<cargo chance="0.05">
@@ -3918,6 +3915,9 @@
 		</cargo>
 		<cargo chance="0.14">
 			<item name="LandMineTrap" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="HackingBattery" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
@@ -3944,7 +3944,7 @@
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-	<cargo chance="0.10">
+		<cargo chance="0.10">
 			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<attachments chance="0.1">
@@ -3960,9 +3960,6 @@
 			<item name="TetracyclineAntibiotics" chance="1.0" />
 		</cargo>
 		<cargo chance="0.1">
-			<item name="ChelatingTablets" chance="1.0" />
-		</cargo>
-		<cargo chance="0.1">
 			<item name="GPSReceiver" chance="1.0" />
 		</cargo>
 		<cargo chance="0.05">
@@ -3970,6 +3967,9 @@
 		</cargo>
 		<cargo chance="0.14">
 			<item name="LandMineTrap" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="HackingBattery" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_White">
