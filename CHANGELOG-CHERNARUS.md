@@ -20,6 +20,12 @@
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+## 12/2/2024
+
 - Vehicles:
   - Fixed an error with the UAZ 31514, was spawning with spark plug, now it gets a glow plug instead
 
@@ -31,8 +37,6 @@
       - *You can now find various storage cases, such as gun cases, meant to be carried or stored in a vehicle/container.  They have a 24 hour lifetime*
     - @NBC Case Plus: https://steamcommunity.com/sharedfiles/filedetails/?id=3297669060&searchtext=case
       - *This case will store your NBC kit, mask, and even has a slot for a PO-X Antidote*
-
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 ## 11/27/2024
 
