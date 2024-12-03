@@ -17,7 +17,7 @@
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
 - Add to trader:
-  - Expansion_MP5
+  - 
 
 - Customize air drops
 

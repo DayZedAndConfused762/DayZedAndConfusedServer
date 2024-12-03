@@ -20,7 +20,10 @@
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
+## Working
 
+- Market:
+  - Added Expansion MP5 to Green Mountain weapons trader
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
