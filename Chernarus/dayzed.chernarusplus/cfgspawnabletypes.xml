@@ -3316,17 +3316,37 @@
 
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
-		<cargo chance="0.03">
+		<cargo chance="0.05">
 			<item name="AntiChemInjector" chance="1.0" />
 		</cargo>
 		<cargo preset="mixKeysLow" />
+		<cargo chance="0.10" />
+			<item name="NBCBootsGray" chance="0.20" />
+			<item name="NBCGlovesGray" chance="0.20" />
+			<item name="NBCHoodGray" chance="0.20" />
+			<item name="NBCJacketGray" chance="0.20" />
+			<item name="NBCPantsGray" chance="0.20" />
+		</cargo>
+		<cargo chance="0.05">
+			<item name="GasMask_Filter" chance="1.0" />
+		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
 		<cargo preset="ContaminatedCargo" />
-		<cargo chance="0.01">
+		<cargo chance="0.02">
 			<item name="AntiChemInjector" chance="1.0" />
 		</cargo>
 		<cargo preset="mixKeysLow" />
+		<cargo chance="0.10" />
+			<item name="NBCBootsYellow" chance="0.20" />
+			<item name="NBCGlovesYellow" chance="0.20" />
+			<item name="NBCHoodYellow" chance="0.20" />
+			<item name="NBCJacketYellow" chance="0.20" />
+			<item name="NBCPantsYellow" chance="0.20" />
+		</cargo>
+		<cargo chance="0.05">
+			<item name="GasMask_Filter" chance="1.0"/>
+		</cargo>
 	</type>
 
 <!-- INFECTED_NBC END -->
@@ -3862,9 +3882,11 @@
 			<item name="AntiCheminjector" chance="1.0" />
 		</cargo>
 		<cargo chance="0.14">
-			<item name="LandMineTrap" chance="1.0" />
+			<item name="LandMineTrap" chance="0.60" />
+			<item name="ExpansionAmmoRPG" chance="0.20" />
+			<item name="ExpansionAmmoLAW" chance="0.20" />
 		</cargo>
-		<cargo chance="0.5">
+		<cargo chance="0.05">
 			<item name="HackingBattery" chance="1.0" />
 		</cargo>
 	</type>
@@ -3914,9 +3936,11 @@
 			<item name="AntiCheminjector" chance="1.0" />
 		</cargo>
 		<cargo chance="0.14">
-			<item name="LandMineTrap" chance="1.0" />
+			<item name="LandMineTrap" chance="0.60" />
+			<item name="ExpansionAmmoRPG" chance="0.20" />
+			<item name="ExpansionAmmoLAW" chance="0.20" />
 		</cargo>
-		<cargo chance="0.5">
+		<cargo chance="0.05">
 			<item name="HackingBattery" chance="1.0" />
 		</cargo>
 	</type>
@@ -3966,9 +3990,11 @@
 			<item name="AntiCheminjector" chance="1.0" />
 		</cargo>
 		<cargo chance="0.14">
-			<item name="LandMineTrap" chance="1.0" />
+			<item name="LandMineTrap" chance="0.60" />
+			<item name="ExpansionAmmoRPG" chance="0.20" />
+			<item name="ExpansionAmmoLAW" chance="0.20" />
 		</cargo>
-		<cargo chance="0.5">
+		<cargo chance="0.05">
 			<item name="HackingBattery" chance="1.0" />
 		</cargo>
 	</type>

@@ -26,6 +26,11 @@
   - Added Expansion MP5 to Green Mountain weapons trader
   - Tweaks to stocking levels
 
+- Infected:
+  - Adjustments to infected loot:
+    - Added a chance for NBC infected to drop NBC clothing and gas mask filters
+    - Added a chance for Terrorist infected to drop RPG/LAW rockets and Hacking Batteries
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 ## 12/2/2024

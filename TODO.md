@@ -16,8 +16,12 @@
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
-- Add to trader:
-  - 
+- Add no build zones
+  - Tisy Bunker
+  - NWAF Bunker
+  - Rify Bunker
+  - Green Mountain
+  - Radio Zenit
 
 - Customize air drops
 
