@@ -22,6 +22,8 @@
 <!-- CONTAINERS -->
 <!--  CONTAINERS_CARRIED  CONTAINERS_PLACED  CONTAINERS_WORN  -->
 <!-- -->
+<!-- EXPLOSIVES: -->
+<!-- -->
 <!-- FIREARMS: -->
 <!--  FIREARMS_ASSAULT  FIREARMS_PISTOLS  FIREARM_RIFLES  FIREARMS_SHOTGUNS  FIREARMS_SMG  -->
 <!-- -->
@@ -49,10 +51,7 @@
 <!-- -->
 <!-- -->
 
-	<type name="Grenade_ChemGas">
-		<damage min="0.77" max="0.99" />
-	</type>
-	
+
 <!-- ++++++++++ AMMUNITION START ++++++++++ -->
 
 	<type name="Ammo_40mm_Explosive">
@@ -1566,6 +1565,14 @@
 <!-- CONTAINERS_WORN END -->
 
 <!-- ++++++++++ CONTAINERS END ++++++++++ -->
+
+<!-- ++++++++++ EXPLOSIVES START ++++++++++ -->
+
+	<type name="Grenade_ChemGas">
+		<damage min="0.77" max="0.99" />
+	</type>
+
+<!-- ++++++++++ EXPLOSIVES END ++++++++++ -->
 
 <!-- ++++++++++ FIREARMS START ++++++++++ -->
 
@@ -3822,18 +3829,18 @@
 			<item name="MVS_ArmoredHelmet_Multicam_Black" chance="0.1" />
 			<item name="MVS_6B47_Helmet_Black" chance="0.3" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.25">
 			<item name="CJ_NVG_ANVPVS7" chance="0.4" />
 			<item name="CJ_NVG_BCNVG21" chance="0.3" />
 			<item name="CJ_NVG_GPNVG18_Black" chance="0.1" />
 			<item name="CJ_NVG_GPNVG18_Tan" chance="0.2" />
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.25">
 			<item name="CJ_MilBattery_Tan" chance="0.6" />
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-		<cargo chance="0.10">
+	<cargo chance="0.10">
 			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<attachments chance="0.1">
@@ -3854,17 +3861,11 @@
 		<cargo chance="0.1">
 			<item name="GPSReceiver" chance="1.0" />
 		</cargo>
-		<cargo chance="0.1">
-			<item name="Battery9V" chance="1.0" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
-		<cargo chance="0.10">
+		<cargo chance="0.05">
 			<item name="AntiCheminjector" chance="1.0" />
 		</cargo>
-		<cargo chance="0.30">
-			<item name="M67Grenade" chance="1.0" />
+		<cargo chance="0.14">
+			<item name="LandMineTrap" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
@@ -3891,7 +3892,7 @@
 			<item name="CJ_MilBattery_Black" chance="0.1" />
 			<item name="CJ_MilBattery_Green" chance="0.3" />
 		</attachments>
-		<cargo chance="0.10">
+	<cargo chance="0.10">
 			<item name="ScientificBriefcaseKeys" chance="1.0"/>
 		</cargo>
 		<attachments chance="0.1">
@@ -3912,17 +3913,11 @@
 		<cargo chance="0.1">
 			<item name="GPSReceiver" chance="1.0" />
 		</cargo>
-		<cargo chance="0.1">
-			<item name="Battery9V" chance="1.0" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
-		<cargo chance="0.10">
+		<cargo chance="0.05">
 			<item name="AntiCheminjector" chance="1.0" />
 		</cargo>
-		<cargo chance="0.11">
-			<item name="Plastic_Explosive" chance="1.0" />
+		<cargo chance="0.14">
+			<item name="LandMineTrap" chance="1.0" />
 		</cargo>
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
@@ -3970,13 +3965,7 @@
 		<cargo chance="0.1">
 			<item name="GPSReceiver" chance="1.0" />
 		</cargo>
-		<cargo chance="0.1">
-			<item name="Battery9V" chance="1.0" />
-		</cargo>
-		<cargo chance="0.10">
-			<item name="Grenade_ChemGas" chance="1.0" />
-		</cargo>
-		<cargo chance="0.10">
+		<cargo chance="0.05">
 			<item name="AntiCheminjector" chance="1.0" />
 		</cargo>
 		<cargo chance="0.14">
