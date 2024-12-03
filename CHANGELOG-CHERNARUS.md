@@ -24,6 +24,7 @@
 
 - Market:
   - Added Expansion MP5 to Green Mountain weapons trader
+  - Tweaks to stocking levels
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
