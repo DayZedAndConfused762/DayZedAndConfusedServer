@@ -42,33 +42,43 @@
 
 <!-- ++++++++++ AMMUNITION START ++++++++++ -->
 
-		<cargo chance="0.25" name="ammoArmy">
-				<item name="Ammo_45ACP" chance="0.20" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
-				<item name="Ammo_556x45" chance="0.20" />
-				<item name="AmmoBox_556x45_20Rnd" chance="0.05" />
-				<item name="Ammo_762x39" chance="0.20" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
-				<item name="Ammo_762x54" chance="0.20" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+		<cargo chance="0.15" name="ammoArmy">
+				<item name="Ammo_308WinTracer" chance="0.10" />
+				<item name="AmmoBox_308WinTracer_20Rnd" chance="0.05" />
+				<item name="Ammo_45ACP" chance="0.15" />
+				<item name="AmmoBox_45ACP_25Rnd" chance="0.10" />
+				<item name="Ammo_556x45Tracer" chance="0.10" />
+				<item name="AmmoBox_556x45Tracer_20Rnd" chance="0.05" />
+				<item name="Ammo_545x39Tracer" chance="0.10" />
+				<item name="AmmoBox_545x39Tracer_20Rnd" chance="0.05" />
+				<item name="Ammo_762x39Tracer" chance="0.10" />
+				<item name="AmmoBox_762x39Tracer_20Rnd" chance="0.05" />
+				<item name="Ammo_762x54Tracer" chance="0.10" />
+				<item name="AmmoBox_762x54Tracer_20Rnd" chance="0.05" />
 		</cargo>
 		<cargo chance="0.15" name="ammoCivil">
-				<item name="Ammo_380" chance="0.22" />
-				<item name="AmmoBox_380_35Rnd" chance="0.08" />
+				<item name="Ammo_380" chance="0.15" />
+				<item name="AmmoBox_380_35Rnd" chance="0.05" />
 				<item name="Ammo_9x19" chance="0.15" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.08" />
-				<item name="Ammo_762x39" chance="0.12" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
-				<item name="Ammo_762x54" chance="0.08" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
+				<item name="AmmoBox_9x19_25Rnd" chance="0.05" />
+				<item name="Ammo_762x39" chance="0.15" />
+				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
+				<item name="Ammo_762x54" chance="0.15" />
+				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<item name="Ammo_12gaPellets" chance="0.15" />
+				<item name="AmmoBox_00buck_10rnd" chance="0.05" />
 		</cargo>
-		<cargo chance="0.3" name="ammoPolice">
-				<item name="Ammo_9x19" chance="0.25" />
-				<item name="AmmoBox_9x19_25Rnd" chance="0.09" />
-				<item name="Ammo_556x45" chance="0.25" />
-				<item name="AmmoBox_556x45_20Rnd" chance="0.09" />
-				<item name="Ammo_545x39" chance="0.25" />
-				<item name="AmmoBox_545x39_20Rnd" chance="0.07" />
+		<cargo chance="0.20" name="ammoPolice">
+				<item name="Ammo_380" chance="0.15" />
+				<item name="AmmoBox_380_35rnd" chance="0.10" />
+				<item name="Ammo_9x19" chance="0.15" />
+				<item name="AmmoBox_9x19_25Rnd" chance="0.10" />
+				<item name="Ammo_45ACP" chance="0.15" />
+				<item name="AmmoBox_45ACP_25Rnd" chance="0.10" />
+				<item name="Ammo_556x45" chance="0.05" />
+				<item name="AmmoBox_556x45_20Rnd" chance="0.05" />
+				<item name="Ammo_545x39" chance="0.10" />
+				<item name="AmmoBox_545x39_20Rnd" chance="0.05" />
 		</cargo>
 
 <!-- ++++++++++ AMMUNITION END ++++++++++ -->
@@ -340,11 +350,18 @@
 
 <!-- ++++++++++ EXPLOSIVES START ++++++++++ -->
 
-		<cargo chance="0.04" name="grenades">
-				<item name="RDG2SmokeGrenade_White" chance="0.25" />
-				<item name="FlashGrenade" chance="0.25" />
-				<item name="RDG2SmokeGrenade_Black" chance="0.25" />
-				<item name="RGD5Grenade" chance="0.25" />
+		<cargo chance="0.05" name="grenades">
+				<item name="M18SmokeGrenade_Green" chance="0.10" />
+				<item name="M18SmokeGrenade_Purple" chance="0.10" />
+				<item name="M18SmokeGrenade_Red" chance="0.10" />
+				<item name="M18SmokeGrenade_White" chance="0.10" />
+				<item name="M18SmokeGrenade_Yellow" chance="0.10" />
+				<item name="RDG2SmokeGrenade_White" chance="0.10" />
+				<item name="RDG2SmokeGrenade_Black" chance="0.10" />
+				<item name="FlashGrenade" chance="0.10" />
+				<item name="RGD5Grenade" chance="0.9" />
+				<item name="M67Grenade" chance="0.10" />
+				<item name="Grenade_ChemGas" chance="0.01" />
 		</cargo>
 
 <!-- ++++++++++ EXPLOSIVES END ++++++++++ -->
@@ -377,8 +394,33 @@
 
 <!-- ++++++++++ MIX START ++++++++++ -->
 
-		<cargo chance="0.25" name="mixBooks">
-				<item name="" chance="" />
+		<cargo chance="0.03" name="mixBooksCiv">
+				<item name="BookAliceInWonderland" chance="0.15" />
+				<item name="BookBlackBeauty" chance="0.20" />
+				<item name="BookTheCosmicComputer" chance="0.15" />
+				<item name="BookThreeMenInABoat" chance="0.15" />
+				<item name="BookTheDayOfTheBeast" chance="0.20" />
+				<item name="BookDesertGold" chance="0.15" />
+		</cargo>
+		<cargo chance="0.10" name="mixBooksRelig">
+				<item name="BookCrimeAndPunishment" chance="0.25" />
+				<item name="BookDeadSouls" chance="0.20" />
+				<item name="BookGreatExpectations" chance="0.15" />
+				<item name="BookTheJustifiedSinner" chance="0.25" />
+				<item name="BookATravelerInTime" chance="0.15" />
+		</cargo>
+		<cargo chance="0.03" name="mixBooksMil">
+				<item name="BookTheArtOfWar" chance="0.15" />
+				<item name="BookWealthOfNations" chance="0.10" />
+				<item name="BookGilgameshEpic" chance="0.15" />
+				<item name="BookHeartOfDarkness" chance="0.15" />
+				<item name="BookTheRedBadgeOfCourage" chance="0.10" />
+				<item name="BookTheWarOfTheWorlds" chance="0.15" />
+				<item name="BookGunmansReckoning" chance="0.20" />
+		</cargo>
+		<cargo chance="0.10" name="mixBooksTer">
+				<item name="BookRussian" chance="0.30" />
+				<item name="BookRussianCheatSheet" chance="0.70" />
 		</cargo>
 
 		<cargo chance="0.1" name="mixVillage">
@@ -590,6 +632,9 @@
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />
 				<item name="Apple" chance="0.07" />
+				<item name="BoarSteakMeat" chance="0.07" />
+				<item name="DeadRabbit" chance="0.07" />
+				<item name="HumanSteakMeat" chance="0.20" />
 		</cargo>
 		<cargo chance="0.16" name="foodVillage">
 				<item name="SodaCan_Cola" chance="0.02" />
@@ -620,19 +665,19 @@
 				<item name="WaterBottle" chance="0.1" />
 		</cargo>
 		<cargo chance="0.20" name="food_T1">		
-				<item name="HumanSteakMeat" chance="0.03" />
+				<item name="HumanSteakMeat" chance="0.20" />
 				<item name="Guts" chance="0.03" />
-				<item name="PotatoSeed" chance="0.1" />
-				<item name="Zucchini" chance="0.1" />
-				<item name="Tomato" chance="0.1" />
-				<item name="GreenBellPepper" chance="0.1" />
-				<item name="PowderedMilk" chance="0.1" />
-				<item name="Pajka" chance="0.1" />
-				<item name="Pate" chance="0.1" />
+				<item name="PotatoSeed" chance="0.05" />
+				<item name="Zucchini" chance="0.05" />
+				<item name="Tomato" chance="0.05" />
+				<item name="GreenBellPepper" chance="0.10" />
+				<item name="PowderedMilk" chance="0.10" />
+				<item name="Pajka" chance="0.10" />
+				<item name="Pate" chance="0.10" />
 				<item name="BrisketSpread" chance="0.1" />
-				<item name="SaltySticks" chance="0.2" />
-				<item name="Crackers" chance="0.2" />
-				<item name="Chips" chance="0.2" />
+				<item name="SaltySticks" chance="0.02" />
+				<item name="Crackers" chance="0.02" />
+				<item name="Chips" chance="0.02" />
 		</cargo>
 
 <!-- ++++++++++ NUTRITION END ++++++++++ -->

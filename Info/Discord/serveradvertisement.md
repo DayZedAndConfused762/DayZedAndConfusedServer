@@ -25,27 +25,33 @@ Visit our Discord: https://discord.gg/UkHvV7j6kf
 
 # The Cannabis Protocol
 
+We are a new server, looking to build our community.  Now is your time to get in from the ground up, and help shape development.
+
+## Key Features: 
+
+- **Survival:** Essential resources like food and medical supplies are scarce and cannot be purchased from traders, making scavenging a critical aspect of staying alive.
+- **Evolved Infected:** Face a variety of infected with distinct strengths, weaknesses, and speeds, creating diverse and unpredictable encounters.
+- **Quality of Life Enhancements:** Enjoy features like autorun with stamina awareness, earplugs, and more to streamline your survival experience.
+- **Trader Outpost and Black Market:** Secure your wealth without ATMs—cash must be physically protected, adding a layer of tension to every trade.
+- **Custom Vehicles:** Custom vehicles are scatttered throughout the map.  Vehicles and their parts must be scavanged, and can not be purchased on the market.  Fuel is also limited, and the pumps can run out.
+- **Hidden Riches:** Discover loot chests, secret stashes, and locked cash registers. Find keys or break in to claim your prize.
+- **Cannabis Economy:** Grow, trade, or consume cannabis to navigate the unique dynamics of this post-apocalyptic economy.
+- **Dynamic Events:** Encounter thrilling scenarios like plane crashes and military checkpoints, offering high risks and greater rewards.
+- **Custom Bunkers:** Explore fortified locations and bunkers at NWAF, Tisy, and Rify, rich with loot and danger.
+
+** *And much more!* **
+
+## Server Lore:
+
 In a Europe consumed by the Z-Virus, survival is a game of choices. The United Federal States of Europe (UFSE) reigns with an iron fist, enforcing its rule through the Cannabis Protocol—a sinister initiative that wields genetically modified cannabis to pacify the infected, subdue civilians, and maintain control. This lifeline comes at a cost: dependency, compliance, and loss of freedom.
 
 Factions like the Green Vanguard rise as beacons of rebellion, opposing the UFSE's oppression, while the ruthless Black Leaf Syndicate exploits the chaos, fueling its rise to power through the drug trade. As the Protocol Enforcers hunt dissenters and crush opposition, alliances are forged, betrayals are inevitable, and the fight for a free Europe rages on.
 
 Your choices will shape the future: resist, exploit, or enforce the Protocol. In this unforgiving world, survival demands strategy, alliances, and resilience.
 
-## Key Features: 
+## Server info:
 
-- **Evolved Infected:** Face a variety of infected with distinct strengths, weaknesses, and speeds, creating diverse and unpredictable encounters.
-- **Quality of Life Enhancements:** Enjoy features like autorun with stamina awareness, earplugs, and more to streamline your survival experience.
-- **Trader Outpost and Black Market:** Secure your wealth without ATMs—cash must be physically protected, adding a layer of tension to every trade.
-- **Custom Vehicles:** Access a fleet of civilian, military, and helicopter options to suit your needs.
-- **Hidden Riches:** Discover loot chests, secret stashes, and locked cash registers. Find keys or break in to claim your prize.
-- **Cannabis Economy:** Grow, trade, or consume cannabis to navigate the unique dynamics of this post-apocalyptic economy.
-- **Dynamic Events:** Encounter thrilling scenarios like plane crashes and military checkpoints, offering high risks and greater rewards.
-- **Custom Bunkers:** Explore fortified locations and bunkers at NWAF, Tisy, and Rify, rich with loot and danger.
-- **Survival:** Essential resources like food and medical supplies are scarce and cannot be purchased from traders, making scavenging a critical aspect of staying alive.
-
-** *And much more!* **
-
-Join the Fight
+** *Join the Fight!* **
 Server IP: 45.59.162.21:2491
 Discord: https://discord.gg/UkHvV7j6kf
 

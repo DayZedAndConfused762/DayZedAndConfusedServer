@@ -16,13 +16,20 @@
 
 <!-- ------------------------------ Overview End ------------------------------ -->
 
+
+
 <!-- ------------------------------ ChangeLog Start ------------------------------ -->
 
 <!-- ++++++++++++++++++++ Working Start ++++++++++++++++++++ -->
 
 ## Working
 
+- Central Economy:
+  - Added 40 books to the loot pool, you can find these on various infected, as well as many different locations throughout the map.  These books can be sold for 10,000 each.  If you are able to locate all 40 books, you can trade them in for a high tier weapon (example: .50 rifle) and vehicle of your choice, as well as some other goodies
+  - Adjustments to some item spawn rates
+
 - Market:
+  - Added books to the market to sell, temporarily on the Supply trader at Green Mountain
   - Added Expansion MP5 to Green Mountain weapons trader
   - Tweaks to stocking levels
 
@@ -30,8 +37,11 @@
   - Adjustments to infected loot:
     - Added a chance for NBC infected to drop NBC clothing and gas mask filters
     - Added a chance for Terrorist infected to drop RPG/LAW rockets and Hacking Batteries
+    - Various infected now have a chance to drop books
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 12/2/2024 Start ++++++++++++++++++++ -->
 
 ## 12/2/2024
 
@@ -47,6 +57,10 @@
     - @NBC Case Plus: https://steamcommunity.com/sharedfiles/filedetails/?id=3297669060&searchtext=case
       - *This case will store your NBC kit, mask, and even has a slot for a PO-X Antidote*
 
+<!-- ++++++++++++++++++++ 12/2/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 11/27/2024 Start ++++++++++++++++++++ -->
+
 ## 11/27/2024
 
 - Central Economy:
@@ -58,6 +72,8 @@
   - Added a new trader at Green Mountain for Modular Vest System items
 
 - Installed mods: @Stalker Faction Armbands
+
+<!-- ++++++++++++++++++++ 11/27/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 11/26/2024 Start ++++++++++++++++++++ -->
 

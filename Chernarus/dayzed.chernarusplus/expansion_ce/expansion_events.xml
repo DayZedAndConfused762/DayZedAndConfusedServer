@@ -113,7 +113,7 @@
     <event name="VehicleTractor">
         <nominal>3</nominal>
         <min>1</min>
-        <max>5</max>
+        <max>3</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -132,7 +132,7 @@
     <event name="VehicleLandRover">
         <nominal>3</nominal>
         <min>1</min>
-        <max>5</max>
+        <max>3</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -154,9 +154,9 @@
     </event>
 	<!-- HELICOPTERS -->
 	<event name="VehicleMH6Helicopter">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <min>1</min>
-        <max>1</max>
+        <max>2</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>

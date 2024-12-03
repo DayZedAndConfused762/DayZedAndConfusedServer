@@ -2290,6 +2290,7 @@
 <!-- INFECTED_ARMY START -->
 
 	<type name="ZmbM_PatrolNormal_Autumn">
+		<cargo preset="mixBooksMil" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="mixKeysLow" />
@@ -2303,6 +2304,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_PatrolNormal_Flat">
+		<cargo preset="mixBooksMil" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="mixKeysLow" />
@@ -2316,6 +2318,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_PatrolNormal_PautRev">
+		<cargo preset="mixBooksMil" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="mixKeysLow" />
@@ -2329,6 +2332,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_PatrolNormal_Summer">
+		<cargo preset="mixBooksMil" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="mixKeysLow" />
@@ -2342,6 +2346,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_SoldierNormal">
+		<cargo preset="mixBooksMil" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="mixKeysLow" />
@@ -2356,6 +2361,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
+		<cargo preset="mixBooksMil" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />	
 		<cargo preset="ammoArmy" />	
@@ -2368,6 +2374,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
+		<cargo preset="mixBooksMil" />
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
 		<cargo preset="ammoArmy" />	
@@ -2380,6 +2387,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Convoy">
+		<cargo preset="mixBooksMil" />
 		<attachments chance="1.00">
 			<item name="MedicalScrubsHat_Green" chance="1.0" />
 		</attachments>
@@ -2399,6 +2407,7 @@
 <!-- INFECTED_CITY START -->
 
 	<type name="ZmbF_Clerk_Normal_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="toolsCity" />
@@ -2408,6 +2417,7 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Green">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2417,6 +2427,7 @@
 		<attachments preset="hatsCommon_T1" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_Red">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2425,6 +2436,7 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_Clerk_Normal_White">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2434,6 +2446,7 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Beige">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2443,6 +2456,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2452,6 +2466,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_CitizenANormal_Brown">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2462,6 +2477,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_CitizenBSkinny">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2472,6 +2488,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2480,6 +2497,7 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Green">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2489,6 +2507,7 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Red">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2497,6 +2516,7 @@
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_White">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2507,6 +2527,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_beige">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2516,6 +2537,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_black">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2525,6 +2547,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_brown">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2534,6 +2557,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_checks">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2543,6 +2567,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_green">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2553,6 +2578,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_grey">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2562,6 +2588,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_red">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2571,6 +2598,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_stripes">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2580,6 +2608,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_ShortSkirt_white">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2589,6 +2618,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_ShortSkirt_yellow">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2598,6 +2628,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SkaterYoung_Brown">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2608,6 +2639,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SkaterYoung_Striped">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2618,6 +2650,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SkaterYoung_Violet">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2628,6 +2661,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2638,6 +2672,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Orange">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2647,6 +2682,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Red">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2656,6 +2692,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_White">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2665,6 +2702,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2674,6 +2712,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Brown">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2683,6 +2722,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Grey">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2692,6 +2732,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Red">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2701,6 +2742,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2710,6 +2752,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Green">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2720,6 +2763,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Red">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2729,6 +2773,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_Brown">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2738,6 +2783,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_ClerkFat_Grey">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2747,6 +2793,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_Khaki">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2756,6 +2803,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_White">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2824,6 +2872,7 @@
 		</attachments>
 	</type>
 	<type name="ZmbM_Jacket_beige">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2833,6 +2882,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_black">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2842,6 +2892,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2851,6 +2902,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_bluechecks">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2860,6 +2912,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_Jacket_brown">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2869,6 +2922,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_greenchecks">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2879,6 +2933,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_grey">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2888,6 +2943,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_khaki">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2897,6 +2953,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_magenta">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2906,6 +2963,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_Jacket_stripes">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
@@ -2915,12 +2973,14 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_JournalistSkinny">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixJoints" />
 		<cargo preset="mixKeysLow" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Beige">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2929,6 +2989,7 @@
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Black">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2939,6 +3000,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_MotobikerFat_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2947,6 +3009,7 @@
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Blue">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -2957,6 +3020,7 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2966,6 +3030,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Green">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -2975,6 +3040,7 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Grey">
+		<cargo preset="mixBooksCiv" />
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<cargo preset="mixDrugs" />
@@ -3450,6 +3516,10 @@
 <!-- INFECTED_RELIGIOUS START -->
 
 	<type name="ZmbM_priestPopSkinny">
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="mixBooksRelig" />
 		<cargo preset="foodHermit" />
 	<attachments chance="0.50">
 		<item name="WitchHood_Black" chance="0.40" />
@@ -3837,6 +3907,10 @@
 		<attachments preset="hatsMedic" />
 	</type>
 	<type name="ZmbM_Gamedev_Black">
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="mixBooksTer" />
 		<attachments chance="1.0">
 			<item name="MVS_Combat_Vest_ERDL" chance="0.3" />
 			<item name="MVS_Combat_Vest_Black" chance="0.3" />
@@ -3889,8 +3963,13 @@
 		<cargo chance="0.05">
 			<item name="HackingBattery" chance="1.0" />
 		</cargo>
+		<cargo preset="grenades" />
 	</type>
 	<type name="ZmbM_Gamedev_Blue">
+		<cargo preset="mixBooksTer" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
 		<attachments chance="1.0">
 			<item name="MVS_Combat_Vest_ERDL" chance="0.3" />
 			<item name="MVS_Combat_Vest_Black" chance="0.3" />
@@ -3943,8 +4022,13 @@
 		<cargo chance="0.05">
 			<item name="HackingBattery" chance="1.0" />
 		</cargo>
+		<cargo preset="grenades" />
 	</type>
 	<type name="ZmbM_Gamedev_Gray">
+		<cargo preset="mixBooksTer" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
+		<cargo preset="RU_Money_Clothes" />
 		<attachments chance="1.0">
 			<item name="MVS_Combat_Vest_ERDL" chance="0.3" />
 			<item name="MVS_Combat_Vest_Black" chance="0.3" />
@@ -3997,6 +4081,7 @@
 		<cargo chance="0.05">
 			<item name="HackingBattery" chance="1.0" />
 		</cargo>
+		<cargo preset="grenades" />
 	</type>
 	<type name="ZmbM_NBC_White">
 		<cargo preset="ContaminatedCargo" />
