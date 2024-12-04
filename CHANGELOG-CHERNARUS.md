@@ -27,6 +27,7 @@
 - Central Economy:
   - Added 40 books to the loot pool, you can find these on various infected, as well as many different locations throughout the map.  These books can be sold for 10,000 each.  If you are able to locate all 40 books, you can trade them in for a high tier weapon (example: .50 rifle) and vehicle of your choice, as well as some other goodies
   - Adjustments to some item spawn rates
+  - Lowered spawn rates of vanilla clothes to make room for @WindstridesClothingPack items
 
 - Market:
   - Added books to the market to sell, temporarily on the Supply trader at Green Mountain

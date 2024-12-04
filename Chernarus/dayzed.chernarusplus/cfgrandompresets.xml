@@ -350,7 +350,7 @@
 
 <!-- ++++++++++ EXPLOSIVES START ++++++++++ -->
 
-		<cargo chance="0.05" name="grenades">
+		<cargo chance="0.10" name="grenades">
 				<item name="M18SmokeGrenade_Green" chance="0.10" />
 				<item name="M18SmokeGrenade_Purple" chance="0.10" />
 				<item name="M18SmokeGrenade_Red" chance="0.10" />
@@ -627,6 +627,7 @@
 				<item name="SaltySticks" chance="0.05" />
 				<item name="Crackers" chance="0.05" />
 				<item name="Chips" chance="0.05" />
+				<item name="HumanSteakMeat" chance="0.20" />
 		</cargo>
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
@@ -655,6 +656,7 @@
 				<item name="SaltySticks" chance="0.05" />
 				<item name="Crackers" chance="0.05" />
 				<item name="Chips" chance="0.05" />
+				<item name="HumanSteakMeat" chance="0.20" />
 		</cargo>
 		<cargo chance="0.15" name="drinks_T1">
 				<item name="SodaCan_Cola" chance="0.10" />
@@ -940,7 +942,7 @@
 
 		<cargo chance="0.2" name="toolsCity"> <!--same as the one above - just preparing -->
 				<item name="DuctTape" chance="0.07" />
-				<item name="Battery9V" chance="0.07" />
+				<item name="Battery9V" chance="0.20" />
 				<item name="Matchbox" chance="0.07" />
 				<item name="SewingKit" chance="0.07" />
 				<item name="CanOpener" chance="0.05" />
@@ -962,10 +964,9 @@
 		</cargo>
 		<cargo chance="0.15" name="toolsHunter">
 				<item name="WeaponCleaningKit" chance="0.10" />
-				<item name="Paper" chance="0.1" />
 				<item name="Flashlight" chance="0.1" />
 				<item name="Battery9V" chance="0.1" />
-				<item name="Matchbox" chance="0.15" />
+				<item name="Matchbox" chance="0.10" />
 				<item name="Roadflare" chance="0.1" />
 				<item name="HuntingKnife" chance="0.05" />
 				<item name="CanOpener" chance="0.05" />

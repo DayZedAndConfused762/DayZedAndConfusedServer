@@ -3679,10 +3679,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- CLOTHING_BELTS START -->
 
     <type name="CivilianBelt">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3779,10 +3779,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="DesignerGlasses">
-        <nominal>18</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3852,10 +3852,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <category name="clothes"/>
     </type>
     <type name="SportGlasses_Black">
-        <nominal>13</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3869,10 +3869,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="School"/>
     </type>
     <type name="SportGlasses_Blue">
-        <nominal>13</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3966,10 +3966,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- CLOTHING_FACE START -->
 
     <type name="Balaclava3Holes_Beige">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4030,10 +4030,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier4"/>
     </type>
     <type name="BalaclavaMask_Beige">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4047,10 +4047,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier3"/>
     </type>
     <type name="BalaclavaMask_Black">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4080,10 +4080,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier4"/>
     </type>
     <type name="BalaclavaMask_Blue">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4098,10 +4098,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier3"/>
     </type>
     <type name="BalaclavaMask_Green">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4133,10 +4133,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier1"/>
     </type>
     <type name="BalaclavaMask_White">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4449,10 +4449,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Military"/>
     </type>
     <type name="DressShoes_Beige">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4462,10 +4462,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="DressShoes_Black">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4475,10 +4475,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="DressShoes_Brown">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4488,10 +4488,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="DressShoes_Sunburst">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4501,10 +4501,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="DressShoes_White">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4525,10 +4525,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <category name="clothes"/>
     </type>
     <type name="HikingBootsLow_Beige">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4539,10 +4539,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="HikingBootsLow_Black">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4609,7 +4609,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="JoggingShoes_Black">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -5307,10 +5307,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier4"/>
     </type>
     <type name="PaddedGloves_Beige">
-        <nominal>12</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5319,10 +5319,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="PaddedGloves_Brown">
-        <nominal>12</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5427,10 +5427,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Military"/>
     </type>
     <type name="WorkingGloves_Beige">
-        <nominal>12</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5440,10 +5440,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Farm"/>
     </type>
     <type name="WorkingGloves_Black">
-        <nominal>10</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5453,10 +5453,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Farm"/>
     </type>
     <type name="WorkingGloves_Brown">
-        <nominal>11</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5466,10 +5466,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Farm"/>
     </type>
     <type name="WorkingGloves_Yellow">
-        <nominal>13</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5556,10 +5556,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Military"/>
     </type>
     <type name="BaseballCap_Beige">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5569,10 +5569,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="BaseballCap_Black">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5595,10 +5595,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="BaseballCap_CMMG_Black">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5608,7 +5608,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="BaseballCap_CMMG_Pink">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -5621,7 +5621,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Town"/>
     </type>
     <type name="BaseballCap_Camo">
-        <nominal>25</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -5634,7 +5634,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Hunting"/>
     </type>
     <type name="BaseballCap_Olive">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -7670,10 +7670,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- CLOTHING_PANTS START -->
 
     <type name="BDUPants">
-        <nominal>7</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7682,10 +7682,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Military"/>
     </type>
     <type name="Breeches_Beetcheck">
-        <nominal>23</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7695,10 +7695,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Breeches_Beige">
-        <nominal>25</nominal>
+        <nominal>22</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7708,10 +7708,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Breeches_Black">
-        <nominal>25</nominal>
+        <nominal>22</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7721,10 +7721,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Breeches_Blackcheck">
-        <nominal>25</nominal>
+        <nominal>22</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7734,10 +7734,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Breeches_Blue">
-        <nominal>25</nominal>
+        <nominal>22</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7747,10 +7747,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Breeches_Browncheck">
-        <nominal>25</nominal>
+        <nominal>22</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7760,10 +7760,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Village"/>
     </type>
     <type name="Breeches_Green">
-        <nominal>25</nominal>
+        <nominal>22</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8729,10 +8729,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
 <!-- CLOTHING_TOPS START -->
 
     <type name="BDUJacket">
-        <nominal>7</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8905,10 +8905,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <usage name="Historical"/>
     </type>
     <type name="ChernarusSportShirt">
-        <nominal>40</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9064,7 +9064,7 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier2"/>
     </type>
     <type name="Hoodie_Black">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -9080,10 +9080,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier4"/>
     </type>
     <type name="Hoodie_Blue">
-        <nominal>35</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9095,10 +9095,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier2"/>
     </type>
     <type name="Hoodie_Brown">
-        <nominal>35</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9111,10 +9111,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier4"/>
     </type>
     <type name="Hoodie_Green">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9127,10 +9127,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier4"/>
     </type>
     <type name="Hoodie_Grey">
-        <nominal>35</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18089,10 +18089,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier2"/>
     </type>
     <type name="ChildBag_Blue">
-        <nominal>24</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18105,10 +18105,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier3"/>
     </type>
     <type name="ChildBag_Green">
-        <nominal>24</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18121,10 +18121,10 @@ VEHICLES_M3S_BASE  VEHICLES_M3S_PARTS  VEHICLES_OLGA24_BASE  VEHICLES_OLGA24_PAR
         <value name="Tier3"/>
     </type>
     <type name="ChildBag_Red">
-        <nominal>24</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
