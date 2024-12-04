@@ -18,18 +18,21 @@
 
 - Add no build zones
   - Tisy Bunker
+    - INSERTLOCATION
   - NWAF Bunker
+    - INSERTLOCATION
   - Rify Bunker
+    - 13784.53;11159.53;7
   - Green Mountain
+    - 3712.97;5992.50;7
   - Radio Zenit
+    - 8090.39;9322.27;8
 
 - Customize air drops
 
-- Finish Jeepney types file (color variants)
-
 - Add hesco kits to types
 - Adjust zombie loot:
-  - NBC clothing/gasmask/filters from NBC zombies
+
 
 keys
 explosives
