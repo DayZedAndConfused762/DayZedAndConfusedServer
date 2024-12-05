@@ -41,6 +41,12 @@
     - Added a chance for Terrorist infected to drop RPG/LAW rockets and Hacking Batteries
     - Various infected now have a chance to drop books
 
+- Vehicles:
+  - Created spawnable types files for:
+    - Unimog
+    - Oshkosh
+    - Mat KRAZ
+
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 12/3/2024 Start ++++++++++++++++++++ -->
