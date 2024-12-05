@@ -28,65 +28,11 @@
   - Radio Zenit
     - 8090.39;9322.27;8
 
-- Customize air drops
+- DayZ-Expansion-Missions
+  - Customize air drops
 
-- Add hesco kits to types
-- Adjust zombie loot:
-
-
-
-
-
-
-Item				        Nominal         Category	Usage		Value		Mod                             DE Loot
-"ScientificBriefcase"       1               tools       Me/Mi
-"ScientificBriefcaseKeys"
-
-"Msp_Trophy_Gold"
-"Msp_Trophy_Bronze"
-"Msp_Trophy_Silver"
-
-
-
-
-BookAliceInWonderland [Alice's Adventures in Wonderland]
-
-BookBlackBeauty [Black Beauty]
-
-BookCrimeAndPunishment [Crime and Punishment]
-
-BookDeadSouls [Dead Souls]
-
-BookGilgameshEpic [An Old Babylonian Version of the Gilgamesh Epic]
-
-BookGreatExpectations [Great Expectations]
-
-BookHeartOfDarkness [Heart of Darkness]
-
-BookRussian [Russian learning book]
-
-BookTheArtOfWar [The Art Of War]
-
-BookTheCallOfCthulhu [The Call of Cthulhu]
-
-BookTheCosmicComputer [The Cosmic Computer]
-
-BookTheJustifiedSinner [The Private Memoirs and Confessions of a Justified Sinner]
-
-BookTheRedBadgeOfCourage [The Red Badge of Courage]
-
-BookTheWarOfTheWorlds [The War of the Worlds]
-
-BookWealthOfNations [An Inquiry into the Nature and Causes of the Wealth of Nations]
-
-
-
-"HackingTablet"                         0               tools           Fa/I                            @ParagonStorage
-"HackingBattery"                        0               tools           Fa/I                            @ParagonStorage
-
-
-
-
+- Central Economy
+  - Add hesco kits to types
 
 - Vehicles:
   - fix dingo spawn at NWAF
