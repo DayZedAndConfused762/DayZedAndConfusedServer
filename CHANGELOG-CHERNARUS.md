@@ -24,6 +24,12 @@
 
 ## Working
 
+
+<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+# 12/9/2024
+
+
 - Central Economy:
   - Added 40 books to the loot pool, you can find these on various infected, as well as many different locations throughout the map.  These books can be sold for 10,000 each.  If you are able to locate all 40 books, you can trade them in for a high tier Black Market weapon and vehicle of your choice, as well as some other goodies
   - Adjustments to some item spawn rates
@@ -46,8 +52,6 @@
     - Unimog
     - Oshkosh
     - Mat KRAZ
-
-<!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 12/3/2024 Start ++++++++++++++++++++ -->
 
