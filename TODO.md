@@ -17,6 +17,7 @@
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
 https://www.youtube.com/watch?v=HOehtx-dAOU
+https://www.reddit.com/r/PathOfExile2/comments/1h9tu1c/neversinks_poe2_litefilter_highlights_all/
 
 - Add no build zones
   - Tisy Bunker
