@@ -36,10 +36,15 @@
   - Removed Hesco Boxes from cfgignorelist.xml
   - Added Hesco Boxes to the loot pool
 
+- Airdrops:
+  - Player called airdrops will now spawn infected
+
 - Backend:
   - Reorganized events.xml file
   - Reorganized cfgeventspawns.xml file
   - Reorganized cfgeventgroups.xml file
+  - Fixed a typo in @DayZ-Expansion SocialMediaSettings.json
+  - Enables some logging in @DayZ-Expansion LogSettings.json
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
 
