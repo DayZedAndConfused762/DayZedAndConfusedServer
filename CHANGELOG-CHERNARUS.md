@@ -32,6 +32,10 @@
   - Added Titus spawns
   - Added Unimog spawns
 
+- Central Economy:
+  - Removed Hesco Boxes from cfgignorelist.xml
+  - Added Hesco Boxes to the loot pool
+
 - Backend:
   - Reorganized events.xml file
   - Reorganized cfgeventspawns.xml file
