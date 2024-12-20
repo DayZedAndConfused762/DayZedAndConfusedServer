@@ -19,7 +19,7 @@
 https://www.youtube.com/watch?v=HOehtx-dAOU
 https://www.reddit.com/r/PathOfExile2/comments/1h9tu1c/neversinks_poe2_litefilter_highlights_all/
 
-- Add no build zones
+- Add no build zones (delete zen territories config on test server, restart server, check default file for no build zone syntax)
   - Tisy Bunker
     - INSERTLOCATION
   - NWAF Bunker
@@ -47,6 +47,8 @@ https://www.reddit.com/r/PathOfExile2/comments/1h9tu1c/neversinks_poe2_litefilte
 
 - Bunker: 
   - Add darkness to bunker
+  - Add zombies to northern enterance of NWAF bunker
+  - Add zombies to Tisy bunker enterances
 
 - Review mods for possible use:
   - https://discord.com/channels/951966833731313695/954277213010800690/1297964190820077662
