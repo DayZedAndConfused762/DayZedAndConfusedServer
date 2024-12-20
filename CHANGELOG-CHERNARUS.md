@@ -35,6 +35,7 @@
 - Central Economy:
   - Removed Hesco Boxes from cfgignorelist.xml
   - Added Hesco Boxes to the loot pool
+  - Removed vanilla cigarette packs from loot pool as they are no longer spawnable
 
 - Airdrops:
   - Player called airdrops will now spawn infected
