@@ -1518,6 +1518,58 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_OshkoshApoc_Black" />
         </children>
     </event>
+	<event name="VehicleCandyTitus">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_AAF" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_Camodes" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_Camodes2" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_Camosnow" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_Camowdl" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_CSAT" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_CSAT_Grey" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_CSAT_Jungle" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_CSAT_Trop" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_UN" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_WDL" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_WDL2" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_Police" />
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Candy_Titus_White" />
+        </children>
+    </event>
+    <event name="VehicleCandyUnimog">
+        <nominal>4</nominal>
+        <min>2</min>
+        <max>6</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>500</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Candy_Unimog" />
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Candy_Unimog_Blue" />
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Candy_Unimog_Brown" />
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Candy_Unimog_Red" />
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Candy_Unimog_Grey" />
+        </children>
+    </event>
     <event name="VehicleCivilianSedan">
         <nominal>4</nominal>
         <min>3</min>
