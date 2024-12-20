@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
 
-<!-- Animals Start -->
+<!-- ANIMALS START -->
 
     <event name="AnimalCow" />
     <event name="AnimalDeer" />
@@ -10,9 +10,9 @@
 	<event name="AnimalWildBoar" />
     <event name="AnimalWolf" />
 
-<!-- Animals End -->
+<!-- ANIMALS END -->
 
-<!-- Infected Start -->
+<!-- INFECTED START -->
 
     <event name="InfectedArmy" />
     <event name="InfectedCity" />
@@ -23,9 +23,9 @@
     <event name="InfectedSolitude" />
     <event name="InfectedVillage" />
 
-<!-- Infected End -->
+<!-- INFECTED END -->
 
-<!-- Items Start -->
+<!-- ITEMS START -->
 
 	<event name="ItemPlanks">
 				<pos x="912.027832" z="7628.303711" a="257.828094" />
@@ -325,15 +325,15 @@
 				<pos x="14184.242188" z="13337.792969" a="7.738220" />
 		</event>
 
-<!-- Items End -->
+<!-- ITEMS END -->
 
-<!-- Loot Start -->
+<!-- LOOT START -->
 
     <event name="Loot" />
 
-<!-- Loot End -->
+<!-- LOOT END -->
 
-<!-- Static Start -->
+<!-- STATIC START -->
 
 
 	<event name="StaticAirplaneCrate">
@@ -2329,9 +2329,9 @@
 	</event>
 
 
-<!-- Static End -->
+<!-- STATIC END -->
 
-<!-- Vehicles Start -->
+<!-- VEHICLES START -->
 
 <event name="VehicleBoat">
         <pos x="1716.188110" z="2000.763306" />
@@ -3084,6 +3084,6 @@
 
 <!-- VEHICLES_EXPANSION END -->
 
-<!-- Vehicles End -->
+<!-- VEHICLES END  -->
 
 </eventposdef>
