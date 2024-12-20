@@ -24,8 +24,23 @@
 
 ## Working
 
+- Vehicles:
+  - Removed Pitbull spawns
+  - Removed Kamaz Typhoon spawns
+  - Added MAT spawns
+  - Added OshKosh spawns
+  - Added Titus spawns
+  - Added Unimog spawns
+
+- Backend:
+  - Reorganized events.xml file
+  - Reorganized cfgeventspawns.xml file
+  - Reorganized cfgeventgroups.xml file
 
 <!-- ++++++++++++++++++++ Working End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 12/13/2024 Start ++++++++++++++++++++ -->
+
 ## 12/13/2026
 
 - Updated mods:
@@ -36,6 +51,10 @@
   - @DayZ-Expansion-Licensed
   - @DayZ-Expansion-Weapons
   - @DayZ-Expansion
+
+<!-- ++++++++++++++++++++ 12/13/2024 End ++++++++++++++++++++ -->
+
+<!-- ++++++++++++++++++++ 12/9/2024 Start ++++++++++++++++++++ -->
 
 ## 12/9/2024
 
@@ -61,6 +80,8 @@
     - Unimog
     - Oshkosh
     - Mat KRAZ
+
+<!-- ++++++++++++++++++++ 12/9/2024 End ++++++++++++++++++++ -->
 
 <!-- ++++++++++++++++++++ 12/3/2024 Start ++++++++++++++++++++ -->
 
