@@ -34,7 +34,11 @@ Server IP:  45.59.162.21:2491
 Visit our Discord: https://discord.gg/UkHvV7j6kf
 
 <!-- ------------------------------ Overview End ------------------------------ -->
+After the Z-Virus devastates Europe, the United Federal States of Europe emerges as a totalitarian regime exercising stringent control over its territories. The UFSE's power rests on the Cannabis Protocol, a controversial initiative that uses genetically altered cannabis strains to handle the infected, keep the population sedated, and maintain social order. The strains in the cannabis directive may well be the UFSE's most important tool—a potent sedative that also keeps the civilian population subdued and dependent on government rations.
 
+With the UFSE tightening its grip on the populace, varied factions such as the Green Vanguard and the Black Leaf Syndicate seek either to exploit or to resist the Cannabis Protocol, which has become the UFSE's chief instrument of social control. Enforcing the Protocol, and punishing any dissent it provokes, has become the main job of the elite cadre that fills the ranks of the Protocol Enforcers. These muscular enforcers of the government’s will, as well as the iron-tool-of-command-and-compliance that the UFSE now wields, also double as the main characters in a grim chapter of UFSE history.
+
+The UFSE is molding Europe into a region where society is ordered, using the Cannabis Protocol not just as an instrument for ensuring citizens' health—but as a way to dominate society. A medical tool is being used in ways that could well endanger personal freedom, and with it, the very survival of the ordered society that the authorities insist is in everyone's best interests.
 
 <!-- ------------------------------ Outro Start ------------------------------ -->
 
