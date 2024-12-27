@@ -16,6 +16,7 @@
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
+https://pastebin.com/0UyG4r03
 https://www.reddit.com/r/RimWorldPorn/comments/1gf9ssc/ice_sheet_plasteel_frigate_by_illysune/
 https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031
 https://www.youtube.com/watch?v=HOehtx-dAOU
