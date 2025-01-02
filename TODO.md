@@ -15,7 +15,48 @@
 
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
+Lots of mods used - Doors & Corners, [CP] Military Furniture continued, wall vitals and UN-colony.
 
+
+
+Upvote
+35
+
+Downvote
+Reply
+reply
+
+Award
+
+Share
+Share
+
+Acceptable_Wall7252
+•
+1d ago
+•
+which mods adds the surgery stuff in the operating room? thanks in advance! the hospital looks great!
+
+
+
+Upvote
+12
+
+Downvote
+Reply
+reply
+
+Award
+
+Share
+Share
+
+Duckl0l
+OP
+•
+11h ago
+•
+The surgical beds and lights are from UN Colony Vanilla. The anaesthesia machine/mechanical ventilator, portable ultrasound and the tools on the green drape are all from [CP] Military Furniture (Dubois Emporium Ressurection 1.5 Lite Version).
 https://www.reddit.com/r/RimWorld/comments/1hr4icv/cuttingedge_care_on_the_rim_a_peek_inside_the/
 https://pastebin.com/0UyG4r03
 https://www.reddit.com/r/RimWorldPorn/comments/1gf9ssc/ice_sheet_plasteel_frigate_by_illysune/
