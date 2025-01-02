@@ -15,6 +15,7 @@
 
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
+its just the "dark forest" from medieval overhaul, together with the tree retuxtre mod " cmt retexture" aaand a reshade on top for good measure
 Doors & Corners, [CP] Military Furniture continued, wall vitals and UN-colony.
 The surgical beds and lights are from UN Colony Vanilla. The anaesthesia machine/mechanical ventilator, portable ultrasound and the tools on the green drape are all from [CP] Military Furniture (Dubois Emporium Ressurection 1.5 Lite Version).
 https://www.reddit.com/r/RimWorld/comments/1hr4icv/cuttingedge_care_on_the_rim_a_peek_inside_the/
