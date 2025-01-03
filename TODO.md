@@ -15,6 +15,8 @@
 
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
+
+https://www.reddit.com/r/iosgaming/comments/u50rha/if_you_liked_kittens_game_or_universal_paperclips/
 its just the "dark forest" from medieval overhaul, together with the tree retuxtre mod " cmt retexture" aaand a reshade on top for good measure
 Doors & Corners, [CP] Military Furniture continued, wall vitals and UN-colony.
 The surgical beds and lights are from UN Colony Vanilla. The anaesthesia machine/mechanical ventilator, portable ultrasound and the tools on the green drape are all from [CP] Military Furniture (Dubois Emporium Ressurection 1.5 Lite Version).
