@@ -16,6 +16,7 @@
 
 <!-- ------------------------------ TODO Start ------------------------------ -->
 
+https://www.reddit.com/r/incremental_games/comments/144dcrt/i_just_discovered_these_types_of_games_and_i_love/
 https://www.reddit.com/r/iosgaming/comments/u50rha/if_you_liked_kittens_game_or_universal_paperclips/
 its just the "dark forest" from medieval overhaul, together with the tree retuxtre mod " cmt retexture" aaand a reshade on top for good measure
 Doors & Corners, [CP] Military Furniture continued, wall vitals and UN-colony.
